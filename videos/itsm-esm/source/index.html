@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<title>La porte unique : l'importance d'un ITSM / ESM</title>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/onsets.js"></script>
+<style>
+@font-face { font-family: "Instrument Sans"; src: url("assets/fonts/InstrumentSans-400.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "Instrument Sans"; src: url("assets/fonts/InstrumentSans-500.woff2") format("woff2"); font-weight: 500; }
+@font-face { font-family: "Instrument Sans"; src: url("assets/fonts/InstrumentSans-600.woff2") format("woff2"); font-weight: 600; }
+@font-face { font-family: "Instrument Sans"; src: url("assets/fonts/InstrumentSans-700.woff2") format("woff2"); font-weight: 700; }
+@font-face { font-family: "Space Mono"; src: url("assets/fonts/SpaceMono-400.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "Space Mono"; src: url("assets/fonts/SpaceMono-700.woff2") format("woff2"); font-weight: 700; }
+
+:root {
+  --night: #10141b; --night2: #181d27; --slate: #262d3b; --slate2: #1c222d;
+  --paper: #f4f1ea; --paper2: #ebe6dc; --card: #fffdf9; --ink: #15171c; --mute: #6b6f78;
+  --accent: #3355ff; --accent-pale: #e3e8ff; --neg: #ff5a4e; --warm: #ffcf8a; --ok: #3355ff;
+}
+html, body { margin: 0; background: #000; }
+#root { position: relative; width: 100%; height: 100%; overflow: hidden; background: #000;
+  font-family: "Instrument Sans", sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+#film { position: absolute; inset: 0; }
+.layer { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden; }
+.lens { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden; }
+.drift, .zoom { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+.pan { position: absolute; left: 0; top: 0; width: 1px; height: 1px; }
+.world { position: absolute; left: 0; top: 0; }
+.abs { position: absolute; }
+.hide { opacity: 0; }
+.mono { font-family: "Space Mono", monospace; }
+svg.ic { display: block; width: 100%; height: 100%; overflow: visible; }
+
+/* ---------- Act 1 : la nuit des portes ---------- */
+#a1-world { width: 6200px; height: 2200px;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,0) 0 1500px, #0b0e13 1500px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 2px, rgba(255,255,255,0) 2px 160px),
+    linear-gradient(180deg, #151a23 0%, #10141b 68%); }
+.a1-floorline { left: 0; top: 1498px; width: 6200px; height: 4px; background: #232a36; }
+.a1-glow { border-radius: 50%; background: radial-gradient(closest-side, rgba(255,207,138,.32), rgba(255,207,138,.10) 55%, rgba(255,207,138,0)); }
+.desk-top { left: 600px; top: 1290px; width: 640px; height: 24px; border-radius: 6px; background: #3b4250; }
+.desk-front { left: 625px; top: 1314px; width: 590px; height: 186px; background: #2a303b; }
+.desk-leg { top: 1314px; width: 20px; height: 186px; background: #222832; }
+.lamp-stem { left: 690px; top: 1150px; width: 8px; height: 140px; background: #8a7a62; }
+.lamp-base { left: 655px; top: 1278px; width: 80px; height: 14px; border-radius: 7px; background: #8a7a62; }
+.lamp-shade { left: 640px; top: 1100px; width: 110px; height: 70px; background: #d9b071;
+  clip-path: polygon(22% 0, 78% 0, 100% 100%, 0 100%); }
+.chair { left: 855px; top: 1130px; width: 150px; height: 170px; border-radius: 28px 28px 8px 8px; background: #1d222c; }
+.p-body { left: 845px; top: 1112px; width: 170px; height: 200px; border-radius: 80px 80px 18px 18px; background: #5d6f86; }
+.p-head { left: 882px; top: 1012px; width: 96px; height: 96px; border-radius: 50%; background: #e6c39f; }
+.p-eye { top: 44px; width: 9px; height: 9px; border-radius: 50%; background: #2a2622; }
+.p-mouth { left: 36px; top: 70px; width: 24px; height: 4px; border-radius: 2px; background: #9b6b52; }
+.lanyard { left: 912px; top: 1112px; width: 36px; height: 78px; border: 3px solid rgba(255,255,255,.35); border-top: 0; border-radius: 0 0 20px 20px; }
+.dash { border: 4px dashed rgba(255,255,255,.75); border-radius: 10px; }
+.tag-new { left: 860px; top: 930px; width: 140px; height: 44px; border-radius: 22px; background: #f3efe8; color: #15171c;
+  font: 700 20px/44px "Space Mono", monospace; letter-spacing: .1em; text-align: center; }
+.calendar { left: 560px; top: 780px; width: 170px; height: 200px; border-radius: 12px; background: #f3efe8; overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0,0,0,.4); }
+.calendar .hd { height: 54px; background: var(--neg); color: #fff; font: 700 22px/54px "Space Mono", monospace; letter-spacing: .12em; text-align: center; }
+.calendar .bd { text-align: center; font: 700 40px/1.1 "Instrument Sans"; color: #15171c; padding-top: 34px; }
+.card { background: var(--card); border-radius: 18px; box-shadow: 0 30px 80px rgba(0,0,0,.28), 0 2px 6px rgba(0,0,0,.12); }
+.night .card { box-shadow: 0 30px 80px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.06); }
+.cl-title { font: 600 34px/1.1 "Instrument Sans"; color: var(--ink); }
+.micro { font: 700 18px/1 "Space Mono", monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--mute); }
+.cl-row { left: 36px; height: 66px; display: flex; align-items: center; gap: 22px; font: 500 34px/1 "Instrument Sans"; color: var(--ink); }
+.cl-row .ico { width: 44px; height: 44px; color: #4a4f59; }
+.cl-box { width: 50px; height: 50px; border-radius: 10px; border: 3px solid #cfc8bc; }
+.stamp { width: 58px; height: 58px; }
+.clock { left: 2010px; top: 760px; width: 220px; height: 220px; border-radius: 50%; background: #ece7dd; border: 10px solid #2c323d; box-sizing: border-box; }
+.tick { left: 101px; top: 8px; width: 4px; height: 18px; background: #2c323d; transform-origin: 2px 92px; }
+.hand-m { left: 97px; top: 26px; width: 7px; height: 76px; border-radius: 4px; background: #15171c; transform-origin: 3.5px 76px; }
+.hand-h { left: 96px; top: 52px; width: 9px; height: 50px; border-radius: 5px; background: #15171c; transform-origin: 4.5px 50px; }
+.hand-c { left: 92px; top: 92px; width: 16px; height: 16px; border-radius: 50%; background: var(--neg); }
+.cabinet { left: 2000px; top: 1300px; width: 240px; height: 200px; background: #2a303b; border-radius: 6px 6px 0 0; }
+.pot { left: 2075px; top: 1210px; width: 90px; height: 90px; background: #c66b4a; clip-path: polygon(0 0, 100% 0, 84% 100%, 16% 100%); }
+.leaf { width: 44px; height: 150px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: #5e9a6a; transform-origin: 22px 150px; }
+.door-frame { width: 340px; height: 600px; background: #1a1f28; border-radius: 10px 10px 0 0; }
+.door-panel { left: 20px; top: 20px; width: 300px; height: 580px; background: #2b3343; border-radius: 6px 6px 0 0; }
+.door-panel::before { content: ""; position: absolute; left: 34px; top: 40px; width: 232px; height: 220px; border: 3px solid rgba(255,255,255,.06); border-radius: 6px; }
+.door-panel::after { content: ""; position: absolute; left: 34px; top: 300px; width: 232px; height: 240px; border: 3px solid rgba(255,255,255,.06); border-radius: 6px; }
+.door-knob { left: 252px; top: 300px; width: 22px; height: 22px; border-radius: 50%; background: #c9b38c; }
+.door-sign { width: 340px; height: 60px; border-radius: 8px; background: #ece7dd; color: #15171c; text-align: center;
+  font: 700 26px/60px "Space Mono", monospace; letter-spacing: .14em; }
+.door-slit { height: 6px; border-radius: 3px; background: var(--warm); box-shadow: 0 0 24px 6px rgba(255,207,138,.55); }
+.tray { width: 200px; height: 70px; border-radius: 8px; background: #39404d; }
+.tray-paper { width: 170px; height: 18px; border-radius: 3px; background: #c9c3b8; }
+.badge-wait { width: 120px; height: 120px; border-radius: 50%; background: #f3efe8; border: 6px solid var(--neg); box-sizing: border-box; color: var(--neg); padding: 22px; }
+.arrow { height: 8px; transform-origin: 0 50%; }
+.arrow .line { position: absolute; left: 0; top: 2px; right: 28px; height: 0; border-top: 5px dashed var(--neg); }
+.arrow .head { position: absolute; right: 0; top: -12px; width: 0; height: 0; border-left: 32px solid var(--neg); border-top: 16px solid transparent; border-bottom: 16px solid transparent; }
+.slip { width: 210px; height: 120px; border-radius: 10px; background: #fffdf9; box-shadow: 0 14px 30px rgba(0,0,0,.45); padding: 18px 20px; box-sizing: border-box; }
+.slip .t { font: 700 34px/1 "Instrument Sans"; color: var(--ink); margin-top: 12px; }
+.slip .dot { position: absolute; right: 18px; top: 18px; width: 16px; height: 16px; border-radius: 50%; background: var(--neg); }
+.tab { width: 640px; height: 420px; }
+.sheet { background: #fbfbfa; border-radius: 10px; overflow: hidden; }
+.sheet .row { display: flex; height: 70px; border-bottom: 2px solid #d9dde3; font: 500 34px/70px "Instrument Sans"; color: #2a2f38; }
+.sheet .row div { padding: 0 16px; border-right: 2px solid #d9dde3; }
+.sheet .row.hd { background: #1f7a4d; color: #fff; font-weight: 700; }
+.sheet .row.hot { background: #ffe1de; }
+.note { background: #fbf4dc; border-radius: 6px;
+  background-image: repeating-linear-gradient(180deg, rgba(0,0,0,0) 0 74px, rgba(70,120,200,.28) 74px 76px);
+  padding: 34px 30px 0 80px; box-sizing: border-box; font: 500 42px/76px "Instrument Sans"; color: #2b2a6e; }
+.note::before { content: ""; position: absolute; left: 50px; top: 0; bottom: 0; width: 3px; background: rgba(220,80,80,.5); }
+.postit { width: 260px; height: 250px; padding: 30px 24px; box-sizing: border-box; font: 600 42px/1.15 "Instrument Sans"; color: #3a3320; box-shadow: 0 10px 22px rgba(0,0,0,.35); }
+.a1-black { left: 0; top: 0; width: 1920px; height: 1080px; background: #000; }
+
+/* ---------- Pivot ---------- */
+#pivot { background: #000; }
+#pv-group { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+#pv-door { left: 810px; top: 330px; width: 300px; height: 480px; }
+#pv-light { left: 816px; top: 336px; width: 288px; height: 474px; border-radius: 34px 34px 0 0;
+  background: linear-gradient(90deg, #fff6e6, #ffd59a); transform-origin: 0 50%; box-shadow: 0 0 120px 30px rgba(255,207,138,.5); }
+.typo { position: absolute; left: 0; width: 1920px; text-align: center; white-space: nowrap; }
+#pv-line { top: 160px; font: 600 76px/1.2 "Instrument Sans"; color: #fff; text-shadow: 0 4px 40px rgba(0,0,0,.9); }
+
+/* ---------- Act 2 : le portail ---------- */
+#a2-world { width: 6000px; height: 2400px; background-color: var(--paper);
+  background-image: radial-gradient(circle, rgba(21,23,28,.10) 2.2px, rgba(0,0,0,0) 2.6px); background-size: 44px 44px; }
+.paper .card { box-shadow: 0 30px 70px rgba(60,40,20,.14), 0 2px 6px rgba(60,40,20,.08), 0 0 0 1px rgba(21,23,28,.05); }
+#portal { left: 1460px; top: 820px; width: 1280px; height: 760px; overflow: hidden; }
+.pt-bar { left: 0; top: 0; width: 1280px; height: 78px; border-bottom: 2px solid #ece7de; }
+.pt-dot { top: 31px; width: 16px; height: 16px; border-radius: 50%; background: #e2ddd3; }
+.pt-title { left: 150px; top: 20px; font: 600 32px/38px "Instrument Sans"; color: var(--ink); display: flex; align-items: center; gap: 14px; }
+.pt-mark { width: 30px; height: 38px; color: var(--accent); }
+.pill { left: 520px; top: 19px; width: 130px; height: 42px; border-radius: 6px; background: var(--accent); overflow: hidden; transform-origin: 0 50%; }
+.pill span { position: absolute; left: 0; top: 0; width: 130px; text-align: center; font: 700 24px/42px "Space Mono", monospace; letter-spacing: .08em; color: #fff; }
+.pt-nav { left: 0; top: 78px; width: 270px; height: 682px; background: #f8f6f1; border-right: 2px solid #ece7de; }
+.nav-it { left: 22px; width: 226px; height: 54px; border-radius: 10px; font: 500 26px/54px "Instrument Sans"; color: #3d414a; padding-left: 18px; box-sizing: border-box; }
+.nav-it.on { background: var(--accent-pale); color: var(--accent); font-weight: 600; }
+.nav-sec { left: 40px; font: 700 16px/1 "Space Mono", monospace; letter-spacing: .14em; color: #6f737b; }
+.nav-count { right: 14px; top: 13px; width: 28px; height: 28px; border-radius: 14px; background: var(--accent); color: #fff; font: 700 17px/28px "Space Mono", monospace; text-align: center; }
+.pt-h { left: 320px; top: 112px; font: 600 38px/1 "Instrument Sans"; color: var(--ink); }
+.skel { width: 280px; height: 200px; border-radius: 16px; background: #efebe3; border: 2px dashed #d9d3c8; box-sizing: border-box; }
+.sec-chip { left: 930px; top: 104px; height: 46px; border-radius: 23px; padding: 0 20px; background: var(--accent-pale); color: #2643e0; font: 700 20px/46px "Space Mono", monospace; letter-spacing: .1em; white-space: nowrap; }
+.tile { width: 280px; height: 200px; border-radius: 16px; background: #fff; border: 2px solid #ebe6dd; box-sizing: border-box; padding: 30px 28px; }
+.tile .ico { width: 58px; height: 58px; color: var(--accent); }
+.tile .lb { margin-top: 26px; font: 600 30px/1 "Instrument Sans"; color: var(--ink); white-space: nowrap; }
+.tile.sel { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-pale); }
+.cursor { width: 46px; height: 46px; }
+.ripple { width: 90px; height: 90px; border-radius: 50%; border: 4px solid var(--accent); box-sizing: border-box; }
+#ticket { left: 2860px; top: 880px; width: 600px; height: 400px; padding: 36px 40px; box-sizing: border-box; }
+.tk-id { font: 700 20px/1 "Space Mono", monospace; letter-spacing: .12em; color: var(--accent); }
+.tk-title { margin-top: 18px; font: 600 42px/1.1 "Instrument Sans"; color: var(--ink); }
+.chip { height: 44px; border-radius: 22px; padding: 0 18px; display: inline-flex; align-items: center; gap: 10px; font: 600 22px/1 "Instrument Sans"; background: #f1eee8; color: #3d414a; white-space: nowrap; }
+.trk-line { left: 70px; top: 290px; width: 450px; height: 6px; border-radius: 3px; background: #ebe6dd; }
+.trk-fill { left: 70px; top: 290px; width: 450px; height: 6px; border-radius: 3px; background: var(--accent); transform-origin: 0 50%; }
+.trk-dot { top: 279px; width: 28px; height: 28px; border-radius: 50%; background: #fff; border: 5px solid #d8d2c7; box-sizing: border-box; }
+.trk-dot.on { border-color: var(--accent); background: var(--accent); }
+.trk-lb { top: 324px; width: 150px; text-align: center; font: 600 20px/1 "Instrument Sans"; color: #6b6f78; }
+#sla { left: 2860px; top: 1310px; width: 600px; height: 210px; padding: 0 40px; box-sizing: border-box; }
+.sla-ring { left: 40px; top: 35px; width: 140px; height: 140px; }
+.sla-lb { left: 210px; top: 52px; font: 600 34px/1 "Instrument Sans"; color: var(--ink); }
+.sla-ok { left: 210px; top: 108px; height: 50px; border-radius: 25px; padding: 0 22px; display: flex; align-items: center; gap: 10px;
+  background: var(--accent); color: #fff; font: 700 24px/1 "Instrument Sans"; }
+.sla-ok .ico { width: 26px; height: 26px; }
+.dept { width: 230px; height: 250px; padding-top: 34px; box-sizing: border-box; text-align: center; }
+.dept .ico { width: 92px; height: 92px; margin: 0 auto; color: var(--accent); }
+.dept .lb { margin-top: 24px; font: 600 28px/1.1 "Instrument Sans"; color: var(--ink); }
+.wire { width: 6px; border-radius: 3px; background: var(--accent); transform-origin: 50% 0; box-shadow: 0 0 18px rgba(51,85,255,.45); }
+#form { left: 280px; top: 88px; width: 960px; height: 640px; padding: 44px 50px; box-sizing: border-box; }
+.f-title { font: 600 42px/1.1 "Instrument Sans"; color: var(--ink); }
+.f-lb { font: 700 18px/1 "Space Mono", monospace; letter-spacing: .12em; text-transform: uppercase; color: #6f737b; }
+.f-in { height: 64px; border-radius: 12px; border: 2px solid #e2ddd3; font: 500 30px/60px "Instrument Sans"; color: var(--ink); padding-left: 22px; box-sizing: border-box; }
+.f-chips { display: flex; gap: 14px; }
+.f-chips .chip { background: var(--accent-pale); color: #2643e0; }
+.f-chips .chip .ico { width: 24px; height: 24px; }
+.btn { border-radius: 14px; background: var(--accent); color: #fff; text-align: center; overflow: hidden; }
+#f-send { left: 690px; top: 528px; width: 220px; height: 70px; font: 700 30px/70px "Instrument Sans"; }
+#check2 { left: 2860px; top: 880px; width: 600px; height: 620px; }
+.c2-row { left: 36px; width: 528px; height: 92px; display: flex; align-items: center; gap: 20px; font: 600 34px/1 "Instrument Sans"; color: var(--ink); border-bottom: 2px solid #f0ece5; }
+.c2-row .ico { width: 44px; height: 44px; color: #4a4f59; }
+.c2-row .dp { margin-left: auto; margin-right: 80px; }
+.c2-row .chip { height: 38px; font-size: 19px; padding: 0 14px; background: var(--accent-pale); color: #2643e0; }
+.c2-box { position: absolute; right: 0; top: 20px; width: 52px; height: 52px; border-radius: 12px; border: 3px solid #d7d0c4; box-sizing: border-box; }
+.c2-ok { position: absolute; right: 0; top: 20px; width: 52px; height: 52px; border-radius: 12px; background: var(--accent); color: #fff; padding: 9px; box-sizing: border-box; }
+#dash { left: 3700px; top: 700px; width: 1060px; height: 520px; padding: 40px 46px; box-sizing: border-box; }
+.d-row { left: 46px; width: 968px; height: 70px; }
+.d-lb { left: 0; top: 18px; font: 600 28px/1 "Instrument Sans"; color: var(--ink); }
+.d-track { left: 220px; top: 16px; width: 480px; height: 38px; border-radius: 10px; background: #f0ece5; }
+.d-fill { left: 220px; top: 16px; width: 480px; height: 38px; border-radius: 10px; background: #9aa6c9; transform-origin: 0 50%; }
+.d-fill.neg { background: var(--neg); }
+.d-tag { left: 730px; top: 13px; height: 44px; border-radius: 22px; padding: 0 18px; background: var(--neg); color: #fff; font: 700 22px/44px "Instrument Sans"; white-space: nowrap; }
+
+/* ---------- End ---------- */
+#end { background: radial-gradient(ellipse 900px 620px at 50% 40%, #1c2333 0%, #10141b 60%, #0b0e13 100%); }
+#e-rays { left: 510px; top: -120px; width: 900px; height: 900px; border-radius: 50%;
+  background: repeating-conic-gradient(from 0deg, rgba(255,207,138,.09) 0deg 6deg, rgba(255,207,138,0) 6deg 18deg);
+  -webkit-mask-image: radial-gradient(closest-side, #000 30%, rgba(0,0,0,0) 100%); mask-image: radial-gradient(closest-side, #000 30%, rgba(0,0,0,0) 100%); }
+#e-door { left: 885px; top: 150px; width: 150px; height: 230px; }
+#e-line { top: 480px; font: 600 70px/1.2 "Instrument Sans"; color: #f5f2ec; }
+#e-btn { left: 720px; top: 700px; width: 480px; height: 96px; border-radius: 48px; font: 700 34px/96px "Instrument Sans"; transform-origin: 50% 50%; }
+#e-btn .fill { position: absolute; left: 0; top: 0; width: 480px; height: 96px; background: #8ea2ff; transform-origin: 0 50%; }
+#e-btn .tx { position: relative; }
+#e-black { left: 0; top: 0; width: 1920px; height: 1080px; background: #000; }
+
+/* ---------- Subtitles and typographic moments ---------- */
+#subs { pointer-events: none; }
+.sub { position: absolute; left: 0; top: 896px; width: 1920px; text-align: center; white-space: nowrap; font: 600 62px/74px "Instrument Sans"; }
+.sub.dark { color: #f3efe8; text-shadow: 0 2px 18px rgba(8,10,14,.95), 0 0 3px rgba(8,10,14,.9); }
+.sub.light { color: var(--ink); text-shadow: 0 2px 16px rgba(244,241,234,.98), 0 0 3px rgba(244,241,234,.95); }
+.sw { display: inline-block; opacity: 0; margin: 0 .12em; }
+.kw { position: relative; display: inline-block; }
+.kw-bg { position: absolute; left: -0.12em; right: -0.12em; top: 0.06em; bottom: 0.02em; border-radius: 3px; transform-origin: 0 50%; }
+.kw-t { position: relative; }
+.pk { position: relative; display: inline-block; }
+.pk-line { position: absolute; left: 0; right: 0; bottom: -0.06em; height: 6px; border-radius: 3px; transform-origin: 0 50%; }
+#flash { left: 0; top: 0; width: 1920px; height: 1080px; background: #fff7ea; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-width="1920" data-height="1080" data-duration="46.6">
+  <div id="film" class="clip" data-start="0" data-duration="46.6" data-track-index="1">
+
+    <!-- ACT 1 -->
+    <div id="act1" class="layer night">
+      <div id="a1-lens" class="lens"><div id="a1-drift" class="drift"><div id="a1-zoom" class="zoom"><div id="a1-pan" class="pan">
+        <div id="a1-world" class="world">
+          <div class="abs" style="left:-1600px;top:0;width:1600px;height:2200px;background:linear-gradient(180deg, #151a23 0%, #10141b 68%);"></div><div class="abs" style="left:-1600px;top:1500px;width:1600px;height:700px;background:#0b0e13;"></div>
+          <div class="abs a1-floorline" style="left:-1600px;width:7800px;"></div>
+          <div class="abs a1-glow" style="left:380px;top:900px;width:900px;height:700px;"></div>
+          <div class="abs calendar hide" id="a1-cal"><div class="hd">LUNDI</div><div class="bd">Jour 1</div></div>
+          <div class="abs chair"></div>
+          <div class="abs p-body hide" id="a1-body"></div>
+          <div class="abs lanyard hide" id="a1-lanyard"></div>
+          <div class="abs dash hide" id="a1-badge-ghost" style="left:896px;top:1186px;width:64px;height:84px;border-radius:8px;"></div>
+          <div class="abs p-head hide" id="a1-head"><div class="abs p-eye" style="left:28px"></div><div class="abs p-eye" style="left:59px"></div><div class="abs p-mouth" id="a1-mouth"></div></div>
+          <div class="abs tag-new hide" id="a1-new">NOUVEAU</div>
+          <div class="abs lamp-stem"></div><div class="abs lamp-base"></div><div class="abs lamp-shade"></div>
+          <div class="abs desk-top"></div>
+          <div class="abs desk-front"></div>
+          <div class="abs desk-leg" style="left:640px"></div><div class="abs desk-leg" style="left:1180px"></div>
+          <div class="abs dash hide" id="a1-laptop-ghost" style="left:1010px;top:1170px;width:170px;height:112px;"></div>
+          <!-- checklist -->
+          <div class="abs card hide" id="a1-check" style="left:1300px;top:860px;width:540px;height:440px;">
+            <div class="abs micro" style="left:36px;top:36px;">Jour 1 · Nouvel arrivant</div>
+            <div class="abs cl-title" style="left:36px;top:68px;">Checklist d'arrivée</div>
+            <div class="abs cl-row" style="top:150px;width:470px;" id="a1-r0"></div>
+            <div class="abs cl-row" style="top:240px;width:470px;" id="a1-r1"></div>
+            <div class="abs cl-row" style="top:330px;width:470px;" id="a1-r2"></div>
+          </div>
+          <!-- clock and plant -->
+          <div class="abs clock" id="a1-clock"></div>
+          <div class="abs cabinet"></div>
+          <div class="abs leaf" id="a1-leaf0" style="left:2068px;top:1080px;"></div>
+          <div class="abs leaf" id="a1-leaf1" style="left:2098px;top:1060px;"></div>
+          <div class="abs leaf" id="a1-leaf2" style="left:2128px;top:1080px;"></div>
+          <div class="abs pot"></div>
+          <div id="a1-doors"></div>
+          <div class="abs slip hide" id="a1-slip"><div class="micro">Demande</div><div class="t">Accès</div><div class="dot"></div></div>
+        </div>
+      </div></div></div></div>
+      <div class="abs a1-black hide" id="a1-black"></div>
+    </div>
+
+    <!-- PIVOT -->
+    <div id="pivot" class="layer hide" style="visibility:hidden">
+      <div id="pv-group">
+        <div class="abs hide" id="pv-light"></div>
+        <svg class="abs" id="pv-door" viewBox="0 0 300 480" fill="none">
+          <path id="pv-path" pathLength="1" d="M3 480 V40 Q3 3 40 3 H260 Q297 3 297 40 V480" stroke="#ffcf8a" stroke-width="6" stroke-linecap="round"
+            style="filter: drop-shadow(0 0 12px rgba(255,207,138,.9));" stroke-dasharray="1" stroke-dashoffset="1"/>
+        </svg>
+      </div>
+      <div class="typo" id="pv-line"></div>
+    </div>
+
+    <!-- ACT 2 -->
+    <div id="act2" class="layer paper hide" style="visibility:hidden">
+      <div id="a2-lens" class="lens"><div id="a2-drift" class="drift"><div id="a2-zoom" class="zoom"><div id="a2-pan" class="pan">
+        <div id="a2-world" class="world">
+          <div id="a2-depts"></div>
+          <div class="abs card" id="portal">
+            <div class="abs pt-bar">
+              <div class="abs pt-dot" style="left:30px"></div><div class="abs pt-dot" style="left:56px"></div><div class="abs pt-dot" style="left:82px"></div>
+              <div class="abs pt-title"><div class="pt-mark" id="pt-mark"></div>Portail de services</div>
+              <div class="abs pill" id="pill"><span id="pill-itsm">ITSM</span><span id="pill-esm" style="opacity:0">ESM</span></div>
+            </div>
+            <div class="abs pt-nav" id="pt-nav"></div>
+            <div class="abs pt-h" id="pt-h">Que voulez-vous demander ?</div>
+            <div id="skels"></div>
+            <div class="abs sec-chip hide" id="sec-chip">SERVICE INFORMATIQUE</div>
+            <div id="tiles"></div>
+            <div class="abs card hide" id="form"></div>
+          </div>
+          <div class="abs card hide" id="ticket"></div>
+          <div class="abs card hide" id="sla"></div>
+          <div class="abs card hide" id="check2"></div>
+          <div class="abs card hide" id="dash"></div>
+          <div class="abs ripple hide" id="a2-ripple"></div>
+          <div class="abs cursor hide" id="a2-cursor"></div>
+        </div>
+      </div></div></div></div>
+    </div>
+
+    <!-- END -->
+    <div id="end" class="layer hide" style="visibility:hidden">
+      <div class="abs hide" id="e-rays"></div>
+      <svg class="abs hide" id="e-door" viewBox="0 0 150 230">
+        <path d="M6 230 V30 Q6 6 30 6 H120 Q144 6 144 30 V230 Z" fill="#3355ff"/>
+        <path d="M38 230 V44 Q38 34 48 34 H102 Q112 34 112 44 V230 Z" fill="#ffd59a"/>
+        <path d="M38 230 V44 Q38 34 48 34 H70 V230 Z" fill="#fff3dc"/>
+      </svg>
+      <div class="typo" id="e-line"></div>
+      <div class="abs btn hide" id="e-btn"><div class="fill" id="e-fill"></div><span class="tx" id="e-btn-tx">Lancer votre portail&nbsp;→</span></div>
+      <div class="abs ripple hide" id="e-ripple" style="border-color:#8ea2ff;"></div>
+      <div class="abs cursor hide" id="e-cursor"></div>
+      <div class="abs hide" id="e-black"></div>
+    </div>
+
+    <div id="subs" class="layer"></div>
+    <div class="abs hide" id="flash"></div>
+  </div>
+  <audio id="mix" data-start="0" data-duration="46.6" data-track-index="10" src="assets/audio/mix.wav"></audio>
+</div>
+
+<script>
+(function () {
+  // ---------- data ----------
+  const S = {};
+  window.ONSETS.sentences.forEach((s) => (S[s.id] = s));
+  const cue = (sid, i) => S[sid].words[i].start;
+  const EARLY = 0.066; // words show two frames before they are spoken
+
+  const I = {
+    laptop: '<rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/>',
+    badge: '<rect x="6" y="3" width="12" height="18" rx="2"/><circle cx="12" cy="10" r="2.5"/><path d="M9 16h6"/>',
+    key: '<circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l2 2M15 8l2 2"/>',
+    hourglass: '<path d="M6 3h12M6 21h12M7.5 3v2c0 3 4.5 4.2 4.5 7s-4.5 4-4.5 7v2M16.5 3v2c0 3-4.5 4.2-4.5 7s4.5 4 4.5 7v2"/>',
+    check: '<path d="M5 12.5l4.5 4.5L19 7"/>',
+    cross: '<path d="M6 6l12 12M18 6L6 18"/>',
+    app: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M6.5 6.5h.01M9.5 6.5h.01"/>',
+    incident: '<path d="M12 3.5l9.5 17h-19z"/><path d="M12 10v4.5M12 17.5h.01"/>',
+    mouse: '<rect x="7" y="3" width="10" height="18" rx="5"/><path d="M12 7v3"/>',
+    lock: '<rect x="5" y="10.5" width="14" height="10.5" rx="2"/><path d="M8 10.5V7.5a4 4 0 018 0v3"/>',
+    doc: '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h4"/>',
+    door: '<path d="M6 21V4.5A1.5 1.5 0 017.5 3h9A1.5 1.5 0 0118 4.5V21M3 21h18"/><circle cx="14.5" cy="12" r=".9"/>',
+    users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M16.5 14.6c2.6.2 4.4 2 5 4.9"/>',
+    coin: '<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5a4.5 4.5 0 100 7M7 10.5h6M7 13.5h6"/>',
+    building: '<rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2M11 21v-3h2v3"/>',
+  };
+  const svg = (name, sw = 1.9) =>
+    `<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round">${I[name]}</svg>`;
+  const CURSOR = '<svg class="ic" viewBox="0 0 24 24"><path d="M4 2.5l15 11-6.6 1.1L16.2 21l-3.1 1.4-3.5-6.7L4 20z" fill="#fff" stroke="#111" stroke-width="1.3" stroke-linejoin="round"/></svg>';
+  const $ = (id) => document.getElementById(id);
+  const html = (el, s) => { el.insertAdjacentHTML("beforeend", s); return el; };
+
+  // ---------- build the decor (deterministic, before the timeline) ----------
+  const rows1 = [["laptop", "Ordinateur"], ["badge", "Badge"], ["key", "Accès"]];
+  rows1.forEach(([ic, lb], i) => {
+    html($("a1-r" + i), `<div class="ico">${svg(ic)}</div><div>${lb}</div>
+      <div class="abs cl-box" style="right:0;top:8px"></div>
+      <div class="abs stamp hide" id="a1-x${i}" style="right:-4px;top:4px;color:var(--neg)">${svg("cross", 3.2)}</div>`);
+  });
+  const clock = $("a1-clock");
+  for (let k = 0; k < 12; k++) html(clock, `<div class="abs tick" id="a1-tick${k}"></div>`);
+  html(clock, '<div class="abs hand-h" id="a1-hh"></div><div class="abs hand-m" id="a1-hm"></div><div class="abs hand-c"></div>');
+
+  const DOORS = [["INFORMATIQUE", 3000], ["RH", 4000], ["FINANCE", 5000]];
+  DOORS.forEach(([name, x], i) => {
+    html($("a1-doors"), `
+      <div class="abs a1-glow" id="a1-glow${i}" style="left:${x - 260}px;top:1440px;width:520px;height:120px;"></div>
+      <div class="abs door-sign" style="left:${x - 170}px;top:830px;">${name}</div>
+      <div class="abs door-frame" style="left:${x - 170}px;top:900px;"><div class="abs door-panel"><div class="abs door-knob"></div></div></div>
+      <div class="abs door-slit" id="a1-slit${i}" style="left:${x - 145}px;top:1494px;width:290px;"></div>
+      <div class="abs tray" style="left:${x + 200}px;top:1350px;"></div>
+      <div class="abs tray-paper" style="left:${x + 215}px;top:1338px;transform:rotate(-3deg)"></div>
+      <div class="abs tray-paper" style="left:${x + 212}px;top:1322px;transform:rotate(2deg)"></div>
+      <div class="abs badge-wait hide" id="a1-wait${i}" style="left:${x - 60}px;top:1060px;">${svg("hourglass", 2.2)}</div>
+      ${i < 2 ? `<div class="abs arrow hide" id="a1-arrow${i}" style="left:${x + 200}px;top:1200px;width:560px;"><div class="line"></div><div class="head"></div></div>` : ""}
+    `);
+  });
+  // the three boards, one per door
+  html($("a1-doors"), `
+    <div class="abs tab sheet hide" id="a1-tab0" style="left:2680px;top:290px;">
+      <div class="row hd"><div style="width:360px">Demande</div><div>Statut</div></div>
+      <div class="row"><div style="width:360px">Imprimante 2e</div><div>Fait</div></div>
+      <div class="row hot"><div style="width:360px">Arrivée · accès</div><div>En attente</div></div>
+      <div class="row"><div style="width:360px">VPN commercial</div><div>?</div></div>
+      <div class="row"><div style="width:360px">Écran salle B</div><div>Fait</div></div>
+    </div>
+    <div class="abs tab note hide" id="a1-tab1" style="left:3680px;top:290px;">Nouvel arrivant<br>→ badge ?<br>→ accès ??? (voir info)<br>→ contrat</div>
+    <div class="abs tab hide" id="a1-tab2" style="left:4680px;top:290px;">
+      <div class="abs postit" style="left:0;top:60px;background:#ffe27a;transform:rotate(-6deg)">Accès&nbsp;?</div>
+      <div class="abs postit" style="left:200px;top:0;background:#ffb7c5;transform:rotate(4deg)">Relancer les RH</div>
+      <div class="abs postit" style="left:380px;top:150px;background:#b8efc6;transform:rotate(-2deg)">Contrat&nbsp;?</div>
+    </div>`);
+
+  // act 2 decor
+  $("pt-mark").innerHTML = svg("door", 2.2);
+  const NAV = [["Catalogue", 104, true], ["Mes demandes", 166, false], ["Délais", 228, false]];
+  NAV.forEach(([lb, y, on], i) =>
+    html($("pt-nav"), `<div class="abs nav-it ${on ? "on" : ""}" style="top:${y - 78 + 30}px">${lb}${i === 1 ? '<div class="abs nav-count hide" id="nav-count">1</div>' : ""}</div>`));
+  html($("pt-nav"), '<div class="abs nav-sec hide" id="nav-sec" style="top:300px">SERVICES</div>');
+  ["Informatique", "RH", "Finance", "Services généraux"].forEach((lb, i) =>
+    html($("pt-nav"), `<div class="abs nav-it hide" id="nav-d${i}" style="top:${330 + i * 58}px">${lb}</div>`));
+  for (let i = 0; i < 6; i++) {
+    const col = i % 3, row = Math.floor(i / 3);
+    html($("skels"), `<div class="abs skel hide" id="skel${i}" style="left:${320 + col * 310}px;top:${180 + row * 230}px"></div>`);
+  }
+  const TILES = [["laptop", "Ordinateur"], ["key", "Accès"], ["app", "Logiciel"], ["incident", "Incident"], ["mouse", "Matériel"], ["lock", "Mot de passe"]];
+  TILES.forEach(([ic, lb], i) => {
+    const col = i % 3, row = Math.floor(i / 3);
+    html($("tiles"), `<div class="abs tile hide" id="tile${i}" style="left:${320 + col * 310}px;top:${180 + row * 230}px"><div class="ico">${svg(ic, 1.8)}</div><div class="lb">${lb}</div></div>`);
+  });
+  $("ticket").innerHTML = `
+    <div class="tk-id">DEM-1042 · ACCÈS</div>
+    <div class="tk-title">Accès applicatifs</div>
+    <div class="chip" style="margin-top:22px">${'<span style="width:24px;height:24px;display:inline-block;color:#3d414a">' + svg("users", 2) + "</span>"}Équipe support</div>
+    <div class="abs trk-line"></div><div class="abs trk-fill" id="trk-fill"></div>
+    ${["Reçue", "Assignée", "En cours", "Résolue"].map((lb, i) => `
+      <div class="abs trk-dot" id="trk-d${i}" style="left:${56 + i * 150}px"></div>
+      <div class="abs trk-lb" id="trk-l${i}" style="left:${-5 + i * 150}px">${lb}</div>`).join("")}`;
+  $("sla").innerHTML = `
+    <svg class="abs sla-ring" viewBox="0 0 140 140"><circle cx="70" cy="70" r="56" stroke="#ebe6dd" stroke-width="14" fill="none"/>
+      <circle id="sla-arc" cx="70" cy="70" r="56" stroke="#3355ff" stroke-width="14" fill="none" stroke-linecap="round" pathLength="1"
+        stroke-dasharray="1" stroke-dashoffset="1" transform="rotate(-90 70 70)"/></svg>
+    <div class="abs sla-lb">Délai de traitement</div>
+    <div class="abs sla-ok hide" id="sla-ok"><span class="ico">${svg("check", 3)}</span>Dans les délais</div>`;
+  const DEPTS = [["laptop", "Informatique", 1580], ["users", "RH", 1940], ["coin", "Finance", 2260], ["building", "Services généraux", 2620]];
+  DEPTS.forEach(([ic, lb, x], i) =>
+    html($("a2-depts"), `
+      <div class="abs wire hide" id="wire${i}" style="left:${x - 3}px;top:1580px;height:130px"></div>
+      <div class="abs card dept hide" id="dept${i}" style="left:${x - 115}px;top:1700px"><div class="ico">${svg(ic, 1.8)}</div><div class="lb">${lb}</div></div>`));
+  $("form").innerHTML = `
+    <div class="f-title">Arrivée d'un collaborateur</div>
+    <div class="abs f-lb" style="left:50px;top:130px">Nom</div>
+    <div class="abs f-in" style="left:50px;top:160px;width:400px">Nouvel arrivant</div>
+    <div class="abs f-lb" style="left:490px;top:130px">Arrivée</div>
+    <div class="abs f-in" style="left:490px;top:160px;width:420px">Lundi, 9 h</div>
+    <div class="abs f-lb" style="left:50px;top:270px">Sera préparé</div>
+    <div class="abs f-chips" style="left:50px;top:304px">
+      ${[["laptop", "Poste"], ["badge", "Badge"], ["key", "Accès"], ["doc", "Contrat"]].map(([ic, lb]) => `<div class="chip"><span class="ico">${svg(ic, 2)}</span>${lb}</div>`).join("")}
+    </div>
+    <div class="abs f-lb" style="left:50px;top:400px">Services concernés</div>
+    <div class="abs" style="left:50px;top:434px;font:500 28px/1.3 'Instrument Sans';color:#3d414a">Informatique · RH · Finance · Services généraux</div>
+    <div class="abs btn" id="f-send"><span class="abs" id="f-send-tx" style="left:0;top:0;width:220px">Envoyer</span><span class="abs" id="f-sent" style="left:0;top:0;width:220px;opacity:0">Envoyé ✓</span></div>`;
+  const ROWS2 = [["laptop", "Poste", "Informatique"], ["badge", "Badge", "Services généraux"], ["key", "Accès", "Informatique"], ["doc", "Contrat", "RH"]];
+  $("check2").innerHTML = `
+    <div class="abs micro" style="left:36px;top:36px;">Jour 1 · Nouvel arrivant</div>
+    <div class="abs cl-title" style="left:36px;top:68px;">Checklist d'arrivée</div>
+    ${ROWS2.map(([ic, lb, dp], i) => `
+      <div class="abs c2-row" style="top:${140 + i * 112}px">
+        <div class="ico">${svg(ic)}</div><div>${lb}</div>
+        <div class="dp"><div class="chip hide" id="c2-dp${i}">${dp}</div></div>
+        <div class="c2-box"></div><div class="c2-ok hide" id="c2-ok${i}">${svg("check", 3.2)}</div>
+      </div>`).join("")}`;
+  const BARS = [["Reçue", 0.16], ["Validation", 0.9], ["Préparation", 0.32], ["Livrée", 0.2]];
+  $("dash").innerHTML = `
+    <div class="micro">Direction · Délai par étape</div>
+    <div class="cl-title" style="margin-top:14px">Où passe le temps ?</div>
+    ${BARS.map(([lb], i) => `
+      <div class="abs d-row" style="top:${170 + i * 82}px">
+        <div class="abs d-lb">${lb}</div><div class="abs d-track"></div>
+        <div class="abs d-fill" id="d-fill${i}"></div>
+        ${i === 1 ? '<div class="abs d-tag hide" id="d-tag">Le temps se perd ici</div>' : ""}
+      </div>`).join("")}`;
+  $("a2-cursor").innerHTML = CURSOR;
+  $("e-cursor").innerHTML = CURSOR;
+
+  // ---------- subtitles ----------
+  const SUBS = {
+    s1: { theme: "dark", chunks: [[0, 2]], kw: 2 },
+    s2: { theme: "dark", chunks: [[0, 1]], kw: 1 },
+    s3: { theme: "dark", chunks: [[0, 6]], kw: 6 },
+    s4: { theme: "dark", chunks: [[0, 3]], kw: 3 },
+    s5: { theme: "dark", chunks: [[0, 4]], kw: 4 },
+    s6: { theme: "dark", chunks: [[0, 4], [5, 8]], kw: 8 },
+    s8: { theme: "light", chunks: [[0, 4], [5, 10], [11, 13]], kw: 0 },
+    s9: { theme: "light", chunks: [[0, 4], [5, 7]], kw: 0, pk: [6, 7] },
+    s10: { theme: "light", chunks: [[0, 4], [5, 12]], kw: 2, pk: [4] },
+    s11: { theme: "light", chunks: [[0, 4], [5, 9]], kw: 2, pk: [9] },
+  };
+  const split = (w) => { const m = w.match(/^(.*?)([.,:;?! ]*)$/); return [m[1], m[2].replace(/ /g, " ")]; };
+  const wordHTML = (w, id, opt) => {
+    const [core, punct] = split(w);
+    if (opt.kw) return `<span class="sw" id="${id}"><span class="kw"><span class="kw-bg" id="${id}-bg" style="background:${opt.box}"></span><span class="kw-t" id="${id}-t">${core}</span></span>${punct}</span>`;
+    if (opt.pk) return `<span class="sw" id="${id}"><span class="pk">${core}<span class="pk-line" id="${id}-pk" style="background:${opt.line}"></span></span>${punct}</span>`;
+    return `<span class="sw" id="${id}">${core}${punct}</span>`;
+  };
+
+  // ---------- timeline ----------
+  const tl = gsap.timeline({ paused: true });
+  const IR = { immediateRender: false };
+  const ft = (el, from, to, t) => tl.fromTo(el, from, Object.assign({}, IR, to), t);
+
+  function land(el, t, { from = 1.12, blur = 8, d = 0.14, rest = 0.985, hold = 2.5 } = {}) {
+    ft(el, { opacity: 0, scale: from, filter: `blur(${blur}px)` }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: d, ease: "expo.out" }, t);
+    if (hold) ft(el, { scale: 1 }, { scale: rest, duration: hold, ease: "none" }, t + d);
+  }
+  function pop(el, t, { from = 0.4, d = 0.18 } = {}) {
+    ft(el, { opacity: 0, scale: from }, { opacity: 1, scale: 1, duration: d, ease: "back.out(2)" }, t);
+  }
+  function stamp(el, t) {
+    ft(el, { opacity: 0, scale: 2.6, rotation: -18, filter: "blur(4px)" }, { opacity: 1, scale: 1, rotation: 0, filter: "blur(0px)", duration: 0.1, ease: "power3.in" }, t);
+  }
+  function out(el, t, d = 0.2) { ft(el, { opacity: 1 }, { opacity: 0, duration: d, ease: "power2.in" }, t); }
+
+  // camera: one pan + one zoom per act; every move starts from the previous state (seek-safe fromTo)
+  function camera(zoom, pan, lens, x, y, s) {
+    const st = { x, y, s };
+    gsap.set(zoom, { transformOrigin: "960px 540px", scale: s });
+    gsap.set(pan, { x: 960 - x, y: 540 - y });
+    return {
+      to(t, fx, fy, s2, d, ease = "expo.inOut", blur = 0) {
+        const y2 = fy + 80 / s2; // keep the subject above the subtitle band
+        ft(pan, { x: 960 - st.x, y: 540 - st.y }, { x: 960 - fx, y: 540 - y2, duration: d, ease }, t);
+        ft(zoom, { scale: st.s }, { scale: s2, duration: d, ease }, t);
+        if (blur) ft(lens, { filter: "blur(0px)" }, { filter: `blur(${blur}px)`, duration: d / 2, ease: "none", yoyo: true, repeat: 1 }, t);
+        st.x = fx; st.y = y2; st.s = s2;
+      },
+    };
+  }
+
+  function subtitles(sid) {
+    const cfg = SUBS[sid], s = S[sid];
+    const box = cfg.theme === "dark" ? "var(--neg)" : "var(--accent)";
+    const boxText = cfg.theme === "dark" ? "#10141b" : "#ffffff";
+    const ink = cfg.theme === "dark" ? "#f3efe8" : "#15171c";
+    const gray = cfg.theme === "dark" ? "#7d838e" : "#9a9890";
+    const all = Object.keys(SUBS);
+    const nextSentence = S[all[all.indexOf(sid) + 1]] || null;
+    cfg.chunks.forEach(([a, b], ci) => {
+      const id = `sub-${sid}-${ci}`;
+      let inner = "";
+      for (let i = a; i <= b; i++) {
+        inner += wordHTML(s.words[i].word, `${id}-w${i}`, { kw: i === cfg.kw, box, pk: (cfg.pk || []).includes(i), line: box });
+      }
+      html($("subs"), `<div class="sub ${cfg.theme}" id="${id}" style="opacity:0">${inner}</div>`);
+      $(id).querySelectorAll(".kw-bg, .pk-line").forEach((el) => gsap.set(el, { scaleX: 0 }));
+      const t0 = s.words[a].start - EARLY;
+      const nextStart = ci + 1 < cfg.chunks.length ? s.words[cfg.chunks[ci + 1][0]].start - EARLY
+        : nextSentence ? nextSentence.start - EARLY : s.end + 0.6;
+      const t1 = Math.min(s.end + 0.45, nextStart - 0.16);
+      tl.set($(id), { opacity: 1 }, t0 - 0.01);
+      for (let i = a; i <= b; i++) {
+        const wid = `${id}-w${i}`, wt = s.words[i].start - EARLY;
+        ft($(wid), { opacity: 0, y: 12, filter: "blur(6px)", color: gray }, { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.2, ease: "power3.out" }, wt);
+        ft($(wid), { color: gray }, { color: ink, duration: 0.25, ease: "none" }, wt + 0.12);
+        if (i === cfg.kw) {
+          ft($(wid + "-bg"), { scaleX: 0 }, { scaleX: 1, duration: 0.16, ease: "power3.out" }, wt);
+          ft($(wid + "-t"), { color: gray }, { color: boxText, duration: 0.12, ease: "none" }, wt + 0.08);
+        }
+        if ((cfg.pk || []).includes(i)) ft($(wid + "-pk"), { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "power2.out" }, wt + 0.05);
+      }
+      ft($(id), { opacity: 1 }, { opacity: 0, duration: 0.11, ease: "power1.in" }, t1);
+    });
+  }
+
+  function typoLine(container, sid, { peaks = [], line = "#ffcf8a" } = {}) {
+    const s = S[sid];
+    container.innerHTML = s.words.map((w, i) => wordHTML(w.word, `${container.id}-w${i}`, { pk: peaks.includes(i), line })).join("");
+    container.querySelectorAll(".pk-line").forEach((el) => gsap.set(el, { scaleX: 0 }));
+    s.words.forEach((w, i) => {
+      const el = $(`${container.id}-w${i}`);
+      ft(el, { opacity: 0, y: 18, filter: "blur(10px)" }, { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.28, ease: "power3.out" }, w.start - EARLY);
+      if (peaks.includes(i)) ft($(`${container.id}-w${i}-pk`), { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "power2.out" }, w.start + 0.05);
+    });
+  }
+
+  // ======================= ACT 1 =======================
+  const c1 = camera($("a1-zoom"), $("a1-pan"), $("a1-lens"), 930, 1140 + 80, 1);
+  ft($("a1-drift"), { x: 0, scale: 1 }, { x: -80, scale: 1.035, duration: 16.1, ease: "none" }, 0);
+
+  // P1 : the newcomer lands, first day
+  land($("a1-head"), 0.18, { from: 1.15, hold: 0 });
+  land($("a1-body"), 0.18, { from: 1.12, hold: 0 });
+  land($("a1-lanyard"), 0.18, { from: 1.12, hold: 0 });
+  pop($("a1-new"), cue("s1", 2) - 0.1);
+  ft($("a1-cal"), { opacity: 1, y: -760 }, { y: 0, duration: 0.16, ease: "power2.in" }, cue("s2", 0) - 0.12);
+  ft($("a1-cal"), { y: 0 }, { y: -14, duration: 0.07, ease: "power1.out", yoyo: true, repeat: 1 }, cue("s2", 0) + 0.04);
+
+  // P2 : checklist, three crosses
+  c1.to(2.62, 1400, 1110, 1.05, 0.45);
+  land($("a1-check"), 2.7, { from: 1.25, hold: 2.8 });
+  const xCues = [cue("s3", 1) + 0.2, cue("s3", 4) + 0.05, cue("s3", 6) + 0.06];
+  xCues.forEach((t, i) => stamp($("a1-x" + i), t));
+  ft($("a1-laptop-ghost"), { opacity: 0 }, { opacity: 0.9, duration: 0.08, yoyo: true, repeat: 3, ease: "none" }, cue("s3", 1));
+  ft($("a1-laptop-ghost"), { opacity: 0 }, { opacity: 0.45, duration: 0.1 }, cue("s3", 1) + 0.34);
+  ft($("a1-badge-ghost"), { opacity: 0 }, { opacity: 0.9, duration: 0.08, yoyo: true, repeat: 3, ease: "none" }, cue("s3", 4));
+  ft($("a1-badge-ghost"), { opacity: 0 }, { opacity: 0.45, duration: 0.1 }, cue("s3", 4) + 0.34);
+
+  // P3 : the silent gag, time goes by
+  c1.to(5.55, 1560, 1100, 0.9, 0.55);
+  for (let k = 0; k < 12; k++) gsap.set($("a1-tick" + k), { rotation: k * 30 });
+  gsap.set($("a1-hm"), { rotation: 0 }); gsap.set($("a1-hh"), { rotation: 270 });
+  ft($("a1-hm"), { rotation: 0 }, { rotation: 360 * 6, duration: 2.0, ease: "power1.inOut" }, 5.6);
+  ft($("a1-hh"), { rotation: 270 }, { rotation: 450, duration: 2.0, ease: "power1.inOut" }, 5.6);
+  const LEAF = [[-28, -13], [0, 12], [26, 13]]; // start angle, droop per notch
+  LEAF.forEach(([r0], i) => gsap.set($("a1-leaf" + i), { rotation: r0 }));
+  [6.2, 6.8, 7.4].forEach((t, n) => LEAF.forEach(([r0, k], i) =>
+    ft($("a1-leaf" + i), { rotation: r0 + k * n }, { rotation: r0 + k * (n + 1), duration: 0.16, ease: "expo.out" }, t)));
+  gsap.set($("a1-head"), { transformOrigin: "50% 100%" });
+  ft($("a1-head"), { rotation: 0, y: 0 }, { rotation: 12, y: 10, duration: 0.5, ease: "power2.inOut" }, 6.4);
+  gsap.set($("a1-new"), { transformOrigin: "10% 50%" });
+  ft($("a1-new"), { rotation: 0, y: 0 }, { rotation: 24, y: 14, duration: 0.6, ease: "power2.inOut" }, 6.9);
+
+  // whip to the corridor; the "Accès" row leaves as a request slip (bridge object)
+  const SL0 = { x: 1340, y: 1180 };
+  gsap.set($("a1-slip"), { x: SL0.x, y: SL0.y, rotation: 0 });
+  gsap.set($("a1-slip"), { left: 0, top: 0 });
+  ft($("a1-slip"), { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.12, ease: "expo.out" }, 7.62);
+  ft($("a1-r2"), { opacity: 1 }, { opacity: 0.25, duration: 0.12 }, 7.62);
+  c1.to(7.72, 3000, 1210, 1, 0.34, "expo.inOut", 12);
+  ft($("a1-slip"), { x: SL0.x, y: SL0.y, rotation: 0 }, { x: 3205, y: 1218, rotation: -4, duration: 0.42, ease: "power2.inOut" }, 7.66);
+
+  // ======================= S2 : the doors =======================
+  const T_IT = cue("s4", 0), T_RH = cue("s4", 3), T_FI = cue("s5", 4);
+  pop($("a1-wait0"), cue("s4", 1) - 0.05);
+  ft($("a1-arrow0"), { opacity: 1, scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power2.out" }, T_RH - 0.15);
+  c1.to(T_RH, 4000, 1210, 1, 0.55, "expo.inOut", 4);
+  ft($("a1-slip"), { x: 3205, y: 1218, rotation: -4 }, { x: 4205, y: 1218, rotation: 3, duration: 0.5, ease: "power2.inOut" }, T_RH + 0.02);
+  pop($("a1-wait1"), cue("s5", 2) - 0.05);
+  ft($("a1-arrow1"), { opacity: 1, scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power2.out" }, T_FI - 0.15);
+  c1.to(T_FI, 5000, 1210, 1, 0.55, "expo.inOut", 4);
+  ft($("a1-slip"), { x: 4205, y: 1218, rotation: 3 }, { x: 5205, y: 1218, rotation: -2, duration: 0.5, ease: "power2.inOut" }, T_FI + 0.02);
+  pop($("a1-wait2"), T_FI + 0.55);
+  // each one keeps its own board
+  c1.to(cue("s6", 1) - 0.08, 3870, 900, 0.58, 0.65);
+  // each hourglass flips in turn while the voice says "chacun suit sa demande"
+  [cue("s6", 2), cue("s6", 3) + 0.1, cue("s6", 4)].forEach((t, i) =>
+    ft($("a1-wait" + i), { rotation: 0 }, { rotation: 180, duration: 0.3, ease: "expo.inOut" }, t));
+  [cue("s6", 6), cue("s6", 7), cue("s6", 8)].forEach((t, i) => land($("a1-tab" + i), t - 0.12, { from: 1.2, hold: 1.2 }));
+  // lights out, door after door
+  [15.6, 15.8, 16.0].forEach((t, i) => {
+    out($("a1-slit" + i), t, 0.08); out($("a1-glow" + i), t, 0.08); out($("a1-tab" + i), t, 0.1);
+  });
+  ft($("a1-black"), { opacity: 0 }, { opacity: 1, duration: 0.1, ease: "none" }, 16.0);
+  tl.set($("act1"), { autoAlpha: 0 }, 16.12);
+
+  // ======================= PIVOT =======================
+  tl.set($("pivot"), { autoAlpha: 1 }, 16.08);
+  typoLine($("pv-line"), "s7", { peaks: [7] });
+  ft($("pv-path"), { attr: { "stroke-dashoffset": 1 } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.7, ease: "power2.inOut" }, cue("s7", 5) - 0.05);
+  ft($("pv-line"), { opacity: 1, y: 0 }, { opacity: 0, y: -40, duration: 0.3, ease: "power2.in" }, S.s7.end + 0.05);
+  ft($("pv-light"), { opacity: 1, scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "power2.inOut" }, 18.72);
+  gsap.set($("pv-group"), { transformOrigin: "960px 600px" });
+  ft($("pv-group"), { scale: 1 }, { scale: 6, duration: 0.55, ease: "power2.in" }, 18.95);
+  ft($("flash"), { opacity: 0 }, { opacity: 1, duration: 0.14, ease: "power2.in" }, 19.18);
+  tl.set($("pivot"), { autoAlpha: 0 }, 19.42);
+  tl.set($("act2"), { autoAlpha: 1 }, 19.4);
+  ft($("flash"), { opacity: 1 }, { opacity: 0, duration: 0.5, ease: "power1.out" }, 19.45);
+
+  // ======================= ACT 2 =======================
+  const c2 = camera($("a2-zoom"), $("a2-pan"), $("a2-lens"), 2100, 1200 + 80, 1);
+  ft($("a2-drift"), { x: 0, scale: 1 }, { x: -110, scale: 1.03, duration: 21.6, ease: "none" }, 19.4);
+  land($("portal"), 19.42, { from: 1.12, blur: 10, hold: 2.8 });
+  gsap.set($("pill"), { scaleX: 0 });
+  ft($("pill"), { scaleX: 0 }, { scaleX: 1, duration: 0.16, ease: "power3.out" }, cue("s8", 0) - EARLY);
+  ft($("pt-nav"), { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.25, ease: "expo.out" }, cue("s8", 1));
+  ft($("pt-h"), { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.25, ease: "expo.out" }, cue("s8", 3));
+  gsap.set([$("pt-nav"), $("pt-h")], { opacity: 0 });
+  // "organise": scattered request cards snap into a grid (the verb played by the objects)
+  const SCAT = [[-150, -70, -14], [90, -120, 9], [230, 40, 16], [-190, 100, 10], [60, 140, -12], [210, -50, -8]];
+  const T_ORG = cue("s8", 1);
+  c2.to(T_ORG - 0.1, 2200, 1190, 1.05, 0.5);
+  SCAT.forEach(([dx, dy, r], i) => {
+    ft($("skel" + i), { opacity: 0, x: dx * 1.6, y: dy * 1.6, rotation: r * 1.5, scale: 1.3, filter: "blur(8px)" },
+      { opacity: 1, x: dx, y: dy, rotation: r, scale: 1, filter: "blur(0px)", duration: 0.16, ease: "expo.out" }, T_ORG - 0.06 + i * 0.03);
+    ft($("skel" + i), { x: dx, y: dy, rotation: r }, { x: 0, y: 0, rotation: 0, duration: 0.38, ease: "expo.inOut" }, cue("s8", 2) + 0.05 + i * 0.07);
+    out($("skel" + i), cue("s8", 6) - 0.05 + i * 0.05, 0.1);
+  });
+  pop($("sec-chip"), cue("s8", 4) - 0.05, { from: 0.6 });
+  // catalogue
+  c2.to(cue("s8", 5) - 0.1, 2200, 1180, 1.1, 0.45);
+  for (let i = 0; i < 6; i++) land($("tile" + i), cue("s8", 6) - 0.1 + i * 0.05, { from: 1.2, blur: 6, d: 0.12, hold: 0 });
+  // tickets: the cursor picks "Accès"
+  ft($("a2-cursor"), { opacity: 0, x: 2620, y: 1430 }, { opacity: 1, x: 2620, y: 1430, duration: 0.01 }, cue("s8", 8) - 0.55);
+  ft($("a2-cursor"), { x: 2620 }, { x: 2238, duration: 0.42, ease: "power3.out" }, cue("s8", 8) - 0.5);
+  ft($("a2-cursor"), { y: 1430 }, { y: 1092, duration: 0.42, ease: "power2.out" }, cue("s8", 8) - 0.5);
+  const TCLICK = cue("s8", 8) - 0.04;
+  ft($("a2-cursor"), { scale: 1 }, { scale: 0.85, duration: 0.06, yoyo: true, repeat: 1 }, TCLICK);
+  ft($("tile1"), { scale: 1 }, { scale: 0.95, duration: 0.06, yoyo: true, repeat: 1 }, TCLICK);
+  ft($("tile1"), { borderColor: "#ebe6dd", boxShadow: "0 0 0 0px rgba(227,232,255,1)" }, { borderColor: "#3355ff", boxShadow: "0 0 0 6px rgba(227,232,255,1)", duration: 0.12 }, TCLICK + 0.05);
+  gsap.set($("a2-ripple"), { x: 2195, y: 1047 });
+  ft($("a2-ripple"), { opacity: 0.8, scale: 0.4 }, { opacity: 0, scale: 2.2, duration: 0.5, ease: "power2.out" }, TCLICK + 0.03);
+  c2.to(TCLICK + 0.1, 2780, 1180, 0.95, 0.45);
+  ft($("a2-cursor"), { opacity: 1 }, { opacity: 0, duration: 0.2 }, TCLICK + 0.35);
+  land($("ticket"), TCLICK + 0.16, { from: 1.25, blur: 10, hold: 2.6 });
+  const steps = [cue("s8", 9) + 0.05, cue("s8", 10) + 0.05, cue("s8", 12), cue("s8", 13) + 0.1];
+  steps.forEach((t, i) => {
+    ft($("trk-d" + i), { borderColor: "#d8d2c7", backgroundColor: "#ffffff" }, { borderColor: "#3355ff", backgroundColor: "#3355ff", duration: 0.08 }, t);
+    ft($("trk-d" + i), { scale: 1.6 }, { scale: 1, duration: 0.18, ease: "expo.out" }, t);
+    ft($("trk-l" + i), { color: "#6b6f78" }, { color: "#15171c", duration: 0.1 }, t);
+  });
+  ft($("trk-fill"), { scaleX: 0 }, { scaleX: 0.33, duration: 0.3, ease: "power2.out" }, steps[1] - 0.2);
+  ft($("trk-fill"), { scaleX: 0.33 }, { scaleX: 0.66, duration: 0.3, ease: "power2.out" }, steps[2] - 0.2);
+  ft($("trk-fill"), { scaleX: 0.66 }, { scaleX: 1, duration: 0.3, ease: "power2.out" }, steps[3] - 0.2);
+  gsap.set($("trk-fill"), { scaleX: 0 });
+  // deadlines
+  land($("sla"), cue("s8", 11) - 0.2, { from: 1.2, hold: 1.4 });
+  ft($("sla-arc"), { attr: { "stroke-dashoffset": 1 } }, { attr: { "stroke-dashoffset": 0.18 }, duration: 0.9, ease: "power2.out" }, cue("s8", 12));
+  pop($("sla-ok"), cue("s8", 13) + 0.05, { from: 0.5 });
+
+  // ======================= S5 : ESM =======================
+  const T_ESM = cue("s9", 0);
+  c2.to(T_ESM - 0.2, 2100, 1390, 0.62, 0.75);
+  ft($("ticket"), { x: 0, y: 0, scale: 0.985, opacity: 1 }, { x: -1550, y: -110, scale: 0.08, opacity: 0, duration: 0.45, ease: "power3.in" }, T_ESM - 0.2);
+  ft($("sla"), { x: 0, y: 0, scale: 0.985, opacity: 1 }, { x: -1550, y: -520, scale: 0.08, opacity: 0, duration: 0.45, ease: "power3.in" }, T_ESM - 0.15);
+  gsap.set([$("ticket"), $("sla")], { transformOrigin: "0% 50%" });
+  pop($("nav-count"), T_ESM + 0.3, { from: 0.2 });
+  ft($("pill-itsm"), { y: 0, opacity: 1 }, { y: -42, opacity: 0, duration: 0.18, ease: "power2.in" }, T_ESM - EARLY);
+  ft($("pill-esm"), { y: 42, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: "expo.out" }, T_ESM - EARLY + 0.06);
+  const deptT = [cue("s9", 1), cue("s9", 3), cue("s9", 4), cue("s9", 6)];
+  const deptFrom = [{ x: -700, y: 0 }, { x: 0, y: 520 }, { x: 0, y: 520 }, { x: 700, y: 0 }];
+  deptT.forEach((t, i) => {
+    ft($("dept" + i), { opacity: 0, x: deptFrom[i].x, y: deptFrom[i].y, scale: 1.4, filter: "blur(10px)" },
+      { opacity: 1, x: 0, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "expo.out" }, t - 0.12);
+    ft($("wire" + i), { opacity: 1, scaleY: 0 }, { scaleY: 1, duration: 0.22, ease: "power2.out" }, t + 0.18);
+  });
+  pop($("nav-sec"), cue("s9", 7) - 0.1, { from: 0.8 });
+  for (let i = 0; i < 4; i++) ft($("nav-d" + i), { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.2, ease: "expo.out" }, cue("s9", 7) + i * 0.06);
+
+  // ======================= S6 : one request =======================
+  const T_ONE = cue("s10", 0);
+  c2.to(T_ONE - 0.15, 2220, 1228, 1.0, 0.55);
+  for (let i = 0; i < 6; i++) out($("tile" + i), T_ONE - 0.2, 0.15);
+  out($("pt-h"), T_ONE - 0.2, 0.15);
+  for (let i = 0; i < 4; i++) { out($("dept" + i), T_ONE - 0.15 + i * 0.03, 0.2); out($("wire" + i), T_ONE - 0.15, 0.15); }
+  land($("form"), T_ONE - 0.02, { from: 1.15, blur: 8, hold: 1.8 });
+  const T_SEND = cue("s10", 3) + 0.02;
+  ft($("a2-cursor"), { opacity: 0, x: 2950, y: 1660 }, { opacity: 1, x: 2950, y: 1660, duration: 0.01 }, T_SEND - 0.75);
+  ft($("a2-cursor"), { x: 2950 }, { x: 2540, duration: 0.45, ease: "power3.out" }, T_SEND - 0.7);
+  ft($("a2-cursor"), { y: 1660 }, { y: 1478, duration: 0.45, ease: "power2.out" }, T_SEND - 0.7);
+  ft($("a2-cursor"), { scale: 1 }, { scale: 0.85, duration: 0.06, yoyo: true, repeat: 1 }, T_SEND);
+  ft($("f-send"), { scale: 1 }, { scale: 0.92, duration: 0.06, yoyo: true, repeat: 1 }, T_SEND);
+  ft($("f-send"), { backgroundColor: "#3355ff" }, { keyframes: [{ backgroundColor: "#8ea2ff", duration: 0.04 }, { backgroundColor: "#ffffff", duration: 0.12 }, { backgroundColor: "#3355ff", duration: 0.1 }] }, T_SEND);
+  ft($("a2-ripple"), { opacity: 0.8, scale: 0.4, x: 2495, y: 1433 }, { opacity: 0, scale: 2.4, x: 2495, y: 1433, duration: 0.5, ease: "power2.out" }, T_SEND + 0.03);
+  ft($("f-send-tx"), { opacity: 1 }, { opacity: 0, duration: 0.08 }, T_SEND + 0.18);
+  ft($("f-sent"), { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.18, ease: "expo.out" }, T_SEND + 0.24);
+  ft($("a2-cursor"), { opacity: 1 }, { opacity: 0, duration: 0.2 }, T_SEND + 0.5);
+  // the checklist of the hook comes back and fills itself
+  c2.to(cue("s10", 4) - 0.05, 2950, 1190, 1.0, 0.5);
+  land($("check2"), cue("s10", 4) + 0.02, { from: 1.25, blur: 10, hold: 3.0 });
+  [cue("s10", 6), cue("s10", 8), cue("s10", 10), cue("s10", 12)].forEach((t, i) => {
+    stamp($("c2-ok" + i), t + 0.02);
+    ft($("c2-dp" + i), { opacity: 0, x: 30 }, { opacity: 1, x: 0, duration: 0.2, ease: "expo.out" }, t + 0.08);
+  });
+
+  // ======================= S7 : leadership sees =======================
+  c2.to(cue("s11", 0) - 0.12, 4230, 960, 1.0, 0.55);
+  land($("dash"), cue("s11", 0) + 0.02, { from: 1.2, blur: 10, hold: 2.4 });
+  BARS.forEach(([, v], i) => ft($("d-fill" + i), { scaleX: 0 }, { scaleX: v, duration: 0.45, ease: "power3.out" }, cue("s11", 3) - 0.1 + i * 0.07));
+  BARS.forEach((_, i) => gsap.set($("d-fill" + i), { scaleX: 0 }));
+  ft($("d-fill1"), { backgroundColor: "#9aa6c9" }, { backgroundColor: "#ff5a4e", duration: 0.12 }, cue("s11", 7) - 0.05);
+  gsap.set($("d-fill1"), { transformOrigin: "0% 50%" });
+  ft($("d-fill1"), { scaleY: 1 }, { scaleY: 1.25, duration: 0.18, ease: "sine.inOut", yoyo: true, repeat: 3 }, cue("s11", 7));
+  pop($("d-tag"), cue("s11", 7) + 0.05, { from: 0.5 });
+
+  // implosion: the whole service world rushes into one point
+  const T_IMP = S.s11.end + 0.18;
+  gsap.set($("a2-lens"), { transformOrigin: "960px 500px" });
+  ft($("a2-lens"), { scale: 1, opacity: 1, filter: "blur(0px)" }, { scale: 0.06, opacity: 0, filter: "blur(8px)", duration: 0.5, ease: "power3.in" }, T_IMP);
+  tl.set($("act2"), { autoAlpha: 0 }, T_IMP + 0.52);
+
+  // ======================= END =======================
+  const T_END = T_IMP + 0.42;
+  tl.set($("end"), { autoAlpha: 1 }, T_END);
+  ft($("end"), { clipPath: "circle(0% at 50% 46%)" }, { clipPath: "circle(150% at 50% 46%)", duration: 0.55, ease: "power2.out" }, T_END);
+  ft($("e-door"), { opacity: 0, scale: 3.5, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "expo.out" }, T_END + 0.02);
+  ft($("e-rays"), { opacity: 0 }, { opacity: 1, duration: 0.6 }, T_END + 0.1);
+  ft($("e-rays"), { rotation: 0 }, { rotation: 70, duration: 46.6 - T_END, ease: "none" }, T_END);
+  ft($("e-rays"), { opacity: 1 }, { opacity: 0.55, duration: 0.9, ease: "sine.inOut", yoyo: true, repeat: 3 }, T_END + 1.2);
+  gsap.set($("end"), { transformOrigin: "960px 470px" });
+  ft($("end"), { scale: 1 }, { scale: 1.06, duration: 46.6 - T_END, ease: "none" }, T_END);
+  typoLine($("e-line"), "s12", { peaks: [1, 2], line: "#3355ff" });
+  const T_BTN = S.s12.end + 0.1;
+  ft($("e-btn"), { opacity: 0, scaleX: 0.25 }, { opacity: 1, scaleX: 1, duration: 0.3, ease: "expo.out" }, T_BTN);
+  ft($("e-btn-tx"), { opacity: 0 }, { opacity: 1, duration: 0.15 }, T_BTN + 0.15);
+  gsap.set($("e-fill"), { scaleX: 0 });
+  const T_CL = T_BTN + 0.85;
+  ft($("e-cursor"), { opacity: 0, x: 1460, y: 1010 }, { opacity: 1, x: 1460, y: 1010, duration: 0.01 }, T_CL - 0.6);
+  ft($("e-cursor"), { x: 1460 }, { x: 1085, duration: 0.45, ease: "power3.out" }, T_CL - 0.55);
+  ft($("e-cursor"), { y: 1010 }, { y: 760, duration: 0.45, ease: "power2.out" }, T_CL - 0.55);
+  ft($("e-cursor"), { scale: 1 }, { scale: 0.85, duration: 0.06, yoyo: true, repeat: 1 }, T_CL);
+  ft($("e-btn"), { scale: 1 }, { scale: 0.94, duration: 0.06, yoyo: true, repeat: 1 }, T_CL);
+  ft($("e-fill"), { scaleX: 0, opacity: 1 }, { scaleX: 1, duration: 0.14, ease: "power3.out" }, T_CL + 0.02);
+  ft($("e-fill"), { opacity: 1 }, { opacity: 0, duration: 0.35, ease: "power1.out" }, T_CL + 0.2);
+  gsap.set($("e-ripple"), { x: 1040, y: 715 });
+  ft($("e-ripple"), { opacity: 0.8, scale: 0.5 }, { opacity: 0, scale: 3, duration: 0.6, ease: "power2.out" }, T_CL + 0.03);
+  ft($("e-cursor"), { x: 1085, y: 760 }, { x: 1120, y: 800, duration: 2.2, ease: "sine.inOut" }, T_CL + 0.2);
+  ft($("e-door"), { y: 0 }, { y: -8, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 1 }, T_CL + 0.1);
+  ft($("e-black"), { opacity: 0 }, { opacity: 1, duration: 0.55, ease: "power1.in" }, 45.95);
+
+  // ---------- subtitles ----------
+  ["s1", "s2", "s3", "s4", "s5", "s6", "s8", "s9", "s10", "s11"].forEach(subtitles);
+
+  window.__timelines["main"] = tl;
+})();
+</script>
+</body>
+</html>

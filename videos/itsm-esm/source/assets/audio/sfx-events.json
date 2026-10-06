@@ -1,0 +1,422 @@
+[
+ {
+  "t": 0.18,
+  "name": "pop",
+  "gain_db": -12
+ },
+ {
+  "t": 0.833,
+  "name": "pop",
+  "gain_db": -14
+ },
+ {
+  "t": 1.64,
+  "name": "whoosh-short",
+  "gain_db": -16
+ },
+ {
+  "t": 1.82,
+  "name": "click",
+  "gain_db": -10
+ },
+ {
+  "t": 2.6,
+  "name": "whoosh-short",
+  "gain_db": -16
+ },
+ {
+  "t": 2.7,
+  "name": "pop",
+  "gain_db": -11
+ },
+ {
+  "t": 3.284,
+  "name": "click",
+  "gain_db": -8
+ },
+ {
+  "t": 4.454,
+  "name": "click",
+  "gain_db": -8
+ },
+ {
+  "t": 5.151,
+  "name": "click",
+  "gain_db": -8
+ },
+ {
+  "t": 5.53,
+  "name": "whoosh-short",
+  "gain_db": -16
+ },
+ {
+  "t": 6.2,
+  "name": "click-soft",
+  "gain_db": -16
+ },
+ {
+  "t": 6.8,
+  "name": "click-soft",
+  "gain_db": -16
+ },
+ {
+  "t": 7.4,
+  "name": "click-soft",
+  "gain_db": -16
+ },
+ {
+  "t": 7.62,
+  "name": "pop",
+  "gain_db": -14
+ },
+ {
+  "t": 7.7,
+  "name": "whoosh",
+  "gain_db": -9
+ },
+ {
+  "t": 8.08,
+  "name": "click-soft",
+  "gain_db": -12
+ },
+ {
+  "t": 9.059,
+  "name": "pop",
+  "gain_db": -11
+ },
+ {
+  "t": 9.827,
+  "name": "whoosh-short",
+  "gain_db": -15
+ },
+ {
+  "t": 9.977,
+  "name": "whoosh",
+  "gain_db": -12
+ },
+ {
+  "t": 11.027,
+  "name": "pop",
+  "gain_db": -11
+ },
+ {
+  "t": 11.918,
+  "name": "whoosh-short",
+  "gain_db": -15
+ },
+ {
+  "t": 12.068,
+  "name": "whoosh",
+  "gain_db": -12
+ },
+ {
+  "t": 12.618,
+  "name": "pop",
+  "gain_db": -12
+ },
+ {
+  "t": 13.035,
+  "name": "whoosh",
+  "gain_db": -14
+ },
+ {
+  "t": 13.469,
+  "name": "click-soft",
+  "gain_db": -15
+ },
+ {
+  "t": 13.828,
+  "name": "click-soft",
+  "gain_db": -15
+ },
+ {
+  "t": 13.893,
+  "name": "click-soft",
+  "gain_db": -15
+ },
+ {
+  "t": 14.433,
+  "name": "pop",
+  "gain_db": -11
+ },
+ {
+  "t": 14.646,
+  "name": "pop",
+  "gain_db": -11
+ },
+ {
+  "t": 14.999,
+  "name": "pop",
+  "gain_db": -11
+ },
+ {
+  "t": 15.6,
+  "name": "click",
+  "gain_db": -12
+ },
+ {
+  "t": 15.8,
+  "name": "click",
+  "gain_db": -12
+ },
+ {
+  "t": 15.95,
+  "name": "impact-bass-1",
+  "gain_db": -14
+ },
+ {
+  "t": 17.606,
+  "name": "sparkle",
+  "gain_db": -18
+ },
+ {
+  "t": 16.698,
+  "name": "whoosh-cinematic",
+  "gain_db": -15
+ },
+ {
+  "t": 19.2,
+  "name": "sparkle",
+  "gain_db": -12
+ },
+ {
+  "t": 19.454,
+  "name": "click-soft",
+  "gain_db": -14
+ },
+ {
+  "t": 19.954,
+  "name": "click-soft",
+  "gain_db": -17
+ },
+ {
+  "t": 22.37,
+  "name": "whoosh-short",
+  "gain_db": -16
+ },
+ {
+  "t": 22.693,
+  "name": "pop",
+  "gain_db": -14
+ },
+ {
+  "t": 22.893,
+  "name": "pop",
+  "gain_db": -16
+ },
+ {
+  "t": 24.55,
+  "name": "click",
+  "gain_db": -6
+ },
+ {
+  "t": 24.65,
+  "name": "whoosh-short",
+  "gain_db": -16
+ },
+ {
+  "t": 24.71,
+  "name": "pop",
+  "gain_db": -12
+ },
+ {
+  "t": 24.903,
+  "name": "click-soft",
+  "gain_db": -12
+ },
+ {
+  "t": 25.401,
+  "name": "click-soft",
+  "gain_db": -12
+ },
+ {
+  "t": 26.25,
+  "name": "click-soft",
+  "gain_db": -12
+ },
+ {
+  "t": 26.966,
+  "name": "click-soft",
+  "gain_db": -12
+ },
+ {
+  "t": 25.68,
+  "name": "pop",
+  "gain_db": -14
+ },
+ {
+  "t": 26.916,
+  "name": "ping",
+  "gain_db": -16
+ },
+ {
+  "t": 27.65,
+  "name": "whoosh",
+  "gain_db": -11
+ },
+ {
+  "t": 27.784,
+  "name": "click-soft",
+  "gain_db": -12
+ },
+ {
+  "t": 28.15,
+  "name": "pop",
+  "gain_db": -15
+ },
+ {
+  "t": 28.11,
+  "name": "whoosh-short",
+  "gain_db": -17
+ },
+ {
+  "t": 28.28,
+  "name": "pop",
+  "gain_db": -13
+ },
+ {
+  "t": 29.008,
+  "name": "whoosh-short",
+  "gain_db": -17
+ },
+ {
+  "t": 29.178,
+  "name": "pop",
+  "gain_db": -13
+ },
+ {
+  "t": 29.388,
+  "name": "whoosh-short",
+  "gain_db": -17
+ },
+ {
+  "t": 29.558,
+  "name": "pop",
+  "gain_db": -13
+ },
+ {
+  "t": 30.148,
+  "name": "whoosh-short",
+  "gain_db": -17
+ },
+ {
+  "t": 30.318,
+  "name": "pop",
+  "gain_db": -13
+ },
+ {
+  "t": 31.83,
+  "name": "whoosh",
+  "gain_db": -13
+ },
+ {
+  "t": 31.96,
+  "name": "pop",
+  "gain_db": -12
+ },
+ {
+  "t": 33.214,
+  "name": "click",
+  "gain_db": -5
+ },
+ {
+  "t": 33.454,
+  "name": "pop",
+  "gain_db": -14
+ },
+ {
+  "t": 33.798,
+  "name": "whoosh-short",
+  "gain_db": -15
+ },
+ {
+  "t": 33.868,
+  "name": "pop",
+  "gain_db": -12
+ },
+ {
+  "t": 34.494,
+  "name": "click",
+  "gain_db": -9
+ },
+ {
+  "t": 35.171,
+  "name": "click",
+  "gain_db": -9
+ },
+ {
+  "t": 35.975,
+  "name": "click",
+  "gain_db": -9
+ },
+ {
+  "t": 36.645,
+  "name": "click",
+  "gain_db": -9
+ },
+ {
+  "t": 36.665,
+  "name": "notification",
+  "gain_db": -9
+ },
+ {
+  "t": 37.38,
+  "name": "whoosh",
+  "gain_db": -12
+ },
+ {
+  "t": 37.52,
+  "name": "pop",
+  "gain_db": -12
+ },
+ {
+  "t": 38.225,
+  "name": "click-soft",
+  "gain_db": -16
+ },
+ {
+  "t": 39.17,
+  "name": "error",
+  "gain_db": -18
+ },
+ {
+  "t": 39.27,
+  "name": "pop",
+  "gain_db": -13
+ },
+ {
+  "t": 39.93,
+  "name": "whoosh-cinematic",
+  "gain_db": -20
+ },
+ {
+  "t": 40.55,
+  "name": "impact-bass-2",
+  "gain_db": -19
+ },
+ {
+  "t": 40.6,
+  "name": "sparkle",
+  "gain_db": -12
+ },
+ {
+  "t": 43.25,
+  "name": "pop",
+  "gain_db": -12
+ },
+ {
+  "t": 43.55,
+  "name": "whoosh-short",
+  "gain_db": -18
+ },
+ {
+  "t": 44.1,
+  "name": "click",
+  "gain_db": -5
+ },
+ {
+  "t": 44.14,
+  "name": "chime",
+  "gain_db": -10
+ }
+]
