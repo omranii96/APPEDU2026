@@ -1,0 +1,22 @@
+# Brand Identity Guide - fill during the brand-identity skill run
+brand:
+  name: ""
+  tagline: ""
+  industry: ""
+  audience: ""
+  values: []
+
+visual:
+  mood: []            # 3-5 adjectives, e.g. [confident, warm, precise]
+  accent_color: ""    # single accent, hex, saturation < 80%
+  neutral_palette: [] # off-black + grays, no pure #000000
+  typography:
+    display: ""       # heading typeface (not Inter alone)
+    body: ""
+  imagery_style: ""   # lighting, composition, treatment direction
+  anti_patterns: []   # what to avoid (AI-purple, stock look, etc.)
+
+flow:
+  project: ""         # Flow project name used downstream
+  image_model: "imagen-4"
+  image_ratio: "16:9"

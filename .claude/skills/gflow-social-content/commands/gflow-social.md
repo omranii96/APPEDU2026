@@ -1,0 +1,5 @@
+---
+description: Generate platform-optimized social posts, reels, and thumbnails in batch with a consistent aesthetic
+---
+
+Run the gflow-social-content skill. Capture the content brief (platform, content pillar, campaign theme, brand voice), run `gflow doctor`, define the content batch (e.g. 5 posts, 3 stories, 2 reels covers), generate it with `gflow batch` using platform-specific ratios, render short-form video for reels and TikTok covers with `gflow video --duration 5`, optionally extend a reel past one generation with `gflow extend` (repeated `--prompt` or `--add-clip`) while staying inside platform length limits, lock brand consistency with `--project <brand>` and `gflow agent`, carry recurring personas with `--character <name>`, and deliver assets organized by platform folder plus a posting guide after running the full quality gate. Execute every gflow command with one shared `--project <name>` for the run (the brand project if one exists) and `--no-headed`; only `gflow auth login` runs headed.
