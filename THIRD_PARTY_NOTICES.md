@@ -17,6 +17,7 @@ Sources, commits and the modifications made are listed in `docs/motion-design/sk
 | `scroll-craft` | https://github.com/nateherkai/scroll-craft | 75d81f74e83692add18cd7a8a8e078b8a887a579 | MIT |
 | `alive-web` | https://github.com/danielyerushalmi/alive-web | a80b5eea926a8fb721dd05f5a6df8e10a9357b0f | MIT |
 | `gflow-*` (12 skills, renamed with the `gflow-` prefix and cross-references updated) | https://github.com/swissmarley/gflow-skills | 9ac3aadf9c743ce7529b73f3e4849a8182b9900d | MIT |
+| `hallmark` (from `skills/hallmark/`, root LICENSE added) | https://github.com/Nutlope/hallmark | 13ac0ec7e148655948100b6396439e481361d690 | MIT, © 2026 Hallmark contributors |
 
 Web audit / SEO / design skills (batch 3):
 

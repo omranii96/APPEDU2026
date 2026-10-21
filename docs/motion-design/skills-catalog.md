@@ -49,6 +49,7 @@ plans), `voice-subtitle-sync` (voix et sous-titres), `explainer-motion` (motion 
 | `claude-club-motion-sites` | 547 recettes de sites animés (héros, pricing, fonds…) | Samin12/claude-club-motion-library-skill (4554656) | MIT (médias tiers non couverts) | Versionné ; catalogue en `vendor/` (fetch `libraries`) |
 | `ui-component-sourcing` | Où prendre des composants gratuits, et à quelles conditions | unfoldingdimensions/ui-design-sourcing-skill (e1b7df8) | MIT | Versionné |
 | `forge` | Design system React `wss3-forge` | Webba-Creative-Technologies/forge (7572eb8) | MIT | Versionné, déclencheur restreint |
+| `hallmark` | Design anti « AI slop » : macrostructures, tokens verrouillés, textes honnêtes sans chiffres inventés | Nutlope/hallmark (13ac0ec) | MIT | Versionné (dossier `skills/hallmark` + LICENSE racine) |
 
 ## Génération d'images et de vidéos avec Google Flow (swissmarley/gflow-skills, 9ac3aad, MIT, versionnés)
 
