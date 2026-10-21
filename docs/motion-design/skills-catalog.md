@@ -70,6 +70,37 @@ qui ne sont pas installés ici.
 | `animated-website-css-html` | Site animé en HTML et CSS seuls | sukhmandult4-web/Animated_website_CSS_HTML (22655ec) | aucune |
 | `immersive-3d-site-skill` | Skill de site 3D au scroll (Three.js + GSAP) | ronniejbotes/claude-skills (266aa8a) | aucune : pas installé comme skill |
 | `pluviobyte-video-production-skills` | 4 skills vidéo (direction de motion, réplique de référence…) | Pluviobyte/video-production-skills (e19f1f3) | aucune : pas installé comme skill |
+| `full-stack-audit` | Skill d'audit complet d'un site (sécurité, UX, perf, SEO) | jalaalrd/full-stack-audit (78e2a5c) | aucune : pas installé comme skill |
+| `seo-blueprint-audit` | Audit SEO de tout un site, note par page | youtube-jono/seo-blueprint-audit (4022368) | aucune : pas installé comme skill |
+| `seo-audits-toolkit` | Application web d'outils d'audit SEO (OSAT) | StanGirard/seo-audits-toolkit (c3e95fc) | aucune : ce n'est pas un skill |
+
+## Audit de sites web (lot 3)
+
+| Skill | Pour quoi | Source (commit) | Licence | Statut |
+|---|---|---|---|---|
+| `extract-design` | Extrait le langage de design d'un site (couleurs, espacements, typo) | Manavarya09/design-extract (a1805d1) | MIT | Versionné ; CLI `designlang` à installer (`npm install -g designlang`) |
+| `web-audit` | Audit structuré d'une page : SEO technique, contenu, perf, UX | creativedeals/free-claude-skill-web-audit (6f8adcb) | CreativeDeals (libre, créditer, ne pas revendre) | Versionné |
+| `pre-launch-audit` | Checklist avant mise en ligne d'un site | bzsasson/pre-launch-audit-skill (f9ccf06) | MIT | Versionné (nom corrigé en slug) |
+| `seo-audit` | Audit SEO/technique/IA via la CLI SEOmator (373 règles) | seo-skills/seo-audit-skill (fac4b75) | MIT | Versionné ; CLI SEOmator à installer à l'usage |
+| `website-security-shield` | Audit de sécurité web (OWASP, WSTG) + test d'intrusion autorisé, bridé par un fichier de périmètre signé | DataSpoof/website-security-shield (ba181a8) | MIT | Versionné ; déclencheur resserré sur les demandes de sécurité |
+
+## Collection rampstack (lot 3, 107 skills, MIT, versionnés)
+
+rampstackco/claude-skills (9b90db2), MIT : 107 skills couvrant tout le cycle d'un site (marque, design,
+contenu, SEO, dev, ops, croissance, recherche), déclenchés à la demande. Noms conservés, sans préfixe (aucun ne
+rentrait en collision avec les skills déjà installés). Seul le dossier `skills/` est repris ; les copies `dist/`
+(pour d'autres agents) sont ignorées. Quelques-uns pilotent un MCP Ahrefs, optionnel.
+
+## Outils de sécurité offensive (lot 3, NON installés)
+
+Ces outils ne sont **pas** des skills actifs et **ne sont pas récupérés automatiquement**. À n'utiliser que contre
+des cibles pour lesquelles tu as une autorisation écrite. `bash tools/motion-skills/fetch.sh security` les place dans
+`vendor/security-tools/` (ignoré par Git) à leur commit audité, uniquement sur demande explicite.
+
+| Dossier | Ce que c'est | Source (commit) | Licence |
+|---|---|---|---|
+| `recon` | Reconnaissance OSINT / veille concurrentielle (sites, API, domaines, IP, ports) | g-baskin/recon (df6894d) | GPL-3.0 |
+| `watchtower` | Automatisation de tests d'intrusion pilotée par des agents LLM (app autonome, pas un skill) | fzn0x/watchtower (a854009) | MIT |
 
 ## Écartés
 

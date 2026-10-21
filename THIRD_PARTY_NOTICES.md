@@ -18,6 +18,18 @@ Sources, commits and the modifications made are listed in `docs/motion-design/sk
 | `alive-web` | https://github.com/danielyerushalmi/alive-web | a80b5eea926a8fb721dd05f5a6df8e10a9357b0f | MIT |
 | `gflow-*` (12 skills, renamed with the `gflow-` prefix and cross-references updated) | https://github.com/swissmarley/gflow-skills | 9ac3aadf9c743ce7529b73f3e4849a8182b9900d | MIT |
 
+Web audit / SEO / design skills (batch 3):
+
+| Folder(s) in `.claude/skills/` | Upstream | Commit | Licence |
+|---|---|---|---|
+| `extract-design` | https://github.com/Manavarya09/design-extract | a1805d13e21126da958d2b9cdf33a75c0a5435e7 | MIT |
+| 107 skills (`accessibility-audit`, `seo-*`, `brand-*`, …) | https://github.com/rampstackco/claude-skills | 9b90db257f7395fab76ff9bfcb808456709f6af3 | MIT |
+| `fat-agent`, `fat-design` | https://github.com/spruikco/fat-agent-skill | e870ec85f8d149759f082072f1c89b3098d597f9 | MIT |
+| `web-audit` | https://github.com/creativedeals/free-claude-skill-web-audit | 6f8adcb2548eae81aa5017c4563e2e738ff89e06 | CreativeDeals free licence (keep attribution, do not resell) |
+| `pre-launch-audit` (name slugged) | https://github.com/bzsasson/pre-launch-audit-skill | f9ccf065c42214ae796edd480ac82c30cd605c53 | MIT |
+| `seo-audit` | https://github.com/seo-skills/seo-audit-skill | fac4b75f2059b6d74bb05a865fe1b0ca5de3ba66 | MIT |
+| `website-security-shield` (trigger narrowed) | https://github.com/DataSpoof/website-security-shield | ba181a8d667118f29cb4fbfb904dd44e510a3059 | MIT |
+
 Not redistributed here (fetched locally at their audited commit by `tools/motion-skills/fetch.sh`, git-ignored):
 transitions.dev skills (Transitions.dev License), code-liam motion library (Code Liam licence, non-commercial),
 video-talkcraft (PolyForm Noncommercial 1.0.0), the Opus Motion and Claude Club libraries, and reference

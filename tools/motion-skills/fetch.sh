@@ -71,4 +71,17 @@ if [ "$WHAT" = references ] || [ "$WHAT" = all ]; then
   fetch pennyp973/3d--motion-website c8d5a41e008d387513203b5cda34b1fdc03cce4a "$R/3d-motion-website"
   fetch ronniejbotes/claude-skills 266aa8aa5158cb2e172dae8cd83f381cc50f2f0e "$R/immersive-3d-site-skill"
   fetch Pluviobyte/video-production-skills e19f1f300eddbb4f73764e66849792ece94ff0b7 "$R/pluviobyte-video-production-skills"
+  # audit/SEO repos with no licence file (all rights reserved: study only, do not copy or redistribute)
+  fetch jalaalrd/full-stack-audit 78e2a5cdadb8d7c7edf1a9c42a0ba672229d4294 "$R/full-stack-audit"
+  fetch youtube-jono/seo-blueprint-audit 40223686a83a5983a4267133789d456a38bd8948 "$R/seo-blueprint-audit"
+  fetch StanGirard/seo-audits-toolkit c3e95fc4bf51d72e61c0507c14bd384d2368f475 "$R/seo-audits-toolkit"
+fi
+
+if [ "$WHAT" = security ]; then
+  # Offensive / dual-use security tools. NOT installed as skills, NOT auto-fetched. Fetch only on an
+  # explicit, authorized request, and use only against targets you are authorized to test.
+  echo "security tools (authorized testing only):"
+  S="$VEN/security-tools"
+  fetch g-baskin/recon df6894d1617bc79497fc033a7e58b12a1e512173 "$S/recon"          # OSINT recon, GPL-3.0
+  fetch fzn0x/watchtower a854009ce9bf766d23fc2d0d484342e0bbbeb247 "$S/watchtower"    # autonomous pentest automation, MIT
 fi

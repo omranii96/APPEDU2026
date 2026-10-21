@@ -18,3 +18,6 @@
 - Respect the licences listed in the catalogue: `liam-motion-library` and `video-talkcraft` are non-commercial
   without their author's consent; repositories without a licence are references to study, never code to copy.
 - `howseen-motion-design` is another studio's pipeline: use its techniques, never its brand, paths or facts.
+- Offensive / dual-use security tools (`recon`, `watchtower`) are NOT installed as skills and NOT auto-fetched.
+  `bash tools/motion-skills/fetch.sh security` fetches them to `vendor/security-tools/` only on an explicit,
+  authorized request, for use solely against targets the user is authorized to test.
