@@ -19,7 +19,7 @@ PROJECT, SFX_DIR = sys.argv[1], sys.argv[2]
 SR = 48000
 D = json.load(open(os.path.join(PROJECT, "onsets.json")))
 S = {s["id"]: s for s in D["sentences"]}
-TOTAL = 46.6
+TOTAL = D["film"]
 N = int(TOTAL * SR)
 rng = np.random.default_rng(7)
 
@@ -137,7 +137,11 @@ def reverb(x, secs=2.2, mix=0.22):
 
 
 # ---------------------------------------------------------------- music
-T_IMPACT = 15.95          # lights out, cut to black
+G0, G1 = S["s3"]["end"], S["s4"]["start"]   # the silent gag
+GL = G1 - G0
+T_OUT = S["s6"]["end"] + 0.08                # lights out, door after door
+T_FLASH = S["s8"]["start"] - 0.34            # the door floods the frame with light
+T_IMPACT = T_OUT + 0.35                      # cut to black
 T_DROP = cue("s8", 0)     # "L'ITSM": first downbeat of the élan
 BAR = 2.4                 # 100 BPM, 4/4
 T_IMP = S["s11"]["end"] + 0.18
@@ -148,10 +152,10 @@ tension = np.zeros((N, 2))
 t = 0.3
 k = 0
 while t < T_IMPACT - 0.05:
-    in_gag = 5.6 <= t < 7.6
+    in_gag = G0 + 0.14 <= t < G1 - 0.46
     place(tension, stereo(tick(1900 if k % 2 == 0 else 1350, 0.5), -0.25 if k % 2 == 0 else 0.25), t)
     if in_gag:
-        p = (t - 5.6) / 2.0
+        p = (t - G0 - 0.14) / (GL - 0.6)
         t += 0.24 * (1 - p) + 0.05 * p
     else:
         t += 0.5
@@ -159,14 +163,14 @@ while t < T_IMPACT - 0.05:
 # low pulse on A, filter opening with the build
 for i in range(int((T_IMPACT - 0.3) / 0.25)):
     tt = 0.3 + i * 0.25
-    if 5.55 <= tt < 7.7:
+    if G0 + 0.09 <= tt < G1 - 0.36:
         continue
     vel = 0.55 if i % 2 == 0 else 0.32
     x = note(hz("A1"), 0.3, "bass", vel)
     cutoff = 220 + 900 * max(0, (tt - 8) / (T_IMPACT - 8))
     place(tension, stereo(lp(x, cutoff)), tt)
 # dark pad (A minor add9), slowly swelling
-for ch, (a, b) in enumerate([(0.0, 8.0), (8.0, T_IMPACT)]):
+for ch, (a, b) in enumerate([(0.0, G1), (G1, T_IMPACT)]):
     for f, v in [("A2", 0.5), ("E3", 0.4), ("C4", 0.32), ("B3", 0.22)]:
         x = note(hz(f), b - a + 0.6, "pad", v * (0.8 if ch == 0 else 0.95))
         place(tension, stereo(x, 0.0), a)
@@ -184,14 +188,16 @@ tension = reverb(tension, 1.6, 0.18)
 # pivot air: two quiet high sines
 pivot = np.zeros((N, 2))
 for f in ("E5", "B5"):
-    x = note(hz(f), 3.0, "pad", 0.08)
-    place(pivot, stereo(lp(x, 3000), 0.2 if f == "E5" else -0.2), 16.25)
+    x = note(hz(f), T_FLASH - T_OUT - 0.65, "pad", 0.08)
+    place(pivot, stereo(lp(x, 3000), 0.2 if f == "E5" else -0.2), T_OUT + 0.65)
 
 # élan: D major, I-V-vi-IV
 elan = np.zeros((N, 2))
 CH = {"D": ["D3", "F#3", "A3", "D4"], "A": ["A2", "E3", "A3", "C#4"], "Bm": ["B2", "F#3", "B3", "D4"], "G": ["G2", "D3", "G3", "B3"]}
 ROOT = {"D": "D2", "A": "A1", "Bm": "B1", "G": "G1"}
-prog = ["D", "A", "Bm", "G", "D", "A", "Bm", "G", "A"]
+# as many bars as the solution lasts, ending on the dominant before the final D of the end card
+nb = max(2, int(np.ceil((T_END - T_DROP) / BAR)))
+prog = [["D", "A", "Bm", "G"][i % 4] for i in range(nb - 1)] + ["A"]
 for b, c in enumerate(prog):
     t0 = T_DROP + b * BAR
     for f in CH[c]:
@@ -218,7 +224,7 @@ a, b = int(T_IMP * SR), int(T_END * SR)
 groove_end = np.ones(N)
 elan_main = elan.copy()
 elan_main[a:b] *= np.linspace(1, 0.25, b - a)[:, None]
-fin = int(43.6 * SR)
+fin = int((TOTAL - 3.0) * SR)
 elan_main[fin:] *= np.linspace(1, 0, N - fin)[:, None] ** 1.5
 elan = reverb(elan_main, 2.2, 0.2)
 elan[: int((T_DROP - 0.02) * SR)] = 0
@@ -234,13 +240,13 @@ def sfx(name, t, gain_db=-6.0):
 T_IT, T_RH, T_FI = cue("s4", 0), cue("s4", 3), cue("s5", 4)
 sfx("pop", 0.18, -12); sfx("pop", cue("s1", 2) - 0.1, -14)
 sfx("whoosh-short", cue("s2", 0) - 0.14, -16); sfx("click", cue("s2", 0) + 0.04, -10)
-sfx("whoosh-short", 2.6, -16); sfx("pop", 2.7, -11)
+sfx("whoosh-short", cue("s3", 0) - 0.24, -16); sfx("pop", cue("s3", 0) - 0.14, -11)
 for tt in (cue("s3", 1) + 0.2, cue("s3", 4) + 0.05, cue("s3", 6) + 0.06):
     sfx("click", tt, -8)
-sfx("whoosh-short", 5.53, -16)
-for tt in (6.2, 6.8, 7.4):
+sfx("whoosh-short", G0 + 0.07, -16)
+for tt in (G0 + 0.285 * GL, G0 + 0.515 * GL, G0 + 0.746 * GL):
     sfx("click-soft", tt, -16)
-sfx("pop", 7.62, -14); sfx("whoosh", 7.7, -9); sfx("click-soft", 8.08, -12)
+sfx("pop", G1 - 0.44, -14); sfx("whoosh", G1 - 0.36, -9); sfx("click-soft", G1 + 0.02, -12)
 sfx("pop", cue("s4", 1) - 0.05, -11); sfx("whoosh-short", T_RH - 0.15, -15); sfx("whoosh", T_RH, -12)
 sfx("pop", cue("s5", 2) - 0.05, -11); sfx("whoosh-short", T_FI - 0.15, -15); sfx("whoosh", T_FI, -12)
 sfx("pop", T_FI + 0.55, -12)
@@ -249,14 +255,14 @@ for tt in (cue("s6", 2), cue("s6", 3) + 0.1, cue("s6", 4)):
     sfx("click-soft", tt, -15)
 for tt in (cue("s6", 6) - 0.12, cue("s6", 7) - 0.12, cue("s6", 8) - 0.12):
     sfx("pop", tt, -11)
-for tt in (15.6, 15.8):
+for tt in (T_OUT, T_OUT + 0.2):
     sfx("click", tt, -12)
 sfx("impact-bass-1", T_IMPACT, -14)
 sfx("sparkle", cue("s7", 5) - 0.05, -18)
 wc = load(os.path.join(SFX_DIR, "whoosh-cinematic.mp3"))
 wc_pk = np.argmax(np.abs(wc).sum(axis=1)) / SR
-sfx("whoosh-cinematic", 19.2 - wc_pk, -15)
-sfx("sparkle", 19.2, -12)
+sfx("whoosh-cinematic", T_FLASH + 0.02 - wc_pk, -15)
+sfx("sparkle", T_FLASH + 0.02, -12)
 sfx("click-soft", cue("s8", 0) - 0.066, -14); sfx("click-soft", cue("s8", 1), -17)
 sfx("whoosh-short", cue("s8", 5) - 0.1, -16)
 sfx("pop", cue("s8", 6) - 0.1, -14); sfx("pop", cue("s8", 6) + 0.1, -16)

@@ -2,6 +2,10 @@
 
 Toutes les heures viennent de `onsets.json` (voix générée en local, Piper « Tom »). « V 9,98 » = mot dit à 9,98 s.
 
+> Les heures ci-dessous sont celles de la première version (voix Piper « Tom », 46,6 s). Le rendu actuel (voix « Ken »,
+> 36,3 s) garde les mêmes plans et les mêmes gestes : la composition les accroche aux mots et aux silences de
+> `onsets.json`, si bien que chaque heure se décale avec la voix.
+
 ## En-tête
 
 MONDE

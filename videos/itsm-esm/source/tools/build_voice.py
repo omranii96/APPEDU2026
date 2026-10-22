@@ -9,6 +9,7 @@ usage: build_voice.py <project_dir>
 import difflib
 import hashlib
 import json
+import math
 import os
 import re
 import sys
@@ -17,7 +18,6 @@ import soundfile as sf
 from scipy.signal import resample_poly
 from tts_lib import tts, say, asr, transcribe
 
-PROJECT = sys.argv[1]
 OUT_SR = 48000
 LEAD = 0.30  # silence before the first word
 SPEED = {"s8": 0.9, "s9": 0.92, "s10": 0.94}  # per-sentence speed (default 0.96)
@@ -98,12 +98,98 @@ def distribute(words, t0, t1):
     return out
 
 
-def main():
-    engine = tts("tom")
-    rec = asr()
+def groups_of(shown):
+    """Comma groups of the shown text; a lone ":" or "?" (French spacing) sticks to the word before it."""
+    groups = []
+    for g in re.split(r"(?<=[,:])\s+", shown):
+        ws = []
+        for w in g.split():
+            if re.fullmatch(r"[:;?!]", w) and ws:
+                ws[-1] += "\u00a0" + w
+            else:
+                ws.append(w)
+        if ws:
+            groups.append(ws)
+    return groups
+
+
+def word_times(a, sr, shown, t, group_bounds=None):
+    """Word cues of one sentence placed at t: exact comma groups (given, or from the voice's own pauses),
+    words by length inside each group."""
+    a = a / (np.max(np.abs(a)) + 1e-9)
+    dur = len(a) / sr
+    groups = groups_of(shown)
+    if group_bounds and len(group_bounds) == len(groups):
+        words = []
+        for g, (g0, g1) in zip(groups, group_bounds):
+            words += distribute(g, t + g0, t + g1)
+        return words
+    # each comma boundary snaps to the detected pause nearest to where the word lengths put it
+    tot = sum(weight(w) for g in groups for w in g)
+    expected, acc = [], 0.0
+    for g in groups[:-1]:
+        acc += sum(weight(w) for w in g) / tot * dur
+        expected.append(acc)
+    found = pauses(a, sr)
+    bounds = [0.0]
+    for x in expected:
+        near = min(found, key=lambda p: abs((p[0] + p[1]) / 2 - x)) if found else None
+        if near and abs((near[0] + near[1]) / 2 - x) < 0.6:
+            found.remove(near)
+            bounds += [near[0], near[1]]
+        else:
+            bounds += [x, x]
+    bounds.append(dur)
+    words = []
+    for gi, g in enumerate(groups):
+        words += distribute(g, t + bounds[2 * gi], t + bounds[2 * gi + 1])
+    return words
+
+
+def assemble(project, parts, fps=30):
+    """Places the sentences with the silences of the script, writes the voice track and the single timing file
+    (onsets.json + assets/onsets.js) and sets the render length of index.html."""
     track = [np.zeros(int(LEAD * OUT_SR), dtype=np.float32)]
     t = LEAD
     sentences = []
+    for part in parts:
+        a, sr, shown, gap, tag = part[:5]
+        extra = part[5] if len(part) > 5 else None
+        a48 = resample_poly(a, OUT_SR, sr).astype(np.float32) if sr != OUT_SR else a.astype(np.float32)
+        dur = len(a48) / OUT_SR
+        sentences.append({"id": tag, "text": shown, "start": round(t, 3), "end": round(t + dur, 3),
+                          "gap_after": gap,
+                          "words": ([dict(w, start=round(w["start"] + t, 3), end=round(w["end"] + t, 3)) for w in extra]
+                                    if extra else word_times(a, sr, shown, t))})
+        track.append(a48)
+        track.append(np.zeros(int(gap * OUT_SR), dtype=np.float32))
+        t += dur + gap
+    voice = np.concatenate(track)
+    voice = voice / (np.max(np.abs(voice)) + 1e-9) * 0.89
+    total = round(len(voice) / OUT_SR, 3)
+    film = math.ceil(total * fps) / fps
+    voice = np.concatenate([voice, np.zeros(int(round(film * OUT_SR)) - len(voice), dtype=np.float32)])
+    os.makedirs(os.path.join(project, "assets", "audio"), exist_ok=True)
+    sf.write(os.path.join(project, "assets", "audio", "voix-raw.wav"), voice, OUT_SR, subtype="PCM_24")
+    data = {"total": total, "film": round(film, 3), "sentences": sentences}
+    with open(os.path.join(project, "onsets.json"), "w") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+    with open(os.path.join(project, "assets", "onsets.js"), "w") as f:
+        f.write("window.ONSETS = " + json.dumps(data, ensure_ascii=False) + ";\n")
+    page = os.path.join(project, "index.html")
+    if os.path.exists(page):
+        html = open(page).read()
+        html = re.sub(r'(data-duration=")[0-9.]+(")', lambda m: f"{m.group(1)}{round(film, 3)}{m.group(2)}", html)
+        open(page, "w").write(html)
+    print(f"voice {total} s, film {round(film, 3)} s")
+    return sentences
+
+
+def main():
+    PROJECT = sys.argv[1]
+    engine = tts("tom")
+    rec = asr()
+    parts = []
     report = []
     for shown, spoken, gap, tag in SCRIPT:
         # several takes, keep the one Whisper understands best (the method's "2 or 3 takes")
@@ -124,54 +210,12 @@ def main():
         os.makedirs(os.path.dirname(cache), exist_ok=True)
         sf.write(cache, a, sr, subtype="FLOAT")
         report.append(f"{tag}: take {take} score {score:.2f}: {heard}")
-        a48 = resample_poly(a, OUT_SR, sr).astype(np.float32)
-        dur = len(a48) / OUT_SR
-        # comma groups of the shown text; a lone ":" or "?" (French spacing) sticks to the word before it
-        groups = []
-        for g in re.split(r"(?<=[,:])\s+", shown):
-            ws = []
-            for w in g.split():
-                if re.fullmatch(r"[:;?!]", w) and ws:
-                    ws[-1] += "\u00a0" + w
-                else:
-                    ws.append(w)
-            if ws:
-                groups.append(ws)
-        # each comma boundary snaps to the detected pause nearest to where the word lengths put it
-        tot = sum(weight(w) for g in groups for w in g)
-        expected, acc = [], 0.0
-        for g in groups[:-1]:
-            acc += sum(weight(w) for w in g) / tot * dur
-            expected.append(acc)
-        found = pauses(a, sr)
-        bounds = [0.0]
-        for x in expected:
-            near = min(found, key=lambda p: abs((p[0] + p[1]) / 2 - x)) if found else None
-            if near and abs((near[0] + near[1]) / 2 - x) < 0.6:
-                found.remove(near)
-                bounds += [near[0], near[1]]
-            else:
-                bounds += [x, x]
-        bounds.append(dur)
-        words = []
-        for gi, g in enumerate(groups):
-            words += distribute(g, t + bounds[2 * gi], t + bounds[2 * gi + 1])
-        sentences.append({"id": tag, "text": shown, "start": round(t, 3), "end": round(t + dur, 3),
-                          "gap_after": gap, "words": words})
-        track.append(a48)
-        track.append(np.zeros(int(gap * OUT_SR), dtype=np.float32))
-        t += dur + gap
-    voice = np.concatenate(track)
-    voice = voice / (np.max(np.abs(voice)) + 1e-9) * 0.89
-    os.makedirs(os.path.join(PROJECT, "assets", "audio"), exist_ok=True)
-    sf.write(os.path.join(PROJECT, "assets", "audio", "voix-raw.wav"), voice, OUT_SR, subtype="PCM_24")
-    total = round(len(voice) / OUT_SR, 3)
-    with open(os.path.join(PROJECT, "onsets.json"), "w") as f:
-        json.dump({"total": total, "sentences": sentences}, f, ensure_ascii=False, indent=1)
+        parts.append((a, sr, shown, gap, tag))
+    sentences = assemble(PROJECT, parts)
     print("\n".join(report))
-    print(f"total {total} s")
     for s in sentences:
         print(f"{s['id']:>4} {s['start']:6.2f} -> {s['end']:6.2f}  {s['text']}")
 
 
-main()
+if __name__ == "__main__":
+    main()
