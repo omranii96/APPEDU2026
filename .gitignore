@@ -1,0 +1,4 @@
+.venv-kdp/
+__pycache__/
+*.pyc
+kdp/out/**/_thumbs/
