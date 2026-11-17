@@ -191,7 +191,7 @@ def back(c, x, y, w, h, t, thumbs):
     K.paragraph(c, t["foot"], L + 2.35 * inch, y + SAFE + 1.35 * inch, "Title", 16, zx - (L + 2.35 * inch) - 0.2 * inch, 1.15, INK)
     c.setFont("RoundBold", 11)
     c.setFillColor(INK)
-    c.drawString(L, y + SAFE, t["pub"])
+    c.drawString(L + 0.05 * inch, y + SAFE + 0.08 * inch, t["pub"])
     c.setFillColor(white)
     c.rect(zx, zy, zw, zh, stroke=0, fill=1)
 

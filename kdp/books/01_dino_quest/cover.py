@@ -156,7 +156,7 @@ def back(c, x, y, w, h, t, thumbs):
     K.paragraph(c, t["foot"], L + 1.65 * inch, y + SAFE + 1.45 * inch, "Title", 17, zx - (L + 1.65 * inch) - 0.25 * inch, 1.15, INK)
     c.setFont("RoundBold", 11)
     c.setFillColor(INK)
-    c.drawString(L, y + SAFE, t["pub"])
+    c.drawString(L + 0.05 * inch, y + SAFE + 0.08 * inch, t["pub"])
     c.setFillColor(white)
     c.rect(zx, zy, zw, zh, stroke=0, fill=1)  # clean white field for KDP's barcode
 
