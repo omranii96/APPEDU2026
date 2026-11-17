@@ -44,7 +44,7 @@ CTX = {
     },
     "fr": {
         "series": "DINO QUEST", "kind": "CAHIER D'ACTIVITÉS", "ages": "pour les enfants de 4 à 8 ans",
-        "badge": ["86", "ACTIVITÉS", "FUN"],
+        "badge": ["86", "", "ACTIVITÉS"],
         "bar": "Labyrinthes • Points à relier • Mots mêlés • Coloriages • Calcul • Graphisme",
         "back_h": "En route pour l'aventure !",
         "back_lines": [

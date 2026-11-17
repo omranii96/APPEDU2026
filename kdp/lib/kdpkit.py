@@ -70,7 +70,7 @@ def hex_color(h, a=1.0):
 def new_canvas(path, w, h, title, author):
     register_fonts()
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    c = rl_canvas.Canvas(path, pagesize=(w, h), pageCompression=1, initialFontName="Body", initialFontSize=12)
+    c = rl_canvas.Canvas(path, pagesize=(w, h), pageCompression=1, invariant=1, initialFontName="Body", initialFontSize=12)
     c.setTitle(title)
     c.setAuthor(author)
     c.setCreator("kdpkit")
