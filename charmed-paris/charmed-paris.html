@@ -76,7 +76,8 @@ section.intro{padding:0;border:0}
 .it-1,.it-2{top:auto;bottom:calc(12% + env(safe-area-inset-bottom,0px))}
 .final{position:absolute;left:50%;bottom:8%;transform:translateX(-50%);text-align:center;opacity:0;z-index:3;white-space:nowrap}
 .final-wm{font-family:var(--display);letter-spacing:.5em;padding-left:.5em;font-size:clamp(18px,2.4vw,28px)}
-.final-sub{font-family:var(--body);font-weight:500;letter-spacing:.7em;padding-left:.7em;font-size:11px;margin-top:8px;color:var(--velours-muted)}
+.final-sub{font-family:var(--body);font-weight:500;letter-spacing:.8em;padding-left:.8em;font-size:clamp(12px,1.3vw,15px);margin-top:10px;color:var(--or-clair)}
+.logo .paris-x{position:absolute;left:0;top:0;transform:translate(-50%,4.4em);font:500 .15em/1 var(--body);letter-spacing:.8em;padding-left:.8em;color:var(--or-clair);white-space:nowrap}
 .final-tag{font-family:var(--display);font-style:italic;font-size:clamp(16px,1.8vw,20px);margin-top:14px;color:var(--or-clair)}
 .hint{position:absolute;left:50%;bottom:calc(26px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--velours-muted);display:flex;flex-direction:column;align-items:center;gap:10px;z-index:3;white-space:nowrap}
 .hint i{display:block;width:1px;height:42px;background:linear-gradient(var(--or-clair),transparent);animation:drip 1.8s ease-in-out infinite;transform-origin:top}
@@ -245,20 +246,21 @@ footer{padding-block:40px 64px;font-size:13px;color:var(--muted)}
       <span class="br l" id="brL"></span>
       <span class="mid-x" id="midX">HARME</span>
       <span class="br r" id="brR"></span>
+      <span class="paris-x" id="parisX">PARIS</span>
     </div>
     <p class="it it-open" id="tOpen">Ouvre.</p>
     <p class="it it-1" id="t1">Le bijou qu'on offre.</p>
     <p class="it it-2" id="t2">Et celui qu'on s'offre.</p>
-    <div class="final" id="final"><div class="final-wm">CHARMED</div><div class="final-sub">Paris</div><p class="final-tag">Ouvre. Laisse-toi charmer.</p></div>
+    <div class="final" id="final"><div class="final-wm">CHARMED</div><div class="final-sub">PARIS</div><p class="final-tag">Ouvre. Laisse-toi charmer.</p></div>
     <div class="hint" id="hint"><span>Fais défiler pour ouvrir</span><i></i></div>
-    <div class="topbar"><span>Charmed Paris · Dossier v2</span><a href="#dossier">Passer l'intro</a></div>
+    <div class="topbar"><span>CHARMED PARIS · Dossier v3</span><a href="#dossier">Passer l'intro</a></div>
     <div class="prog"><i id="prog"></i></div>
   </div>
 </section>
 
 <header class="hero" id="dossier">
   <div class="wrap hero-grid">
-    <div class="eyebrow">Projet bijoux · Dossier de marque v2</div>
+    <div class="eyebrow">Projet bijoux · Dossier de marque v3</div>
     <h1>Charmed Paris</h1>
     <p class="lede"><strong>Mon choix : CHARMED PARIS.</strong> « Charmed », c'est être sous le charme. En anglais, « charm » veut aussi dire breloque. Le C et le D deviennent les deux parois d'un écrin qui s'ouvre, comme le logo de CRAFTD. La marque est mixte, avec les femmes en priorité, et vend du dropshipping Branvas sur WooCommerce.</p>
     <button class="btn" id="hero-replay" type="button">Rejouer l'ouverture</button>
@@ -434,28 +436,28 @@ footer{padding-block:40px 64px;font-size:13px;color:var(--muted)}
   <div class="wrap stack-lg">
     <div class="stack read">
       <div class="eyebrow">Le calcul qui change tout</div>
-      <h2>Avec 8,99 $ par commande, il faut vendre par deux</h2>
-      <p>La livraison est facturée par commande, pas par pièce. Sur une pièce acier vendue seule, il reste peu de marge pour la publicité. Dès qu'il y a deux pièces dans le panier, la marge fait plus que tripler. C'est pour ça que le site doit pousser les parures, les duos et le seuil de livraison offerte.</p>
+      <h2>Avec les parures, la livraison ne mange plus la marge</h2>
+      <p>Chiffres réels de ton compte Branvas pour la parure Molten Art : coût 16,87 $, prix conseillé 46 $, marge 29,13 $. Les 8,99 $ de livraison sont facturés par commande : sur une parure, il reste près de 19 $ avant publicité, contre 7,50 $ environ pour une pièce acier vendue seule.</p>
     </div>
     <div class="calc">
       <div class="ticket">
-        <div class="eyebrow">1 pièce Steel Edit à 29 $</div>
-        <div class="row"><span>Prix de vente</span><span>29,00 $</span></div>
-        <div class="row"><span>Coût pièce (40 %)</span><span>− 11,60 $</span></div>
+        <div class="eyebrow">1 parure Molten Art à 46 $</div>
+        <div class="row"><span>Prix de vente</span><span>46,00 $</span></div>
+        <div class="row"><span>Coût Branvas</span><span>− 16,87 $</span></div>
         <div class="row"><span>Livraison DDP</span><span>− 8,99 $</span></div>
-        <div class="row"><span>Paiement (~3 %)</span><span>− 0,87 $</span></div>
-        <div class="row"><span>Reste avant pub</span><span>7,54 $</span></div>
+        <div class="row"><span>Paiement (~3 %)</span><span>− 1,38 $</span></div>
+        <div class="row"><span>Reste avant pub</span><span>18,76 $</span></div>
       </div>
       <div class="ticket">
-        <div class="eyebrow">Duo Steel Edit à 58 $</div>
-        <div class="row"><span>Prix de vente</span><span>58,00 $</span></div>
-        <div class="row"><span>Coût pièces (40 %)</span><span>− 23,20 $</span></div>
+        <div class="eyebrow">2 parures, la 2e à −15 %</div>
+        <div class="row"><span>Prix de vente (46 + 39,10)</span><span>85,10 $</span></div>
+        <div class="row"><span>Coût Branvas</span><span>− 33,74 $</span></div>
         <div class="row"><span>Livraison DDP</span><span>− 8,99 $</span></div>
-        <div class="row"><span>Paiement (~3 %)</span><span>− 1,74 $</span></div>
-        <div class="row"><span>Reste avant pub</span><span>24,07 $</span></div>
+        <div class="row"><span>Paiement (~3 %)</span><span>− 2,55 $</span></div>
+        <div class="row"><span>Reste avant pub</span><span>39,82 $</span></div>
       </div>
     </div>
-    <p class="muted small">Estimation à partir de la marge médiane Branvas de la collection Steel Edit (60 %). Les vrais coûts unitaires et la TVA française sont à intégrer une fois le compte ouvert.</p>
+    <p class="muted small">Coût et prix conseillé de Molten Art relevés dans ton compte Branvas. Les coûts des 29 autres parures sont à relever de la même façon. TVA française non incluse.</p>
   </div>
 </section>
 
@@ -506,17 +508,18 @@ footer{padding-block:40px 64px;font-size:13px;color:var(--muted)}
     </div>
 
     <div class="stack">
-      <h3>La gamme de lancement (72 produits, sous la limite des 75 de l'offre Growth)</h3>
+      <h3>Uniquement des parures : la sélection de 30 bundles</h3>
+      <p class="muted small">Branvas propose 81 bundles (références « JS », collier et boucles d'oreilles assortis, parfois avec bague ou bracelet). J'en garde 30, cohérents avec une marque chic et féminine. Aucun n'est en acier : tous sont « à garder au sec ».</p>
       <div class="tbl-wrap">
         <table>
-          <thead><tr><th>Univers Charmed</th><th>Source Branvas</th><th>Pièces</th><th>Rôle</th></tr></thead>
+          <thead><tr><th>Univers Charmed</th><th>Parures Branvas retenues</th><th>Nb</th><th>Prix de vente visé</th></tr></thead>
           <tbody>
-            <tr><td><b>Acier doré</b></td><td>Steel Edit</td><td class="num">25</td><td>Le cœur de gamme : résiste à l'eau, peu de retours, entre 29 et 49 €. C'est la seule collection où l'on peut écrire « ne craint pas l'eau ».</td></tr>
-            <tr><td><b>Or doux</b></td><td>Feminine Aura</td><td class="num">15</td><td>Les cadeaux : vraies perles d'eau douce, zircons, colliers lariat et bracelets tennis</td></tr>
-            <tr><td><b>Or sur argent</b></td><td>Sterling Glow</td><td class="num">12</td><td>Le haut de gamme : or sur argent 925, prix médian 104 $</td></tr>
-            <tr><td><b>Argent 925</b></td><td>Sterling Luna</td><td class="num">8</td><td>Argent massif, sans plaquage qui s'use</td></tr>
-            <tr><td><b>Sculpture</b></td><td>Liquid Sculpture</td><td class="num">6</td><td>Pièces fortes pour les visuels et la pub</td></tr>
-            <tr><td><b>Pour lui</b></td><td>Iron Creed (acier seulement)</td><td class="num">6</td><td>Le côté mixte : chaînes, chevalières, gourmettes</td></tr>
+            <tr><td><b>Sculpture</b><br><span class="muted small">Liquid Sculpture</span></td><td>Molten Art · Liquid Gold Cascade · Fluid Dreams · Crumpled Cube · Liquid Art Pearl · Celestial Star Moon · Baroque Pearl Flow</td><td class="num">7</td><td class="num">49–59 €</td></tr>
+            <tr><td><b>Éclat</b><br><span class="muted small">Prism Party</span></td><td>Solar Sphere · Golden Luxe Crystal · Golden Hour Geometric · Crescent Glow · Radiant Circle · Wave Luxe · Geometric Luxe · Golden Square Luxe · Emerald Cut Halo · Shell Glow · Petal Bloom</td><td class="num">11</td><td class="num">59–79 €</td></tr>
+            <tr><td><b>Couleur précieuse</b><br><span class="muted small">Prism Party</span></td><td>Emerald Square · Emerald Dreams · Royal Sapphire Halo · Rose Empress · Pink Pavé · Celestial Cascade · Linear Luxe</td><td class="num">7</td><td class="num">69–89 €</td></tr>
+            <tr><td><b>Joaillerie 925</b><br><span class="muted small">Moissanite Spark</span></td><td>Blush Dreams · Golden Radiance · Heart Symphony</td><td class="num">3</td><td class="num">149–249 €</td></tr>
+            <tr><td><b>Mixte</b><br><span class="muted small">Liquid Sculpture</span></td><td>Lunar Goddess · Cosmic Circle (sur cordon)</td><td class="num">2</td><td class="num">49 €</td></tr>
+            <tr><td><span class="pill no">Écartées</span></td><td>Gothiques (6) · initiales « H » (2) · bois et bohème (5) · trèfles, fers à cheval et arc-en-ciel trop colorés · le reste en réserve</td><td class="num">51</td><td>—</td></tr>
           </tbody>
         </table>
       </div>
@@ -867,7 +870,8 @@ footer{padding-block:40px 64px;font-size:13px;color:var(--muted)}
 
     // Brackets: closed logo -> doors fly open -> return to frame the ring
     var o=ease(seg(p,.10,.40)), c=ease(seg(p,.78,.95));
-    var zEnd=9*zf, ringPx=1.45/(2*zEnd*TAN)*H;
+    var zEnd=12*zf, ringPx=1.45/(2*zEnd*TAN)*H;
+    logo.style.top=(46-9*c)+'%';
     var fScale=clamp((2.1*ringPx)/(.7*F),.6,2.6);
     var closedX=midW/2+.32*F, farX=W/2+.8*F*1.6, finalX=ringPx*.9+.25*F*fScale+8;
     var x,a,s;
@@ -878,7 +882,7 @@ footer{padding-block:40px 64px;font-size:13px;color:var(--muted)}
     brR.style.transform='translate(-50%,-50%) translateX('+(x+breathe)+'px) rotateY('+a+'deg) scale('+s+')';
     var ls=lerp(.08,.95,o);
     mid.style.letterSpacing=ls+'em'; mid.style.paddingLeft=ls+'em';
-    mid.style.opacity=String(1-seg(p,.14,.34)); mid.style.filter='blur('+(o*10).toFixed(2)+'px)';
+    mid.style.opacity=String(1-seg(p,.14,.34)); var px_=document.getElementById('parisX'); if(px_){ px_.style.opacity=String(1-seg(p,.06,.18)); } mid.style.filter='blur('+(o*10).toFixed(2)+'px)';
 
     glow.style.opacity=String(clamp(seg(p,.12,.38)*(1-.6*seg(p,.62,.8))+.45*c,0,1));
     glow.style.transform='scale('+(1+.25*o-.15*c)+')';
@@ -893,9 +897,10 @@ footer{padding-block:40px 64px;font-size:13px;color:var(--muted)}
     var r=easeOut(seg(p,.24,.50));
     if(G){
       var macro=band(p,.44,.60,.66,.84);
-      var z = p<.64 ? lerp(10,3.2,ease(seg(p,.30,.62))) : lerp(3.2,9,ease(seg(p,.66,.86)));
-      G.camera.position.set(px*.25*(1-macro), 1.25*macro + (-py)*.15, z*zf);
-      G.camera.lookAt(0, 1.05*macro, 0);
+      var z = p<.64 ? lerp(10,3.2,ease(seg(p,.30,.62))) : lerp(3.2,12,ease(seg(p,.66,.86)));
+      var zz=z*zf, off=c*0.09*2*zz*TAN;
+      G.camera.position.set(px*.25*(1-macro), 1.25*macro + (-py)*.15 - off, zz);
+      G.camera.lookAt(0, 1.05*macro - off, 0);
       G.pivot.position.y=lerp(-4.4,0,r);
       G.pivot.scale.setScalar(lerp(.6,1,r));
       G.pivot.rotation.y = time*.22 + p*Math.PI*2.4 + px*.35;

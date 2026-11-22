@@ -45,7 +45,13 @@ button{font-family:inherit}
 .hdr nav{display:flex;gap:22px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;min-width:0}
 .hdr nav a{text-decoration:none;opacity:.85;white-space:nowrap}
 .hdr nav a:hover{opacity:1;text-decoration:underline;text-underline-offset:6px}
-.hdr .brand{font-size:22px;text-decoration:none}
+.hdr .brand{display:flex;flex-direction:column;align-items:center;gap:5px;text-decoration:none}
+.hdr .brand .wm{font-size:22px}
+.brand-sub{font:500 9px/1 var(--body);letter-spacing:.62em;padding-left:.62em;text-transform:uppercase}
+.logo .paris-x{position:absolute;left:0;top:0;transform:translate(-50%,4.4em);font:500 .15em/1 var(--body);letter-spacing:.8em;padding-left:.8em;color:var(--or-clair);white-space:nowrap}
+.final-sub{font:500 clamp(12px,1.3vw,15px)/1 var(--body);letter-spacing:.8em;padding-left:.8em;color:var(--or-clair);margin-top:-2px}
+.shell-in{display:flex;flex-direction:column;align-items:center;gap:8px}
+.shell-in small{font:500 clamp(8px,.9vw,10px)/1 var(--body);letter-spacing:.6em;padding-left:.6em;color:var(--or-clair)}
 .hdr .brand .br{border-color:var(--or-clair)}
 .hdr .tools{display:flex;justify-content:flex-end;gap:16px;align-items:center}
 .icon-btn{background:none;border:0;color:inherit;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font:500 13px var(--body);letter-spacing:.1em;text-transform:uppercase;padding:8px}
@@ -81,6 +87,81 @@ button{font-family:inherit}
 .prog i{display:block;height:100%;background:var(--or-clair);transform-origin:left;transform:scaleX(0)}
 .fallback-ring{position:absolute;left:50%;top:46%;width:30vmin;height:30vmin;border-radius:50%;border:2.2vmin solid var(--or-clair);transform:translate(-50%,-50%);box-shadow:0 0 60px var(--glow-a);opacity:0}
 
+/* ---------- Scroll cue (first block) ---------- */
+.hint{color:var(--velours-fg);font:500 13px/1.3 var(--body);letter-spacing:.2em;gap:12px;text-align:center}
+.hint b{font-weight:500}
+.mouse{width:26px;height:42px;border:1.5px solid var(--or-clair);border-radius:14px;position:relative}
+.mouse::before{content:"";position:absolute;left:50%;top:8px;width:3px;height:8px;margin-left:-1.5px;border-radius:2px;background:var(--or-clair);animation:wheel 1.6s ease-in-out infinite}
+@keyframes wheel{0%{transform:translateY(0);opacity:1}70%{transform:translateY(13px);opacity:0}100%{transform:translateY(0);opacity:0}}
+.chevs{display:flex;flex-direction:column;align-items:center;margin-top:-4px}
+.chevs i{width:11px;height:11px;border-right:1.5px solid var(--or-clair);border-bottom:1.5px solid var(--or-clair);transform:rotate(45deg);margin-top:-3px;animation:chev 1.6s ease-in-out infinite;background:none;height:11px}
+.chevs i:nth-child(2){animation-delay:.2s}
+@keyframes chev{0%,100%{opacity:.15}50%{opacity:1}}
+.hint .touch{display:none}
+@media (hover:none){.hint .mouse{display:none}.hint .desk{display:none}.hint .touch{display:inline}}
+
+/* ---------- Marquee ---------- */
+.marquee{background:var(--velours);color:var(--or-clair);overflow:hidden;border-block:1px solid rgba(233,203,143,.25)}
+.marquee .track{display:flex;width:max-content;animation:marq 38s linear infinite}
+.marquee span{font-family:var(--display);font-style:italic;font-size:clamp(22px,3vw,34px);padding:14px 28px;white-space:nowrap}
+.marquee span::after{content:"✦";font-style:normal;font-size:.5em;margin-left:56px;vertical-align:middle;color:var(--velours-muted)}
+@keyframes marq{to{transform:translateX(-50%)}}
+
+/* ---------- Coffrets carousel (CSS 3D) ---------- */
+.coffrets{background:radial-gradient(ellipse 80% 65% at 50% 58%,var(--velours-2),var(--velours) 72%);color:var(--velours-fg);padding-block:96px 48px;overflow:hidden;position:relative}
+.cof-head{text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px}
+.cof-head .eyebrow{color:var(--or-clair)}
+.cof-head h2{font-size:clamp(36px,5vw,64px)}
+.cof-head p{color:var(--velours-muted);max-width:460px}
+.cof-stage{position:relative;height:clamp(360px,40vw,470px);perspective:1300px;perspective-origin:50% 25%;cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.cof-stage.drag{cursor:grabbing}
+.cof-stage:focus-visible{outline:1px dashed var(--or-clair);outline-offset:-12px}
+.cof-scale{position:absolute;left:50%;top:64%;width:0;height:0;transform-style:preserve-3d;transform:scale(var(--k,1)) rotateX(-11deg)}
+.cof-ring{position:absolute;left:0;top:0;transform-style:preserve-3d}
+.cbox{position:absolute;left:0;top:0;transform-style:preserve-3d;cursor:pointer}
+.cbox .f{position:absolute;left:0;top:0}
+.cbox .fr{width:170px;height:110px;background:linear-gradient(180deg,color-mix(in srgb,var(--c) 92%,white),var(--c));transform:translate(-50%,-50%) translateZ(85px);display:flex;align-items:center;justify-content:center}
+.cbox .bk{width:170px;height:110px;background:color-mix(in srgb,var(--c) 70%,black);transform:translate(-50%,-50%) rotateY(180deg) translateZ(85px)}
+.cbox .rt{width:170px;height:110px;background:color-mix(in srgb,var(--c) 78%,black);transform:translate(-50%,-50%) rotateY(90deg) translateZ(85px)}
+.cbox .lf{width:170px;height:110px;background:color-mix(in srgb,var(--c) 84%,black);transform:translate(-50%,-50%) rotateY(-90deg) translateZ(85px)}
+.cbox .bt{width:170px;height:170px;background:color-mix(in srgb,var(--c) 55%,black);transform:translate(-50%,-50%) rotateX(-90deg) translateZ(55px)}
+.cbox .inner{width:160px;height:160px;transform:translate(-50%,-50%) translateY(-50px) rotateX(90deg);background:radial-gradient(circle,rgba(255,226,170,.95),rgba(169,129,63,.35) 45%,transparent 72%);opacity:0;transition:opacity .6s .25s}
+.cbox .shadow{width:250px;height:250px;transform:translate(-50%,-50%) translateY(58px) rotateX(90deg);background:radial-gradient(circle,rgba(0,0,0,.55),transparent 62%)}
+.cbox .mini{display:flex;flex-direction:column;align-items:center;gap:5px;color:var(--or-clair)}
+.cbox .mini .wm{font-size:15px}
+.cbox .mini .br{border-color:var(--or-clair)}
+.cbox .mini small{font:500 7px/1 var(--body);letter-spacing:.6em;padding-left:.6em}
+.cbox .lid{position:absolute;left:0;top:0;transform-style:preserve-3d;transform:translate3d(0,-55px,-85px);transition:transform 1s cubic-bezier(.2,.8,.2,1)}
+.cbox .lid .tp{width:176px;height:176px;transform:translate(-50%,-50%) translate3d(0,-24px,87px) rotateX(90deg);background:linear-gradient(90deg,transparent 45%,var(--or-clair) 45% 55%,transparent 55%),linear-gradient(0deg,transparent 45%,var(--or-clair) 45% 55%,transparent 55%),color-mix(in srgb,var(--c) 96%,white)}
+.cbox .lid .tp::after{content:"";position:absolute;left:50%;top:50%;width:44px;height:22px;margin:-11px 0 0 -22px;border:5px solid var(--or-clair);border-radius:50%/60%;box-sizing:border-box}
+.cbox .lid .sf{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(0,-12px,175px);background:linear-gradient(90deg,var(--c) 45%,var(--or-clair) 45% 55%,var(--c) 55%)}
+.cbox .lid .sb{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(0,-12px,-1px) rotateY(180deg);background:color-mix(in srgb,var(--c) 70%,black)}
+.cbox .lid .sr{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(88px,-12px,87px) rotateY(90deg);background:linear-gradient(90deg,color-mix(in srgb,var(--c) 78%,black) 45%,var(--or-clair) 45% 55%,color-mix(in srgb,var(--c) 78%,black) 55%)}
+.cbox .lid .sl{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(-88px,-12px,87px) rotateY(-90deg);background:linear-gradient(90deg,color-mix(in srgb,var(--c) 84%,black) 45%,var(--or-clair) 45% 55%,color-mix(in srgb,var(--c) 84%,black) 55%)}
+.cbox .ccard{width:150px;height:150px;transform:translate(-50%,-50%) translate3d(0,0,0) scale(.6);opacity:0;background:#fbf7f2;padding:6px;box-shadow:0 20px 40px -10px rgba(0,0,0,.6);transition:transform 1s cubic-bezier(.2,.8,.2,1) .15s,opacity .35s .15s}
+.cbox .ccard img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+.cbox.open .lid{transform:translate3d(0,-55px,-85px) rotateX(104deg)}
+.cbox.open .inner{opacity:1}
+.cbox.open .ccard{opacity:1;transform:translate(-50%,-50%) translate3d(0,-190px,40px) scale(1.25)}
+.cof-hand{position:absolute;left:50%;bottom:6px;transform:translateX(-50%);font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--or-clair);display:flex;align-items:center;gap:14px;transition:opacity .6s;pointer-events:none;white-space:nowrap}
+.cof-hand i{font-style:normal;font-size:16px;animation:nudge 1.4s ease-in-out infinite}
+.cof-hand i:first-child{animation-direction:reverse}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+.cof-info{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center;max-width:760px;margin-top:8px}
+.cof-text{text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px;min-width:0}
+.cof-text .eyebrow{color:var(--or-clair)}
+.cof-text h3{font-size:clamp(26px,3.6vw,40px)}
+.cof-text p{color:var(--velours-muted);font-size:15px}
+.cof-buy{display:flex;align-items:center;gap:18px;margin-top:6px;flex-wrap:wrap;justify-content:center}
+.cof-buy b{font-family:var(--display);font-weight:400;font-size:28px;font-variant-numeric:tabular-nums}
+.cof-arrow{width:52px;height:52px;border-radius:50%;border:1px solid rgba(233,203,143,.5);background:transparent;color:var(--or-clair);font-size:20px;cursor:pointer;transition:background .3s,color .3s}
+.cof-arrow:hover{background:var(--or-clair);color:var(--velours)}
+.cof-dots{display:flex;justify-content:center;gap:10px;margin-top:22px}
+.cof-dots button{width:8px;height:8px;border-radius:50%;border:0;padding:0;background:rgba(233,203,143,.3);cursor:pointer;transition:transform .3s,background .3s}
+.cof-dots button[aria-current="true"]{background:var(--or-clair);transform:scale(1.5)}
+@media (max-width:560px){.cof-info{grid-template-columns:44px 1fr 44px;gap:8px}.cof-arrow{width:44px;height:44px}}
+@media (prefers-reduced-motion:reduce){.cbox .lid,.cbox .ccard,.cbox .inner{transition:none}.marquee .track{animation:none}}
+
 /* ---------- Product cards ---------- */
 .head-row{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:36px}
 .head-row h2{font-size:clamp(32px,4.6vw,52px)}
@@ -93,7 +174,7 @@ button{font-family:inherit}
 .visual img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;transition:transform 1s cubic-bezier(.2,.7,.1,1)}
 .card:hover .visual img{transform:scale(1.07)}
 .line .th img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply}
-.uni::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(26,16,21,.82) 100%)}
+.uni::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 28%,rgba(26,16,21,.55) 52%,rgba(26,16,21,.92) 100%)}
 .uni > *{z-index:1}
 .duo-pieces img{width:.95em;height:.95em;border-radius:50%;object-fit:cover;border:2px solid var(--or-clair)}
 .visual .tag{position:absolute;top:12px;left:12px;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;background:var(--surface);padding:5px 8px}
@@ -251,7 +332,7 @@ footer .wm .br{border-color:var(--or-clair)}
 <header class="hdr" id="hdr">
   <div class="wrap">
     <nav aria-label="Navigation principale"><a href="#pieces">Femme</a><a href="#univers">Homme</a><a href="#cadeaux">Cadeaux</a><a href="#univers">Collections</a></nav>
-    <a class="brand wm" href="#top" aria-label="Charmed Paris, accueil"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></a>
+    <a class="brand" href="#top" aria-label="Charmed Paris, accueil"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><span class="brand-sub">Paris</span></a>
     <div class="tools">
       <button class="icon-btn" type="button" aria-label="Rechercher"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
       <button class="icon-btn" type="button" id="open-cart"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg><span class="lbl">Panier</span><span class="count" id="count">0</span></button>
@@ -269,26 +350,48 @@ footer .wm .br{border-color:var(--or-clair)}
       <span class="br l" id="brL"></span>
       <span class="mid-x" id="midX">HARME</span>
       <span class="br r" id="brR"></span>
+      <span class="paris-x" id="parisX">PARIS</span>
     </div>
     <p class="it it-open" id="tOpen">Ouvre.</p>
     <p class="it it-1" id="t1">Le bijou qu'on offre.</p>
     <p class="it it-2" id="t2">Et celui qu'on s'offre.</p>
     <div class="final" id="final">
       <div class="final-wm">CHARMED</div>
+      <div class="final-sub">PARIS</div>
       <p class="final-tag">Ouvre. Laisse-toi charmer.</p>
-      <a class="btn ghost" href="#pieces">Découvrir la collection</a>
+      <a class="btn ghost" href="#coffrets">Choisir mon coffret</a>
     </div>
-    <div class="hint" id="hint"><span>Fais défiler pour ouvrir</span><i></i></div>
+    <div class="hint" id="hint"><span class="mouse" aria-hidden="true"></span><span><b class="desk">Descends pour ouvrir l'écrin</b><b class="touch">Glisse vers le haut pour ouvrir l'écrin</b></span><span class="chevs" aria-hidden="true"><i></i><i></i></span></div>
     <div class="prog"><i id="prog"></i></div>
   </div>
 </section>
 
-<div class="annonce">Livraison offerte dès 50 € · 2 pièces = −15 % · Coffret cadeau inclus</div>
+<section class="coffrets" id="coffrets" aria-label="Choisis ton coffret">
+  <div class="wrap cof-head">
+    <div class="eyebrow">8 parures · 8 écrins</div>
+    <h2>Choisis ton coffret</h2>
+    <p>Fais tourner les coffrets. Celui qui arrive devant toi s'ouvre sur sa parure.</p>
+  </div>
+  <div class="cof-stage" id="cofStage" tabindex="0" aria-label="Carrousel de coffrets : flèches gauche et droite pour tourner">
+    <div class="cof-scale" id="cofScale"><div class="cof-ring" id="cofRing"></div></div>
+    <div class="cof-hand" id="cofHand"><i>←</i>Fais tourner<i>→</i></div>
+  </div>
+  <div class="wrap cof-info">
+    <button class="cof-arrow" id="cofPrev" type="button" aria-label="Coffret précédent">←</button>
+    <div class="cof-text" aria-live="polite"><span class="eyebrow" id="cofTag"></span><h3 id="cofName"></h3><p id="cofDesc"></p><div class="cof-buy"><b id="cofPrice"></b><button class="btn ghost" id="cofAdd" type="button">Ajouter à l'écrin</button></div></div>
+    <button class="cof-arrow" id="cofNext" type="button" aria-label="Coffret suivant">→</button>
+  </div>
+  <div class="cof-dots" id="cofDots" role="group" aria-label="Choisir un coffret"></div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track"><span>Ouvre</span><span>Offre</span><span>Garde</span><span>Laisse-toi charmer</span><span>Charmed Paris</span><span>Ouvre</span><span>Offre</span><span>Garde</span><span>Laisse-toi charmer</span><span>Charmed Paris</span></div></div>
+
+<div class="annonce">Coffret de Noël offert jusqu'au 24 décembre · Livraison offerte dès 50 € · 2e parure −15 %</div>
 
 <section class="band" id="pieces">
   <div class="wrap">
     <div class="head-row">
-      <div><div class="eyebrow">Nouveautés</div><h2>Les pièces du film</h2></div>
+      <div><div class="eyebrow">Uniquement des parures</div><h2>Collier et boucles, assortis</h2></div>
       <p class="mock">Maquette · prix et visuels d'exemple</p>
     </div>
     <div class="grid3" id="grid-film"></div>
@@ -299,11 +402,11 @@ footer .wm .br{border-color:var(--or-clair)}
   <div class="wrap">
     <div class="head-row"><div><div class="eyebrow">Les univers</div><h2>Choisis ton éclat</h2></div><a class="btn ghost" href="#pieces">Tout voir</a></div>
     <div class="rail">
-      <a class="uni" href="#pieces" style="--bgv:url(img/JN82N4.webp) center/cover"><span>25 pièces · résiste à l'eau</span><h3>Acier doré</h3><p>Pour tous les jours, même sous la douche.</p></a>
-      <a class="uni" href="#pieces" style="--bgv:url(img/JN7AZ1.webp) center/cover"><span>15 pièces · zircons et perles</span><h3>Or doux</h3><p>Délicat, fait pour être offert.</p></a>
-      <a class="uni" href="#pieces" style="--bgv:url(img/JNG99H.webp) center/cover"><span>12 pièces · argent 925</span><h3>Or sur argent</h3><p>Le précieux, sans compromis.</p></a>
-      <a class="uni" href="#pieces" style="--bgv:url(img/JE7Y03.webp) center/cover"><span>8 pièces · argent massif</span><h3>Argent 925</h3><p>Lumière froide, lignes pures.</p></a>
-      <a class="uni" href="#pieces" style="--bgv:url(img/JNV25H.webp) center/cover"><span>6 pièces · acier</span><h3>Pour lui</h3><p>Chaînes, chevalières, gourmettes.</p></a>
+      <a class="uni" href="#pieces" style="--bgv:url(img/JS63WT.webp) center/cover"><span>7 parures · métal doré</span><h3>Sculpture</h3><p>Des formes fondues, comme des pièces de galerie.</p></a>
+      <a class="uni" href="#pieces" style="--bgv:url(img/JS63VP.webp) center/cover"><span>11 parures · or et zircons</span><h3>Éclat</h3><p>La lumière, du collier aux oreilles.</p></a>
+      <a class="uni" href="#pieces" style="--bgv:url(img/JSX3G6.webp) center/cover"><span>7 parures · émeraude, saphir, rose</span><h3>Couleur précieuse</h3><p>Une pierre de couleur, en écho.</p></a>
+      <a class="uni" href="#pieces" style="--bgv:url(img/JSDQA1.webp) center/cover"><span>3 parures · argent 925</span><h3>Joaillerie 925</h3><p>Argent massif et moissanites.</p></a>
+      <a class="uni" href="#pieces" style="--bgv:url(img/JSVKMZ.webp) center/cover"><span>2 parures · cordon</span><h3>Mixte</h3><p>À porter à deux, ou à partager.</p></a>
     </div>
   </div>
 </section>
@@ -311,12 +414,12 @@ footer .wm .br{border-color:var(--or-clair)}
 <section class="band parure" id="parure">
   <div class="wrap">
     <div style="display:flex;flex-direction:column;gap:18px;align-items:flex-start">
-      <div class="eyebrow">Compose ta parure</div>
-      <h2>Deux pièces, et l'écrin se referme sur −15 %.</h2>
-      <p style="color:var(--velours-muted);max-width:460px">Une boucle et son collier, deux bagues qu'on empile, un duo à partager. La remise s'applique toute seule dans le panier.</p>
-      <a class="btn ghost" href="#pieces">Composer ma parure</a>
+      <div class="eyebrow">La parure Charmed</div>
+      <h2>Le collier et ses boucles, dans un seul écrin.</h2>
+      <p style="color:var(--velours-muted);max-width:460px">Chaque parure est pensée comme un ensemble : rien à assortir, tout est prêt à offrir. Et la 2e parure est à −15 %.</p>
+      <a class="btn ghost" href="#pieces">Voir les parures</a>
     </div>
-    <div class="duo" aria-hidden="true"><span class="br l"></span><span class="duo-pieces"><img src="img/JEMGKK.webp" alt=""><span class="plus">+</span><img src="img/JNB7PW.webp" alt=""></span><span class="br r"></span></div>
+    <div class="duo" aria-hidden="true"><span class="br l"></span><span class="duo-pieces"><img src="img/JSGRQR.webp" alt=""><span class="plus">+</span><img src="img/JS1AQ5.webp" alt=""></span><span class="br r"></span></div>
   </div>
 </section>
 
@@ -324,9 +427,9 @@ footer .wm .br{border-color:var(--or-clair)}
   <div class="wrap">
     <div class="head-row"><div><div class="eyebrow">Idées cadeaux</div><h2>Offrir, selon ton budget</h2></div></div>
     <div class="budgets">
-      <a class="budget" href="#pieces"><span>Moins de</span><b>50 €</b><span>Créoles, puces, bracelets acier</span></a>
-      <a class="budget" href="#pieces"><span>Moins de</span><b>100 €</b><span>Colliers lariat, parures Or doux</span></a>
-      <a class="budget" href="#pieces"><span>Plus de</span><b>100 €</b><span>Or sur argent 925, pièces précieuses</span></a>
+      <a class="budget" href="#pieces"><span>Moins de</span><b>50 €</b><span>Parures Sculpture</span></a>
+      <a class="budget" href="#pieces"><span>Moins de</span><b>100 €</b><span>Parures Éclat et Couleur précieuse</span></a>
+      <a class="budget" href="#pieces"><span>Plus de</span><b>100 €</b><span>Joaillerie argent 925 et moissanite</span></a>
     </div>
     <div class="occasions"><a href="#pieces">Anniversaire</a><a href="#pieces">Fête des mères</a><a href="#pieces">Noël</a><a href="#pieces">Saint-Valentin</a><a href="#pieces">Pour soi</a><a href="#pieces">Pour lui</a></div>
   </div>
@@ -337,7 +440,7 @@ footer .wm .br{border-color:var(--or-clair)}
     <div class="boxscene" id="boxscene" aria-hidden="true">
       <div class="box">
         <div class="drawer" id="drawer"><div class="pouch"></div><div class="card-msg">Ouvre-moi.</div></div>
-        <div class="shell"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span></div>
+        <div class="shell"><span class="shell-in"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><small>PARIS</small></span></div>
         <div class="ribbon"></div>
       </div>
     </div>
@@ -348,7 +451,7 @@ footer .wm .br{border-color:var(--or-clair)}
         <li><i>i</i><span>Une boîte-tiroir rigide, notre logo sur le couvercle, un ruban à tirer.</span></li>
         <li><i>ii</i><span>Une pochette en velours et une chamoisine pour l'entretien.</span></li>
         <li><i>iii</i><span>Une carte « Ouvre-moi » avec ton message, gratuite.</span></li>
-        <li><i>iv</i><span>Aucun prix dans le colis quand c'est un cadeau.</span></li>
+        <li><i>iv</i><span>Jusqu'au 24 décembre : l'emballage de Noël, offert sur chaque commande.</span></li>
       </ul>
     </div>
   </div>
@@ -382,14 +485,14 @@ footer .wm .br{border-color:var(--or-clair)}
 <footer>
   <div class="wrap">
     <div style="display:flex;flex-direction:column;gap:14px">
-      <span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span>
-      <p>Bijoux pensés à Paris. Ouvre. Laisse-toi charmer.</p>
+      <span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><span class="brand-sub" style="color:var(--or-clair);margin-top:-4px">Paris</span>
+      <p>Parures pensées à Paris. Ouvre. Laisse-toi charmer.</p>
     </div>
     <div><h4>Boutique</h4><a href="#pieces">Femme</a><a href="#univers">Homme</a><a href="#cadeaux">Cadeaux</a><a href="#parure">Parures</a></div>
     <div><h4>Aide</h4><a href="#top">Livraison</a><a href="#top">Retours</a><a href="#top">Entretien des bijoux</a><a href="#top">Guide des tailles</a></div>
     <div><h4>Suivre</h4><a href="#top">Instagram</a><a href="#top">TikTok</a><a href="#top">Pinterest</a></div>
   </div>
-  <div class="wrap legal">© 2026 Charmed Paris · Maquette de page d'accueil WooCommerce · CGV · Mentions légales</div>
+  <div class="wrap legal">© 2026 CHARMED PARIS · Maquette de page d'accueil WooCommerce · CGV · Mentions légales</div>
 </footer>
 
 <div class="scrim" id="scrim"></div>
@@ -400,7 +503,7 @@ footer .wm .br{border-color:var(--or-clair)}
   <label class="giftopt" for="gift"><input type="checkbox" id="gift"> Emballage cadeau et carte « Ouvre-moi » (offert)</label>
   <div class="totals">
     <div class="row"><span>Sous-total</span><span id="sub">0,00 €</span></div>
-    <div class="row disc" id="disc-row" hidden><span>Parure −15 %</span><span id="disc">0,00 €</span></div>
+    <div class="row disc" id="disc-row" hidden><span>2e parure −15 %</span><span id="disc">0,00 €</span></div>
     <div class="row"><span>Livraison</span><span id="shipc">—</span></div>
     <div class="row tot"><span>Total</span><span id="tot">0,00 €</span></div>
     <button class="btn" type="button" id="checkout">Commander</button>
@@ -413,12 +516,12 @@ footer .wm .br{border-color:var(--or-clair)}
 (function(){
   /* ---------- Products (example data inspired by the Branvas catalogue) ---------- */
   var P = [
-    {id:'creoles', n:'Créoles Golden Hour', m:'Laiton doré à l\'or fin, cristaux', price:39, img:'img/JEMGKK.webp', tag:'Or doux'},
-    {id:'lariat', n:'Collier lariat Starlit', m:'Laiton doré à l\'or fin, zircons, étoiles', price:49, img:'img/JNB7PW.webp', tag:'Or doux'},
-    {id:'bague', n:'Bague Cœur Halo', m:'Argent 925, moissanite', price:149, img:'img/JR50MS.webp', tag:'Joaillerie'},
-    {id:'serpent', n:'Bracelet Nœud d\'amour', m:'Acier doré, résiste à l\'eau', price:35, img:'img/JBDB36.webp', tag:'Acier doré'},
-    {id:'perles', n:'Puces Golden Orb', m:'Argent 925 doré à l\'or 18 carats, perle simulée', price:79, img:'img/JE6ZGF.webp', tag:'Or sur argent'},
-    {id:'chaine', n:'Chaîne épi de blé', m:'Acier inoxydable doré à l\'or 18 carats', price:59, img:'img/JNVPSP.webp', tag:'Pour lui'}
+    {id:'molten', n:'Parure Molten Art', m:'Collier et boucles, métal doré sculpté', price:49, img:'img/JSGRQR.webp', tag:'Sculpture'},
+    {id:'solar', n:'Parure Solar Sphere', m:'Collier et puces, doré, zircons', price:69, img:'img/JS1AQ5.webp', tag:'Éclat'},
+    {id:'luxe', n:'Parure Golden Luxe', m:'Collier goutte et boucles, zircons', price:79, img:'img/JSJB3S.webp', tag:'Éclat'},
+    {id:'pearl', n:'Parure Liquid Art', m:'Collier et boucles, perles baroques', price:59, img:'img/JSG813.webp', tag:'Sculpture'},
+    {id:'emerald', n:'Parure Emerald Square', m:'Collier et puces, émail et pierres vertes', price:69, img:'img/JS3GGZ.webp', tag:'Couleur précieuse'},
+    {id:'blush', n:'Parure Blush Dreams', m:'Argent 925, moissanites roses', price:189, img:'img/JSSFYS.webp', tag:'Joaillerie 925'}
   ];
   var byId = {}; P.forEach(function(p){ byId[p.id]=p; });
   function eur(v){ return v.toFixed(2).replace('.',',') + ' €'; }
@@ -457,7 +560,8 @@ footer .wm .br{border-color:var(--or-clair)}
     });
     if(!n){ lines.innerHTML='<div class="empty"><span>Ton écrin est vide.</span><a class="btn ghost" href="#pieces" id="go-shop">Voir les pièces</a></div>';
       var g=$('go-shop'); if(g) g.addEventListener('click', closeCart); }
-    var disc = n>=2 ? Math.round(sub*0.15*100)/100 : 0;
+    var prices=[]; Object.keys(cart).forEach(function(id){ for(var i=0;i<cart[id];i++) prices.push(byId[id].price); }); prices.sort(function(x,y){return x-y;});
+    var disc = n>=2 ? Math.round(prices[0]*0.15*100)/100 : 0;
     var after = sub-disc, free = after>=50, shipc = n ? (free?0:4.9) : 0;
     $('count').textContent=n; $('sub').textContent=eur(sub);
     $('disc-row').hidden = !disc; $('disc').textContent='− '+eur(disc);
@@ -465,7 +569,7 @@ footer .wm .br{border-color:var(--or-clair)}
     $('tot').textContent=eur(after+shipc);
     $('ship-txt').textContent = free ? 'Livraison offerte ✓' : 'Plus que '+eur(50-after)+' pour la livraison offerte';
     $('ship-bar').style.width = Math.min(100, after/50*100)+'%';
-    if(n===1){ $('ship-txt').textContent += ' · ajoute une 2e pièce : −15 %'; }
+    if(n===1){ $('ship-txt').textContent += ' · 2e parure : −15 %'; }
   }
   function openCart(){ $('cart').classList.add('on'); $('scrim').classList.add('on'); $('cart').setAttribute('aria-hidden','false'); }
   function closeCart(){ $('cart').classList.remove('on'); $('scrim').classList.remove('on'); $('cart').setAttribute('aria-hidden','true'); }
@@ -475,6 +579,75 @@ footer .wm .br{border-color:var(--or-clair)}
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeCart(); });
   $('checkout').addEventListener('click', function(){ $('co-note').textContent = Object.keys(cart).length ? 'Maquette : le paiement WooCommerce (Stripe, PayPal) prendra le relais ici.' : 'Ajoute d\'abord une pièce à ton écrin.'; });
   render();
+
+  /* ---------- Coffrets carousel ---------- */
+  (function(){
+    var C=[
+      {id:'molten',  n:'Parure Molten Art',     m:'Collier et boucles, métal doré sculpté',      price:49,  img:'img/JSGRQR.webp', tag:'Sculpture',        c:'#1F1218'},
+      {id:'solar',   n:'Parure Solar Sphere',   m:'Collier et puces, doré, zircons',              price:69,  img:'img/JS1AQ5.webp', tag:'Éclat',            c:'#7A1F3A'},
+      {id:'emerald', n:'Parure Emerald Square', m:'Collier et puces, émail et pierres vertes',    price:69,  img:'img/JS3GGZ.webp', tag:'Couleur précieuse', c:'#1F3A2E'},
+      {id:'pearl',   n:'Parure Liquid Art',     m:'Collier et boucles, perles baroques',          price:59,  img:'img/JSG813.webp', tag:'Sculpture',        c:'#E3D2D8'},
+      {id:'luxe',    n:'Parure Golden Luxe',    m:'Collier goutte et boucles, zircons',           price:79,  img:'img/JSJB3S.webp', tag:'Éclat',            c:'#1F1218'},
+      {id:'sapphire',n:'Parure Royal Sapphire', m:'Collier, boucles et bague, pierres bleues',    price:79,  img:'img/JSX3G6.webp', tag:'Couleur précieuse', c:'#1C2440'},
+      {id:'blush',   n:'Parure Blush Dreams',   m:'Argent 925, moissanites roses',                price:189, img:'img/JSSFYS.webp', tag:'Joaillerie 925',   c:'#7A1F3A'},
+      {id:'geo',     n:'Parure Golden Hour',    m:'Collier et créoles, pierres champagne',        price:69,  img:'img/JS63VP.webp', tag:'Éclat',            c:'#E3D2D8'}
+    ];
+    C.forEach(function(p){ byId[p.id]=p; });
+    var N=C.length, step=360/N, R=400;
+    var stage=$('cofStage'), ring=$('cofRing'), scale=$('cofScale'), dots=$('cofDots'), hand=$('cofHand');
+    var reduceM = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var boxes=[];
+    C.forEach(function(p,i){
+      var b=document.createElement('div'); b.className='cbox'; b.style.setProperty('--c',p.c);
+      b.style.transform='rotateY('+(i*step)+'deg) translateZ('+R+'px)';
+      b.innerHTML='<div class="f shadow"></div><div class="f bt"></div><div class="f bk"></div><div class="f rt"></div><div class="f lf"></div><div class="f inner"></div>'+
+        '<div class="f ccard"><img alt="" loading="lazy" width="400" height="400"></div>'+
+        '<div class="f fr"><span class="mini"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><small>PARIS</small></span></div>'+
+        '<div class="lid"><div class="f sb"></div><div class="f sr"></div><div class="f sl"></div><div class="f tp"></div><div class="f sf"></div></div>';
+      b.querySelector('img').src=p.img; b.querySelector('img').alt=p.n;
+      b.addEventListener('click', function(){ if(!moved) goTo(i); });
+      ring.appendChild(b); boxes.push(b);
+      var d=document.createElement('button'); d.type='button'; d.setAttribute('aria-label',p.n); d.addEventListener('click',function(){ goTo(i); }); dots.appendChild(d);
+    });
+    var a=0, target=0, dragging=false, startX=0, startT=0, moved=false, front=-1, openTimer=null, touched=false, visible=true;
+    function idxOf(ang){ return ((Math.round(ang/step)%N)+N)%N; }
+    function goTo(i){ var cur=Math.round(target/step), d=((i-idxOf(target))%N+N)%N; if(d>N/2) d-=N; target=(cur+d)*step; interact(); }
+    function interact(){ if(!touched){ touched=true; hand.style.opacity='0'; } }
+    function setInfo(i){
+      var p=C[i]; $('cofTag').textContent=p.tag; $('cofName').textContent=p.n; $('cofDesc').textContent=p.m; $('cofPrice').textContent=eur(p.price);
+      Array.prototype.forEach.call(dots.children,function(d,k){ d.setAttribute('aria-current', k===i?'true':'false'); });
+    }
+    $('cofAdd').addEventListener('click', function(){ add(C[idxOf(target)].id); });
+    $('cofPrev').addEventListener('click', function(){ target=Math.round(target/step)*step-step; interact(); });
+    $('cofNext').addEventListener('click', function(){ target=Math.round(target/step)*step+step; interact(); });
+    stage.addEventListener('keydown', function(e){ if(e.key==='ArrowRight'){ e.preventDefault(); $('cofNext').click(); } if(e.key==='ArrowLeft'){ e.preventDefault(); $('cofPrev').click(); } });
+    stage.addEventListener('pointerdown', function(e){ dragging=true; moved=false; startX=e.clientX; startT=target; stage.classList.add('drag'); try{ stage.setPointerCapture(e.pointerId); }catch(_){} });
+    stage.addEventListener('pointermove', function(e){ if(!dragging) return; var dx=e.clientX-startX; if(Math.abs(dx)>5){ moved=true; interact(); } target=startT-dx*0.28; });
+    function release(){ if(!dragging) return; dragging=false; stage.classList.remove('drag'); target=Math.round(target/step)*step; }
+    stage.addEventListener('pointerup', release); stage.addEventListener('pointercancel', release);
+    var wheelT=null;
+    stage.addEventListener('wheel', function(e){ if(Math.abs(e.deltaX)>Math.abs(e.deltaY)){ e.preventDefault(); target+=e.deltaX*0.2; interact(); clearTimeout(wheelT); wheelT=setTimeout(function(){ target=Math.round(target/step)*step; },140); } }, {passive:false});
+    function fit(){ var w=stage.clientWidth; scale.style.setProperty('--k', Math.max(.5, Math.min(1, w/1050)).toFixed(3)); }
+    fit(); window.addEventListener('resize', fit);
+    if('IntersectionObserver' in window){ new IntersectionObserver(function(es){ visible=es[0].isIntersecting; }).observe(stage); }
+    function tick(){
+      requestAnimationFrame(tick);
+      if(!visible) return;
+      a = reduceM ? target : a+(target-a)*0.1;
+      ring.style.transform='translateZ('+(-R)+'px) rotateY('+(-a)+'deg)';
+      var i=idxOf(a);
+      if(i!==front){ front=i; setInfo(i); }
+      var settled=!dragging && Math.abs(target-a)<0.8 && target===Math.round(target/step)*step;
+      boxes.forEach(function(b,k){
+        var want = settled && k===idxOf(target);
+        if(!want && b.classList.contains('open')) b.classList.remove('open');
+      });
+      if(settled && !boxes[idxOf(target)].classList.contains('open') && !openTimer){
+        openTimer=setTimeout(function(){ openTimer=null; var k=idxOf(target); if(!dragging && Math.abs(target-a)<0.8) boxes[k].classList.add('open'); },120);
+      }
+    }
+    setInfo(0); requestAnimationFrame(tick);
+  })();
 
   /* ---------- Newsletter ---------- */
   $('news-form').addEventListener('submit', function(e){
@@ -601,18 +774,19 @@ footer .wm .br{border-color:var(--or-clair)}
     px += (mx-px)*.05; py += (my-py)*.05;
     var p=sp;
     var o=ease(seg(p,.10,.40)), c=ease(seg(p,.78,.95));
-    var zEnd=9*zf, ringPx=1.45/(2*zEnd*TAN)*H;
+    var zEnd=12*zf, ringPx=1.45/(2*zEnd*TAN)*H;
+    logo.style.top=(46-9*c)+'%';
     var fScale=clamp((2.1*ringPx)/(.7*F),.6,2.6);
     var closedX=midW/2+.32*F, farX=W/2+.8*F*1.6, finalX=ringPx*.9+.25*F*fScale+8;
     var x,a,s;
     if(c>0){ x=lerp(farX,finalX,c); a=lerp(82,0,c); s=lerp(1.6,fScale,c); }
     else { x=lerp(closedX,farX,o); a=lerp(0,82,o); s=lerp(1,1.6,o); }
-    var breathe = reduce ? 0 : (1-o)*Math.sin(time*1.6)*.012*F;
+    var breathe = reduce ? 0 : (1-o)*Math.sin(time*1.6)*.012*F + (1-seg(p,0,.04))*Math.pow(Math.max(0,Math.sin(time*1.3)),10)*.22*F;
     brL.style.transform='translate(-50%,-50%) translateX('+(-x-breathe)+'px) rotateY('+(-a)+'deg) scale('+s+')';
     brR.style.transform='translate(-50%,-50%) translateX('+(x+breathe)+'px) rotateY('+a+'deg) scale('+s+')';
     var ls=lerp(.08,.95,o);
     mid.style.letterSpacing=ls+'em'; mid.style.paddingLeft=ls+'em';
-    mid.style.opacity=String(1-seg(p,.14,.34)); mid.style.filter='blur('+(o*10).toFixed(2)+'px)';
+    mid.style.opacity=String(1-seg(p,.14,.34)); var px_=document.getElementById('parisX'); if(px_){ px_.style.opacity=String(1-seg(p,.06,.18)); } mid.style.filter='blur('+(o*10).toFixed(2)+'px)';
     glow.style.opacity=String(clamp(seg(p,.12,.38)*(1-.6*seg(p,.62,.8))+.45*c,0,1));
     glow.style.transform='scale('+(1+.25*o-.15*c)+')';
     tOpen.style.opacity=String(1-seg(p,.03,.12));
@@ -626,9 +800,10 @@ footer .wm .br{border-color:var(--or-clair)}
     var r=easeOut(seg(p,.24,.50));
     if(G){
       var macro=band(p,.44,.60,.66,.84);
-      var z = p<.64 ? lerp(10,3.2,ease(seg(p,.30,.62))) : lerp(3.2,9,ease(seg(p,.66,.86)));
-      G.camera.position.set(px*.25*(1-macro), 1.25*macro + (-py)*.15, z*zf);
-      G.camera.lookAt(0, 1.05*macro, 0);
+      var z = p<.64 ? lerp(10,3.2,ease(seg(p,.30,.62))) : lerp(3.2,12,ease(seg(p,.66,.86)));
+      var zz=z*zf, off=c*0.09*2*zz*TAN;
+      G.camera.position.set(px*.25*(1-macro), 1.25*macro + (-py)*.15 - off, zz);
+      G.camera.lookAt(0, 1.05*macro - off, 0);
       G.pivot.position.y=lerp(-4.4,0,r);
       G.pivot.scale.setScalar(lerp(.6,1,r));
       G.pivot.rotation.y = time*.22 + p*Math.PI*2.4 + px*.35;
