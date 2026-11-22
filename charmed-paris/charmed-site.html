@@ -10,6 +10,7 @@
   --velours:#1A1015; --velours-2:#2a1520; --velours-fg:#F2E9EC; --velours-muted:#B9A6AE;
   --porcelaine:#F4F2F5; --surface:#FFFFFF; --encre:#1C1519; --muted:#6B6169; --line:#E2DBE0;
   --grenat:#7A1F3A; --grenat-fg:#FFFFFF; --or:#A9813F; --or-clair:#E9CB8F; --poudre:#E8D9DE;
+  --ivoire:#FBF8F3; --ivoire-2:#EFE7DC; --caramel:#B88C66; --ruban:#5B3A29; --print:#3A2E33; --gold-dot:#D9B25F;
   --glow-a:rgba(255,226,170,.55); --glow-b:rgba(169,129,63,.18); --vignette:rgba(0,0,0,.7); --shade:rgba(26,16,21,.45);
   --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
   --body:"Jost","Futura","Avenir Next","Helvetica Neue",Arial,sans-serif;
@@ -121,23 +122,23 @@ button{font-family:inherit}
 .cbox{position:absolute;left:0;top:0;transform-style:preserve-3d;cursor:pointer}
 .cbox .f{position:absolute;left:0;top:0}
 .cbox .fr{width:170px;height:110px;background:linear-gradient(180deg,color-mix(in srgb,var(--c) 92%,white),var(--c));transform:translate(-50%,-50%) translateZ(85px);display:flex;align-items:center;justify-content:center}
-.cbox .bk{width:170px;height:110px;background:color-mix(in srgb,var(--c) 70%,black);transform:translate(-50%,-50%) rotateY(180deg) translateZ(85px)}
-.cbox .rt{width:170px;height:110px;background:color-mix(in srgb,var(--c) 78%,black);transform:translate(-50%,-50%) rotateY(90deg) translateZ(85px)}
-.cbox .lf{width:170px;height:110px;background:color-mix(in srgb,var(--c) 84%,black);transform:translate(-50%,-50%) rotateY(-90deg) translateZ(85px)}
+.cbox .bk{width:170px;height:110px;background:color-mix(in srgb,var(--c) 80%,black);transform:translate(-50%,-50%) rotateY(180deg) translateZ(85px)}
+.cbox .rt{width:170px;height:110px;background:color-mix(in srgb,var(--c) 86%,black);transform:translate(-50%,-50%) rotateY(90deg) translateZ(85px)}
+.cbox .lf{width:170px;height:110px;background:color-mix(in srgb,var(--c) 90%,black);transform:translate(-50%,-50%) rotateY(-90deg) translateZ(85px)}
 .cbox .bt{width:170px;height:170px;background:color-mix(in srgb,var(--c) 55%,black);transform:translate(-50%,-50%) rotateX(-90deg) translateZ(55px)}
 .cbox .inner{width:160px;height:160px;transform:translate(-50%,-50%) translateY(-50px) rotateX(90deg);background:radial-gradient(circle,rgba(255,226,170,.95),rgba(169,129,63,.35) 45%,transparent 72%);opacity:0;transition:opacity .6s .25s}
 .cbox .shadow{width:250px;height:250px;transform:translate(-50%,-50%) translateY(58px) rotateX(90deg);background:radial-gradient(circle,rgba(0,0,0,.55),transparent 62%)}
-.cbox .mini{display:flex;flex-direction:column;align-items:center;gap:5px;color:var(--or-clair)}
+.cbox .mini{display:flex;flex-direction:column;align-items:center;gap:5px;color:var(--print)}
 .cbox .mini .wm{font-size:15px}
-.cbox .mini .br{border-color:var(--or-clair)}
+.cbox .mini .br{border-color:var(--print)}
 .cbox .mini small{font:500 7px/1 var(--body);letter-spacing:.6em;padding-left:.6em}
 .cbox .lid{position:absolute;left:0;top:0;transform-style:preserve-3d;transform:translate3d(0,-55px,-85px);transition:transform 1s cubic-bezier(.2,.8,.2,1)}
-.cbox .lid .tp{width:176px;height:176px;transform:translate(-50%,-50%) translate3d(0,-24px,87px) rotateX(90deg);background:linear-gradient(90deg,transparent 45%,var(--or-clair) 45% 55%,transparent 55%),linear-gradient(0deg,transparent 45%,var(--or-clair) 45% 55%,transparent 55%),color-mix(in srgb,var(--c) 96%,white)}
-.cbox .lid .tp::after{content:"";position:absolute;left:50%;top:50%;width:44px;height:22px;margin:-11px 0 0 -22px;border:5px solid var(--or-clair);border-radius:50%/60%;box-sizing:border-box}
-.cbox .lid .sf{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(0,-12px,175px);background:linear-gradient(90deg,var(--c) 45%,var(--or-clair) 45% 55%,var(--c) 55%)}
+.cbox .lid .tp{width:176px;height:176px;transform:translate(-50%,-50%) translate3d(0,-24px,87px) rotateX(90deg);background:linear-gradient(90deg,transparent 46%,var(--ruban) 46% 54%,transparent 54%),linear-gradient(0deg,transparent 46%,var(--ruban) 46% 54%,transparent 54%),color-mix(in srgb,var(--c) 96%,white)}
+.cbox .lid .tp::after{content:"";position:absolute;left:50%;top:50%;width:44px;height:22px;margin:-11px 0 0 -22px;border:5px solid var(--ruban);border-radius:50%/60%;box-sizing:border-box}
+.cbox .lid .sf{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(0,-12px,175px);background:linear-gradient(90deg,var(--c) 45%,var(--ruban) 45% 55%,var(--c) 55%)}
 .cbox .lid .sb{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(0,-12px,-1px) rotateY(180deg);background:color-mix(in srgb,var(--c) 70%,black)}
-.cbox .lid .sr{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(88px,-12px,87px) rotateY(90deg);background:linear-gradient(90deg,color-mix(in srgb,var(--c) 78%,black) 45%,var(--or-clair) 45% 55%,color-mix(in srgb,var(--c) 78%,black) 55%)}
-.cbox .lid .sl{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(-88px,-12px,87px) rotateY(-90deg);background:linear-gradient(90deg,color-mix(in srgb,var(--c) 84%,black) 45%,var(--or-clair) 45% 55%,color-mix(in srgb,var(--c) 84%,black) 55%)}
+.cbox .lid .sr{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(88px,-12px,87px) rotateY(90deg);background:linear-gradient(90deg,color-mix(in srgb,var(--c) 86%,black) 45%,var(--ruban) 45% 55%,color-mix(in srgb,var(--c) 86%,black) 55%)}
+.cbox .lid .sl{width:176px;height:24px;transform:translate(-50%,-50%) translate3d(-88px,-12px,87px) rotateY(-90deg);background:linear-gradient(90deg,color-mix(in srgb,var(--c) 90%,black) 45%,var(--ruban) 45% 55%,color-mix(in srgb,var(--c) 90%,black) 55%)}
 .cbox .ccard{width:150px;height:150px;transform:translate(-50%,-50%) translate3d(0,0,0) scale(.6);opacity:0;background:#fbf7f2;padding:6px;box-shadow:0 20px 40px -10px rgba(0,0,0,.6);transition:transform 1s cubic-bezier(.2,.8,.2,1) .15s,opacity .35s .15s}
 .cbox .ccard img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
 .cbox.open .lid{transform:translate3d(0,-55px,-85px) rotateX(104deg)}
@@ -161,6 +162,79 @@ button{font-family:inherit}
 .cof-dots button[aria-current="true"]{background:var(--or-clair);transform:scale(1.5)}
 @media (max-width:560px){.cof-info{grid-template-columns:44px 1fr 44px;gap:8px}.cof-arrow{width:44px;height:44px}}
 @media (prefers-reduced-motion:reduce){.cbox .lid,.cbox .ccard,.cbox .inner{transition:none}.marquee .track{animation:none}}
+
+/* ---------- La file des parures (lineup: une / file / toutes) ---------- */
+.lineup{position:relative;background:radial-gradient(ellipse 80% 70% at 50% 45%,#FBF9FA,#ECE6EA 85%);color:var(--encre);overflow:hidden;user-select:none;-webkit-user-select:none}
+.lu-stage{position:relative;height:min(92vh,780px);min-height:600px;perspective:1100px;perspective-origin:50% 30%;touch-action:pan-y;cursor:grab}
+.lu-stage.drag{cursor:grabbing}
+.lu-item{position:absolute;left:50%;top:50%;width:var(--S);height:var(--S);margin:calc(var(--S) / -2) 0 0 calc(var(--S) / -2);will-change:transform,filter,opacity;cursor:pointer}
+.lu-item .ph{position:absolute;inset:0;overflow:hidden}
+.lu-item img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;display:block;pointer-events:none}
+.lu-item .floor{position:absolute;left:12%;right:12%;bottom:-4%;height:12%;background:radial-gradient(ellipse,rgba(60,30,40,.22),transparent 70%);z-index:-1}
+.lu-item .lbl{position:absolute;left:0;right:0;top:100%;margin-top:8px;text-align:center;font-family:var(--mono);font-size:22px;letter-spacing:.06em;color:var(--muted);opacity:0;transition:opacity .4s;white-space:nowrap}
+.lineup.grid .lu-item .lbl{opacity:1}
+.lu-item .scan{position:absolute;left:-6%;right:-6%;height:2px;top:0;background:linear-gradient(90deg,transparent,var(--or) 20%,var(--or-clair) 50%,var(--or) 80%,transparent);box-shadow:0 0 18px var(--or-clair);opacity:0;pointer-events:none}
+.lu-item.scanning .scan{animation:scan 1.3s cubic-bezier(.4,0,.2,1) 1}
+@keyframes scan{0%{top:2%;opacity:0}10%{opacity:1}90%{opacity:1}100%{top:98%;opacity:0}}
+.lu-top{position:absolute;top:18px;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));display:flex;justify-content:space-between;align-items:flex-start;gap:12px;z-index:5000;pointer-events:none}
+.lu-top > *{pointer-events:auto}
+.lu-title{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);line-height:1.6}
+.lu-title b{color:var(--encre);font-weight:400}
+.lu-views{display:flex;gap:4px;background:var(--surface);padding:4px;border-radius:999px;box-shadow:0 1px 0 var(--line)}
+.lu-views button{font:500 11px var(--body);letter-spacing:.14em;text-transform:uppercase;border:0;background:transparent;color:var(--muted);padding:9px 14px;border-radius:999px;cursor:pointer}
+.lu-views button[aria-pressed="true"]{background:var(--encre);color:var(--porcelaine)}
+.lu-rail{position:absolute;left:max(16px,env(safe-area-inset-left,0px));top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:6px;z-index:5000}
+.lu-rail button{font:400 11px var(--mono);border:0;background:none;color:var(--muted);cursor:pointer;padding:2px 6px;text-align:left;opacity:.55}
+.lu-rail button[aria-current="true"]{color:var(--grenat);opacity:1}
+.lu-rail button[aria-current="true"]::before{content:"— "}
+.lu-name{position:absolute;left:max(16px,env(safe-area-inset-left,0px));bottom:26px;z-index:5000;pointer-events:none;max-width:60%}
+.lu-name small{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.lu-name h3{font-style:italic;font-size:clamp(40px,7vw,92px);line-height:.95;transition:opacity .35s,transform .35s}
+.lu-name h3.out{opacity:0;transform:translateY(14px)}
+.lu-hint{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);z-index:5000;pointer-events:none;white-space:nowrap}
+/* Étiquette (ticket) */
+.ticket-tag{position:absolute;right:max(28px,env(safe-area-inset-right,0px));top:70px;width:250px;background:#FFFEFB;color:var(--encre);z-index:6000;padding:18px 18px 0;box-shadow:0 24px 50px -20px rgba(40,20,30,.35),0 2px 6px rgba(40,20,30,.08);transform-origin:50% -40px;transition:transform .7s cubic-bezier(.2,.8,.2,1),top .7s,width .7s,opacity .4s;font-size:12px;clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
+.ticket-tag::before{content:"";position:absolute;left:50%;top:10px;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:radial-gradient(circle,#ECE6EA 45%,var(--line) 50%,transparent 58%)}
+.ticket-tag .string{position:absolute;left:50%;top:-60px;width:1px;height:76px;background:linear-gradient(var(--or),var(--or-clair));transform-origin:top}
+.tt-head{display:flex;justify-content:space-between;align-items:flex-start;margin-top:14px;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.tt-brand{display:flex;flex-direction:column;gap:3px;color:var(--encre)}
+.tt-brand .wm{font-size:13px}
+.tt-brand .wm .br{border-color:var(--grenat)}
+.tt-code{display:flex;align-items:center;gap:10px;margin-top:14px}
+.tt-code b{font-family:var(--mono);font-weight:400;font-size:20px;border:1.5px solid var(--encre);padding:2px 6px;letter-spacing:.05em}
+.tt-code span{font-family:var(--display);font-style:italic;font-size:20px;line-height:1.1}
+.tt-rows{margin-top:12px;display:flex;flex-direction:column}
+.tt-row{display:flex;justify-content:space-between;gap:8px;padding-block:6px;border-bottom:1px dashed var(--line);font-size:12.5px}
+.tt-row span:last-child{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.tt-total{display:flex;justify-content:space-between;align-items:baseline;margin-top:12px}
+.tt-total span{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tt-total b{font-family:var(--display);font-weight:400;font-size:26px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tt-add{width:100%;margin-top:10px;border:0;background:var(--or-clair);color:var(--velours);font:600 11px var(--body);letter-spacing:.14em;text-transform:uppercase;padding:12px;cursor:pointer;display:flex;justify-content:space-between}
+.tt-add:hover{background:var(--grenat);color:var(--grenat-fg)}
+.tt-bar{height:34px;margin-top:12px;background:repeating-linear-gradient(90deg,var(--encre) 0 2px,transparent 2px 3px,var(--encre) 3px 4px,transparent 4px 7px,var(--encre) 7px 10px,transparent 10px 11px)}
+.tt-sku{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-align:center;margin-top:4px;color:var(--muted)}
+.tt-foot{margin:12px -18px 0;background:var(--grenat);color:var(--grenat-fg);font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;padding:8px 18px;display:flex;justify-content:space-between}
+.lineup:not(.focus) .ticket-tag{top:auto;bottom:24px;width:220px;transform:scale(.82);transform-origin:100% 100%}
+.lineup:not(.focus) .ticket-tag .string,.lineup:not(.focus) .ticket-tag .tt-bar,.lineup:not(.focus) .ticket-tag .tt-sku{display:none}
+.ticket-tag.swap{animation:swing .7s cubic-bezier(.2,.8,.2,1)}
+@keyframes swing{0%{transform:rotate(5deg)}45%{transform:rotate(-3deg)}75%{transform:rotate(1.2deg)}100%{transform:rotate(0)}}
+.lineup:not(.focus) .ticket-tag.swap{animation:none}
+.curl{position:absolute;right:0;bottom:0;width:74px;height:74px;z-index:5500;background:linear-gradient(225deg,#ECE6EA 0 48%,#cfc4ca 50%,#fff 62%,#e9e2e6 100%);box-shadow:-4px -4px 10px rgba(0,0,0,.08);clip-path:polygon(100% 0,100% 100%,0 100%);pointer-events:none}
+@media (max-width:760px){
+  .lu-stage{height:760px;min-height:0}
+  .lu-rail{display:none}
+  .lineup .ticket-tag,.lineup:not(.focus) .ticket-tag{top:auto;bottom:16px;right:16px;width:180px;transform:scale(.9);transform-origin:100% 100%}
+  .lineup .ticket-tag .string,.lineup .ticket-tag .tt-bar,.lineup .ticket-tag .tt-sku,.lineup .ticket-tag .tt-rows{display:none}
+  .lu-name{bottom:20px;max-width:46%}
+  .lu-title{display:none}
+  .lu-top{justify-content:center}
+  .lu-hint{bottom:auto;top:70px}
+  .lu-views button{padding:8px 12px}
+  .tt-total b{font-size:20px}
+  .tt-code b{font-size:15px}
+  .tt-code span{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){.lu-item.scanning .scan{animation:none}.ticket-tag.swap{animation:none}}
 
 /* ---------- Product cards ---------- */
 .head-row{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:36px}
@@ -234,6 +308,60 @@ button{font-family:inherit}
 .offrir ul{list-style:none;margin:24px 0 0;padding:0;display:flex;flex-direction:column;gap:0}
 .offrir li{display:grid;grid-template-columns:28px 1fr;gap:12px;padding-block:14px;border-bottom:1px solid var(--line)}
 .offrir li i{font-style:normal;color:var(--or);font-family:var(--display);font-size:20px;line-height:1}
+
+/* ---------- Offrir: flat-lay unboxing (4 vrais packagings Branvas) ---------- */
+.boxscene{position:relative;aspect-ratio:1/1;max-width:100%;display:flex;align-items:flex-end;justify-content:center;padding-bottom:7%;perspective:1500px;background:radial-gradient(circle at 40% 35%,#F8F2EB,#E6D9CC 78%);overflow:hidden;
+  --h1:#D2A86E;--h2:#A57A47}
+.boxscene[data-pack="h"]{--h1:#3A3536;--h2:#141112;background:radial-gradient(circle at 40% 35%,#5a5658,#262324 78%)}
+.boxscene[data-pack^="noel"]{--h1:#D42A33;--h2:#8E141C;background:radial-gradient(circle at 40% 35%,#F6ECE4,#E2CFC2 78%)}
+.mailer{position:relative;width:76%;aspect-ratio:1.45/1;transform-style:preserve-3d}
+.mailer .base{position:absolute;inset:0;background:linear-gradient(180deg,#E9DCC8,#DCCAB1);box-shadow:inset 0 0 0 6px #F7F3EE,inset 0 14px 26px rgba(90,60,30,.25),0 22px 34px -20px rgba(40,25,15,.5)}
+.flap{position:absolute;left:0;right:0;bottom:100%;height:100%;transform-origin:50% 100%;transform-style:preserve-3d;transform:rotateX(-180deg)}
+.flap .in,.flap .out{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.flap .in{background:linear-gradient(180deg,#FFFFFF,#F6F4F1);box-shadow:inset 0 0 0 7px #FBFAF8,inset 0 -14px 24px rgba(120,90,60,.12);color:#8C7B6E}
+.flap .in .wm{font-size:clamp(16px,2vw,24px)}
+.flap .in .br{border-color:#8C7B6E}
+.flap .in small{font:500 9px/1 var(--body);letter-spacing:.6em;padding-left:.6em}
+.flap .out{transform:rotateX(180deg);background:linear-gradient(0deg,#FFFFFF,#F2EFEB);box-shadow:0 18px 30px -18px rgba(80,50,30,.4)}
+.seal{width:23%;aspect-ratio:1/1;border-radius:50%;background:radial-gradient(circle at 35% 30%,#F3DDA6,#C99A45 70%);display:flex;align-items:center;justify-content:center;text-align:center;color:var(--print);font:500 clamp(7px,.8vw,10px)/1.4 var(--body);letter-spacing:.25em;box-shadow:0 2px 4px rgba(0,0,0,.15)}
+.base > *{position:absolute;transition:opacity .45s,transform .45s}
+.pk-off{opacity:0 !important;transform:scale(.92) !important;pointer-events:none}
+.honey{top:4%;bottom:4%;border-radius:4px;background:radial-gradient(circle at 50% 50%,var(--h1) 0 28%,var(--h2) 31% 44%,transparent 46%) 0 0/15px 15px,linear-gradient(135deg,var(--h1),var(--h2));box-shadow:inset -6px 0 10px rgba(40,20,10,.3)}
+.honey.h1{left:2%;width:19%;transform:rotate(1.5deg)}
+.honey.h2{right:2%;width:17%;transform:rotate(-2deg)}
+.c-cloth{left:31%;top:5%;width:21%;height:30%;background:#FFFDF9;box-shadow:0 3px 6px rgba(60,40,20,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font:italic 400 clamp(5px,.55vw,8px)/1 var(--display);color:#B08A55}
+.c-cloth b{font:400 clamp(14px,1.8vw,24px)/1 var(--display);color:#C49A50}
+.c-ty{left:53%;top:3%;width:17%;height:46%;background:#FFFDF9;box-shadow:0 3px 8px rgba(60,40,20,.18);transform:rotate(3deg);padding:6%;display:flex;flex-direction:column;gap:6%;align-items:stretch}
+.c-ty i{display:block;flex:1;background:linear-gradient(135deg,#E8D2C4,#C9A592);border-radius:2px}
+.c-ty span{font:italic 400 clamp(8px,1vw,13px)/1 var(--display);text-align:center;color:#3a2e33}
+.c-xmas{left:71%;top:6%;width:15%;height:44%;transform:rotate(-4deg);background:linear-gradient(160deg,#F7E6BF,#E9C77D);box-shadow:0 4px 8px rgba(60,30,10,.25);display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding-bottom:8%;font:italic 600 clamp(6px,.8vw,10px)/1.1 var(--display);color:#A3201F;text-align:center}
+.c-xmas::before{content:"";position:absolute;left:50%;top:12%;width:0;height:0;margin-left:-26%;border-left:26% solid transparent;border-left-width:clamp(10px,1.6vw,20px);border-right:clamp(10px,1.6vw,20px) solid transparent;border-bottom:clamp(26px,4vw,52px) solid #2E6B3A;transform:translateX(-50%);margin-left:0}
+.c-xmas::after{content:"★";position:absolute;left:50%;top:5%;transform:translateX(-50%);color:#E2A93B;font-size:clamp(8px,1.1vw,14px);font-style:normal}
+.gift{left:22%;top:34%;width:30%;height:60%;background:linear-gradient(180deg,#FFFFFF,#F2F0EC);box-shadow:0 10px 18px -8px rgba(60,40,20,.4),inset 0 0 0 1px #E8E4DE;display:flex;align-items:center;justify-content:center;--rb:var(--ruban);--rbdot:#E0B45A}
+.boxscene[data-pack="noel-f"] .gift{--rb:#1E5A34;--rbdot:#E7C25A}
+.gift .rb{position:absolute;background:radial-gradient(circle,var(--rbdot) 0 1.3px,transparent 1.9px) 0 0/8px 8px,var(--rb)}
+.gift .rb.v{left:10%;width:9%;top:0;bottom:0}
+.gift .rb.h{top:12%;height:12%;left:0;right:0}
+.gift .bow{position:absolute;left:14.5%;top:18%;width:40%;height:22%;transform:translate(-50%,-50%)}
+.gift .bow::before,.gift .bow::after{content:"";position:absolute;top:0;width:48%;height:100%;border:4px solid var(--rb);border-radius:50%/60%;box-sizing:border-box}
+.gift .bow::before{left:0;transform:rotate(-16deg)}
+.gift .bow::after{right:0;transform:rotate(16deg)}
+.gift-logo{position:relative;margin-top:14%;padding-left:24%;font:500 clamp(6px,.75vw,10px)/1 var(--body);letter-spacing:.35em;color:#8C7B6E}
+.holly{left:24%;top:30%;width:9%;aspect-ratio:1/1;background:radial-gradient(circle at 30% 60%,#C21E2A 0 14%,transparent 16%),radial-gradient(circle at 52% 70%,#C21E2A 0 14%,transparent 16%),radial-gradient(ellipse at 50% 40%,#8A5A33 0 30%,#5d3a1f 32% 40%,transparent 42%),radial-gradient(ellipse at 80% 30%,#2E6B3A 0 30%,transparent 32%)}
+.pouch-v{left:53%;top:54%;width:27%;height:40%;background:linear-gradient(160deg,#7A5444,#5A3A2E);border-radius:4px;box-shadow:0 8px 14px -8px rgba(40,20,10,.5),inset 0 0 18px rgba(0,0,0,.25)}
+.pouch-v::after{content:"";position:absolute;right:-12%;top:30%;width:22%;height:12%;background:#B88C66;border-radius:2px}
+.pouch-l{left:21%;top:30%;width:29%;height:64%;background:radial-gradient(ellipse at 40% 30%,#3d3a3b,#151314 70%);border-radius:10% 10% 14% 14%;box-shadow:0 10px 18px -8px rgba(0,0,0,.6)}
+.pouch-l::before{content:"";position:absolute;left:50%;top:55%;width:22%;aspect-ratio:1/1;border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(circle at 35% 30%,#f2f2f2,#9a9a9a 70%)}
+.pouch-l::after{content:"";position:absolute;right:18%;top:8%;width:2px;height:70%;background:#0c0b0b;box-shadow:6px 0 0 #0c0b0b}
+.frame{left:52%;top:44%;width:24%;height:50%;background:#141213;box-shadow:0 10px 18px -8px rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center}
+.frame::before{content:"";position:absolute;inset:16%;background:linear-gradient(135deg,rgba(255,255,255,.35),rgba(255,255,255,.05));border:1px solid rgba(255,255,255,.25)}
+.frame .rb{position:absolute;background:radial-gradient(circle,#E2B44E 0 1.2px,transparent 1.8px) 0 0/8px 8px,#C3202B}
+.frame .rb.v{left:46%;width:9%;top:0;bottom:0}
+.frame .rb.h{top:44%;height:11%;left:0;right:0}
+.pack-switch{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:16px}
+.pack-switch button{font:500 12px var(--body);letter-spacing:.08em;border:1px solid var(--line);background:var(--surface);color:var(--encre);padding:8px 14px;border-radius:999px;cursor:pointer}
+.pack-switch button[aria-pressed="true"]{background:var(--encre);color:var(--porcelaine);border-color:var(--encre)}
+.pack-note{font-size:13px;color:var(--muted);text-align:center;margin-top:8px}
 
 /* ---------- Reassurance / newsletter / footer ---------- */
 .reass{border-block:1px solid var(--line);background:var(--surface)}
@@ -368,7 +496,7 @@ footer .wm .br{border-color:var(--or-clair)}
 
 <section class="coffrets" id="coffrets" aria-label="Choisis ton coffret">
   <div class="wrap cof-head">
-    <div class="eyebrow">8 parures · 8 écrins</div>
+    <div class="eyebrow">8 parures · 8 coffrets ivoire</div>
     <h2>Choisis ton coffret</h2>
     <p>Fais tourner les coffrets. Celui qui arrive devant toi s'ouvre sur sa parure.</p>
   </div>
@@ -388,13 +516,32 @@ footer .wm .br{border-color:var(--or-clair)}
 
 <div class="annonce">Coffret de Noël offert jusqu'au 24 décembre · Livraison offerte dès 50 € · 2e parure −15 %</div>
 
-<section class="band" id="pieces">
-  <div class="wrap">
-    <div class="head-row">
-      <div><div class="eyebrow">Uniquement des parures</div><h2>Collier et boucles, assortis</h2></div>
-      <p class="mock">Maquette · prix et visuels d'exemple</p>
+<section class="lineup focus" id="pieces" aria-label="La file des parures">
+  <div class="lu-stage" id="luStage" tabindex="0" aria-label="Parures : flèches gauche et droite pour passer à la suivante">
+    <div class="lu-top">
+      <div class="lu-title"><b>CHARMED PARIS</b><br>La file des parures · 9 écrins</div>
+      <div class="lu-views" role="group" aria-label="Affichage">
+        <button type="button" data-v="focus" aria-pressed="true">Une</button>
+        <button type="button" data-v="queue" aria-pressed="false">La file</button>
+        <button type="button" data-v="grid" aria-pressed="false">Toutes</button>
+      </div>
     </div>
-    <div class="grid3" id="grid-film"></div>
+    <nav class="lu-rail" id="luRail" aria-label="Choisir une parure"></nav>
+    <div id="luItems"></div>
+    <div class="lu-name" aria-live="polite"><small id="luMeta"></small><h3 id="luName"></h3></div>
+    <div class="lu-hint" id="luHint">Glisse, ou utilise les flèches ← →</div>
+    <aside class="ticket-tag" id="luTag" aria-label="Étiquette de la parure">
+      <span class="string" aria-hidden="true"></span>
+      <div class="tt-head"><span class="tt-brand"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><span>Paris</span></span><span id="ttNo">Écrin n°01</span></div>
+      <div class="tt-code"><b id="ttCode">MOL</b><span id="ttName"></span></div>
+      <div class="tt-rows" id="ttRows"></div>
+      <div class="tt-total"><span>Total parure</span><b id="ttPrice"></b></div>
+      <button class="tt-add" type="button" id="ttAdd"><span>Ajouter à l'écrin</span><span>→</span></button>
+      <div class="tt-bar" aria-hidden="true"></div>
+      <div class="tt-sku" id="ttSku"></div>
+      <div class="tt-foot"><span>Coffret de Noël offert</span><span>Paris</span></div>
+    </aside>
+    <div class="curl" aria-hidden="true"></div>
   </div>
 </section>
 
@@ -437,21 +584,42 @@ footer .wm .br{border-color:var(--or-clair)}
 
 <section class="band offrir" id="offrir" style="padding-top:0">
   <div class="wrap">
-    <div class="boxscene" id="boxscene" aria-hidden="true">
-      <div class="box">
-        <div class="drawer" id="drawer"><div class="pouch"></div><div class="card-msg">Ouvre-moi.</div></div>
-        <div class="shell"><span class="shell-in"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><small>PARIS</small></span></div>
-        <div class="ribbon"></div>
+    <div>
+    <div class="boxscene" id="boxscene" data-pack="noel-f" aria-hidden="true">
+      <div class="mailer">
+        <div class="base">
+          <div class="honey h1"></div><div class="honey h2"></div>
+          <div class="c-cloth" data-p="all"><b>✿</b>Jewelry polishing cloth</div>
+          <div class="c-ty" data-p="all"><i></i><i></i><span>Merci.</span></div>
+          <div class="c-xmas" data-p="noel-f noel-h">Merry<br>Christmas</div>
+          <div class="gift" data-p="f noel-f"><i class="rb v"></i><i class="rb h"></i><i class="bow"></i><span class="gift-logo">CHARMED PARIS</span></div>
+          <div class="holly" data-p="noel-f"></div>
+          <div class="pouch-v" data-p="f noel-f"></div>
+          <div class="pouch-l" data-p="h noel-h"></div>
+          <div class="frame" data-p="h noel-h"><i class="rb v" data-p="noel-h"></i><i class="rb h" data-p="noel-h"></i></div>
+        </div>
+        <div class="flap" id="flap">
+          <div class="in"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><small>PARIS</small></div>
+          <div class="out"><span class="seal">CHARMED<br>PARIS</span></div>
+        </div>
       </div>
+    </div>
+    <div class="pack-switch" role="group" aria-label="Choisir le packaging">
+      <button type="button" data-pack="f" aria-pressed="false">Femme</button>
+      <button type="button" data-pack="h" aria-pressed="false">Homme</button>
+      <button type="button" data-pack="noel-f" aria-pressed="true">Noël · Femme</button>
+      <button type="button" data-pack="noel-h" aria-pressed="false">Noël · Homme</button>
+    </div>
+    <p class="pack-note">Packagings Branvas réels, ton logo à la place du leur. Noël : du 20 novembre au 24 décembre.</p>
     </div>
     <div>
       <div class="eyebrow">L'écrin Charmed</div>
       <h2 style="font-size:clamp(32px,4.4vw,52px);margin-top:12px">Chaque commande arrive prête à offrir</h2>
       <ul>
-        <li><i>i</i><span>Une boîte-tiroir rigide, notre logo sur le couvercle, un ruban à tirer.</span></li>
-        <li><i>ii</i><span>Une pochette en velours et une chamoisine pour l'entretien.</span></li>
-        <li><i>iii</i><span>Une carte « Ouvre-moi » avec ton message, gratuite.</span></li>
-        <li><i>iv</i><span>Jusqu'au 24 décembre : l'emballage de Noël, offert sur chaque commande.</span></li>
+        <li><i>i</i><span>Un coffret blanc, notre logo imprimé à l'intérieur du couvercle, calé dans du papier nid d'abeille.</span></li>
+        <li><i>ii</i><span>Pour elle : une boîte blanche nouée d'un ruban chocolat à cœurs dorés, et une pochette en velours. Pour lui : une pochette en cuir noir et un écrin cadre noir.</span></li>
+        <li><i>iii</i><span>Une chamoisine d'entretien et une carte de remerciement. En décembre : papier rouge, ruban de Noël et carte « Merry Christmas ».</span></li>
+        <li><i>iv</i><span>Jusqu'au 24 décembre : l'emballage de Noël est offert sur chaque commande.</span></li>
       </ul>
     </div>
   </div>
@@ -528,7 +696,7 @@ footer .wm .br{border-color:var(--or-clair)}
   function svgUse(p){ return '<img src="'+p.img+'" alt="" loading="lazy" width="400" height="400">'; }
 
   var grid = document.getElementById('grid-film');
-  P.forEach(function(p){
+  if(grid) P.forEach(function(p){
     var c = document.createElement('article'); c.className='card';
     c.innerHTML = '<div class="visual">'+svgUse(p)+'<span class="tag"></span><div class="quick"><button class="btn" type="button">Ajouter à l\'écrin</button></div></div>'+
       '<h3></h3><div class="meta"><span class="mat"></span><span class="price"></span></div>';
@@ -583,14 +751,14 @@ footer .wm .br{border-color:var(--or-clair)}
   /* ---------- Coffrets carousel ---------- */
   (function(){
     var C=[
-      {id:'molten',  n:'Parure Molten Art',     m:'Collier et boucles, métal doré sculpté',      price:49,  img:'img/JSGRQR.webp', tag:'Sculpture',        c:'#1F1218'},
-      {id:'solar',   n:'Parure Solar Sphere',   m:'Collier et puces, doré, zircons',              price:69,  img:'img/JS1AQ5.webp', tag:'Éclat',            c:'#7A1F3A'},
-      {id:'emerald', n:'Parure Emerald Square', m:'Collier et puces, émail et pierres vertes',    price:69,  img:'img/JS3GGZ.webp', tag:'Couleur précieuse', c:'#1F3A2E'},
-      {id:'pearl',   n:'Parure Liquid Art',     m:'Collier et boucles, perles baroques',          price:59,  img:'img/JSG813.webp', tag:'Sculpture',        c:'#E3D2D8'},
-      {id:'luxe',    n:'Parure Golden Luxe',    m:'Collier goutte et boucles, zircons',           price:79,  img:'img/JSJB3S.webp', tag:'Éclat',            c:'#1F1218'},
-      {id:'sapphire',n:'Parure Royal Sapphire', m:'Collier, boucles et bague, pierres bleues',    price:79,  img:'img/JSX3G6.webp', tag:'Couleur précieuse', c:'#1C2440'},
-      {id:'blush',   n:'Parure Blush Dreams',   m:'Argent 925, moissanites roses',                price:189, img:'img/JSSFYS.webp', tag:'Joaillerie 925',   c:'#7A1F3A'},
-      {id:'geo',     n:'Parure Golden Hour',    m:'Collier et créoles, pierres champagne',        price:69,  img:'img/JS63VP.webp', tag:'Éclat',            c:'#E3D2D8'}
+      {id:'molten',  n:'Parure Molten Art',     m:'Collier et boucles, métal doré sculpté',      price:49,  img:'img/JSGRQR.webp', tag:'Sculpture',        c:'#F6F1EA'},
+      {id:'solar',   n:'Parure Solar Sphere',   m:'Collier et puces, doré, zircons',              price:69,  img:'img/JS1AQ5.webp', tag:'Éclat',            c:'#F6F1EA'},
+      {id:'emerald', n:'Parure Emerald Square', m:'Collier et puces, émail et pierres vertes',    price:69,  img:'img/JS3GGZ.webp', tag:'Couleur précieuse', c:'#F6F1EA'},
+      {id:'pearl',   n:'Parure Liquid Art',     m:'Collier et boucles, perles baroques',          price:59,  img:'img/JSG813.webp', tag:'Sculpture',        c:'#F6F1EA'},
+      {id:'luxe',    n:'Parure Golden Luxe',    m:'Collier goutte et boucles, zircons',           price:79,  img:'img/JSJB3S.webp', tag:'Éclat',            c:'#F6F1EA'},
+      {id:'sapphire',n:'Parure Royal Sapphire', m:'Collier, boucles et bague, pierres bleues',    price:79,  img:'img/JSX3G6.webp', tag:'Couleur précieuse', c:'#F6F1EA'},
+      {id:'blush',   n:'Parure Blush Dreams',   m:'Argent 925, moissanites roses',                price:189, img:'img/JSSFYS.webp', tag:'Joaillerie 925',   c:'#F6F1EA'},
+      {id:'geo',     n:'Parure Golden Hour',    m:'Collier et créoles, pierres champagne',        price:69,  img:'img/JS63VP.webp', tag:'Éclat',            c:'#F6F1EA'}
     ];
     C.forEach(function(p){ byId[p.id]=p; });
     var N=C.length, step=360/N, R=400;
@@ -649,6 +817,104 @@ footer .wm .br{border-color:var(--or-clair)}
     setInfo(0); requestAnimationFrame(tick);
   })();
 
+  /* ---------- La file des parures ---------- */
+  (function(){
+    byId.crescent={id:'crescent', n:'Parure Crescent Glow', m:'Collier, créoles et bague, zircons', price:69, img:'img/JS4EXR.webp'};
+    var L=[
+      {id:'molten', name:'Molten Art', uni:'Sculpture', code:'MOL', sku:'JSGRQR', pcs:['Collier','Boucles d\'oreilles']},
+      {id:'solar', name:'Solar Sphere', uni:'Éclat', code:'SOL', sku:'JS1AQ5', pcs:['Collier','Puces d\'oreilles']},
+      {id:'emerald', name:'Emerald Square', uni:'Couleur précieuse', code:'EME', sku:'JS3GGZ', pcs:['Collier','Puces d\'oreilles']},
+      {id:'pearl', name:'Liquid Art', uni:'Sculpture', code:'LIQ', sku:'JSG813', pcs:['Collier','Boucles d\'oreilles']},
+      {id:'luxe', name:'Golden Luxe', uni:'Éclat', code:'GLX', sku:'JSJB3S', pcs:['Collier goutte','Boucles d\'oreilles']},
+      {id:'sapphire', name:'Royal Sapphire', uni:'Couleur précieuse', code:'SAP', sku:'JSX3G6', pcs:['Collier','Boucles d\'oreilles','Bague']},
+      {id:'blush', name:'Blush Dreams', uni:'Joaillerie 925', code:'BLU', sku:'JSSFYS', pcs:['Collier','Boucles d\'oreilles','Bracelet','Bague']},
+      {id:'geo', name:'Golden Hour', uni:'Éclat', code:'GHR', sku:'JS63VP', pcs:['Collier','Créoles']},
+      {id:'crescent', name:'Crescent Glow', uni:'Éclat', code:'CRE', sku:'JS4EXR', pcs:['Collier','Créoles','Bague']}
+    ];
+    var N=L.length, root=$('pieces'), stage=$('luStage'), host=$('luItems'), rail=$('luRail');
+    var reduceM = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var view='focus', cur=0, target=0, els=[], st=[], S=360, W=1, H=1, visible=true;
+    L.forEach(function(p,k){
+      var e=document.createElement('div'); e.className='lu-item';
+      e.innerHTML='<div class="floor"></div><div class="ph"><img alt="" width="400" height="400"></div><div class="scan"></div><div class="lbl"></div>';
+      e.querySelector('img').src=byId[p.id].img; e.querySelector('img').alt='Parure '+p.name;
+      e.querySelector('.lbl').textContent=String(k+1).padStart(2,'0')+' '+p.name.toUpperCase()+' · '+eur(byId[p.id].price);
+      e.addEventListener('click', function(){ if(moved) return; if(view==='focus' && k===idx()) return; if(view==='grid'){ jump(k); setView('focus'); } else if(k===idx()){ setView('focus'); } else jump(k); });
+      host.appendChild(e); els.push(e); st.push({x:0,y:0,z:-3000,s:1,b:10,o:0});
+      var r=document.createElement('button'); r.type='button'; r.textContent=String(k+1).padStart(2,'0'); r.setAttribute('aria-label',p.name); r.addEventListener('click',function(){ jump(k); }); rail.appendChild(r);
+    });
+    function idx(){ return ((Math.round(target)%N)+N)%N; }
+    function jump(k){ var c=Math.round(target), d=((k-idx())%N+N)%N; if(d>N/2) d-=N; target=c+d; }
+    function setView(v){ view=v; root.classList.toggle('focus',v==='focus'); root.classList.toggle('grid',v==='grid');
+      root.querySelectorAll('.lu-views button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.v===v?'true':'false'); });
+      $('luHint').textContent = v==='grid' ? 'Clique sur une parure pour l\'ouvrir' : 'Glisse, ou utilise les flèches ← →';
+      if(v==='focus') scanNow(); }
+    root.querySelectorAll('.lu-views button').forEach(function(b){ b.addEventListener('click', function(){ setView(b.dataset.v); }); });
+    var shown=-1;
+    function scanNow(){ var e=els[idx()]; e.classList.remove('scanning'); void e.offsetWidth; e.classList.add('scanning'); }
+    function showInfo(k){
+      var p=L[k], b=byId[p.id], h=$('luName');
+      h.classList.add('out');
+      setTimeout(function(){ h.textContent=p.name; $('luMeta').textContent='Parure n°'+String(k+1).padStart(2,'0')+' · '+p.uni; h.classList.remove('out'); }, reduceM?0:180);
+      $('ttNo').textContent='Écrin n°'+String(k+1).padStart(2,'0'); $('ttCode').textContent=p.code; $('ttName').textContent=p.name;
+      $('ttRows').innerHTML=''; p.pcs.forEach(function(x){ var r=document.createElement('div'); r.className='tt-row'; r.innerHTML='<span></span><span>inclus</span>'; r.firstChild.textContent=x; $('ttRows').appendChild(r); });
+      var r=document.createElement('div'); r.className='tt-row'; r.innerHTML='<span>Coffret tiroir, pochette, carte</span><span>offert</span>'; $('ttRows').appendChild(r);
+      $('ttPrice').textContent=eur(b.price); $('ttSku').textContent=p.sku+' · CHARMED PARIS';
+      var t=$('luTag'); t.classList.remove('swap'); void t.offsetWidth; t.classList.add('swap');
+      Array.prototype.forEach.call(rail.children,function(x,i){ x.setAttribute('aria-current', i===k?'true':'false'); });
+      if(view==='focus') scanNow();
+    }
+    $('ttAdd').addEventListener('click', function(){ add(L[idx()].id); });
+    // Input
+    var drag=false, sx=0, st0=0, moved=false;
+    stage.addEventListener('pointerdown', function(e){ if(e.target.closest('.ticket-tag,.lu-views,.lu-rail')) return; drag=true; moved=false; sx=e.clientX; st0=target; stage.classList.add('drag'); try{ stage.setPointerCapture(e.pointerId); }catch(_){} });
+    stage.addEventListener('pointermove', function(e){ if(!drag) return; var dx=e.clientX-sx; if(Math.abs(dx)>6) moved=true; if(view!=='grid') target=st0-dx/(S*0.9); });
+    function up(){ if(!drag) return; drag=false; stage.classList.remove('drag'); target=Math.round(target); }
+    stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
+    stage.addEventListener('keydown', function(e){ if(e.key==='ArrowRight'){ e.preventDefault(); target=Math.round(target)+1; } if(e.key==='ArrowLeft'){ e.preventDefault(); target=Math.round(target)-1; } if(e.key==='Enter'){ setView('focus'); } });
+    var wt=null; stage.addEventListener('wheel', function(e){ if(view!=='grid' && Math.abs(e.deltaX)>Math.abs(e.deltaY)){ e.preventDefault(); target+=e.deltaX/400; clearTimeout(wt); wt=setTimeout(function(){ target=Math.round(target); },140); } }, {passive:false});
+    function fit(){ W=stage.clientWidth; H=stage.clientHeight; S=Math.round(Math.min(W*0.62, H*0.56, 440)); stage.style.setProperty('--S', S+'px'); }
+    fit(); window.addEventListener('resize', fit);
+    if('IntersectionObserver' in window){ new IntersectionObserver(function(es){ visible=es[0].isIntersecting; }).observe(stage); }
+    var SX=[0,-.62,.62,-1.18,1.18,-.32,.32,-.9,.9], SR=[0,1,1,2,2,3,3,4,4];
+    function slot(d){
+      if(d<0){ var t=-d; return {x:0,y:S*.1*t,z:S*1.3*t,s:1,b:5*t,o:1-t}; }
+      var a=Math.floor(d), f=d-a, b2=Math.min(a+1,N-1);
+      function one(n){ var r=SR[n]||4; return {x:(SX[n]||0)*S*.95, y:-r*S*.06, z:-r*S*.95, s:1, b:r*2.2, o:Math.max(0,1-r*.13)}; }
+      var p=one(a), q=one(b2); return {x:p.x+(q.x-p.x)*f, y:p.y+(q.y-p.y)*f, z:p.z+(q.z-p.z)*f, s:1, b:p.b+(q.b-p.b)*f, o:p.o+(q.o-p.o)*f};
+    }
+    var c=0;
+    function frame(){
+      requestAnimationFrame(frame);
+      if(!visible) return;
+      c = reduceM ? target : c+(target-c)*0.12;
+      var k0=idx(); if(k0!==shown && !drag){ shown=k0; showInfo(k0); }
+      var narrow = W<760;
+      els.forEach(function(e,k){
+        var g;
+        if(view==='grid'){
+          var col=k%3, row=Math.floor(k/3), gs=narrow?.42:.5;
+          g={x:(col-1)*S*(narrow?.5:.82), y:(row-1)*S*(narrow?.62:.6)+S*.02, z:0, s:gs, b:0, o:1};
+        } else {
+          var d=((k-c)%N+N)%N; if(d>N-1) d-=N;
+          g=slot(d);
+          if(view==='focus'){
+            if(Math.abs(k-((Math.round(c)%N)+N)%N)===0 && Math.abs(d)<.5){ g={x:narrow?0:-S*.18, y:narrow?-S*.12:0, z:0, s:narrow?1.02:1.18, b:d*d*8, o:1-Math.abs(d)}; }
+            else { g.z-=S*2.5; g.o=0; }
+          }
+        }
+        var o=st[k], lf=reduceM?1:.11;
+        o.x+=(g.x-o.x)*lf; o.y+=(g.y-o.y)*lf; o.z+=(g.z-o.z)*lf; o.s+=(g.s-o.s)*lf; o.b+=(g.b-o.b)*lf; o.o+=(g.o-o.o)*lf;
+        e.style.transform='translate3d('+o.x.toFixed(1)+'px,'+o.y.toFixed(1)+'px,'+o.z.toFixed(1)+'px) scale('+o.s.toFixed(3)+')';
+        e.style.filter=o.b>.15?'blur('+o.b.toFixed(1)+'px)':'none';
+        e.style.opacity=Math.max(0,Math.min(1,o.o)).toFixed(3);
+        e.style.zIndex=String(1000+Math.round(o.z));
+        e.style.pointerEvents=o.o>.3?'auto':'none';
+      });
+    }
+    requestAnimationFrame(frame);
+  })();
+
   /* ---------- Newsletter ---------- */
   $('news-form').addEventListener('submit', function(e){
     e.preventDefault(); var v=$('news-mail').value.trim();
@@ -657,16 +923,23 @@ footer .wm .br{border-color:var(--or-clair)}
   });
 
   /* ---------- Header + gift box on scroll ---------- */
-  var hdr=$('hdr'), intro=$('intro'), scene=$('boxscene'), drawer=$('drawer');
+  var hdr=$('hdr'), intro=$('intro'), scene=$('boxscene'), flap=$('flap');
   function onScroll(){
     var r=intro.getBoundingClientRect();
     hdr.classList.toggle('solid', r.bottom < 70);
     var b=scene.getBoundingClientRect(), vh=window.innerHeight;
     var t=Math.min(1,Math.max(0,(vh - b.top)/(vh*0.9)));
     var e=t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
-    drawer.style.transform='translateY('+(e*62)+'%)';
+    flap.style.transform='rotateX('+(-180*(1-e)).toFixed(1)+'deg)';
   }
   window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  function setPack(v){
+    scene.dataset.pack=v;
+    scene.querySelectorAll('[data-p]').forEach(function(el){ var ok=el.dataset.p==='all' || el.dataset.p.split(' ').indexOf(v)>=0; el.classList.toggle('pk-off', !ok); });
+    document.querySelectorAll('.pack-switch button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.pack===v?'true':'false'); });
+  }
+  document.querySelectorAll('.pack-switch button').forEach(function(b){ b.addEventListener('click', function(){ setPack(b.dataset.pack); }); });
+  setPack('noel-f');
 })();
 </script>
 
