@@ -1,0 +1,1240 @@
+{
+ "products": [
+  {
+   "sku": "JSGRQR",
+   "model": "Molten Art",
+   "name": {
+    "fr": "Parure Molten Art",
+    "en": "Molten Art Set"
+   },
+   "price": 49,
+   "u": "sculpture",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré",
+    "en": "Gold-plated brass"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "MOA",
+   "img": "assets/img/produits/JSGRQR.webp",
+   "cut": "assets/img/detoures/JSGRQR.webp",
+   "line": {
+    "fr": "Un collier deux rangs et des boucles en métal froissé, pour donner du relief à une tenue simple.",
+    "en": "A two-row necklace and earrings in crumpled gold, to give a plain outfit some texture."
+   },
+   "url": "parure-molten-art.html",
+   "alt": {
+    "fr": "Parure Molten Art : collier + boucles d'oreilles, laiton doré",
+    "en": "Molten Art Set: necklace + earrings, gold-plated brass"
+   },
+   "tags": "collier, boucles d'oreilles, doré, moins de 50 €, idée cadeau, necklace, earrings, gold, under €50, gift idea"
+  },
+  {
+   "sku": "JSM1BZ",
+   "model": "Crumpled Cube",
+   "name": {
+    "fr": "Parure Crumpled Cube",
+    "en": "Crumpled Cube Set"
+   },
+   "price": 49,
+   "u": "sculpture",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré",
+    "en": "Gold-plated brass"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "CRC",
+   "img": "assets/img/produits/JSM1BZ.webp",
+   "cut": null,
+   "line": {
+    "fr": "Un cube doré froissé, en pendentif et en boucles pendantes.",
+    "en": "A crumpled gold cube, as a pendant and as drop earrings."
+   },
+   "url": "parure-crumpled-cube.html",
+   "alt": {
+    "fr": "Parure Crumpled Cube : collier + boucles d'oreilles, laiton doré",
+    "en": "Crumpled Cube Set: necklace + earrings, gold-plated brass"
+   },
+   "tags": "collier, boucles d'oreilles, doré, géométrique, moins de 50 €, idée cadeau, necklace, earrings, gold, geometric, under €50, gift idea"
+  },
+  {
+   "sku": "JS8445",
+   "model": "Celestial Star Moon",
+   "name": {
+    "fr": "Parure Celestial Star Moon",
+    "en": "Celestial Star Moon Set"
+   },
+   "price": 49,
+   "u": "sculpture",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton bicolore, Oxydes de zirconium",
+    "en": "Two-tone brass, Cubic zirconia"
+   },
+   "metal": "bicolore",
+   "ring": false,
+   "code": "CES",
+   "img": "assets/img/produits/JS8445.webp",
+   "cut": null,
+   "line": {
+    "fr": "La lune en argenté, l'étoile en doré, sur un collier double chaîne et des boucles pendantes.",
+    "en": "The moon in silver, the star in gold, on a double-chain necklace and drop earrings."
+   },
+   "url": "parure-celestial-star-moon.html",
+   "alt": {
+    "fr": "Parure Celestial Star Moon : collier + boucles d'oreilles, laiton bicolore, oxydes de zirconium",
+    "en": "Celestial Star Moon Set: necklace + earrings, two-tone brass, cubic zirconia"
+   },
+   "tags": "collier, boucles d'oreilles, bicolore, lune, étoile, oxydes de zirconium, moins de 50 €, idée cadeau, necklace, earrings, two-tone, moon, star, cubic zirconia, under €50, gift idea"
+  },
+  {
+   "sku": "JS411P",
+   "model": "Fluid Dreams",
+   "name": {
+    "fr": "Parure Fluid Dreams",
+    "en": "Fluid Dreams Set"
+   },
+   "price": 55,
+   "u": "sculpture",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Résine",
+    "en": "Gold-plated brass, Resin"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "FLD",
+   "img": "assets/img/produits/JS411P.webp",
+   "cut": null,
+   "line": {
+    "fr": "Des vagues dorées et de la résine translucide, en pendentif et en boucles.",
+    "en": "Gold waves and translucent resin, as a pendant and earrings."
+   },
+   "url": "parure-fluid-dreams.html",
+   "alt": {
+    "fr": "Parure Fluid Dreams : collier + boucles d'oreilles, laiton doré, résine",
+    "en": "Fluid Dreams Set: necklace + earrings, gold-plated brass, resin"
+   },
+   "tags": "collier, boucles d'oreilles, doré, résine, idée cadeau, necklace, earrings, gold, resin, gift idea"
+  },
+  {
+   "sku": "JS63WT",
+   "model": "Liquid Gold Cascade",
+   "name": {
+    "fr": "Parure Liquid Gold Cascade",
+    "en": "Liquid Gold Cascade Set"
+   },
+   "price": 55,
+   "u": "sculpture",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré ou finition argentée",
+    "en": "Gold-plated brass or silver tone"
+   },
+   "metal": "dore-argent",
+   "ring": false,
+   "code": "LIG",
+   "img": "assets/img/cascade/01-parure-or.webp",
+   "cut": "assets/img/cascade/01-parure-or-detoure.webp",
+   "line": {
+    "fr": "Un pendentif en lames dorées et des boucles en franges, pour les tenues sobres qui demandent un point fort.",
+    "en": "A pendant of gold blades and fringe earrings, for plain outfits that need one strong point."
+   },
+   "url": "parure-liquid-gold-cascade.html",
+   "alt": {
+    "fr": "Parure Liquid Gold Cascade : collier pendentif en lames dorées et boucles en franges, dorés",
+    "en": "Liquid Gold Cascade set: gold blade pendant necklace and fringe earrings"
+   },
+   "variants": [
+    {
+     "id": "or",
+     "fr": "Dorée",
+     "en": "Gold-plated",
+     "slide": 0
+    },
+    {
+     "id": "argent",
+     "fr": "Argentée",
+     "en": "Silver tone",
+     "slide": 3,
+     "img": "assets/img/cascade/04-or-et-argent.webp"
+    }
+   ],
+   "tags": "collier, boucles d'oreilles, doré, statement, idée cadeau, necklace, earrings, gold, statement, gift idea"
+  },
+  {
+   "sku": "JSG813",
+   "model": "Liquid Art",
+   "name": {
+    "fr": "Parure Liquid Art",
+    "en": "Liquid Art Pearl Set"
+   },
+   "price": 59,
+   "u": "sculpture",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Perles de culture d'eau douce",
+    "en": "Gold-plated brass, Cultured freshwater pearls"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "LIA",
+   "img": "assets/img/produits/JSG813.webp",
+   "cut": "assets/img/detoures/JSG813.webp",
+   "line": {
+    "fr": "Un galet doré mat et une perle de culture baroque, en pendentif et en boucles.",
+    "en": "A matte gold pebble and a baroque cultured pearl, as a pendant and earrings."
+   },
+   "url": "parure-liquid-art.html",
+   "alt": {
+    "fr": "Parure Liquid Art : collier + boucles d'oreilles, laiton doré, perles de culture d'eau douce",
+    "en": "Liquid Art Pearl Set: necklace + earrings, gold-plated brass, cultured freshwater pearls"
+   },
+   "tags": "collier, boucles d'oreilles, doré, perles, idée cadeau, necklace, earrings, gold, pearls, gift idea"
+  },
+  {
+   "sku": "JS0S3W",
+   "model": "Baroque Pearl Flow",
+   "name": {
+    "fr": "Parure Baroque Pearl Flow",
+    "en": "Baroque Pearl Flow Set"
+   },
+   "price": 59,
+   "u": "sculpture",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Finition argentée, Perles de culture d'eau douce",
+    "en": "Silver-tone finish, Cultured freshwater pearls"
+   },
+   "metal": "argente",
+   "ring": false,
+   "code": "BAP",
+   "img": "assets/img/produits/JS0S3W.webp",
+   "cut": null,
+   "line": {
+    "fr": "Une forme organique argentée et une perle baroque, pour celles qui préfèrent l'argenté.",
+    "en": "An organic silver-tone shape and a baroque pearl, for those who prefer silver tones."
+   },
+   "url": "parure-baroque-pearl-flow.html",
+   "alt": {
+    "fr": "Parure Baroque Pearl Flow : collier + boucles d'oreilles, finition argentée, perles de culture d'eau douce",
+    "en": "Baroque Pearl Flow Set: necklace + earrings, silver-tone finish, cultured freshwater pearls"
+   },
+   "tags": "collier, boucles d'oreilles, argenté, perles, idée cadeau, necklace, earrings, silver tone, pearls, gift idea"
+  },
+  {
+   "sku": "JS4P8D",
+   "model": "Petal Bloom",
+   "name": {
+    "fr": "Parure Petal Bloom",
+    "en": "Petal Bloom Set"
+   },
+   "price": 59,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Puces d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Studs"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "PEB",
+   "img": "assets/img/produits/JS4P8D.webp",
+   "cut": null,
+   "line": {
+    "fr": "Une fleur pavée d'oxydes de zirconium sur une chaîne semée de billes blanches, et ses puces assorties.",
+    "en": "A cubic zirconia flower on a chain dotted with white beads, with matching studs."
+   },
+   "url": "parure-petal-bloom.html",
+   "alt": {
+    "fr": "Parure Petal Bloom : collier + puces d'oreilles, laiton doré, oxydes de zirconium",
+    "en": "Petal Bloom Set: necklace + studs, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, puces d'oreilles, doré, oxydes de zirconium, fleur, fête des mères, idée cadeau, necklace, studs, gold, cubic zirconia, flower, Mother's Day, gift idea"
+  },
+  {
+   "sku": "JS4AH6",
+   "model": "Radiant Circle",
+   "name": {
+    "fr": "Parure Radiant Circle",
+    "en": "Radiant Circle Set"
+   },
+   "price": 59,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "RAC",
+   "img": "assets/img/produits/JS4AH6.webp",
+   "cut": null,
+   "line": {
+    "fr": "Des cercles d'oxydes de zirconium taille baguette, sur une chaîne à maillons mixtes et en boucles d'oreilles.",
+    "en": "Circles of baguette cubic zirconia, on a mixed-link chain and as earrings."
+   },
+   "url": "parure-radiant-circle.html",
+   "alt": {
+    "fr": "Parure Radiant Circle : collier + boucles d'oreilles, laiton doré, oxydes de zirconium",
+    "en": "Radiant Circle Set: necklace + earrings, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, boucles d'oreilles, doré, oxydes de zirconium, idée cadeau, necklace, earrings, gold, cubic zirconia, gift idea"
+  },
+  {
+   "sku": "JSFAV7",
+   "model": "Geometric Luxe",
+   "name": {
+    "fr": "Parure Geometric Luxe",
+    "en": "Geometric Luxe Set"
+   },
+   "price": 65,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Créoles"
+    ],
+    "en": [
+     "Necklace",
+     "Hoops"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "GEL",
+   "img": "assets/img/produits/JSFAV7.webp",
+   "cut": null,
+   "line": {
+    "fr": "Une gourmette dorée et ses maillons pavés, avec de petites créoles assorties.",
+    "en": "A gold curb chain with pavé links, and small matching hoops."
+   },
+   "url": "parure-geometric-luxe.html",
+   "alt": {
+    "fr": "Parure Geometric Luxe : collier + créoles, laiton doré, oxydes de zirconium",
+    "en": "Geometric Luxe Set: necklace + hoops, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, créoles, doré, oxydes de zirconium, géométrique, idée cadeau, necklace, hoops, gold, cubic zirconia, geometric, gift idea"
+  },
+  {
+   "sku": "JS2KBV",
+   "model": "Wave Luxe",
+   "name": {
+    "fr": "Parure Wave Luxe",
+    "en": "Wave Luxe Set"
+   },
+   "price": 65,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Puces d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Studs"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "WAL",
+   "img": "assets/img/produits/JS2KBV.webp",
+   "cut": null,
+   "line": {
+    "fr": "Un carré ondulé pavé d'oxydes de zirconium, en pendentif et en puces.",
+    "en": "A rippled square paved with cubic zirconia, as a pendant and studs."
+   },
+   "url": "parure-wave-luxe.html",
+   "alt": {
+    "fr": "Parure Wave Luxe : collier + puces d'oreilles, laiton doré, oxydes de zirconium",
+    "en": "Wave Luxe Set: necklace + studs, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, puces d'oreilles, doré, oxydes de zirconium, idée cadeau, necklace, studs, gold, cubic zirconia, gift idea"
+  },
+  {
+   "sku": "JS1AQ5",
+   "model": "Solar Sphere",
+   "name": {
+    "fr": "Parure Solar Sphere",
+    "en": "Solar Sphere Set"
+   },
+   "price": 69,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Puces d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Studs"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "SOS",
+   "img": "assets/img/produits/JS1AQ5.webp",
+   "cut": "assets/img/detoures/JS1AQ5.webp",
+   "line": {
+    "fr": "Une sphère dorée pavée d'oxydes de zirconium autour d'un dôme bronze, en collier et en puces.",
+    "en": "A gold sphere paved with cubic zirconia around a bronze dome, as a necklace and studs."
+   },
+   "url": "parure-solar-sphere.html",
+   "alt": {
+    "fr": "Parure Solar Sphere : collier + puces d'oreilles, laiton doré, oxydes de zirconium",
+    "en": "Solar Sphere Set: necklace + studs, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, puces d'oreilles, doré, oxydes de zirconium, idée cadeau, necklace, studs, gold, cubic zirconia, gift idea"
+  },
+  {
+   "sku": "JS63VP",
+   "model": "Golden Hour",
+   "name": {
+    "fr": "Parure Golden Hour",
+    "en": "Golden Hour Set"
+   },
+   "price": 69,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Créoles"
+    ],
+    "en": [
+     "Necklace",
+     "Hoops"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "GOH",
+   "img": "assets/img/produits/JS63VP.webp",
+   "cut": "assets/img/detoures/JS63VP.webp",
+   "line": {
+    "fr": "Un oxyde de zirconium carré couleur champagne, en pendentif et en créoles pavées.",
+    "en": "A square champagne cubic zirconia, as a pendant and on pavé hoops."
+   },
+   "url": "parure-golden-hour.html",
+   "alt": {
+    "fr": "Parure Golden Hour : collier + créoles, laiton doré, oxydes de zirconium",
+    "en": "Golden Hour Set: necklace + hoops, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, créoles, doré, oxydes de zirconium, champagne, idée cadeau, necklace, hoops, gold, cubic zirconia, champagne, gift idea"
+  },
+  {
+   "sku": "JS5N68",
+   "model": "Emerald Cut Halo",
+   "name": {
+    "fr": "Parure Emerald Cut Halo",
+    "en": "Emerald Cut Halo Set"
+   },
+   "price": 69,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Puces d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Studs"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "EMC",
+   "img": "assets/img/produits/JS5N68.webp",
+   "cut": null,
+   "line": {
+    "fr": "Un oxyde de zirconium taille émeraude dans un cadre pavé, en pendentif et en puces.",
+    "en": "An emerald-cut cubic zirconia in a pavé frame, as a pendant and studs."
+   },
+   "url": "parure-emerald-cut-halo.html",
+   "alt": {
+    "fr": "Parure Emerald Cut Halo : collier + puces d'oreilles, laiton doré, oxydes de zirconium",
+    "en": "Emerald Cut Halo Set: necklace + studs, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, puces d'oreilles, doré, oxydes de zirconium, mariage, idée cadeau, necklace, studs, gold, cubic zirconia, wedding, gift idea"
+  },
+  {
+   "sku": "JSQS6W",
+   "model": "Shell Glow",
+   "name": {
+    "fr": "Parure Shell Glow",
+    "en": "Shell Glow Set"
+   },
+   "price": 69,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Puces d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Studs"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton finition argentée, Oxydes de zirconium",
+    "en": "White gold-plated brass, Cubic zirconia"
+   },
+   "metal": "argente",
+   "ring": false,
+   "code": "SHG",
+   "img": "assets/img/produits/JSQS6W.webp",
+   "cut": null,
+   "line": {
+    "fr": "Un dôme gris argenté dans une coque d'oxydes de zirconium, en collier et en puces.",
+    "en": "A silver-grey dome in a shell of cubic zirconia, as a necklace and studs."
+   },
+   "url": "parure-shell-glow.html",
+   "alt": {
+    "fr": "Parure Shell Glow : collier + puces d'oreilles, laiton finition argentée, oxydes de zirconium",
+    "en": "Shell Glow Set: necklace + studs, white gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, puces d'oreilles, argenté, oxydes de zirconium, idée cadeau, necklace, studs, silver tone, cubic zirconia, gift idea"
+  },
+  {
+   "sku": "JS4EXR",
+   "model": "Crescent Glow",
+   "name": {
+    "fr": "Parure Crescent Glow",
+    "en": "Crescent Glow Set"
+   },
+   "price": 75,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Créoles",
+     "Bague"
+    ],
+    "en": [
+     "Necklace",
+     "Hoops",
+     "Ring"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": true,
+   "code": "CRG",
+   "img": "assets/img/produits/JS4EXR.webp",
+   "cut": "assets/img/detoures/JS4EXR.webp",
+   "line": {
+    "fr": "Une courbe pavée d'oxydes de zirconium, en collier, créoles et bague réglable.",
+    "en": "A curve paved with cubic zirconia, as a necklace, hoops and an adjustable ring."
+   },
+   "url": "parure-crescent-glow.html",
+   "alt": {
+    "fr": "Parure Crescent Glow : collier + créoles + bague, laiton doré, oxydes de zirconium",
+    "en": "Crescent Glow Set: necklace + hoops + ring, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, créoles, bague, doré, oxydes de zirconium, trois pièces, idée cadeau, necklace, hoops, ring, gold, cubic zirconia, three pieces, gift idea"
+  },
+  {
+   "sku": "JSC940",
+   "model": "Golden Square",
+   "name": {
+    "fr": "Parure Golden Square",
+    "en": "Golden Square Set"
+   },
+   "price": 75,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "GOS",
+   "img": "assets/img/produits/JSC940.webp",
+   "cut": null,
+   "line": {
+    "fr": "Une pierre carrée couleur miel dans un cadre d'oxydes de zirconium d'inspiration ancienne.",
+    "en": "A honey-coloured square stone in a vintage-style frame of cubic zirconia."
+   },
+   "url": "parure-golden-square.html",
+   "alt": {
+    "fr": "Parure Golden Square : collier + boucles d'oreilles, laiton doré, oxydes de zirconium",
+    "en": "Golden Square Set: necklace + earrings, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, boucles d'oreilles, doré, oxydes de zirconium, vintage, idée cadeau, necklace, earrings, gold, cubic zirconia, vintage, gift idea"
+  },
+  {
+   "sku": "JSJB3S",
+   "model": "Golden Luxe",
+   "name": {
+    "fr": "Parure Golden Luxe",
+    "en": "Golden Luxe Set"
+   },
+   "price": 79,
+   "u": "eclat",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "GOL",
+   "img": "assets/img/produits/JSJB3S.webp",
+   "cut": "assets/img/detoures/JSJB3S.webp",
+   "line": {
+    "fr": "Des gouttes dorées couvertes d'oxydes de zirconium, en collier en Y et en boucles.",
+    "en": "Gold drops covered in cubic zirconia, as a Y-necklace and earrings."
+   },
+   "url": "parure-golden-luxe.html",
+   "alt": {
+    "fr": "Parure Golden Luxe : collier + boucles d'oreilles, laiton doré, oxydes de zirconium",
+    "en": "Golden Luxe Set: necklace + earrings, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, boucles d'oreilles, doré, oxydes de zirconium, soirée, idée cadeau, necklace, earrings, gold, cubic zirconia, evening, gift idea"
+  },
+  {
+   "sku": "JS3GGZ",
+   "model": "Green Square",
+   "name": {
+    "fr": "Parure Green Square",
+    "en": "Green Square Set"
+   },
+   "price": 69,
+   "u": "couleur",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Créoles"
+    ],
+    "en": [
+     "Necklace",
+     "Hoops"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Émail, Oxydes de zirconium",
+    "en": "Gold-plated brass, Enamel, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "GRS",
+   "img": "assets/img/produits/JS3GGZ.webp",
+   "cut": "assets/img/detoures/JS3GGZ.webp",
+   "line": {
+    "fr": "Un carré d'émail blanc et son oxyde de zirconium vert, en pendentif et en petites créoles.",
+    "en": "A white enamel square with a green stone, as a pendant and on small hoops."
+   },
+   "url": "parure-green-square.html",
+   "alt": {
+    "fr": "Parure Green Square : collier + créoles, laiton doré, émail, oxydes de zirconium",
+    "en": "Green Square Set: necklace + hoops, gold-plated brass, enamel, cubic zirconia"
+   },
+   "tags": "collier, créoles, doré, émail, vert, oxydes de zirconium, idée cadeau, necklace, hoops, gold, enamel, green, cubic zirconia, gift idea"
+  },
+  {
+   "sku": "JS9XM9",
+   "model": "Linear Luxe",
+   "name": {
+    "fr": "Parure Linear Luxe",
+    "en": "Linear Luxe Set"
+   },
+   "price": 69,
+   "u": "couleur",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Créoles"
+    ],
+    "en": [
+     "Necklace",
+     "Hoops"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton finition argentée, Oxydes de zirconium",
+    "en": "White gold-plated brass, Cubic zirconia"
+   },
+   "metal": "argente",
+   "ring": false,
+   "code": "LIL",
+   "img": "assets/img/produits/JS9XM9.webp",
+   "cut": null,
+   "line": {
+    "fr": "Une barre verticale d'oxydes de zirconium taille baguette et des créoles larges, pour les journées où tu veux être nette.",
+    "en": "A vertical bar of baguette stones and wide hoops, for days that call for clean lines."
+   },
+   "url": "parure-linear-luxe.html",
+   "alt": {
+    "fr": "Parure Linear Luxe : collier + créoles, laiton finition argentée, oxydes de zirconium",
+    "en": "Linear Luxe Set: necklace + hoops, white gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, créoles, argenté, oxydes de zirconium, idée cadeau, necklace, hoops, silver tone, cubic zirconia, gift idea"
+  },
+  {
+   "sku": "JS0DGC",
+   "model": "Celestial Cascade",
+   "name": {
+    "fr": "Parure Celestial Cascade",
+    "en": "Celestial Cascade Set"
+   },
+   "price": 79,
+   "u": "couleur",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton finition argentée, Oxydes de zirconium",
+    "en": "White gold-plated brass, Cubic zirconia"
+   },
+   "metal": "argente",
+   "ring": false,
+   "code": "CEC",
+   "img": "assets/img/produits/JS0DGC.webp",
+   "cut": null,
+   "line": {
+    "fr": "Un collier en Y de médaillons ovales et ses boucles pendantes, pour les grandes occasions.",
+    "en": "A Y-necklace of oval links with matching drop earrings, for the big occasions."
+   },
+   "url": "parure-celestial-cascade.html",
+   "alt": {
+    "fr": "Parure Celestial Cascade : collier + boucles d'oreilles, laiton finition argentée, oxydes de zirconium",
+    "en": "Celestial Cascade Set: necklace + earrings, white gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, boucles d'oreilles, argenté, oxydes de zirconium, mariage, idée cadeau, necklace, earrings, silver tone, cubic zirconia, wedding, gift idea"
+  },
+  {
+   "sku": "JS4EPC",
+   "model": "Rose Empress",
+   "name": {
+    "fr": "Parure Rose Empress",
+    "en": "Rose Empress Set"
+   },
+   "price": 79,
+   "u": "couleur",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Oxydes de zirconium",
+    "en": "Gold-plated brass, Cubic zirconia"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "ROE",
+   "img": "assets/img/produits/JS4EPC.webp",
+   "cut": null,
+   "line": {
+    "fr": "Un oxyde de zirconium rose dans un cadre ouvragé d'inspiration ancienne, en pendentif et en boucles.",
+    "en": "A pink cubic zirconia in an ornate, vintage-style frame, as a pendant and earrings."
+   },
+   "url": "parure-rose-empress.html",
+   "alt": {
+    "fr": "Parure Rose Empress : collier + boucles d'oreilles, laiton doré, oxydes de zirconium",
+    "en": "Rose Empress Set: necklace + earrings, gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, boucles d'oreilles, doré, rose, oxydes de zirconium, vintage, idée cadeau, necklace, earrings, gold, pink, cubic zirconia, vintage, gift idea"
+  },
+  {
+   "sku": "JSX3G6",
+   "model": "Royal Blue Halo",
+   "name": {
+    "fr": "Parure Royal Blue Halo",
+    "en": "Royal Blue Halo Set"
+   },
+   "price": 79,
+   "u": "couleur",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Puces d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Studs"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton finition argentée, Oxydes de zirconium",
+    "en": "White gold-plated brass, Cubic zirconia"
+   },
+   "metal": "argente",
+   "ring": false,
+   "code": "ROB",
+   "img": "assets/img/produits/JSX3G6.webp",
+   "cut": "assets/img/detoures/JSX3G6.webp",
+   "line": {
+    "fr": "Un oxyde de zirconium bleu nuit dans une corolle de pierres claires, en pendentif et en puces.",
+    "en": "A midnight-blue cubic zirconia in a corolla of clear stones, as a pendant and studs."
+   },
+   "url": "parure-royal-blue-halo.html",
+   "alt": {
+    "fr": "Parure Royal Blue Halo : collier + puces d'oreilles, laiton finition argentée, oxydes de zirconium",
+    "en": "Royal Blue Halo Set: necklace + studs, white gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, puces d'oreilles, bleu, oxydes de zirconium, idée cadeau, necklace, studs, blue, cubic zirconia, gift idea"
+  },
+  {
+   "sku": "JSB541",
+   "model": "Pink Pavé",
+   "name": {
+    "fr": "Parure Pink Pavé",
+    "en": "Pink Pavé Set"
+   },
+   "price": 85,
+   "u": "couleur",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Créoles",
+     "Bague"
+    ],
+    "en": [
+     "Necklace",
+     "Hoops",
+     "Ring"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton finition rosée, Oxydes de zirconium",
+    "en": "Rose gold-plated brass, Cubic zirconia"
+   },
+   "metal": "rose",
+   "ring": true,
+   "code": "PIP",
+   "img": "assets/img/produits/JSB541.webp",
+   "cut": null,
+   "line": {
+    "fr": "Des oxydes de zirconium roses sur métal rosé, en collier, créoles et bague ouverte.",
+    "en": "Pink cubic zirconia on rose-gold-plated brass, as a necklace, hoops and an open ring."
+   },
+   "url": "parure-pink-pave.html",
+   "alt": {
+    "fr": "Parure Pink Pavé : collier + créoles + bague, laiton finition rosée, oxydes de zirconium",
+    "en": "Pink Pavé Set: necklace + hoops + ring, rose gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, créoles, bague, rosé, rose, oxydes de zirconium, trois pièces, idée cadeau, necklace, hoops, ring, rose gold tone, pink, cubic zirconia, three pieces, gift idea"
+  },
+  {
+   "sku": "JSDYG2",
+   "model": "Green Dreams",
+   "name": {
+    "fr": "Parure Green Dreams",
+    "en": "Green Dreams Set"
+   },
+   "price": 89,
+   "u": "couleur",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles",
+     "Bague"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings",
+     "Ring"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton finition argentée, Oxydes de zirconium",
+    "en": "White gold-plated brass, Cubic zirconia"
+   },
+   "metal": "argente",
+   "ring": true,
+   "code": "GRD",
+   "img": "assets/img/produits/JSDYG2.webp",
+   "cut": null,
+   "line": {
+    "fr": "Une pierre verte taillée en goutte, en collier, boucles et bague.",
+    "en": "A green teardrop stone, as a necklace, earrings and ring."
+   },
+   "url": "parure-green-dreams.html",
+   "alt": {
+    "fr": "Parure Green Dreams : collier + boucles d'oreilles + bague, laiton finition argentée, oxydes de zirconium",
+    "en": "Green Dreams Set: necklace + earrings + ring, white gold-plated brass, cubic zirconia"
+   },
+   "tags": "collier, boucles d'oreilles, bague, vert, oxydes de zirconium, trois pièces, idée cadeau, necklace, earrings, ring, green, cubic zirconia, three pieces, gift idea"
+  },
+  {
+   "sku": "JS1PPS",
+   "model": "Golden Radiance",
+   "name": {
+    "fr": "Parure Golden Radiance",
+    "en": "Golden Radiance Set"
+   },
+   "price": 149,
+   "u": "j925",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Bague"
+    ],
+    "en": [
+     "Necklace",
+     "Ring"
+    ]
+   },
+   "mat": {
+    "fr": "Argent 925, Moissanite synthétique",
+    "en": "925 sterling silver, Moissanite"
+   },
+   "metal": "925",
+   "ring": true,
+   "code": "GOR",
+   "img": "assets/img/produits/JS1PPS.webp",
+   "cut": null,
+   "line": {
+    "fr": "Un pendentif et une bague en argent 925, autour d'une moissanite synthétique jaune taille émeraude.",
+    "en": "A pendant and a ring in sterling silver, set with an emerald-cut yellow moissanite."
+   },
+   "url": "parure-golden-radiance.html",
+   "alt": {
+    "fr": "Parure Golden Radiance : collier + bague, argent 925, moissanite synthétique",
+    "en": "Golden Radiance Set: necklace + ring, 925 sterling silver, moissanite"
+   },
+   "tags": "collier, bague, argent 925, moissanite, jaune, plus de 100 €, idée cadeau, necklace, ring, 925 silver, moissanite, yellow, over €100, gift idea"
+  },
+  {
+   "sku": "JSSFYS",
+   "model": "Blush Dreams",
+   "name": {
+    "fr": "Parure Blush Dreams",
+    "en": "Blush Dreams Set"
+   },
+   "price": 189,
+   "u": "j925",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Puces d'oreilles",
+     "Bague",
+     "Bracelet"
+    ],
+    "en": [
+     "Necklace",
+     "Studs",
+     "Ring",
+     "Bracelet"
+    ]
+   },
+   "mat": {
+    "fr": "Argent 925, Moissanite synthétique",
+    "en": "925 sterling silver, Moissanite"
+   },
+   "metal": "925",
+   "ring": true,
+   "code": "BLD",
+   "img": "assets/img/produits/JSSFYS.webp",
+   "cut": "assets/img/detoures/JSSFYS.webp",
+   "line": {
+    "fr": "Collier, puces, bague et bracelet en argent 925, autour de moissanites synthétiques roses.",
+    "en": "Necklace, studs, ring and bracelet in sterling silver, set with pink moissanite."
+   },
+   "url": "parure-blush-dreams.html",
+   "alt": {
+    "fr": "Parure Blush Dreams : collier + puces d'oreilles + bague + bracelet, argent 925, moissanite synthétique",
+    "en": "Blush Dreams Set: necklace + studs + ring + bracelet, 925 sterling silver, moissanite"
+   },
+   "tags": "collier, puces d'oreilles, bague, bracelet, argent 925, moissanite, rose, quatre pièces, plus de 100 €, idée cadeau, necklace, studs, ring, bracelet, 925 silver, moissanite, pink, four pieces, over €100, gift idea"
+  },
+  {
+   "sku": "JSDQA1",
+   "model": "Heart Symphony",
+   "name": {
+    "fr": "Parure Heart Symphony",
+    "en": "Heart Symphony Set"
+   },
+   "price": 229,
+   "u": "j925",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Puces d'oreilles",
+     "Bracelet",
+     "Bague"
+    ],
+    "en": [
+     "Necklace",
+     "Studs",
+     "Bracelet",
+     "Ring"
+    ]
+   },
+   "mat": {
+    "fr": "Argent 925, Moissanite synthétique",
+    "en": "925 sterling silver, Moissanite"
+   },
+   "metal": "925",
+   "ring": true,
+   "code": "HES",
+   "img": "assets/img/produits/JSDQA1.webp",
+   "cut": null,
+   "line": {
+    "fr": "Quatre pièces en argent 925, des cœurs sertis de moissanites synthétiques.",
+    "en": "Four sterling silver pieces: hearts set with moissanite."
+   },
+   "url": "parure-heart-symphony.html",
+   "alt": {
+    "fr": "Parure Heart Symphony : collier + puces d'oreilles + bracelet + bague, argent 925, moissanite synthétique",
+    "en": "Heart Symphony Set: necklace + studs + bracelet + ring, 925 sterling silver, moissanite"
+   },
+   "tags": "collier, puces d'oreilles, bague, bracelet, argent 925, moissanite, cœur, quatre pièces, Saint-Valentin, plus de 100 €, idée cadeau, necklace, studs, ring, bracelet, 925 silver, moissanite, heart, four pieces, Valentine's Day, over €100, gift idea"
+  },
+  {
+   "sku": "JSVKMZ",
+   "model": "Cosmic Circle",
+   "name": {
+    "fr": "Parure Cosmic Circle",
+    "en": "Cosmic Circle Set"
+   },
+   "price": 49,
+   "u": "mixte",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Créoles"
+    ],
+    "en": [
+     "Necklace",
+     "Hoops"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Cordon",
+    "en": "Gold-plated brass, Cord"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "COC",
+   "img": "assets/img/produits/JSVKMZ.webp",
+   "cut": null,
+   "line": {
+    "fr": "Un anneau doré sur cordon réglable et ses créoles, à porter seul ou à partager.",
+    "en": "A gold ring on an adjustable cord, with matching hoops. Wear both, or share."
+   },
+   "url": "parure-cosmic-circle.html",
+   "alt": {
+    "fr": "Parure Cosmic Circle : collier + créoles, laiton doré, cordon",
+    "en": "Cosmic Circle Set: necklace + hoops, gold-plated brass, cord"
+   },
+   "tags": "collier, créoles, cordon, mixte, pour lui, moins de 50 €, idée cadeau, necklace, hoops, cord, unisex, for him, under €50, gift idea"
+  },
+  {
+   "sku": "JSCT1F",
+   "model": "Lunar Goddess",
+   "name": {
+    "fr": "Parure Lunar Goddess",
+    "en": "Lunar Goddess Set"
+   },
+   "price": 49,
+   "u": "mixte",
+   "pcs": {
+    "fr": [
+     "Collier",
+     "Boucles d'oreilles"
+    ],
+    "en": [
+     "Necklace",
+     "Earrings"
+    ]
+   },
+   "mat": {
+    "fr": "Laiton doré, Cordon",
+    "en": "Gold-plated brass, Cord"
+   },
+   "metal": "dore",
+   "ring": false,
+   "code": "LUG",
+   "img": "assets/img/produits/JSCT1F.webp",
+   "cut": null,
+   "line": {
+    "fr": "Un croissant de lune doré sur cordon noir, avec ses boucles assorties.",
+    "en": "A gold crescent moon on a black cord, with matching earrings."
+   },
+   "url": "parure-lunar-goddess.html",
+   "alt": {
+    "fr": "Parure Lunar Goddess : collier + boucles d'oreilles, laiton doré, cordon",
+    "en": "Lunar Goddess Set: necklace + earrings, gold-plated brass, cord"
+   },
+   "tags": "collier, boucles d'oreilles, cordon, lune, mixte, pour lui, moins de 50 €, idée cadeau, necklace, earrings, cord, moon, unisex, for him, under €50, gift idea"
+  }
+ ],
+ "univers": {
+  "sculpture": {
+   "name": {
+    "fr": "Sculpture",
+    "en": "Sculpture"
+   },
+   "url": "univers-sculpture.html"
+  },
+  "eclat": {
+   "name": {
+    "fr": "Éclat",
+    "en": "Sparkle"
+   },
+   "url": "univers-eclat.html"
+  },
+  "couleur": {
+   "name": {
+    "fr": "Couleur précieuse",
+    "en": "Precious Colour"
+   },
+   "url": "univers-couleur-precieuse.html"
+  },
+  "j925": {
+   "name": {
+    "fr": "Joaillerie 925",
+    "en": "925 Silver"
+   },
+   "url": "univers-joaillerie-925.html"
+  },
+  "mixte": {
+   "name": {
+    "fr": "Mixte",
+    "en": "Unisex"
+   },
+   "url": "univers-mixte.html"
+  }
+ }
+}

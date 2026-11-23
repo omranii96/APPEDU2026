@@ -16,10 +16,11 @@ function charmed_defaults(): array {
 	return array(
 		// Remise « 2e parure ».
 		'bundle_enabled'          => 'yes',
-		'bundle_percent'          => '15',
-		'bundle_label'            => '',      // Vide = libellé traduit « 2e parure −15 % ».
-		'bundle_mode'             => 'once',  // once = une seule parure remisée ; pairs = une par paire.
-		'bundle_categories'       => array(), // Slugs product_cat éligibles ; vide = tous les produits.
+		'bundle_percent'          => '50',    // Remise sur la 2e parure (mode tiers) ou la parure remisée (once/pairs).
+		'bundle_label'            => '',      // Vide = libellé traduit « Offre parures ».
+		'bundle_mode'             => 'tiers', // tiers = 2e à −50 %, chaque 3e offerte ; once ; pairs.
+		'bundle_categories'       => array(), // Slugs product_cat éligibles ; vide = tous. Exclure la Joaillerie 925.
+		'bundle_gift_product'     => '',      // ID du produit offert dès 3 parures (collier Golden Arc), vide = aucun.
 		'bundle_exclude_sale'     => 'no',
 		'bundle_with_coupons'     => 'no',    // Cumul avec un code promo.
 		// Livraison (un seul service Branvas : pas d'express).
@@ -100,7 +101,7 @@ add_filter(
 
 		return array(
 			array(
-				'title' => __( 'Remise « 2e parure »', 'charmed-paris' ),
+				'title' => __( 'Offre parures (paliers)', 'charmed-paris' ),
 				'type'  => 'title',
 				'desc'  => __( 'Remise calculée côté serveur sur la parure la moins chère du panier (frais négatif, TVA ventilée par WooCommerce). Visible au panier, au paiement, dans la commande et les e-mails.', 'charmed-paris' ),
 				'id'    => 'charmed_bundle',

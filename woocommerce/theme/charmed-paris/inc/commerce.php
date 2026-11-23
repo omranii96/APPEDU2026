@@ -2,7 +2,8 @@
 /**
  * Règles commerciales côté serveur.
  *
- *  1. Remise « 2e parure −15 % » sur la parure la moins chère (frais négatif via woocommerce_cart_calculate_fees).
+ *  1. Offre parures en paliers : 2 parures = la moins chère à −50 %, chaque 3e parure offerte, cadeau dès 3
+ *     (frais négatif via woocommerce_cart_calculate_fees + produit cadeau à 0 €).
  *  2. Livraison offerte : seuil lu dans la méthode « Livraison gratuite », recalculé après la remise,
  *     forfait masqué quand la livraison est offerte (un seul service Branvas, pas d'express).
  *  3. Téléphone obligatoire au paiement (Branvas : requis hors États-Unis / Royaume-Uni).
@@ -84,7 +85,7 @@ function charmed_bundle_compute( WC_Cart $cart ): array {
 	foreach ( $cart->get_cart() as $item ) {
 		$product = $item['data'] ?? null;
 		$qty     = (int) ( $item['quantity'] ?? 0 );
-		if ( ! $product instanceof WC_Product || $qty < 1 || ! charmed_bundle_is_eligible( $product ) ) {
+		if ( ! empty( $item['charmed_gift'] ) || ! $product instanceof WC_Product || $qty < 1 || ! charmed_bundle_is_eligible( $product ) ) {
 			continue;
 		}
 		if ( isset( $item['line_subtotal'] ) && ( (float) $item['line_subtotal'] > 0 || 0.0 === (float) $product->get_price() ) ) {
@@ -152,6 +153,55 @@ add_action(
 		$cart->add_fee( charmed_bundle_label(), -1 * NumberUtil::round( $amount, wc_get_rounding_precision() ), true, '' );
 	}
 );
+
+/**
+ * Cadeau dès 3 parures éligibles : ajouté à 0 € (marqueur « charmed_gift »), retiré sinon.
+ */
+function charmed_eligible_units( WC_Cart $cart ): int {
+	$n = 0;
+	foreach ( $cart->get_cart() as $item ) {
+		$product = $item['data'] ?? null;
+		if ( empty( $item['charmed_gift'] ) && $product instanceof WC_Product && charmed_bundle_is_eligible( $product ) ) {
+			$n += (int) $item['quantity'];
+		}
+	}
+	return $n;
+}
+add_action(
+	'woocommerce_before_calculate_totals',
+	static function ( WC_Cart $cart ) {
+		static $running = false;
+		if ( $running || ( is_admin() && ! wp_doing_ajax() ) ) {
+			return;
+		}
+		$gift_id = absint( charmed_opt( 'bundle_gift_product' ) );
+		$gift_key = '';
+		foreach ( $cart->get_cart() as $key => $item ) {
+			if ( ! empty( $item['charmed_gift'] ) ) {
+				$gift_key = $key;
+				$item['data']->set_price( 0 );
+			}
+		}
+		$want = $gift_id && charmed_opt_yes( 'bundle_enabled' ) && 'tiers' === charmed_opt( 'bundle_mode' ) && charmed_eligible_units( $cart ) >= 3;
+		$running = true;
+		if ( $want && ! $gift_key ) {
+			$cart->add_to_cart( $gift_id, 1, 0, array(), array( 'charmed_gift' => 1 ) );
+		} elseif ( ! $want && $gift_key ) {
+			$cart->remove_cart_item( $gift_key );
+		}
+		$running = false;
+	},
+	20
+);
+// Le cadeau ne se modifie pas : quantité fixe, libellé « Offert ».
+add_filter( 'woocommerce_cart_item_quantity', static function ( $html, $key, $item ) { return empty( $item['charmed_gift'] ) ? $html : '1'; }, 10, 3 );
+add_filter( 'woocommerce_cart_item_price', static function ( $html, $item ) { return empty( $item['charmed_gift'] ) ? $html : esc_html__( 'Offert', 'charmed-paris' ); }, 10, 2 );
+add_filter( 'woocommerce_get_item_data', static function ( $data, $item ) {
+	if ( ! empty( $item['charmed_gift'] ) ) {
+		$data[] = array( 'name' => __( 'Cadeau', 'charmed-paris' ), 'value' => __( 'offert avec ta 3e parure', 'charmed-paris' ) );
+	}
+	return $data;
+}, 10, 2 );
 
 /* =========================================================================
  * 2. Livraison offerte (méthode conditionnelle)

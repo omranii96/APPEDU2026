@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /panier.html
+Disallow: /commande.html
+Sitemap: https://charmedparis.fr/sitemap.xml

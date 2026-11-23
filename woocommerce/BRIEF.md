@@ -9,7 +9,10 @@ Document de référence pour tout le travail de préparation du site. Les faits 
 ## Décisions arrêtées (23/11/2026, prioritaires)
 - **Avis clients** : avis natifs WooCommerce réservés aux acheteuses vérifiées + demande d'avis envoyée par Brevo. **Pas de Judge.me** (plugin WooCommerce fermé sur WordPress.org le 13/08/2025, support arrêté).
 - **Multilingue** : **TranslatePress** (Personal ≈ 99 €/an, SEO Pack inclus, hreflang, slugs traduits) : un seul produit WooCommerce par article, compatible avec la synchro Branvas. Pas de WPML/Polylang (doublons de produits). Tester une commande sur /en/ et vérifier qu'elle remonte dans Branvas.
-- **Livraison** : offerte dès **50 €** (toutes les parures sauf Molten Art à 49 €), 4,90 € en dessous ; « 2e parure −15 % » pour pousser le duo.
+- **Livraison** : offerte dès **50 €**, 4,90 € en dessous.
+- **Offre (23/11, remplace « 2e parure −15 % »)** : 2 parures = la 2e à −50 % ; 3 parures = la 3e offerte + collier Golden Arc offert ; Joaillerie 925 exclue. Détail et marges : `conversion/offre-bundles.md`.
+- **Site** : prototype refait de zéro dans `site/` (ancien dans `archive/site-v1/`), FR d'abord ; vidéos et pubs en français uniquement.
+- **Pièces seules** ajoutées (voir `source/pieces-seules.md`).
 - **Devise** : EUR au lancement.
 - **Intro d'accueil** : 260vh max (170vh mobile), lien « Passer l'intro » visible, pas d'intro pour le trafic pub (pages produits / pages d'atterrissage).
 - **Prix** : aucun prix barré au lancement.
