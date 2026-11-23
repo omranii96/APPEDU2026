@@ -11,7 +11,7 @@
 2. **Les pubs n'atterrissent jamais sur l'accueil avec intro.** Elles mènent à une fiche produit, à une page univers ou à une page d'atterrissage sans intro (§2).
 3. **La réassurance repose uniquement sur des faits** : délais Branvas au 90e centile, droits et taxes payés (DDP), packaging inclus, bordereau sans prix, 14 jours de rétractation, paiement sécurisé. Pas d'avis, de compteur, de stock ou de presse inventés.
 4. **Pas de surprise au checkout** : frais de port, délai et date limite de Noël s'affichent dès la fiche produit (obligation légale + première cause d'abandon).
-5. **Le panier moyen se joue dans le mini-panier** : mécanique « 2e parure −15 % » + seuil de livraison offerte à 79 € (« ou dès 2 parures ») [calcul].
+5. **Le panier moyen se joue dans le mini-panier** : mécanique « 2e parure −15 % » + livraison offerte **dès 2 parures (ou dès 89 €)**, seuil calé sur la règle Branvas (panier moyen ≈ 72 € + 20–30 %) [calcul].
 6. **Checkout sur une page** : commande sans compte, paiements express en haut, 9 champs au maximum.
 7. **Bilingue par l'URL (`/` = FR, `/en/` = EN)**. La devise dépend du pays de livraison, pas de la langue.
 
@@ -94,7 +94,7 @@ Pub → [view_item | intro_passee] → add_to_cart → (mini-panier : 2e parure 
 |---|---|---|---|
 | Délai | Livraison estimée : 4 à 9 jours ouvrés en France (9 colis sur 10). Un seul mode de livraison, suivi DHL. | Estimated delivery: 3–8 business days to the US, 3–7 to the UK (9 in 10 parcels). Tracked. | [fait] P90 Branvas |
 | Droits | Droits et taxes d'importation déjà réglés : rien à payer à la livraison. | Duties and import taxes paid: nothing to pay on delivery. | [fait] DDP |
-| Prix de livraison | Livraison 4,90 €, offerte dès 79 € ou dès 2 parures. | Shipping €4.90, free from €79 or 2 sets. | [calcul] recommandation |
+| Prix de livraison | Livraison 4,90 €, offerte dès 2 parures (ou dès 89 €). | Shipping €4.90, free from 2 sets (or €89). | [calcul] recommandation |
 | Coffret | Chaque commande arrive dans une boîte à bijoux à ruban, avec pochette en velours et chamoisine. Bordereau sans prix : prêt à offrir. | Every order arrives in a ribboned jewellery box with a velvet pouch and polishing cloth. No prices on the packing slip. | [fait] |
 | Plusieurs pièces | Plusieurs parures = un seul colis, une seule boîte à bijoux ; les autres pièces voyagent dans leur sachet scellé. | Several sets ship together in one parcel, with one jewellery box. | [fait], à dire honnêtement pour les cadeaux multiples |
 | Retours | 14 jours pour changer d'avis, à compter de la réception. | 14 days to change your mind after delivery. | Légal UE ; frais de retour : cf. `offres-et-panier-moyen.md` §5 |
@@ -117,7 +117,7 @@ Pour chaque page : **objectif**, **au-dessus de la ligne de flottaison** (mobile
 
 - **Objectif** : orienter vers un univers ou une fiche en 1 clic. Capter l'e-mail des visiteuses non prêtes à acheter.
 - **Au-dessus de la ligne de flottaison (mobile)** :
-  - Bandeau d'annonce en 1 ligne, rotatif lent ou fixe : « Noël en Europe : commande avant le 4 décembre · Livraison offerte dès 79 € ». Après le 4/12 : « Livraison avant Noël non garantie : offre une e-carte cadeau ».
+  - Bandeau d'annonce en 1 ligne, rotatif lent ou fixe : « Noël en Europe : commande avant le 4 décembre · Livraison offerte dès 2 parures ». Après le 4/12 : « Livraison avant Noël non garantie : offre une e-carte cadeau ».
   - Header : logo, Femme / Homme / Cadeaux (menu burger sur mobile), recherche, panier avec compteur, sélecteur **FR | EN**.
   - Intro (règles §2), avec « Passer » et le CTA « Voir les parures » visibles.
 - **Ordre des blocs recommandé** (la maquette est presque bonne) :
@@ -143,7 +143,7 @@ Pour chaque page : **objectif**, **au-dessus de la ligne de flottaison** (mobile
 - **Ordre** : H1 → filtres en chips horizontaux → grille → bloc « 2e parure −15 % » au milieu de la grille (après la 6e carte) → texte SEO court en bas (cf. `seo/`) → FAQ univers.
 - **Frictions** : pagination (préférer « Voir plus », 12 par 12, 30 produits au total) ; filtres en sidebar sur mobile ; photos 400×400 floues.
   > **Point bloquant qualité** : les photos `branvas-photos/` font 400×400 px [fait]. C'est insuffisant en fiche (zoom) et sur un écran Retina. Il faut récupérer les originaux haute définition dans le compte Branvas (droits d'usage et de modification inclus avec l'abonnement [fait]) : 1600 px minimum, servis en WebP/AVIF.
-- **Réassurance** : ligne fine sous le H1 : « Livraison offerte dès 79 € · Retours 14 j · Droits payés ».
+- **Réassurance** : ligne fine sous le H1 : « Livraison offerte dès 2 parures · Retours 14 j · Droits payés ».
 
 ### 4.3 Fiche produit (la page la plus importante : c'est elle qui reçoit les pubs)
 
@@ -151,7 +151,7 @@ Pour chaque page : **objectif**, **au-dessus de la ligne de flottaison** (mobile
 - **Au-dessus de la ligne de flottaison (mobile, dans l'ordre)** :
   1. Galerie swipe (6 visuels maximum) : packshot détouré, porté (photos mannequin Branvas autorisées [fait]), détail fermoir/boucle, **coffret ouvert avec la parure**, échelle (sur buste ou main), vidéo courte si disponible. Indicateur « 1/6 ».
   2. Nom : « Parure Solar Sphere ». Sous-titre factuel : « Collier + puces · laiton doré à l'or fin, zircons ».
-  3. Prix TTC en grand, et dessous « Livraison 4,90 € · offerte dès 79 € ou dès 2 parures ».
+  3. Prix TTC en grand, et dessous « Livraison 4,90 € · offerte dès 2 parures (ou dès 89 €) ».
   4. **Bouton « Ajouter au panier »** pleine largeur. Un bouton Apple Pay / Google Pay en dessous est à tester (test n°7) : il peut faire baisser le panier moyen.
   5. Ligne délai dynamique : « Commande aujourd'hui : livraison estimée entre le **jeu. 26/11** et le **mer. 2/12** » (calcul : jours ouvrés + délai de traitement, P90 Branvas [fait]). Pendant la période de Noël : « Pour Noël en Europe : commande avant le vendredi 4 décembre ».
 - **Sous la ligne de flottaison (ordre)** :
@@ -171,7 +171,7 @@ C'est **le principal levier de panier moyen**. Il s'ouvre automatiquement à l'a
 
 - **Au-dessus de la ligne de flottaison du tiroir** :
   1. Titre « Ton écrin (1) » + fermer.
-  2. **Barre de progression** : « Plus que 10,00 € pour la livraison offerte, ou ajoute une 2e parure (−15 %) ». Elle passe à « Livraison offerte ✓ » quand le seuil est atteint. *La maquette calcule déjà ce message (seuil 50 €) : passer le seuil à 79 € et ajouter la règle « ou dès 2 parures ».*
+  2. **Barre de progression** : « Ajoute une 2e parure : −15 % sur la moins chère et livraison offerte ». Elle passe à « Livraison offerte ✓ » quand le seuil est atteint. *La maquette calcule déjà ce message (seuil 50 €) : passer le seuil à 89 € et ajouter la règle « ou dès 2 parures » (toute paire de parures dépasse 89 € : minimum 49 € + 41,65 €).*
   3. Ligne produit : vignette, nom, contenu, quantité, prix, supprimer.
   4. **Bloc « La 2e à −15 % »** : 3 vignettes cliquables avec le prix remisé affiché (« 58,65 € au lieu de 69 € dans ton écrin »). Le prix de référence est le prix de vente réel : pas de faux prix barré.
   5. Récap : sous-total, remise 2e parure, livraison, **total TTC**.
@@ -201,7 +201,7 @@ C'est **le principal levier de panier moyen**. Il s'ouvre automatiquement à l'a
   - Rappel en 1 ligne : « Tu disposes de 14 jours pour te rétracter après réception. »
   - Case ou mention d'acceptation des CGV avec lien (WooCommerce : page « Conditions générales »).
   - **Bouton : « Commander avec obligation de paiement »** (EN : « Place order and pay »). Le « Commander » par défaut de WooCommerce est à remplacer (`legal-checklist.md`).
-- **Noël** : ligne au-dessus du bouton : « Livraison avant Noël en Europe garantie par aucun transporteur : nos partenaires indiquent une commande avant le vendredi 4 décembre » → reformulation recommandée : « Pour une livraison avant Noël en Europe, la date conseillée est le vendredi 4 décembre. Au-delà, elle n'est pas garantie. »
+- **Noël** : ligne au-dessus du bouton, jusqu'au 4/12 : « Pour une livraison avant Noël en Europe, commande avant le vendredi 4 décembre 2026. » Après le 4/12 : « Livraison avant Noël non garantie. » Aucun compte à rebours : seule la date, qui est un fait.
 - **Frictions** : redirection vers PayPal pour la carte (utiliser des champs carte intégrés) ; erreurs affichées en haut seulement (validation en ligne, champ par champ) ; captcha visible (préférer un anti-fraude invisible : Stripe Radar) ; changement de devise au checkout.
 - **EN** : formats d'adresse US (State + ZIP), UK (Postcode) ; téléphone facultatif US/UK ; prix et taxes : en UE, prix TTC ; aux US, prix hors sales tax (afficher « Duties paid · no extra fees on delivery ») [à vérifier : obligations de sales tax, cf. `legal-checklist.md`].
 
@@ -256,7 +256,7 @@ C'est **le principal levier de panier moyen**. Il s'ouvre automatiquement à l'a
 | P0 | Photos HD (≥ 1600 px) depuis le compte Branvas | Conversion fiche, qualité pub |
 | P0 | Fiches avec matières exactes relevées dans Branvas (dorure/carat, dimensions, pierres, perles) | Confiance + conformité |
 | P0 | Bouton « Commander avec obligation de paiement », CGV, rétractation + bouton, médiateur, GPSR | Légal (bloquant) |
-| P0 | Seuil de livraison 79 € + « ou dès 2 parures » dans le mini-panier | Panier moyen [calcul] |
+| P0 | Livraison offerte dès 2 parures (seuil 89 €), 4,90 € sinon dans le mini-panier | Panier moyen [calcul] |
 | P0 | Délai estimé dynamique + date de Noël 4/12 (bandeau, fiche, checkout) | Conversion et moins de SAV |
 | P1 | Intro raccourcie + « Passer » + saut pour le trafic pub + `/lp/` | Conversion accueil |
 | P1 | Checkout 1 page, paiements express, champs réduits | Taux de finalisation |

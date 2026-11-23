@@ -10,7 +10,7 @@
 ## 0. Ce qu'il faut retenir (1 minute)
 
 1. **Le calendrier de Noël est très court.** Date limite Branvas pour une livraison avant Noël : **Europe vendredi 4 décembre 2026**, Royaume-Uni mardi 8 décembre **[FAIT]**. On a donc **≈ 8 jours de vente « Noël garanti »** si le site est en ligne le vendredi 27 novembre. Noël 2026 sert de **sprint de test en conditions réelles**, pas de pari de rentabilité.
-2. **L'économie unitaire est serrée sur les petits paniers.** Molten Art à 49 € laisse **≈ 12,50 € de marge de contribution** avant pub [calcul §2]. Aucune campagne froide ne doit pousser une parure seule sous 59 €. Les leviers : panier ≥ 69 €, « 2e parure −15 % », hero products à 59–79 €.
+2. **L'économie unitaire est serrée.** Panier moyen visé ≈ 72 € → marge ≈ 24 € (≈ 35 € en franchise de TVA), ROAS d'équilibre ≈ 3 (≈ 2). Molten Art seule à 49 € laisse **≈ 12,50 €** avant pub [calcul §2]. Aucune campagne froide ne doit pousser une parure seule sous 59 €. Les leviers : panier ≥ 69 €, « 2e parure −15 % », hero products à 59–79 €.
 3. **On n'invente rien** : pas de faux prix barrés (Black Friday compris), pas de stock limité, pas de compte à rebours fictif, pas d'avis. Les **seules urgences réelles** sont les dates Branvas (4/12 Europe, 8/12 UK) et la fin de l'emballage de fête (24/12) — on les affiche telles quelles, avec leur source logique (« date limite de notre atelier d'expédition »).
 4. **Arguments vrais et différenciants** à marteler : parure assortie (collier + boucles pensés ensemble), **écrin + pochette velours + chamoisine inclus** dans chaque commande, **droits et taxes déjà payés (rien à payer à la livraison)**, emballage de fête offert jusqu'au 24/12, perles de culture d'eau douce véritables (Liquid Art, selon fiche), argent 925 poinçonné + moissanite (ligne Joaillerie).
 5. **Ordre des canaux** : Google Merchant Center gratuit (J0) → Meta Advantage+ (J4) → TikTok (dès qu'on a de la vidéo exploitable, Spark Ads avec créatrices en janvier) → Pinterest (janvier, pour Saint-Valentin et fête des mères).
@@ -44,7 +44,7 @@
 - **[HYP]** Change 1 $ = 0,93 € (+ 1 % de frais de change bancaire) ; 1 $ = 0,79 £.
 - **[HYP]** Frais Stripe côté cliente : 1,5 % + 0,25 € (cartes UE) ; 2,5 % + 0,20 £ (cartes UK).
 - **[HYP]** Provision rétractation/SAV : **5 % du CA HT** (la rétractation 14 jours est à ta charge, Branvas ne la couvre pas [FAIT]).
-- **[FAIT]** TVA 20 % collectée par toi (France) ; **[HYP]** société assujettie (si franchise en base, la marge augmente : refaire le calcul).
+- **[FAIT]** TVA 20 % collectée par toi (France) si l'entreprise y est assujettie. Les tableaux supposent l'assujettissement. **[HYP] En franchise en base de TVA**, le prix TTC devient le CA encaissé : la marge au panier moyen passe d'≈ 24 € à **≈ 35 €** et le ROAS d'équilibre de ≈ 3 à **≈ 2** (statut et seuils 2027 à confirmer avec l'expert-comptable).
 - **[HYP]** Livraison offerte sur les commandes issues de la pub (cas prudent).
 - Prix de vente = ceux de la maquette, **à valider**.
 
@@ -72,11 +72,12 @@ Hypothèse de coût des autres parures : ratio coût/PVC de Molten Art (≈ 37 %
 
 | Indicateur | Valeur | Règle |
 |---|---|---|
-| Panier moyen visé (mix) | **[HYP] 75 € TTC** (≈ 1,15 parure/commande) | Hero products à 59–79 € + offre 2e parure |
-| Marge de contribution au panier visé | **≈ 24 €** | Recalculer chaque semaine avec le vrai panier moyen |
-| **CPA d'équilibre (BE-CPA)** | **24 €** | = marge de contribution de la 1re commande |
-| **CPA cible phase test (J0–J30)** | **≤ 24 €** (ROAS ≥ 3,1) | On accepte l'équilibre pour acheter de la donnée |
-| **CPA cible phase scale (J30+)** | **≤ 18 €** (ROAS ≥ 4,2) | 75 % du BE-CPA → ≈ 6 € de profit par commande |
+| Panier moyen visé (mix) | **[HYP] ≈ 72 € TTC** (≈ 1,1 parure/commande) | Hero products à 59–79 € + offre 2e parure |
+| Marge de contribution au panier visé | **≈ 24 €** si assujettie à la TVA ; **≈ 35 €** en franchise en base de TVA | Recalculer chaque semaine avec le vrai panier moyen |
+| **CPA d'équilibre (BE-CPA)** | **24 €** (TVA) / 35 € (franchise) | = marge de contribution de la 1re commande |
+| **ROAS d'équilibre** | **≈ 3** (TVA) / **≈ 2** (franchise) | 72 € ÷ 24 € ; 72 € ÷ 35 € |
+| **CPA cible phase test (J0–J30)** | **≤ 24 €** (ROAS ≥ 3) | On accepte l'équilibre pour acheter de la donnée |
+| **CPA cible phase scale (J30+)** | **≤ 18 €** (ROAS ≥ 4) | 75 % du BE-CPA → ≈ 6 € de profit par commande |
 | CPA plafond (coupe) | **36 €** (1,5 × BE) | Au-delà sur 3 jours glissants : réduire ou couper |
 | Molten Art vendue seule à 49 € | BE-CPA **12,50 €** | **Jamais en hero de campagne froide.** Produit d'entrée dans le catalogue et en ajout panier. |
 | Joaillerie 925 | BE-CPA ≈ 60 € | Campagne séparée seulement après J+30 (panier élevé, cycle de décision plus long) |
@@ -92,7 +93,7 @@ CPA = CPC ÷ taux de conversion (session → achat). Pour un CPA de 24 € :
 | 2,0 % | 0,48 € | Atteignable avec bonnes créas + période cadeau |
 | 3,0 % | 0,72 € | Typique d'un trafic chaud / retargeting / Google Shopping |
 
-**Ordres de grandeur [HYP], à recaler après 7 jours** : CPM Meta FR fin novembre/décembre 8–15 € (pic de saison) ; CTR lien 0,8–1,5 % ; CPC lien 0,50–1,10 €. Conclusion honnête : **la rentabilité à la 1re commande dépend du panier moyen et du taux de conversion.** Si, après 1 000 € dépensés, le CPA moyen dépasse 36 € avec un panier < 70 €, on arrête de monter les budgets et on retravaille offre, prix et créas (§6.4).
+**Ordres de grandeur [HYP], à recaler après 7 jours** : CPM France ≈ **7–11 $** (≈ 6,5–10 €), plus haut fin novembre/mi-décembre ; CTR lien 0,8–1,5 % ; CPC lien ≈ 0,45–1,00 € ; **taux de conversion bijoux ≈ 0,7–1,5 %** pour une boutique neuve sans avis. Avec ces valeurs, le CPA « naturel » se situe entre **30 et 140 €** : le CPA d'équilibre de 24 € n'est atteignable qu'en haut de fourchette (conversion ≥ 2 % grâce à l'intention cadeau, au retargeting et à Google Shopping, CPC ≤ 0,50 €). Conclusion honnête : **la rentabilité à la 1re commande n'est pas acquise** ; elle dépend du panier moyen, du taux de conversion et des créas. Si, après 1 000 € dépensés, le CPA moyen dépasse 36 € avec un panier < 70 €, on arrête de monter les budgets et on retravaille offre, prix et créas (§6.4).
 
 ---
 
@@ -281,18 +282,18 @@ Dans cet ordre : (1) fiche produit et checkout (frais visibles tôt, délais cla
 | Étape | KPI | Vert | Orange | Rouge | Source |
 |---|---|---|---|---|---|
 | Attention | Taux d'accroche vidéo 3 s | ≥ 30 % | 25–30 % | < 25 % | Meta / TikTok |
-| Attention | CPM Meta FR | ≤ 10 € | 10–15 € | > 15 € | Meta |
+| Attention | CPM Meta FR | ≤ 7 $ | 7–11 $ | > 11 $ | Meta |
 | Intérêt | **CTR lien** | ≥ 1,2 % | 0,8–1,2 % | < 0,8 % | Meta / TikTok / Pinterest |
 | Intérêt | **CPC lien** | ≤ 0,50 € | 0,50–0,90 € | > 0,90 € | idem |
 | Considération | Taux de rebond page produit (GA4, engagement < 10 s) | ≤ 55 % | 55–70 % | > 70 % | GA4 |
 | Considération | **Taux d'ajout panier** (sessions avec ajout ÷ sessions) | ≥ 8 % | 5–8 % | < 5 % | GA4 / Woo |
 | Achat | Taux de checkout → achat | ≥ 45 % | 30–45 % | < 30 % | Woo |
-| Achat | **Taux de conversion** (session → achat) | ≥ 2,5 % | 1,5–2,5 % | < 1,5 % | GA4 |
-| Achat | **Panier moyen TTC** | ≥ 75 € | 65–75 € | < 65 € | Woo |
+| Achat | **Taux de conversion** (session → achat) | ≥ 2 % | 1–2 % | < 1 % (alerte < 0,7 %) | GA4 |
+| Achat | **Panier moyen TTC** | ≥ 72 € | 62–72 € | < 62 € | Woo |
 | Achat | Part des commandes à 2 parures et + | ≥ 15 % | 8–15 % | < 8 % | Woo |
 | Rentabilité | **CPA** | ≤ 18 € | 18–24 € | > 36 € (coupe) | Plateformes + Woo |
-| Rentabilité | ROAS (CA TTC ÷ pub) | ≥ 4,2 | 3,1–4,2 | < 2,5 | idem |
-| Rentabilité | **MER** (CA total ÷ pub totale, toutes plateformes) | ≥ 3,5 | 2,8–3,5 | < 2,8 | Woo + factures |
+| Rentabilité | ROAS (CA TTC ÷ pub) | ≥ 4 | 3–4 (2–3 en franchise) | < 2,5 (< 1,7 en franchise) | idem |
+| Rentabilité | **MER** (CA total ÷ pub totale, toutes plateformes) | ≥ 3,5 | 3–3,5 | < 3 (< 2 en franchise) | Woo + factures |
 | Après-vente | Taux de rétractation | ≤ 5 % | 5–8 % | > 8 % | Woo |
 | Après-vente | Délai réel commande → livraison (France) | ≤ 9 j ouvrés | — | > 9 j ouvrés | Suivi DHL |
 
