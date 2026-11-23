@@ -10,7 +10,7 @@
  *   [charmed_coffrets category="coffrets-accueil" limit="8"]
  *   [charmed_coffrets skus="JSGRQR,JS1AQ5,JS3GGZ"]
  *   [charmed_file_parures category="parures" limit="9"]
- *   [charmed_univers slugs="sculpture,eclat,couleur-precieuse,joaillerie-925,mixte"]
+ *   [charmed_univers slugs="sculpture,eclat,couleur-precieuse,joaillerie-argent-925,mixte"]
  *   [charmed_promo parts="xmas,shipping,bundle"]   [charmed_promo parts="delivery,ddp,xmas" variant="list" context="product"]
  *   [charmed_newsletter]   [charmed_wordmark size="26"]   [charmed_language_switcher]
  *   [charmed_withdrawal_link]   [charmed_withdrawal_form] (page Rétractation)
@@ -103,7 +103,7 @@ function charmed_block_definitions(): array {
 			'render'      => 'charmed_render_univers',
 			'styles'      => array( 'charmed-sections' ),
 			'attributes'  => array(
-				'slugs'   => array( 'type' => 'string', 'default' => 'sculpture,eclat,couleur-precieuse,joaillerie-925,mixte', 'label' => __( 'Catégories (slugs, dans l’ordre)', 'charmed-paris' ) ),
+				'slugs'   => array( 'type' => 'string', 'default' => 'sculpture,eclat,couleur-precieuse,joaillerie-argent-925,mixte', 'label' => __( 'Catégories (slugs, dans l’ordre)', 'charmed-paris' ) ),
 				'parent'  => array( 'type' => 'string', 'default' => '', 'label' => __( 'Ou catégorie parente (slug)', 'charmed-paris' ) ),
 				'eyebrow' => array( 'type' => 'string', 'default' => '', 'label' => __( 'Surtitre', 'charmed-paris' ) ),
 				'heading' => array( 'type' => 'string', 'default' => '', 'label' => __( 'Titre', 'charmed-paris' ) ),

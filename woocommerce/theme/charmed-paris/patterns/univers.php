@@ -9,5 +9,5 @@
  */
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide"><!-- wp:charmed/univers {"slugs":"sculpture,eclat,couleur-precieuse,joaillerie-925,mixte"} /--></div>
+<div class="wp-block-group alignwide"><!-- wp:charmed/univers {"slugs":"sculpture,eclat,couleur-precieuse,joaillerie-argent-925,mixte"} /--></div>
 <!-- /wp:group -->

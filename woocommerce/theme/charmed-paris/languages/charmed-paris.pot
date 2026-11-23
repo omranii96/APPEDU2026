@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CHARMED PARIS 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-23 08:54+0000\n"
+"POT-Creation-Date: 2026-11-23 08:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -642,57 +642,57 @@ msgstr ""
 msgid "Prêt à offrir"
 msgstr ""
 
-#: inc/render-catalog.php:282
+#: inc/render-catalog.php:283
 msgid "métal doré"
 msgstr ""
 
-#: inc/render-catalog.php:283
+#: inc/render-catalog.php:284
 msgid "doré · oxydes de zirconium"
 msgstr ""
 
-#: inc/render-catalog.php:284
+#: inc/render-catalog.php:285
 msgid "pierres de couleur"
 msgstr ""
 
-#: inc/render-catalog.php:285
+#: inc/render-catalog.php:286 inc/render-catalog.php:287
 msgid "argent 925 · moissanite synthétique"
 msgstr ""
 
-#: inc/render-catalog.php:286
+#: inc/render-catalog.php:288
 msgid "sur cordon"
 msgstr ""
 
-#: inc/render-catalog.php:288
+#: inc/render-catalog.php:290
 msgid "Choisis ton éclat"
 msgstr ""
 
-#: inc/render-catalog.php:289
+#: inc/render-catalog.php:291
 msgid "Les univers"
 msgstr ""
 
-#: inc/render-catalog.php:297
+#: inc/render-catalog.php:299
 msgid "Tout voir"
 msgstr ""
 
 #. translators: %d: number of sets
-#: inc/render-catalog.php:305
+#: inc/render-catalog.php:307
 #, php-format
 msgid "%d parure"
 msgid_plural "%d parures"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/render-catalog.php:369
+#: inc/render-catalog.php:371
 msgid "Elles l’ont ouverte"
 msgstr ""
 
 #. translators: %d: rating
-#: inc/render-catalog.php:380
+#: inc/render-catalog.php:382
 #, php-format
 msgid "Note : %d sur 5"
 msgstr ""
 
-#: inc/render-catalog.php:383
+#: inc/render-catalog.php:385
 msgid "Acheteuse vérifiée"
 msgstr ""
 

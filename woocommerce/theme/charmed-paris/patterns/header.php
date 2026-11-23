@@ -24,7 +24,7 @@ $cat  = static function ( string $slug ) use ( $shop ): string {
 		<!-- wp:navigation {"className":"cp-header__nav","overlayMenu":"mobile","ariaLabel":"<?php echo esc_attr__( 'Navigation principale', 'charmed-paris' ); ?>","layout":{"type":"flex","justifyContent":"left"}} -->
 		<!-- wp:navigation-link {"label":"<?php echo esc_attr__( 'Parures', 'charmed-paris' ); ?>","url":"<?php echo esc_url( $shop ); ?>","kind":"custom"} /-->
 		<!-- wp:navigation-link {"label":"<?php echo esc_attr__( 'Cadeaux', 'charmed-paris' ); ?>","url":"<?php echo esc_url( home_url( '/#cadeaux' ) ); ?>","kind":"custom"} /-->
-		<!-- wp:navigation-link {"label":"<?php echo esc_attr__( 'Joaillerie 925', 'charmed-paris' ); ?>","url":"<?php echo esc_url( $cat( 'joaillerie-925' ) ); ?>","kind":"custom"} /-->
+		<!-- wp:navigation-link {"label":"<?php echo esc_attr__( 'Joaillerie 925', 'charmed-paris' ); ?>","url":"<?php echo esc_url( $cat( 'joaillerie-argent-925' ) ); ?>","kind":"custom"} /-->
 		<!-- wp:navigation-link {"label":"<?php echo esc_attr__( 'Homme', 'charmed-paris' ); ?>","url":"<?php echo esc_url( $cat( 'homme' ) ); ?>","kind":"custom"} /-->
 		<!-- /wp:navigation -->
 

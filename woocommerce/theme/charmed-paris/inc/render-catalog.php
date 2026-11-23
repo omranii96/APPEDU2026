@@ -199,7 +199,7 @@ function charmed_render_file_parures( array $a ): string {
 						data-short="<?php echo esc_attr( $p['short'] ); ?>"
 						data-pieces="<?php echo esc_attr( (string) wp_json_encode( $p['pieces'] ) ); ?>">
 						<span class="cp-file__floor" aria-hidden="true"></span>
-						<div class="cp-file__ph"><?php echo charmed_product_img( $p, 'cp-file__img', '(max-width: 760px) 62vw, 440px', 0 === $k ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+						<div class="cp-file__ph"><?php echo charmed_product_img( $p, 'cp-file__img', '(max-width: 760px) 62vw, 440px' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 						<span class="cp-file__scan" aria-hidden="true"></span>
 						<p class="cp-file__lbl" aria-hidden="true"><?php echo esc_html( $no . ' ' . mb_strtoupper( $p['short'] ) . ' · ' . $p['price_text'] ); ?></p>
 						<div class="cp-file__fb">
@@ -253,7 +253,7 @@ function charmed_render_univers( array $a ): string {
 	if ( ! taxonomy_exists( 'product_cat' ) ) {
 		return '';
 	}
-	$slugs = array_values( array_filter( array_map( 'trim', explode( ',', (string) ( $a['slugs'] ?? 'sculpture,eclat,couleur-precieuse,joaillerie-925,mixte' ) ) ) ) );
+	$slugs = array_values( array_filter( array_map( 'trim', explode( ',', (string) ( $a['slugs'] ?? 'sculpture,eclat,couleur-precieuse,joaillerie-argent-925,mixte' ) ) ) ) );
 	$query = array(
 		'taxonomy'   => 'product_cat',
 		'hide_empty' => true,
@@ -275,6 +275,7 @@ function charmed_render_univers( array $a ): string {
 		'sculpture'         => 'img/univers/sculpture.webp',
 		'eclat'             => 'img/univers/eclat.webp',
 		'couleur-precieuse' => 'img/univers/couleur-precieuse.webp',
+		'joaillerie-argent-925' => 'img/univers/joaillerie-925.webp',
 		'joaillerie-925'    => 'img/univers/joaillerie-925.webp',
 		'mixte'             => 'img/univers/mixte.webp',
 	);
@@ -282,6 +283,7 @@ function charmed_render_univers( array $a ): string {
 		'sculpture'         => __( 'métal doré', 'charmed-paris' ),
 		'eclat'             => __( 'doré · oxydes de zirconium', 'charmed-paris' ),
 		'couleur-precieuse' => __( 'pierres de couleur', 'charmed-paris' ),
+		'joaillerie-argent-925' => __( 'argent 925 · moissanite synthétique', 'charmed-paris' ),
 		'joaillerie-925'    => __( 'argent 925 · moissanite synthétique', 'charmed-paris' ),
 		'mixte'             => __( 'sur cordon', 'charmed-paris' ),
 	);
