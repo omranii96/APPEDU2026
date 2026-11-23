@@ -16,7 +16,14 @@ Volume : 10 vidéos (2 par format) + 10 images.
 - **Pas de faux témoignage** : personne ne dit « je l'ai acheté », « je le porte depuis 3 mois » ou « 5 étoiles ». On décrit des faits : doré, livré dans son écrin avec ruban, à garder au sec.
 - Personnages générés par IA → mention obligatoire **« Image virtuelle »** sur la publication (loi influence du 9 juin 2023, art. 5). Sur le site : « visuel généré par IA ».
 - Vocabulaire : « doré », jamais « plaqué or », « vermeil » ou « or massif » ; jamais « waterproof » ni « hypoallergénique ».
-- Packaging montré = packaging réel : carton logo, boîte tiroir beige métallisé avec ruban au logo, pochette velours, chamoisine. **Une seule boîte par commande** (ne pas montrer deux écrins pour deux parures). Pas de carte avec message manuscrit.
+- **Packaging montré = packaging réel, d'après les photos du packaging CHARMED PARIS** (`charmed-paris/img/pack-f.webp`, `pack-noel-f.webp`), qui servent d'image de départ aux vidéos d'unboxing :
+  - carton d'envoi **blanc**, logo CHARMED PARIS doré imprimé **à l'intérieur du couvercle** ;
+  - papier **nid d'abeille kraft** de chaque côté (**rouge** en version Noël) ;
+  - carte blanche au dessin de tulipe (chamoisine), carte « Thank You » avec photos ;
+  - petite boîte cadeau **blanche** carrée, **ruban chocolat à petits cœurs dorés** avec le logo (Noël : **ruban vert à flocons dorés**, pomme de pin, baies rouges, étiquette « Merry Christmas », carte sapin doré) ;
+  - **pochette en velours marron**.
+  - **Une seule boîte par commande** (ne pas montrer deux écrins pour deux parures). Pas de carte avec un message manuscrit.
+  - Ne pas montrer de tiroir à intérieur sombre (erreur de la 1re vidéo test, jetée).
 
 ## Réglages
 - Modèle : Marketing Studio, 9:16, 12 s, 720p, son activé → **60 crédits par vidéo** (1080p 15 s = 195 crédits, réservé aux gagnantes).

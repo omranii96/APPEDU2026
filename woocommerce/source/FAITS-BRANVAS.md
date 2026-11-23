@@ -38,6 +38,7 @@ Lu le 22/11/2026 sur la FAQ officielle https://faq.branvas.com/en/ (74 articles 
 - **Moissanite (ligne 925)** : expédiée dans un **écrin en velours bleu, sans logo** (le carton d'envoi garde le logo), certificat GRA ≥ 0,1 ct.
 - **Aucun message cadeau possible** (pas de champ sur la commande). Texte personnalisé uniquement sur la carte de remerciement en offre **VIP**. → Ne pas proposer de « message cadeau » / « carte Ouvre-moi avec ton message » tant que tu n'es pas VIP ; le colis est déjà « prêt à offrir » (ruban, bordereau sans prix).
 - Deux commandes = deux colis et deux fois 8,99 $ (pas de regroupement).
+- ⚠️ **Visuels réels du packaging (photos de la fondatrice, prioritaires pour tous les visuels)** : carton d'envoi blanc logo dans le couvercle, papier nid d'abeille kraft (rouge à Noël), petite boîte blanche ruban chocolat à cœurs dorés (vert à flocons à Noël), pochette velours marron, carte tulipe, carte Thank You. La FAQ parle d'une boîte « tiroir beige métallisé » : à vérifier avec une commande d'échantillons. Ne jamais montrer un autre packaging.
 - Packagings supplémentaires : 3,75 $ le set, seulement avec une commande d'échantillons.
 - Pack vidéo pro Branvas (optionnel) : 279 $ (1 vidéo d'emballage 45 s + 2 vidéos produit 20–30 s avec ton logo).
 
