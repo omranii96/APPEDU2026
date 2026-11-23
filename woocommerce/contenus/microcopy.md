@@ -61,7 +61,7 @@ Tutoiement partout. Phrases courtes. Variables entre accolades : `{prenom}`, `{n
 
 **Option cadeau (case à cocher)**
 - Libellé : C'est un cadeau
-- Aide : Aucun prix dans le colis. Mets l'adresse de la personne en livraison, la tienne en facturation.
+- Aide : Colis prêt à offrir, bordereau sans prix. Mets l'adresse de la personne en livraison, la tienne en facturation.
 
 > À confirmer : la règle « −15 % sur la moins chère » (la maquette applique −15 % sur la parure la moins chère) ; plugin de remise ; frais sous 50 €. L'option « Emballage cadeau et carte Ouvre-moi (offert) » de la maquette est à supprimer : aucune carte personnalisée hors offre VIP.
 
@@ -225,7 +225,7 @@ Règles : pas de fausse urgence, pas de « dernières pièces », pas de compte 
 
   Lien de désinscription : Ne plus recevoir nos e-mails
 
-## 8. Message cadeau
+## 8. Cadeau : colis prêt à offrir (pas de message cadeau)
 
 Ce qui est possible aujourd'hui : **aucun message imprimé dans le colis** (pas de champ chez le fournisseur ; carte personnalisée réservée à l'offre VIP). Le bordereau n'affiche aucun prix.
 
@@ -234,10 +234,7 @@ Texte de l'option au panier / checkout :
 - Aide : Aucun prix dans le colis. La parure arrive dans sa boîte-tiroir nouée d'un ruban.
 - Info : On ne peut pas glisser de mot dans le colis. Tu peux envoyer ton message toi-même le jour de la livraison : ton e-mail d'expédition te donne la date estimée.
 
-Option future (si une carte numérique est mise en place, À CONFIRMER) :
-- Champ : Ton message (180 caractères) · Placeholder : « Ouvre. Bon anniversaire, Léa. »
-- Aide : On l'envoie par e-mail à la personne le jour de l'expédition. Il n'est pas imprimé dans le colis.
-- E-mail destinataire : **Objet :** {prenom_expediteur} t'a envoyé quelque chose · Corps : Un colis CHARMED PARIS est en route vers toi. Voici le mot qui l'accompagne : « {message} ». Ouvre-le quand il arrive.
+Ne proposer aucun champ « message cadeau » au panier ni au checkout. Si une cliente écrit un message dans les notes de commande, réponse type : « Merci pour ton mot. On ne peut pas le glisser dans le colis, mais ta parure part prête à offrir, sans aucun prix. »
 
 ## 9. Messages d'erreur
 

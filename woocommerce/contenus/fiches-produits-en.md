@@ -24,7 +24,7 @@ Metal that looks as if it melted, then cooled in a second. Wear Molten Art with 
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -54,7 +54,7 @@ A small gold cube, crushed like a sheet of paper someone decided to keep. It sit
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -84,7 +84,7 @@ A silver moon, a gold star, and a drop of cubic zirconia that swings when you tu
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -114,7 +114,7 @@ Like a wave caught in sugar. Over a fine black knit, the pendant catches the lig
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -144,7 +144,7 @@ Drips of gold, frozen mid-fall. For a gallery opening, with a black blazer and n
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -174,7 +174,7 @@ A gold pebble picked up on the beach, with a pearl set in the middle. Worn high 
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -204,7 +204,7 @@ Satin silver-tone metal, like the inside of a shell, around a baroque pearl. Wit
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -237,7 +237,7 @@ A gold ring on a black cord that adjusts in one pull. She wears it over a white 
 
 **Care.** Keep it dry: take it off before showering or swimming, as water wears down the plating and the cord. Store it in its velvet pouch and wipe the metal with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -267,7 +267,7 @@ A hammered crescent moon on a black cord. With a grey sweatshirt, on a Sunday in
 
 **Care.** Keep it dry: take it off before showering or swimming, as water wears down the plating and the cord. Store it in its velvet pouch and wipe the metal with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -300,7 +300,7 @@ A small gold planet, half smooth, half sparkling. By candlelight at dinner, it s
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -330,7 +330,7 @@ Two pavé drops at the ears, a third at the end of a fine chain. For a black V-n
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -360,7 +360,7 @@ A champagne-coloured square that catches the six o'clock light. Hair up, so the 
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -391,7 +391,7 @@ Three pieces, one pavé curve. The ring at the office, then the necklace and hoo
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -421,7 +421,7 @@ A rectangular cubic zirconia in a double pavé frame, like an old ring worn at t
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -451,7 +451,7 @@ A gold curb chain that changes pace halfway: diamond-shaped links set with cubic
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -482,7 +482,7 @@ A honey-coloured square in a frame of cubic zirconia, like a family piece brough
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -513,7 +513,7 @@ A pavé flower at the end of a chain dotted with small white beads. For a spring
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -543,7 +543,7 @@ A circle of baguette stones worn at the front of the chain, like a clasp you sho
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -574,7 +574,7 @@ A silver-grey dome, half hidden in a shell of cubic zirconia. The set for grey d
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -604,7 +604,7 @@ A square of cubic zirconia that ripples like fabric. Over a black vest top, on a
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -636,7 +636,7 @@ A line of small ovals leading down to one larger stone. For a June wedding, thin
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -668,7 +668,7 @@ A deep green stone cut as a teardrop, ringed with cubic zirconia. With a black d
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -699,7 +699,7 @@ A square of white enamel with a green stone at its centre, like an old playing c
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -729,7 +729,7 @@ A vertical line of baguette stones that lengthens the neck. With a trouser suit,
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -760,7 +760,7 @@ Pink on rose gold, three pieces that answer each other. For a birthday brunch, w
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -791,7 +791,7 @@ A pink square in an ornate frame, in the manner of old court jewels. For an even
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -822,7 +822,7 @@ A midnight-blue oval in a corolla of clear stones. With a white jumper and raw d
 
 **Care.** Keep it dry: take it off before showering or swimming, as water, soap and chlorine wear down the plating. Perfume and lotion first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth.
 
-**The CHARMED PARIS box, included.** It arrives ready to give: a CHARMED PARIS drawer box tied with ribbon, a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -856,7 +856,7 @@ Four sterling silver pieces around the same pink stone. For a spring wedding: we
 
 **Care.** Keep it dry: take your jewellery off before showering or swimming. Sterling silver darkens with air and skin contact, so store each piece in its closed pouch and buff it with the polishing cloth to bring the shine back.
 
-**The CHARMED PARIS box, included.** It arrives in a blue velvet jewellery box inside the CHARMED PARIS parcel, with a velvet pouch, a polishing cloth, a care card, and the GRA certificate for stones of 0.1 ct and above. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives in a blue velvet jewellery box inside the CHARMED PARIS parcel, with a velvet pouch, a polishing cloth, a care card, and the GRA certificate for stones of 0.1 ct and above. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -886,7 +886,7 @@ A sun-yellow rectangle set in silver. The ring on its own at work; add the neckl
 
 **Care.** Keep it dry: take your jewellery off before showering or swimming. Sterling silver darkens with air and skin contact, so store each piece in its closed pouch and buff it with the polishing cloth to bring the shine back.
 
-**The CHARMED PARIS box, included.** It arrives in a blue velvet jewellery box inside the CHARMED PARIS parcel, with a velvet pouch, a polishing cloth, a care card, and the GRA certificate for stones of 0.1 ct and above. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives in a blue velvet jewellery box inside the CHARMED PARIS parcel, with a velvet pouch, a polishing cloth, a care card, and the GRA certificate for stones of 0.1 ct and above. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
@@ -918,7 +918,7 @@ Hearts cut clean and ringed with small stones, in sterling silver. Not sugary in
 
 **Care.** Keep it dry: take your jewellery off before showering or swimming. Sterling silver darkens with air and skin contact, so store each piece in its closed pouch and buff it with the polishing cloth to bring the shine back.
 
-**The CHARMED PARIS box, included.** It arrives in a blue velvet jewellery box inside the CHARMED PARIS parcel, with a velvet pouch, a polishing cloth, a care card, and the GRA certificate for stones of 0.1 ct and above. No prices anywhere in the parcel.
+**The CHARMED PARIS box, included.** It arrives in a blue velvet jewellery box inside the CHARMED PARIS parcel, with a velvet pouch, a polishing cloth, a care card, and the GRA certificate for stones of 0.1 ct and above. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag.
 
 **Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 

@@ -41,13 +41,15 @@ Ci-après « **CHARMED PARIS** », « nous ».
 
 3.3. Les photographies sont aussi fidèles que possible. Les teintes peuvent légèrement varier selon l'écran, et chaque perle de culture est unique. Si un écart rend le produit non conforme à sa description, vous bénéficiez de la garantie légale de conformité (article 10).
 
-3.4. **Entretien : tous nos bijoux se gardent au sec.** Retirez-les avant la douche, le bain, la piscine, la mer, le sport et le sommeil. Évitez le parfum, les crèmes, la laque et les produits ménagers, dont le chlore. Rangez chaque bijou séparément dans sa pochette, à l'abri de l'humidité, et essuyez-le avec la chamoisine fournie. L'eau, le savon et le chlore raccourcissent la durée de vie de toute dorure. Ces conseils figurent sur la fiche produit et sur la carte glissée dans chaque colis. Le respect de ces conseils n'est pas une condition de la garantie légale. En revanche, l'usure normale liée au porté et les dommages causés par un usage contraire à ces conseils ne constituent pas, en eux-mêmes, un défaut de conformité.
+3.4. **Entretien : tous nos bijoux se gardent au sec.** Retirez-les avant la douche, le bain, la piscine, la mer, le sport et le sommeil. Évitez le parfum, les crèmes, la laque et les produits ménagers, dont le chlore. Rangez chaque bijou séparément, dans la pochette en velours ou dans son sachet refermable, à l'abri de l'humidité, et essuyez-le avec la chamoisine fournie. L'eau, le savon et le chlore raccourcissent la durée de vie de toute dorure. Ces conseils figurent sur la fiche produit et sur la carte glissée dans chaque colis. Le respect de ces conseils n'est pas une condition de la garantie légale. En revanche, l'usure normale liée au porté et les dommages causés par un usage contraire à ces conseils ne constituent pas, en eux-mêmes, un défaut de conformité.
 
 3.5. Sécurité : les bijoux ne sont pas des jouets et contiennent de petites pièces. Ne les laissez pas à la portée des jeunes enfants. En cas d'irritation cutanée, cessez de porter le bijou et contactez-nous. [À VÉRIFIER : n'ajouter aucune mention « sans nickel », « sans plomb », « hypoallergénique », « certifié » ou « testé » sans rapport d'essai pour le SKU concerné.]
 
 3.6. Les produits sont proposés dans la limite des stocks disponibles, mis à jour automatiquement. Si un produit devient indisponible après votre commande, nous vous prévenons sans délai et vous remboursons au plus tard dans les 14 jours suivant le paiement, sauf si vous préférez attendre le réassort ou choisir un autre produit.
 
 3.7. Aucune gravure ni personnalisation n'est proposée.
+
+3.8. **Emballage.** Chaque commande est livrée dans un seul colis contenant **une boîte à bijoux**, qui accueille la pièce principale. Les autres pièces de la commande, y compris celles d'une deuxième parure, sont placées dans des **sachets refermables scellés**, dans le même colis. Chaque commande comprend une pochette en velours, une chamoisine et une carte de conseils d'entretien. Le bordereau ne mentionne aucun prix. **Aucun message cadeau personnalisé ne peut être ajouté.** Pendant la période de Noël, un emballage festif peut être proposé : il est alors annoncé sur le Site.
 
 ## Article 4. Prix
 
@@ -83,7 +85,7 @@ Ci-après « **CHARMED PARIS** », « nous ».
 
 **Engagement contractuel : nous nous engageons à vous livrer au plus tard [À COMPLÉTER : 15] jours ouvrés après la confirmation du paiement** (articles L. 111-1, 3° et L. 216-1 du code de la consommation). Les jours ouvrés vont du lundi au vendredi, hors jours fériés. Les fêtes de fin d'année et les contrôles douaniers peuvent allonger le délai sans dépasser cet engagement. Pendant les fêtes, nous affichons la date limite de commande conseillée pour une livraison avant Noël, sans garantie au-delà de cette date.
 
-6.3. **Frais de livraison** : [À DÉCIDER : (A) livraison offerte ; (B) forfait de [À COMPLÉTER] € TTC par commande ; (C) livraison offerte dès [À COMPLÉTER] € d'achat, [À COMPLÉTER] € TTC en dessous]. Les frais sont affichés avant le paiement. Une commande de plusieurs parures part en principe dans un seul colis. Si elle est exceptionnellement scindée, cela ne vous coûte rien de plus.
+6.3. **Frais de livraison** : [À DÉCIDER : (A) livraison offerte ; (B) forfait de [À COMPLÉTER] € TTC par commande ; (C) livraison offerte dès [À COMPLÉTER] € d'achat, [À COMPLÉTER] € TTC en dessous]. Les frais sont affichés avant le paiement. Une commande, même de plusieurs parures, part dans un seul colis. Si elle était exceptionnellement scindée, cela ne vous coûterait rien de plus. Les commandes ne peuvent pas être regroupées : deux commandes distinctes donnent lieu à deux colis et, le cas échéant, à deux fois les frais de livraison.
 
 6.4. **Suivi.** Vous recevez un numéro de suivi par e-mail dès l'expédition. Il peut s'écouler 24 à 48 heures avant la première mise à jour.
 
@@ -119,7 +121,7 @@ Ci-après « **CHARMED PARIS** », « nous ».
 - ou en nous envoyant le **formulaire type de rétractation** (annexe 1) ;
 - ou par toute autre déclaration dénuée d'ambiguïté, adressée par e-mail à [À COMPLÉTER : e-mail] ou par courrier à [À COMPLÉTER : adresse postale].
 
-9.3. **Renvoi des produits.** Renvoyez les produits au plus tard 14 jours après nous avoir informés de votre décision (article L. 221-23 du code de la consommation), à l'adresse : **[À COMPLÉTER : adresse de retour, en France]**. Ne les envoyez jamais à une autre adresse, par exemple celle de l'expéditeur figurant sur le colis : un colis envoyé ailleurs ne pourrait pas être suivi. Renvoyez la parure **complète** (tous les bijoux de l'ensemble), si possible dans son emballage d'origine, avec la pochette et la chamoisine.
+9.3. **Renvoi des produits.** Renvoyez les produits au plus tard 14 jours après nous avoir informés de votre décision (article L. 221-23 du code de la consommation), à l'adresse : **[À COMPLÉTER : adresse de retour, en France]**. Ne les envoyez jamais à une autre adresse, par exemple celle de l'expéditeur figurant sur le colis : un colis envoyé ailleurs ne pourrait pas être suivi. Renvoyez la parure **complète** (tous les bijoux de l'ensemble), si possible dans son emballage d'origine (boîte ou sachets), avec les accessoires reçus.
 
 9.4. **Frais de retour** [À DÉCIDER, une option] :
 

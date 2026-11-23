@@ -86,7 +86,7 @@ function charmed_render_coffrets( array $a ): string {
 	$items = array_map( 'charmed_product_data', $products );
 	$n     = count( $items );
 	/* translators: %d: number of sets */
-	$eyebrow = ! empty( $a['eyebrow'] ) ? $a['eyebrow'] : sprintf( _n( '%d parure · son coffret CHARMED PARIS', '%d parures · %d coffrets CHARMED PARIS', $n, 'charmed-paris' ), $n, $n );
+	$eyebrow = ! empty( $a['eyebrow'] ) ? $a['eyebrow'] : sprintf( _n( '%d parure à découvrir', '%d parures à découvrir', $n, 'charmed-paris' ), $n );
 	$heading = ! empty( $a['heading'] ) ? $a['heading'] : __( 'Choisis ton coffret', 'charmed-paris' );
 	$intro   = ! empty( $a['intro'] ) ? $a['intro'] : __( 'Fais tourner les coffrets. Celui qui arrive devant toi s’ouvre sur sa parure.', 'charmed-paris' );
 
@@ -166,7 +166,8 @@ function charmed_render_file_parures( array $a ): string {
 	$heading = ! empty( $a['heading'] ) ? $a['heading'] : __( 'La file des parures', 'charmed-paris' );
 	$first   = $items[0];
 	$xmas    = charmed_xmas_state()['packaging'];
-	$extra   = __( 'Coffret, pochette en velours, chamoisine', 'charmed-paris' );
+	// Une seule boîte à bijoux par commande (les pièces suivantes : sachets scellés) : ne pas promettre un écrin par parure.
+	$extra   = __( 'Écrin, pochette en velours, chamoisine', 'charmed-paris' );
 
 	ob_start();
 	?>
@@ -228,7 +229,7 @@ function charmed_render_file_parures( array $a ): string {
 					<?php foreach ( $first['pieces'] as $piece ) : ?>
 						<li><span><?php echo esc_html( $piece ); ?></span><span><?php esc_html_e( 'inclus', 'charmed-paris' ); ?></span></li>
 					<?php endforeach; ?>
-					<li class="cp-ticket__extra"><span><?php echo esc_html( $extra ); ?></span><span><?php esc_html_e( 'offert', 'charmed-paris' ); ?></span></li>
+					<li class="cp-ticket__extra"><span><?php echo esc_html( $extra ); ?></span><span><?php esc_html_e( '1 par commande', 'charmed-paris' ); ?></span></li>
 				</ul>
 				<div class="cp-ticket__total"><span><?php esc_html_e( 'Total parure', 'charmed-paris' ); ?></span><b data-t="price"><?php echo wp_kses_post( $first['price_html'] ); ?></b></div>
 				<div data-t="add"><?php echo charmed_add_to_cart_link( $first, 'cp-ticket__add' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>

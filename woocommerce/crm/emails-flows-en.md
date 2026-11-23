@@ -82,7 +82,7 @@ Welcome to CHARMED PARIS.
 
 We only sell sets: a necklace and earrings, made to go together. No more hunting for what matches. It's already done.
 
-Our logo says it too. The C and the D open like the two sides of a jewellery box. Every set arrives in one, with a velvet pouch, a polishing cloth and a care card.
+Our logo says it too. The C and the D open like the two sides of a jewellery box. Your order arrives in one: a drawer-style jewellery box tied with a ribbon bearing our logo, plus a velvet pouch, a polishing cloth and a care card.
 
 Your code, valid for 14 days on your first order:
 
@@ -148,11 +148,13 @@ Hi {{ contact.PRENOM }},
 Whether your set is for you or for someone else, here's what turns up at the door.
 
 **In the parcel**
-- Your set: the necklace and its matching earrings.
+- Your set, in our drawer-style jewellery box with a logo ribbon. Joaillerie 925 sets come in a blue velvet box instead.
 - A velvet pouch to keep it in.
 - A polishing cloth.
 - A care card.
-- [To confirm, depending on the packaging option: the white box with our logo and the gift box with ribbon.]
+- A packing slip with no prices on it.
+
+*Ordering two sets? They come in the same parcel, but there's one jewellery box per order: the second set travels in a sealed pouch. To give each one in its own box, place two separate orders (two parcels, two delivery charges).*
 
 **Delivery**
 - Tracked by DHL (USPS in the US). You'll get the tracking link by email.
@@ -164,7 +166,7 @@ Whether your set is for you or for someone else, here's what turns up at the doo
 - EU customers have 14 days after delivery to change their mind [returns terms for UK/US to confirm in the T&Cs].
 - Legal guarantee of conformity: 2 years in the EU.
 
-Buying a gift? Have it delivered straight to them. There's no price slip in the parcel [to confirm].
+Buying a gift? Have it delivered straight to them. The parcel arrives ready to give, with no prices inside. We can't add a gift message, so send your note separately.
 
 **[Find my set]**
 
@@ -205,7 +207,7 @@ You were looking at this one:
 
 Two things worth knowing:
 - [[ Sculpture/Éclat: "Gold-plated brass with an anti-tarnish coating." ]] [[ 925: "925 sterling silver and lab-grown moissanite." ]] [[ Couleur précieuse: "Coloured stones, silver-tone finish [to confirm]." ]] [[ Mixte: "Set on cord." ]]
-- It comes with its matching earrings, a velvet pouch and a polishing cloth.
+- It comes with its matching earrings, in our ribboned box, with a velvet pouch and a polishing cloth.
 
 **[Take another look]**
 
@@ -259,7 +261,8 @@ Tracking can take a day or two to show the first updates. That's normal.
 Duties and taxes are already paid. There's nothing to pay the courier.
 
 **In the parcel**
-Your set, a velvet pouch, a polishing cloth and a care card. [To confirm, depending on the packaging option: the white box with our logo.]
+Your set in our ribboned jewellery box (a blue velvet box for Joaillerie 925), a velvet pouch, a polishing cloth, a care card and a packing slip with no prices.
+[[ if 2+ sets: "Your second set is in a sealed pouch in the same parcel. There's one jewellery box per order." ]]
 
 **Your order**
 [[ summary: image, name, quantity, price ]]
@@ -290,6 +293,7 @@ One habit from day one: perfume and lotion first, jewellery last.
 Is it a gift? A few tips:
 - Don't throw the outer box away too quickly. Check everything's there first.
 - The velvet pouch and care card are part of the gift. Leave them in the box.
+- There are no prices and no message in the parcel. The note is up to you.
 - Sent straight to them? Let them know a parcel is on its way in their name. Nothing to pay on delivery.
 
 **[[ Unknown (`ACHAT_CADEAU = inconnu`) ]]**
@@ -315,7 +319,7 @@ Your set has arrived. Here's how to keep it looking good for longer.
 1. **Keep it dry.** Take it off before showering, bathing, swimming and sport. Water, soap and chlorine wear the plating down.
 2. **Perfume, lotion and hairspray first.** Jewellery goes on last and comes off first.
 3. **Wipe it with the polishing cloth** after wearing, gently.
-4. **Store each piece in the velvet pouch**, away from damp. The bathroom isn't the best spot.
+4. **Store each piece in the velvet pouch or its resealable bag**, away from damp. The bathroom isn't the best spot.
 5. **No cleaning products**, no toothpaste, no ultrasonic cleaners.
 
 **[[ Block by universe ]]**
@@ -523,7 +527,7 @@ Hi {{ contact.PRENOM }},
 
 We'd rather tell you early: for your set to arrive before Christmas, order by **{{ params.DATE_LIMITE }}**. After that, we can't promise the date.
 
-**Until 24 December, every set ships in festive wrapping**: gift paper, ribbon, decorations and a Christmas card. It's free, and there's nothing to tick.
+**Until 24 December, every order ships in festive wrapping**: gift paper, ribbon, decorations and a Christmas card. It's free, and there's nothing to tick.
 
 **Ideas, by person**
 - Wears gold every day → **Sculpture** [[ 2 products ]]
@@ -618,7 +622,7 @@ Hi {{ contact.PRENOM }},
 
 Valentine's Day is a Sunday this year. For delivery in time, order by **{{ params.DATE_LIMITE }}**.
 
-**To give**: every set comes with its velvet pouch and care card. Nothing to add.
+**To give**: the parcel arrives ready to give, with the ribboned box, velvet pouch, care card and no prices. We can't include a message, so send your note separately.
 
 **To drop a hint**: pick your set, then forward this email to the right person. Or just send them the link. Your secret's safe.
 

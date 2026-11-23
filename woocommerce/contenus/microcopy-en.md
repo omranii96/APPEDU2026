@@ -217,7 +217,7 @@ No fake urgency, no "only 2 left", no countdowns. The discount only appears in e
 
   Unsubscribe link: Stop receiving our emails
 
-## 8. Gift message
+## 8. Gifts: ready-to-give parcel (no gift message)
 
 Today: **no message can be printed into the parcel** (no field at our partner; custom cards are VIP-plan only). The packing slip shows no prices.
 
@@ -226,10 +226,7 @@ Gift option text:
 - Help: No prices in the parcel. The set arrives in its drawer box tied with ribbon.
 - Note: We can't add a note to the parcel. You can send your message yourself on delivery day: your shipping email gives you the estimated date.
 
-Future option (if a digital card is set up, À CONFIRMER):
-- Field: Your message (180 characters) · Placeholder: "Open it. Happy birthday, Léa."
-- Help: We email it to them on the day it ships. It isn't printed in the parcel.
-- Recipient email: **Subject:** {sender_first_name} has sent you something · Body: A CHARMED PARIS parcel is on its way to you. Here's the note that comes with it: "{message}". Open it when it arrives.
+Don't offer any gift-message field in cart or checkout. If a customer writes a message in the order notes, reply: "Thank you for your note. We can't add it to the parcel, but your set ships ready to give, with no prices anywhere."
 
 ## 9. Error messages
 

@@ -43,13 +43,15 @@ Hereinafter "**CHARMED PARIS**", "we", "us".
 
 3.3. Photographs are as accurate as possible. Shades may vary slightly depending on your screen, and every cultured pearl is unique. If a difference makes the product non-conforming to its description, the legal guarantee of conformity applies (section 10).
 
-3.4. **Care: all our jewellery must be kept dry.** Remove it before showering, bathing, swimming, sea bathing, sport and sleep. Avoid perfume, creams, hairspray and household products, including chlorine. Store each piece separately in its pouch, away from moisture, and wipe it with the polishing cloth provided. Water, soap and chlorine shorten the life of any gold finish. These instructions appear on the product page and on the card inside each parcel. Following them is not a condition of the legal guarantee. However, normal wear and damage caused by use contrary to these instructions are not, in themselves, a lack of conformity.
+3.4. **Care: all our jewellery must be kept dry.** Remove it before showering, bathing, swimming, sea bathing, sport and sleep. Avoid perfume, creams, hairspray and household products, including chlorine. Store each piece separately, in the velvet pouch or its resealable bag, away from moisture, and wipe it with the polishing cloth provided. Water, soap and chlorine shorten the life of any gold finish. These instructions appear on the product page and on the card inside each parcel. Following them is not a condition of the legal guarantee. However, normal wear and damage caused by use contrary to these instructions are not, in themselves, a lack of conformity.
 
 3.5. Safety: jewellery is not a toy and contains small parts. Keep it out of reach of young children. If your skin becomes irritated, stop wearing the piece and contact us.
 
 3.6. Products are offered while stocks last, with stock updated automatically. If a product becomes unavailable after your order, we tell you without delay and refund you within 14 days of payment at the latest, unless you would rather wait for a restock or choose another product.
 
 3.7. No engraving or personalisation is offered.
+
+3.8. **Packaging.** Each order is delivered in a single parcel containing **one jewellery box**, which holds the main piece. The other pieces of the order, including those of a second set, are placed in **sealed resealable bags** in the same parcel. Each order includes a velvet pouch, a polishing cloth and a care card. The packing slip shows no prices. **No personalised gift message can be added.** During the Christmas period, festive packaging may be offered: it is then announced on the Site.
 
 ## 4. Prices
 
@@ -85,7 +87,7 @@ Hereinafter "**CHARMED PARIS**", "we", "us".
 
 **Contractual commitment: we undertake to deliver within [TO BE COMPLETED: 15] business days of payment confirmation at the latest.** Business days are Monday to Friday, excluding public holidays. The festive season and customs checks may lengthen delivery, but never beyond this commitment. During the festive season, we show the recommended last order date for delivery before Christmas. Delivery is not guaranteed for orders placed after that date.
 
-6.3. **Delivery charges**: [TO BE DECIDED: (A) free delivery; (B) flat rate of [TO BE COMPLETED] € per order; (C) free delivery from [TO BE COMPLETED] €, [TO BE COMPLETED] € below that amount]. Charges are shown before payment. An order of several sets usually ships in a single parcel. If it is exceptionally split, there is no extra charge.
+6.3. **Delivery charges**: [TO BE DECIDED: (A) free delivery; (B) flat rate of [TO BE COMPLETED] € per order; (C) free delivery from [TO BE COMPLETED] €, [TO BE COMPLETED] € below that amount]. Charges are shown before payment. An order, even of several sets, ships in a single parcel. If it were exceptionally split, there would be no extra charge. Orders cannot be combined: two separate orders mean two parcels and, where applicable, two delivery charges.
 
 6.4. **Tracking.** You receive a tracking number by e-mail as soon as your order ships. The first update may take 24 to 48 hours to appear.
 
@@ -121,7 +123,7 @@ Hereinafter "**CHARMED PARIS**", "we", "us".
 - or by sending us the **model withdrawal form** (Appendix 1);
 - or by any other clear statement, by e-mail to [TO BE COMPLETED] or by post to [TO BE COMPLETED].
 
-9.3. **Returning the products.** Send the products back within 14 days of telling us your decision, to: **[TO BE COMPLETED: return address in France]**. Never send them to any other address, for example the sender's address printed on the parcel: a parcel sent there could not be traced. Return the **complete set** (every piece), in its original packaging if possible, with the pouch and polishing cloth.
+9.3. **Returning the products.** Send the products back within 14 days of telling us your decision, to: **[TO BE COMPLETED: return address in France]**. Never send them to any other address, for example the sender's address printed on the parcel: a parcel sent there could not be traced. Return the **complete set** (every piece), in its original packaging if possible (box or bags), with the accessories you received.
 
 9.4. **Return costs** [TO BE DECIDED, one option]:
 

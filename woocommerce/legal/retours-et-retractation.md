@@ -41,7 +41,7 @@ Tu as **14 jours** après nous avoir prévenus pour renvoyer ta parure à cette 
 
 Pour un retour sans souci :
 
-1. Remets **tous les bijoux de la parure**, si possible dans leur boîte, avec la pochette en velours et la chamoisine.
+1. Remets **tous les bijoux de la parure**, si possible dans leur boîte ou leurs sachets d'origine, avec les accessoires reçus (pochette, chamoisine).
 2. Glisse un mot avec ton **numéro de commande**, ou le formulaire ci-dessous.
 3. Utilise un **envoi suivi** (Colissimo, Mondial Relay, lettre suivie…) et garde la preuve de dépôt.
 
@@ -77,7 +77,7 @@ Un bijou arrivé abîmé, un fermoir qui casse, une dorure qui part anormalement
 
 Le remplacement ou le remboursement intervient au plus tard **30 jours** après ta demande. La garantie ne couvre pas l'usure normale, ni les dommages dus à une chute, un choc ou un contact répété avec l'eau, le parfum ou le chlore.
 
-**Rappel d'entretien : tes bijoux CHARMED PARIS se gardent au sec.** Retire-les pour la douche, la piscine, la mer, le sport et la nuit, et range-les dans leur pochette.
+**Rappel d'entretien : tes bijoux CHARMED PARIS se gardent au sec.** Retire-les pour la douche, la piscine, la mer, le sport et la nuit, et range-les dans leur pochette ou leur sachet.
 
 ## 3. Colis en retard ou perdu
 

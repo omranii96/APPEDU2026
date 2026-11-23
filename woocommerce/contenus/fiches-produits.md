@@ -24,7 +24,7 @@ Du métal qui a l'air d'avoir fondu, puis refroidi d'un coup. Molten Art se port
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -54,7 +54,7 @@ Un petit cube doré, froissé comme une feuille de papier qu'on aurait décidé 
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -84,7 +84,7 @@ Une lune argentée, une étoile dorée, et une goutte de zircon qui bouge quand 
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -114,7 +114,7 @@ On dirait une vague prise dans du sucre. Sur un pull noir en laine fine, le pend
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -144,7 +144,7 @@ Des coulures d'or figées en pleine chute. Le soir d'un vernissage, sur un blaze
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -174,7 +174,7 @@ Un galet doré ramassé sur la plage, avec une perle au centre. Il se porte haut
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -204,7 +204,7 @@ Du métal argenté, satiné comme l'intérieur d'une coquille, autour d'une perl
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -237,7 +237,7 @@ Un anneau doré sur un cordon noir, qui se règle d'un geste. Elle le porte sur 
 
 **Entretien.** À garder au sec : retire-la avant la douche et la baignade, l'eau use la dorure et abîme le cordon. Range-la dans sa pochette en velours et essuie le métal avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Elle arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Elle arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -267,7 +267,7 @@ Un croissant de lune martelé, sur un cordon noir. Avec un sweat gris, un dimanc
 
 **Entretien.** À garder au sec : retire-la avant la douche et la baignade, l'eau use la dorure et abîme le cordon. Range-la dans sa pochette en velours et essuie le métal avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Elle arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Elle arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -300,7 +300,7 @@ Une petite planète dorée, mi-lisse, mi-scintillante. Au restaurant, à la lumi
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -330,7 +330,7 @@ Deux gouttes pavées aux oreilles, une troisième au bout d'une chaîne fine. Po
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -360,7 +360,7 @@ Un carré couleur champagne qui prend la lumière de 18 h. Cheveux attachés, po
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -391,7 +391,7 @@ Trois pièces, la même courbe pavée. La bague le matin au bureau, le collier e
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -421,7 +421,7 @@ Un zircon taillé en rectangle dans un double entourage pavé, comme une bague a
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -451,7 +451,7 @@ Une gourmette dorée qui change de rythme en son milieu : des maillons en losang
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -482,7 +482,7 @@ Un carré couleur miel dans un cadre de zircons, comme un bijou de famille qu'on
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -513,7 +513,7 @@ Une fleur pavée au bout d'une chaîne semée de petites billes blanches. Pour u
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -543,7 +543,7 @@ Un cercle de zircons baguettes posé à l'avant de la chaîne, comme un fermoir 
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -574,7 +574,7 @@ Un dôme gris argenté, à moitié caché dans une coque de zircons. La parure d
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -604,7 +604,7 @@ Un carré de zircons qui ondule comme un tissu. Sur un débardeur noir, un soir 
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -636,7 +636,7 @@ Une ligne de petits ovales qui descend jusqu'à un zircon plus grand. Pour un ma
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -668,7 +668,7 @@ Un vert profond taillé en goutte, entouré de zircons. Avec une robe noire, c'e
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -699,7 +699,7 @@ Un carré d'émail blanc avec un zircon vert au centre, comme une carte à jouer
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -729,7 +729,7 @@ Une ligne verticale de zircons baguettes, qui allonge le cou. Pour un tailleur p
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -760,7 +760,7 @@ Du rose sur de l'or rose, en trois pièces qui se répondent. Pour un brunch d'a
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -791,7 +791,7 @@ Un carré rose dans un cadre ouvragé, à la façon des bijoux de cour. Pour une
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -822,7 +822,7 @@ Un ovale bleu nuit dans une corolle de pierres claires. Avec un pull blanc et un
 
 **Entretien.** À garder au sec : retire ta parure avant la douche et la baignade, l'eau, le savon et le chlore usent la dorure. Parfum et crème d'abord, bijoux ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir CHARMED PARIS nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -856,7 +856,7 @@ Quatre pièces en argent 925 autour d'une même pierre rose. Pour un mariage au 
 
 **Entretien.** À garder au sec : retire tes bijoux avant la douche et la baignade. L'argent 925 se ternit au contact de l'air et de la peau : range chaque pièce dans sa pochette fermée et frotte-la avec la chamoisine pour lui rendre son éclat.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive dans un écrin en velours bleu, dans le colis CHARMED PARIS, avec pochette en velours, chamoisine, carte d'entretien et le certificat GRA des pierres de 0,1 carat et plus. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive dans un écrin en velours bleu, dans le colis CHARMED PARIS, avec pochette en velours, chamoisine, carte d'entretien et le certificat GRA des pierres de 0,1 carat et plus. Aucun prix dans le colis. Un écrin par commande : avec deux parures, la seconde arrive dans un sachet scellé.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -886,7 +886,7 @@ Un rectangle jaune soleil, serti dans de l'argent. La bague se porte seule au bu
 
 **Entretien.** À garder au sec : retire tes bijoux avant la douche et la baignade. L'argent 925 se ternit au contact de l'air et de la peau : range chaque pièce dans sa pochette fermée et frotte-la avec la chamoisine pour lui rendre son éclat.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive dans un écrin en velours bleu, dans le colis CHARMED PARIS, avec pochette en velours, chamoisine, carte d'entretien et le certificat GRA des pierres de 0,1 carat et plus. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive dans un écrin en velours bleu, dans le colis CHARMED PARIS, avec pochette en velours, chamoisine, carte d'entretien et le certificat GRA des pierres de 0,1 carat et plus. Aucun prix dans le colis. Un écrin par commande : avec deux parures, la seconde arrive dans un sachet scellé.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
@@ -918,7 +918,7 @@ Des cœurs taillés net, entourés de petites pierres, en argent 925. Pas mièvr
 
 **Entretien.** À garder au sec : retire tes bijoux avant la douche et la baignade. L'argent 925 se ternit au contact de l'air et de la peau : range chaque pièce dans sa pochette fermée et frotte-la avec la chamoisine pour lui rendre son éclat.
 
-**Le coffret CHARMED PARIS, inclus.** Ta parure arrive dans un écrin en velours bleu, dans le colis CHARMED PARIS, avec pochette en velours, chamoisine, carte d'entretien et le certificat GRA des pierres de 0,1 carat et plus. Aucun prix dans le colis.
+**Le coffret CHARMED PARIS, inclus.** Ta parure arrive dans un écrin en velours bleu, dans le colis CHARMED PARIS, avec pochette en velours, chamoisine, carte d'entretien et le certificat GRA des pierres de 0,1 carat et plus. Aucun prix dans le colis. Un écrin par commande : avec deux parures, la seconde arrive dans un sachet scellé.
 
 **Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 

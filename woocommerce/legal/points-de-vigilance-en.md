@@ -19,6 +19,7 @@
 - State clearly that orders ship from **outside the EU** (US or China). Never claim "made in Paris" or "Made in France" (misleading origin, L. 121-2).
 - Christmas: last order date for Europe is **4 December 2026**. Nothing is guaranteed after that date.
 - **Online withdrawal button** mandatory since **19 June 2026** (Ordinance no. 2026-2, art. L. 221-21). Rename the order button to **"Commander avec obligation de paiement"** (L. 221-14). Make the telephone field mandatory.
+- **Packaging**: one jewellery box per order, other pieces in sealed bags, no gift message, two orders = two parcels. Never promise "a box per set", a gift message or combined shipping (misleading advertising, L. 121-2).
 
 ## 3. Product safety
 

@@ -88,15 +88,15 @@ Ouvre · Offre · Garde · Laisse-toi charmer · CHARMED PARIS
 ### 1.9 Offrir (packaging)
 - Surtitre : L'écrin Charmed
 - Titre : **Chaque commande arrive prête à offrir**
-- i. Une boîte-tiroir à notre logo, nouée d'un ruban, dans un carton d'envoi à notre logo.
+- i. Une boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, dans un carton d'envoi à notre logo. Une boîte par commande.
 - ii. Une pochette en velours et une chamoisine pour l'entretien.
 - iii. Une carte avec les conseils d'entretien. Le bordereau n'affiche aucun prix : tu peux faire livrer directement chez la personne.
 - iv. Jusqu'au 24 décembre : emballage de Noël offert, avec papier cadeau, ruban et carte de Noël.
 - Sélecteur : Femme · Homme · Noël Femme · Noël Homme
 - Note photo : Photos réelles des packagings, avec notre logo.
-- Ligne Joaillerie 925 (sous le bloc) : Les parures en argent 925 arrivent dans un écrin en velours bleu.
+- Ligne Joaillerie 925 (sous le bloc) : Les parures en argent 925 arrivent dans un écrin en velours bleu, glissé dans notre carton d'envoi.
 
-> À confirmer : couleur réelle de la boîte-tiroir (la FAQ parle de « metallic beige », les visuels montrent du blanc) ; papier nid d'abeille réservé aux offres Scale/VIP à Noël ; mécanisme de choix Femme/Homme. La « carte Ouvre-moi » de la maquette n'existe pas : carte personnalisée réservée à l'offre VIP, aucun message cadeau possible dans le colis.
+> Faits packaging (FAQ Branvas) : une boîte-tiroir beige métallisé à ton logo par commande ; 2e parure dans un sachet scellé du même colis ; écrin velours bleu sans logo pour la ligne moissanite ; pochette et chamoisine sans logo ; aucun message cadeau possible (carte personnalisable seulement en VIP). Corriger la maquette : les visuels montrent une boîte blanche, et la case « Emballage cadeau et carte Ouvre-moi » est à supprimer. À confirmer : papier nid d'abeille (Scale/VIP à Noël seulement) ; mécanisme de choix Femme/Homme.
 
 ### 1.10 Réassurance (4 colonnes)
 - **Livraison 4 à 9 jours ouvrés** · Offerte dès 50 €
@@ -349,7 +349,7 @@ Elle est offerte dès 50 €. En dessous, elle coûte [À COMPLÉTER].
 Oui. Mets son adresse de livraison et la tienne pour la facturation. Le colis ne contient aucun prix et la parure arrive dans sa boîte-tiroir nouée d'un ruban.
 
 **13. Est-ce que je peux ajouter un mot ou faire graver la parure ?**
-Il n'est pas possible d'ajouter un message imprimé dans le colis, ni de graver ou personnaliser les bijoux. [À CONFIRMER : si une carte numérique est mise en place, la mentionner ici.]
+Non. Nous ne pouvons pas glisser de message dans le colis, ni graver ou personnaliser les bijoux. En revanche, le colis arrive prêt à offrir : boîte-tiroir nouée d'un ruban, bordereau sans aucun prix.
 
 **14. Si je commande deux parures, j'ai deux coffrets ?**
 Non : une commande, un colis, un coffret. La première parure est dans la boîte-tiroir, les autres dans leur sachet scellé. Pour deux cadeaux à deux personnes, passe deux commandes.
@@ -357,4 +357,4 @@ Non : une commande, un colis, un coffret. La première parure est dans la boîte
 **15. Je peux renvoyer ma parure si elle ne me plaît pas ?**
 Oui. Tu as 14 jours après réception pour changer d'avis. Les frais de retour sont à notre charge et nous te remboursons sous 14 jours. Si la parure arrive abîmée ou ne correspond pas à ta commande, envoie-nous des photos : on la remplace ou on te rembourse.
 
-> À confirmer : FAQ 11 (frais) ; FAQ 13 (carte numérique) ; FAQ 14 : vérifier avec Branvas qu'une parure (plusieurs pièces) compte bien comme une seule « pièce » pour la boîte-tiroir.
+> À confirmer : FAQ 11 (frais) ; FAQ 14 : vérifier avec Branvas qu'une parure (plusieurs pièces) compte bien comme une seule « pièce » pour la boîte-tiroir.

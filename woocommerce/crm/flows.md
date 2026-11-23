@@ -217,6 +217,11 @@ Liv.+21 jours                                → P4b Rappel d'avis (une seule fo
   - Brevo n'envoie **pas** de demande d'avis en doublon.
   - Avis **sans contrepartie** au lancement. Si un jour une contrepartie est offerte, elle doit être signalée sur l'avis (obligation d'information sur les avis en ligne, Code de la consommation).
 - **Exclusions** : P3 et P4 ne partent pas si `SAV_OUVERT = oui` ou si une rétractation est en cours.
+- **Packaging réel** (FAQ Branvas 12872188) :
+  - Une seule boîte à bijoux par commande (tiroir, ruban à notre logo). La 2e parure arrive en sachet scellé dans le même colis.
+  - La Joaillerie 925 arrive dans un écrin en velours bleu, sans logo.
+  - Bordereau sans prix.
+  - **Aucun message cadeau possible.** Ne jamais promettre « un coffret par parure » ni « ton message dans le colis ».
 - **Commande cadeau livrée à une autre adresse** : aucun e-mail ne part vers la destinataire. On n'a ni son adresse ni son consentement.
 - **Réclamation** : Branvas ne traite les colis abîmés, les défauts et les erreurs d'article que s'ils sont signalés **dans les 10 jours suivant la livraison, photos à l'appui**. P2 et P3 invitent donc à écrire vite. Ils rappellent aussi que la garantie légale de conformité de 2 ans reste valable : on ne la restreint jamais.
 - **Klaviyo** : flow sur *Fulfilled Order*, avec les événements de livraison d'AfterShip ou d'un autre outil de suivi.

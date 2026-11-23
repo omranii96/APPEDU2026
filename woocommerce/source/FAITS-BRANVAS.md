@@ -19,6 +19,15 @@ Lu le 22/11/2026 sur la FAQ officielle https://faq.branvas.com/en/ (74 articles 
 - **Packaging de Noël offert du vendredi 20 novembre au jeudi 24 décembre**, automatique pour les abonnés. Standard : papier cadeau de fête, ruban, décorations, carte de Noël. Scale/VIP : en plus le papier nid d'abeille.
 - **Date limite de commande pour livraison avant Noël : Europe et Canada = vendredi 4 décembre 2026** (US/UK/Australie : 8 décembre ; reste du monde : 30 novembre). À afficher dans le bandeau, les fiches produits et le checkout. Au-delà : pas de garantie.
 
+## Règles de rédaction légales (agent juridique, woocommerce/legal/points-de-vigilance.md — prioritaires)
+- Dorure : écrire « **doré à l'or X carats** » avec le carat réel indiqué sur la fiche Branvas du produit ; « doré à l'or fin » seulement si dorure 24 carats ; à défaut de carat connu : « **doré** ». Jamais « plaqué or », jamais « vermeil ». EN : « gold-plated » (procédé réel), jamais « vermeil », jamais « solid gold ».
+- Pierres : « **oxyde de zirconium** » (plutôt que « zircon ») ; « **moissanite synthétique** » (décret 2002-65) ; perles de culture d'eau douce.
+- Aucune mention « sans nickel / sans plomb / hypoallergénique / certifié / testé / poinçonné » sans rapport du produit.
+- **Prix barrés interdits au lancement** (prix de référence = plus bas prix pratiqué sur 30 jours, L112-1-1) ; jamais le « prix conseillé » Branvas comme prix barré ; pas de faux Black Friday.
+- Checkout : bouton final « **Commander avec obligation de paiement** » (L221-14) ; **bouton de rétractation en ligne obligatoire depuis le 19 juin 2026** (L221-21, ordonnance 2026-2 ; libellé exact selon décret 2026-3, à vérifier) — WooCommerce ne l'a pas en natif.
+- Rétractation 14 j et garantie légale 2 ans à la charge de CHARMED PARIS (adresse de retour en France à définir). Ne pas publier les modèles de politiques Branvas tels quels (exclusions illicites dans l'UE).
+- Royaume-Uni : ne pas ouvrir avant immatriculation TVA UK ; ligne argent 925 exclue au UK (poinçon obligatoire > 7,78 g).
+
 ## Packaging (article 12872188, vérifié)
 - Inclus dans les 8,99 $ : carton d'envoi **à ton logo**, **boîte à bijoux type tiroir avec ruban à ton logo** (couleur standard **beige métallisé**), carte de remerciement avec conseils d'entretien (**logo seulement en offre VIP**), pochette velours (sans logo), chamoisine (sans logo), bordereau à ton logo **sans aucun prix**.
 - **Une seule boîte à bijoux par commande**, quel que soit le nombre de pièces : la pièce principale est dans la boîte avec la présentation complète, les autres pièces arrivent dans des **sachets scellés** dans le même colis. Chaque pièce est dans son sachet refermable. → Avec « 2e parure −15 % », la 2e parure n'a PAS son propre écrin. Ne pas promettre « un coffret par parure ».

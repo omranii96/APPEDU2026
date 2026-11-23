@@ -36,7 +36,7 @@ You have **14 days** after telling us to send your set to this address, **and th
 
 For a smooth return:
 
-1. Include **every piece of the set**, in its box if possible, with the velvet pouch and polishing cloth.
+1. Include **every piece of the set**, in its original box or bags if possible, with the accessories you received (pouch, polishing cloth).
 2. Add a note with your **order number**, or the form below.
 3. Use a **tracked service** and keep the proof of postage.
 
@@ -76,7 +76,7 @@ A piece arrived damaged, a clasp broke, the gold finish wore off unusually fast,
 
 Replacement or refund takes place within **30 days** of your request at the latest. The guarantee does not cover normal wear, or damage caused by a fall, an impact or repeated contact with water, perfume or chlorine.
 
-**Care reminder: keep your CHARMED PARIS jewellery dry.** Take it off for showers, swimming, the sea, sport and sleep, and store it in its pouch.
+**Care reminder: keep your CHARMED PARIS jewellery dry.** Take it off for showers, swimming, the sea, sport and sleep, and store it in its pouch or bag.
 
 ## 3. Late or lost parcel
 

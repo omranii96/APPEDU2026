@@ -24,6 +24,7 @@
 - **Noël** : afficher la date limite Branvas, **commande au plus tard le 4 décembre 2026** pour l'Europe, et dire qu'au-delà rien n'est garanti. Ne jamais garantir « livré avant Noël » au-delà de cette date.
 - **Bouton de rétractation** obligatoire depuis le **19 juin 2026** (ordonnance n° 2026-2 du 5 janvier 2026, art. L. 221-21 ; décret n° 2026-3). Amende administrative pouvant aller jusqu'à 15 000 € pour une personne physique et 75 000 € pour une personne morale. WooCommerce ne le propose pas en natif : à développer, ou extension à vérifier.
 - **Bouton de commande** : renommer « Commander » en **« Commander avec obligation de paiement »** (L. 221-14), sinon la commande peut être frappée de nullité.
+- **Emballage** : une seule boîte à bijoux par commande, les autres pièces étant livrées en sachets scellés. Aucun message cadeau. Deux commandes font deux colis. Ne jamais promettre « un écrin par parure », « message cadeau » ou « colis regroupés » : publicité trompeuse (L. 121-2). Vérifier la maquette, qui montre un coffret par parure et une carte « Ouvre-moi ».
 - **Téléphone obligatoire au checkout** (exigé par DHL et la douane hors US/UK). À rendre obligatoire dans WooCommerce et à mentionner dans la politique de confidentialité.
 
 ## 3. Sécurité des produits : GPSR, REACH, nickel, plomb, cadmium

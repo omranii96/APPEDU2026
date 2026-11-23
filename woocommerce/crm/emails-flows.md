@@ -67,7 +67,7 @@ Bienvenue chez CHARMED PARIS.
 
 Ici, on ne vend que des parures : un collier et ses boucles d'oreilles, pensés ensemble. Tu n'as pas à chercher ce qui va avec quoi. C'est déjà fait.
 
-Notre logo raconte l'idée. Le C et le D s'ouvrent comme les deux côtés d'un écrin. Chaque parure arrive dans le sien, avec une pochette en velours, une chamoisine et une carte d'entretien.
+Notre logo raconte l'idée. Le C et le D s'ouvrent comme les deux côtés d'un écrin. Ta commande arrive dans le sien : une boîte à bijoux à tiroir, fermée d'un ruban à notre logo, avec une pochette en velours, une chamoisine et une carte d'entretien.
 
 Ton code, valable 14 jours, sur ta première commande :
 
@@ -133,11 +133,13 @@ Bonjour {{ contact.PRENOM }},
 Que ta parure soit pour toi ou pour quelqu'un d'autre, voici ce qui arrive chez toi.
 
 **Dans le colis**
-- La parure : le collier et ses boucles assorties.
+- La parure, dans notre boîte à bijoux à tiroir avec ruban à notre logo. La Joaillerie 925 arrive dans un écrin en velours bleu.
 - Une pochette en velours pour la ranger.
 - Une chamoisine pour l'essuyer.
 - Une carte avec les conseils d'entretien.
-- [À confirmer selon l'offre packaging : le coffret blanc à notre logo et la boîte cadeau à ruban.]
+- Un bordereau sans aucun prix.
+
+*Tu commandes deux parures ? Elles arrivent dans le même colis, mais il n'y a qu'une boîte à bijoux par commande : la deuxième voyage dans un sachet scellé. Pour offrir chacune dans sa boîte, passe deux commandes séparées (deux colis, deux livraisons).*
 
 **La livraison**
 - Envoi suivi par DHL. Le lien de suivi arrive par e-mail.
@@ -149,7 +151,7 @@ Que ta parure soit pour toi ou pour quelqu'un d'autre, voici ce qui arrive chez 
 - Tu as 14 jours après réception pour changer d'avis.
 - Garantie légale de conformité de 2 ans.
 
-C'est pour offrir ? Tu peux la faire livrer directement chez la personne. On ne glisse aucun prix dans le colis [à confirmer].
+C'est pour offrir ? Tu peux la faire livrer directement chez la personne. Le colis arrive prêt à offrir, sans aucun prix. On ne peut pas y glisser de message : prévois ton mot à part.
 
 **[Choisir ma parure]**
 
@@ -190,7 +192,7 @@ Tu regardais celle-ci :
 
 Deux choses à savoir :
 - [[ si Sculpture ou Éclat : « Laiton doré à l'or fin, avec une finition anti-ternissement. » ]] [[ si 925 : « Argent 925 et moissanite de laboratoire. » ]] [[ si Couleur précieuse : « Pierres de couleur, finition argentée [à confirmer]. » ]] [[ si Mixte : « Montée sur cordon. » ]]
-- Elle arrive avec ses boucles assorties, une pochette en velours et une chamoisine.
+- Elle arrive avec ses boucles assorties, dans notre boîte à ruban, avec une pochette en velours et une chamoisine.
 
 **[La revoir]**
 
@@ -244,7 +246,8 @@ Le suivi peut mettre un ou deux jours avant d'afficher ses premières étapes. C
 Les droits et taxes sont déjà réglés. Tu n'as rien à payer au livreur.
 
 **Ce qu'il y a dans le colis**
-Ta parure, une pochette en velours, une chamoisine et une carte d'entretien. [À confirmer selon l'offre packaging : le coffret blanc à notre logo.]
+Ta parure dans notre boîte à bijoux à ruban (écrin en velours bleu pour la Joaillerie 925), une pochette en velours, une chamoisine, une carte d'entretien et un bordereau sans prix.
+[[ si 2 parures ou plus : « La deuxième parure est dans un sachet scellé, dans le même colis : il n'y a qu'une boîte à bijoux par commande. » ]]
 
 **Ta commande**
 [[ récapitulatif : image, nom, quantité, prix ]]
@@ -275,6 +278,7 @@ Le bon réflexe dès le premier jour : parfum et crème d'abord, bijou ensuite.
 C'est pour offrir ? Quelques idées :
 - Ne jette pas le carton d'envoi trop vite : vérifie d'abord que tout y est.
 - La pochette en velours et la carte d'entretien font partie du cadeau. Laisse-les dans la boîte.
+- Il n'y a ni prix ni message dans le colis. Ton mot, c'est toi qui le glisses ou qui l'envoies.
 - Tu l'as fait livrer chez la personne ? Préviens-la qu'un colis DHL arrive à son nom. Rien à payer à la livraison.
 
 **[[ Variante inconnue (`ACHAT_CADEAU = inconnu`) ]]**
@@ -300,7 +304,7 @@ Ta parure est arrivée. Voici comment la garder belle longtemps.
 1. **Garde-la au sec.** Retire-la avant la douche, le bain, la piscine, la mer et le sport. L'eau, le savon et le chlore usent la dorure.
 2. **Parfum, crème et laque d'abord.** Le bijou se met en dernier et s'enlève en premier.
 3. **Essuie-la avec la chamoisine** après l'avoir portée, sans frotter fort.
-4. **Range chaque pièce dans la pochette en velours**, à l'abri de l'humidité. La salle de bain, ce n'est pas l'idéal.
+4. **Range chaque pièce dans la pochette en velours ou dans son sachet refermable**, à l'abri de l'humidité. La salle de bain, ce n'est pas l'idéal.
 5. **Pas de produit nettoyant**, pas de dentifrice, pas de bain à ultrasons.
 
 **[[ Bloc selon l'univers de la commande ]]**
@@ -500,7 +504,7 @@ Bonjour {{ contact.PRENOM }},
 
 On préfère te le dire tôt : pour que ta parure arrive avant Noël, commande au plus tard le **{{ params.DATE_LIMITE }}**. Après, on ne peut plus garantir la date.
 
-**Jusqu'au 24 décembre, chaque parure part dans son emballage de fête** : papier cadeau, ruban, décorations et une carte de Noël. C'est offert, tu n'as rien à cocher.
+**Jusqu'au 24 décembre, chaque commande part dans son emballage de fête** : papier cadeau, ruban, décorations et une carte de Noël. C'est offert, tu n'as rien à cocher.
 
 **Des idées, selon la personne**
 - Elle porte du doré tous les jours → **Sculpture** [[ 2 produits ]]
@@ -586,7 +590,7 @@ Bonjour {{ contact.PRENOM }},
 
 Le 14 février tombe un dimanche. Pour une livraison à temps, commande au plus tard le **{{ params.DATE_LIMITE }}** (en France : lundi 1er février).
 
-**Pour offrir** : nos parures arrivent avec leur pochette en velours et leur carte d'entretien. Il n'y a rien à ajouter.
+**Pour offrir** : le colis arrive prêt à offrir, avec la boîte à ruban, la pochette en velours, la carte d'entretien et aucun prix. Pas de message possible dans le colis : écris ton mot à part.
 
 **Pour te la faire offrir** : choisis ta parure, puis transfère cet e-mail à la bonne personne. Ou envoie-lui directement le lien de la fiche. On ne dira rien.
 

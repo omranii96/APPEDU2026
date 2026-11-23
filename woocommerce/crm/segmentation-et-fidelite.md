@@ -24,11 +24,10 @@ CHARMED PARIS · outil : Brevo (voir `choix-outil.md`) · site bilingue FR + EN 
 **Signaux, du plus fiable au moins fiable :**
 1. **Déclaration** : une case « C'est pour offrir » au checkout, ou un clic « C'est pour offrir / C'est pour moi » dans P2. C'est une donnée déclarée par la cliente (*zero-party data*), donc fiable.
 2. **Nom de livraison différent** du nom de facturation.
-3. **Message cadeau** saisi au checkout, si le champ existe (sans gravure ni personnalisation de bijou, qui sont impossibles).
-4. **Date de commande** en période cadeau : du 15 novembre au 24 décembre, du 15 janvier au 14 février, et les 3 semaines avant la fête des mères du pays.
+3. **Date de commande** en période cadeau : du 15 novembre au 24 décembre, du 15 janvier au 14 février, et les 3 semaines avant la fête des mères du pays.
 
 **Règle :**
-- `oui` si la cliente l'a déclaré, ou si au moins 2 signaux parmi 2, 3 et 4 sont présents.
+- `oui` si la cliente l'a déclaré, ou si les signaux 2 et 3 sont présents tous les deux.
 - `non` si elle l'a déclaré, ou si le nom de livraison est le même que celui de facturation **hors** période cadeau.
 - `inconnu` dans tous les autres cas.
 - La dernière déclaration l'emporte toujours.
@@ -61,7 +60,7 @@ CHARMED PARIS · outil : Brevo (voir `choix-outil.md`) · site bilingue FR + EN 
 - **Traitement** :
   - Moins de codes promo : pas de R2 « livraison offerte » (déjà offerte au-dessus du seuil).
   - Plus de service : P3 version 925 avec le certificat GRA pour les pierres de 0,1 carat et plus, réponse personnelle aux questions, avant-première des nouvelles parures 925.
-  - Temps forts : mettre en avant la Joaillerie 925 et les paniers « parure pour soi + parure à offrir », avec −15 % sur la 2e parure dans le même panier (offre du site).
+  - Temps forts : mettre en avant la Joaillerie 925 et les paniers de 2 parures, avec −15 % sur la 2e parure dans le même panier (offre du site). **Attention** : il n'y a qu'une boîte à bijoux par commande, la 2e parure arrive en sachet scellé. Pour « une pour soi + une à offrir dans sa boîte », il faut conseiller deux commandes.
 - **Ce qu'on ne fait pas** : pas de « VIP » affiché, pas de faux privilège. On reste sur des avantages concrets.
 
 ### 2.4 RFM simple (sans outil prédictif)
@@ -111,7 +110,7 @@ Le flow C1 se déclenche alors (`flows.md` §10). On ne sort pas du Cercle, sauf
 
 ### 3.3 Ce qu'on ne promet pas
 
-- Pas de gravure, pas de personnalisation, pas de cadeau physique supplémentaire dans le colis : Branvas expédie en neutre et nous ne touchons pas le colis.
+- Pas de gravure, pas de personnalisation, **pas de message cadeau** (aucun champ possible, carte personnalisée seulement en offre VIP), pas de cadeau physique supplémentaire dans le colis : Branvas expédie en neutre et nous ne touchons pas le colis.
 - Pas de « carte insert personnalisée » tant que l'offre Branvas VIP (149 $ par mois) n'est pas prise.
 - Pas de « statut » mis en scène ni de rareté. Le Cercle est un remerciement, pas un club fermé.
 

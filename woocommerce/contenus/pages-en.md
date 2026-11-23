@@ -81,13 +81,13 @@ Open · Give · Keep · Be charmed · CHARMED PARIS
 ### 1.9 Giving (packaging)
 - Eyebrow: The Charmed box
 - Title: **Every order arrives ready to give**
-- i. A drawer box with our logo, tied with ribbon, inside a shipping box with our logo.
+- i. A metallic beige drawer box with our logo, tied with ribbon, inside a shipping box with our logo. One box per order.
 - ii. A velvet pouch and a polishing cloth.
 - iii. A care card. The packing slip shows no prices, so you can send it straight to them.
 - iv. Until 24 December: free Christmas wrapping, with festive paper, ribbon and a Christmas card.
 - Switch: Her · Him · Christmas Her · Christmas Him
 - Photo note: Real photos of our packaging.
-- 925 line: Our sterling silver sets arrive in a blue velvet jewellery box.
+- 925 line: Our sterling silver sets arrive in a blue velvet jewellery box, inside our shipping box.
 
 ### 1.10 Reassurance
 - **Delivered in 4–9 business days** · Free from €50
@@ -327,7 +327,7 @@ Free from €50. Below that, it's [TO COMPLETE].
 Yes. Use their address for delivery and yours for billing. There are no prices in the parcel, and the set arrives in its drawer box tied with ribbon.
 
 **13. Can I add a note or have it engraved?**
-We can't print a message into the parcel, and we don't engrave or personalise jewellery.
+No. We can't add a message to the parcel, and we don't engrave or personalise jewellery. The parcel does arrive ready to give: a drawer box tied with ribbon, and a packing slip with no prices.
 
 **14. If I order two sets, do I get two boxes?**
 No: one order, one parcel, one box. The first set goes in the drawer box, the others in their sealed bags. For two gifts to two people, place two orders.
