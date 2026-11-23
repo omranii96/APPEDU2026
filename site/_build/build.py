@@ -280,7 +280,7 @@ def build_home():
     <a href="cadeaux.html#maman"><b>Pour ta mère</b><span>Des pierres de couleur, élégantes sans en faire trop</span></a>
     <a href="cadeaux.html#soeur"><b>Pour ta sœur</b><span>Du doré sculpté, qui se voit avec un tee-shirt</span></a>
     <a href="cadeaux.html#amie"><b>Pour ta meilleure amie</b><span>Une parure chacune : la 2e est à −30 %</span></a>
-    <a href="cadeaux.html#moins-50"><b>Moins de 50 €</b><span>Des parures complètes à 49 €</span></a>
+    <a href="cadeaux.html#moins-60"><b>Moins de 60 €</b><span>Des parures complètes dès 49 €</span></a>
   </div>
 </section>
 {faq_block(short=True)}
@@ -407,7 +407,7 @@ def build_gifts():
         ('maman', 'Pour ta mère', 'Des pierres de couleur et des lignes nettes.', ['JS0DGC', 'JSX3G6', 'JS3GGZ', 'JSJB3S']),
         ('soeur', 'Pour ta sœur', 'Du doré sculpté, qui se porte avec un tee-shirt.', ['JSGRQR', 'JS63WT', 'JSG813', 'JS411P']),
         ('amie', 'Pour ta meilleure amie', 'Prenez-en une chacune : la 2e est à −30 %.', ['JS1AQ5', 'JS63VP', 'JS4EXR', 'JSB541']),
-        ('moins-50', 'Moins de 50 €', 'Des parures complètes à 49 €.', [p['sku'] for p in PRODUCTS if p['price'] < 50][:4]),
+        ('moins-60', 'Moins de 60 €', 'Des parures complètes dès 49 €.', [p['sku'] for p in sorted(PRODUCTS, key=lambda x: x['price']) if p['price'] < 60][:4]),
     ]
     sec = ''.join(f'<section class="sec wrap" id="{i}" aria-labelledby="{i}T"><div class="sec-h"><div><h2 id="{i}T">{t}</h2><p class="lead">{d}</p></div></div><div class="grid">{"".join(card(BY[s]) for s in skus)}</div></section>' for i, t, d, skus in groups)
     body = f'''<section class="wrap page-h"><nav class="crumbs" aria-label="Fil d’Ariane"><a href="index.html">Accueil</a><span>/</span><span aria-current="page">Idées cadeaux</span></nav>
