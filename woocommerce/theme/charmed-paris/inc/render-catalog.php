@@ -235,7 +235,7 @@ function charmed_render_file_parures( array $a ): string {
 				<div data-t="add"><?php echo charmed_add_to_cart_link( $first, 'cp-ticket__add' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 				<div class="cp-ticket__bar" aria-hidden="true"></div>
 				<div class="cp-ticket__sku" data-t="sku"><?php echo esc_html( trim( $first['sku'] . ' · CHARMED PARIS', ' ·' ) ); ?></div>
-				<div class="cp-ticket__foot"><span><?php echo esc_html( $xmas ? __( 'Emballage de Noël offert', 'charmed-paris' ) : __( 'Coffret offert', 'charmed-paris' ) ); ?></span><span>Paris</span></div>
+				<div class="cp-ticket__foot"><span><?php echo esc_html( $xmas ? __( 'Emballage de Noël offert', 'charmed-paris' ) : __( 'Prêt à offrir', 'charmed-paris' ) ); ?></span><span>Paris</span></div>
 			</aside>
 			<div class="cp-file__curl" aria-hidden="true"></div>
 		</div>

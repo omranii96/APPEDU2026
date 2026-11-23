@@ -165,7 +165,7 @@ function charmed_render_packshots( array $a ): string {
 
 	$packs = array(
 		'noel-f' => array( __( 'Noël · Femme', 'charmed-paris' ), __( 'Packaging de Noël CHARMED PARIS pour elle : boîte blanche, ruban de fête, pochette en velours, carte de Noël', 'charmed-paris' ) ),
-		'f'      => array( __( 'Femme', 'charmed-paris' ), __( 'Packaging CHARMED PARIS pour elle : coffret blanc, papier nid d’abeille, boîte cadeau au ruban chocolat, pochette en velours', 'charmed-paris' ) ),
+		'f'      => array( __( 'Femme', 'charmed-paris' ), __( 'Packaging CHARMED PARIS pour elle : carton d’envoi blanc, boîte à bijoux nouée d’un ruban chocolat, pochette en velours', 'charmed-paris' ) ),
 		'h'      => array( __( 'Homme', 'charmed-paris' ), __( 'Packaging CHARMED PARIS pour lui : papier noir, écrin cadre noir, pochette en cuir noir', 'charmed-paris' ) ),
 		'noel-h' => array( __( 'Noël · Homme', 'charmed-paris' ), __( 'Packaging de Noël CHARMED PARIS pour lui : papier rouge, pochette en cuir noir, écrin au ruban rouge', 'charmed-paris' ) ),
 	);
