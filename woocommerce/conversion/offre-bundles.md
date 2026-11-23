@@ -1,33 +1,39 @@
-# Offre parures en paliers (décision du 23/11/2026, remplace « 2e parure −15 % »)
+# Offre parures : calculs vérifiés avec les tarifs officiels Branvas (23/11/2026)
 
-| Palier | Onglet (angle) | Ce que paie la cliente | Exemple Solar Sphere (69 €) |
+## Décision
+**2 parures : la 2e à −30 % · 3 parures : la 3e à −50 %** (par groupe de 3, sur la moins chère). Pas de cadeau. Joaillerie 925 exclue.
+Remplace « 2e −50 % / 3e offerte + collier offert », qui **perdait de l'argent** au scénario pessimiste (trio −5 à −15 € par commande).
+
+## Tarifs Branvas utilisés (FAQ officielle, articles 12875190, 12241736, 13048992, 15948119, 18510957, 12241451)
+- Coût unitaire : visible seulement dans ton compte (ex. Molten Art 16,87 $, Solar Sphere 22,01 $, Emerald Dreams 29,41 $ pour un prix conseillé de 89 $).
+- Livraison : 8,99 $ **par commande**, quel que soit le nombre de pièces, droits et taxes d'import compris (DDP). Branvas ne facture pas de taxe.
+- Frais de carte facturés par Branvas : 2,9 % + 0,30 $ sur chaque commande que Branvas te facture.
+- Tout est facturé en **dollars** : ta banque convertit (compter 1 à 2 % de frais de change, sauf carte en dollars).
+- Abonnement Growth 29 $/mois (75 produits publiés : 30 parures + pièces seules, ça tient).
+- Retours pour changement d'avis : **jamais repris par Branvas**, à ta charge (rétractation de 14 jours obligatoire dans l'UE).
+- Marge brute officielle au prix conseillé : 60 à 70 % en général (Prism Party 59–73 %, Liquid Sculpture 53–74 %, Moissanite 42–80 %).
+
+## Ce qui reste par commande (calculateur `woocommerce/finances/calcul-marge.py`)
+Coûts inclus : coût Branvas + 8,99 $ + 2,9 % + 0,30 $, change, frais de paiement de la boutique, cotisations micro-entreprise 12,4 % du chiffre d'affaires, retours (6 à 10 % des commandes).
+
+| Parure | 1 parure | 2 parures | 3 parures |
 |---|---|---|---|
-| 1 parure | Pour toi | prix normal, livraison offerte dès 50 € | 69 € |
-| 2 parures | Une pour toi, une à offrir | la moins chère à **−50 %** | 103,50 € (économie 34,50 €) |
-| 3 parures | Tous tes cadeaux de Noël | la moins chère **offerte** + **collier Golden Arc offert** | 138 € (économie 69 € + collier 29 €) |
+| Molten Art 49 € (coût réel), central | 19 € | 28 € | 44 € |
+| Molten Art 49 €, pessimiste | 16 € | 22 € | 36 € |
+| Solar Sphere 69 € (coût réel), central | 27 € | 46 € | 70 € |
+| Solar Sphere 69 €, pessimiste | 23 € | 38 € | 59 € |
 
-Règle exacte (identique dans le prototype `site/assets/js/app.js` et le thème `inc/commerce.php`, mode `tiers`) : parures éligibles triées par prix décroissant, par groupes de 3 ; la moins chère de chaque groupe complet est offerte ; s'il reste 2 parures hors groupe, la moins chère des deux est à −50 %. Le collier cadeau est ajouté une fois, dès 3 parures. **Joaillerie 925 exclue** (coût argent + moissanite) : la configurer via « Catégories éligibles ».
+Chaque palier rapporte plus que le précédent, dans les deux scénarios : **tu es gagnant à chaque commande**. C'est la condition qu'on garde pour toute future offre (le calculateur affiche « palier moins rentable » sinon).
 
-Onglets d'angle : l'onglet du duo reprend la phrase « Pour l'offrir à… » de chaque fiche produit (ex. « une pour ta tante qui porte du camel tout l'hiver »), donc chaque parure a son avatar.
+## Règle de prix
+1. **Jamais en dessous du prix conseillé Branvas converti en euros** (prix conseillé en $ ÷ 1,0968), sauf raison précise. Exemple : Emerald Dreams, conseillé 89 $ ≈ 81 € → vendu 79 € (et non 45 €, qui ne rapportait que ≈ 6 €).
+2. Bénéfice net minimum visé : **15 € pour une commande d'1 article** au scénario pessimiste.
+3. Les pièces seules à 29–39 € sont sous ce seuil si elles sont achetées seules : à vendre au prix conseillé ou en complément d'une parure.
+4. Si le chiffre d'affaires dépasse le seuil de la franchise de TVA, la TVA de 20 % mange environ 1/6 du prix : il faudra augmenter les prix (exemple : Solar Sphere seule passe de 27 € à 17 € de bénéfice).
 
-## Marge par commande (hypothèses : coût parure ≈ 19 €, livraison Branvas 8,99 $ ≈ 8,20 €, frais 2,9 % + 0,30 $, franchise de TVA, collier cadeau ≈ 7 € à relever)
-| Panier | Encaissé | Coûts | Marge | vs 1 parure |
-|---|---|---|---|---|
-| 1 × 69 € | 69 € | 19 + 8,20 + 2,30 | **≈ 39 €** | — |
-| 2 × 69 € | 103,50 € | 38 + 8,20 + 3,30 | **≈ 54 €** | +38 % |
-| 3 × 69 € | 138 € | 57 + 7 + 8,20 + 4,30 | **≈ 61 €** | +56 % |
+## Publicité
+Le bénéfice d'une commande, c'est le maximum que tu peux payer en pub pour l'obtenir (coût par achat). Avec ces marges : 15 à 25 € pour une parure seule, 35 à 60 € pour un trio. Couper toute pub dont le coût par achat dépasse le bénéfice moyen par commande.
 
-À 49 € (Sculpture) : 1 = ≈ 21 € ; 2 = ≈ 26 € ; 3 = ≈ 22 €. **À surveiller** : le trio sur les parures à 49 € rapporte autant qu'une seule. Si les paniers trio à 49 € dominent, passer le cadeau à « dès 120 € » ou remplacer le collier par un cadeau moins cher.
-Le panier moyen visé passe de ≈ 72 € à ≈ 105 € : c'est ce qui rend la publicité payante viable (CPA cible 40–60 €).
-
-## Points juridiques (vérifiés contre FAITS-BRANVAS et legal/points-de-vigilance)
-- Pas de prix barré de référence : on affiche le vrai prix unitaire et l'économie réelle de l'offre. Ne jamais augmenter un prix avant de lancer l'offre (L112-1-1, plus bas prix des 30 derniers jours).
-- « Offerte » = vraiment 0 € sur la ligne ; conditions écrites sous l'offre et dans la FAQ.
-- Pas de « le plus choisi » / « best-seller » tant qu'il n'y a pas de ventes réelles.
-- Une seule boîte cadeau par commande (Branvas) : dit sur l'accueil et dans chaque fiche (« Ce que contient le colis »).
-- Le collier cadeau doit exister et être vendu 29 € (pièces seules) pour afficher « valeur 29 € ».
-
-## À faire dans WooCommerce
-1. Réglages > Produits > CHARMED PARIS : mode « Paliers », pourcentage 50, catégories éligibles sans Joaillerie 925, ID produit cadeau = collier Golden Arc.
-2. Créer le produit Golden Arc (JNEJ8J) dans Branvas, prix 29 €.
-3. Tester : 1, 2, 3, 4, 5, 6 parures, mélange de prix, avec et sans code promo, puis vérifier que la commande remonte dans Branvas avec le collier à 0 €.
+## À faire
+- Relever dans ton compte Branvas le **coût unitaire et le prix conseillé des 36 articles** et les noter dans `woocommerce/finances/couts-branvas.csv`, puis relancer `python3 woocommerce/finances/calcul-marge.py` (et `--scenario pessimiste`). Toute ligne avec une alerte doit être repricée avant le lancement.
+- WooCommerce : Réglages > Produits > CHARMED PARIS : mode « Paliers », 30 %, 3e parure 50 %, catégories éligibles sans Joaillerie 925, cadeau vide.

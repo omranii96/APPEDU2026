@@ -8,6 +8,7 @@
   const eur = x => (Math.round(x * 100) / 100).toLocaleString('fr-FR', { minimumFractionDigits: x % 1 ? 2 : 0, maximumFractionDigits: 2 }) + ' €';
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const KEY = 'cp_cart_v2';
+  const pc = x => '−' + Math.round(x * 100) + ' %';
 
   /* ------------------------------------------------ stockage */
   let mem = [];
@@ -17,8 +18,8 @@
   const setQty = (sku, q) => { let c = load(); const l = c.find(x => x.sku === sku); if (!l) return; l.qty = q; c = c.filter(x => x.qty > 0); save(c); };
 
   /* ------------------------------------------------ calcul de l'offre
-     Parures éligibles triées par prix décroissant, par groupes de 3 : la moins chère de chaque groupe complet est offerte.
-     S'il reste 2 parures hors groupe, la moins chère des deux est à −50 %. Dès 3 parures : collier Golden Arc offert (une fois). */
+     Parures éligibles triées par prix décroissant, par groupes de 3 : la moins chère de chaque groupe complet est remisée de d3 (−50 %).
+     S'il reste 2 parures hors groupe, la moins chère des deux est remisée de d2 (−30 %). Cadeau optionnel (O.gift) dès 3 parures. */
   function compute(cart) {
     const lines = cart.map(l => ({ ...l, p: BY[l.sku] })).filter(l => l.p && l.qty > 0);
     const units = [];
@@ -27,25 +28,25 @@
     const disc = {}, tags = {};
     const tag = (u, amount, label) => { disc[u.sku] = (disc[u.sku] || 0) + amount; (tags[u.sku] = tags[u.sku] || []).push(label); };
     const n = units.length;
-    for (let g = 0; g + 3 <= n; g += 3) tag(units[g + 2], units[g + 2].price, 'Offerte');
-    if (n % 3 === 2) tag(units[n - 1], units[n - 1].price * 0.5, '−50 %');
+    for (let g = 0; g + 3 <= n; g += 3) tag(units[g + 2], units[g + 2].price * O.d3, pc(O.d3));
+    if (n % 3 === 2) tag(units[n - 1], units[n - 1].price * O.d2, pc(O.d2));
     const sub = lines.reduce((s, l) => s + l.p.price * l.qty, 0);
     const discount = Object.values(disc).reduce((a, b) => a + b, 0);
     const after = sub - discount;
     const ship = !lines.length || after >= O.freeShipFrom ? 0 : O.shipFee;
-    const gift = n >= 3;
+    const gift = !!O.gift && n >= 3;
     let next = '';
-    if (n === 0 && lines.length) next = 'Ajoute une parure : dès 2, la 2e est à −50 %.';
-    else if (n % 3 === 1) next = n === 1 ? 'Ajoute 1 parure : <b>elle est à −50 %</b>.' : 'Ajoute 1 parure : <b>elle est à −50 %</b>.';
-    else if (n % 3 === 2) next = 'Ajoute 1 parure : <b>elle est offerte</b>' + (gift ? '.' : ', et le collier Golden Arc aussi.');
-    else if (n >= 3) next = '<b>Offre débloquée</b> : parure offerte et collier Golden Arc offert.';
+    if (n === 0 && lines.length) next = `Ajoute une parure : dès 2, la 2e est à ${pc(O.d2)}.`;
+    else if (n % 3 === 1) next = `Ajoute 1 parure : <b>elle est à ${pc(O.d2)}</b>.`;
+    else if (n % 3 === 2) next = `Ajoute 1 parure : <b>elle est à ${pc(O.d3)}</b>.`;
+    else if (n >= 3) next = `<b>Offre débloquée</b> : ta 3e parure est à ${pc(O.d3)}.`;
     return { lines, n, sub, discount, after, ship, total: after + ship, gift, disc, tags, next };
   }
 
   /* ------------------------------------------------ rendu panier (tiroir + page + commande) */
   function lineHTML(l, r) {
     const p = l.p, full = p.price * l.qty, d = r.disc[l.sku] || 0;
-    const t = (r.tags[l.sku] || []).map(x => `<span class="line-tag">${l.qty > 1 ? (x === 'Offerte' ? 'Dont 1 offerte' : 'Dont 1 à ' + x) : x}</span>`).join(' ');
+    const t = (r.tags[l.sku] || []).map(x => `<span class="line-tag">${l.qty > 1 ? 'Dont 1 à ' + x : x}</span>`).join(' ');
     return `<div class="line"><img src="${p.thumb}" alt="" width="76" height="76">
 <div><h3><a href="${p.url}">${esc(p.name)}</a></h3><p class="line-pcs">${esc(p.pcs.join(' + '))}</p>${t}
 <div><button class="rm" type="button" data-rm="${l.sku}">Retirer</button></div></div>
@@ -59,7 +60,7 @@
     if (!r.lines.length) return '';
     const k = r.n === 0 ? 0 : r.n % 3 === 0 ? 3 : r.n % 3;
     const bars = [1, 2, 3].map(i => `<i class="${i <= k ? 'on' : ''}"></i>`).join('');
-    return `<div class="prog"><p>${r.next}</p><div class="prog-bar">${bars}</div><div class="prog-steps"><span>1 parure</span><span>2e à −50 %</span><span>3e offerte + cadeau</span></div></div>`;
+    return `<div class="prog"><p>${r.next}</p><div class="prog-bar">${bars}</div><div class="prog-steps"><span>1 parure</span><span>2e à −30 %</span><span>3e à −50 %</span></div></div>`;
   }
   function upsellHTML(r) {
     if (!r.lines.length || r.n % 3 === 0) return '';
@@ -67,14 +68,14 @@
     const ref = r.lines.find(l => l.p.eligible)?.p;
     const pool = CP.products.filter(p => p.eligible && !inCart.has(p.sku));
     const pick = [...pool.filter(p => ref && p.u === ref.u), ...pool.filter(p => !ref || p.u !== ref.u)].slice(0, 2);
-    const lbl = r.n % 3 === 2 ? 'offerte' : '−50 %';
-    return `<div class="upsell"><h3>Ta prochaine parure est ${lbl}</h3>${pick.map(p => `<div class="ups"><img src="${p.thumb}" alt="" width="56" height="56"><span><b>${esc(p.name)}</b><small>${eur(p.price)}</small></span><button type="button" data-add="${p.sku}">Ajouter</button></div>`).join('')}</div>`;
+    const lbl = r.n % 3 === 2 ? 'à −' + Math.round(O.d3 * 100) + ' %' : 'à −' + Math.round(O.d2 * 100) + ' %';
+    return `<div class="upsell"><h3>Ta prochaine parure ${lbl}</h3>${pick.map(p => `<div class="ups"><img src="${p.thumb}" alt="" width="56" height="56"><span><b>${esc(p.name)}</b><small>${eur(p.price)}</small></span><button type="button" data-add="${p.sku}">Ajouter</button></div>`).join('')}</div>`;
   }
   function totalsHTML(r, mode) {
     const cta = mode === 'checkout' ? '' : `<a class="btn" href="commande.html">Passer commande · ${eur(r.total)}</a>`;
     return `<div class="tot"><div><span>Sous-total</span><span>${eur(r.sub)}</span></div>
 ${r.discount ? `<div class="disc"><span>Offre parures</span><span>−${eur(r.discount)}</span></div>` : ''}
-${r.gift ? `<div class="disc"><span>Collier Golden Arc</span><span>Offert</span></div>` : ''}
+${r.gift ? `<div class="disc"><span>${O.gift.name}</span><span>Offert</span></div>` : ''}
 <div><span>Livraison suivie DHL</span><span>${r.ship ? eur(r.ship) : 'Offerte'}</span></div>
 <div class="grand"><span>Total<small>TTC, droits de douane payés</small></span><span>${eur(r.total)}</span></div></div>
 ${r.ship ? `<p class="foot-note">Plus que ${eur(O.freeShipFrom - r.after)} pour la livraison offerte.</p>` : ''}

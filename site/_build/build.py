@@ -17,7 +17,8 @@ def e(s): return html.escape(str(s), quote=True)
 # ---------------------------------------------------------------- offre (une seule source de vérité, reprise par app.js)
 OFFER = {
     'freeShipFrom': 50, 'shipFee': 4.90,
-    'gift': {'sku': 'GIFT-JNEJ8J', 'name': 'Collier Golden Arc', 'value': 29, 'img': 'assets/img/pieces/golden-arc-necklace-JNEJ8J.webp'},
+    'd2': 0.30, 'd3': 0.50,  # 2 parures : la 2e à −30 % ; 3 parures : la 3e à −50 % (rentable même au scénario pessimiste, voir woocommerce/conversion/offre-bundles.md)
+    'gift': None,
     'xmasCutoff': '2026-12-04', 'xmasWrapUntil': '2026-12-24',
 }
 
@@ -67,7 +68,7 @@ PIECES = [  # pièces seules (prix proposés, à valider dans Branvas)
     dict(sku='JNEXV0', name='Collier Clé du cœur', price=35, img='assets/img/pieces/secret-heart-key-necklace-JNEXV0.webp', line='Une petite clé dorée à l’anneau en cœur, pavée de pierres.'),
     dict(sku='JNDEG4', name='Collier Courbe', price=39, img='assets/img/pieces/curve-statement-necklace-JNDEG4.webp', line='Une courbe dorée sculptée sur une chaîne serpent. Argent 925 doré.'),
     dict(sku='JNQXAH', name='Collier Croissant trois rangs', price=39, img='assets/img/pieces/golden-crescent-layer-set-JNQXAH.webp', line='Maille serpent, pastilles et croissant de lune. Acier doré.'),
-    dict(sku='JNPCC0', name='Collier Pierre verte', price=45, img='assets/img/pieces/emerald-dreams-necklace-JNPCC0.webp', line='Une pierre verte coussin entourée de pavé. Argent 925 doré.'),
+    dict(sku='JNPCC0', name='Collier Pierre verte', price=79, img='assets/img/pieces/emerald-dreams-necklace-JNPCC0.webp', line='Une pierre verte coussin entourée de pavé. Argent 925 doré.'),
     dict(sku='JNYA6X', name='Pendentif Goutte de lumière', price=79, img='assets/img/pieces/teardrop-brilliance-necklace-JNYA6X.webp', line='Argent 925 et moissanite synthétique. Livré dans son écrin en velours bleu avec certificat.'),
 ]
 
@@ -76,8 +77,8 @@ def tiers_for(p):
     gf = p['giftfor'].rstrip('.') if p['giftfor'] else 'ta sœur, ta mère ou ta meilleure amie'
     return [
         dict(n=1, tab='Pour toi', title='1 parure', note='Le collier et les boucles, déjà assortis. Rien à chercher.'),
-        dict(n=2, tab='Une pour toi, une à offrir', title='2 parures', badge='La 2e à −50 %', note=f'Une pour toi, une pour {gf}. Même colis, même livraison.'),
-        dict(n=3, tab='Tous tes cadeaux de Noël', title='3 parures', badge='La 3e offerte', note='Trois cadeaux réglés d’un coup, et le collier Golden Arc offert en plus.', gift=True),
+        dict(n=2, tab='Une pour toi, une à offrir', title='2 parures', badge='La 2e à −30 %', note=f'Une pour toi, une pour {gf}. Même colis, même livraison.'),
+        dict(n=3, tab='Tous tes cadeaux de Noël', title='3 parures', badge='La 3e à −50 %', note='Trois cadeaux réglés d’un coup, la 3e parure à moitié prix.'),
     ]
 
 # ---------------------------------------------------------------- briques HTML
@@ -112,7 +113,7 @@ NAV = [('collection.html', 'Toutes les parures'), ('collection.html#eclat', 'Éc
        ('collection.html#couleur', 'Couleur précieuse'), ('collection.html#j925', 'Joaillerie 925'), ('pieces-seules.html', 'Pièces seules'),
        ('cadeaux.html', 'Idées cadeaux')]
 
-ANN = ('<span>2 parures : la 2e à −50 %</span><span>3 parures : la 3e offerte + un collier offert</span>'
+ANN = ('<span>2 parures : la 2e à −30 %</span><span>3 parures : la 3e à moitié prix</span>'
        '<span data-xmas>Noël en Europe : commande avant le vendredi 4 décembre</span><span>Livraison offerte dès 50 €</span>')
 def annonce():
     return ('<div class="annonce" role="region" aria-label="Offres en cours"><div class="annonce-track">' + ANN + ANN.replace('<span', '<span aria-hidden="true"', 1).replace('<span>', '<span aria-hidden="true">').replace('<span data-xmas>', '<span data-xmas aria-hidden="true">') + '</div></div>')
@@ -220,8 +221,8 @@ def offer_band(title='Plus tu en prends, moins chaque parure coûte'):
     <h2 id="offreT">{title}</h2>
     <div class="ob-grid">
       <div class="ob"><span class="ob-tab">Pour toi</span><p class="ob-n">1 parure</p><p class="ob-d">Livraison offerte dès 50 €</p></div>
-      <div class="ob is-hl"><span class="ob-tab">Une pour toi, une à offrir</span><p class="ob-n">2 parures</p><p class="ob-d"><b>La 2e à −50 %</b></p></div>
-      <div class="ob"><span class="ob-tab">Tous tes cadeaux de Noël</span><p class="ob-n">3 parures</p><p class="ob-d"><b>La 3e offerte</b> + le collier Golden Arc offert</p></div>
+      <div class="ob is-hl"><span class="ob-tab">Une pour toi, une à offrir</span><p class="ob-n">2 parures</p><p class="ob-d"><b>La 2e à −30 %</b></p></div>
+      <div class="ob"><span class="ob-tab">Tous tes cadeaux de Noël</span><p class="ob-n">3 parures</p><p class="ob-d"><b>La 3e à −50 %</b>, à moitié prix</p></div>
     </div>
     <p class="ob-fine">Remise appliquée automatiquement au panier sur la parure la moins chère. Mélange les modèles comme tu veux. Hors Joaillerie 925.</p>
   </div>
@@ -278,7 +279,7 @@ def build_home():
   <div class="who">
     <a href="cadeaux.html#maman"><b>Pour ta mère</b><span>Des pierres de couleur, élégantes sans en faire trop</span></a>
     <a href="cadeaux.html#soeur"><b>Pour ta sœur</b><span>Du doré sculpté, qui se voit avec un tee-shirt</span></a>
-    <a href="cadeaux.html#amie"><b>Pour ta meilleure amie</b><span>Une parure chacune : la 2e est à −50 %</span></a>
+    <a href="cadeaux.html#amie"><b>Pour ta meilleure amie</b><span>Une parure chacune : la 2e est à −30 %</span></a>
     <a href="cadeaux.html#moins-50"><b>Moins de 50 €</b><span>Des parures complètes à 49 €</span></a>
   </div>
 </section>
@@ -287,11 +288,11 @@ def build_home():
     ld = [{'@context': 'https://schema.org', '@type': 'Organization', 'name': 'CHARMED PARIS', 'url': BASE_URL, 'logo': BASE_URL + 'assets/img/favicon-32.png'},
           {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'CHARMED PARIS', 'url': BASE_URL}]
     page('index.html', 'CHARMED PARIS · Parures de bijoux assorties, prêtes à offrir',
-         'Parures collier + boucles d’oreilles, livrées dans leur boîte cadeau. 2 parures : la 2e à −50 %. 3 parures : la 3e offerte. Livraison offerte dès 50 €.', body, ld=ld, cls='home')
+         'Parures collier + boucles d’oreilles, livrées dans leur boîte cadeau. 2 parures : la 2e à −30 %. 3 parures : la 3e à −50 %. Livraison offerte dès 50 €.', body, ld=ld, cls='home')
 
 FAQ = [
     ('Quand vais-je recevoir ma commande ?', 'Ta commande est préparée en 1 à 2 jours ouvrés, puis livrée par DHL en 4 à 9 jours ouvrés en France (9 colis sur 10). Pour Noël en Europe, commande avant le vendredi 4 décembre.'),
-    ('Comment fonctionne l’offre sur plusieurs parures ?', 'Dès 2 parures, la moins chère est à −50 %. Dès 3 parures, la moins chère est offerte et le collier Golden Arc est ajouté gratuitement. La remise s’applique toute seule dans le panier. Les parures de la Joaillerie 925 ne sont pas concernées.'),
+    ('Comment fonctionne l’offre sur plusieurs parures ?', 'Dès 2 parures, la moins chère est à −30 %. Dès 3 parures, la moins chère est à −50 %. Au-delà, la règle se répète par groupe de 3. La remise s’applique toute seule dans le panier. Les parures de la Joaillerie 925 ne sont pas concernées.'),
     ('Est-ce que je vais payer des frais de douane ?', 'Non. Les droits et taxes d’importation sont déjà payés : rien à régler au livreur.'),
     ('Et si la parure ne me plaît pas ?', 'Tu as 14 jours après réception pour changer d’avis. Le retour est à nos frais et tu es remboursée sous 14 jours.'),
     ('Les bijoux craignent-ils l’eau ?', 'Oui : nos bijoux dorés sont en laiton doré. Retire-les avant la douche, la piscine et le sport, et mets ton parfum avant tes bijoux. Rangés dans leur pochette, ils gardent leur éclat plus longtemps.'),
@@ -311,7 +312,7 @@ def build_collection():
         f'<button type="button" class="chip" data-filter="{k}" aria-pressed="false">{e(u["name"])}</button>' for k, u in UNIV.items())
     grid = ''.join(card(p) for p in PRODUCTS)
     body = f'''<section class="wrap page-h"><nav class="crumbs" aria-label="Fil d’Ariane"><a href="index.html">Accueil</a><span>/</span><span aria-current="page">Toutes les parures</span></nav>
-<h1>Toutes les parures</h1><p class="lead">30 parures assorties, collier et boucles d’oreilles. 2 parures : la 2e à −50 %. 3 parures : la 3e offerte.</p></section>
+<h1>Toutes les parures</h1><p class="lead">30 parures assorties, collier et boucles d’oreilles. 2 parures : la 2e à −30 %. 3 parures : la 3e à −50 %.</p></section>
 <section class="wrap coll">
   <div class="coll-bar"><div class="chips" role="group" aria-label="Filtrer par univers">{chips}</div>
   <label class="sort"><span>Trier</span><select data-sort><option value="">Sélection</option><option value="asc">Prix croissant</option><option value="desc">Prix décroissant</option></select></label></div>
@@ -405,7 +406,7 @@ def build_gifts():
     groups = [
         ('maman', 'Pour ta mère', 'Des pierres de couleur et des lignes nettes.', ['JS0DGC', 'JSX3G6', 'JS3GGZ', 'JSJB3S']),
         ('soeur', 'Pour ta sœur', 'Du doré sculpté, qui se porte avec un tee-shirt.', ['JSGRQR', 'JS63WT', 'JSG813', 'JS411P']),
-        ('amie', 'Pour ta meilleure amie', 'Prenez-en une chacune : la 2e est à −50 %.', ['JS1AQ5', 'JS63VP', 'JS4EXR', 'JSB541']),
+        ('amie', 'Pour ta meilleure amie', 'Prenez-en une chacune : la 2e est à −30 %.', ['JS1AQ5', 'JS63VP', 'JS4EXR', 'JSB541']),
         ('moins-50', 'Moins de 50 €', 'Des parures complètes à 49 €.', [p['sku'] for p in PRODUCTS if p['price'] < 50][:4]),
     ]
     sec = ''.join(f'<section class="sec wrap" id="{i}" aria-labelledby="{i}T"><div class="sec-h"><div><h2 id="{i}T">{t}</h2><p class="lead">{d}</p></div></div><div class="grid">{"".join(card(BY[s]) for s in skus)}</div></section>' for i, t, d, skus in groups)

@@ -2,8 +2,8 @@
 /**
  * Règles commerciales côté serveur.
  *
- *  1. Offre parures en paliers : 2 parures = la moins chère à −50 %, chaque 3e parure offerte, cadeau dès 3
- *     (frais négatif via woocommerce_cart_calculate_fees + produit cadeau à 0 €).
+ *  1. Offre parures en paliers : 2 parures = la moins chère à −30 %, 3e parure de chaque groupe à −50 %
+ *     (frais négatif via woocommerce_cart_calculate_fees ; cadeau optionnel à 0 €, désactivé par défaut).
  *  2. Livraison offerte : seuil lu dans la méthode « Livraison gratuite », recalculé après la remise,
  *     forfait masqué quand la livraison est offerte (un seul service Branvas, pas d'express).
  *  3. Téléphone obligatoire au paiement (Branvas : requis hors États-Unis / Royaume-Uni).
@@ -27,8 +27,12 @@ use Automattic\WooCommerce\Utilities\NumberUtil;
 function charmed_bundle_label(): string {
 	$label = trim( (string) get_option( 'charmed_bundle_label', '' ) );
 	if ( '' === $label ) {
-		/* translators: %s: percentage, e.g. 15 */
-		$label = sprintf( __( '2e parure −%s %%', 'charmed-paris' ), charmed_bundle_percent() );
+		if ( 'tiers' === charmed_opt( 'bundle_mode' ) ) {
+			$label = __( 'Offre parures', 'charmed-paris' );
+		} else {
+			/* translators: %s: percentage, e.g. 15 */
+			$label = sprintf( __( '2e parure −%s %%', 'charmed-paris' ), charmed_bundle_percent() );
+		}
 	}
 	return (string) apply_filters( 'charmed_bundle_label', $label );
 }
@@ -111,13 +115,32 @@ function charmed_bundle_compute( WC_Cart $cart ): array {
 		}
 	);
 
-	$n   = 'pairs' === charmed_opt( 'bundle_mode' ) ? intdiv( $count, 2 ) : 1;
 	$pct = charmed_bundle_percent() / 100;
 	$ex  = 0.0;
 	$tax = 0.0;
-	for ( $i = 0; $i < $n; $i++ ) {
-		$ex  += $units[ $i ][0] * $pct;
-		$tax += $units[ $i ][1] * $pct;
+	if ( 'tiers' === charmed_opt( 'bundle_mode' ) ) {
+		// Tri décroissant, groupes de 3 : la moins chère de chaque groupe complet est remisée de $pct3 (50 %) ;
+		// s'il reste 2 parures, la moins chère des deux est remisée de $pct (30 %).
+		// Même règle que le prototype (site/assets/js/app.js) et le calculateur (finances/calcul-marge.py).
+		$pct3 = max( 1, min( 100, (int) charmed_opt( 'bundle_third_percent' ) ) ) / 100;
+		$desc = array_reverse( $units );
+		$n    = 0;
+		for ( $g = 0; $g + 3 <= $count; $g += 3 ) {
+			$ex  += $desc[ $g + 2 ][0] * $pct3;
+			$tax += $desc[ $g + 2 ][1] * $pct3;
+			++$n;
+		}
+		if ( 2 === $count % 3 ) {
+			$ex  += $desc[ $count - 1 ][0] * $pct;
+			$tax += $desc[ $count - 1 ][1] * $pct;
+			++$n;
+		}
+	} else {
+		$n = 'pairs' === charmed_opt( 'bundle_mode' ) ? intdiv( $count, 2 ) : 1;
+		for ( $i = 0; $i < $n; $i++ ) {
+			$ex  += $units[ $i ][0] * $pct;
+			$tax += $units[ $i ][1] * $pct;
+		}
 	}
 
 	return apply_filters(

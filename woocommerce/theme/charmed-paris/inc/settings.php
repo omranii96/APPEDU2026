@@ -16,11 +16,12 @@ function charmed_defaults(): array {
 	return array(
 		// Remise « 2e parure ».
 		'bundle_enabled'          => 'yes',
-		'bundle_percent'          => '50',    // Remise sur la 2e parure (mode tiers) ou la parure remisée (once/pairs).
+		'bundle_percent'          => '30',    // Remise sur la 2e parure (mode tiers) ou la parure remisée (once/pairs).
+		'bundle_third_percent'    => '50',    // Mode tiers : remise sur la 3e parure de chaque groupe de 3.
 		'bundle_label'            => '',      // Vide = libellé traduit « Offre parures ».
-		'bundle_mode'             => 'tiers', // tiers = 2e à −50 %, chaque 3e offerte ; once ; pairs.
+		'bundle_mode'             => 'tiers', // tiers = 2e à −30 %, 3e à −50 % ; once ; pairs.
 		'bundle_categories'       => array(), // Slugs product_cat éligibles ; vide = tous. Exclure la Joaillerie 925.
-		'bundle_gift_product'     => '',      // ID du produit offert dès 3 parures (collier Golden Arc), vide = aucun.
+		'bundle_gift_product'     => '',      // ID d'un produit offert dès 3 parures. Laisser vide : un cadeau rend le trio déficitaire (voir conversion/offre-bundles.md).
 		'bundle_exclude_sale'     => 'no',
 		'bundle_with_coupons'     => 'no',    // Cumul avec un code promo.
 		// Livraison (un seul service Branvas : pas d'express).
@@ -137,6 +138,7 @@ add_filter(
 				'type'    => 'select',
 				'default' => $d['bundle_mode'],
 				'options' => array(
+					'tiers' => __( 'Paliers : 2 parures = la moins chère à −30 % ; 3 parures = la moins chère à −50 % (par groupe de 3)', 'charmed-paris' ),
 					'once'  => __( 'Une seule parure remisée (la moins chère), dès 2 parures', 'charmed-paris' ),
 					'pairs' => __( 'Une parure remisée par paire (les moins chères)', 'charmed-paris' ),
 				),
@@ -149,6 +151,24 @@ add_filter(
 				'options' => $cats,
 				'default' => array(),
 				'desc'    => __( 'Vide = tous les produits.', 'charmed-paris' ),
+			),
+			array(
+				'title'             => __( 'Remise sur la 3e parure (mode paliers)', 'charmed-paris' ),
+				'id'                => 'charmed_bundle_third_percent',
+				'type'              => 'number',
+				'default'           => $d['bundle_third_percent'],
+				'custom_attributes' => array(
+					'min'  => 1,
+					'max'  => 100,
+					'step' => 1,
+				),
+			),
+			array(
+				'title'    => __( 'Cadeau dès 3 parures (ID produit)', 'charmed-paris' ),
+				'id'       => 'charmed_bundle_gift_product',
+				'type'     => 'text',
+				'default'  => '',
+				'desc_tip' => __( 'Laisser vide : un cadeau rend le trio déficitaire au scénario pessimiste.', 'charmed-paris' ),
 			),
 			array(
 				'title'   => __( 'Exclure les produits en promotion', 'charmed-paris' ),
