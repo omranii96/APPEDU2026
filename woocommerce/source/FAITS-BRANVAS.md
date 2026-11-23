@@ -28,6 +28,10 @@ Lu le 22/11/2026 sur la FAQ officielle https://faq.branvas.com/en/ (74 articles 
 - Rétractation 14 j et garantie légale 2 ans à la charge de CHARMED PARIS (adresse de retour en France à définir). Ne pas publier les modèles de politiques Branvas tels quels (exclusions illicites dans l'UE).
 - Royaume-Uni : ne pas ouvrir avant immatriculation TVA UK ; ligne argent 925 exclue au UK (poinçon obligatoire > 7,78 g).
 
+## Fiches produits : où les modifier (article 15606591, vérifié)
+- **Toutes les modifications de fiches se font DANS Branvas** (My Products / Edit Listing), pas dans la boutique : la synchro va de Branvas vers la boutique et écrase les modifications faites côté boutique. Prix de vente libres (modifiables dans Branvas). Réglages Branvas : langue et devise, nom de marque dans les titres, style de description (Direct & Clear / Warm & Inviting / Elevated), méta-titres et descriptions SEO générés, couleur de fond des photos (ivoire par défaut, blanc, gris froid).
+- → Les textes de `woocommerce/contenus/` sont à coller dans l'éditeur de fiche Branvas ; tester en préproduction ce que la synchro écrase (catégories, champs personnalisés, traductions TranslatePress).
+
 ## Packaging (article 12872188, vérifié)
 - Inclus dans les 8,99 $ : carton d'envoi **à ton logo**, **boîte à bijoux type tiroir avec ruban à ton logo** (couleur standard **beige métallisé**), carte de remerciement avec conseils d'entretien (**logo seulement en offre VIP**), pochette velours (sans logo), chamoisine (sans logo), bordereau à ton logo **sans aucun prix**.
 - **Une seule boîte à bijoux par commande**, quel que soit le nombre de pièces : la pièce principale est dans la boîte avec la présentation complète, les autres pièces arrivent dans des **sachets scellés** dans le même colis. Chaque pièce est dans son sachet refermable. → Avec « 2e parure −15 % », la 2e parure n'a PAS son propre écrin. Ne pas promettre « un coffret par parure ».
