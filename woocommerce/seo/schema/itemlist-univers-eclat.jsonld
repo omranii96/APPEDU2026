@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://charmedparis.com/parures/eclat/#webpage",
+  "url": "https://charmedparis.com/parures/eclat/",
+  "name": "Éclat — parures dorées et zircons",
+  "inLanguage": "fr-FR",
+  "isPartOf": {
+    "@id": "https://charmedparis.com/#website"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Parures Éclat",
+    "numberOfItems": 11,
+    "itemListOrder": "https://schema.org/ItemListUnordered",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://charmedparis.com/parure/crescent-glow-collier-creoles-bague/",
+        "name": "Parure Crescent Glow — collier, créoles et bague zircons"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://charmedparis.com/parure/emerald-cut-halo-zircons-taille-emeraude/",
+        "name": "Parure Emerald Cut Halo — zircons taille émeraude"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://charmedparis.com/parure/geometric-luxe-collier-losanges-creoles/",
+        "name": "Parure Geometric Luxe — collier losanges et créoles"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "url": "https://charmedparis.com/parure/golden-hour-zircons-champagne-creoles/",
+        "name": "Parure Golden Hour Geometric — zircons champagne et créoles"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "url": "https://charmedparis.com/parure/golden-luxe-drop-gouttes-zircons/",
+        "name": "Parure Golden Luxe Drop — gouttes pavées de zircons"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "url": "https://charmedparis.com/parure/golden-square-luxe-vintage-zircons/",
+        "name": "Parure Golden Square Luxe — carrés dorés et zircons, style vintage"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "url": "https://charmedparis.com/parure/petal-bloom-fleur-doree-puces/",
+        "name": "Parure Petal Bloom — fleur dorée et puces zircons"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "url": "https://charmedparis.com/parure/radiant-circle-medaillons-zircons/",
+        "name": "Parure Radiant Circle — médaillons de zircons rayonnants"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "url": "https://charmedparis.com/parure/shell-glow-coquillages-ton-argente/",
+        "name": "Parure Shell Glow — coquillages pavés, ton argenté"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "url": "https://charmedparis.com/parure/solar-sphere-dome-dore-puces/",
+        "name": "Parure Solar Sphere — dôme doré et puces zircons"
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "url": "https://charmedparis.com/parure/wave-luxe-double-chaine-doree/",
+        "name": "Parure Wave Luxe — double chaîne et vagues dorées"
+      }
+    ]
+  }
+}

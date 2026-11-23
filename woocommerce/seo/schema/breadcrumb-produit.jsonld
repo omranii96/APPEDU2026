@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://charmedparis.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Parures", "item": "https://charmedparis.com/boutique/" },
+    { "@type": "ListItem", "position": 3, "name": "Éclat", "item": "https://charmedparis.com/parures/eclat/" },
+    { "@type": "ListItem", "position": 4, "name": "Parure Solar Sphere" }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://charmedparis.com/#organization",
+      "name": "CHARMED PARIS",
+      "url": "https://charmedparis.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://charmedparis.com/wp-content/uploads/charmed-paris-logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "description": "Parures de bijoux femme : colliers et boucles d'oreilles assortis, livrés dans leur écrin. Doré à l'or fin, zircons, argent 925 et moissanite.",
+      "slogan": "Ouvre. Laisse-toi charmer.",
+      "email": "bonjour@charmedparis.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "À REMPLIR : adresse de l'entreprise",
+        "postalCode": "À REMPLIR",
+        "addressLocality": "À REMPLIR",
+        "addressCountry": "FR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "bonjour@charmedparis.com",
+        "availableLanguage": ["French", "English"]
+      },
+      "sameAs": [],
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "FR",
+        "returnPolicyCountry": "FR",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 14,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+        "refundType": "https://schema.org/FullRefund",
+        "merchantReturnLink": "https://charmedparis.com/livraison-et-retours/"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://charmedparis.com/#website",
+      "url": "https://charmedparis.com/",
+      "name": "CHARMED PARIS",
+      "inLanguage": ["fr-FR", "en"],
+      "publisher": { "@id": "https://charmedparis.com/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://charmedparis.com/?s={search_term_string}&post_type=product"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}

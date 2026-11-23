@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://charmedparis.com/faq/#faq",
+  "url": "https://charmedparis.com/faq/",
+  "inLanguage": "fr-FR",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce qu'une parure CHARMED PARIS ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Une parure, c'est un collier et des boucles d'oreilles assortis, parfois accompagnés d'une bague, vendus ensemble et livrés dans un écrin. Nous ne vendons que des parures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Les bijoux dorés sont-ils en plaqué or ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nos pièces dorées sont dorées à l'or véritable par électrolyse, puis protégées par un revêtement anti-ternissement. Comme l'épaisseur de la dorure n'est pas publiée, nous écrivons « doré à l'or fin » et non « plaqué or », une mention réservée en France à une couche d'au moins 3 microns. Ce ne sont ni de l'or massif ni du vermeil."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je me doucher ou me baigner avec ma parure ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. L'eau, le savon, le chlore et le sel réduisent la durée de vie de la dorure. Retire ta parure avant la douche, la piscine, la mer et le sport, et range-la au sec dans sa pochette en velours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment entretenir ma parure ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Garde-la au sec, mets ton parfum et ta crème avant de la porter, essuie-la avec la chamoisine fournie et range chaque pièce à part dans sa pochette. Évite les produits nettoyants."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce que la moissanite ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La moissanite de notre ligne Joaillerie 925 est une pierre créée en laboratoire, différente du diamant et du zircon. Les pierres de 0,1 carat et plus sont livrées avec un certificat GRA. Le poids indiqué est un équivalent diamant (DEW)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "L'argent est-il poinçonné ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Les pièces de la ligne Joaillerie 925 sont en argent 925 véritable et chaque pièce porte le poinçon 925."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Les perles sont-elles vraies ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sauf mention contraire sur la fiche produit, nos perles sont des perles de culture d'eau douce véritables. Ce ne sont pas des perles naturelles, terme réservé aux perles formées sans intervention humaine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Vos bijoux sont-ils sans nickel ou hypoallergéniques ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous ne disposons pas de rapport de test par modèle, nous ne pouvons donc pas l'affirmer. Si tu as une peau sensible ou une allergie au nickel, écris-nous avant de commander."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels sont les délais de livraison ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ta commande est préparée en 1 à 2 jours ouvrés. Pour la France, compte 4 à 9 jours ouvrés entre la commande et la livraison pour 9 colis sur 10. Il n'existe pas d'option express."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Y a-t-il des frais de douane à payer ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Ta parure est expédiée depuis nos entrepôts situés hors de l'Union européenne, et les droits et taxes d'importation sont déjà payés : tu n'as rien à régler à la livraison."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je retourner ma parure ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Tu disposes de 14 jours après réception pour exercer ton droit de rétractation, sans avoir à te justifier. Tu bénéficies aussi de la garantie légale de conformité de 2 ans. Les modalités sont détaillées sur la page Livraison et retours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je faire graver ou personnaliser une parure ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Nos parures sont livrées telles que présentées, sans gravure ni personnalisation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jusqu'à quand commander pour recevoir ma parure avant Noël ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pour une livraison avant Noël en France et en Europe, commande au plus tard le vendredi 4 décembre 2026. Après cette date, la livraison avant Noël n'est pas garantie."
+      }
+    }
+  ]
+}

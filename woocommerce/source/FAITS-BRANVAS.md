@@ -19,6 +19,15 @@ Lu le 22/11/2026 sur la FAQ officielle https://faq.branvas.com/en/ (74 articles 
 - **Packaging de Noël offert du vendredi 20 novembre au jeudi 24 décembre**, automatique pour les abonnés. Standard : papier cadeau de fête, ruban, décorations, carte de Noël. Scale/VIP : en plus le papier nid d'abeille.
 - **Date limite de commande pour livraison avant Noël : Europe et Canada = vendredi 4 décembre 2026** (US/UK/Australie : 8 décembre ; reste du monde : 30 novembre). À afficher dans le bandeau, les fiches produits et le checkout. Au-delà : pas de garantie.
 
+## Packaging (article 12872188, vérifié)
+- Inclus dans les 8,99 $ : carton d'envoi **à ton logo**, **boîte à bijoux type tiroir avec ruban à ton logo** (couleur standard **beige métallisé**), carte de remerciement avec conseils d'entretien (**logo seulement en offre VIP**), pochette velours (sans logo), chamoisine (sans logo), bordereau à ton logo **sans aucun prix**.
+- **Une seule boîte à bijoux par commande**, quel que soit le nombre de pièces : la pièce principale est dans la boîte avec la présentation complète, les autres pièces arrivent dans des **sachets scellés** dans le même colis. Chaque pièce est dans son sachet refermable. → Avec « 2e parure −15 % », la 2e parure n'a PAS son propre écrin. Ne pas promettre « un coffret par parure ».
+- **Moissanite (ligne 925)** : expédiée dans un **écrin en velours bleu, sans logo** (le carton d'envoi garde le logo), certificat GRA ≥ 0,1 ct.
+- **Aucun message cadeau possible** (pas de champ sur la commande). Texte personnalisé uniquement sur la carte de remerciement en offre **VIP**. → Ne pas proposer de « message cadeau » / « carte Ouvre-moi avec ton message » tant que tu n'es pas VIP ; le colis est déjà « prêt à offrir » (ruban, bordereau sans prix).
+- Deux commandes = deux colis et deux fois 8,99 $ (pas de regroupement).
+- Packagings supplémentaires : 3,75 $ le set, seulement avec une commande d'échantillons.
+- Pack vidéo pro Branvas (optionnel) : 279 $ (1 vidéo d'emballage 45 s + 2 vidéos produit 20–30 s avec ton logo).
+
 ## Retours (ce que Branvas accepte)
 - Branvas remplace ou rembourse **uniquement** : colis endommagé, défaut de fabrication, mauvais article. Réclamation **dans les 10 jours après la livraison**, avec photos ; réponse sous 3 jours ouvrés ; remboursement **en crédit Branvas** ou remplacement. Retour physique décidé au cas par cas, étiquette prépayée, adresse fournie par Branvas.
 - **Branvas n'accepte pas** : changement d'avis, mauvaise taille/style, déception esthétique, adresse erronée. Pas d'échange.

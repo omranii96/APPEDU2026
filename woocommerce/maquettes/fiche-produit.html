@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400&family=Jost:wght@300;400;500;600&family=DM+Mono:wght@400&display=swap">
+<title data-en="Solar Sphere set · gold-plated necklace &amp; studs | CHARMED PARIS">Parure Solar Sphere · collier et puces dorés | CHARMED PARIS</title>
+<meta name="description" content="Parure Solar Sphere : collier pendentif dôme et puces assorties, laiton doré à l'or fin, zircons. 69 € TTC, livrée dans son coffret cadeau. Livraison offerte dès 50 €." data-en-content="The Solar Sphere set: dome pendant necklace and matching studs, gold-plated brass, zircons. €69 incl. VAT, delivered in its gift box. Free delivery from €50.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Product","name":"Parure Solar Sphere","sku":"CP-ECL-SOL","brand":{"@type":"Brand","name":"CHARMED PARIS"},"image":["img/JS1AQ5.webp","img/cut/JS1AQ5.webp"],"description":"Collier pendentif dôme et puces d'oreilles assorties, laiton doré à l'or fin avec revêtement anti-ternissement, zircons.","offers":{"@type":"Offer","price":"69.00","priceCurrency":"EUR","availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
+</script>
+<style>
+/* ===== CHARMED PARIS · base commune (reprise exacte des tokens de charmed-site.html) ===== */
+:root{
+  color-scheme:light;
+  --velours:#1A1015; --velours-2:#2a1520; --velours-fg:#F2E9EC; --velours-muted:#B9A6AE;
+  --porcelaine:#F4F2F5; --surface:#FFFFFF; --encre:#1C1519; --muted:#6B6169; --line:#E2DBE0;
+  --grenat:#7A1F3A; --grenat-fg:#FFFFFF; --or:#A9813F; --or-clair:#E9CB8F; --poudre:#E8D9DE;
+  --ivoire:#FBF8F3; --ivoire-2:#EFE7DC; --caramel:#B88C66; --ruban:#5B3A29; --print:#3A2E33; --gold-dot:#D9B25F;
+  --shade:rgba(26,16,21,.45);
+  /* fonctionnels (ajoutés, pris dans la maquette) */
+  --champ:#8E838B; --erreur:#A3201F; --ok:#2E6B3A; --or-texte:#8A672C;
+  --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --body:"Jost","Futura","Avenir Next","Helvetica Neue",Arial,sans-serif;
+  --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  --ease:cubic-bezier(.2,.7,.1,1);
+  --tap:44px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--porcelaine);color:var(--encre);font-family:var(--body);font-size:16px;line-height:1.55;overflow-x:clip}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;line-height:1.12;margin:0;text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+img{max-width:100%;display:block}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--or);outline-offset:3px}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grenat)}
+.mock{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.06em}
+.skip{position:absolute;left:12px;top:-60px;z-index:200;background:var(--encre);color:var(--porcelaine);padding:12px 16px;text-decoration:none}
+.skip:focus{top:12px}
+
+/* Boutons (identiques à la maquette d'accueil, hauteur tactile ≥ 44px) */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:var(--tap);font:500 13px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:15px 24px;border-radius:0;border:1px solid var(--encre);background:var(--encre);color:var(--porcelaine);cursor:pointer;text-decoration:none;transition:background .25s,border-color .25s,color .25s}
+.btn:hover{background:var(--grenat);border-color:var(--grenat)}
+.btn.ghost{background:transparent;color:inherit;border-color:currentColor}
+.btn.ghost:hover{background:var(--or-clair);color:var(--velours);border-color:var(--or-clair)}
+.btn.gold{background:var(--or-clair);color:var(--velours);border-color:var(--or-clair)}
+.btn.gold:hover{background:var(--grenat);color:var(--grenat-fg);border-color:var(--grenat)}
+.btn.block{width:100%}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.link{background:none;border:0;padding:0;color:var(--encre);text-decoration:underline;text-underline-offset:4px;cursor:pointer;font-size:14px;min-height:var(--tap)}
+
+/* Wordmark parenthèses C…D */
+.wm{display:inline-flex;align-items:center;font-family:var(--display);text-transform:uppercase;line-height:1;letter-spacing:.16em;white-space:nowrap}
+.br{display:inline-block;width:.5em;height:.7em;border-style:solid;border-color:currentColor}
+.br.l{border-width:.03em 0 .03em .085em;border-radius:.34em 0 0 .34em}
+.br.r{border-width:.03em .085em .03em 0;border-radius:0 .34em .34em 0}
+.wm .mid{padding-left:.16em}
+.brand-sub{font:500 9px/1 var(--body);letter-spacing:.62em;padding-left:.62em;text-transform:uppercase}
+
+/* Bandeau + header (version « solid » de l'accueil, collant) */
+.annonce{background:var(--grenat);color:var(--grenat-fg);font-size:12px;letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:8px 16px;line-height:1.5}
+.hdr{position:sticky;top:0;z-index:50;background:var(--porcelaine);color:var(--encre);box-shadow:0 1px 0 var(--line)}
+.hdr .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:64px;gap:12px}
+.hdr nav{display:flex;gap:22px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;min-width:0}
+.hdr nav a{text-decoration:none;opacity:.85;white-space:nowrap;padding-block:12px}
+.hdr nav a:hover,.hdr nav a[aria-current]{opacity:1;text-decoration:underline;text-underline-offset:6px}
+.hdr .brand{display:flex;flex-direction:column;align-items:center;gap:5px;text-decoration:none;padding:6px}
+.hdr .brand .wm{font-size:22px}
+.hdr .brand .br{border-color:var(--grenat)}
+.hdr .tools{display:flex;justify-content:flex-end;gap:4px;align-items:center}
+.icon-btn{background:none;border:0;color:inherit;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;font:500 13px var(--body);letter-spacing:.1em;text-transform:uppercase;padding:8px;min-width:var(--tap);min-height:var(--tap);text-decoration:none}
+.icon-btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.4;flex:none}
+.count{min-width:20px;height:20px;border-radius:10px;background:var(--or-clair);color:var(--velours);font:600 11px/20px var(--body);text-align:center;padding:0 5px;letter-spacing:0}
+.lang{display:inline-flex;align-items:center;margin-right:4px}
+.lang button{min-width:38px;min-height:var(--tap);background:none;border:0;cursor:pointer;font:500 12px/1 var(--mono);letter-spacing:.1em;color:var(--muted);position:relative;padding:0 6px}
+.lang button + button::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:1px;background:var(--line)}
+.lang button[aria-pressed="true"]{color:var(--encre);text-decoration:underline;text-decoration-color:var(--grenat);text-underline-offset:6px;text-decoration-thickness:1.5px}
+.lang button:hover{color:var(--encre)}
+.menu-btn{display:none}
+.hdr .mnav{display:none}
+.annonce .short{display:none}
+@media (max-width:900px){
+  .hdr nav{display:none}
+  .hdr .wrap{grid-template-columns:auto 1fr auto}
+  .menu-btn{display:inline-flex}
+  .hdr .brand{justify-self:center}
+  .hdr .mnav{display:block;position:absolute;left:0;right:0;top:100%;background:var(--porcelaine);box-shadow:0 12px 24px -12px var(--shade);border-top:1px solid var(--line)}
+  .hdr .mnav[hidden]{display:none}
+  .hdr .mnav a{display:flex;align-items:center;min-height:52px;padding:0 max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line);text-decoration:none;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+}
+@media (max-width:560px){ .icon-btn .lbl,.search-btn{display:none} .annonce .long{display:none} .annonce .short{display:inline} .annonce{font-size:11px;letter-spacing:.06em;padding:7px 12px} .hdr .brand .wm{font-size:19px} .hdr .wrap{gap:6px} }
+
+/* Fil d'Ariane */
+.crumbs{font-size:13px;color:var(--muted);padding-block:14px}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.crumbs li:not(:last-child)::after{content:"/";margin-left:6px;color:var(--line)}
+.crumbs a{text-decoration:none;display:inline-block;padding-block:4px}
+.crumbs a:hover{text-decoration:underline;color:var(--encre)}
+.crumbs [aria-current]{color:var(--encre)}
+
+/* Chips */
+.chip{display:inline-flex;align-items:center;gap:8px;min-height:var(--tap);padding:0 16px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--encre);font:400 14px/1 var(--body);cursor:pointer;white-space:nowrap;text-decoration:none;transition:border-color .2s,background .2s,color .2s}
+.chip:hover{border-color:var(--encre)}
+.chip[aria-pressed="true"]{background:var(--encre);border-color:var(--encre);color:var(--porcelaine)}
+.chip[aria-pressed="true"]::before{content:"";width:8px;height:5px;border-left:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(-45deg) translateY(-2px)}
+.chip .n{font-family:var(--mono);font-size:11px;opacity:.7}
+
+/* Badges factuels */
+.badge{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;background:var(--surface);color:var(--encre);padding:5px 8px;line-height:1.2}
+.badge.new{background:var(--encre);color:var(--porcelaine)}
+.badge.argent{background:var(--velours);color:var(--or-clair)}
+
+/* Barre livraison offerte */
+.shipbar{display:flex;flex-direction:column;gap:8px;font-size:13px}
+.shipbar .bar{height:3px;background:var(--line);overflow:hidden}
+.shipbar .bar i{display:block;height:100%;background:var(--grenat);width:0;transition:width .4s var(--ease)}
+.shipbar.done .bar i{background:var(--ok)}
+.shipbar b{font-weight:600}
+
+/* Quantité */
+.qty{display:inline-flex;align-items:center;border:1px solid var(--champ);background:var(--surface)}
+.qty button{background:none;border:0;width:var(--tap);height:var(--tap);cursor:pointer;font-size:18px;color:var(--encre);display:flex;align-items:center;justify-content:center}
+.qty button:hover{background:var(--porcelaine)}
+.qty output,.qty span{min-width:28px;text-align:center;font-size:15px;font-variant-numeric:tabular-nums}
+.qty.sm button{width:36px;height:36px}
+.qty.sm{position:relative}
+/* zone tactile étendue à 44px pour la version compacte */
+.qty.sm button{position:relative}
+.qty.sm button::after{content:"";position:absolute;inset:-4px}
+
+/* Étiquette « ticket » (reprise de .ticket-tag) */
+.ticket{position:relative;background:#FFFEFB;color:var(--encre);padding:18px 18px 0;box-shadow:0 24px 50px -20px rgba(40,20,30,.35),0 2px 6px rgba(40,20,30,.08);font-size:12px}
+.ticket::before{content:"";position:absolute;left:50%;top:10px;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:radial-gradient(circle,#ECE6EA 45%,var(--line) 50%,transparent 58%)}
+.tt-head{display:flex;justify-content:space-between;align-items:flex-start;margin-top:14px;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.tt-brand{display:flex;flex-direction:column;gap:3px;color:var(--encre)}
+.tt-brand .wm{font-size:13px}
+.tt-brand .wm .br{border-color:var(--grenat)}
+.tt-code{display:flex;align-items:center;gap:10px;margin-top:14px}
+.tt-code b{font-family:var(--mono);font-weight:400;font-size:20px;border:1.5px solid var(--encre);padding:2px 6px;letter-spacing:.05em}
+.tt-code span{font-family:var(--display);font-style:italic;font-size:20px;line-height:1.1}
+.tt-rows{margin:12px 0 0;padding:0;list-style:none;display:flex;flex-direction:column}
+.tt-row{display:flex;justify-content:space-between;gap:8px;padding-block:7px;border-bottom:1px dashed var(--line);font-size:13px}
+.tt-row span:last-child{font-family:var(--mono);font-size:11px;color:var(--muted);white-space:nowrap}
+.tt-total{display:flex;justify-content:space-between;align-items:baseline;margin-top:12px}
+.tt-total span{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tt-total b{font-family:var(--display);font-weight:400;font-size:26px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tt-bar{height:34px;margin-top:12px;background:repeating-linear-gradient(90deg,var(--encre) 0 2px,transparent 2px 3px,var(--encre) 3px 4px,transparent 4px 7px,var(--encre) 7px 10px,transparent 10px 11px)}
+.tt-sku{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-align:center;margin-top:4px;color:var(--muted)}
+.tt-foot{margin:12px -18px 0;background:var(--grenat);color:var(--grenat-fg);font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;padding:8px 18px;display:flex;justify-content:space-between;gap:10px}
+
+/* Boutons de paiement express (visuels) */
+.express{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.xpay{min-height:48px;border-radius:6px;border:1px solid #000;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;gap:6px;font:500 17px/1 -apple-system,"SF Pro Text","Helvetica Neue",Arial,sans-serif;cursor:pointer;letter-spacing:-.01em}
+.xpay svg{height:20px;width:auto;fill:currentColor}
+.xpay.gpay{background:#fff;color:#3c4043;border-color:#747775}
+.xpay.ppal{background:#FFC439;border-color:#FFC439;color:#003087;font-weight:700;font-style:italic}
+.xpay:hover{filter:brightness(.92)}
+.or-sep{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.or-sep::before,.or-sep::after{content:"";flex:1;height:1px;background:var(--line)}
+
+/* Réassurance */
+.reass-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.reass-list li{background:var(--surface);display:grid;grid-template-columns:24px 1fr;gap:10px;padding:14px;font-size:13px;line-height:1.4;align-items:start}
+.reass-list svg{width:22px;height:22px;fill:none;stroke:var(--or-texte);stroke-width:1.3}
+.reass-list b{display:block;font-weight:600;font-size:13.5px}
+.reass-list span{color:var(--muted)}
+
+/* Accordéon */
+.acc{border-top:1px solid var(--line)}
+.acc-item{border-bottom:1px solid var(--line)}
+.acc-item h3{font:inherit;margin:0}
+.acc-btn{width:100%;min-height:56px;display:flex;justify-content:space-between;align-items:center;gap:16px;background:none;border:0;padding:14px 2px;cursor:pointer;text-align:left;font:500 14px/1.3 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--encre)}
+.acc-btn i{position:relative;width:14px;height:14px;flex:none}
+.acc-btn i::before,.acc-btn i::after{content:"";position:absolute;left:0;top:50%;width:14px;height:1.4px;background:currentColor;transition:transform .3s var(--ease)}
+.acc-btn i::after{transform:rotate(90deg)}
+.acc-btn[aria-expanded="true"] i::after{transform:rotate(0)}
+.acc-panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s var(--ease)}
+.acc-panel > div{overflow:hidden}
+.acc-panel.open{grid-template-rows:1fr}
+.acc-body{padding:0 2px 20px;font-size:15px;color:var(--encre);display:flex;flex-direction:column;gap:10px}
+.acc-body ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.acc-body .muted{color:var(--muted)}
+.acc-body dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:0}
+.acc-body dt{color:var(--muted)}
+.acc-body dd{margin:0}
+
+/* Tiroir panier */
+.scrim{position:fixed;inset:0;background:var(--shade);z-index:70;opacity:0;pointer-events:none;transition:opacity .3s}
+.scrim.on{opacity:1;pointer-events:auto}
+.cart{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);background:var(--porcelaine);z-index:80;transform:translateX(100%);transition:transform .45s var(--ease);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);visibility:hidden}
+.cart.on{transform:none;visibility:visible}
+.cart > header{display:flex;justify-content:space-between;align-items:center;padding:12px 12px 12px 20px;border-bottom:1px solid var(--line)}
+.cart > header h2{font-size:24px}
+.cart .shipbar{padding:14px 20px;border-bottom:1px solid var(--line)}
+.lines{flex:1;overflow:auto;padding:4px 20px;display:flex;flex-direction:column}
+.line{display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding-block:14px;border-bottom:1px solid var(--line)}
+.th{width:64px;height:76px;background:radial-gradient(ellipse at 50% 40%,#fbf7f2,#ecdfe3 75%);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.th img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply}
+.line b{font-weight:500;font-size:15px;display:block}
+.line small{color:var(--muted);display:block;font-size:13px}
+.line .price{font-variant-numeric:tabular-nums;font-weight:500;white-space:nowrap}
+.empty{color:var(--muted);text-align:center;padding:40px 10px;display:flex;flex-direction:column;gap:14px;align-items:center}
+.upsell{margin:0 20px 12px;padding:12px;background:var(--surface);border:1px solid var(--line);display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:center;font-size:13px}
+.upsell .th{width:56px;height:56px}
+.upsell b{display:block;font-weight:500;font-size:14px}
+.upsell em{font-style:normal;color:var(--grenat)}
+.totals{padding:16px 20px 20px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:6px;font-size:14px;background:var(--surface)}
+.totals .row{display:flex;justify-content:space-between;gap:12px;font-variant-numeric:tabular-nums}
+.totals .row.disc{color:var(--grenat)}
+.totals .row.tot{font-size:18px;font-weight:600;margin-top:6px}
+.totals .btn{margin-top:12px}
+.totals .note{font-size:12px;color:var(--muted);text-align:center;margin-top:6px}
+
+/* Toast */
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translate(-50%,30px);background:var(--encre);color:var(--porcelaine);padding:12px 14px 12px 18px;font-size:14px;z-index:90;opacity:0;transition:.3s;pointer-events:none;display:flex;align-items:center;gap:14px;max-width:calc(100% - 32px);box-shadow:0 18px 40px -16px rgba(0,0,0,.5)}
+.toast.on{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+.toast button{background:none;border:1px solid rgba(244,242,245,.4);color:var(--or-clair);font:500 11px var(--body);letter-spacing:.12em;text-transform:uppercase;padding:0 12px;min-height:36px;cursor:pointer;white-space:nowrap}
+
+/* Footer */
+footer.site{background:var(--velours);color:var(--velours-muted);font-size:14px}
+footer.site .wrap.cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px;padding-block:56px}
+footer.site h2{margin:0 0 12px;font:500 12px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--velours-fg)}
+footer.site a{display:block;text-decoration:none;padding-block:6px}
+footer.site a:hover{color:var(--velours-fg)}
+footer.site .wm{font-size:26px;color:var(--velours-fg)}
+footer.site .wm .br{border-color:var(--or-clair)}
+footer.site .legal{padding-block:18px 28px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;border-top:1px solid rgba(242,233,236,.12)}
+@media (max-width:900px){ footer.site .wrap.cols{grid-template-columns:1fr 1fr} }
+@media (max-width:560px){ footer.site .wrap.cols{grid-template-columns:1fr 1fr;gap:20px;padding-block:40px} footer.site .wrap.cols > :first-child{grid-column:1/-1} }
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
+}
+
+/* Carte produit (grille, cross-sell) */
+.pcard{display:flex;flex-direction:column;gap:10px;min-width:0;position:relative}
+.pcard .visual{position:relative;aspect-ratio:4/5;background:radial-gradient(ellipse at 50% 40%,#fbf7f2,#ecdfe3 75%);overflow:hidden}
+.pcard .visual > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;transition:transform 1s var(--ease)}
+.pcard .alt{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 45%,var(--velours-2),var(--velours) 75%);opacity:0;transition:opacity .5s var(--ease)}
+.pcard .alt img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:6%;filter:drop-shadow(0 0 14px rgba(255,220,150,.35)) drop-shadow(0 16px 18px rgba(0,0,0,.45));transform:scale(.96);transition:transform 1s var(--ease)}
+.pcard .alt.zoom{background:#fbf7f2}
+.pcard .alt.zoom img{object-fit:cover;padding:0;mix-blend-mode:multiply;filter:none;transform:scale(1.55);transform-origin:50% 30%}
+@media (hover:hover){
+  .pcard:hover .alt,.pcard:focus-within .alt{opacity:1}
+  .pcard:hover .alt img{transform:scale(1.02)}
+  .pcard:hover .alt.zoom img{transform:scale(1.65)}
+}
+.pcard .badges{position:absolute;top:10px;left:10px;display:flex;gap:6px;z-index:2;flex-wrap:wrap;pointer-events:none}
+.pcard h3{font-size:19px;line-height:1.2}
+.pcard h3 a{text-decoration:none}
+.pcard h3 a::after{content:"";position:absolute;inset:0;z-index:1}
+.pcard h3 a:focus-visible{outline:none}
+.pcard:has(h3 a:focus-visible){outline:2px solid var(--or);outline-offset:4px}
+.pcard .meta{display:flex;flex-direction:column-reverse;gap:4px;font-size:14px}
+.pcard .mat{font-size:13px;color:var(--muted);line-height:1.4}
+.pcard .price{font-variant-numeric:tabular-nums;color:var(--encre);font-weight:500;white-space:nowrap}
+.pcard .quick{position:absolute;left:10px;right:10px;bottom:10px;z-index:3;opacity:0;transform:translateY(8px);transition:.3s var(--ease)}
+.pcard .quick .btn{width:100%;padding:12px 10px}
+@media (hover:hover){ .pcard:hover .quick,.pcard:focus-within .quick{opacity:1;transform:none} }
+@media (hover:none){
+  .pcard .quick{opacity:1;transform:none;left:auto;right:8px;bottom:8px}
+  .pcard .quick .btn{width:var(--tap);height:var(--tap);padding:0;border-radius:50%;font-size:0;background:var(--surface);color:var(--encre);border-color:var(--surface);box-shadow:0 4px 12px -4px var(--shade)}
+  .pcard .quick .btn::before{content:"+";font-size:22px;font-weight:300}
+}
+.mock-note{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em;border-left:2px solid var(--or-clair);padding:6px 10px;background:rgba(233,203,143,.12);line-height:1.5}
+
+/* ===== Fiche produit ===== */
+body{padding-bottom:0}
+.pdp{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:56px;align-items:start;padding-bottom:72px}
+.gallery{position:sticky;top:84px;min-width:0}
+.g-main{position:relative}
+.g-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-ms-overflow-style:none;aspect-ratio:1/1;background:var(--ivoire)}
+.g-track::-webkit-scrollbar{display:none}
+.g-slide{flex:0 0 100%;scroll-snap-align:start;position:relative;overflow:hidden;margin:0}
+.g-slide > img{width:100%;height:100%;object-fit:cover}
+.g-slide figcaption{position:absolute;left:14px;bottom:14px;background:rgba(255,253,249,.92);color:var(--encre);font:500 12px var(--body);letter-spacing:.06em;padding:7px 12px;border-radius:999px;max-width:calc(100% - 28px)}
+.g-slide.photo > img{mix-blend-mode:multiply}
+.g-slide.velours{background:radial-gradient(ellipse 70% 60% at 50% 45%,var(--velours-2),var(--velours) 75%)}
+.g-slide.velours > img{object-fit:contain;padding:7%;filter:drop-shadow(0 0 22px rgba(255,220,150,.35)) drop-shadow(0 24px 24px rgba(0,0,0,.5))}
+.g-slide.coffret{background:radial-gradient(circle at 50% 55%,#F8F2EB,#E6D9CC 78%)}
+.g-slide.coffret .box{position:absolute;inset:4% 2% 0 2%;width:96%;height:96%;object-fit:contain}
+.g-slide.coffret .jw{position:absolute;left:33%;top:41%;width:50%;height:auto;transform:rotate(-8deg);filter:drop-shadow(0 10px 10px rgba(60,30,20,.35))}
+.g-nav{position:absolute;top:50%;transform:translateY(-50%);width:var(--tap);height:var(--tap);border-radius:50%;border:0;background:rgba(255,253,249,.9);color:var(--encre);cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px -6px var(--shade)}
+.g-nav.prev{left:12px}.g-nav.next{right:12px}
+.g-nav[disabled]{opacity:0;pointer-events:none}
+.g-count{position:absolute;right:14px;top:14px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;background:rgba(255,253,249,.9);padding:5px 9px}
+.g-thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:10px}
+.g-thumbs button{aspect-ratio:1/1;border:1px solid var(--line);padding:0;background:var(--ivoire);cursor:pointer;overflow:hidden;position:relative}
+.g-thumbs button img{width:100%;height:100%;object-fit:cover}
+.g-thumbs button.v{background:var(--velours)}.g-thumbs button.v img{object-fit:contain;padding:8%}
+.g-thumbs button.c{background:#EFE5DA}.g-thumbs button.c img{object-fit:contain}
+.g-thumbs button[aria-current="true"]{border-color:var(--encre);box-shadow:inset 0 0 0 1px var(--encre)}
+.g-dots{display:none;justify-content:center;gap:4px;margin-top:6px}
+.g-dots button{width:var(--tap);height:24px;border:0;background:none;padding:0;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.g-dots button::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--line);transition:transform .3s,background .3s}
+.g-dots button[aria-current="true"]::before{background:var(--grenat);transform:scale(1.35)}
+
+.buy{display:flex;flex-direction:column;gap:20px;min-width:0}
+.buy h1{font-size:clamp(34px,4.4vw,52px)}
+.buy .lead{color:var(--muted);font-size:16px;max-width:46ch}
+.price-row{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.price-row .pr{font-family:var(--display);font-size:32px;font-variant-numeric:tabular-nums}
+.price-row small{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;font-size:14px}
+.facts li{display:grid;grid-template-columns:20px 1fr;gap:10px;align-items:start}
+.facts svg{width:18px;height:18px;fill:none;stroke:var(--or-texte);stroke-width:1.4;margin-top:2px}
+.facts b{font-weight:600}
+.noel{background:var(--velours);color:var(--velours-fg);padding:12px 14px;font-size:14px;display:grid;grid-template-columns:20px 1fr;gap:10px;align-items:start}
+.noel svg{width:18px;height:18px;fill:none;stroke:var(--or-clair);stroke-width:1.4;margin-top:2px}
+.noel b{color:var(--or-clair);font-weight:500}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+legend{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;padding:0}
+legend b{color:var(--encre);font-weight:400}
+.swatches{display:flex;gap:10px;flex-wrap:wrap}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.opt span{display:inline-flex;align-items:center;gap:10px;min-height:var(--tap);padding:0 16px;border:1px solid var(--line);background:var(--surface);font-size:14px;cursor:pointer}
+.opt input:checked + span{border-color:var(--encre);box-shadow:inset 0 0 0 1px var(--encre)}
+.opt input:focus-visible + span{outline:2px solid var(--or);outline-offset:3px}
+.opt i{width:18px;height:18px;border-radius:50%;background:linear-gradient(135deg,#f6e2b0,#c9a15a 45%,#f3d79a 70%,#9a7434);box-shadow:inset 0 0 0 1px rgba(0,0,0,.1)}
+.giftbox{display:flex;flex-direction:column;gap:8px;padding:14px;background:var(--surface);border:1px solid var(--line)}
+.giftbox[hidden]{display:none}
+.giftbox label{font-size:14px;font-weight:500}
+.giftbox textarea{width:100%;min-height:88px;resize:vertical;border:1px solid var(--champ);padding:10px 12px;font-size:16px;background:var(--surface)}
+.giftbox .cnt{font-family:var(--mono);font-size:11px;color:var(--muted);text-align:right}
+.atc-row{display:grid;grid-template-columns:auto 1fr;gap:10px}
+.atc-row .qty{height:56px}
+.atc-row .qty button{height:54px}
+.atc-row .btn{min-height:56px;font-size:13px}
+.buy .shipbar{background:var(--surface);border:1px solid var(--line);padding:12px 14px}
+.buy .ticket{margin-top:6px}
+.ticket h2{font:500 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--grenat);margin-top:12px}
+
+.section{padding-block:72px;border-top:1px solid var(--line)}
+.head-row{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:28px}
+.head-row h2{font-size:clamp(30px,4vw,46px)}
+.head-row p{color:var(--muted);max-width:52ch;margin-top:8px}
+.xsell{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.details{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:56px}
+.details .intro h2{font-size:clamp(30px,4vw,46px)}
+.details .intro p{color:var(--muted);margin-top:12px}
+.reviews{border:1px dashed var(--champ);background:var(--surface);padding:40px 24px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px}
+.reviews h2{font-size:clamp(28px,3.4vw,40px)}
+.reviews .tag{font-family:var(--mono);font-size:12px;color:var(--grenat);letter-spacing:.06em}
+.reviews p{color:var(--muted);max-width:56ch}
+
+/* Barre d'ajout collante (mobile) */
+.satc{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--porcelaine);border-top:1px solid var(--line);box-shadow:0 -10px 30px -18px var(--shade);padding:10px max(12px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));display:none;grid-template-columns:48px minmax(0,1fr) auto;gap:10px;align-items:center;transform:translateY(110%);transition:transform .35s var(--ease)}
+.satc:not(.on){visibility:hidden}
+.satc.on{transform:none;visibility:visible}
+.satc .th{width:48px;height:48px}
+.satc b{display:block;font-weight:500;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.satc span{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.satc .btn{padding:0 16px;min-height:48px;font-size:12px}
+
+@media (max-width:900px){
+  .pdp{grid-template-columns:1fr;gap:24px;padding-bottom:48px}
+  .gallery{position:static;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)))}
+  .g-thumbs,.g-nav{display:none}
+  .g-dots{display:flex}
+  .xsell{display:grid;grid-auto-flow:column;grid-template-columns:none;grid-auto-columns:min(68%,260px);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding-inline:max(16px,env(safe-area-inset-left,0px));scroll-padding-inline:16px}
+  .xsell > *{scroll-snap-align:start}
+  .details{grid-template-columns:1fr;gap:24px}
+  .section{padding-block:52px}
+  .satc{display:grid}
+  body{padding-bottom:84px}
+  body.satc-on .toast{bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+}
+@media (max-width:440px){ .atc-p{display:none} .atc-row .btn{padding:0 14px} }
+@media (max-width:560px){ .crumbs{font-size:12px} .reass-list{grid-template-columns:1fr 1fr} .reass-list li{padding:12px;grid-template-columns:20px 1fr;gap:8px;font-size:12.5px} }
+@media (prefers-reduced-motion:reduce){ .g-track{scroll-behavior:auto} }
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-en="Skip to content">Aller au contenu</a>
+<div class="annonce"><span class="long" data-en="Christmas gift wrap free until 24 December · Order by 4 December for delivery before Christmas (Europe) · Free delivery from €50">Emballage de Noël offert jusqu'au 24 décembre · Commande avant le 4 décembre pour une livraison avant Noël (Europe) · Livraison offerte dès 50 €</span><span class="short" data-en="Christmas: order by 4 Dec (Europe) · Free delivery from €50">Noël : commande avant le 4/12 (Europe) · Livraison offerte dès 50 €</span></div>
+<header class="hdr" id="hdr">
+  <div class="wrap">
+    <button class="icon-btn menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="mnav" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav aria-label="Navigation principale" data-en-aria-label="Main navigation"><a href="#" data-en="Women">Femme</a><a href="#" data-en="Men">Homme</a><a href="#" data-en="Gifts">Cadeaux</a><a href="collection.html" data-en="Éclat">Éclat</a><a href="#" data-en="Collections">Collections</a></nav>
+    <a class="brand" href="../../charmed-paris/charmed-site.html" aria-label="Charmed Paris, accueil" data-en-aria-label="Charmed Paris, home"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><span class="brand-sub">Paris</span></a>
+    <div class="tools">
+      <div class="lang" role="group" aria-label="Langue" data-en-aria-label="Language"><button type="button" data-lang="fr" aria-pressed="true" lang="fr" title="Français">FR</button><button type="button" data-lang="en" aria-pressed="false" lang="en" title="English">EN</button></div>
+      <button class="icon-btn search-btn" type="button" aria-label="Rechercher" data-en-aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+      <button class="icon-btn" type="button" id="open-cart" aria-controls="cart" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg><span class="lbl" data-en="Bag">Écrin</span><span class="count" id="count">0</span><span class="sr" data-en="items in your bag">articles dans ton écrin</span></button>
+    </div>
+  </div>
+  <nav class="mnav" id="mnav" hidden aria-label="Navigation mobile" data-en-aria-label="Mobile navigation"><a href="#" data-en="Women">Femme</a><a href="#" data-en="Men">Homme</a><a href="#" data-en="Gifts">Cadeaux</a><a href="collection.html" data-en="Éclat">Éclat</a><a href="#" data-en="Collections">Collections</a><a href="#" data-en="Search">Rechercher</a></nav>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Fil d'Ariane" data-en-aria-label="Breadcrumb"><ol>
+      <li><a href="../../charmed-paris/charmed-site.html" data-en="Home">Accueil</a></li>
+      <li><a href="#" data-en="Jewellery sets">Parures</a></li>
+      <li><a href="collection.html">Éclat</a></li>
+      <li><span aria-current="page" data-en="Solar Sphere set">Parure Solar Sphere</span></li>
+    </ol></nav>
+  </div>
+
+  <div class="wrap pdp">
+    <!-- Galerie -->
+    <section class="gallery" aria-label="Photos de la parure" data-en-aria-label="Photos of the set">
+      <div class="g-main">
+        <div class="g-track" id="gTrack" tabindex="0" aria-label="Galerie, glisse ou utilise les flèches" data-en-aria-label="Gallery, swipe or use the arrow keys">
+          <figure class="g-slide photo"><img src="img/JS1AQ5.webp" width="400" height="400" alt="Parure Solar Sphere : collier pendentif dôme et puces assorties, dorés, sur fond crème" data-en-alt="The Solar Sphere set: dome pendant necklace and matching studs, gold-plated, on a cream background"><figcaption data-en="The set">La parure</figcaption></figure>
+          <figure class="g-slide velours"><img src="img/cut/JS1AQ5.webp" width="700" height="700" loading="lazy" alt="Parure Solar Sphere détourée sur fond velours" data-en-alt="The Solar Sphere set cut out on velvet"><figcaption data-en="On velvet">Sur velours</figcaption></figure>
+          <figure class="g-slide coffret"><img class="box" src="img/box-open.webp" width="720" height="720" loading="lazy" alt="" ><img class="jw" src="img/cut/JS1AQ5.webp" width="700" height="700" loading="lazy" alt="La parure posée dans son coffret cadeau ouvert" data-en-alt="The set resting in its open gift box"><figcaption data-en="In its gift box (mock-up)">Dans le coffret (montage maquette)</figcaption></figure>
+          <figure class="g-slide photo-pack"><img src="img/pack-f.webp" width="800" height="800" loading="lazy" alt="Colis CHARMED PARIS ouvert : coffret blanc, papier nid d'abeille, boîte cadeau au ruban chocolat, carte" data-en-alt="Open CHARMED PARIS parcel: white mailer, honeycomb paper, gift box with chocolate ribbon, card"><figcaption data-en="Your parcel">Ton colis</figcaption></figure>
+          <figure class="g-slide photo-pack"><img src="img/pack-noel-f.webp" width="1000" height="1000" loading="lazy" alt="Emballage de Noël CHARMED PARIS : papier rouge, ruban, carte de Noël" data-en-alt="CHARMED PARIS Christmas wrapping: red paper, ribbon, Christmas card"><figcaption data-en="Christmas wrap, free until 24 Dec">Emballage de Noël, offert jusqu'au 24/12</figcaption></figure>
+        </div>
+        <button class="g-nav prev" type="button" id="gPrev" aria-label="Photo précédente" data-en-aria-label="Previous photo">←</button>
+        <button class="g-nav next" type="button" id="gNext" aria-label="Photo suivante" data-en-aria-label="Next photo">→</button>
+        <span class="g-count" id="gCount" aria-hidden="true">1 / 5</span>
+      </div>
+      <div class="g-thumbs" id="gThumbs">
+        <button type="button" aria-label="Photo 1 : la parure" data-en-aria-label="Photo 1: the set"><img src="img/JS1AQ5.webp" alt="" width="400" height="400" style="mix-blend-mode:multiply"></button>
+        <button type="button" class="v" aria-label="Photo 2 : sur velours" data-en-aria-label="Photo 2: on velvet"><img src="img/cut/JS1AQ5.webp" alt="" width="700" height="700" loading="lazy"></button>
+        <button type="button" class="c" aria-label="Photo 3 : dans le coffret" data-en-aria-label="Photo 3: in the gift box"><img src="img/box-open.webp" alt="" width="720" height="720" loading="lazy"></button>
+        <button type="button" aria-label="Photo 4 : ton colis" data-en-aria-label="Photo 4: your parcel"><img src="img/pack-f.webp" alt="" width="800" height="800" loading="lazy"></button>
+        <button type="button" aria-label="Photo 5 : emballage de Noël" data-en-aria-label="Photo 5: Christmas wrap"><img src="img/pack-noel-f.webp" alt="" width="1000" height="1000" loading="lazy"></button>
+      </div>
+      <div class="g-dots" id="gDots"></div>
+    </section>
+
+    <!-- Achat -->
+    <section class="buy" aria-labelledby="pname">
+      <div class="eyebrow" data-en="Éclat · 2-piece set">Éclat · Parure 2 pièces</div>
+      <h1 id="pname" data-en="Solar Sphere set">Parure Solar Sphere</h1>
+      <p class="lead" data-en="A gold sphere that holds the light. The dome pendant, paved with zircons, answers two matching studs. Wear it alone: it is enough.">Une sphère dorée qui retient la lumière. Le pendentif dôme, pavé de zircons, répond à deux puces assorties. Tu la portes seule : elle suffit.</p>
+      <div class="price-row"><span class="pr" id="price">69,00 €</span><small data-en="incl. VAT">TTC</small></div>
+
+      <ul class="facts">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></svg><span><b data-en="Free delivery with this set">Livraison offerte avec cette parure</b> <span data-en="(from €50) · duties paid, nothing to pay on delivery">(dès 50 €) · droits de douane payés, rien à régler à la livraison</span></span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg><span id="eta"></span></li>
+      </ul>
+      <div class="noel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9"/></svg><span data-en="<b>Christmas:</b> order by Friday 4 December for delivery before Christmas (Europe). Christmas gift wrap is free until 24 December."><b>Noël :</b> commande avant le vendredi 4 décembre pour une livraison avant Noël (Europe). L'emballage de Noël est offert jusqu'au 24 décembre.</span></div>
+
+      <fieldset>
+        <legend><span data-en="Finish">Finition</span> : <b data-en="Gold">Doré</b></legend>
+        <div class="swatches"><label class="opt"><input type="radio" name="fin" checked><span><i aria-hidden="true"></i><span data-en="Gold · zircons" style="all:unset">Doré · zircons</span></span></label></div>
+      </fieldset>
+      <fieldset>
+        <legend data-en="It's for">C'est pour</legend>
+        <div class="swatches">
+          <label class="opt"><input type="radio" name="for" value="me" checked><span data-en="Me">Moi</span></label>
+          <label class="opt"><input type="radio" name="for" value="gift"><span data-en="A gift">Offrir</span></label>
+        </div>
+      </fieldset>
+      <div class="giftbox" id="giftbox" hidden>
+        <label for="gmsg" data-en="Gift message (optional)">Message cadeau (facultatif)</label>
+        <textarea id="gmsg" maxlength="150" placeholder="Ouvre. Laisse-toi charmer." data-en-placeholder="Open it. Be charmed."></textarea>
+        <div class="cnt"><span id="gcnt">0</span> / 150</div>
+        <p class="mock-note" data-en="Mock-up: the supplier does not personalise parcels per order. Suggested option: an e-card sent by email on the date you choose (to be validated).">Maquette : le fournisseur ne personnalise pas les colis par commande. Option proposée : une e-carte envoyée par e-mail à la date choisie (à valider).</p>
+      </div>
+
+      <div class="atc-row" id="atcRow">
+        <div class="qty" role="group" aria-label="Quantité" data-en-aria-label="Quantity"><button type="button" id="qMinus" aria-label="Une de moins" data-en-aria-label="One less">−</button><output id="qVal" aria-live="polite">1</output><button type="button" id="qPlus" aria-label="Une de plus" data-en-aria-label="One more">+</button></div>
+        <button class="btn" type="button" id="atc"><span data-en="Add to bag">Ajouter à l'écrin</span><span class="atc-p">&nbsp;·&nbsp;<span id="atcPrice">69,00 €</span></span></button>
+      </div>
+      <div class="or-sep" data-en="or pay in one tap">ou payer en un geste</div>
+      <div class="express" aria-label="Paiement express" data-en-aria-label="Express checkout">
+        <button class="xpay" type="button" aria-label="Payer avec Apple Pay" data-en-aria-label="Pay with Apple Pay"><svg viewBox="0 0 17 20" aria-hidden="true"><path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8s2 .8 3.4.8c1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM11.6 3c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.2 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>Pay</button>
+        <button class="xpay gpay" type="button" aria-label="Payer avec Google Pay" data-en-aria-label="Pay with Google Pay"><b style="color:#4285F4">G</b>&nbsp;Pay</button>
+      </div>
+      <div class="shipbar" id="pShip"><span class="txt"></span><div class="bar"><i></i></div></div>
+
+      <!-- Étiquette ticket : Dans ton écrin -->
+      <aside class="ticket" aria-labelledby="tt-title">
+        <div class="tt-head"><span class="tt-brand"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><span>Paris</span></span><span data-en="Box no. 10">Écrin n°10</span></div>
+        <div class="tt-code"><b>SOL</b><span>Solar Sphere</span></div>
+        <h2 id="tt-title" data-en="In your box">Dans ton écrin</h2>
+        <ul class="tt-rows">
+          <li class="tt-row"><span data-en="Dome pendant necklace">Collier pendentif dôme</span><span data-en="included">inclus</span></li>
+          <li class="tt-row"><span data-en="Matching stud earrings">Puces d'oreilles assorties</span><span data-en="included">inclus</span></li>
+          <li class="tt-row"><span data-en="CHARMED PARIS gift box">Coffret cadeau CHARMED PARIS</span><span data-en="included">offert</span></li>
+          <li class="tt-row"><span data-en="Velvet pouch, polishing cloth, care card">Pochette en velours, chamoisine, carte d'entretien</span><span data-en="included">offert</span></li>
+          <li class="tt-row"><span data-en="Christmas gift wrap">Emballage de Noël</span><span data-en="free to 24/12">offert → 24/12</span></li>
+        </ul>
+        <div class="tt-total"><span data-en="Set total">Total parure</span><b>69,00 €</b></div>
+        <div class="tt-bar" aria-hidden="true"></div>
+        <div class="tt-sku">CP-ECL-SOL</div>
+        <div class="tt-foot"><span data-en="Christmas wrap free">Emballage de Noël offert</span><span>Paris</span></div>
+      </aside>
+
+      <ul class="reass-list" aria-label="Nos engagements" data-en-aria-label="Our promises">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></svg><div><b data-en="Ships in 1–2 days">Expédiée en 1–2 j</b><span data-en="Delivered in 4–9 working days (France), DHL tracking">Livrée en 4–9 jours ouvrés (France), suivi DHL</span></div></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg><div><b data-en="Duties paid">Droits payés</b><span data-en="Nothing to pay on delivery">Rien à régler à la livraison</span></div></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg><div><b data-en="14 days to change your mind">14 jours pour changer d'avis</b><span data-en="Right of withdrawal">Droit de rétractation</span></div></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><div><b data-en="Secure payment">Paiement sécurisé</b><span data-en="Card, Apple Pay, Google Pay, PayPal">Carte, Apple Pay, Google Pay, PayPal</span></div></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16v10H4zM3 7h18v3H3zM12 7v13M12 7c-2-4-6-3-5 0M12 7c2-4 6-3 5 0"/></svg><div><b data-en="Gift box included">Coffret cadeau inclus</b><span data-en="Velvet pouch, cloth, care card">Pochette velours, chamoisine, carte</span></div></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9"/></svg><div><b data-en="Christmas wrap free">Emballage de Noël offert</b><span data-en="Until 24 December">Jusqu'au 24 décembre</span></div></li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Cross-sell : 2e parure −15 % -->
+  <section class="section" aria-labelledby="xs-t">
+    <div class="wrap">
+      <div class="head-row"><div><div class="eyebrow" data-en="2nd set −15%">2e parure −15 %</div><h2 id="xs-t" data-en="One for you, one to give">Une pour toi, une à offrir</h2><p data-en="From two sets, the less expensive one is 15% off, applied automatically in your bag.">Dès deux parures, la moins chère est à −15 %, appliqué automatiquement dans ton écrin.</p></div><a class="btn ghost" href="collection.html" data-en="All Éclat sets">Toutes les parures Éclat</a></div>
+      <div class="xsell" id="xsell"></div>
+    </div>
+  </section>
+
+  <!-- Détails -->
+  <section class="section" aria-labelledby="det-t">
+    <div class="wrap details">
+      <div class="intro"><div class="eyebrow" data-en="Details">Les détails</div><h2 id="det-t" data-en="Everything about Solar Sphere">Tout sur Solar Sphere</h2><p data-en="Materials, care, delivery: the straight answers, before you ask.">Matières, entretien, livraison : les réponses franches, avant que tu les demandes.</p></div>
+      <div class="acc">
+        <div class="acc-item"><h3><button class="acc-btn" type="button" aria-expanded="true" aria-controls="ac1" id="ac1b"><span data-en="Description">Description</span><i aria-hidden="true"></i></button></h3>
+          <div class="acc-panel" id="ac1" role="region" aria-labelledby="ac1b"><div><div class="acc-body">
+            <p data-en="A dome pendant on a fine chain, its rim paved with zircons, a chocolate-toned centre that warms the gold. Two studs echo it. A set you can wear every day and that still feels like an occasion.">Un pendentif dôme sur une chaîne fine, sa monture pavée de zircons, un cœur ton chocolat qui réchauffe l'or. Deux puces lui font écho. Une parure qui se porte tous les jours et garde un air d'occasion.</p>
+            <ul><li data-en="Dome pendant necklace">Collier pendentif dôme</li><li data-en="Matching stud earrings">Puces d'oreilles assorties</li></ul>
+          </div></div></div></div>
+        <div class="acc-item"><h3><button class="acc-btn" type="button" aria-expanded="false" aria-controls="ac2" id="ac2b"><span data-en="Materials &amp; care">Matières &amp; entretien</span><i aria-hidden="true"></i></button></h3>
+          <div class="acc-panel" id="ac2" role="region" aria-labelledby="ac2b"><div><div class="acc-body">
+            <dl>
+              <dt data-en="Metal">Métal</dt><dd data-en="Gold-plated brass with an anti-tarnish coating">Laiton doré à l'or fin, revêtement anti-ternissement</dd>
+              <dt data-en="Stones">Pierres</dt><dd data-en="Zircons (cubic zirconia)">Zircons (oxydes de zirconium)</dd>
+              <dt data-en="Finish">Finition</dt><dd data-en="Gold">Dorée</dd>
+            </dl>
+            <p><b data-en="Keep it dry.">À garder au sec.</b> <span data-en="Take it off before showering, swimming and sport. Water, soap and chlorine shorten the life of the plating. Perfume and cream first, jewellery last. Store it in its velvet pouch and wipe it with the polishing cloth provided.">Retire-la avant la douche, la baignade et le sport : l'eau, le savon et le chlore raccourcissent la vie de la dorure. Parfum et crème d'abord, bijou ensuite. Range-la dans sa pochette en velours et essuie-la avec la chamoisine fournie.</span></p>
+            <p class="mock-note" data-en="Mock-up: chain length, dimensions, weight and plating carat to be copied from the supplier's product sheet.">Maquette : longueur de chaîne, dimensions, poids et carat de la dorure à relever sur la fiche fournisseur.</p>
+          </div></div></div></div>
+        <div class="acc-item"><h3><button class="acc-btn" type="button" aria-expanded="false" aria-controls="ac3" id="ac3b"><span data-en="Delivery &amp; returns">Livraison &amp; retours</span><i aria-hidden="true"></i></button></h3>
+          <div class="acc-panel" id="ac3" role="region" aria-labelledby="ac3b"><div><div class="acc-body">
+            <ul>
+              <li data-en="Prepared in 1–2 working days, delivered in 4–9 working days in France, with DHL tracking.">Préparée en 1–2 jours ouvrés, livrée en 4–9 jours ouvrés en France, avec suivi DHL.</li>
+              <li data-en="One delivery method, no express option. Several sets travel in a single parcel.">Un seul mode de livraison, sans option express. Plusieurs parures voyagent dans un seul colis.</li>
+              <li data-en="Free from €50, otherwise €4.90. Duties and import taxes are paid: nothing to pay on delivery.">Offerte dès 50 €, sinon 4,90 €. Droits et taxes d'importation payés : rien à régler à la livraison.</li>
+              <li data-en="Christmas: order by Friday 4 December for delivery before Christmas (Europe).">Noël : commande avant le vendredi 4 décembre pour une livraison avant Noël (Europe).</li>
+              <li data-en="14 days from delivery to change your mind (right of withdrawal). Details in our terms of sale.">14 jours après réception pour changer d'avis (droit de rétractation). Le détail est dans nos CGV.</li>
+              <li data-en="2-year legal guarantee of conformity.">Garantie légale de conformité de 2 ans.</li>
+            </ul>
+            <p class="mock-note" data-en="Mock-up: the €4.90 rate is a suggestion to validate (supplier cost: $8.99 per order).">Maquette : le tarif de 4,90 € est une proposition à valider (coût fournisseur : 8,99 $ par commande).</p>
+          </div></div></div></div>
+        <div class="acc-item"><h3><button class="acc-btn" type="button" aria-expanded="false" aria-controls="ac4" id="ac4b"><span data-en="Questions">Questions fréquentes</span><i aria-hidden="true"></i></button></h3>
+          <div class="acc-panel" id="ac4" role="region" aria-labelledby="ac4b"><div><div class="acc-body">
+            <p><b data-en="Can I wear it in the shower?">Je peux la porter sous la douche ?</b><br><span data-en="No. Like all our jewellery, keep it dry: take it off before showering, swimming and sport.">Non. Comme tous nos bijoux, garde-la au sec : retire-la avant la douche, la baignade et le sport.</span></p>
+            <p><b data-en="Is it solid gold?">C'est de l'or massif ?</b><br><span data-en="No. It is gold-plated brass with an anti-tarnish coating, set with zircons. For solid silver, see our Fine 925 line.">Non. C'est du laiton doré à l'or fin, avec un revêtement anti-ternissement, serti de zircons. Pour l'argent massif, découvre la Joaillerie 925.</span></p>
+            <p><b data-en="Does it arrive ready to give?">Elle arrive prête à offrir ?</b><br><span data-en="Yes: gift box, velvet pouch, polishing cloth and care card. Until 24 December, Christmas gift wrap is free.">Oui : coffret cadeau, pochette en velours, chamoisine et carte d'entretien. Jusqu'au 24 décembre, l'emballage de Noël est offert.</span></p>
+            <p><b data-en="Can it be engraved?">Peut-on la graver ?</b><br><span data-en="No, our sets cannot be engraved or personalised. You can add a gift message.">Non, nos parures ne se gravent pas et ne se personnalisent pas. Tu peux ajouter un message cadeau.</span></p>
+          </div></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Avis : emplacement réservé -->
+  <section class="section" aria-labelledby="rv-t">
+    <div class="wrap">
+      <div class="reviews">
+        <h2 id="rv-t" data-en="Customer reviews">Avis clientes</h2>
+        <span class="tag" data-en="(Judge.me module to connect)">(module Judge.me à connecter)</span>
+        <p data-en="Reviews will appear here, written by real customers after their order. Nothing is shown until the module is connected.">Les avis apparaîtront ici, écrits par de vraies clientes après leur commande. Rien ne s'affiche tant que le module n'est pas branché.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap cols">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><span class="brand-sub" style="color:var(--or-clair);margin-top:-4px">Paris</span>
+      <p data-en="Jewellery sets designed in Paris. Open it. Be charmed.">Parures pensées à Paris. Ouvre. Laisse-toi charmer.</p>
+    </div>
+    <div><h2 data-en="Shop">Boutique</h2><a href="#" data-en="Women">Femme</a><a href="#" data-en="Men">Homme</a><a href="#" data-en="Gifts">Cadeaux</a><a href="collection.html">Éclat</a></div>
+    <div><h2 data-en="Help">Aide</h2><a href="#" data-en="Delivery">Livraison</a><a href="#" data-en="Returns &amp; withdrawal">Retours &amp; rétractation</a><a href="#" data-en="Jewellery care">Entretien des bijoux</a><a href="#" data-en="Contact">Contact</a></div>
+    <div><h2 data-en="Legal">Légal</h2><a href="#" data-en="Terms of sale">CGV</a><a href="#" data-en="Legal notice">Mentions légales</a><a href="#" data-en="Privacy">Confidentialité</a><a href="#" data-en="Cookies">Cookies</a></div>
+  </div>
+  <div class="wrap legal" data-en="© 2026 CHARMED PARIS · Prices in euros incl. 20% VAT · Duties paid, nothing to pay on delivery · WooCommerce mock-up">© 2026 CHARMED PARIS · Prix TTC en euros, TVA 20 % incluse · Droits de douane payés, rien à régler à la livraison · Maquette WooCommerce</div>
+</footer>
+
+<div class="scrim" id="scrim"></div>
+<aside class="cart" id="cart" aria-label="Ton écrin" data-en-aria-label="Your bag" aria-hidden="true" role="dialog" aria-modal="true">
+  <header><h2 data-en="Your bag">Ton écrin</h2><button class="icon-btn" type="button" id="close-cart" aria-label="Fermer le panier" data-en-aria-label="Close bag"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></header>
+  <div class="shipbar" id="d-ship"><span class="txt"></span><div class="bar"><i></i></div></div>
+  <div class="lines" id="d-lines"></div>
+  <div id="d-upsell"></div>
+  <div class="totals">
+    <div class="row"><span data-en="Subtotal">Sous-total</span><span id="d-sub">0,00 €</span></div>
+    <div class="row disc" id="d-disc-row" hidden><span data-en="2nd set −15%">2e parure −15 %</span><span id="d-disc"></span></div>
+    <div class="row"><span data-en="Delivery">Livraison</span><span id="d-shipc">—</span></div>
+    <div class="row tot"><span data-en="Total incl. VAT">Total TTC</span><span id="d-tot">0,00 €</span></div>
+    <a class="btn block" href="panier-checkout.html" id="d-go" data-en="Checkout">Passer commande</a>
+    <p class="note" data-en="Gift box included · Secure payment · 14-day returns">Coffret cadeau inclus · Paiement sécurisé · Retours 14 jours</p>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"><span id="toast-txt"></span><button type="button" id="toast-open" data-en="View bag">Voir l'écrin</button></div>
+
+
+<div class="satc" id="satc" aria-hidden="true">
+  <div class="th"><img src="img/JS1AQ5.webp" alt="" width="400" height="400"></div>
+  <div style="min-width:0"><b data-en="Solar Sphere set">Parure Solar Sphere</b><span id="satcPrice">69,00 €</span></div>
+  <button class="btn" type="button" id="satcBtn" tabindex="-1" data-en="Add to bag">Ajouter à l'écrin</button>
+</div>
+
+<script>
+/* ===== CHARMED PARIS · logique commune (catalogue maquette, écrin, tiroir, toast, accordéons) ===== */
+/* Prix = exemples de maquette (fourchettes du brief), à valider. Pièces lues sur les photos Branvas. */
+var CAT = {
+  JS1AQ5:{n:'Solar Sphere', price:69, uni:'Éclat', code:'SOL', pcs:['Collier pendentif dôme','Puces d\'oreilles'], pe:['Dome pendant necklace','Stud earrings'], m:'Collier + puces · doré à l\'or fin, zircons', me:'Necklace + studs · gold-plated, zircons', stone:'chocolat', type:'puces', img:'img/JS1AQ5.webp', cut:'img/cut/JS1AQ5.webp'},
+  JSJB3S:{n:'Golden Luxe', price:79, uni:'Éclat', code:'GLX', pcs:['Collier goutte','Boucles pendantes'], pe:['Teardrop necklace','Drop earrings'], m:'Collier goutte + boucles · doré à l\'or fin, zircons', me:'Teardrop necklace + drops · gold-plated, zircons', stone:'cristal', type:'boucles', img:'img/JSJB3S.webp', cut:'img/cut/JSJB3S.webp'},
+  JS63VP:{n:'Golden Hour', price:69, uni:'Éclat', code:'GHR', pcs:['Collier','Créoles pendantes'], pe:['Necklace','Drop hoops'], m:'Collier + créoles · doré à l\'or fin, zircons champagne', me:'Necklace + hoops · gold-plated, champagne zircons', stone:'champagne', type:'creoles', img:'img/JS63VP.webp', cut:'img/cut/JS63VP.webp'},
+  JS4EXR:{n:'Crescent Glow', price:79, uni:'Éclat', code:'CRE', pcs:['Collier','Créoles','Bague ajustable'], pe:['Necklace','Hoops','Adjustable ring'], m:'Collier, créoles + bague · doré à l\'or fin, zircons', me:'Necklace, hoops + ring · gold-plated, zircons', stone:'cristal', type:'creoles', bague:true, img:'img/JS4EXR.webp', cut:'img/cut/JS4EXR.webp'},
+  JS5N68:{n:'Emerald Cut Halo', price:75, uni:'Éclat', code:'ECH', pcs:['Collier','Puces d\'oreilles'], pe:['Necklace','Stud earrings'], m:'Collier + puces · doré à l\'or fin, zircons taille émeraude', me:'Necklace + studs · gold-plated, emerald-cut zircons', stone:'cristal', type:'puces', img:'img/JS5N68.webp'},
+  JSFAV7:{n:'Geometric Luxe', price:65, uni:'Éclat', code:'GEO', pcs:['Collier','Créoles'], pe:['Necklace','Huggie hoops'], m:'Collier + créoles · doré à l\'or fin, zircons', me:'Necklace + huggies · gold-plated, zircons', stone:'cristal', type:'creoles', img:'img/JSFAV7.webp'},
+  JSC940:{n:'Golden Square', price:75, uni:'Éclat', code:'GSQ', pcs:['Collier','Boucles pendantes'], pe:['Necklace','Drop earrings'], m:'Collier + boucles · doré à l\'or fin, pierres miel', me:'Necklace + drops · gold-plated, honey stones', stone:'champagne', type:'boucles', isNew:true, img:'img/JSC940.webp'},
+  JS4P8D:{n:'Petal Bloom', price:59, uni:'Éclat', code:'PET', pcs:['Collier fleur et perles','Puces fleur'], pe:['Flower and pearl necklace','Flower studs'], m:'Collier + puces · doré à l\'or fin, perles, zircons', me:'Necklace + studs · gold-plated, pearls, zircons', stone:'perles', type:'puces', isNew:true, img:'img/JS4P8D.webp'},
+  JS4AH6:{n:'Radiant Circle', price:65, uni:'Éclat', code:'RAD', pcs:['Collier','Boucles cercle'], pe:['Necklace','Circle earrings'], m:'Collier + boucles · doré à l\'or fin, zircons', me:'Necklace + earrings · gold-plated, zircons', stone:'cristal', type:'boucles', img:'img/JS4AH6.webp'},
+  JSQS6W:{n:'Shell Glow', price:69, uni:'Éclat', code:'SHL', pcs:['Collier pendentif dôme','Puces d\'oreilles'], pe:['Dome pendant necklace','Stud earrings'], m:'Collier + puces · finition or blanc, zircons', me:'Necklace + studs · white-gold-plated, zircons', stone:'chocolat', type:'puces', img:'img/JSQS6W.webp'},
+  JS2KBV:{n:'Wave Luxe', price:69, uni:'Éclat', code:'WAV', pcs:['Collier double chaîne','Boucles'], pe:['Double-chain necklace','Earrings'], m:'Collier + boucles · doré à l\'or fin, zircons', me:'Necklace + earrings · gold-plated, zircons', stone:'cristal', type:'boucles', isNew:true, img:'img/JS2KBV.webp'},
+  /* autres univers (cadeaux, suggestions) */
+  JSSFYS:{n:'Blush Dreams', price:189, uni:'Joaillerie 925', code:'BLU', pcs:['Collier','Puces','Bracelet','Bague'], pe:['Necklace','Studs','Bracelet','Ring'], m:'Argent 925, moissanites roses', me:'925 sterling silver, pink moissanites', img:'img/JSSFYS.webp', cut:'img/cut/JSSFYS.webp', is925:true},
+  JSGRQR:{n:'Molten Art', price:49, uni:'Sculpture', code:'MOL', pcs:['Collier','Boucles'], pe:['Necklace','Earrings'], m:'Collier + boucles · métal doré sculpté', me:'Necklace + earrings · sculpted gold-tone metal', img:'img/JSGRQR.webp', cut:'img/cut/JSGRQR.webp'},
+  JSX3G6:{n:'Royal Sapphire', price:79, uni:'Couleur précieuse', code:'SAP', pcs:['Collier','Boucles'], pe:['Necklace','Earrings'], m:'Collier + boucles · pierres bleu saphir, zircons', me:'Necklace + earrings · sapphire-blue stones, zircons', img:'img/JSX3G6.webp', cut:'img/cut/JSX3G6.webp'}
+};
+/* ---------- Langue FR / EN ---------- */
+var LANG = 'fr';
+try{ LANG = localStorage.getItem('charmed-lang') || ((navigator.language||'fr').slice(0,2)==='fr' ? 'fr' : 'fr'); }catch(e){}
+if(LANG!=='en') LANG='fr';
+function T(fr,en){ return LANG==='en' ? en : fr; }
+function PM(p){ return LANG==='en' ? p.me : p.m; }
+function PP(p){ return LANG==='en' ? p.pe : p.pcs; }
+var I18N_ATTRS = ['aria-label','placeholder','title','alt','content'];
+var langHooks = [];
+function onLang(fn){ langHooks.push(fn); }
+function applyLang(){
+  document.documentElement.lang = LANG;
+  document.querySelectorAll('[data-en]').forEach(function(el){
+    if(el.dataset.fr===undefined) el.dataset.fr = el.innerHTML;
+    el.innerHTML = LANG==='en' ? el.dataset.en : el.dataset.fr;
+  });
+  I18N_ATTRS.forEach(function(a){
+    document.querySelectorAll('[data-en-'+a+']').forEach(function(el){
+      var k='fr'+a.replace(/-/g,''); if(el.dataset[k]===undefined) el.dataset[k]=el.getAttribute(a)||'';
+      el.setAttribute(a, LANG==='en' ? el.getAttribute('data-en-'+a) : el.dataset[k]);
+    });
+  });
+  var tt=document.querySelector('title'); if(tt && tt.dataset.en){ document.title = LANG==='en'?tt.dataset.en:tt.dataset.fr; }
+  document.querySelectorAll('.lang button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.lang===LANG); });
+  langHooks.forEach(function(f){ f(); });
+  if(typeof renderAll==='function' && document.readyState!=='loading') renderAll();
+}
+function setLang(l){ LANG=l; try{ localStorage.setItem('charmed-lang', l); }catch(e){} applyLang(); }
+var FREE_FROM = 50, SHIP_FEE = 4.90 /* tarif client à valider (coût Branvas : 8,99 $ / commande) */, SECOND = .15;
+var KEY = 'charmed-woo-cart';
+var $ = function(id){ return document.getElementById(id); };
+function eur(v){ var x=(Math.round(v*100)/100).toFixed(2); return LANG==='en' ? '€'+x : x.replace('.',',') + '\u00a0€'; }
+var cart = {};
+try{ cart = JSON.parse(localStorage.getItem(KEY)||'{}') || {}; }catch(e){ cart = {}; }
+Object.keys(cart).forEach(function(k){ if(!CAT[k]) delete cart[k]; });
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(cart)); }catch(e){} }
+function count(){ var n=0; for(var k in cart) n+=cart[k]; return n; }
+/* Règle (identique à l'accueil) : dès 2 parures, −15 % sur la moins chère. Livraison offerte si total remisé ≥ 50 €. */
+function calc(c){
+  c = c || cart; var n=0, sub=0, prices=[];
+  for(var k in c){ n+=c[k]; sub+=c[k]*CAT[k].price; for(var i=0;i<c[k];i++) prices.push(CAT[k].price); }
+  prices.sort(function(a,b){return a-b;});
+  var disc = n>=2 ? Math.round(prices[0]*SECOND*100)/100 : 0;
+  var after = sub-disc, free = after>=FREE_FROM, ship = n ? (free?0:SHIP_FEE) : 0, tot = after+ship;
+  return {n:n, sub:sub, disc:disc, after:after, free:free, ship:ship, tot:tot, tva: tot - tot/1.2};
+}
+function shipbar(el, after){
+  if(!el) return;
+  var free = after>=FREE_FROM;
+  el.classList.toggle('done', free);
+  el.querySelector('.txt').innerHTML = free ? T('<b>Livraison offerte</b> ✓ sur ta commande','<b>Free delivery</b> ✓ on your order') : T('Plus que <b>'+eur(FREE_FROM-after)+'</b> pour la livraison offerte','Only <b>'+eur(FREE_FROM-after)+'</b> away from free delivery');
+  el.querySelector('.bar i').style.width = Math.min(100, after/FREE_FROM*100)+'%';
+}
+var listeners = [];
+function onCart(fn){ listeners.push(fn); }
+function setQty(id, q){ if(q<=0) delete cart[id]; else cart[id]=Math.min(q,10); save(); renderAll(); }
+function add(id, q, silent){ cart[id]=(cart[id]||0)+(q||1); save(); renderAll(); if(!silent) toast((q>1?q+' × ':'')+T('Parure '+CAT[id].n+' ajoutée à ton écrin', CAT[id].n+' set added to your bag')); }
+function thumb(p){ return '<img src="'+p.img+'" alt="" width="400" height="400" loading="lazy">'; }
+
+function renderDrawer(){
+  var t = calc(), lines = $('d-lines'); if(!lines) return;
+  $('count').textContent = t.n;
+  lines.innerHTML='';
+  Object.keys(cart).forEach(function(id){
+    var p = CAT[id], q = cart[id], l = document.createElement('div'); l.className='line';
+    l.innerHTML='<div class="th">'+thumb(p)+'</div><div><b></b><small></small><div class="qty sm" role="group"><button type="button">−</button><span aria-live="polite"></span><button type="button">+</button></div></div><span class="price"></span>';
+    l.querySelector('b').textContent=T('Parure '+p.n, p.n+' set'); l.querySelector('small').textContent=PM(p);
+    l.querySelector('.qty span').textContent=q; l.querySelector('.price').textContent=eur(q*p.price);
+    var bs=l.querySelectorAll('.qty button');
+    bs[0].setAttribute('aria-label', q===1?T('Retirer Parure '+p.n,'Remove '+p.n+' set'):T('Une de moins','One less')); bs[1].setAttribute('aria-label',T('Une de plus','One more'));
+    bs[0].addEventListener('click',function(){ setQty(id,q-1); });
+    bs[1].addEventListener('click',function(){ setQty(id,q+1); });
+    lines.appendChild(l);
+  });
+  if(!t.n) lines.innerHTML='<div class="empty"><span>'+T('Ton écrin est vide.','Your bag is empty.')+'</span><a class="btn ghost" href="collection.html">'+T('Voir les parures Éclat','Shop the Éclat sets')+'</a></div>';
+  shipbar($('d-ship'), t.after);
+  $('d-sub').textContent=eur(t.sub);
+  $('d-disc-row').hidden=!t.disc; $('d-disc').textContent='− '+eur(t.disc);
+  $('d-shipc').textContent= !t.n ? '—' : (t.free?T('Offerte','Free'):eur(t.ship));
+  $('d-tot').textContent=eur(t.tot);
+  $('d-go').classList.toggle('disabled', !t.n);
+  var up=$('d-upsell'); up.innerHTML='';
+  if(t.n===1){
+    var have=Object.keys(cart)[0], sid=['JS63VP','JSJB3S','JS1AQ5','JS4EXR'].filter(function(x){return x!==have;})[0], s=CAT[sid];
+    up.innerHTML='<div class="upsell"><div class="th">'+thumb(s)+'</div><div><b>'+T('Parure '+s.n, s.n+' set')+'</b><span><em>'+eur(s.price*(1-SECOND))+'</em> '+T('en 2e parure','as your 2nd set')+' <s style="color:var(--muted)">'+eur(s.price)+'</s></span></div><button class="btn ghost" type="button" style="padding:0 12px;font-size:11px" aria-label="'+T('Ajouter Parure '+s.n,'Add '+s.n+' set')+'">'+T('Ajouter','Add')+'</button></div>';
+    up.querySelector('button').addEventListener('click',function(){ add(sid,1,true); });
+  }
+}
+function renderAll(){ renderDrawer(); listeners.forEach(function(f){ f(); }); }
+
+/* Tiroir */
+var lastFocus=null;
+function openCart(){ var c=$('cart'); if(!c) return; lastFocus=document.activeElement; c.classList.add('on'); c.setAttribute('aria-hidden','false'); $('scrim').classList.add('on'); $('open-cart').setAttribute('aria-expanded','true'); setTimeout(function(){ $('close-cart').focus(); },50); hideToast(); }
+function closeCart(){ var c=$('cart'); if(!c) return; c.classList.remove('on'); c.setAttribute('aria-hidden','true'); $('scrim').classList.remove('on'); $('open-cart').setAttribute('aria-expanded','false'); if(lastFocus) lastFocus.focus(); }
+/* Toast */
+var tt;
+function toast(msg){ var t=$('toast'); if(!t) return; $('toast-txt').textContent=msg; t.classList.add('on'); clearTimeout(tt); tt=setTimeout(hideToast,4200); }
+function hideToast(){ var t=$('toast'); if(t) t.classList.remove('on'); }
+/* Accordéons */
+function initAcc(root){
+  (root||document).querySelectorAll('.acc-btn').forEach(function(b){
+    var p=$(b.getAttribute('aria-controls'));
+    if(b.getAttribute('aria-expanded')==='true') p.classList.add('open'); else p.querySelector('div').setAttribute('inert','');
+    b.addEventListener('click',function(){
+      var open=b.getAttribute('aria-expanded')!=='true';
+      b.setAttribute('aria-expanded',open); p.classList.toggle('open',open);
+      if(open) p.querySelector('div').removeAttribute('inert'); else p.querySelector('div').setAttribute('inert','');
+    });
+  });
+}
+/* Estimation : France 4–9 jours ouvrés de la commande à la livraison (90 % des colis, FAQ Branvas). Pas d'express. */
+function addBiz(d,n){ d=new Date(d); while(n>0){ d.setDate(d.getDate()+1); var w=d.getDay(); if(w!==0&&w!==6) n--; } return d; }
+function fdate(d){ return d.toLocaleDateString(LANG==='en'?'en-GB':'fr-FR',{weekday:'short',day:'numeric',month:'short'}); }
+function deliveryWindow(){ var now=new Date(); return [addBiz(now,4), addBiz(now,9)]; }
+
+document.addEventListener('DOMContentLoaded',function(){
+  if($('open-cart')) $('open-cart').addEventListener('click',openCart);
+  if($('close-cart')) $('close-cart').addEventListener('click',closeCart);
+  if($('scrim')) $('scrim').addEventListener('click',closeCart);
+  if($('toast-open')) $('toast-open').addEventListener('click',openCart);
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape' && $('cart') && $('cart').classList.contains('on')) closeCart(); });
+  var mb=$('menu-btn'); if(mb) mb.addEventListener('click',function(){ var o=mb.getAttribute('aria-expanded')!=='true'; mb.setAttribute('aria-expanded',o); $('mnav').hidden=!o; });
+  document.querySelectorAll('.lang button').forEach(function(b){ b.addEventListener('click',function(){ setLang(b.dataset.lang); }); });
+  initAcc();
+  applyLang();
+  renderAll();
+});
+
+/* Carte produit : photo crème ; au survol, détourage sur velours (ou gros plan si pas encore détourée) */
+function card(id, o){
+  o = o || {}; var p = CAT[id], a = document.createElement('article'); a.className='pcard'; a.dataset.id=id;
+  var badges = '';
+  if(p.isNew) badges += '<span class="badge new">'+T('Nouveau','New')+'</span>';
+  if(p.is925) badges += '<span class="badge argent">'+T('Joaillerie 925','Fine 925')+'</span>';
+  var alt = p.cut ? '<div class="alt" aria-hidden="true"><img src="'+p.cut+'" alt="" loading="lazy" width="700" height="700"></div>'
+                  : '<div class="alt zoom" aria-hidden="true"><img src="'+p.img+'" alt="" loading="lazy" width="400" height="400"></div>';
+  var href = id==='JS1AQ5' ? 'fiche-produit.html' : '#';
+  var price = o.second ? '<span class="price"><s style="color:var(--muted);font-weight:400">'+eur(p.price)+'</s> <span style="color:var(--grenat)">'+eur(p.price*(1-SECOND))+'</span></span>' : '<span class="price">'+eur(p.price)+'</span>';
+  a.innerHTML = '<div class="visual"><img src="'+p.img+'" alt="'+T('Parure '+p.n+' : ','The '+p.n+' set: ')+PP(p).join(', ').toLowerCase()+'" loading="lazy" width="400" height="400">'+alt+
+    (badges?'<div class="badges">'+badges+'</div>':'')+
+    '<div class="quick"><button class="btn" type="button" aria-label="'+T('Ajouter Parure '+p.n+' à l\'écrin','Add the '+p.n+' set to your bag')+'">'+(o.second?T('Ajouter en 2e parure','Add as 2nd set'):T('Ajouter à l\'écrin','Add to bag'))+'</button></div></div>'+
+    '<h3><a href="'+href+'">'+T('Parure '+p.n, p.n+' set')+'</a></h3>'+
+    '<div class="meta"><span class="mat">'+PM(p)+'</span>'+price+'</div>';
+  a.querySelector('.quick button').addEventListener('click', function(){ add(id); });
+  return a;
+}
+
+/* ===== Fiche produit ===== */
+(function(){
+  var ID='JS1AQ5', P=CAT[ID], qty=1;
+  /* Galerie */
+  var track=$('gTrack'), slides=track.children, N=slides.length, cur=0;
+  var thumbs=$('gThumbs').children, dots=$('gDots');
+  for(var i=0;i<N;i++){ (function(i){ var b=document.createElement('button'); b.type='button'; b.setAttribute('aria-label','Photo '+(i+1)+' / '+N); b.addEventListener('click',function(){ go(i); }); dots.appendChild(b); thumbs[i].addEventListener('click',function(){ go(i); }); })(i); }
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function go(i){ i=Math.max(0,Math.min(N-1,i)); track.scrollTo({left:i*track.clientWidth, behavior: reduce?'auto':'smooth'}); }
+  function mark(){
+    cur=Math.round(track.scrollLeft/track.clientWidth);
+    $('gCount').textContent=(cur+1)+' / '+N;
+    [].forEach.call(thumbs,function(t,k){ t.setAttribute('aria-current',k===cur); });
+    [].forEach.call(dots.children,function(t,k){ t.setAttribute('aria-current',k===cur); });
+    $('gPrev').disabled=cur===0; $('gNext').disabled=cur===N-1;
+  }
+  var raf; track.addEventListener('scroll',function(){ cancelAnimationFrame(raf); raf=requestAnimationFrame(mark); });
+  $('gPrev').addEventListener('click',function(){ go(cur-1); });
+  $('gNext').addEventListener('click',function(){ go(cur+1); });
+  track.addEventListener('keydown',function(e){ if(e.key==='ArrowRight'){ e.preventDefault(); go(cur+1); } if(e.key==='ArrowLeft'){ e.preventDefault(); go(cur-1); } });
+  window.addEventListener('resize',function(){ track.scrollLeft=cur*track.clientWidth; });
+  mark();
+
+  /* Quantité + prix */
+  function prices(){ $('atcPrice').textContent=eur(P.price*qty); $('price').textContent=eur(P.price); $('satcPrice').textContent=eur(P.price); $('qVal').textContent=qty; $('qMinus').disabled=qty<=1; }
+  $('qMinus').addEventListener('click',function(){ if(qty>1){ qty--; prices(); } });
+  $('qPlus').addEventListener('click',function(){ if(qty<10){ qty++; prices(); } });
+  function addMain(){ add(ID, qty); }
+  $('atc').addEventListener('click',addMain);
+  $('satcBtn').addEventListener('click',addMain);
+  document.querySelectorAll('.xpay').forEach(function(b){ b.addEventListener('click',function(){ toast(T('Maquette : la feuille de paiement express s\'ouvrirait ici.','Mock-up: the express payment sheet would open here.')); }); });
+
+  /* Offrir : message cadeau */
+  document.querySelectorAll('input[name=for]').forEach(function(r){ r.addEventListener('change',function(){ $('giftbox').hidden = r.value!=='gift' || !r.checked; if(!$('giftbox').hidden) $('gmsg').focus(); }); });
+  $('gmsg').addEventListener('input',function(){ $('gcnt').textContent=this.value.length; });
+
+  /* Estimation de livraison */
+  function eta(){ var w=deliveryWindow(); $('eta').innerHTML=T('Commandée aujourd\'hui, livrée entre le <b>'+fdate(w[0])+'</b> et le <b>'+fdate(w[1])+'</b> <span style="color:var(--muted)">(France, estimation)</span>','Order today, delivered between <b>'+fdate(w[0])+'</b> and <b>'+fdate(w[1])+'</b> <span style="color:var(--muted)">(France, estimate)</span>'); }
+
+  /* Cross-sell */
+  function xsell(){ var x=$('xsell'); x.innerHTML=''; ['JSQS6W','JS63VP','JSJB3S','JS4EXR'].forEach(function(id){ x.appendChild(card(id,{second:true})); }); }
+
+  /* Barre livraison : panier + cette parure */
+  function ship(){ var c={}; for(var k in cart) c[k]=cart[k]; c[ID]=(c[ID]||0)+(cart[ID]?0:1); shipbar($('pShip'), calc(c).after); }
+
+  /* Barre collante mobile */
+  var satc=$('satc');
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(function(es){ var on=!es[0].isIntersecting && es[0].boundingClientRect.top<0; satc.classList.toggle('on',on); satc.setAttribute('aria-hidden',!on); $('satcBtn').tabIndex=on?0:-1; document.body.classList.toggle('satc-on',on); }).observe($('atcRow'));
+  }
+  onCart(function(){ ship(); });
+  onLang(function(){ prices(); eta(); xsell(); ship(); });
+  prices(); eta(); xsell(); ship();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "https://charmedparis.com/en/jewelry-set/solar-sphere-dome-necklace-studs/#product",
+  "name": "Solar Sphere — dome necklace and studs",
+  "url": "https://charmedparis.com/en/jewelry-set/solar-sphere-dome-necklace-studs/",
+  "image": [
+    "https://charmedparis.com/wp-content/uploads/parure-solar-sphere-charmed-paris-1.webp",
+    "https://charmedparis.com/wp-content/uploads/parure-solar-sphere-charmed-paris-portee.webp"
+  ],
+  "description": "A dome pendant and matching stud earrings, gold-plated and scattered with cubic zirconia. Delivered in its gift box. Keep dry.",
+  "sku": "JS1AQ5",
+  "brand": { "@type": "Brand", "name": "CHARMED PARIS" },
+  "material": "Gold-plated brass, cubic zirconia",
+  "color": "Gold",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://charmedparis.com/en/jewelry-set/solar-sphere-dome-necklace-studs/",
+    "priceCurrency": "USD",
+    "price": "79.00",
+    "priceValidUntil": "2027-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": { "@id": "https://charmedparis.com/#organization" },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": { "@type": "MonetaryAmount", "value": "0.00", "currency": "USD" },
+      "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" },
+        "transitTime": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 6, "unitCode": "DAY" }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+      "merchantReturnLink": "https://charmedparis.com/en/shipping-and-returns/"
+    }
+  }
+}

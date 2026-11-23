@@ -1,0 +1,77 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "https://charmedparis.com/parure/solar-sphere-dome-dore-puces/#product",
+  "name": "Parure Solar Sphere — dôme doré et puces zircons",
+  "url": "https://charmedparis.com/parure/solar-sphere-dome-dore-puces/",
+  "image": [
+    "https://charmedparis.com/wp-content/uploads/parure-solar-sphere-charmed-paris-1.webp",
+    "https://charmedparis.com/wp-content/uploads/parure-solar-sphere-charmed-paris-portee.webp",
+    "https://charmedparis.com/wp-content/uploads/parure-solar-sphere-charmed-paris-ecrin.webp"
+  ],
+  "description": "Un pendentif dôme et des puces d'oreilles assorties, dorés à l'or fin et parsemés de zircons. Livrée dans son écrin. À garder au sec.",
+  "sku": "JS1AQ5",
+  "brand": { "@type": "Brand", "name": "CHARMED PARIS" },
+  "category": "Bijoux > Parures > Éclat",
+  "material": "Laiton doré à l'or fin, oxydes de zirconium",
+  "color": "Doré",
+  "audience": { "@type": "PeopleAudience", "suggestedGender": "female" },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://charmedparis.com/parure/solar-sphere-dome-dore-puces/",
+    "priceCurrency": "EUR",
+    "price": "69.00",
+    "priceValidUntil": "2027-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": { "@id": "https://charmedparis.com/#organization" },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "EUR"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "FR"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 3,
+          "maxValue": 7,
+          "unitCode": "DAY"
+        },
+        "businessDays": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+          ]
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "FR",
+      "returnPolicyCountry": "FR",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+      "refundType": "https://schema.org/FullRefund",
+      "merchantReturnLink": "https://charmedparis.com/livraison-et-retours/"
+    }
+  }
+}
