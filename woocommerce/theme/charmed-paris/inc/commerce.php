@@ -510,3 +510,59 @@ add_action(
 		}
 	}
 );
+
+/* =========================================================================
+ * 6. Légal : bouton de commande, pas de prix barré
+ * ========================================================================= */
+
+/**
+ * Libellé du bouton final (L221-14) : « Commander avec obligation de paiement ».
+ */
+function charmed_order_button_label(): string {
+	$label = trim( (string) get_option( 'charmed_order_button_label', '' ) );
+	return '' !== $label ? $label : __( 'Commander avec obligation de paiement', 'charmed-paris' );
+}
+
+// Paiement classique.
+add_filter( 'woocommerce_order_button_text', static fn() => charmed_order_button_label(), 99 );
+
+// Bloc Paiement : filtre officiel d'extensibilité « placeOrderButtonLabel » (wc.blocksCheckout).
+add_action(
+	'wp_enqueue_scripts',
+	static function () {
+		if ( ! function_exists( 'is_checkout' ) || ! is_checkout() || ! wp_script_is( 'wc-blocks-checkout', 'registered' ) ) {
+			return;
+		}
+		wp_register_script( 'charmed-checkout-label', false, array( 'wc-blocks-checkout' ), CHARMED_VERSION, true );
+		wp_enqueue_script( 'charmed-checkout-label' );
+		wp_add_inline_script(
+			'charmed-checkout-label',
+			sprintf(
+				'(function(l){var c=window.wc&&window.wc.blocksCheckout;if(c&&c.registerCheckoutFilters){c.registerCheckoutFilters("charmed-paris",{placeOrderButtonLabel:function(){return l;}});}})(%s);',
+				wp_json_encode( charmed_order_button_label() )
+			)
+		);
+	}
+);
+
+/**
+ * Pas de prix barré par défaut : seul le prix réellement payé est affiché, sans badge « Promo ».
+ * (Un prix de référence doit être le plus bas prix des 30 derniers jours, L112-1-1 ; ne jamais
+ * utiliser le prix conseillé du fournisseur comme prix barré.)
+ */
+add_filter(
+	'woocommerce_format_sale_price',
+	static function ( $html, $regular, $sale ) {
+		if ( charmed_opt_yes( 'show_strikethrough' ) ) {
+			return $html;
+		}
+		return '<ins>' . ( is_numeric( $sale ) ? wc_price( $sale ) : $sale ) . '</ins>';
+	},
+	99,
+	3
+);
+add_filter( 'woocommerce_sale_flash', static fn( $html ) => charmed_opt_yes( 'show_strikethrough' ) ? $html : '', 99 );
+add_filter(
+	'render_block_woocommerce/product-sale-badge',
+	static fn( $html ) => charmed_opt_yes( 'show_strikethrough' ) ? $html : ''
+);

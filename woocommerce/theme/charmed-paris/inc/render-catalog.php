@@ -280,9 +280,9 @@ function charmed_render_univers( array $a ): string {
 	);
 	$taglines = array(
 		'sculpture'         => __( 'métal doré', 'charmed-paris' ),
-		'eclat'             => __( 'doré · zircons', 'charmed-paris' ),
+		'eclat'             => __( 'doré · oxydes de zirconium', 'charmed-paris' ),
 		'couleur-precieuse' => __( 'pierres de couleur', 'charmed-paris' ),
-		'joaillerie-925'    => __( 'argent 925 · moissanite', 'charmed-paris' ),
+		'joaillerie-925'    => __( 'argent 925 · moissanite synthétique', 'charmed-paris' ),
 		'mixte'             => __( 'sur cordon', 'charmed-paris' ),
 	);
 	$heading = ! empty( $a['heading'] ) ? $a['heading'] : __( 'Choisis ton éclat', 'charmed-paris' );

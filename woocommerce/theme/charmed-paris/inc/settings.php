@@ -35,6 +35,9 @@ function charmed_defaults(): array {
 		'xmas_packaging_start'    => '2026-11-20',
 		'xmas_packaging_end'      => '2026-12-24',
 		'xmas_deadline'           => '2026-12-04', // Europe et Canada.
+		// Légal.
+		'order_button_label'      => '',      // Vide = « Commander avec obligation de paiement » traduit (L221-14).
+		'show_strikethrough'      => 'no',    // Prix barrés interdits au lancement (L112-1-1).
 	);
 }
 
@@ -225,6 +228,21 @@ add_filter(
 				'type'    => 'checkbox',
 				'default' => $d['hide_stock_qty'],
 				'desc'    => __( 'Le stock est synchronisé par Branvas avec une valeur fictive : ne pas modifier les quantités à la main.', 'charmed-paris' ),
+			),
+			array(
+				'title'       => __( 'Libellé du bouton de commande', 'charmed-paris' ),
+				'id'          => 'charmed_order_button_label',
+				'type'        => 'text',
+				'default'     => '',
+				'placeholder' => __( 'Commander avec obligation de paiement', 'charmed-paris' ),
+				'desc_tip'    => __( 'Article L221-14 du Code de la consommation. Vide = libellé traduit automatiquement (FR/EN).', 'charmed-paris' ),
+			),
+			array(
+				'title'   => __( 'Afficher les prix barrés', 'charmed-paris' ),
+				'id'      => 'charmed_show_strikethrough',
+				'type'    => 'checkbox',
+				'default' => 'no',
+				'desc'    => __( 'Décoché (recommandé au lancement) : seul le prix payé est affiché, pas de prix barré ni de badge « Promo ». Un prix barré doit être le plus bas prix pratiqué sur les 30 derniers jours (L112-1-1).', 'charmed-paris' ),
 			),
 			array(
 				'type' => 'sectionend',
