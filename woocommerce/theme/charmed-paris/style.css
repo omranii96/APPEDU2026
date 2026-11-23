@@ -1,0 +1,25 @@
+/*
+Theme Name: CHARMED PARIS
+Theme URI: https://charmedparis.fr/
+Author: CHARMED PARIS
+Description: Thème bloc (FSE) de la boutique CHARMED PARIS : parures prêtes à offrir. Intro « écrin » au scroll (Three.js chargé à la demande, accueil uniquement), carrousel de coffrets et « file des parures » alimentés par les vrais produits WooCommerce, remise « 2e parure » et seuil de livraison offerte côté serveur. Bilingue FR/EN (text domain charmed-paris).
+Requires at least: 6.5
+Tested up to: 6.8
+Requires PHP: 8.1
+Version: 0.2.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: charmed-paris
+Domain Path: /languages
+Tags: e-commerce, block-patterns, full-site-editing, translation-ready, custom-colors, wide-blocks
+WC requires at least: 9.0
+WC tested up to: 10.3
+*/
+
+/*
+ * Ce fichier ne sert qu'à l'en-tête du thème.
+ * Les styles sont dans assets/css/ :
+ *  - base.css       : global (en-tête, logo, boutons, pied de page, WooCommerce)
+ *  - sections.css   : sections de l'accueil (chargé uniquement si un bloc charmed/* est rendu)
+ *  - intro.css      : intro « écrin » (accueil uniquement)
+ */

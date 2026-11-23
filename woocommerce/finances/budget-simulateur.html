@@ -1,0 +1,226 @@
+<title>Budget CHARMED PARIS</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; a sticky "verdict" strip, then costs, unit economics, simulator, 12-month projection, sources */
+:root{
+  --bg:#F4F2F5; --surface:#FFFFFF; --ink:#1C1519; --muted:#6B6169; --line:#E2DBE0;
+  --accent:#7A1F3A; --gold:#A9813F; --pos:#2F6B4A; --pos-bg:#E4F0E8; --neg:#9A2B2B; --neg-bg:#F6E3E3; --warn:#8A5A12; --warn-bg:#F6EBD6;
+  --display:"Bodoni Moda",Didot,Georgia,serif; --body:"Jost","Avenir Next","Helvetica Neue",Arial,sans-serif; --mono:"DM Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141013;--surface:#1D171B;--ink:#EEE6EA;--muted:#A99CA4;--line:#3A3036;--accent:#D9809A;--gold:#D6B27A;--pos:#8FD1A9;--pos-bg:#1F3328;--neg:#EF9A9A;--neg-bg:#3B1F22;--warn:#E8C07A;--warn-bg:#3A2D17;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141013;--surface:#1D171B;--ink:#EEE6EA;--muted:#A99CA4;--line:#3A3036;--accent:#D9809A;--gold:#D6B27A;--pos:#8FD1A9;--pos-bg:#1F3328;--neg:#EF9A9A;--neg-bg:#3B1F22;--warn:#E8C07A;--warn-bg:#3A2D17;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:1000px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px;display:flex;flex-direction:column;gap:44px}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance;line-height:1.15}
+h1{font-size:clamp(32px,5vw,48px)} h2{font-size:clamp(24px,3.4vw,32px)} h3{font-size:19px}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.muted{color:var(--muted)} .small{font-size:14px}
+section{display:flex;flex-direction:column;gap:16px}
+.lead{max-width:680px;font-size:17px}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.tile{background:var(--surface);padding:18px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.tile b{font-family:var(--display);font-weight:400;font-size:30px;line-height:1.05;font-variant-numeric:tabular-nums}
+.tile span{font-size:13.5px;color:var(--muted)}
+.callout{border-left:3px solid var(--warn);background:var(--warn-bg);padding:14px 16px;font-size:15px}
+.callout b{font-weight:600}
+.tbl{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:640px}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-family:var(--mono);font-weight:400;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.total td{font-weight:600;border-top:2px solid var(--ink)}
+tr:last-child td{border-bottom:0}
+.src{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.grid2>*{min-width:0}
+.panel{background:var(--surface);border:1px solid var(--line);padding:18px;display:flex;flex-direction:column;gap:12px}
+.field{display:grid;grid-template-columns:1fr 110px;gap:10px;align-items:center}
+.field label{font-size:14px}
+.field input[type=number]{width:100%;font:500 15px var(--mono);padding:7px 8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);text-align:right}
+.field input:focus-visible,.seg button:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg button{font:500 13px var(--body);padding:8px 14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.kv{display:flex;justify-content:space-between;gap:12px;padding-block:6px;border-bottom:1px dashed var(--line);font-size:15px}
+.kv:last-child{border-bottom:0}
+.kv span:last-child{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.kv.big{font-size:17px;font-weight:600}
+.pill{display:inline-block;font-family:var(--mono);font-size:12px;padding:3px 9px;border-radius:999px}
+.pill.pos{background:var(--pos-bg);color:var(--pos)} .pill.neg{background:var(--neg-bg);color:var(--neg)}
+.res{font-family:var(--display);font-size:34px;line-height:1}
+.res.pos{color:var(--pos)} .res.neg{color:var(--neg)}
+ul.clean{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+.sources li{font-size:13.5px}
+.sources a{color:var(--accent)}
+@media (max-width:760px){.tiles{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}}
+</style>
+
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:14px">
+    <div class="eyebrow">CHARMED PARIS · budget et rentabilité · 22 novembre 2026</div>
+    <h1>Ce que coûte le lancement, et ce qu'il peut rapporter</h1>
+    <p class="lead">Les chiffres viennent de ton compte Branvas (Molten Art), de la FAQ officielle Branvas et de références de marché publiques citées en bas. Tout ce qui est une hypothèse est modifiable dans le simulateur.</p>
+    <div class="tiles">
+      <div class="tile"><b id="tLaunch">—</b><span>pour lancer (dont 600 € de test pub)</span></div>
+      <div class="tile"><b id="tFixed">—</b><span>de frais fixes par mois</span></div>
+      <div class="tile"><b id="tContrib">—</b><span>de marge par commande, avant publicité</span></div>
+      <div class="tile"><b id="tCpa">—</b><span>coût publicitaire max par commande pour ne pas perdre d'argent</span></div>
+    </div>
+    <div class="callout"><b>Le point qui décide de tout.</b> Avec les coûts publicitaires moyens en France et le taux de conversion moyen des boutiques de bijoux (environ 1 %), une commande venue de la pub coûte souvent <b>40 à 100 €</b>. La marge par commande est d'environ <b id="tContrib2">—</b>. La pub seule ne sera donc rentable que si les créatives sont meilleures que la moyenne. Le reste doit venir de l'organique (Instagram, TikTok, Pinterest, SEO), des micro-influenceuses et des clientes qui reviennent.</div>
+  </header>
+
+  <section>
+    <div class="eyebrow">1 · Le budget</div>
+    <h2>Ce que tu paies</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>Poste</th><th class="n">Montant</th><th>Fréquence</th><th>Source / statut</th></tr></thead>
+      <tbody>
+        <tr><td><b>Lancement</b></td><td></td><td></td><td></td></tr>
+        <tr><td>5 parures en échantillon (contrôle qualité, photos réelles)</td><td class="n">≈ 72 €</td><td>une fois</td><td class="src">5 × ~20 $ + 8,99 $ − 30 $ (code NEW30 dès 100 $) · FAQ Branvas</td></tr>
+        <tr><td>Dépôt de marque INPI, classes 14 (bijoux) + 35 (vente)</td><td class="n">230 €</td><td>une fois (10 ans)</td><td class="src">190 € + 40 € par classe · INPI</td></tr>
+        <tr><td>Parures offertes à 10 micro-influenceuses</td><td class="n">≈ 264 €</td><td>une fois</td><td class="src">10 × (20 $ + 8,99 $) · hypothèse de coût moyen</td></tr>
+        <tr><td>Noms de domaine .com + .fr</td><td class="n">≈ 25 €</td><td>par an</td><td class="src">estimation, prix du registrar à vérifier</td></tr>
+        <tr><td>Test publicitaire du premier mois (20 €/jour)</td><td class="n">600 €</td><td>premier mois</td><td class="src">ajustable dans le simulateur</td></tr>
+        <tr><td>Thème, logo, contenus, maquettes, SEO</td><td class="n">0 €</td><td></td><td class="src">produits dans ce projet</td></tr>
+        <tr class="total"><td>Total lancement</td><td class="n" id="cLaunch">—</td><td></td><td></td></tr>
+        <tr><td><b>Chaque mois</b></td><td></td><td></td><td></td></tr>
+        <tr><td>Branvas Growth (75 produits, packaging à ton logo)</td><td class="n">29 $ ≈ 26 €</td><td>par mois</td><td class="src">tarifs Branvas · Scale 79 $ pour le papier nid d'abeille et −3 %</td></tr>
+        <tr><td>Hébergement WordPress (o2switch Grow)</td><td class="n">7 € HT</td><td>par mois</td><td class="src">Cloud 16 € HT si besoin de plus de puissance</td></tr>
+        <tr><td>WPML Multilingual CMS (site FR + EN)</td><td class="n">99 €/an ≈ 8 €</td><td>par mois</td><td class="src">tarif WPML à confirmer sur wpml.org</td></tr>
+        <tr><td>Médiateur de la consommation (obligatoire)</td><td class="n">≈ 10 €</td><td>par mois</td><td class="src">50 à 500 €/an selon l'organisme</td></tr>
+        <tr><td>Domaines (lissé)</td><td class="n">≈ 2 €</td><td>par mois</td><td></td></tr>
+        <tr><td>Avis vérifiés Judge.me, e-mails Brevo, cookies Complianz</td><td class="n">0 € au départ</td><td></td><td class="src">versions gratuites ; Judge.me Awesome 15 $/mois plus tard</td></tr>
+        <tr class="total"><td>Total fixe par mois</td><td class="n" id="cFixed">—</td><td></td><td></td></tr>
+        <tr><td><b>À chaque commande</b> (calculé plus bas)</td><td></td><td></td><td></td></tr>
+        <tr><td>Parure Branvas + livraison 8,99 $ + frais Branvas 2,9 % + 0,30 $ + Stripe 1,5 % + 0,25 € + provision retours</td><td class="n" id="cVar">—</td><td>par commande moyenne</td><td class="src">FAQ Branvas, tarifs Stripe France</td></tr>
+        <tr><td><b>Optionnel</b></td><td></td><td></td><td></td></tr>
+        <tr><td>Tests nickel / plomb par produit (seulement pour écrire « sans nickel »)</td><td class="n">300–800 $</td><td>par produit</td><td class="src">FAQ Branvas · déconseillé au départ</td></tr>
+        <tr><td>Expert-comptable</td><td class="n">à devis</td><td></td><td class="src">utile dès que tu dépasses le régime micro</td></tr>
+        <tr><td>Représentant UE (GPSR)</td><td class="n">0 €</td><td></td><td class="src">inutile si tu es établi en France : tu es l'opérateur responsable</td></tr>
+      </tbody>
+    </table></div>
+    <p class="small muted">Taux de change utilisé : 1 € = 1,0968 $ (Banque de France, 18 novembre 2026).</p>
+  </section>
+
+  <section>
+    <div class="eyebrow">2 · Le simulateur</div>
+    <h2>Ventes, marge et bénéfice par mois</h2>
+    <div class="seg" role="group" aria-label="Scénario">
+      <button type="button" data-s="prudent" aria-pressed="false">Prudent</button>
+      <button type="button" data-s="central" aria-pressed="true">Central</button>
+      <button type="button" data-s="ambitieux" aria-pressed="false">Ambitieux</button>
+    </div>
+    <div class="grid2">
+      <form class="panel" id="f" onsubmit="return false">
+        <h3>Hypothèses</h3>
+        <div class="field"><label for="price">Prix moyen d'une parure (€ TTC)</label><input id="price" type="number" step="1" value="59"></div>
+        <div class="field"><label for="cost">Coût Branvas moyen d'une parure ($)</label><input id="cost" type="number" step="0.5" value="20"></div>
+        <div class="field"><label for="dbl">Commandes avec 2 parures (%)</label><input id="dbl" type="number" step="1" value="25"></div>
+        <div class="field"><label for="ret">Provision retours et rétractations (% du CA)</label><input id="ret" type="number" step="0.5" value="4"></div>
+        <div class="field"><label for="ads">Budget publicitaire (€ / mois)</label><input id="ads" type="number" step="50" value="1500"></div>
+        <div class="field"><label for="cpc">Coût par clic (€)</label><input id="cpc" type="number" step="0.05" value="0.70"></div>
+        <div class="field"><label for="crAds">Conversion du trafic pub (%)</label><input id="crAds" type="number" step="0.1" value="1.2"></div>
+        <div class="field"><label for="org">Visites organiques (réseaux, SEO, influence) / mois</label><input id="org" type="number" step="100" value="3000"></div>
+        <div class="field"><label for="crOrg">Conversion du trafic organique (%)</label><input id="crOrg" type="number" step="0.1" value="1.5"></div>
+        <div class="field"><label for="rep">Commandes de clientes qui reviennent / mois</label><input id="rep" type="number" step="1" value="10"></div>
+        <div class="field"><label for="tax">Cotisations micro-entreprise (% du CA)</label><input id="tax" type="number" step="0.1" value="12.3"></div>
+        <div class="field"><label for="vat">TVA collectée</label><select id="vat" style="font:500 14px var(--body);padding:7px;border:1px solid var(--line);background:var(--bg);color:var(--ink)"><option value="0">Non (franchise en base)</option><option value="1">Oui, 20 %</option></select></div>
+        <p class="small muted">Micro-entreprise de vente de marchandises : cotisations d'environ 12,3 % du chiffre d'affaires, et pas de TVA sous le seuil de la franchise. Seuils et taux 2026 à confirmer avec un comptable ; au-delà de 10 000 € de ventes vers d'autres pays de l'UE, la TVA du pays de la cliente s'applique (guichet OSS).</p>
+      </form>
+      <div class="panel" aria-live="polite">
+        <h3>Par commande moyenne</h3>
+        <div class="kv"><span>Panier moyen TTC</span><span id="oAov"></span></div>
+        <div class="kv"><span>Chiffre d'affaires hors TVA</span><span id="oHt"></span></div>
+        <div class="kv"><span>Parures + livraison + frais Branvas</span><span id="oCogs"></span></div>
+        <div class="kv"><span>Stripe + provision retours</span><span id="oFees"></span></div>
+        <div class="kv big"><span>Marge avant publicité</span><span id="oContrib"></span></div>
+        <div class="kv"><span>Coût pub max par commande</span><span id="oCpaMax"></span></div>
+        <div class="kv"><span>ROAS minimum (CA ÷ pub)</span><span id="oRoas"></span></div>
+        <h3 style="margin-top:10px">Par mois</h3>
+        <div class="kv"><span>Commandes (pub / organique / fidèles)</span><span id="mOrders"></span></div>
+        <div class="kv"><span>Chiffre d'affaires TTC</span><span id="mCa"></span></div>
+        <div class="kv"><span>Coût réel d'une commande venue de la pub</span><span id="mCpa"></span></div>
+        <div class="kv"><span>Marge − pub − frais fixes − cotisations</span><span id="mRes"></span></div>
+        <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap"><span class="res" id="mResBig"></span><span id="mPill" class="pill"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">3 · Première année</div>
+    <h2>Projection sur 12 mois</h2>
+    <p class="small muted">Montée en charge progressive : l'organique atteint l'hypothèse au 6<sup>e</sup> mois, les clientes fidèles au 12<sup>e</sup>. Le budget pub est constant. Le mois 1 inclut les frais de lancement hors pub. Décembre n'est pas gonflé artificiellement.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Mois</th><th class="n">Commandes</th><th class="n">CA TTC</th><th class="n">Marge</th><th class="n">Pub</th><th class="n">Résultat du mois</th><th class="n">Cumul</th></tr></thead>
+      <tbody id="yr"></tbody>
+    </table></div>
+    <p id="yrNote" class="small"></p>
+  </section>
+
+  <section>
+    <div class="eyebrow">4 · Ce qui fait gagner</div>
+    <h2>Les leviers, par ordre d'impact</h2>
+    <ul class="clean">
+      <li><b>Le taux de conversion.</b> Passer de 1 % à 1,5 % baisse de 33 % le coût d'une commande. Fiche produit, photos réelles, avis vérifiés, délais clairs.</li>
+      <li><b>Le panier moyen.</b> Chaque point de commandes à 2 parures ajoute de la marge, car la livraison Branvas (8,99 $) est payée une seule fois par commande.</li>
+      <li><b>Le trafic qui ne coûte pas de pub.</b> Contenus « l'écrin qui s'ouvre », micro-influenceuses, Pinterest, SEO des pages cadeaux.</li>
+      <li><b>Les clientes qui reviennent.</b> E-mails après achat et fêtes : une deuxième commande n'a aucun coût publicitaire.</li>
+      <li><b>Le statut fiscal.</b> En franchise de TVA, la marge par commande passe d'environ 24 € à 35 €. À valider avec un comptable.</li>
+    </ul>
+    <div class="callout"><b>Ce qui peut faire perdre.</b> Une pub lancée sans créatives testées ; des délais annoncés trop courts (la France, c'est 4 à 9 jours ouvrés) qui génèrent des annulations ; les rétractations de 14 jours, qui sont à ta charge parce que Branvas ne reprend que les articles abîmés ou erronés.</div>
+  </section>
+
+  <section class="sources">
+    <div class="eyebrow">Sources</div>
+    <ul class="clean">
+      <li>Branvas, FAQ officielle (livraison 8,99 $, délais, frais 2,9 % + 0,30 $, retours, échantillons NEW30) : <a href="https://faq.branvas.com/en/" target="_blank" rel="noopener">faq.branvas.com</a> ; coût et prix de Molten Art relevés dans ton compte.</li>
+      <li>Coûts publicitaires Meta en France (CPM ≈ 7–11 $, CPC e-commerce sous 1 €) : <a href="https://adligator.com/blog/meta-ads-cpm-by-country-benchmarks" target="_blank" rel="noopener">Adligator</a>, <a href="https://www.adamigo.ai/blog/meta-ads-cpm-cpc-benchmarks-by-country-2026" target="_blank" rel="noopener">Adamigo</a>, <a href="https://benchmark-agences.fr/benchmark-agences-meta-ads-france/" target="_blank" rel="noopener">Benchmark agences</a>, <a href="https://adkit.so/benchmarks" target="_blank" rel="noopener">AdKit</a>. Sources non officielles, à valider sur ton propre compte.</li>
+      <li>Conversion des boutiques de bijoux (≈ 0,7–1,5 %) : <a href="https://www.chakril.com/benchmarks/conversion-rate/jewelry-stores/" target="_blank" rel="noopener">Chakril</a>, <a href="https://conversion.studio/blog/ecommerce-benchmarks" target="_blank" rel="noopener">Conversion Studio</a>, <a href="https://wisepim.com/ecommerce-industry-insights/jewelry" target="_blank" rel="noopener">WisePIM</a>.</li>
+      <li>INPI, tarifs : <a href="https://www.inpi.fr/tarifs" target="_blank" rel="noopener">inpi.fr/tarifs</a>. Stripe France : <a href="https://www.stripe.com/fr/pricing/" target="_blank" rel="noopener">stripe.com/fr/pricing</a>. WPML : <a href="https://wpml.org/shop" target="_blank" rel="noopener">wpml.org</a>. o2switch : <a href="https://wpmarmite.com/wordpress/hebergement/o2switch/tarifs/" target="_blank" rel="noopener">WPMarmite</a>. Judge.me : <a href="https://judge.me/pricing" target="_blank" rel="noopener">judge.me</a>. Médiation : <a href="https://entreprendre.service-public.gouv.fr/vosdroits/F33338?profil=tout" target="_blank" rel="noopener">service-public</a>. Taux de change : <a href="https://www.banque-france.fr/fr/statistiques/taux-et-cours/taux-de-change-parites-quotidiennes-2026-11-18" target="_blank" rel="noopener">Banque de France</a>.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+(function(){
+  var FX=1.0968, SHIP=8.99;
+  var LAUNCH_ONE=72+230+264+25, FIXED=26+7+8+10+2;
+  var S={prudent:{dbl:15,ads:600,cpc:.85,crAds:.8,org:800,crOrg:1.0,rep:2},central:{dbl:25,ads:1500,cpc:.70,crAds:1.2,org:3000,crOrg:1.5,rep:10},ambitieux:{dbl:30,ads:4000,cpc:.60,crAds:1.6,org:8000,crOrg:1.8,rep:35}};
+  var $=function(id){return document.getElementById(id);};
+  var eur=function(v,d){return (v<0?'−':'')+Math.abs(v).toLocaleString('fr-FR',{minimumFractionDigits:d||0,maximumFractionDigits:d||0})+' €';};
+  function num(id){var v=parseFloat($(id).value);return isFinite(v)?v:0;}
+  function unit(p){
+    function one(n){var ttc=n===1?p.price:p.price*(2-p.disc);var ht=p.vat?ttc/1.2:ttc;var base=n*p.cost+SHIP;var cogs=base/FX;var bfee=(base*0.029+0.30)/FX;var stripe=ttc*0.015+0.25;var ret=ht*p.ret;return {ttc:ttc,ht:ht,cogs:cogs+bfee,fees:stripe+ret,c:ht-cogs-bfee-stripe-ret};}
+    var a=one(1),b=one(2),d=p.dbl;
+    function mix(k){return (1-d)*a[k]+d*b[k];}
+    return {aov:mix('ttc'),ht:mix('ht'),cogs:mix('cogs'),fees:mix('fees'),c:mix('c')};
+  }
+  function params(){return {price:num('price'),cost:num('cost'),dbl:num('dbl')/100,disc:.15,ret:num('ret')/100,ads:num('ads'),cpc:Math.max(.01,num('cpc')),crAds:num('crAds')/100,org:num('org'),crOrg:num('crOrg')/100,rep:num('rep'),tax:num('tax')/100,vat:$('vat').value==='1'};}
+  function month(p,u,orgF,repF){var nPaid=p.ads/p.cpc*p.crAds,nOrg=p.org*orgF*p.crOrg,nRep=p.rep*repF,n=nPaid+nOrg+nRep;var ca=n*u.aov,marge=n*u.c,tax=ca*p.tax;return {nPaid:nPaid,nOrg:nOrg,nRep:nRep,n:n,ca:ca,marge:marge,res:marge-p.ads-FIXED-tax};}
+  function render(){
+    var p=params(),u=unit(p),m=month(p,u,1,1);
+    $('tLaunch').textContent=eur(LAUNCH_ONE+600);$('tFixed').textContent='≈ '+eur(FIXED);
+    $('tContrib').textContent=eur(u.c);$('tContrib2').textContent=eur(u.c);$('tCpa').textContent=eur(u.c);
+    $('cLaunch').textContent='≈ '+eur(LAUNCH_ONE+600);$('cFixed').textContent='≈ '+eur(FIXED);$('cVar').textContent='≈ '+eur(u.cogs+u.fees,2);
+    $('oAov').textContent=eur(u.aov,2);$('oHt').textContent=eur(u.ht,2);$('oCogs').textContent='− '+eur(u.cogs,2);$('oFees').textContent='− '+eur(u.fees,2);
+    $('oContrib').textContent=eur(u.c,2);$('oCpaMax').textContent=eur(u.c,2);$('oRoas').textContent=(u.aov/u.c).toFixed(2).replace('.',',');
+    $('mOrders').textContent=Math.round(m.n)+' ('+Math.round(m.nPaid)+' / '+Math.round(m.nOrg)+' / '+Math.round(m.nRep)+')';
+    $('mCa').textContent=eur(m.ca);var cpa=p.crAds>0?p.cpc/p.crAds:0;$('mCpa').textContent=eur(cpa);
+    $('mRes').textContent=eur(m.res);$('mResBig').textContent=(m.res>=0?'+ ':'')+eur(m.res)+' / mois';
+    $('mResBig').className='res '+(m.res>=0?'pos':'neg');
+    var pill=$('mPill');pill.className='pill '+(cpa<=u.c?'pos':'neg');pill.textContent=cpa<=u.c?'la pub est rentable seule':'la pub seule perd '+eur(cpa-u.c)+' par commande';
+    var rows='',cum=0,be=0;
+    for(var k=1;k<=12;k++){var r=month(p,u,Math.min(1,k/6),k/12);if(k===1)r.res-=LAUNCH_ONE;cum+=r.res;if(!be&&cum>=0)be=k;
+      rows+='<tr><td>Mois '+k+'</td><td class="n">'+Math.round(r.n)+'</td><td class="n">'+eur(r.ca)+'</td><td class="n">'+eur(r.marge)+'</td><td class="n">'+eur(p.ads)+'</td><td class="n" style="color:var('+(r.res>=0?'--pos':'--neg')+')">'+eur(r.res)+'</td><td class="n">'+eur(cum)+'</td></tr>';}
+    $('yr').innerHTML=rows;
+    $('yrNote').innerHTML=be?'Retour à l\'équilibre cumulé au <b>mois '+be+'</b>, avec un résultat de <b>'+eur(cum)+'</b> sur l\'année.':'Pas de retour à l\'équilibre sur 12 mois avec ces hypothèses : résultat cumulé <b>'+eur(cum)+'</b>. Réduis la pub ou améliore la conversion et le trafic organique.';
+  }
+  document.querySelectorAll('[data-s]').forEach(function(b){b.addEventListener('click',function(){var s=S[b.dataset.s];Object.keys(s).forEach(function(k){$(k).value=s[k];});document.querySelectorAll('[data-s]').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});render();});});
+  document.querySelectorAll('#f input,#f select').forEach(function(i){i.addEventListener('input',function(){document.querySelectorAll('[data-s]').forEach(function(x){x.setAttribute('aria-pressed','false');});render();});});
+  render();
+})();
+</script>
