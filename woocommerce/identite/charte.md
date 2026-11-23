@@ -203,6 +203,8 @@ Jost 13 px, gris prune pour la ligne 2. Pas de bannière promo ni de citation an
 - Les SVG sont générés par script : polices OFL instanciées puis converties en contours (pas de dépendance de police). Pour une retouche manuelle, ouvrir les SVG dans Figma ou Illustrator. Ce sont déjà des contours.
 - PNG : rendus par Chromium (Playwright) depuis les SVG, fond transparent. Les fichiers Branvas ont des métadonnées 300 DPI (Pillow).
 - `apercu-logos.png` : planche de présentation de toutes les versions.
+- `logos/_source/generer-logos.py` (+ polices OFL dans `logos/_source/fonts/`) : régénère tous les SVG (`pip install fonttools`, puis `python3 generer-logos.py ..`). Pour une modification à la main, les SVG s'ouvrent directement dans Figma ou Illustrator, en contours.
+- `captures/charte-1440.png`, `captures/charte-390.png` : vérification du rendu de `charte.html` (bureau et mobile, sans défilement horizontal ni erreur JS).
 
 ---
 

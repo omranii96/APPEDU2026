@@ -337,3 +337,54 @@ function charmed_render_univers( array $a ): string {
 	<?php
 	return (string) ob_get_clean();
 }
+
+/**
+ * Bloc charmed/reviews : derniers avis WooCommerce natifs, acheteuses vérifiées uniquement.
+ * Aucun avis inventé : la section est vide (rien n'est rendu) tant qu'il n'y a pas d'avis réels.
+ *
+ * @param array $a Attributs.
+ */
+function charmed_render_reviews( array $a ): string {
+	if ( ! post_type_exists( 'product' ) ) {
+		return '';
+	}
+	$comments = get_comments(
+		array(
+			'post_type'  => 'product',
+			'status'     => 'approve',
+			'type'       => 'review',
+			'number'     => max( 1, min( 12, (int) ( $a['limit'] ?? 6 ) ) ),
+			'meta_query' => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+				array(
+					'key'   => 'verified',
+					'value' => '1',
+				),
+			),
+		)
+	);
+	if ( ! $comments ) {
+		return charmed_empty_notice( 'charmed/reviews' );
+	}
+	wp_enqueue_style( 'charmed-sections' );
+	$heading = ! empty( $a['heading'] ) ? $a['heading'] : __( 'Elles l’ont ouverte', 'charmed-paris' );
+
+	ob_start();
+	?>
+	<section <?php echo charmed_wrap( array( 'class' => 'cp-reviews', 'aria-labelledby' => 'cp-rev-title' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
+		<h2 id="cp-rev-title"><?php echo esc_html( $heading ); ?></h2>
+		<ul class="cp-reviews__list">
+			<?php foreach ( $comments as $c ) : ?>
+				<?php $rating = (int) get_comment_meta( $c->comment_ID, 'rating', true ); ?>
+				<li class="cp-review">
+					<?php if ( $rating ) : ?>
+						<p class="cp-review__stars" aria-label="<?php echo esc_attr( sprintf( /* translators: %d: rating */ __( 'Note : %d sur 5', 'charmed-paris' ), $rating ) ); ?>"><?php echo esc_html( str_repeat( '★', $rating ) . str_repeat( '☆', 5 - $rating ) ); ?></p>
+					<?php endif; ?>
+					<blockquote><?php echo esc_html( wp_trim_words( $c->comment_content, 40, '…' ) ); ?></blockquote>
+					<p class="cp-review__by"><?php echo esc_html( $c->comment_author ); ?> · <span><?php esc_html_e( 'Acheteuse vérifiée', 'charmed-paris' ); ?></span> · <a href="<?php echo esc_url( get_permalink( (int) $c->comment_post_ID ) ); ?>"><?php echo esc_html( get_the_title( (int) $c->comment_post_ID ) ); ?></a></p>
+				</li>
+			<?php endforeach; ?>
+		</ul>
+	</section>
+	<?php
+	return (string) ob_get_clean();
+}
