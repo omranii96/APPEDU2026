@@ -9,7 +9,7 @@
 
 ### 1.1 Permaliens (Réglages → Permaliens)
 
-| Réglage | Valeur FR | Valeur EN (traduite dans WPML → Traduction des slugs) | Pourquoi |
+| Réglage | Valeur FR | Valeur EN (traduite avec TranslatePress SEO Pack) | Pourquoi |
 |---|---|---|---|
 | Structure des articles | `/journal/%postname%/` | `/en/journal/%postname%/` | Blog isolé dans un dossier (suivi Search Console par dossier), pas de date dans l'URL |
 | Base de catégorie (articles) | `journal/rubrique` | `journal/topic` | Évite `/category/` |
@@ -60,7 +60,7 @@ Légende : **[I]** indexée, **[NI]** noindex, **[R]** redirection.
 │       ├── fete-des-meres/               Fête des mères [I]                   mothers-day/
 │       ├── anniversaire/                 Anniversaire [I]                     birthday/
 │       ├── mariage/                      Mariage & témoins [I]                wedding/
-│       ├── moins-de-50-euros/            Budget ≤ 50 € [I si ≥ 6 produits]    under-50/   (seuil par devise à fixer)
+│       ├── moins-de-60-euros/            Budget ≤ 60 € [I si ≥ 6 produits]    (pas d'équivalent EN au lancement)
 │       ├── moins-de-100-euros/           Budget ≤ 100 € [I]                   under-100/
 │       └── cadeau-precieux/              Argent 925 & moissanite [I]          fine-gifts/
 │
@@ -96,11 +96,11 @@ Légende : **[I]** indexée, **[NI]** noindex, **[R]** redirection.
 | Mixte | `mixte` | `unisex` | — | Univers | JSVKMZ, JSCT1F |
 | Parures dorées | `dorees` | `gold` | — | Transversale (jamais principale) | Tous les produits à finition dorée (hors « ton argenté », « ton or rose », argent 925) — liste à valider sur les fiches |
 | Idées cadeaux | `idees-cadeaux` | `gift-ideas` | — | Hub | (sous-catégories) |
-| Noël, Saint-Valentin, Fête des mères, Anniversaire, Mariage, Moins de 50 €, Moins de 100 €, Cadeau précieux | voir arbo | voir arbo | Idées cadeaux | Pages cadeaux (jamais principales) | Sélection manuelle : 6–12 produits par page, basée sur le prix et le style |
+| Noël, Saint-Valentin, Fête des mères, Anniversaire, Mariage, Moins de 60 €, Moins de 100 €, Cadeau précieux | voir arbo | voir arbo | Idées cadeaux | Pages cadeaux (jamais principales) | Sélection manuelle : 6–12 produits par page, basée sur le prix et le style |
 
 Règles :
 - **Une catégorie principale par produit = son univers** (Rank Math → Catégorie principale).
-- Une page cadeau n'est indexée que si elle a **≥ 6 produits** et un texte propre (≥ 250 mots, FAQ courte). Sinon noindex jusqu'à ce qu'elle soit remplie (« Moins de 50 € » dépend des prix finaux).
+- Une page cadeau n'est indexée que si elle a **≥ 6 produits** et un texte propre (≥ 250 mots, FAQ courte). Sinon noindex jusqu'à ce qu'elle soit remplie (« Moins de 60 € » dépend des prix finaux ; une page « moins de 50 € » n'aurait qu'un produit, Molten Art à 49 €).
 - Les pages saisonnières gardent **la même URL toute l'année** (pas de `noel-2026`). Hors saison : texte « Prochaine fête des mères : … », sélection maintenue, page toujours indexée.
 - **Mixte (2 produits) et Joaillerie 925 (3 produits)** : pages légères ; enrichir avec un texte expert (moissanite, argent 925, cordon) pour éviter la page « vide ». Si Mixte reste à 2 produits, l'indexer quand même mais la placer dans le menu secondaire.
 
@@ -114,32 +114,28 @@ Les noms Royal Sapphire Halo, Emerald Dreams, Emerald Square sont renommés (Roy
 
 ## 3. Multilingue (FR par défaut, EN sous `/en/`)
 
-### 3.1 Choix du plugin
+### 3.1 Plugin : **TranslatePress** (décision arrêtée le 23/11/2026, `BRIEF.md`)
 
-| Critère | **WPML** + WooCommerce Multilingual & Multicurrency | Polylang + Polylang for WooCommerce | TranslatePress (+ SEO Pack) |
-|---|---|---|---|
-| Modèle | Un post traduit par langue (produit FR + produit EN liés) | Idem | Une seule entité, traductions stockées en chaînes |
-| WooCommerce | Très complet : stock et prix synchronisés entre traductions, attributs, e-mails transactionnels traduits, pages Woo traduites | Bon, mais Woo nécessite l'add-on payant | Fonctionne (traduction visuelle) ; e-mails et chaînes OK |
-| **Multidevise** (EUR / GBP / USD / CAD) | **Inclus** (prix manuels par devise, devise par langue / pays) | Non (plugin tiers) | Non (plugin tiers) |
-| Rank Math | Compatibilité officielle : titles/metas traduisibles, sitemap par langue, hreflang | Compatible | Titles/metas/slugs traduisibles seulement avec **SEO Pack (licence payante)** |
-| Slugs de base (produit, catégorie) traduits | Oui | Oui (add-on) | Oui (SEO Pack) |
-| hreflang | Automatique | Automatique | Automatique |
-| Synchro Branvas (API REST) | Produit créé dans la langue par défaut ; traductions EN à créer ; stock et prix recopiés par WCML → **à tester en préproduction** | Comparable | Le plus simple (un seul produit) |
-| Coût | Licence annuelle (**tarif à confirmer**) | Licences annuelles (**à confirmer**) | Licence annuelle pour SEO Pack (**à confirmer**) |
+Licence Personal (≈ 99 €/an, **SEO Pack inclus** : hreflang, slugs traduits, titles/metas Rank Math traduits, sitemap multilingue). WPML et Polylang sont écartés : ils dupliquent chaque produit WooCommerce (un produit FR + un produit EN), ce qui casse la synchronisation Branvas (stock, prix, commandes).
 
-**Recommandation : WPML (Multilingual CMS) + WooCommerce Multilingual & Multicurrency.** Raisons : multidevise intégrée (indispensable pour UK/US/CA), synchronisation du stock entre FR et EN (une rupture Branvas doit couper les deux versions), compatibilité Rank Math officielle, titres/metas/slugs EN rédigés séparément (pas traduits mot à mot).
-**Alternative** si le test de synchro Branvas échoue avec WPML : TranslatePress + SEO Pack + un plugin multidevise, car il n'y a qu'un seul produit WooCommerce à synchroniser.
+| Point | Avec TranslatePress | À faire |
+|---|---|---|
+| Produits | **Un seul produit WooCommerce** par parure ; l'EN est une couche de traduction (titre, descriptions, attributs, alt, slug) | Traduire chaque champ dans l'éditeur visuel ou TranslatePress → Traduction de chaînes |
+| Synchro Branvas | Stock, prix et commandes inchangés (même ID produit) | **Tester une commande passée sur `/en/` et vérifier qu'elle remonte dans Branvas** (décision BRIEF) |
+| Slugs | SEO Pack : slug de chaque produit, catégorie, page traduit | Vérifier aussi la traduction des **bases** `parure` → `jewelry-set`, `parures` → `jewelry-sets`, `boutique` → `shop` (TranslatePress → Traduction de chaînes → Slugs ; **à vérifier** selon la version) ; à défaut, garder les bases FR sous `/en/` plutôt que de bricoler |
+| Rank Math | SEO Pack traduit title, meta description, Open Graph, alt ; ajoute les URLs EN et les `hreflang` au sitemap Rank Math | Saisir les titles/metas EN de `mots-cles-par-page-en.csv` (rédigés en anglais natif, pas en traduction automatique) |
+| Devise | **EUR au lancement**, aussi sur `/en/` | Multidevise (GBP/USD/CAD) plus tard via un plugin dédié, à réévaluer |
+| E-mails et pages Woo | Chaînes traduisibles (panier, commande, e-mails transactionnels) | Relire les e-mails EN |
+| Traduction automatique | Disponible (DeepL / Google) | Autorisée comme premier jet **uniquement** ; relecture obligatoire, jamais publiée brute |
 
-Réglages WPML :
-- Langue par défaut : Français (`fr`), sans répertoire ; Anglais en répertoire `/en/`.
-- **Pas de redirection automatique selon la langue du navigateur** (elle empêche Googlebot, qui crawle surtout depuis les US, de voir la version FR). À la place : bandeau discret « Read this page in English ? » + sélecteur de langue en en-tête et pied de page, liens `<a href>` crawlables.
-- Devise : FR → EUR ; EN → devise selon le pays de facturation (GBP, USD, CAD), EUR par défaut pour les autres pays. **Prix ronds saisis à la main** par devise.
-- Traduction des slugs : bases `parure` → `jewelry-set`, `parures` → `jewelry-sets`, et slug de chaque produit / catégorie / page.
-- Produits non encore traduits : **ne pas publier la version EN** (pas de fallback FR sous `/en/`, sinon contenu dupliqué).
+Réglages TranslatePress :
+- Langue par défaut : Français (France) ; langue ajoutée : Anglais, préfixe d'URL `en`. « Utiliser un sous-répertoire pour la langue par défaut » = **non** (FR à la racine).
+- **Pas de redirection automatique selon la langue du navigateur ou l'IP** (Googlebot crawle surtout depuis les États-Unis et doit voir le FR). Sélecteur de langue en en-tête et pied de page (liens `<a>` crawlables) ; bandeau discret « Read this page in English? » à la place de la redirection.
+- Pages non encore traduites : TranslatePress affiche le texte FR sous `/en/` → **ne pas lier / ne pas mettre dans le sitemap** les pages EN non traduites (SEO Pack → exclure du sitemap ou `noindex` temporaire). Traduire en priorité : accueil, boutique, 5 univers, 30 produits, Livraison et retours, Matières, FAQ, CGV.
 
 ### 3.2 hreflang
 
-Chaque page indexable déclare (généré par WPML, vérifié dans le code source) :
+Chaque page indexable déclare (généré par TranslatePress SEO Pack, vérifié dans le code source) :
 
 ```html
 <link rel="alternate" hreflang="fr-FR" href="https://charmedparis.com/parure/molten-art-collier-boucles-dorees/" />
@@ -147,11 +143,11 @@ Chaque page indexable déclare (généré par WPML, vérifié dans le code sourc
 <link rel="alternate" hreflang="x-default" href="https://charmedparis.com/parure/molten-art-collier-boucles-dorees/" />
 ```
 
-- `fr-FR` (et non `fr`) : le marché visé est la France ; la Belgique / Suisse francophones tombent sur le FR via `x-default` / Google. Variante : `fr` si on veut viser toute la francophonie (**décision à prendre** ; WPML : Langues → Modifier → code hreflang).
+- `fr-FR` (et non `fr`) : le marché visé est la France ; la Belgique / Suisse francophones tombent sur le FR via `x-default` / Google. Variante : `fr` si on veut viser toute la francophonie (**décision à prendre** ; code de langue dans TranslatePress → Général).
 - `en` sans région : une seule version anglaise pour UK, US, CA.
 - `x-default` = version FR (langue d'origine du site). Alternative : faire de x-default un sélecteur de langue — pas utile ici.
 - Règles : réciprocité (FR ↔ EN), URL absolues, canonical **auto-référent dans chaque langue** (jamais un canonical EN → FR), uniquement des URLs indexables en 200. Pas de hreflang sur panier / commande / compte.
-- Sitemap : WPML + Rank Math génèrent un sitemap par langue ; on soumet `sitemap_index.xml` (qui inclut les deux).
+- Sitemap : Rank Math + SEO Pack ajoutent les URLs EN et leurs `hreflang` dans le sitemap ; on soumet `sitemap_index.xml`.
 
 ---
 
@@ -160,7 +156,7 @@ Chaque page indexable déclare (généré par WPML, vérifié dans le code sourc
 ### 4.1 En-tête (FR ; EN identique, traduit)
 
 1. **Parures** (méga-menu) : Sculpture · Éclat · Couleur précieuse · Joaillerie 925 · Mixte · Parures dorées · **Toutes les parures**
-2. **Idées cadeaux** : *[mise en avant saisonnière en 1re position : Noël jusqu'au 24/12, puis Saint-Valentin, puis Fête des mères]* · Anniversaire · Mariage · Moins de 50 € · Moins de 100 € · Cadeau précieux
+2. **Idées cadeaux** : *[mise en avant saisonnière en 1re position : Noël jusqu'au 24/12, puis Saint-Valentin, puis Fête des mères]* · Anniversaire · Mariage · Moins de 60 € · Moins de 100 € · Cadeau précieux
 3. **L'écrin** (`/ecrin-cadeau/`)
 4. **Matières & entretien**
 5. **Journal**
@@ -203,12 +199,12 @@ Rank Math → Réglages généraux → Fil d'Ariane : activé, séparateur `›`
 | Depuis | Vers | Comment |
 |---|---|---|
 | Accueil | 5 univers, hub cadeaux + page saisonnière, L'écrin, Matières, 4–8 produits | Blocs « Les univers », « Offrir », sélection produits ; textes d'ancre descriptifs (« parures dorées Sculpture », pas « en savoir plus ») |
-| Univers | Ses produits ; 2 univers voisins ; Matières & entretien (ancre matière : « laiton doré à l'or fin », « argent 925 et moissanite ») ; 1–2 pages cadeaux | Texte sous la grille + bloc « Explore aussi » |
+| Univers | Ses produits ; 2 univers voisins ; Matières & entretien (ancre matière : « laiton doré », « argent 925 et moissanite synthétique ») ; 1–2 pages cadeaux | Texte sous la grille + bloc « Explore aussi » |
 | Page cadeau | 6–12 produits ; 2–3 univers ; L'écrin ; Livraison (date limite) ; 1 article guide | Intro + sélection + FAQ |
 | Fiche produit | Univers (fil d'Ariane + lien dans la description) ; 3–4 produits du même univers (« Tu aimeras aussi » = produits apparentés / ventes croisées) ; 1–2 pages cadeaux pertinentes ; Matières & entretien ; Livraison et retours | Ventes croisées WooCommerce pour l'offre « 2e parure » (**à valider**) |
 | Article | 1 page cadeau + 1 univers + 2–3 produits ; 1 autre article | Liens dans le corps, dans les 30 % premiers du texte pour le principal |
 | Matières & entretien | Chaque univers + articles matières | Tableau par univers avec liens |
-| FR ↔ EN | Sélecteur de langue vers la **page équivalente** (pas vers l'accueil) | WPML |
+| FR ↔ EN | Sélecteur de langue vers la **page équivalente** (pas vers l'accueil) | TranslatePress |
 
 Règles : 3 à 10 liens contextuels par page ; aucune page indexable à plus de 3 clics de l'accueil ; pas de `nofollow` interne ; ancres variées et naturelles ; vérifier les pages orphelines tous les mois (Rank Math → Analyse des liens ou Screaming Frog).
 

@@ -1,0 +1,123 @@
+/* CHARMED PARIS — base : jetons, logo, boutons, en-tête, pied de page, WooCommerce.
+   Les couleurs/typos viennent de theme.json (variables --wp--preset--*). */
+:root {
+	--cp-velours: var(--wp--preset--color--velours, #1A1015);
+	--cp-velours-2: var(--wp--preset--color--velours-2, #2A1520);
+	--cp-velours-fg: var(--wp--preset--color--velours-fg, #F2E9EC);
+	--cp-velours-muted: var(--wp--preset--color--velours-muted, #B9A6AE);
+	--cp-grenat: var(--wp--preset--color--grenat, #7A1F3A);
+	--cp-or: var(--wp--preset--color--or, #A9813F);
+	--cp-or-clair: var(--wp--preset--color--or-clair, #E9CB8F);
+	--cp-porcelaine: var(--wp--preset--color--porcelaine, #F4F2F5);
+	--cp-surface: var(--wp--preset--color--surface, #FFFFFF);
+	--cp-encre: var(--wp--preset--color--encre, #1C1519);
+	--cp-muted: var(--wp--preset--color--muted, #6B6169);
+	--cp-line: var(--wp--preset--color--line, #E2DBE0);
+	--cp-display: var(--wp--preset--font-family--display, "Bodoni Moda", Didot, Georgia, serif);
+	--cp-body: var(--wp--preset--font-family--body, Jost, "Helvetica Neue", Arial, sans-serif);
+	--cp-mono: var(--wp--preset--font-family--mono, "DM Mono", ui-monospace, Menlo, monospace);
+	--cp-ease: cubic-bezier(.2, .8, .2, 1);
+	--cp-shade: rgba(26, 16, 21, .45);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+h1, h2, h3 { text-wrap: balance; }
+:focus-visible { outline: 2px solid var(--cp-or); outline-offset: 3px; }
+img { max-width: 100%; height: auto; }
+
+.screen-reader-text { border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute !important; width: 1px; word-wrap: normal !important; }
+.screen-reader-text:focus { clip: auto !important; clip-path: none; height: auto; width: auto; z-index: 100000; background: var(--cp-surface); color: var(--cp-encre); padding: 12px 16px; left: 8px; top: 8px; }
+.cp-hp { position: absolute !important; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+.cp-wrap { max-width: var(--wp--style--global--wide-size, 1200px); margin-inline: auto; padding-inline: max(16px, env(safe-area-inset-left, 0px)); }
+.cp-eyebrow { font-family: var(--cp-mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--cp-grenat); margin: 0; }
+.cp-admin-note { font: 12px/1.4 var(--cp-mono); background: #fff7d6; color: #5a4600; padding: 10px 14px; border: 1px dashed #c9a400; }
+
+/* Boutons */
+.cp-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font: 500 13px/1 var(--cp-body); letter-spacing: .12em; text-transform: uppercase; padding: 15px 24px; border: 1px solid var(--cp-encre); background: var(--cp-encre); color: var(--cp-porcelaine); cursor: pointer; text-decoration: none; transition: background .25s, color .25s, border-color .25s; }
+.cp-btn:hover { background: var(--cp-grenat); border-color: var(--cp-grenat); color: #fff; }
+.cp-btn--ghost { background: transparent; color: inherit; border-color: currentColor; }
+.cp-btn--ghost:hover { background: var(--cp-or-clair); color: var(--cp-velours); border-color: var(--cp-or-clair); }
+.cp-btn--small { padding: 11px 16px; font-size: 11px; }
+[aria-busy="true"] { opacity: .65; pointer-events: none; }
+
+/* Logo : les parenthèses C et D encadrent HARME */
+.cp-wm { display: inline-flex; align-items: center; font-family: var(--cp-display); text-transform: uppercase; line-height: 1; letter-spacing: .16em; white-space: nowrap; }
+.cp-br { display: inline-block; width: .5em; height: .7em; border-style: solid; border-color: currentColor; }
+.cp-br--l { border-width: .03em 0 .03em .085em; border-radius: .34em 0 0 .34em; }
+.cp-br--r { border-width: .03em .085em .03em 0; border-radius: 0 .34em .34em 0; }
+.cp-wm__mid { padding-left: .16em; }
+.cp-wordmark { font-size: var(--cp-wm-size, 22px); line-height: 1; }
+.cp-wordmark__link { display: inline-flex; flex-direction: column; align-items: center; gap: .23em; text-decoration: none; color: inherit; }
+.cp-wordmark .cp-br { border-color: var(--cp-grenat); }
+.cp-wm__sub { font: 500 .41em/1 var(--cp-body); letter-spacing: .62em; padding-left: .62em; text-transform: uppercase; }
+.cp-wm__tagline { display: block; margin-top: .6em; font: italic 400 .7em/1.3 var(--cp-display); text-transform: none; letter-spacing: 0; }
+
+/* En-tête : plein par défaut ; transparent au-dessus de l'intro de l'accueil */
+.cp-header { position: sticky; top: 0; z-index: 50; background: var(--cp-porcelaine); color: var(--cp-encre); box-shadow: 0 1px 0 var(--cp-line); transition: background .4s, color .4s, box-shadow .4s; }
+.admin-bar .cp-header { top: var(--wp-admin--admin-bar--height, 32px); }
+.cp-has-intro .cp-header { position: fixed; left: 0; right: 0; }
+.cp-has-intro .cp-header:not(.is-solid) { background: transparent; color: var(--cp-velours-fg); box-shadow: none; }
+.cp-has-intro .cp-header:not(.is-solid) .cp-wordmark .cp-br { border-color: var(--cp-or-clair); }
+.cp-header__inner { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; min-height: 64px; gap: 12px; }
+.cp-header__nav, .cp-header__tools { min-width: 0; }
+.cp-header__tools { justify-content: flex-end; }
+.cp-header .wp-block-navigation a { text-decoration: none; }
+.cp-header .wp-block-navigation a:hover { text-decoration: underline; text-underline-offset: 6px; }
+.cp-header .wc-block-mini-cart__button, .cp-header .wp-block-search__button, .cp-header .wc-block-customer-account a { color: inherit; background: transparent; border: 0; }
+.cp-header .wc-block-mini-cart__badge { background: var(--cp-or-clair); color: var(--cp-velours); }
+@media (max-width: 900px) {
+	.cp-header__inner { grid-template-columns: auto 1fr auto; }
+	.cp-header__brand { order: -1; }
+}
+
+/* Sélecteur de langue */
+.cp-lang ul { display: flex; gap: 6px; list-style: none; margin: 0; padding: 0; font: 500 12px/1 var(--cp-body); letter-spacing: .12em; }
+.cp-lang a, .cp-lang span { display: inline-block; padding: 8px 4px; text-decoration: none; color: inherit; }
+.cp-lang span[aria-current] { border-bottom: 1px solid currentColor; }
+.cp-lang li + li::before { content: "·"; opacity: .5; margin-right: 6px; }
+
+/* Messages (bandeau, fiche produit, panier) */
+.cp-notice { margin: 0; }
+.cp-notice--bar { background: var(--cp-grenat); color: #fff; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; text-align: center; padding: 8px 16px; }
+.cp-notice--inline { font-size: 14px; color: var(--cp-muted); }
+.cp-notice--list { list-style: none; margin: 0; padding: 14px 16px; border: 1px solid var(--cp-line); background: var(--cp-surface); font-size: 14px; display: grid; gap: 6px; }
+.cp-notice--list li::before { content: "✦"; color: var(--cp-or); margin-right: 10px; font-size: .8em; }
+.cp-checkout-note { font-size: 13px; color: var(--cp-muted); }
+
+/* Pied de page */
+.cp-footer { background: var(--cp-velours); color: var(--cp-velours-muted); font-size: 14px; }
+.cp-footer a { color: inherit; text-decoration: none; }
+.cp-footer a:hover { color: var(--cp-velours-fg); text-decoration: underline; }
+.cp-footer h2, .cp-footer h3 { font: 500 12px/1.4 var(--cp-body); letter-spacing: .14em; text-transform: uppercase; color: var(--cp-velours-fg); margin: 0 0 12px; }
+.cp-footer .cp-wordmark { color: var(--cp-velours-fg); }
+.cp-footer .cp-wordmark .cp-br { border-color: var(--cp-or-clair); }
+.cp-footer .cp-legal { font-family: var(--cp-mono); font-size: 11px; letter-spacing: .06em; border-top: 1px solid rgba(242, 233, 236, .12); }
+.cp-withdrawal-link a { text-decoration: underline; }
+
+/* Toast d'ajout au panier */
+.cp-toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translate(-50%, 30px); background: var(--cp-encre); color: var(--cp-porcelaine); padding: 12px 18px; font-size: 14px; z-index: 100001; opacity: 0; transition: .3s; pointer-events: none; max-width: calc(100vw - 32px); }
+.cp-toast.is-on { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.cp-toast a { color: var(--cp-or-clair); margin-left: 6px; }
+
+/* WooCommerce */
+.woocommerce-store-notice, p.demo_store { background: var(--cp-grenat); }
+.wc-block-components-button:not(.is-link), .wp-element-button { border-radius: 0; }
+.wc-block-components-product-badge, .wc-block-components-sale-badge { display: none; }
+.cp-price, .wc-block-components-product-price { font-variant-numeric: tabular-nums; }
+.cp-price ins, .price ins { text-decoration: none; }
+.cp-withdrawal { display: grid; gap: 14px; max-width: 560px; }
+.cp-withdrawal label { display: block; font-size: 14px; margin-bottom: 4px; }
+.cp-withdrawal input[type="text"], .cp-withdrawal input[type="email"], .cp-withdrawal textarea { width: 100%; padding: 12px; border: 1px solid var(--cp-line); background: var(--cp-surface); font: inherit; }
+.cp-withdrawal fieldset { border: 1px solid var(--cp-line); padding: 12px 16px; }
+.cp-withdrawal__item { display: flex !important; gap: 8px; align-items: center; }
+.cp-withdrawal__error { color: var(--cp-grenat); }
+
+@media (prefers-reduced-motion: reduce) {
+	html { scroll-behavior: auto; }
+	*, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+}
+.cp-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.cp-header--checkout { position: static; }

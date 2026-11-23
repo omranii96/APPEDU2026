@@ -11,28 +11,28 @@
 ## Valeurs d'exemple à remplacer (non vérifiées)
 
 - Domaine `charmedparis.com` (achat **à confirmer**), e-mail `bonjour@`, logo, **adresse postale** (champs « À REMPLIR » ; c'est ton adresse, jamais celle du fournisseur).
-- `price` : 69,00 € (fourchette maquette Éclat 59–79 €) et 79,00 $ : **exemples à valider**.
-- `shippingRate` 0,00 : valable seulement si la livraison est offerte pour ce prix (seuil « dès 50 € » **à valider**). Sinon, mettre le tarif réel affiché au checkout.
+- `price` : 69,00 € (fourchette maquette Éclat 59–79 €) : **exemple à valider**.
+- `shippingRate` : livraison **offerte dès 50 €, 4,90 € en dessous** (décision BRIEF). 0,00 pour toutes les parures sauf Molten Art (49 €) → `4.90`. Rank Math ne le calcule pas : ajouter `shippingDetails` par filtre selon le prix.
 - `returnFees` = frais de retour à la charge de la cliente : **à confirmer**. Si les retours sont offerts, mettre `https://schema.org/FreeReturn`. `returnPolicyCountry` = pays de l'adresse de retour (FR supposé, **à confirmer**).
 - `sku` : le SKU synchronisé (préfixe JS). Il apparaît publiquement ; un SKU maison est possible si la synchro Branvas le permet (**à confirmer**).
 
 ## Délais utilisés (faits Branvas)
 
-Préparation 1–2 jours ouvrés. Délai total (9 colis sur 10) : France 4–9 jours ouvrés → `handlingTime` 1–2 + `transitTime` 3–7. US 3–8 → 1–2 + 2–6. UK 3–7 → 1–2 + 2–5. Canada 4–8 → 1–2 + 3–6. Un `shippingDetails` par pays dans le schéma EN, ou mieux : renseigner les délais dans **Merchant Center**, qui fait foi pour Google Shopping.
+Préparation 1–2 jours ouvrés. Délai total (9 colis sur 10) : France 4–9 jours ouvrés → `handlingTime` 1–2 + `transitTime` 3–7. US 3–8 → 1–2 + 2–6. Canada 4–8 → 1–2 + 3–6. UK 3–7 → 1–2 + 2–5 (UK pas ouvert avant immatriculation TVA UK). Un `shippingDetails` par pays dans le schéma EN, ou mieux : renseigner les délais dans **Merchant Center**, qui fait foi pour Google Shopping.
 
 ## Version EN : devise
 
-Le prix du schéma doit être celui **affiché** sur la page. Avec WCML (devise selon le pays), Googlebot, qui crawle surtout depuis les États-Unis, verra probablement l'USD : définir l'USD comme devise par défaut de `/en/` et donner les prix GBP / CAD à Google via les flux Merchant Center par pays (**à valider**).
+Décision BRIEF : **EUR au lancement**, y compris sur `/en/`. Le schéma EN reprend donc l'euro (`product-solar-sphere-en.jsonld`). TranslatePress ne gère qu'un seul produit WooCommerce : le prix et la disponibilité sont les mêmes en FR et en EN, seul le texte change. Si une multidevise est ajoutée plus tard, le prix du schéma devra être celui **affiché** à Googlebot (crawl surtout depuis les États-Unis) et les autres devises passeront par les flux Merchant Center par pays.
 
 ## aggregateRating / review : NE PAS AJOUTER maintenant
 
 Aucun avis réel n'existe. Ajouter un `aggregateRating` sans avis visibles et vérifiables est contraire aux consignes Google (action manuelle possible) et constitue une pratique commerciale trompeuse.
 
 L'ajouter seulement quand :
-1. un outil d'avis vérifiés est en place (Judge.me, Trustpilot, avis Google Merchant, etc.) et collecte des avis de vraies clientes après livraison ;
+1. les **avis natifs WooCommerce** sont activés (décision BRIEF ; pas de Judge.me), avec « Les avis ne peuvent être laissés que par des clients propriétaires vérifiés » coché, et la demande d'avis part par Brevo après livraison ;
 2. les avis sont **affichés sur la fiche produit** elle-même ;
 3. le produit a au moins quelques avis (aucun minimum chez Google ; viser ≥ 3–5 pour que la note ait du sens) ;
-4. le balisage est généré **par l'outil d'avis ou Rank Math depuis les avis réels** (jamais saisi à la main), avec un seul `aggregateRating` par produit.
+4. le balisage est généré **par Rank Math à partir des avis WooCommerce** (automatique dès qu'un avis approuvé existe ; jamais saisi à la main), avec un seul `aggregateRating` par produit. Vérifier qu'aucun autre plugin n'en ajoute un second.
 
 L'information obligatoire (directive Omnibus / art. L111-7-2 du Code de la consommation) sur la façon dont les avis sont contrôlés doit être affichée près des avis.
 

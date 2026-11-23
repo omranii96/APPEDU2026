@@ -1,10 +1,11 @@
 <?php
 /**
- * Multilingue : sélecteur de langue compatible TranslatePress (recommandé), Polylang et WPML.
+ * Multilingue : TranslatePress (décision du 23/11/2026 : un seul produit WooCommerce par article,
+ * compatible avec la synchro Branvas). Polylang et WPML sont lus par compatibilité seulement.
  *
  * Les balises hreflang, les URL /en/ et la traduction des contenus (produits, pages, menus)
  * sont gérées par le plugin ; le thème fournit ses chaînes en gettext (text domain charmed-paris,
- * languages/charmed-paris-en_US.mo / -en_GB.mo) et ce sélecteur.
+ * languages/en_US.mo et en_GB.mo) et ce sélecteur.
  *
  * @package CharmedParis
  */

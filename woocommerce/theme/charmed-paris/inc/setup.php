@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) || exit;
 add_action(
 	'after_setup_theme',
 	static function () {
-		// Traductions : languages/charmed-paris-{locale}.mo (source en français, traduction en_US/en_GB fournie).
+		// Traductions : languages/{locale}.mo (convention des thèmes ; source en français, en_US et en_GB fournis).
 		load_theme_textdomain( 'charmed-paris', CHARMED_DIR . '/languages' );
 
 		add_theme_support( 'woocommerce' );
@@ -86,3 +86,16 @@ function charmed_asset_ver( string $path ): string {
 function charmed_has_wc(): bool {
 	return class_exists( 'WooCommerce' ) && function_exists( 'WC' );
 }
+
+/**
+ * Accueil : en-tête transparent superposé à l'intro (header.js le rend plein après l'intro).
+ */
+add_filter(
+	'body_class',
+	static function ( $classes ) {
+		if ( is_front_page() ) {
+			$classes[] = 'cp-has-intro';
+		}
+		return $classes;
+	}
+);

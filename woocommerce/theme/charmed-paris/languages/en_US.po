@@ -1,0 +1,1311 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the CHARMED PARIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CHARMED PARIS 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-23 08:54+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/assets.php:57
+#, php-format
+msgid "%s ajoutée à ton écrin"
+msgstr "%s added to your box"
+
+#: inc/assets.php:58
+msgid "Impossible d’ajouter cette parure. Réessaie depuis sa fiche."
+msgstr "This set could not be added. Please try again from its page."
+
+#: inc/assets.php:59
+msgid "Ajout…"
+msgstr "Adding…"
+
+#: inc/assets.php:60
+msgid "Voir le panier"
+msgstr "View cart"
+
+#: inc/blocks.php:31
+msgid "Catégorie(s) produit (slugs, séparés par des virgules)"
+msgstr "Product category slugs (comma-separated)"
+
+#: inc/blocks.php:36
+msgid "Ou IDs produits (ordre conservé)"
+msgstr "Or product IDs (order kept)"
+
+#: inc/blocks.php:41
+msgid "Ou SKU (ex. JSGRQR,JS1AQ5)"
+msgstr "Or SKUs (e.g. JSGRQR,JS1AQ5)"
+
+#: inc/blocks.php:46
+msgid "Tri (menu_order, date, price, popularity, rand)"
+msgstr "Order (menu_order, date, price, popularity, rand)"
+
+#: inc/blocks.php:52
+msgid "Logo CHARMED PARIS"
+msgstr "CHARMED PARIS logo"
+
+#: inc/blocks.php:53
+msgid "Wordmark : les parenthèses C et D encadrent HARME."
+msgstr "Wordmark: the C and D brackets frame HARME."
+
+#: inc/blocks.php:57
+msgid "Taille (px)"
+msgstr "Size (px)"
+
+#: inc/blocks.php:58
+msgid "Afficher PARIS"
+msgstr "Show PARIS"
+
+#: inc/blocks.php:59
+msgid "Lien vers l’accueil"
+msgstr "Link to home page"
+
+#: inc/blocks.php:60
+msgid "Afficher la signature"
+msgstr "Show tagline"
+
+#: inc/blocks.php:64
+msgid "Intro écrin"
+msgstr "Jewellery box intro"
+
+#: inc/blocks.php:65
+msgid "Ouverture de l’écrin au scroll (animation sur l’accueil uniquement)."
+msgstr "Box opening on scroll (animated on the home page only)."
+
+#: inc/blocks.php:70
+msgid "Texte du bouton"
+msgstr "Button text"
+
+#: inc/blocks.php:71
+msgid "Lien du bouton"
+msgstr "Button link"
+
+#: inc/blocks.php:72
+msgid "Cible du lien « Passer l’intro »"
+msgstr "“Skip intro” link target"
+
+#: inc/blocks.php:76
+msgid "Coffrets (carrousel)"
+msgstr "Boxes (carousel)"
+
+#: inc/blocks.php:77
+msgid "Carrousel de coffrets qui s’ouvrent sur les vrais produits WooCommerce."
+msgstr "Carousel of boxes opening on real WooCommerce products."
+
+#: inc/blocks.php:82
+msgid "Nombre de coffrets"
+msgstr "Number of boxes"
+
+#: inc/blocks.php:83
+msgid "Surtitre (vide = automatique)"
+msgstr "Eyebrow (empty = automatic)"
+
+#: inc/blocks.php:84 inc/blocks.php:96 inc/blocks.php:109 inc/blocks.php:140
+msgid "Titre"
+msgstr "Heading"
+
+#: inc/blocks.php:85 inc/blocks.php:164
+msgid "Texte"
+msgstr "Text"
+
+#: inc/blocks.php:89 inc/render-catalog.php:166
+msgid "La file des parures"
+msgstr "The line-up"
+
+#: inc/blocks.php:90
+msgid "Vues Une / La file / Toutes, avec étiquette, sur les vrais produits."
+msgstr "One / Line-up / All views with a price tag, on real products."
+
+#: inc/blocks.php:95
+msgid "Nombre de parures"
+msgstr "Number of sets"
+
+#: inc/blocks.php:100
+msgid "Univers (catégories)"
+msgstr "Collections (categories)"
+
+#: inc/blocks.php:101
+msgid "Les univers = catégories produit WooCommerce, avec leur image."
+msgstr "Collections = WooCommerce product categories, with their image."
+
+#: inc/blocks.php:106
+msgid "Catégories (slugs, dans l’ordre)"
+msgstr "Categories (slugs, in order)"
+
+#: inc/blocks.php:107
+msgid "Ou catégorie parente (slug)"
+msgstr "Or parent category (slug)"
+
+#: inc/blocks.php:108 inc/blocks.php:162
+msgid "Surtitre"
+msgstr "Eyebrow"
+
+#: inc/blocks.php:113
+msgid "Bandeau défilant"
+msgstr "Scrolling banner"
+
+#: inc/blocks.php:114
+msgid "Mots séparés par |. Animation coupée si réduction des animations."
+msgstr "Words separated by |. Animation off when reduced motion is requested."
+
+#: inc/blocks.php:119
+msgid "Mots (séparés par |, vide = défaut traduit)"
+msgstr "Words (separated by |, empty = translated default)"
+
+#: inc/blocks.php:123
+msgid "Packagings"
+msgstr "Packaging"
+
+#: inc/blocks.php:124
+msgid ""
+"Photos des packagings avec sélecteur Femme / Homme / Noël (Noël affiché "
+"seulement pendant la période)."
+msgstr "Packaging photos with Her / Him / Christmas switcher (Christmas shown only during the season)."
+
+#: inc/blocks.php:129
+msgid "Packaging affiché d’abord (f, h, noel-f, noel-h)"
+msgstr "Packaging shown first (f, h, noel-f, noel-h)"
+
+#: inc/blocks.php:133
+msgid "Avis vérifiés"
+msgstr "Verified reviews"
+
+#: inc/blocks.php:134
+msgid ""
+"Derniers avis WooCommerce natifs (acheteuses vérifiées uniquement). Rien ne "
+"s’affiche tant qu’il n’y a pas d’avis."
+msgstr "Latest native WooCommerce reviews (verified buyers only). Nothing shows until there are reviews."
+
+#: inc/blocks.php:139
+msgid "Nombre d’avis"
+msgstr "Number of reviews"
+
+#: inc/blocks.php:144
+msgid "Messages promo et livraison"
+msgstr "Offers and delivery messages"
+
+#: inc/blocks.php:145
+msgid ""
+"Seuil de livraison offerte (lu dans WooCommerce), remise 2e parure, délai "
+"réel, droits inclus, date limite de Noël."
+msgstr "Free shipping threshold (read from WooCommerce), 2nd set discount, real delivery time, duties included, Christmas order-by date."
+
+#: inc/blocks.php:150
+msgid "Messages (xmas, shipping, bundle, delivery, ddp)"
+msgstr "Messages (xmas, shipping, bundle, delivery, ddp)"
+
+#: inc/blocks.php:151
+msgid "Style (bar, inline, list)"
+msgstr "Style (bar, inline, list)"
+
+#: inc/blocks.php:152
+msgid "Contexte (bar, product, cart)"
+msgstr "Context (bar, product, cart)"
+
+#: inc/blocks.php:156
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: inc/blocks.php:157
+msgid ""
+"Inscription (fonctionne sans JS). À brancher sur votre outil d’e-mailing : "
+"voir tech/installation.md."
+msgstr "Sign-up (works without JS). Connect it to your e-mail tool: see tech/installation.md."
+
+#: inc/blocks.php:163
+msgid "Titre (n’annoncez une remise que si le code existe)"
+msgstr "Heading (only announce a discount if the code exists)"
+
+#: inc/blocks.php:168
+msgid "Lien de rétractation"
+msgstr "Withdrawal link"
+
+#: inc/blocks.php:169
+msgid ""
+"Lien « Me rétracter » vers le formulaire de rétractation en ligne (L221-21)."
+msgstr "“Withdraw from contract” link to the online withdrawal form (L221-21)."
+
+#: inc/blocks.php:176
+msgid "Sélecteur de langue"
+msgstr "Language switcher"
+
+#: inc/blocks.php:177
+msgid ""
+"FR / EN via TranslatePress (plugin retenu ; Polylang et WPML restent lus). "
+"Rien ne s’affiche sans plugin multilingue."
+msgstr "FR / EN via TranslatePress (chosen plugin; Polylang and WPML also read). Nothing shows without a multilingual plugin."
+
+#: inc/blocks.php:273
+msgid "Réglages"
+msgstr "Settings"
+
+#. translators: %s: percentage, e.g. 15
+#: inc/commerce.php:30
+#, php-format
+msgid "2e parure −%s %%"
+msgstr "2nd set −%s%%"
+
+#: inc/commerce.php:301
+msgid ""
+"Ajoute un numéro de téléphone : le transporteur en a besoin pour livrer ta "
+"parure (douane, avis de passage)."
+msgstr "Please add a phone number: the carrier needs it to deliver your set (customs, delivery notices)."
+
+#. translators: date format for the Christmas deadline (PHP date()), e.g. "vendredi 4 décembre"
+#: inc/commerce.php:441
+msgctxt "xmas date format"
+msgid "l j F"
+msgstr "l j F"
+
+#. translators: %s: date, e.g. "vendredi 4 décembre"
+#: inc/commerce.php:444
+#, php-format
+msgid "Noël : commande avant le %s pour une livraison avant le 24 (Europe)"
+msgstr "Christmas: order by %s for delivery before the 24th (Europe)"
+
+#. translators: %s: date
+#: inc/commerce.php:447
+#, php-format
+msgid "Commandes après le %s : livraison avant Noël non garantie"
+msgstr "Orders after %s: delivery before Christmas not guaranteed"
+
+#. translators: %s: date, e.g. "24 décembre"
+#: inc/commerce.php:451
+#, php-format
+msgid "Emballage de Noël offert jusqu’au %s"
+msgstr "Free Christmas wrapping until %s"
+
+#: inc/commerce.php:451
+msgctxt "short date format"
+msgid "j F"
+msgstr "j F"
+
+#. translators: %s: amount, e.g. "50 €"
+#: inc/commerce.php:458
+#, php-format
+msgid "Livraison offerte dès %s"
+msgstr "Free shipping from %s"
+
+#. translators: %s: business days range, e.g. "4–9"
+#: inc/commerce.php:469
+#, php-format
+msgid "Livraison en %s jours ouvrés, suivie"
+msgstr "Tracked delivery in %s business days"
+
+#: inc/commerce.php:472
+msgid "Droits et taxes inclus, rien à payer à la livraison"
+msgstr "Duties and taxes included, nothing to pay on delivery"
+
+#: inc/commerce.php:523 inc/settings.php:237
+msgid "Commander avec obligation de paiement"
+msgstr "Order with obligation to pay"
+
+#: inc/i18n.php:89
+msgid "Langue"
+msgstr "Language"
+
+#: inc/newsletter.php:55
+msgid "[CHARMED PARIS] Nouvelle inscription newsletter"
+msgstr "[CHARMED PARIS] New newsletter sign-up"
+
+#. translators: 1: email, 2: locale, 3: date
+#: inc/newsletter.php:58
+#, php-format
+msgid ""
+"Adresse : %1$s\n"
+"Langue : %2$s\n"
+"Date : %3$s\n"
+"\n"
+"À importer dans l'outil d'e-mailing (double opt-in recommandé)."
+msgstr "Address: %1$s\nLanguage: %2$s\nDate: %3$s\n\nImport into the e-mail tool (double opt-in recommended)."
+
+#: inc/products.php:196
+msgid "Ajouter à l’écrin"
+msgstr "Add to my box"
+
+#: inc/products.php:196
+msgid "Choisir"
+msgstr "Choose"
+
+#: inc/products.php:196
+msgid "Épuisée"
+msgstr "Sold out"
+
+#. translators: 1: action (Ajouter à l'écrin), 2: product name
+#: inc/products.php:217
+#, php-format
+msgid "%1$s : %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/products.php:234
+msgid "Image détourée (ID média)"
+msgstr "Cut-out image (media ID)"
+
+#: inc/products.php:236
+msgid ""
+"ID de la parure détourée (fond transparent) utilisée par les coffrets et la "
+"file des parures. Médiathèque > clic sur l’image > ID dans l’URL. Vide = "
+"image principale."
+msgstr "ID of the cut-out set (transparent background) used by the boxes and the line-up. Media Library > click the image > ID in the URL. Empty = main image."
+
+#: inc/products.php:243
+msgid "Ligne courte (étiquette)"
+msgstr "Short line (tag)"
+
+#: inc/products.php:244
+msgid "Collier et boucles, métal doré"
+msgstr "Necklace and earrings, gold-tone metal"
+
+#: inc/products.php:250
+msgid "Code étiquette (3 lettres)"
+msgstr "Tag code (3 letters)"
+
+#: inc/products.php:257
+msgid "Composition (une pièce par ligne)"
+msgstr "Pieces (one per line)"
+
+#: inc/products.php:258
+msgid ""
+"Collier\n"
+"Boucles d’oreilles"
+msgstr "Necklace\nEarrings"
+
+#: inc/render-brand.php:44 inc/render-brand.php:118
+msgid "Ouvre. Laisse-toi charmer."
+msgstr "Open it. Be charmed."
+
+#: inc/render-brand.php:58
+msgid "CHARMED PARIS, accueil"
+msgstr "CHARMED PARIS, home"
+
+#: inc/render-brand.php:82
+msgid "Choisir mon coffret"
+msgstr "Choose my box"
+
+#: inc/render-brand.php:113
+msgid "Ouvre."
+msgstr "Open it."
+
+#: inc/render-brand.php:114
+msgid "Le bijou qu’on offre."
+msgstr "The jewel you give."
+
+#: inc/render-brand.php:115
+msgid "Et celui qu’on s’offre."
+msgstr "And the one you keep."
+
+#: inc/render-brand.php:122
+msgid "Passer l’intro"
+msgstr "Skip intro"
+
+#: inc/render-brand.php:125
+msgid "Descends pour ouvrir l’écrin"
+msgstr "Scroll down to open the box"
+
+#: inc/render-brand.php:125
+msgid "Glisse vers le haut pour ouvrir l’écrin"
+msgstr "Swipe up to open the box"
+
+#: inc/render-brand.php:142
+msgid "Ouvre|Offre|Garde|Laisse-toi charmer|Charmed Paris"
+msgstr "Open|Give|Keep|Be charmed|Charmed Paris"
+
+#: inc/render-brand.php:170
+msgid "Noël · Femme"
+msgstr "Christmas · Her"
+
+#: inc/render-brand.php:170
+msgid ""
+"Packaging de Noël CHARMED PARIS pour elle : boîte blanche, ruban de fête, "
+"pochette en velours, carte de Noël"
+msgstr "CHARMED PARIS Christmas packaging for her: white box, festive ribbon, velvet pouch, Christmas card"
+
+#: inc/render-brand.php:171
+msgid "Femme"
+msgstr "Her"
+
+#: inc/render-brand.php:171
+msgid ""
+"Packaging CHARMED PARIS pour elle : carton d’envoi blanc, boîte à bijoux "
+"nouée d’un ruban chocolat, pochette en velours"
+msgstr "CHARMED PARIS packaging for her: white shipping box, jewellery box tied with a chocolate ribbon, velvet pouch"
+
+#: inc/render-brand.php:172 patterns/header.php:28
+msgid "Homme"
+msgstr "Him"
+
+#: inc/render-brand.php:172
+msgid ""
+"Packaging CHARMED PARIS pour lui : papier noir, écrin cadre noir, pochette "
+"en cuir noir"
+msgstr "CHARMED PARIS packaging for him: black paper, black frame box, black leather pouch"
+
+#: inc/render-brand.php:173
+msgid "Noël · Homme"
+msgstr "Christmas · Him"
+
+#: inc/render-brand.php:173
+msgid ""
+"Packaging de Noël CHARMED PARIS pour lui : papier rouge, pochette en cuir "
+"noir, écrin au ruban rouge"
+msgstr "CHARMED PARIS Christmas packaging for him: red paper, black leather pouch, box with red ribbon"
+
+#: inc/render-brand.php:204
+msgid "Choisir le packaging"
+msgstr "Choose packaging"
+
+#: inc/render-brand.php:206
+msgid ""
+"Visuels de nos packagings. En période de Noël, le papier, le ruban et la "
+"carte changent ; le contenu peut légèrement varier."
+msgstr "Images of our packaging. At Christmas the paper, ribbon and card change; contents may vary slightly."
+
+#: inc/render-brand.php:206
+msgid "Visuels de nos packagings ; le contenu peut légèrement varier."
+msgstr "Images of our packaging; contents may vary slightly."
+
+#: inc/render-brand.php:245
+msgid "Le cercle Charmed"
+msgstr "The Charmed circle"
+
+#: inc/render-brand.php:246
+msgid "Les nouvelles parures, en avant-première"
+msgstr "New sets, before anyone else"
+
+#: inc/render-brand.php:247
+msgid "Une lettre par mois, pas plus. Désinscription en un clic."
+msgstr "One letter a month, no more. Unsubscribe in one click."
+
+#: inc/render-brand.php:262
+msgid ""
+"Bienvenue dans le cercle. Vérifie ta boîte mail pour confirmer ton "
+"inscription."
+msgstr "Welcome to the circle. Check your inbox to confirm your sign-up."
+
+#: inc/render-brand.php:265
+msgid "Saisis une adresse e-mail valide."
+msgstr "Please enter a valid e-mail address."
+
+#: inc/render-brand.php:269
+msgid "Ton e-mail"
+msgstr "Your e-mail"
+
+#: inc/render-brand.php:270
+msgid "ton e-mail"
+msgstr "your e-mail"
+
+#: inc/render-brand.php:275
+msgid "Je m’inscris"
+msgstr "Sign me up"
+
+#: inc/render-brand.php:279
+msgid ""
+"En t’inscrivant, tu acceptes de recevoir nos e-mails. Tu peux te désinscrire "
+"à tout moment."
+msgstr "By signing up you agree to receive our e-mails. You can unsubscribe at any time."
+
+#: inc/render-brand.php:281
+msgid "Politique de confidentialité"
+msgstr "Privacy policy"
+
+#. translators: %s: block name
+#: inc/render-catalog.php:41
+#, php-format
+msgid ""
+"%s : aucun produit publié ne correspond à la sélection (catégorie, IDs ou "
+"SKU). Message visible des administrateurs uniquement."
+msgstr "%s: no published product matches the selection (category, IDs or SKUs). Only administrators see this message."
+
+#. translators: %d: number of sets
+#: inc/render-catalog.php:89
+#, php-format
+msgid "%d parure à découvrir"
+msgid_plural "%d parures à découvrir"
+msgstr[0] "%d set to discover"
+msgstr[1] "%d sets to discover"
+
+#: inc/render-catalog.php:90
+msgid "Choisis ton coffret"
+msgstr "Choose your box"
+
+#: inc/render-catalog.php:91
+msgid ""
+"Fais tourner les coffrets. Celui qui arrive devant toi s’ouvre sur sa parure."
+msgstr "Spin the boxes. The one that comes to the front opens on its set."
+
+#: inc/render-catalog.php:107
+msgid "carrousel"
+msgstr "carousel"
+
+#: inc/render-catalog.php:107
+msgid "Coffrets : flèches gauche et droite pour tourner"
+msgstr "Boxes: left and right arrows to spin"
+
+#: inc/render-catalog.php:130
+msgid "Fais tourner"
+msgstr "Spin"
+
+#: inc/render-catalog.php:133
+msgid "Coffret précédent"
+msgstr "Previous box"
+
+#: inc/render-catalog.php:143
+msgid "Coffret suivant"
+msgstr "Next box"
+
+#: inc/render-catalog.php:145
+msgid "Choisir un coffret"
+msgstr "Choose a box"
+
+#: inc/render-catalog.php:170
+msgid "Écrin, pochette en velours, chamoisine"
+msgstr "Jewellery box, velvet pouch, polishing cloth"
+
+#: inc/render-catalog.php:176
+msgid "Parures : flèches gauche et droite pour passer à la suivante"
+msgstr "Sets: left and right arrows for the next one"
+
+#. translators: 1: section title, 2: number of sets
+#: inc/render-catalog.php:181
+#, php-format
+msgid "%1$s · %2$d écrin"
+msgid_plural "%1$s · %2$d écrins"
+msgstr[0] "%1$s · %2$d box"
+msgstr[1] "%1$s · %2$d boxes"
+
+#: inc/render-catalog.php:184
+msgid "Affichage"
+msgstr "View"
+
+#: inc/render-catalog.php:185
+msgid "Une"
+msgstr "One"
+
+#: inc/render-catalog.php:186
+msgid "La file"
+msgstr "Line-up"
+
+#: inc/render-catalog.php:187
+msgid "Toutes"
+msgstr "All"
+
+#: inc/render-catalog.php:190
+msgid "Choisir une parure"
+msgstr "Choose a set"
+
+#: inc/render-catalog.php:215
+msgid "Clique sur une parure pour l’ouvrir"
+msgstr "Click a set to open it"
+
+#: inc/render-catalog.php:215
+msgid "Glisse, ou utilise les flèches ← →"
+msgstr "Swipe, or use the ← → arrows"
+
+#: inc/render-catalog.php:216
+msgid "Étiquette de la parure"
+msgstr "Set price tag"
+
+#. translators: %s: number, e.g. 01
+#: inc/render-catalog.php:223
+#, php-format
+msgid "Écrin n°%s"
+msgstr "Box no. %s"
+
+#: inc/render-catalog.php:228 inc/render-catalog.php:230
+msgid "inclus"
+msgstr "included"
+
+#: inc/render-catalog.php:232
+msgid "1 par commande"
+msgstr "1 per order"
+
+#: inc/render-catalog.php:234
+msgid "Total parure"
+msgstr "Set total"
+
+#: inc/render-catalog.php:238
+msgid "Emballage de Noël offert"
+msgstr "Free Christmas wrapping"
+
+#: inc/render-catalog.php:238 patterns/reassurance.php:22
+msgid "Prêt à offrir"
+msgstr "Ready to give"
+
+#: inc/render-catalog.php:282
+msgid "métal doré"
+msgstr "gold-tone metal"
+
+#: inc/render-catalog.php:283
+msgid "doré · oxydes de zirconium"
+msgstr "gold-plated · cubic zirconia"
+
+#: inc/render-catalog.php:284
+msgid "pierres de couleur"
+msgstr "coloured stones"
+
+#: inc/render-catalog.php:285
+msgid "argent 925 · moissanite synthétique"
+msgstr "925 silver · lab-grown moissanite"
+
+#: inc/render-catalog.php:286
+msgid "sur cordon"
+msgstr "on cord"
+
+#: inc/render-catalog.php:288
+msgid "Choisis ton éclat"
+msgstr "Choose your sparkle"
+
+#: inc/render-catalog.php:289
+msgid "Les univers"
+msgstr "Collections"
+
+#: inc/render-catalog.php:297
+msgid "Tout voir"
+msgstr "View all"
+
+#. translators: %d: number of sets
+#: inc/render-catalog.php:305
+#, php-format
+msgid "%d parure"
+msgid_plural "%d parures"
+msgstr[0] "%d set"
+msgstr[1] "%d sets"
+
+#: inc/render-catalog.php:369
+msgid "Elles l’ont ouverte"
+msgstr "They opened it"
+
+#. translators: %d: rating
+#: inc/render-catalog.php:380
+#, php-format
+msgid "Note : %d sur 5"
+msgstr "Rating: %d out of 5"
+
+#: inc/render-catalog.php:383
+msgid "Acheteuse vérifiée"
+msgstr "Verified buyer"
+
+#: inc/settings.php:75 inc/setup.php:43
+msgid "CHARMED PARIS"
+msgstr "CHARMED PARIS"
+
+#: inc/settings.php:103
+msgid "Remise « 2e parure »"
+msgstr "“2nd set” discount"
+
+#: inc/settings.php:105
+msgid ""
+"Remise calculée côté serveur sur la parure la moins chère du panier (frais "
+"négatif, TVA ventilée par WooCommerce). Visible au panier, au paiement, dans "
+"la commande et les e-mails."
+msgstr "Server-side discount on the cheapest set in the cart (negative fee, VAT split by WooCommerce). Shown in cart, checkout, order and e-mails."
+
+#: inc/settings.php:109
+msgid "Activer"
+msgstr "Enable"
+
+#: inc/settings.php:115
+msgid "Pourcentage"
+msgstr "Percentage"
+
+#: inc/settings.php:126
+msgid "Libellé"
+msgstr "Label"
+
+#: inc/settings.php:130
+msgid "2e parure −15 %"
+msgstr "2nd set −15%"
+
+#: inc/settings.php:131
+msgid "Laisser vide pour le libellé automatique traduit (FR/EN)."
+msgstr "Leave empty for the automatic translated label (FR/EN)."
+
+#: inc/settings.php:134
+msgid "Mode"
+msgstr "Mode"
+
+#: inc/settings.php:139
+msgid "Une seule parure remisée (la moins chère), dès 2 parures"
+msgstr "A single discounted set (the cheapest), from 2 sets"
+
+#: inc/settings.php:140
+msgid "Une parure remisée par paire (les moins chères)"
+msgstr "One discounted set per pair (the cheapest)"
+
+#: inc/settings.php:144
+msgid "Catégories éligibles"
+msgstr "Eligible categories"
+
+#: inc/settings.php:150
+msgid "Vide = tous les produits."
+msgstr "Empty = all products."
+
+#: inc/settings.php:153
+msgid "Exclure les produits en promotion"
+msgstr "Exclude products on sale"
+
+#: inc/settings.php:159
+msgid "Cumulable avec un code promo"
+msgstr "Combinable with a coupon"
+
+#: inc/settings.php:163
+msgid ""
+"Décoché : la remise disparaît dès qu’un code promo est appliqué (protège la "
+"marge)."
+msgstr "Unchecked: the discount is removed as soon as a coupon is applied (protects margin)."
+
+#: inc/settings.php:171 patterns/footer.php:49
+msgid "Livraison"
+msgstr "Shipping"
+
+#: inc/settings.php:173
+msgid ""
+"Branvas propose un seul service (pas d’express, pas de date garantie). "
+"Configurez dans WooCommerce > Réglages > Expédition une méthode « Forfait » "
+"et une méthode « Livraison gratuite » avec montant minimum : voir tech/"
+"installation.md."
+msgstr "The supplier offers a single service (no express, no guaranteed date). In WooCommerce > Settings > Shipping, set up a “Flat rate” method and a “Free shipping” method with a minimum amount: see tech/installation.md."
+
+#: inc/settings.php:177
+msgid "Seuil de livraison offerte (affichage)"
+msgstr "Free shipping threshold (display)"
+
+#: inc/settings.php:181
+msgid "auto"
+msgstr "auto"
+
+#: inc/settings.php:182
+msgid ""
+"Vide = lu automatiquement dans la méthode « Livraison gratuite ». Sert aux "
+"textes (bandeau, réassurance). Le seuil réel reste celui de la méthode "
+"WooCommerce."
+msgstr "Empty = read automatically from the “Free shipping” method. Used in texts (banner, reassurance). The real threshold is the WooCommerce method’s."
+
+#: inc/settings.php:185
+msgid "Seuil calculé après la remise 2e parure"
+msgstr "Threshold computed after the 2nd set discount"
+
+#: inc/settings.php:191
+msgid "Masquer le forfait quand la livraison est offerte"
+msgstr "Hide flat rate when shipping is free"
+
+#: inc/settings.php:197
+msgid "Délai affiché par défaut (jours ouvrés)"
+msgstr "Default delivery time shown (business days)"
+
+#: inc/settings.php:201
+#, php-format
+msgid ""
+"France : 4–9 (source Branvas, 90 % des colis, de la commande à la "
+"livraison). Les autres pays utilisent la table du thème (filtre "
+"charmed_delivery_days)."
+msgstr "France: 4–9 (supplier data, 90% of parcels, order to delivery). Other countries use the theme table (charmed_delivery_days filter)."
+
+#: inc/settings.php:209
+msgid "Paiement et stock"
+msgstr "Checkout and stock"
+
+#: inc/settings.php:214
+msgid "Téléphone au paiement"
+msgstr "Phone at checkout"
+
+#: inc/settings.php:219
+msgid "Obligatoire pour toutes les destinations (recommandé)"
+msgstr "Required for all destinations (recommended)"
+
+#: inc/settings.php:220
+msgid "Obligatoire sauf États-Unis et Royaume-Uni (règle minimale Branvas)"
+msgstr "Required except United States and United Kingdom (supplier minimum rule)"
+
+#: inc/settings.php:221
+msgid "Laisser le réglage WooCommerce"
+msgstr "Keep the WooCommerce setting"
+
+#: inc/settings.php:223
+msgid ""
+"Branvas exige un téléphone pour livrer hors États-Unis et Royaume-Uni "
+"(douane, DHL)."
+msgstr "The supplier requires a phone number outside the US and UK (customs, DHL)."
+
+#: inc/settings.php:226
+msgid "Ne jamais afficher la quantité en stock"
+msgstr "Never show stock quantity"
+
+#: inc/settings.php:230
+msgid ""
+"Le stock est synchronisé par Branvas avec une valeur fictive : ne pas "
+"modifier les quantités à la main."
+msgstr "Stock is synced by the supplier with a placeholder value: do not edit quantities by hand."
+
+#: inc/settings.php:233
+msgid "Libellé du bouton de commande"
+msgstr "Place order button label"
+
+#: inc/settings.php:238
+msgid ""
+"Article L221-14 du Code de la consommation. Vide = libellé traduit "
+"automatiquement (FR/EN)."
+msgstr "French Consumer Code art. L221-14. Empty = automatically translated label (FR/EN)."
+
+#: inc/settings.php:241
+msgid "Afficher les prix barrés"
+msgstr "Show struck-through prices"
+
+#: inc/settings.php:245
+msgid ""
+"Décoché (recommandé au lancement) : seul le prix payé est affiché, pas de "
+"prix barré ni de badge « Promo ». Un prix barré doit être le plus bas prix "
+"pratiqué sur les 30 derniers jours (L112-1-1)."
+msgstr "Unchecked (recommended at launch): only the price paid is shown, no struck-through price or “Sale” badge. A reference price must be the lowest price of the last 30 days (L112-1-1)."
+
+#: inc/settings.php:253
+msgid "Noël"
+msgstr "Christmas"
+
+#: inc/settings.php:255
+msgid ""
+"Dates Branvas 2026. Format AAAA-MM-JJ, fuseau horaire du site (Europe/Paris)."
+msgstr "Supplier dates 2026. Format YYYY-MM-DD, site time zone (Europe/Paris)."
+
+#: inc/settings.php:259
+msgid "Emballage de Noël offert : début"
+msgstr "Free Christmas wrapping: start"
+
+#: inc/settings.php:265
+msgid "Emballage de Noël offert : fin"
+msgstr "Free Christmas wrapping: end"
+
+#: inc/settings.php:271
+msgid "Date limite de commande pour Noël (Europe)"
+msgstr "Christmas order-by date (Europe)"
+
+#: inc/setup.php:54
+msgid "Parure détourée"
+msgstr "Cut-out set"
+
+#: inc/setup.php:55
+msgid "Univers (3:4)"
+msgstr "Collection (3:4)"
+
+#: inc/withdrawal.php:35 inc/withdrawal.php:113
+msgid "Me rétracter"
+msgstr "Withdraw from contract"
+
+#: inc/withdrawal.php:40 inc/withdrawal.php:119
+msgid "Confirmer ma rétractation"
+msgstr "Confirm withdrawal"
+
+#: inc/withdrawal.php:85 inc/withdrawal.php:148 inc/withdrawal.php:384
+#: inc/withdrawal.php:439
+msgid "Rétractation"
+msgstr "Withdrawal"
+
+#: inc/withdrawal.php:97
+msgid "Fonction de rétractation en ligne"
+msgstr "Online withdrawal function"
+
+#: inc/withdrawal.php:99
+msgid ""
+"Obligatoire depuis le 19 juin 2026 (L221-21). Vérifiez les libellés exacts "
+"imposés par le décret d’application avant la mise en ligne."
+msgstr "Mandatory since 19 June 2026 (L221-21). Check the exact wording required by the implementing decree before going live."
+
+#: inc/withdrawal.php:103
+msgid "Page du formulaire"
+msgstr "Form page"
+
+#: inc/withdrawal.php:107
+msgid ""
+"Page contenant le shortcode [charmed_withdrawal_form]. À exclure du cache de "
+"page."
+msgstr "Page containing the [charmed_withdrawal_form] shortcode. Exclude it from page cache."
+
+#: inc/withdrawal.php:110
+msgid "Libellé du lien / bouton"
+msgstr "Link / button label"
+
+#: inc/withdrawal.php:116
+msgid "Libellé du bouton de confirmation"
+msgstr "Confirmation button label"
+
+#: inc/withdrawal.php:122
+msgid "E-mail du marchand"
+msgstr "Merchant e-mail"
+
+#: inc/withdrawal.php:147
+msgid "Rétractations"
+msgstr "Withdrawals"
+
+#: inc/withdrawal.php:169
+msgid ""
+"Rétractation : créez la page du formulaire (WooCommerce > Réglages > Avancé "
+"> Rétractation)."
+msgstr "Withdrawal: create the form page (WooCommerce > Settings > Advanced > Withdrawal)."
+
+#: inc/withdrawal.php:230
+msgid "Ta demande de rétractation est enregistrée."
+msgstr "Your withdrawal request has been recorded."
+
+#. translators: %s: reference
+#: inc/withdrawal.php:233
+#, php-format
+msgid ""
+"Référence : %s. Un accusé de réception daté vient de t’être envoyé par e-"
+"mail. Nous revenons vers toi avec les modalités de retour."
+msgstr "Reference: %s. A dated acknowledgement has just been e-mailed to you. We will get back to you with return instructions."
+
+#: inc/withdrawal.php:257
+msgid "Merci de renseigner ton nom, ton e-mail et ton numéro de commande."
+msgstr "Please enter your name, e-mail and order number."
+
+#: inc/withdrawal.php:259
+msgid ""
+"Tu disposes de 14 jours après la réception de ta commande pour te rétracter, "
+"sans avoir à te justifier."
+msgstr "You have 14 days after receiving your order to withdraw, without giving any reason."
+
+#: inc/withdrawal.php:261
+msgid "Numéro de commande"
+msgstr "Order number"
+
+#: inc/withdrawal.php:265
+msgid "E-mail utilisé pour la commande"
+msgstr "E-mail used for the order"
+
+#: inc/withdrawal.php:269
+msgid "Nom et prénom"
+msgstr "Full name"
+
+#: inc/withdrawal.php:273 inc/withdrawal.php:279
+msgid "Articles concernés"
+msgstr "Items concerned"
+
+#: inc/withdrawal.php:280
+msgid "Toute la commande, ou les parures concernées"
+msgstr "The whole order, or the sets concerned"
+
+#: inc/withdrawal.php:284
+msgid "Commentaire (facultatif)"
+msgstr "Comment (optional)"
+
+#. translators: %s: reference
+#: inc/withdrawal.php:350
+#, php-format
+msgid "Référence : %s"
+msgstr "Reference: %s"
+
+#. translators: 1: local date, 2: UTC date
+#: inc/withdrawal.php:351
+#, php-format
+msgid "Reçue le : %1$s (UTC %2$s)"
+msgstr "Received on: %1$s (UTC %2$s)"
+
+#. translators: %s: name
+#: inc/withdrawal.php:352
+#, php-format
+msgid "Nom : %s"
+msgstr "Name: %s"
+
+#. translators: %s: email
+#: inc/withdrawal.php:353
+#, php-format
+msgid "E-mail : %s"
+msgstr "E-mail: %s"
+
+#. translators: %s: order number
+#: inc/withdrawal.php:354
+#, php-format
+msgid "Commande : %s"
+msgstr "Order: %s"
+
+#. translators: %s: items
+#: inc/withdrawal.php:355
+#, php-format
+msgid "Articles : %s"
+msgstr "Items: %s"
+
+#: inc/withdrawal.php:355
+msgid "toute la commande"
+msgstr "the whole order"
+
+#. translators: %s: comment
+#: inc/withdrawal.php:356
+#, php-format
+msgid "Commentaire : %s"
+msgstr "Comment: %s"
+
+#: inc/withdrawal.php:358
+msgid ""
+"Je notifie par la présente ma rétractation du contrat portant sur la vente "
+"des biens ci-dessus."
+msgstr "I hereby give notice that I withdraw from my contract of sale of the goods above."
+
+#: inc/withdrawal.php:376
+msgid "Demande de rétractation reçue en ligne."
+msgstr "Withdrawal request received online."
+
+#: inc/withdrawal.php:384
+msgid "COMMANDE NON RETROUVÉE (vérifier)"
+msgstr "ORDER NOT FOUND (check)"
+
+#. translators: 1: shop name, 2: reference
+#: inc/withdrawal.php:390
+#, php-format
+msgid "[%1$s] Accusé de réception de ta rétractation (%2$s)"
+msgstr "[%1$s] Acknowledgement of your withdrawal (%2$s)"
+
+#: inc/withdrawal.php:391
+msgid "Bonjour,"
+msgstr "Hello,"
+
+#: inc/withdrawal.php:391
+msgid ""
+"Nous accusons réception de ta demande de rétractation, dont voici la copie :"
+msgstr "We acknowledge receipt of your withdrawal request; here is a copy:"
+
+#: inc/withdrawal.php:391
+msgid ""
+"Nous revenons vers toi avec les modalités de retour. Le remboursement "
+"intervient au plus tard 14 jours après réception de ta demande (il peut être "
+"différé jusqu’à la récupération des articles)."
+msgstr "We will get back to you with return instructions. You will be refunded within 14 days of your request at the latest (this may be delayed until the items are received back)."
+
+#: inc/withdrawal.php:422
+msgid ""
+"Rétractation en ligne (L221-21) : la page du formulaire n’existe pas encore."
+msgstr "Online withdrawal (L221-21): the form page does not exist yet."
+
+#: inc/withdrawal.php:424
+msgid "Créer la page"
+msgstr "Create the page"
+
+#: inc/withdrawal.php:432
+msgid "Accès refusé."
+msgstr "Access denied."
+
+#: patterns/404-content.php:16
+msgid "Cet écrin est vide."
+msgstr "This box is empty."
+
+#: patterns/404-content.php:17
+msgid "La page que tu cherches n’existe pas ou a changé d’adresse."
+msgstr "The page you are looking for does not exist or has moved."
+
+#: patterns/404-content.php:18 patterns/header.php:37
+msgid "Rechercher une parure"
+msgstr "Search for a set"
+
+#: patterns/404-content.php:18 patterns/header.php:37
+msgid "Rechercher"
+msgstr "Search"
+
+#: patterns/404-content.php:19 patterns/parure-duo.php:33
+msgid "Voir les parures"
+msgstr "See the sets"
+
+#: patterns/cadeaux.php:18 patterns/footer.php:38
+msgid "Idées cadeaux"
+msgstr "Gift ideas"
+
+#: patterns/cadeaux.php:19
+msgid "Offrir, selon ton budget"
+msgstr "Gifts by budget"
+
+#: patterns/cadeaux.php:22
+msgid "Jusqu’à"
+msgstr "Up to"
+
+#: patterns/cadeaux.php:22
+msgid "Parures Sculpture et Mixte"
+msgstr "Sculpture and Unisex sets"
+
+#: patterns/cadeaux.php:23
+msgid "De 50 à"
+msgstr "From 50 to"
+
+#: patterns/cadeaux.php:23
+msgid "Parures Éclat et Couleur précieuse"
+msgstr "Sparkle and Precious Colour sets"
+
+#: patterns/cadeaux.php:24
+msgid "Plus de"
+msgstr "Over"
+
+#: patterns/cadeaux.php:24
+msgid "Joaillerie argent 925 et moissanite synthétique"
+msgstr "925 silver and lab-grown moissanite jewellery"
+
+#: patterns/footer.php:27
+msgid "Des parures prêtes à offrir. Ouvre. Laisse-toi charmer."
+msgstr "Jewellery sets ready to give. Open it. Be charmed."
+
+#: patterns/footer.php:34
+msgid "Boutique"
+msgstr "Shop"
+
+#: patterns/footer.php:37
+msgid "Toutes les parures"
+msgstr "All sets"
+
+#: patterns/footer.php:39
+msgid "Entretien des bijoux"
+msgstr "Jewellery care"
+
+#: patterns/footer.php:46
+msgid "Aide"
+msgstr "Help"
+
+#: patterns/footer.php:50
+msgid "Retours et rétractation"
+msgstr "Returns and withdrawal"
+
+#: patterns/footer.php:51
+msgid "Contact"
+msgstr "Contact"
+
+#: patterns/footer.php:59
+msgid "Informations légales"
+msgstr "Legal"
+
+#: patterns/footer.php:62
+msgid "Conditions générales de vente"
+msgstr "Terms of sale"
+
+#: patterns/footer.php:63
+msgid "Mentions légales"
+msgstr "Legal notice"
+
+#: patterns/footer.php:64
+msgid "Confidentialité"
+msgstr "Privacy"
+
+#: patterns/footer.php:65
+msgid "Cookies"
+msgstr "Cookies"
+
+#: patterns/footer.php:73
+msgid "Prix TTC en euros"
+msgstr "Prices include VAT, in euros"
+
+#: patterns/header.php:24
+msgid "Navigation principale"
+msgstr "Main navigation"
+
+#: patterns/header.php:25
+msgid "Parures"
+msgstr "Sets"
+
+#: patterns/header.php:26
+msgid "Cadeaux"
+msgstr "Gifts"
+
+#: patterns/header.php:27
+msgid "Joaillerie 925"
+msgstr "925 Jewellery"
+
+#: patterns/offrir.php:26
+msgid "L’écrin Charmed"
+msgstr "The Charmed box"
+
+#: patterns/offrir.php:27
+msgid "Chaque commande part prête à offrir"
+msgstr "Every order leaves ready to give"
+
+#: patterns/offrir.php:30
+msgid ""
+"Un carton d’envoi à notre logo et, à l’intérieur, une boîte à bijoux à "
+"tiroir nouée d’un ruban."
+msgstr "A shipping box with our logo and, inside, a drawer jewellery box tied with a ribbon."
+
+#: patterns/offrir.php:31
+msgid ""
+"Une pochette en velours, une chamoisine d’entretien et une carte de conseils."
+msgstr "A velvet pouch, a polishing cloth and a care card."
+
+#: patterns/offrir.php:32
+msgid ""
+"Plusieurs parures ? Elles voyagent dans le même colis : la première dans la "
+"boîte à bijoux, les suivantes dans des sachets refermables."
+msgstr "Several sets? They travel in the same parcel: the first in the jewellery box, the others in resealable bags."
+
+#: patterns/offrir.php:33
+msgid "Joaillerie 925 : la parure arrive dans un écrin en velours bleu."
+msgstr "925 Jewellery: the set arrives in a blue velvet box."
+
+#: patterns/offrir.php:34
+msgid ""
+"Aucun prix sur le bordereau : tu peux l’envoyer directement à la personne "
+"que tu gâtes."
+msgstr "No prices on the packing slip: you can send it straight to the person you are spoiling."
+
+#: patterns/offrir.php:36
+msgid ""
+"Jusqu’au 24 décembre : papier cadeau de fête, ruban et carte de Noël, "
+"offerts."
+msgstr "Until 24 December: festive wrapping paper, ribbon and Christmas card, free."
+
+#: patterns/parure-duo.php:21
+msgid "La parure Charmed"
+msgstr "The Charmed set"
+
+#: patterns/parure-duo.php:22
+msgid "Le collier et ses boucles, pensés ensemble."
+msgstr "The necklace and its earrings, designed together."
+
+#. translators: %s: discount label, e.g. "2e parure −15 %"
+#: patterns/parure-duo.php:27
+#, php-format
+msgid ""
+"Rien à assortir : chaque parure est un ensemble, prêt à offrir. Et pour en "
+"offrir une, et garder l’autre : %s, appliquée automatiquement au panier."
+msgstr "Nothing to match: each set comes complete, ready to give. And to give one and keep the other: %s, applied automatically in the cart."
+
+#: patterns/parure-duo.php:29
+msgid "Rien à assortir : chaque parure est un ensemble, prêt à offrir."
+msgstr "Nothing to match: each set comes complete, ready to give."
+
+#. translators: %s: business days range
+#: patterns/reassurance.php:19
+#, php-format
+msgid "Livraison en %s jours ouvrés"
+msgstr "Delivery in %s business days"
+
+#. translators: %s: amount
+#: patterns/reassurance.php:19
+#, php-format
+msgid "Offerte dès %s · droits et taxes inclus"
+msgstr "Free from %s · duties and taxes included"
+
+#: patterns/reassurance.php:19
+msgid "Droits et taxes inclus"
+msgstr "Duties and taxes included"
+
+#: patterns/reassurance.php:20
+msgid "14 jours pour changer d’avis"
+msgstr "14 days to change your mind"
+
+#: patterns/reassurance.php:20
+msgid "Rétractation en ligne, en quelques clics"
+msgstr "Withdraw online in a few clicks"
+
+#: patterns/reassurance.php:21
+msgid "Paiement sécurisé"
+msgstr "Secure payment"
+
+#: patterns/reassurance.php:21
+msgid "Carte bancaire, Apple Pay, PayPal"
+msgstr "Card, Apple Pay, PayPal"
+
+#: patterns/reassurance.php:22
+msgid "Boîte à bijoux, ruban, aucun prix sur le bordereau"
+msgstr "Jewellery box, ribbon, no prices on the slip"

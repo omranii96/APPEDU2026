@@ -25,9 +25,9 @@
 | Pierres d'Éclat / Couleur précieuse | Zircone cubique → à nommer **« oxyde de zirconium »** ou « zircone » (« zircon » = autre pierre, naturelle : à éviter) ; EN « cubic zirconia » | — |
 | Codes-barres | **Pas d'EAN/GTIN** → Merchant Center : `identifier_exists = no` (marque propre) | — |
 | Retours | Branvas couvre seulement colis endommagé / défaut / mauvais article (10 jours). **La rétractation 14 jours (UE et UK) est à la charge de CHARMED PARIS**, retour à une adresse fournie par la marque | Adresse de retour (France idéalement), frais de retour client ou offerts |
-| Prix | Fourchettes maquette : Sculpture 49–59 €, Éclat 59–79 €, Couleur précieuse 69–89 €, Joaillerie 925 149–249 €, Mixte 49 € | Prix définitifs EUR, GBP, USD, CAD |
-| Offres panier | « Livraison offerte dès 50 € », « 2e parure −15 % » (maquette). **Prix barrés interdits au lancement** (L112-1-1), jamais le prix conseillé Branvas en prix barré, pas de faux Black Friday | À valider ; règle Branvas pour un seuil : 20–30 % au-dessus du panier moyen ; la 2e parure n'a pas son propre écrin (à dire) |
-| Avis | Aucun ; Branvas n'en fournit pas | Outil d'avis réel (Judge.me, etc.) |
+| Prix | Fourchettes maquette : Sculpture 49–59 €, Éclat 59–79 €, Couleur précieuse 69–89 €, Joaillerie 925 149–249 €, Mixte 49 €. Décision : **toutes les parures ≥ 50 € sauf Molten Art (49 €)** ; **EUR au lancement**, y compris sur `/en/` | Prix définitifs par produit |
+| Offres panier | **Décidé** : livraison offerte dès 50 € (4,90 € en dessous), « 2e parure −15 % ». **Aucun prix barré au lancement** (L112-1-1), jamais le prix conseillé Branvas en prix barré, pas de faux Black Friday | La 2e parure arrive sans son propre écrin (sachet scellé) : à l'écrire près de l'offre |
+| Avis | Aucun ; Branvas n'en fournit pas. **Décidé** : avis natifs WooCommerce réservés aux acheteuses vérifiées, demande d'avis envoyée par Brevo (pas de Judge.me) | — |
 | Domaine / marque | Domaines libres au 22/11/2026 | Achat, dépôt INPI/EUIPO (et UKIPO/USPTO si EN) |
 
 **Conséquence SEO :** domaine neuf, zéro autorité, zéro avis, 30 produits, deux langues. Les têtes de requête (« parure bijoux », « jewelry set ») sont inaccessibles à court terme. On vise la **longue traîne**, les **pages cadeaux** (occasion + budget), les **univers** (style + matière), des **contenus matières factuels** (conversion + citation par les IA) et **Google Merchant Center** pour apparaître dans Shopping sans autorité de domaine.
@@ -83,7 +83,7 @@ Priorité : **H** = haute (dès le lancement), **M** = moyenne (mois 2–6), **B
 | cadeau saint valentin femme bijoux | `/parures/idees-cadeaux/saint-valentin/` | H | Janvier → 14/02 |
 | cadeau fête des mères bijoux | `/parures/idees-cadeaux/fete-des-meres/` | H | Avril → fin mai (date 2027 **à confirmer**, a priori dim. 30/05/2027) |
 | cadeau anniversaire femme bijoux (30, 40, 50 ans) | `/parures/idees-cadeaux/anniversaire/` | M | Toute l'année |
-| cadeau bijoux moins de 50 € | `/parures/idees-cadeaux/moins-de-50-euros/` | M | **Ouvrir seulement si ≥ 6 parures ≤ 50 € TTC**, sinon « moins de 60 € » |
+| cadeau bijoux moins de 60 € / moins de 50 € | `/parures/idees-cadeaux/moins-de-60-euros/` | M | Une page « moins de 50 € » n'aurait qu'un produit (Molten Art, 49 €) : on vise « moins de 60 € » et « moins de 50 € » en secondaire. Indexer si ≥ 6 parures |
 | cadeau bijoux moins de 100 € | `/parures/idees-cadeaux/moins-de-100-euros/` | M | Toute l'année |
 | bijoux témoin de mariage / parure invitée mariage | `/parures/idees-cadeaux/mariage/` | M | Mars–septembre |
 | cadeau bijou précieux femme | `/parures/idees-cadeaux/cadeau-precieux/` | B | Fin d'année |
@@ -122,7 +122,7 @@ Priorité : **H** = haute (dès le lancement), **M** = moyenne (mois 2–6), **B
 - **Une seule version anglaise** au lancement, `hreflang="en"` (pas de `en-GB` / `en-US` séparés tant qu'on n'a pas de prix, de livraison et de contenus distincts). Scinder en `/en-gb/` et `/en-us/` seulement si le trafic le justifie.
 - **Orthographe** : « jewelry » (US) dans les URLs et les titles, car c'est le plus gros marché de recherche ; « jewellery » (UK, Canada) dans les textes, les metas et les mots-clés secondaires. Google rapproche les deux formes, mais on couvre les deux explicitement. Décision **à valider**.
 - **Ne pas traduire mot à mot** : les titles EN reprennent les formulations natives (« necklace and earring set », « gift for her », « gift set »), pas « parure ».
-- **Devise** : prix affichés en GBP pour le UK, USD pour les US, CAD pour le Canada (WooCommerce Multilingual & Multicurrency, cf. `architecture.md`), en **prix ronds saisis à la main**, pas en conversion automatique. Prix **à confirmer**.
+- **Devise** : **EUR au lancement** sur `/en/` aussi (décision BRIEF). Afficher clairement « Prices in EUR, duties and taxes included » ; la banque de la cliente convertit. Multidevise (GBP, USD, CAD, prix ronds saisis à la main) à réévaluer avec un plugin dédié quand les ventes EN le justifient. Les pages budget EN sont en euros (« Under €100 »).
 - **Taxes** : TVA UK sur les ventes B2C ≤ 135 £ à collecter par le vendeur, sales tax US selon les États, GST/HST au Canada : **à confirmer avec un comptable avant d'ouvrir chaque pays**. L'affichage TTC / HT en dépend.
 - **Royaume-Uni : ne pas ouvrir avant l'immatriculation TVA UK** (règle juridique), et **ligne argent 925 exclue au UK** tant que le poinçonnage britannique n'est pas vérifié (obligatoire au-delà de 7,78 g). Ordre d'ouverture recommandé : US et Canada d'abord, UK ensuite. La version `/en/` reste indexable pour tous les anglophones ; les pays bloqués sont gérés au checkout et dans Merchant Center.
 - **Vocabulaire EN autorisé** (Branvas) : « gold-plated » (accepté), « 14K gold-plated » seulement si le carat est relevé sur la fiche, « 925 sterling silver », « lab-grown moissanite », « genuine cultured freshwater pearls », « cubic zirconia ». **Interdits** : « gold vermeil », « solid gold », « waterproof », « tarnish-free », « hypoallergenic », « nickel-free » (la version EN est aussi lue dans l'UE et au UK), « diamond », « handmade in Paris », « ships from France », « express shipping ».
@@ -145,7 +145,7 @@ Priorité : **H** = haute (dès le lancement), **M** = moyenne (mois 2–6), **B
 | mother's day jewelry gift | `/en/jewelry-sets/gift-ideas/mothers-day/` | H | UK Mothering Sunday 07/03/2027, US/CA 09/05/2027 (**à confirmer**) |
 | birthday jewelry gift for her | `/en/jewelry-sets/gift-ideas/birthday/` | M | |
 | bridesmaid jewelry set / wedding guest jewelry | `/en/jewelry-sets/gift-ideas/wedding/` | M | |
-| jewelry gifts under 100 | `/en/jewelry-sets/gift-ideas/under-100/` | M | Seuils par devise à fixer après les prix |
+| jewelry gifts under 100 (€) | `/en/jewelry-sets/gift-ideas/under-100/` | M | En euros au lancement |
 | is gold-plated jewelry waterproof / can you shower with gold-plated jewelry | article EN | M | Réponse honnête : non |
 | what is moissanite | article EN | H | |
 
@@ -181,7 +181,7 @@ Horizon indicatif, sans garantie : marque dès l'indexation ; longue traîne cad
 | Plusieurs mots-clés par page | Oui | Premium |
 | noindex granulaire (tags, attributs, archives) | Oui | Oui |
 | Fil d'Ariane avec catégorie principale | Oui | Oui |
-| Compatibilité WPML (titles, metas, sitemap, hreflang) | Officielle | Officielle |
+| Compatibilité TranslatePress SEO Pack (titles, metas, sitemap, hreflang) | Oui | Oui |
 
 **Choix : Rank Math gratuit au lancement**, Pro (tarif **à confirmer**) seulement pour des schémas personnalisés avancés. Raison : redirections (indispensables vu les ruptures et retraits de produits côté fournisseur), schéma Woo et catégorie principale inclus sans surcoût.
 

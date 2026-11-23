@@ -1,0 +1,69 @@
+/* CHARMED PARIS — intro « écrin ».
+   État par défaut (sans JS, réduction des animations, trafic pub, hors accueil) : héros statique
+   d'un écran : logo fermé, anneau CSS, H1 + signature + bouton visibles.
+   Mode film (.cp-motion:not(.cp-ad) .cp-intro[data-film]) : 260vh desktop / 170vh mobile,
+   scène collante animée par intro.js, lien « Passer l'intro ». La hauteur est posée en CSS
+   avant le premier rendu (classe ajoutée dans <head>) : pas de décalage de mise en page. */
+
+.cp-intro { position: relative; height: 100vh; height: 100svh; min-height: 520px; background: var(--cp-velours); color: var(--cp-velours-fg); margin-block: 0 !important; }
+.cp-intro__stage { position: sticky; top: 0; height: 100vh; height: 100svh; min-height: 520px; overflow: hidden; background: radial-gradient(ellipse 70% 60% at 50% 45%, var(--cp-velours-2) 0%, var(--cp-velours) 70%); }
+.cp-intro__stage::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse 75% 70% at 50% 48%, transparent 55%, rgba(0, 0, 0, .7) 100%); }
+.cp-intro__gl { position: absolute; inset: 0; width: 100%; height: 100%; display: block; opacity: 0; transition: opacity .6s; }
+.cp-intro.has-gl .cp-intro__gl { opacity: 1; }
+.cp-intro.has-gl .cp-intro__ring { display: none; }
+.cp-intro__poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.cp-intro__glow { position: absolute; inset: -20%; pointer-events: none; opacity: .35; background: radial-gradient(ellipse 34% 40% at 50% 47%, rgba(255, 226, 170, .55), rgba(169, 129, 63, .18) 45%, transparent 72%); mix-blend-mode: screen; }
+
+/* Anneau CSS : poster sans octet et repli sans WebGL */
+.cp-intro__ring { position: absolute; left: 50%; top: 42%; width: 26vmin; height: 26vmin; border-radius: 50%; border: 2vmin solid var(--cp-or-clair); transform: translate(-50%, -50%); box-shadow: 0 0 60px rgba(255, 226, 170, .55), inset 0 0 30px rgba(255, 226, 170, .25); opacity: .9; }
+
+/* Logo */
+.cp-intro__logo { position: absolute; left: 50%; top: 24%; width: 0; height: 0; font-size: clamp(40px, 9vw, 120px); font-family: var(--cp-display); color: var(--cp-velours-fg); perspective: 900px; z-index: 2; text-transform: uppercase; line-height: 1; }
+.cp-intro__logo .cp-br, .cp-intro__mid, .cp-intro__paris { position: absolute; left: 0; top: 0; will-change: transform; }
+.cp-intro__logo .cp-br { border-color: var(--cp-or-clair); filter: drop-shadow(0 0 .12em rgba(233, 203, 143, .45)); }
+.cp-intro__logo .cp-br--l { transform: translate(-50%, -50%) translateX(-1.6em); }
+.cp-intro__logo .cp-br--r { transform: translate(-50%, -50%) translateX(1.6em); }
+.cp-intro__mid { transform: translate(-50%, -50%); white-space: nowrap; letter-spacing: .08em; padding-left: .08em; }
+.cp-intro__paris { transform: translate(-50%, 4.4em); font: 500 .15em/1 var(--cp-body); letter-spacing: .8em; padding-left: .8em; color: var(--cp-or-clair); white-space: nowrap; }
+
+.cp-intro__it { position: absolute; left: 50%; transform: translateX(-50%); font-family: var(--cp-display); font-style: italic; font-size: clamp(26px, 4.2vw, 52px); white-space: nowrap; margin: 0; opacity: 0; z-index: 3; text-shadow: 0 2px 30px rgba(0, 0, 0, .6); pointer-events: none; }
+.cp-intro__open { top: 68%; font-size: clamp(22px, 3vw, 34px); color: var(--cp-or-clair); }
+.cp-intro__t1, .cp-intro__t2 { bottom: calc(12% + env(safe-area-inset-bottom, 0px)); }
+
+.cp-intro__final { position: absolute; left: 50%; bottom: 9%; transform: translateX(-50%); text-align: center; z-index: 3; display: flex; flex-direction: column; align-items: center; gap: 12px; width: max-content; max-width: calc(100% - 32px); }
+.cp-intro__title { margin: 0; font-family: var(--cp-display); font-weight: 400; display: flex; flex-direction: column; align-items: center; gap: 6px; line-height: 1; }
+.cp-intro__final-wm { letter-spacing: .5em; padding-left: .5em; font-size: clamp(18px, 2.4vw, 28px); }
+.cp-intro__final-sub { font: 500 clamp(12px, 1.3vw, 15px)/1 var(--cp-body); letter-spacing: .8em; padding-left: .8em; color: var(--cp-or-clair); }
+.cp-intro__tag { margin: 0; font-family: var(--cp-display); font-style: italic; font-size: clamp(16px, 1.8vw, 20px); color: var(--cp-or-clair); }
+.cp-intro .cp-btn { color: var(--cp-velours-fg); }
+
+/* Lien « Passer l'intro » */
+.cp-intro__skip { position: absolute; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(22px + env(safe-area-inset-bottom, 0px)); z-index: 5; font: 500 12px/1 var(--cp-body); letter-spacing: .14em; text-transform: uppercase; color: var(--cp-velours-fg); text-decoration: none; border: 1px solid rgba(233, 203, 143, .5); padding: 10px 14px; border-radius: 999px; background: rgba(26, 16, 21, .4); }
+.cp-intro__skip:hover, .cp-intro__skip:focus-visible { background: var(--cp-or-clair); color: var(--cp-velours); }
+
+.cp-intro__hint, .cp-intro__prog { display: none; }
+
+/* ---------- Mode film ---------- */
+.cp-motion:not(.cp-ad) .cp-intro[data-film] { height: 260vh; }
+@media (max-width: 760px) { .cp-motion:not(.cp-ad) .cp-intro[data-film] { height: 170vh; } }
+.cp-motion:not(.cp-ad) .cp-intro[data-film] .cp-intro__logo { top: 46%; }
+.cp-motion:not(.cp-ad) .cp-intro[data-film] .cp-intro__ring { opacity: 0; top: 46%; width: 30vmin; height: 30vmin; border-width: 2.2vmin; }
+.cp-motion:not(.cp-ad) .cp-intro[data-film] .cp-intro__poster { opacity: 0; }
+.cp-motion:not(.cp-ad) .cp-intro[data-film] .cp-intro__glow { opacity: 0; }
+.cp-motion:not(.cp-ad) .cp-intro[data-film] .cp-intro__open { opacity: 1; }
+.cp-motion:not(.cp-ad) .cp-intro[data-film] .cp-intro__final { opacity: 0; visibility: hidden; bottom: 7%; }
+.cp-motion:not(.cp-ad) .cp-intro[data-film] .cp-intro__hint { display: flex; position: absolute; left: 50%; bottom: calc(26px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); flex-direction: column; align-items: center; gap: 12px; z-index: 3; white-space: nowrap; color: var(--cp-velours-fg); font: 500 13px/1.3 var(--cp-body); letter-spacing: .2em; text-align: center; }
+.cp-intro__hint b { font-weight: 500; }
+.cp-intro__mouse { width: 26px; height: 42px; border: 1.5px solid var(--cp-or-clair); border-radius: 14px; position: relative; }
+.cp-intro__mouse::before { content: ""; position: absolute; left: 50%; top: 8px; width: 3px; height: 8px; margin-left: -1.5px; border-radius: 2px; background: var(--cp-or-clair); animation: cp-wheel 1.6s ease-in-out infinite; }
+@keyframes cp-wheel { 0% { transform: translateY(0); opacity: 1; } 70% { transform: translateY(13px); opacity: 0; } 100% { transform: translateY(0); opacity: 0; } }
+.cp-intro__chevs { display: flex; flex-direction: column; align-items: center; margin-top: -4px; }
+.cp-intro__chevs i { width: 11px; height: 11px; border-right: 1.5px solid var(--cp-or-clair); border-bottom: 1.5px solid var(--cp-or-clair); transform: rotate(45deg); margin-top: -3px; animation: cp-chev 1.6s ease-in-out infinite; }
+.cp-intro__chevs i:nth-child(2) { animation-delay: .2s; }
+@keyframes cp-chev { 0%, 100% { opacity: .15; } 50% { opacity: 1; } }
+.cp-touch { display: none; }
+@media (hover: none) { .cp-intro__mouse, .cp-desk { display: none; } .cp-touch { display: inline; } }
+.cp-motion:not(.cp-ad) .cp-intro[data-film] .cp-intro__prog { display: block; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; z-index: 4; }
+.cp-intro__prog i { display: block; height: 100%; background: var(--cp-or-clair); transform-origin: left; transform: scaleX(0); }
+/* Le lien « Passer l'intro » n'existe qu'en mode film, masqué hors film (trafic pub). */
+.cp-ad .cp-intro__skip, html:not(.cp-motion) .cp-intro__skip { display: none; }

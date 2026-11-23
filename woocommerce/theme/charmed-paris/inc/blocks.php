@@ -174,7 +174,7 @@ function charmed_block_definitions(): array {
 		),
 		'language-switcher' => array(
 			'title'       => __( 'Sélecteur de langue', 'charmed-paris' ),
-			'description' => __( 'FR / EN via TranslatePress, Polylang ou WPML (rien ne s’affiche sans plugin multilingue).', 'charmed-paris' ),
+			'description' => __( 'FR / EN via TranslatePress (plugin retenu ; Polylang et WPML restent lus). Rien ne s’affiche sans plugin multilingue.', 'charmed-paris' ),
 			'icon'        => 'translation',
 			'render'      => 'charmed_render_language_switcher',
 			'styles'      => array(),

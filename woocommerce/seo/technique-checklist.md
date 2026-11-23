@@ -28,7 +28,7 @@ Objectifs (75e centile mobile, données terrain CrUX / Search Console) : **LCP <
 - [ ] Hébergement local de `three.min.js` (pas de CDN tiers en production, une connexion de moins), version **à mettre à jour** (r128 est ancienne), minifiée, compressée Brotli.
 - [ ] Textures et modèles compressés (WebP/KTX2, glTF Draco si modèle), poids total de l'intro < 500 Ko visé (**à mesurer**).
 - [ ] `prefers-reduced-motion: reduce` → pas d'animation, poster seul. Mobile bas de gamme (`navigator.hardwareConcurrency <= 4` ou `deviceMemory <= 4`) → poster seul.
-- [ ] Pas de scroll bloqué (« scroll-jacking ») : la page doit défiler et le contenu rester accessible même si la 3D ne charge pas. Bouton « Passer l'intro ».
+- [ ] Intro limitée à **260vh (170vh sur mobile)**, lien « Passer l'intro » visible dès l'arrivée, et **aucune intro pour le trafic publicitaire** (les pubs pointent vers les fiches produits et pages d'atterrissage, pas vers l'accueil) — décision BRIEF du 23/11/2026. Pas de scroll bloqué : la page défile et le contenu reste accessible même si la 3D ne charge pas.
 - [ ] Hauteur réservée pour le canvas (CSS `aspect-ratio` ou hauteur fixe) → CLS nul.
 - [ ] Boucle de rendu arrêtée quand le canvas sort de l'écran (`IntersectionObserver`) et quand l'onglet est masqué → INP et batterie.
 
@@ -60,9 +60,9 @@ Format : `Parure {Nom} de CHARMED PARIS : {pièces} {finition}{, pierres/perles}
 | Vue | Exemple FR | Exemple EN |
 |---|---|---|
 | Packshot | « Parure Molten Art de CHARMED PARIS : collier à chaînes superposées et boucles d'oreilles dorées aux formes fluides » | « Molten Art set by CHARMED PARIS: layered gold-tone chain necklace and fluid sculptural earrings » |
-| Détail | « Boucle d'oreille de la parure Solar Sphere, dôme doré parsemé de zircons, vue de près » | « Close-up of a Solar Sphere stud earring, gold-plated dome with cubic zirconia » |
+| Détail | « Boucle d'oreille de la parure Solar Sphere, dôme doré parsemé d'oxydes de zirconium, vue de près » | « Close-up of a Solar Sphere stud earring, gold-plated dome with cubic zirconia » |
 | Portée | « Collier et boucles Blush Dreams portés : argent 925 et moissanites roses » | « Blush Dreams necklace and earrings worn: 925 sterling silver and pink moissanite » |
-| Pièces séparées | « Les trois pièces de la parure Pink Pavé : collier barrette, créoles et bague ouverte, zircons roses » | « The three Pink Pavé pieces: bar necklace, hoops and open ring with pink cubic zirconia » |
+| Pièces séparées | « Les trois pièces de la parure Pink Pavé : collier barrette, créoles et bague ouverte, zircones roses » | « The three Pink Pavé pieces: bar necklace, hoops and open ring with pink cubic zirconia » |
 
 Règles : 80–125 caractères, décrire ce qu'on voit (forme, couleur, matière vérifiée), une seule fois la marque, pas de bourrage de mots-clés, jamais « plaqué or », « or », « diamant », « cristal », « waterproof ». Images décoratives (motifs, séparateurs) : `alt=""`.
 
@@ -113,7 +113,7 @@ Sitemap: https://charmedparis.com/sitemap_index.xml
 ### 3.2 Sitemap
 
 - [ ] Rank Math → Sitemap : Pages, Articles, Produits, Catégories produit, Catégories d'articles ; exclus : étiquettes, attributs, auteurs, pages noindex, pages légales noindex.
-- [ ] Avec WPML : sitemap par langue, URLs EN incluses dans `sitemap_index.xml`.
+- [ ] Avec TranslatePress SEO Pack : URLs EN et leurs `hreflang` ajoutées au sitemap Rank Math (`sitemap_index.xml`) ; exclure les pages EN non traduites.
 - [ ] Soumettre dans Search Console et Bing Webmaster Tools ; vérifier qu'aucune URL du sitemap ne renvoie 3xx, 4xx ou noindex.
 - [ ] Produits en rupture **restent** dans le sitemap (§6).
 
@@ -127,10 +127,10 @@ Sitemap: https://charmedparis.com/sitemap_index.xml
 
 ### 3.4 hreflang (FR maintenant, EN sous /en/)
 
-- [ ] WPML génère `fr-FR`, `en`, `x-default` (→ FR) sur chaque page traduite ; vérifier la réciprocité dans le code source et avec un outil (Screaming Frog, Ahrefs Webmaster Tools gratuits).
+- [ ] TranslatePress SEO Pack génère `fr-FR`, `en`, `x-default` (→ FR) sur chaque page ; vérifier la réciprocité dans le code source et avec un outil (Screaming Frog, Ahrefs Webmaster Tools gratuits).
 - [ ] Pas de hreflang vers une page noindex, redirigée ou 404 ; pas de hreflang sur les pages Woo (panier…).
 - [ ] Pas de redirection automatique par langue du navigateur ou IP ; sélecteur de langue en liens `<a>`.
-- [ ] Une page FR sans traduction : pas de balise `en` (et pas de page EN vide publiée).
+- [ ] Une page FR sans traduction relue : pas de balise `en` et pas d'URL EN dans le sitemap (TranslatePress afficherait le texte FR sous `/en/`).
 - [ ] Plus tard, si versions UK et US distinctes (prix, contenus) : passer à `en-GB`, `en-US`, `en-CA` + `en` générique.
 
 ### 3.5 Divers
@@ -148,7 +148,7 @@ Sitemap: https://charmedparis.com/sitemap_index.xml
 - [ ] Product + Offer (prix TTC EUR, disponibilité synchronisée avec le stock, `itemCondition` neuf) sur chaque fiche ; `brand` = CHARMED PARIS ; `material` réel (cf. `schema/product-solar-sphere-fr.jsonld`).
 - [ ] `shippingDetails` (France : préparation 1–2 j, transit 3–7 j ouvrés) et `hasMerchantReturnPolicy` (14 jours) sur les produits ou au niveau Organization.
 - [ ] Organization + WebSite sur tout le site ; BreadcrumbList via le fil d'Ariane Rank Math ; FAQPage sur `/faq/` ; ItemList sur univers / cadeaux.
-- [ ] **Aucun `aggregateRating` / `review`** tant qu'il n'y a pas d'avis réels affichés (cf. `schema/README.md`).
+- [ ] **Aucun `aggregateRating` / `review`** tant qu'il n'y a pas d'avis réels affichés. Avis = **avis natifs WooCommerce** (réservés aux « propriétaires vérifiés », demande envoyée par Brevo) : Rank Math les reprend automatiquement dans le schéma Product dès qu'ils existent (cf. `schema/README.md`).
 - [ ] Pas de GTIN : laisser le champ vide (ne jamais inventer d'EAN). Rank Math Pro / Woo : champ GTIN vide.
 - [ ] Validation : Test des résultats enrichis + Schema Markup Validator ; puis rapports Search Console « Fiches de marchand », « Extraits de produits », « Fil d'Ariane ».
 
@@ -157,13 +157,13 @@ Sitemap: https://charmedparis.com/sitemap_index.xml
 ## 5. Google Merchant Center et fiches gratuites
 
 - [ ] Créer le compte Merchant Center (et la vérification du site) ; connecter via le plugin officiel **Google for WooCommerce** (anciennement Google Listings & Ads) ; activer les **fiches gratuites** (onglet Shopping, Google Images, recherche).
-- [ ] Pays cibles : France (EUR, FR) au lancement ; UK (GBP), US (USD), Canada (CAD) quand la version EN et les prix par devise sont prêts. Un flux par pays/langue.
+- [ ] Pays cibles : France (EUR, FR) au lancement ; puis US et Canada (langue EN, **prix en EUR** tant qu'il n'y a pas de multidevise — vérifier que Merchant Center accepte la devise pour ces pays, sinon attendre la multidevise) ; **UK seulement après immatriculation TVA UK, sans la ligne argent 925**. Un flux par pays/langue.
 - [ ] Attributs produit : `brand` = CHARMED PARIS ; **`identifier_exists` = no** (pas d'EAN/GTIN chez Branvas ; marque propre) ; `condition` = new ; `google_product_category` = Vêtements et accessoires > Bijoux > Parures de bijoux (*Jewelry Sets* — vérifier l'ID dans la taxonomie Google) ; `material`, `color` ; `product_type` = « Parures > Éclat ».
-- [ ] `title` Merchant : « Parure Solar Sphere — collier dôme et puces, doré à l'or fin, zircons | CHARMED PARIS » (≤ 150 car.) ; description réécrite (pas celle du fournisseur).
-- [ ] **Livraison** dans Merchant Center : France, tarif réel (ou gratuit selon le seuil validé), délai de préparation 1–2 j ouvrés, transit 3–7 j ouvrés ; UK : 2–5 ; US : 2–6 ; Canada : 3–6 (décomposition des délais totaux Branvas). **Pas d'option express.** Date limite de commande Noël : FR/Europe/Canada 4/12/2026, US/UK 8/12/2026.
+- [ ] `title` Merchant : « Parure Solar Sphere — collier dôme et puces, doré, oxyde de zirconium | CHARMED PARIS » (≤ 150 car.) ; description réécrite (pas celle du fournisseur).
+- [ ] **Livraison** dans Merchant Center : France, **gratuit dès 50 € de commande, 4,90 € en dessous** (décision BRIEF), délai de préparation 1–2 j ouvrés, transit 3–7 j ouvrés ; UK : 2–5 ; US : 2–6 ; Canada : 3–6 (décomposition des délais totaux Branvas). **Pas d'option express.** Date limite de commande Noël : FR/Europe/Canada 4/12/2026, US/UK 8/12/2026.
 - [ ] **Retours** dans Merchant Center : 14 jours, par courrier, frais **à confirmer**, adresse de retour à toi (France **à confirmer**).
 - [ ] Pages obligatoires accessibles depuis le pied de page : CGV, Livraison et retours, Mentions légales (identité et adresse réelles), Contact (e-mail et, idéalement, téléphone), Confidentialité. Merchant Center refuse les sites « dropshipping » flous (risque « représentation trompeuse ») : identité claire, délais honnêtes, pas d'avis ni de remises fictives.
-- [ ] Prix barrés seulement si le prix de référence a réellement été pratiqué (règle française : prix le plus bas des 30 derniers jours).
+- [ ] **Aucun prix barré au lancement** (décision BRIEF). Plus tard, prix barré seulement avec un prix de référence réellement pratiqué (le plus bas des 30 derniers jours, L112-1-1), jamais le prix conseillé fournisseur. Ne pas renseigner `sale_price` dans le flux.
 - [ ] Surveiller les refus (images, prix incohérents, disponibilité).
 
 ---

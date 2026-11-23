@@ -1,0 +1,58 @@
+<!-- wp:template-part {"slug":"header","tagName":"div","area":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--70)">
+	<!-- wp:woocommerce/breadcrumbs {"align":"wide","fontSize":"small"} /-->
+	<!-- wp:woocommerce/store-notices {"align":"wide"} /-->
+
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
+	<div class="wp-block-columns alignwide">
+		<!-- wp:column {"width":"56%"} -->
+		<div class="wp-block-column" style="flex-basis:56%">
+			<!-- wp:woocommerce/product-image-gallery /-->
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"44%"} -->
+		<div class="wp-block-column" style="flex-basis:44%">
+			<!-- wp:post-terms {"term":"product_cat","className":"cp-eyebrow"} /-->
+			<!-- wp:post-title {"level":1,"fontSize":"xx-large","__woocommerceNamespace":"woocommerce/product-query/product-title"} /-->
+			<!-- wp:woocommerce/product-rating {"isDescendentOfSingleProductTemplate":true} /-->
+			<!-- wp:woocommerce/product-price {"isDescendentOfSingleProductTemplate":true,"fontSize":"large"} /-->
+			<!-- wp:post-excerpt {"excerptLength":100,"__woocommerceNamespace":"woocommerce/product-query/product-summary"} /-->
+			<!-- wp:woocommerce/add-to-cart-form /-->
+			<!-- wp:pattern {"slug":"charmed-paris/product-reassurance"} /-->
+			<!-- wp:woocommerce/product-meta -->
+			<div class="wp-block-woocommerce-product-meta">
+				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"},"fontSize":"small"} -->
+				<div class="wp-block-group has-small-font-size">
+					<!-- wp:woocommerce/product-sku /-->
+				</div>
+				<!-- /wp:group -->
+			</div>
+			<!-- /wp:woocommerce/product-meta -->
+		</div>
+		<!-- /wp:column -->
+	</div>
+	<!-- /wp:columns -->
+
+	<!-- wp:woocommerce/product-details {"align":"wide"} /-->
+
+	<!-- wp:woocommerce/related-products {"align":"wide"} -->
+	<div class="wp-block-woocommerce-related-products alignwide">
+		<!-- wp:query {"queryId":2,"query":{"perPage":4,"pages":0,"offset":0,"postType":"product","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false},"namespace":"woocommerce/related-products","lock":{"remove":true,"move":true}} -->
+		<div class="wp-block-query">
+			<!-- wp:heading {"level":2} --><h2 class="wp-block-heading">Tu aimeras aussi</h2><!-- /wp:heading -->
+			<!-- wp:post-template {"className":"products-block-post-template","layout":{"type":"grid","columnCount":4},"__woocommerceNamespace":"woocommerce/product-query/product-template"} -->
+				<!-- wp:woocommerce/product-image {"isDescendentOfQueryLoop":true} /-->
+				<!-- wp:post-title {"textAlign":"center","level":3,"isLink":true,"fontSize":"large","__woocommerceNamespace":"woocommerce/product-query/product-title"} /-->
+				<!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"textAlign":"center"} /-->
+			<!-- /wp:post-template -->
+		</div>
+		<!-- /wp:query -->
+	</div>
+	<!-- /wp:woocommerce/related-products -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"div","area":"footer"} /-->

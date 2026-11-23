@@ -19,8 +19,8 @@
   "offers": {
     "@type": "Offer",
     "url": "https://charmedparis.com/en/jewelry-set/solar-sphere-dome-necklace-studs/",
-    "priceCurrency": "USD",
-    "price": "79.00",
+    "priceCurrency": "EUR",
+    "price": "69.00",
     "priceValidUntil": "2027-12-31",
     "availability": "https://schema.org/InStock",
     "itemCondition": "https://schema.org/NewCondition",
@@ -32,7 +32,7 @@
       "shippingRate": {
         "@type": "MonetaryAmount",
         "value": "0.00",
-        "currency": "USD"
+        "currency": "EUR"
       },
       "shippingDestination": {
         "@type": "DefinedRegion",
