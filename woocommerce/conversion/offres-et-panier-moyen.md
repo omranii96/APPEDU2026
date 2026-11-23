@@ -111,7 +111,7 @@ Les coûts sont en USD et les ventes en EUR : une baisse de l'euro de 10 % coût
 | US, Molten à 59 $ | 59 $ | 50,86 € | 21,15 € | 2,40 |
 | UK, Solar à 65 £ TTC (1 £ = 1,15 € [hyp.], TVA UK 20 %) | 65 £ | 74,75 € | 26,27 € | 2,85 |
 
-Le marché US est le plus rentable par commande (pas de TVA, délai de 3 à 8 jours [fait]). Le UK suppose une immatriculation TVA UK [à vérifier]. L'Irlande et le Benelux suivent les calculs EUR ci-dessus (même TVA si sous le seuil OSS).
+Le marché US est le plus rentable par commande (pas de TVA, délai de 3 à 8 jours [fait]). Le UK suppose une immatriculation TVA UK [à vérifier] et se fait **sans la ligne Joaillerie 925** (poinçon UK obligatoire au-delà de 7,78 g). L'Irlande et le Benelux suivent les calculs EUR ci-dessus (même TVA si sous le seuil OSS).
 
 ---
 
@@ -181,8 +181,8 @@ Le marché US est le plus rentable par commande (pas de TVA, délai de 3 à 8 jo
 
 | Option | Coût pour toi (commande B) | Attractivité | Recommandation |
 |---|---|---|---|
-| −10 % 1re commande (maquette actuelle) | −5,03 € (26,39 → 21,36 €) | Forte | Possible, mais **non cumulable** avec la 2e parure −15 % (cumulé = 30,53 € au lieu de 38,61 € sur un duo) |
-| **Livraison offerte sur la 1re commande** | −3,57 € (26,39 → 22,82 €) | Bonne, et elle supprime la 1re cause d'abandon | **Recommandé** : moins coûteux, cohérent avec le seuil |
+| **−10 % 1re commande** (maquette, **retenu dans `crm/flows.md`** : code unique, 14 jours, non cumulable) | −5,03 € (26,39 → 21,36 €) | Forte | **Offre de lancement** (cohérence CRM). **Non cumulable** avec la 2e parure −15 % (le cumul donnerait 30,53 € au lieu de 38,61 € sur un duo) |
+| Livraison offerte sur la 1re commande | −3,57 € (26,39 → 22,82 €) | Bonne, et elle supprime la 1re cause d'abandon | **Variante à tester** (test n°10) : 1,46 € moins chère par commande ; déjà utilisée par le CRM pour la réactivation |
 | Rien (contenus seulement) | 0 € | Faible | Inscriptions faibles |
 
 Règles : code unique par e-mail (Brevo/Klaviyo), valable 30 jours, une utilisation, non cumulable, conditions affichées dans le pop-up. **Pas de faux compte à rebours** dans le pop-up ; une date de fin réelle est permise.

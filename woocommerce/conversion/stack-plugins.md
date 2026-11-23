@@ -40,7 +40,7 @@
 
 ## 3. Avis clients vérifiés
 
-> ⚠️ **Correction importante** : **Judge.me n'est plus disponible pour WooCommerce.** La fiche WordPress.org a été fermée le **13/08/2025** à la demande de l'auteur, et le support WooCommerce a pris fin fin 2025 (30/09 ou 31/10 selon les sources). Ne pas le prévoir dans le projet.
+> ⚠️ **Correction importante** : **Judge.me n'est plus disponible pour WooCommerce.** La fiche WordPress.org a été fermée le **13/08/2025** à la demande de l'auteur, et le support WooCommerce a pris fin fin 2025 (30/09 ou 31/10 selon les sources). Ne pas le prévoir dans le projet. ⚠️ **Le dossier `crm/` (flows P4/P4b) et les CGV (`legal/cgv.md`, art. avis) citent Judge.me** : à remplacer par la solution ci-dessous (demande d'avis envoyée par Brevo + avis natifs WooCommerce, ou Klaviyo Reviews si Klaviyo).
 
 | Rôle | Recommandé | Gratuit / payant | Statut | Notes |
 |---|---|---|---|---|

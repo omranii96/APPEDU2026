@@ -160,10 +160,22 @@ Exigences lues dans l'article Branvas 12241060 : marquage **à la feuille d'or, 
 Fichier à téléverser : **`logos/impression/BRANVAS-logo-principal-noir-2000x2000-300dpi.png`** (2 000 × 2 000 px, 300 DPI, noir pur sur transparent, 37 Ko, master impression aux déliés renforcés, sans signature).
 - Alternative si la maquette Branvas montre le logo **à moins de 50 mm de large** : `BRANVAS-monogramme-noir-2000x2000-300dpi.png` (le monogramme tient jusqu'à 10 mm).
 - Chemin : Dashboard › Logo Setup › Setup New Logo › fichier › **vérifier l'aperçu de la maquette** (on contrôle que le H et le E gardent leurs déliés), puis Submit. Validation sous 24 h.
-- Où va le logo : **à l'intérieur du couvercle du coffret d'envoi blanc** (selon les offres packaging Branvas ; carte insert personnalisée avec l'offre VIP). Le logo n'est jamais sur le bijou.
-- Ne pas promettre en ligne un rendu (couleur de dorure, emplacement) qui n'aurait pas été vérifié sur une commande d'échantillon.
+- **Où va le logo** (FAQ Branvas 12872188, vérifié ; tout est inclus dans les 8,99 $ de livraison) :
 
-### 8.2 Carte de remerciement (VIP Branvas ou impression maison A6 / 105 × 148 mm)
+  | Élément du colis | Logo | Note |
+  |---|---|---|
+  | Carton d'envoi | **Oui** | Premier contact : c'est le « couvercle » qu'on soulève |
+  | Boîte à bijoux type **tiroir, avec ruban** (beige métallisé en standard) | **Oui** | Le tiroir qui coulisse reprend le geste des parenthèses qui s'écartent. Dorure sur beige métallisé : contraste faible, d'où le master renforcé |
+  | Bordereau | **Oui** | Logo, nom, adresse, n° et date de commande, liste avec photos. **Aucun prix**, donc prêt à offrir |
+  | Carte de remerciement (conseils d'entretien) | **Seulement en offre VIP** | Sinon, carte neutre |
+  | Pochette velours, chamoisine | Non | Ne pas montrer de pochette « à notre logo » sur le site |
+  | **Ligne 925 / moissanite** : écrin en **velours bleu** à la place de la boîte tiroir | Non | Le velours ne prend pas le marquage. Le carton d'envoi garde le logo. Certificat GRA ≥ 0,1 ct |
+
+- **Une seule boîte à bijoux par commande** : avec « 2e parure −15 % », la 2e parure arrive en sachet scellé dans le même colis. Ne jamais écrire « un écrin par parure ».
+- Emplacement exact et couleur de dorure sur chaque élément : **à confirmer** sur l'aperçu Branvas et sur une commande d'échantillon. On ne promet pas en ligne un rendu qu'on n'a pas vu. Le logo n'est jamais sur le bijou.
+
+### 8.2 Carte de remerciement (offre VIP Branvas uniquement, A6 / 105 × 148 mm)
+- Le logo et le texte personnalisé (réseaux, code de réduction, message) ne sont possibles **qu'en VIP (149 $/mois)**. Sans VIP, la carte Branvas est neutre, avec les conseils d'entretien. **Aucun message cadeau** n'est possible sur la commande : ne pas proposer de champ « message cadeau » au checkout.
 - Recto : fond velours, monogramme or au centre (20 mm), et dessous en Bodoni italique or clair « Ouvre. Laisse-toi charmer. ».
 - Verso : fond porcelaine, logo principal encre en haut (40 mm), message en Jost 10 pt (« Merci de nous avoir choisies… »), conseils d'entretien en 3 lignes (« à garder au sec », chamoisine, pochette), le QR code vers la page avis réels, puis `charmedparis.com`.
 - On imprime le texte EN au verso d'une seconde version (commandes hors France).
@@ -185,7 +197,7 @@ Jost 13 px, gris prune pour la ligne 2. Pas de bannière promo ni de citation an
 ### 8.5 Étiquettes cadeau (60 × 90 mm, trou ⌀ 4 mm)
 - Recto : fond grenat ou poudre, monogramme or (ou encre sur poudre), et dessous « Pour toi » (Bodoni italique).
 - Verso : 3 lignes manuscrites « De… / Pour… / Un mot… » en DM Mono 7 pt sur filet or.
-- L'étiquette est glissée par nos soins seulement si on reconditionne. Avec Branvas, le colis part sans contenu ajouté (hors carte VIP), donc on la propose plutôt **en téléchargement imprimable** après l'achat.
+- Branvas n'ajoute rien au colis (pas de message cadeau, carte personnalisée seulement en VIP). L'étiquette est donc proposée **en PDF à imprimer** (page de remerciement + e-mail de confirmation), pour la cliente qui offre en main propre. Le colis est déjà prêt à offrir : ruban, bordereau sans prix.
 
 ## 9. Fichiers et production
 - Les SVG sont générés par script : polices OFL instanciées puis converties en contours (pas de dépendance de police). Pour une retouche manuelle, ouvrir les SVG dans Figma ou Illustrator. Ce sont déjà des contours.
@@ -208,4 +220,4 @@ Jost 13 px, gris prune pour la ligne 2. Pas de bannière promo ni de citation an
 
 **Motion.** One gesture only: the brackets part (or close) horizontally, with the curve cubic-bezier(.2,.7,.1,1) and 600–900 ms timing. `prefers-reduced-motion` is respected.
 
-**Applications.** Upload `logos/impression/BRANVAS-logo-principal-noir-2000x2000-300dpi.png` to Branvas (Dashboard › Logo Setup). It is printed in gold foil inside the shipping-box lid, and the monogram is the fallback below 50 mm. The guide also specifies the thank-you card, the Instagram avatar and highlight covers ( Sets ), ( Gift )…, the e-mail signature and the gift tags.
+**Applications.** Upload `logos/impression/BRANVAS-logo-principal-noir-2000x2000-300dpi.png` to Branvas (Dashboard › Logo Setup), with the monogram as the fallback below 50 mm. Per Branvas FAQ 12872188, the logo goes on the shipping box, the drawer box with ribbon (metallic beige) and the packing slip (no prices). The thank-you card carries it only on the VIP plan. The velvet pouch, the polishing cloth and the blue velvet moissanite case are unbranded. There is one jewellery box per order, and no gift message is possible. The guide also specifies the thank-you card, the Instagram avatar and highlight covers ( Sets ), ( Gift )…, the e-mail signature and the gift tags.

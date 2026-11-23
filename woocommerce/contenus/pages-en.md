@@ -2,13 +2,15 @@
 
 Ready-to-paste English copy, written for the English version of the site (British spelling, prices in euros). Same facts as `pages.md`. « À confirmer » boxes are internal notes: delete before publishing. `[TO COMPLETE]` marks fields to fill in.
 
-Never write: solid gold, vermeil, waterproof, nickel-free, hypoallergenic, handmade, handcrafted, "ships from France". Never name the supplier.
+Never write: solid gold, vermeil, waterproof, nickel-free, hypoallergenic, certified, handmade, handcrafted, "ships from France". Never name the supplier. No struck-through prices.
+
+> À confirmer (UK) : ne pas ouvrir le Royaume-Uni avant immatriculation TVA UK ; la ligne argent 925 est exclue au UK (poinçon obligatoire au-delà de 7,78 g). Les lignes UK ci-dessous (bandeau, délais, Mothering Sunday) ne sont à publier que si le UK est ouvert.
 
 ---
 
 ## 1. Home
 
-**SEO** · Title: `CHARMED PARIS · Matching jewellery sets, ready to give` · Meta description: `A necklace and its earrings, matched for you and boxed to give. Gold-plated sets, cubic zirconia, 925 silver and moissanite. Free delivery from €50.`
+**SEO** · Title: `CHARMED PARIS · Matching jewellery sets, ready to give` · Meta description: `A necklace and its earrings, matched for you and boxed to give. Gold-plated sets, cubic zirconia, 925 silver and lab-grown moissanite. Free delivery from €50.`
 
 ### 1.1 Intro (3D box on scroll)
 - Screen 1: **Open.**
@@ -90,8 +92,8 @@ Open · Give · Keep · Be charmed · CHARMED PARIS
 - 925 line: Our sterling silver sets arrive in a blue velvet jewellery box, inside our shipping box.
 
 ### 1.10 Reassurance
-- **Delivered in 4–9 business days** · Free from €50
-- **Duties already paid** · Nothing to pay on arrival
+- **Delivered in 4–9 business days** · Free from €50, duties paid
+- **Ships from outside the EU** · US or China, nothing to pay on arrival
 - **14 days to change your mind** · Returns on us
 - **Box included** · With every order
 
@@ -124,7 +126,7 @@ A sculptural jewellery set is a necklace and earrings designed as one object: th
 **H1: Sparkle**
 
 **Intro**
-Light, from neckline to earlobe. The eleven Sparkle sets are set with cubic zirconia: tight pavé, drops, champagne squares, rows of baguettes. They're made for the evenings when you change in five minutes, a black dress, a vest top, a fine knit, and the jewellery has to do the work. The brass is gold-plated, except Shell Glow, in white gold. Some are quiet enough for every day, like Radiant Circle; others are for the holidays, like Golden Luxe. Every set comes boxed, from €59 to €79.
+Light, from neckline to earlobe. The eleven Sparkle sets are set with cubic zirconia: tight pavé, drops, champagne squares, rows of baguettes. They're made for the evenings when you change in five minutes, a black dress, a vest top, a fine knit, and the jewellery has to do the work. The brass is gold-plated, except Shell Glow, which is white gold-plated. Some are quiet enough for every day, like Radiant Circle; others are for the holidays, like Golden Luxe. Every set comes boxed, from €59 to €79.
 
 **SEO text (bottom of page)**
 A cubic zirconia set gives you the sparkle of a cut stone at a sensible price. Cubic zirconia is a lab-made stone cut like a diamond: it throws back plenty of light and keeps its facets crisp. In the CHARMED PARIS Sparkle collection, the stones are set on gold-plated brass with an anti-tarnish coating. You'll find pendant necklaces with matching studs, pavé hoops, Y-necklaces, and one three-piece set with an adjustable ring, Crescent Glow. For an evening out, go for a pavé drop or a champagne square; for the office, a curb chain with set links or a circle of baguettes. Keep them dry, and store them separately so the stones don't scratch your other jewellery. Free delivery from €50, and your second set is 15% off. Every order ships in our drawer box, with a velvet pouch and polishing cloth.
@@ -145,7 +147,7 @@ A coloured set is usually chosen with an outfit in mind: green with black, blue 
 Three sets in 925 sterling silver, set with lab-grown moissanite. Every piece is stamped 925, and stones of 0.1 ct and above come with a GRA certificate. These are our most complete sets: up to four pieces, necklace, studs, ring and bracelet. They arrive in a blue velvet jewellery box. For a wedding anniversary, a proposal, or a gift meant to last. Golden Radiance pairs a necklace and a ring; Blush Dreams and Heart Symphony go up to four pieces. From €149 to €229, delivery included.
 
 **SEO text (bottom of page)**
-Moissanite is a lab-grown stone that looks very close to diamond: it's hard, bright and full of fire. It is not cubic zirconia. In the CHARMED PARIS 925 Silver sets, it's set in sterling silver, which is 92.5% pure silver, and every piece carries the 925 stamp. Stones of 0.1 ct and above come with a GRA certificate; their weight is given in diamond equivalent, the usual convention for moissanite. Silver darkens naturally with air and skin contact, so keep each piece in its closed pouch and buff it with the polishing cloth to bring the shine back. Take your jewellery off before showering or swimming. All three sets, Blush Dreams, Golden Radiance and Heart Symphony, arrive in a blue velvet jewellery box inside the CHARMED PARIS parcel, delivered in 4 to 9 business days to France and 3 to 7 to the UK.
+Moissanite is a lab-grown stone that looks very close to diamond: it's hard, bright and full of fire. It is not cubic zirconia. In the CHARMED PARIS 925 Silver sets, it's set in sterling silver, which is 92.5% pure silver, and every piece carries the 925 stamp. Stones of 0.1 ct and above come with a GRA certificate; their weight is given in diamond equivalent, the usual convention for moissanite. Silver darkens naturally with air and skin contact, so keep each piece in its closed pouch and buff it with the polishing cloth to bring the shine back. Take your jewellery off before showering or swimming. All three sets, Blush Dreams, Golden Radiance and Heart Symphony, arrive in a blue velvet jewellery box inside the CHARMED PARIS parcel, delivered in 4 to 9 business days to France.
 
 ### 2.5 Unisex
 **H1: Unisex**
@@ -206,7 +208,7 @@ Order at least ten business days ahead to be safe.
 
 A birthday often means a round number or a specific memory. For an eighteenth, Pink Pavé or Celestial Star Moon. For a thirtieth, Radiant Circle. For a sixtieth, Golden Luxe and a glass of champagne. For ten years together, Blush Dreams. Choose from what they already wear: gold or silver tones, quiet or noticeable.
 
-Send it straight to them: there are no prices in the parcel, and the set arrives in its CHARMED PARIS box tied with ribbon. Allow 4 to 9 business days for France, 3 to 7 for the UK.
+Send it straight to them: there are no prices in the parcel, and the set arrives in its CHARMED PARIS box tied with ribbon. Allow 4 to 9 business days for France.
 
 ---
 
@@ -218,11 +220,11 @@ CHARMED PARIS is a young Paris brand, built on a simple idea: jewellery is rarel
 
 The name says three things. Being charmed. A charm, as on a bracelet. And the lucky charm you keep close. The logo too: the C and the D open like the two sides of a jewellery box.
 
-**How we work.** We don't make our jewellery and we don't have a workshop. We choose every set from the catalogue of a manufacturing partner, out of several hundred designs, looking at the material, the shape and how the pieces work together. The jewellery is made with a combination of skilled hand work and precision manufacturing, and inspected before it ships. Our partner packs every order in the CHARMED PARIS box and sends it from its international warehouses, with duties already paid. We only quote delivery times that have been measured.
+**How we work.** We don't make our jewellery and we don't have a workshop. We choose every set from the catalogue of a manufacturing partner, out of several hundred designs, looking at the material, the shape and how the pieces work together. The jewellery is made with a combination of skilled hand work and precision manufacturing, and inspected before it ships. Our partner packs every order in the CHARMED PARIS box and sends it from its warehouses outside the EU, in the United States or China, with duties already paid. We only quote delivery times that have been measured.
 
 **What we promise to tell you.** The real material of every piece: gold-plated brass, 925 sterling silver, cubic zirconia, lab-grown moissanite, cultured freshwater pearls. The real delivery times. And what we don't know yet, we'll tell you too.
 
-**What we don't do.** No engraving or personalisation. No solid gold. No fake reviews: the ones you'll read here will come from customers who received their set.
+**What we don't do.** No engraving or personalisation. No solid gold. No fake reviews: only customers who bought a set can review it on its page.
 
 A question? Write to us at [TO COMPLETE: contact email]. A real person on the team will reply.
 
@@ -234,10 +236,11 @@ A question? Write to us at [TO COMPLETE: contact email]. A real person on the te
 
 ### Shipping
 - **Timing.** Most orders are prepared in 1 to 2 business days. From order to delivery, 9 parcels in 10 arrive within: France, Germany, Spain 4–9 business days · Netherlands 4–6 · Italy 3–10 · Ireland 5–11 · United Kingdom 3–7 · United States 3–8 · Canada 4–8 · Australia 3–8 · rest of the world 4–12. Public holidays can add a day or two.
-- **Where it ships from.** Your order is sent by DHL (USPS in the US) from our partner's international warehouses. There is no warehouse in the EU.
+- **Where it ships from.** Your order is sent by DHL (USPS in the US) from our partner's warehouses outside the EU, in the United States or China depending on availability. It does not ship from France.
 - **Duties.** Duties and import taxes are already paid. Nothing to pay on arrival.
 - **One delivery option.** We don't offer express or guaranteed-date delivery.
-- **Cost.** Free from €50. Below that: [TO COMPLETE: fee, suggested €4.90].
+- **Our commitment.** If your order hasn't arrived within [TO COMPLETE: maximum time, e.g. 15 business days], write to us: you can cancel and get a refund.
+- **Cost.** Free from €50. Below that: €4.90.
 - **Phone number.** We ask for it because the carrier may need it to deliver.
 - **One parcel per order.** If you order several sets, they arrive together: one set is presented in the drawer box, the others in their sealed bags. To send gifts to two different people, place two orders.
 - **Tracking.** Your tracking number is emailed to you as soon as your order ships, and appears in your account.
@@ -247,7 +250,7 @@ A question? Write to us at [TO COMPLETE: contact email]. A real person on the te
 
 ### Changed your mind: 14 days
 You have 14 days from receiving your order to change your mind, no reason needed.
-1. Email us at [TO COMPLETE: email] with your order number, or use the withdrawal form at the bottom of this page.
+1. Click **Withdraw from my order** (in your account or your confirmation email), email us at [TO COMPLETE: email] with your order number, or use the withdrawal form at the bottom of this page.
 2. Send the set back complete, in its box, within 14 days of telling us, to: [TO COMPLETE: return address]. **Return costs are on us**: [TO COMPLETE: prepaid label or refund of postage on receipt].
 3. We refund you within 14 days of your request, to your original payment method. We may wait until we've received the set or proof that you've sent it.
 
@@ -315,13 +318,13 @@ The Liquid Art Pearl and Baroque Pearl Flow sets use cultured freshwater pearls.
 Most of our rings are adjustable: the band opens or closes slightly. When a ring comes in sizes, the product page asks you to pick one. Measurements are on each product page.
 
 **9. How long will delivery take?**
-9 parcels in 10 arrive in 4 to 9 business days in France and 3 to 7 in the UK, counted from your order. There's no express option.
+9 parcels in 10 arrive in 4 to 9 business days in France, counted from your order. There's no express option.
 
 **10. Where does my order ship from? Will I pay customs?**
-Parcels leave from our partner's international warehouses and are delivered by DHL. Duties and import taxes are already paid: nothing to pay on arrival.
+Parcels leave from our partner's warehouses outside the EU (United States or China) and are delivered by DHL. Duties and import taxes are already paid: nothing to pay on arrival.
 
 **11. How much is delivery?**
-Free from €50. Below that, it's [TO COMPLETE].
+Free from €50. Below that, it's €4.90, however many sets you order.
 
 **12. Can I send it straight to the person I'm giving it to?**
 Yes. Use their address for delivery and yours for billing. There are no prices in the parcel, and the set arrives in its drawer box tied with ribbon.

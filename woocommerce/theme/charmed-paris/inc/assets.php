@@ -77,12 +77,13 @@ add_action(
 
 /**
  * Classe « cp-js » posée avant le premier rendu (évite le CLS du mode film / carrousels),
- * et « cp-motion » si l'utilisatrice n'a pas demandé à réduire les animations.
+ * « cp-motion » si l'utilisatrice n'a pas demandé à réduire les animations, « cp-ad » pour le trafic publicitaire.
  */
 add_action(
 	'wp_head',
 	static function () {
-		echo "<script>(function(d){var c=d.documentElement.classList;c.add('cp-js');try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){c.add('cp-motion');}}catch(e){}})(document);</script>\n";
+		// « cp-ad » : visite issue d'une publicité (gclid, fbclid, utm_…) → pas d'intro film (décision du 23/11/2026).
+		echo "<script>(function(d,l){var c=d.documentElement.classList;c.add('cp-js');try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){c.add('cp-motion');}}catch(e){}if(/[?&](gclid|gbraid|wbraid|fbclid|ttclid|msclkid|utm_[a-z]+)=/i.test(l.search)){c.add('cp-ad');}})(document,location);</script>\n";
 	},
 	0
 );

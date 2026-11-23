@@ -566,3 +566,11 @@ add_filter(
 	'render_block_woocommerce/product-sale-badge',
 	static fn( $html ) => charmed_opt_yes( 'show_strikethrough' ) ? $html : ''
 );
+
+/* =========================================================================
+ * 7. Avis : natifs WooCommerce, acheteuses vérifiées uniquement (décision du 23/11/2026)
+ * ========================================================================= */
+add_filter( 'pre_option_woocommerce_enable_reviews', static fn() => 'yes' );
+add_filter( 'pre_option_woocommerce_review_rating_verification_required', static fn() => 'yes' );
+add_filter( 'pre_option_woocommerce_review_rating_verification_label', static fn() => 'yes' );
+add_filter( 'pre_option_woocommerce_enable_review_rating', static fn() => 'yes' );

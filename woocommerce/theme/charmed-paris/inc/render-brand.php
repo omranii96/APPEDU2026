@@ -66,7 +66,8 @@ function charmed_render_wordmark( array $a ): string {
  * Bloc charmed/intro : l'écrin qui s'ouvre au scroll.
  *
  * Sans JS / réduction des animations / hors accueil : héros statique (logo, H1, accroche, bouton),
- * hauteur d'un écran. Sur l'accueil avec animations : mode « film » (520vh, scène collante),
+ * hauteur d'un écran. Sur l'accueil avec animations : mode « film » (260vh desktop, 170vh mobile,
+ * scène collante, lien « Passer l'intro »), jamais pour le trafic publicitaire (classe cp-ad),
  * intro.js anime le DOM et charge Three.js à la demande.
  *
  * @param array $a Attributs.
@@ -79,6 +80,7 @@ function charmed_render_intro( array $a ): string {
 	}
 	$cta_url  = ! empty( $a['ctaUrl'] ) ? $a['ctaUrl'] : '#coffrets';
 	$cta_text = ! empty( $a['ctaText'] ) ? $a['ctaText'] : __( 'Choisir mon coffret', 'charmed-paris' );
+	$skip     = ! empty( $a['skipTarget'] ) ? $a['skipTarget'] : '#coffrets';
 	$poster   = charmed_intro_poster();
 	$three    = (string) apply_filters( 'charmed_three_src', charmed_asset( 'vendor/three-r128.min.js' ) . '?ver=r128' );
 
@@ -117,6 +119,7 @@ function charmed_render_intro( array $a ): string {
 				<a class="cp-btn cp-btn--ghost" href="<?php echo esc_url( $cta_url ); ?>"><?php echo esc_html( $cta_text ); ?></a>
 			</div>
 			<?php if ( $film ) : ?>
+				<a class="cp-intro__skip" href="<?php echo esc_url( $skip ); ?>"><?php esc_html_e( 'Passer l’intro', 'charmed-paris' ); ?></a>
 				<div class="cp-intro__hint" aria-hidden="true">
 					<span class="cp-intro__mouse"></span>
 					<span><b class="cp-desk"><?php esc_html_e( 'Descends pour ouvrir l’écrin', 'charmed-paris' ); ?></b><b class="cp-touch"><?php esc_html_e( 'Glisse vers le haut pour ouvrir l’écrin', 'charmed-paris' ); ?></b></span>

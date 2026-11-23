@@ -12,7 +12,8 @@ Tutoiement partout. Phrases courtes. Variables entre accolades : `{prenom}`, `{n
 | Ajouter au panier (après ajout, 2 s) | Ajoutée à l'écrin |
 | Voir le panier | Voir mon écrin |
 | Commander (panier) | Commander |
-| Valider le paiement | Payer {montant} |
+| Valider la commande (bouton final, L. 221-14) | Commander avec obligation de paiement |
+| Bouton de rétractation (compte, e-mail de confirmation) | Me rétracter [libellé exact à vérifier : décret 2026-3] |
 | Continuer les achats | Continuer à regarder |
 | Rupture de stock | Bientôt de retour |
 | M'avertir du retour | Préviens-moi |
@@ -29,7 +30,7 @@ Tutoiement partout. Phrases courtes. Variables entre accolades : `{prenom}`, `{n
 ## 2. Fiche produit
 
 - Sous le prix : **Coffret inclus · Livraison offerte dès 50 € · Droits de douane payés**
-- Délai : Livrée en France en 4 à 9 jours ouvrés (9 colis sur 10).
+- Délai : Expédiée depuis nos entrepôts partenaires hors UE (États-Unis ou Chine). Livrée en France en 4 à 9 jours ouvrés (9 colis sur 10).
 - Noël (jusqu'au 4/12) : Pour Noël en Europe, commande avant le vendredi 4 décembre.
 - Noël (5/12 au 24/12) : Emballage de Noël offert jusqu'au 24 décembre. Livraison avant Noël non garantie.
 - Bague réglable : Bague réglable : l'anneau s'ajuste légèrement à ton doigt.
@@ -56,14 +57,14 @@ Tutoiement partout. Phrases courtes. Variables entre accolades : `{prenom}`, `{n
 
 **Lignes**
 - Sous-total · 2e parure −15 % · Livraison · Total TTC
-- Livraison sous 50 € : {frais_livraison} (À confirmer : proposition 4,90 €)
+- Livraison sous 50 € : 4,90 €
 - Mention : Prix TTC, TVA incluse. Droits de douane déjà payés.
 
 **Option cadeau (case à cocher)**
 - Libellé : C'est un cadeau
 - Aide : Colis prêt à offrir, bordereau sans prix. Mets l'adresse de la personne en livraison, la tienne en facturation.
 
-> À confirmer : la règle « −15 % sur la moins chère » (la maquette applique −15 % sur la parure la moins chère) ; plugin de remise ; frais sous 50 €. L'option « Emballage cadeau et carte Ouvre-moi (offert) » de la maquette est à supprimer : aucune carte personnalisée hors offre VIP.
+> À confirmer : la règle « −15 % sur la moins chère » (la maquette applique −15 % sur la parure la moins chère) ; plugin de remise. L'option « Emballage cadeau et carte Ouvre-moi (offert) » de la maquette est à supprimer : aucune carte personnalisée hors offre VIP.
 
 ## 4. Checkout
 
@@ -73,15 +74,15 @@ Tutoiement partout. Phrases courtes. Variables entre accolades : `{prenom}`, `{n
 - Téléphone (obligatoire) : Téléphone · Aide : Le transporteur peut en avoir besoin pour te livrer.
 - Adresse : Adresse · Complément (bâtiment, étage, code) · Aide : Vérifie le numéro de rue : une adresse incomplète bloque l'envoi.
 - Livraison à une autre adresse : Livrer à une autre adresse (pour un cadeau, par exemple)
-- Mode de livraison (un seul) : **Livraison suivie DHL · 4 à 9 jours ouvrés · {frais ou Offerte}** · sous-ligne : Droits de douane déjà payés. Pas d'option express.
+- Mode de livraison (un seul) : **Livraison suivie DHL · 4 à 9 jours ouvrés · 4,90 € (offerte dès 50 €)** · sous-ligne : Expédiée hors UE (États-Unis ou Chine), droits de douane déjà payés. Pas d'option express.
 - Noël (jusqu'au 4/12) : Commandée aujourd'hui, ta parure devrait arriver avant Noël en Europe.
 - Noël (5/12 au 24/12) : Livraison avant Noël non garantie à partir d'aujourd'hui.
 - Code promo : Un code ? · Appliquer
 - Paiement : Paiement sécurisé. [À CONFIRMER : Carte, Apple Pay, PayPal selon la passerelle]
 - Case CGV : J'ai lu et j'accepte les conditions générales de vente.
 - Newsletter (non cochée par défaut) : Je veux recevoir les nouvelles parures et les dates importantes par e-mail.
-- Bouton final : Payer {montant}
-- Sous le bouton : En payant, tu confirmes ta commande. Tu as 14 jours après réception pour changer d'avis.
+- Bouton final : **Commander avec obligation de paiement** (obligatoire, L. 221-14)
+- Sous le bouton : En commandant, tu t'engages à payer. Tu as 14 jours après réception pour changer d'avis.
 - Page de remerciement : Merci {prenom}. Ta commande n° {numero_commande} est confirmée. Tu reçois un e-mail dans quelques minutes, puis un autre avec ton suivi dès l'expédition.
 
 ## 5. E-mails transactionnels WooCommerce
@@ -102,6 +103,8 @@ Tutoiement partout. Phrases courtes. Variables entre accolades : `{prenom}`, `{n
   Les droits de douane sont déjà payés : tu n'auras rien à régler à la livraison.
 
   {recapitulatif_commande}
+
+  Tu changes d'avis ? Tu as 14 jours après réception : [Me rétracter]({lien_retractation})
 
   Une erreur dans l'adresse ? Réponds à cet e-mail tout de suite : on peut la corriger tant que la commande n'est pas partie en préparation.
 
@@ -146,7 +149,7 @@ Tutoiement partout. Phrases courtes. Variables entre accolades : `{prenom}`, `{n
 
   CHARMED PARIS
 
-> À confirmer : WooCommerce n'a pas de statut « Livrée » natif : plugin de suivi nécessaire. Ensuite, demande d'avis via l'outil d'avis (Judge.me…) à J+7, jamais d'avis inventé.
+> À confirmer : WooCommerce n'a pas de statut « Livrée » natif : plugin de suivi nécessaire. Ensuite, demande d'avis à J+7 envoyée par Brevo, vers les avis natifs WooCommerce réservés aux acheteuses vérifiées. Jamais d'avis inventé.
 
 ### 5.4 Commande annulée / remboursée (court)
 - Annulation : **Objet :** Ta commande n° {numero_commande} est annulée · Corps : C'est fait, ta commande est annulée. Si tu as payé, le remboursement part aujourd'hui sur ton moyen de paiement. Il apparaît en général sous 3 à 10 jours selon ta banque.
@@ -214,7 +217,7 @@ Règles : pas de fausse urgence, pas de « dernières pièces », pas de compte 
 
   Trois choses à savoir sur CHARMED PARIS :
   1. On ne vend que des parures : des pièces assorties, dans un même coffret.
-  2. On te dit la vraie matière : laiton doré à l'or fin, argent 925, zircons, moissanites de laboratoire, perles de culture d'eau douce.
+  2. On te dit la vraie matière : laiton doré, argent 925, oxydes de zirconium, moissanites synthétiques, perles de culture d'eau douce.
   3. La livraison est offerte dès 50 €, et les droits de douane sont déjà payés.
 
   [Voir les parures]({lien_boutique})

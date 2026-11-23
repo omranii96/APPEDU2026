@@ -18,7 +18,7 @@
       "name": "Les bijoux dorés sont-ils en plaqué or ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nos pièces dorées sont dorées à l'or véritable par électrolyse, puis protégées par un revêtement anti-ternissement. Comme l'épaisseur de la dorure n'est pas publiée, nous écrivons « doré à l'or fin » et non « plaqué or », une mention réservée en France à une couche d'au moins 3 microns. Ce ne sont ni de l'or massif ni du vermeil."
+        "text": "Non. Nos pièces dorées sont recouvertes d'or véritable par électrolyse, puis protégées par un revêtement anti-ternissement. L'épaisseur de la dorure n'étant pas publiée, nous écrivons « doré » (ou « doré à l'or 14 carats » quand le carat est connu) et jamais « plaqué or », mention réservée en France à une couche d'au moins 3 microns. Ce ne sont ni de l'or massif ni du vermeil."
       }
     },
     {
@@ -42,15 +42,15 @@
       "name": "Qu'est-ce que la moissanite ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La moissanite de notre ligne Joaillerie 925 est une pierre créée en laboratoire, différente du diamant et du zircon. Les pierres de 0,1 carat et plus sont livrées avec un certificat GRA. Le poids indiqué est un équivalent diamant (DEW)."
+        "text": "La moissanite de notre ligne Joaillerie 925 est une moissanite synthétique, c'est-à-dire créée en laboratoire. C'est une pierre différente du diamant et de l'oxyde de zirconium. Les pierres de 0,1 carat et plus sont livrées avec un certificat GRA. Le poids indiqué est un équivalent diamant (DEW), pas le poids réel de la pierre."
       }
     },
     {
       "@type": "Question",
-      "name": "L'argent est-il poinçonné ?",
+      "name": "En quoi est faite la ligne Joaillerie 925 ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui. Les pièces de la ligne Joaillerie 925 sont en argent 925 véritable et chaque pièce porte le poinçon 925."
+        "text": "Les parures Joaillerie 925 sont en argent 925 (sterling), serties de moissanites synthétiques. Elles sont livrées dans un écrin en velours bleu."
       }
     },
     {
@@ -99,6 +99,14 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Non. Nos parures sont livrées telles que présentées, sans gravure ni personnalisation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Si je commande deux parures, chacune a-t-elle son écrin ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Chaque commande contient une boîte à bijoux avec sa présentation complète : la première parure y est rangée, les suivantes arrivent dans des sachets scellés, dans le même colis. Pour offrir deux parures séparément, passe deux commandes."
       }
     },
     {

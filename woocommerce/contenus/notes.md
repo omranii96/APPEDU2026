@@ -41,14 +41,14 @@ Grille du brief respectée : Sculpture 49–59 € · Éclat 59–79 € · Coul
 
 **Contrôle de marge (seul coût connu, Molten Art à 49 €)** : 40,83 € HT. Coût 16,87 $ + livraison 8,99 $ + frais 2,9 % + 0,30 $ ≈ 26,91 $ ≈ 24,50 € (hypothèse 1 € = 1,10 $). Marge brute ≈ 16 € HT avant publicité et frais de paiement Woo, et ≈ 9 € si c'est la 2e parure à −15 %. Les 29 autres coûts sont à relever dans le compte Branvas avant publication ; ne pas publier un prix sans ce contrôle, surtout pour la Joaillerie 925 (PVC Branvas médian 219 $).
 
-**Seuil de livraison offerte** : la règle Branvas conseille un seuil 20–30 % au-dessus du panier moyen. Avec 5 parures à 49 €, un seuil à 50 € pousse à prendre une 2e parure : cohérent avec « 2e parure −15 % ». Frais sous 50 € : proposition 4,90 €, à valider.
+**Seuil de livraison offerte** : la règle Branvas conseille un seuil 20–30 % au-dessus du panier moyen. Avec 5 parures à 49 €, un seuil à 50 € pousse à prendre une 2e parure : cohérent avec « 2e parure −15 % ». Frais sous 50 € : **4,90 € (décision du 23/11)**. Écart à signaler : le brief dit « toutes les parures sauf Molten Art à 49 € », or la grille propose 5 parures à 49 € (Molten Art, Crumpled Cube, Celestial Star Moon et les 2 Mixte, fixées à 49 € par le brief). Passer Crumpled Cube et Celestial Star Moon à 52–55 € si l'on veut un seul article sous le seuil.
 
 ## 2. Import WooCommerce
 
 - `produits-woocommerce.csv` (FR) et `produits-woocommerce-en.csv` (EN) : UTF-8, virgule, colonnes officielles + `Meta: _charmed_a_confirmer`. Type = simple, **Published = -1 (brouillon)** : passer à 1 une fois les points à confirmer levés.
 - Catégories : univers (`Parures > …` / `Sets > …`) + budget (`Cadeaux > Moins de 50 €` / `Gifts > Under €50`…), créées automatiquement par l'importateur.
 - **Branvas crée déjà les produits dans Woo** (même SKU attendu). Importer ensuite avec « Mettre à jour les produits existants » (correspondance SKU) et, à l'étape de correspondance des colonnes, mettre **Images** sur « Ne pas importer » pour ne pas effacer les photos synchronisées. Vérifier d'abord que les SKU créés par Branvas sont bien les SKU `JS…` du bundle.
-- **Version anglaise** : les deux fichiers ont les mêmes SKU. Un import natif du fichier EN écraserait le FR. Il faut passer par l'outil de traduction choisi (WPML + WooCommerce Multilingual, ou Polylang for WooCommerce) et lier chaque produit EN à son original FR. Choix du plugin à confirmer.
+- **Version anglaise (TranslatePress, décision du 23/11)** : un seul produit Woo par parure. **Ne pas importer `produits-woocommerce-en.csv` avec l'importateur Woo** (même SKU : il écraserait le FR). Ce fichier sert de source pour saisir les traductions dans TranslatePress (nom, descriptions courte et longue, catégories, étiquettes, attributs).
 - La colonne `Meta: _charmed_a_confirmer` est une méta privée (préfixe `_`) : invisible côté client. La vider une fois les points levés.
 
 ## 3. Points « à confirmer » consolidés
@@ -64,10 +64,10 @@ Grille du brief respectée : Sculpture 49–59 € · Éclat 59–79 € · Coul
 8. Aucune mention « sans nickel / sans plomb / hypoallergénique » tant qu'il n'y a pas de rapport de test par SKU (300–800 $ par article).
 
 ### Logistique / commerce
-9. Frais de livraison sous 50 € (proposition 4,90 €).
+9. Frais de livraison sous 50 € : réglé, 4,90 €.
 10. Moyens de paiement réels (Carte, Apple Pay, PayPal annoncés dans la maquette).
 11. Règle exacte de la remise « 2e parure −15 % » (la moins chère des deux ?) et plugin ; cumul ou non avec −10 % newsletter et relance panier.
-12. Une parure de plusieurs pièces compte-t-elle comme une seule « pièce » pour la boîte-tiroir ? (FAQ : une boîte par commande, pièces supplémentaires en sachet scellé.)
+12. Fait vérifié : une boîte-tiroir (beige métallisé, à notre logo) par commande, 2e parure en sachet scellé ; écrin velours bleu sans logo pour la ligne moissanite ; aucun message cadeau. Reste à confirmer : les pièces d'une même parure sont-elles toutes dans la boîte-tiroir ?
 13. Conflit commercial : « 2e parure −15 % » et « une boîte par commande ». Pour deux cadeaux, conseiller deux commandes (textes déjà rédigés ainsi), ce qui fait perdre la remise. À arbitrer.
 14. Délai réel d'annulation (réglage « Auto-Fulfillment » dans Branvas).
 15. Packaging homme ou femme : comment est-il choisi (parures Mixte) ?
@@ -90,3 +90,15 @@ Grille du brief respectée : Sculpture 49–59 € · Éclat 59–79 € · Coul
 30. Classement : JS0DGC Celestial Cascade et JS9XM9 Linear Luxe ont des pierres incolores : plutôt Éclat que Couleur précieuse.
 31. Breloques en forme de lettre sur les chaînes de JS3GGZ et JS2KBV : lesquelles ?
 32. Matière des cordons (JSVKMZ, JSCT1F).
+
+### Règles légales appliquées (consignes du 23/11) et points restants
+33. **Dorure** : tous les textes FR disent « doré » (ou « laiton doré par électrolyse »), jamais « doré à l'or fin » (réservé au 24 ct). Relever le carat de chaque SKU puis écrire « doré à l'or X carats ». Finitions « white gold » / « rose gold » écrites « finition argentée » / « finition rosée » en attendant le carat.
+34. **Pierres** : « oxyde de zirconium » partout (plus de « zircon ») ; « moissanite synthétique, créée en laboratoire » ; « estampillée 925 » (jamais « poinçonnée ») tant que le statut de garantie (code de commerce L. 831-1 s.) n'est pas vérifié.
+35. **EN** : « gold-plated » conservé sur consigne du coordinateur ; le document juridique (`legal/points-de-vigilance.md` §4) recommande plutôt « gold-tone, electroplated with [18k] gold » pour un site visant la France : arbitrage à faire.
+36. **Bouton final** « Commander avec obligation de paiement » (L. 221-14) et **bouton de rétractation en ligne** (L. 221-21, depuis le 19/06/2026, libellé exact selon décret 2026-3) : à développer dans WooCommerce.
+37. **Délai maximal de livraison** à afficher (proposition 15 jours ouvrés) : `[À COMPLÉTER]` dans Livraison & retours.
+38. **Pays d'expédition** : affiché « hors UE (États-Unis ou Chine) » sur fiches, livraison, checkout, À propos (omission trompeuse sinon).
+39. **Prix barrés** : aucun dans les contenus ; ne pas en créer au lancement ni pour le Black Friday du 27/11/2026.
+40. **Royaume-Uni** : ne pas ouvrir avant immatriculation TVA UK ; ligne 925 exclue au UK. Les lignes UK de `pages-en.md` sont signalées.
+41. **GPSR** : nom, adresse et référence de l'opérateur responsable sur les fiches et sur l'emballage : vérifier ce que le packaging Branvas permet.
+42. **Petits colis UE** (3 € par catégorie depuis le 01/07/2026, frais de 2 € annoncés depuis le 01/11/2026) : faire confirmer par écrit que le DDP Branvas les couvre, sinon « droits de douane déjà payés » devient faux.

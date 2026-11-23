@@ -13,6 +13,7 @@
  *   [charmed_univers slugs="sculpture,eclat,couleur-precieuse,joaillerie-925,mixte"]
  *   [charmed_promo parts="xmas,shipping,bundle"]   [charmed_promo parts="delivery,ddp,xmas" variant="list" context="product"]
  *   [charmed_newsletter]   [charmed_wordmark size="26"]   [charmed_language_switcher]
+ *   [charmed_withdrawal_link]   [charmed_withdrawal_form] (page Rétractation)
  *
  * @package CharmedParis
  */
@@ -68,6 +69,7 @@ function charmed_block_definitions(): array {
 			'attributes'  => array(
 				'ctaText' => array( 'type' => 'string', 'default' => '', 'label' => __( 'Texte du bouton', 'charmed-paris' ) ),
 				'ctaUrl'  => array( 'type' => 'string', 'default' => '#coffrets', 'label' => __( 'Lien du bouton', 'charmed-paris' ) ),
+				'skipTarget' => array( 'type' => 'string', 'default' => '#coffrets', 'label' => __( 'Cible du lien « Passer l’intro »', 'charmed-paris' ) ),
 			),
 		),
 		'coffrets'          => array(
@@ -127,6 +129,17 @@ function charmed_block_definitions(): array {
 				'initial' => array( 'type' => 'string', 'default' => '', 'label' => __( 'Packaging affiché d’abord (f, h, noel-f, noel-h)', 'charmed-paris' ) ),
 			),
 		),
+		'reviews'           => array(
+			'title'       => __( 'Avis vérifiés', 'charmed-paris' ),
+			'description' => __( 'Derniers avis WooCommerce natifs (acheteuses vérifiées uniquement). Rien ne s’affiche tant qu’il n’y a pas d’avis.', 'charmed-paris' ),
+			'icon'        => 'star-half',
+			'render'      => 'charmed_render_reviews',
+			'styles'      => array( 'charmed-sections' ),
+			'attributes'  => array(
+				'limit'   => array( 'type' => 'number', 'default' => 6, 'label' => __( 'Nombre d’avis', 'charmed-paris' ) ),
+				'heading' => array( 'type' => 'string', 'default' => '', 'label' => __( 'Titre', 'charmed-paris' ) ),
+			),
+		),
 		'promo-notice'      => array(
 			'title'       => __( 'Messages promo et livraison', 'charmed-paris' ),
 			'description' => __( 'Seuil de livraison offerte (lu dans WooCommerce), remise 2e parure, délai réel, droits inclus, date limite de Noël.', 'charmed-paris' ),
@@ -150,6 +163,14 @@ function charmed_block_definitions(): array {
 				'heading' => array( 'type' => 'string', 'default' => '', 'label' => __( 'Titre (n’annoncez une remise que si le code existe)', 'charmed-paris' ) ),
 				'text'    => array( 'type' => 'string', 'default' => '', 'label' => __( 'Texte', 'charmed-paris' ) ),
 			),
+		),
+		'withdrawal-link'   => array(
+			'title'       => __( 'Lien de rétractation', 'charmed-paris' ),
+			'description' => __( 'Lien « Me rétracter » vers le formulaire de rétractation en ligne (L221-21).', 'charmed-paris' ),
+			'icon'        => 'undo',
+			'render'      => 'charmed_render_withdrawal_link',
+			'styles'      => array(),
+			'attributes'  => array(),
 		),
 		'language-switcher' => array(
 			'title'       => __( 'Sélecteur de langue', 'charmed-paris' ),

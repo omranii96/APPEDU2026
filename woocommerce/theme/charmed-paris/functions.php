@@ -13,6 +13,7 @@
  *  - newsletter.php  traitement du formulaire d'inscription
  *  - seo.php         données structurées produit (marque, MPN, pas d'EAN)
  *  - i18n.php        sélecteur de langue (TranslatePress / Polylang / WPML)
+ *  - withdrawal.php  bouton de rétractation en ligne (L221-21) — copiable en mu-plugin
  *
  * @package CharmedParis
  */
@@ -35,6 +36,7 @@ $charmed_includes = array(
 	'newsletter',
 	'seo',
 	'i18n',
+	'withdrawal', // Ignoré s'il est déjà chargé comme mu-plugin.
 );
 
 foreach ( $charmed_includes as $charmed_file ) {

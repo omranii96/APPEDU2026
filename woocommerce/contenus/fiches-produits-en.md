@@ -26,11 +26,11 @@ Metal that looks as if it melted, then cooled in a second. Wear Molten Art with 
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sculpture, Gifts > Under €50 · Tags: necklace, earrings, gold, under €50, gift idea
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Coût connu : 16,87 $ (PVC Branvas 46 $) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Coût connu : 16,87 $ (PVC Branvas 46 $) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -56,11 +56,11 @@ A small gold cube, crushed like a sheet of paper someone decided to keep. It sit
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sculpture, Gifts > Under €50 · Tags: necklace, earrings, gold, geometric, under €50, gift idea
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Coût d'achat à relever (marge à vérifier à 49 €) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Coût d'achat à relever (marge à vérifier à 49 €) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -86,11 +86,11 @@ A silver moon, a gold star, and a drop of cubic zirconia that swings when you tu
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sculpture, Gifts > Under €50 · Tags: necklace, earrings, two-tone, moon, star, cubic zirconia, under €50, gift idea
 
-> **À confirmer (interne)** : Laiton confirmé par Branvas (« eco-brass ») ; nature de la finition argentée à confirmer ; Parure bicolore : la maquette présente Sculpture comme « métal doré » ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Laiton confirmé par Branvas (« eco-brass ») ; nature de la finition argentée à confirmer ; Parure bicolore : la maquette présente Sculpture comme « métal doré » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -116,11 +116,11 @@ Like a wave caught in sugar. Over a fine black knit, the pendant catches the lig
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sculpture, Gifts > Under €100 · Tags: necklace, earrings, gold, resin, gift idea
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Résine : tenue au parfum et à la lumière à vérifier (échantillon) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Résine : tenue au parfum et à la lumière à vérifier (échantillon) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -146,11 +146,11 @@ Drips of gold, frozen mid-fall. For a gallery opening, with a black blazer and n
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sculpture, Gifts > Under €100 · Tags: necklace, earrings, gold, statement, gift idea
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Chaîne coulissante : longueur réglable mini/maxi à relever ; Poids des boucles à relever (pièces volumineuses) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Chaîne coulissante : longueur réglable mini/maxi à relever ; Poids des boucles à relever (pièces volumineuses) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -176,11 +176,11 @@ A gold pebble picked up on the beach, with a pearl set in the middle. Worn high 
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sculpture, Gifts > Under €100 · Tags: necklace, earrings, gold, pearls, gift idea
 
-> **À confirmer (interne)** : Perles : FAQ Branvas = perles de culture d'eau douce véritables ; vérifier que la fiche ne dit pas « simulated pearl » ; Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Perles : FAQ Branvas = perles de culture d'eau douce véritables ; vérifier que la fiche ne dit pas « simulated pearl » ; Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -206,11 +206,11 @@ Satin silver-tone metal, like the inside of a shell, around a baroque pearl. Wit
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sculpture, Gifts > Under €100 · Tags: necklace, earrings, silver tone, pearls, gift idea
 
-> **À confirmer (interne)** : Branvas indique « eco-zinc alloy » alors que la FAQ ne cite que laiton, acier et argent : confirmer le métal de base et la finition argentée (texte client volontairement neutre : « métal à finition argentée ») ; Perles : vérifier que la fiche ne dit pas « simulated pearl » ; Parure argentée : la maquette présente Sculpture comme « métal doré » ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Branvas indique « eco-zinc alloy » alors que la FAQ ne cite que laiton, acier et argent : confirmer le métal de base et la finition argentée (texte client volontairement neutre : « métal à finition argentée ») ; Perles : vérifier que la fiche ne dit pas « simulated pearl » ; Parure argentée : la maquette présente Sculpture comme « métal doré » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -239,11 +239,11 @@ A gold ring on a black cord that adjusts in one pull. She wears it over a white 
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Unisex, Gifts > Under €50 · Tags: necklace, hoops, cord, unisex, for him, under €50, gift idea
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Nature des « crystals » à confirmer (zircons ?) ; Matière du cordon à confirmer ; Packaging homme ou femme pour cette parure : selon quel critère Branvas choisit-il ? ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Nature des « crystals » à confirmer (oxydes de zirconium ?) ; Matière du cordon à confirmer ; Packaging homme ou femme pour cette parure : selon quel critère Branvas choisit-il ? ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -269,11 +269,11 @@ A hammered crescent moon on a black cord. With a grey sweatshirt, on a Sunday in
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Unisex, Gifts > Under €50 · Tags: necklace, earrings, cord, moon, unisex, for him, under €50, gift idea
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Matière du cordon à confirmer ; Packaging homme ou femme : selon quel critère ? ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Matière du cordon à confirmer ; Packaging homme ou femme : selon quel critère ? ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -302,11 +302,11 @@ A small gold planet, half smooth, half sparkling. By candlelight at dinner, it s
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold, cubic zirconia, gift idea
 
-> **À confirmer (interne)** : Coût relevé : 22,01 $ (probablement unitaire) ; Matière du dôme bronze à confirmer (perle ? émail ? verre ?) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Coût relevé : 22,01 $ (probablement unitaire) ; Matière du dôme bronze à confirmer (perle ? émail ? verre ?) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -332,11 +332,11 @@ Two pavé drops at the ears, a third at the end of a fine chain. For a black V-n
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, earrings, gold, cubic zirconia, evening, gift idea
 
-> **À confirmer (interne)** : Branvas parle de zircons « AAA » : mention non reprise (classement non normalisé) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Branvas parle d'oxydes de zirconium « AAA » : mention non reprise (classement non normalisé) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -362,11 +362,11 @@ A champagne-coloured square that catches the six o'clock light. Hair up, so the 
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, hoops, gold, cubic zirconia, champagne, gift idea
 
-> **À confirmer (interne)** : Branvas indique « 14K gold plated » : carat à confirmer sur la fiche avant toute mention ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Branvas indique « 14K gold plated » : si la fiche confirme, écrire « doré à l'or 14 carats » (texte actuel : « doré ») ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -393,11 +393,11 @@ Three pieces, one pavé curve. The ring at the office, then the necklace and hoo
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, hoops, ring, gold, cubic zirconia, three pieces, gift idea
 
-> **À confirmer (interne)** : Bague réglable (Branvas) : relever les mesures de l'anneau à afficher ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Bague réglable (Branvas) : relever les mesures de l'anneau à afficher ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -423,11 +423,11 @@ A rectangular cubic zirconia in a double pavé frame, like an old ring worn at t
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold, cubic zirconia, wedding, gift idea
 
-> **À confirmer (interne)** : « Emerald cut » = taille émeraude, pas une émeraude : garder « zircon taille émeraude » partout ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : « Emerald cut » = taille émeraude, pas une émeraude : garder « oxyde de zirconium taille émeraude » partout ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -453,11 +453,11 @@ A gold curb chain that changes pace halfway: diamond-shaped links set with cubic
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, hoops, gold, cubic zirconia, geometric, gift idea
 
-> **À confirmer (interne)** : Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -484,11 +484,11 @@ A honey-coloured square in a frame of cubic zirconia, like a family piece brough
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, earrings, gold, cubic zirconia, vintage, gift idea
 
-> **À confirmer (interne)** : Nature des « square golden stones » à confirmer (zircon jaune ?) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Nature des « square golden stones » à confirmer (oxyde de zirconium jaune ?) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -515,11 +515,11 @@ A pavé flower at the end of a chain dotted with small white beads. For a spring
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold, cubic zirconia, flower, Mother's Day, gift idea
 
-> **À confirmer (interne)** : Nature des « white beads » à confirmer (perles de culture ? perles simulées ? verre ?) : texte client volontairement neutre ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Nature des « white beads » à confirmer (perles de culture ? perles simulées ? verre ?) : texte client volontairement neutre ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -545,11 +545,11 @@ A circle of baguette stones worn at the front of the chain, like a clasp you sho
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, earrings, gold, cubic zirconia, gift idea
 
-> **À confirmer (interne)** : Le médaillon avant sert-il de fermoir (fermoir T) ? ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Le médaillon avant sert-il de fermoir (fermoir T) ? ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -576,11 +576,11 @@ A silver-grey dome, half hidden in a shell of cubic zirconia. The set for grey d
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, silver tone, cubic zirconia, gift idea
 
-> **À confirmer (interne)** : Matière du dôme gris à confirmer (perle ?) ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Matière du dôme gris à confirmer (perle ?) ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -606,11 +606,11 @@ A square of cubic zirconia that ripples like fabric. Over a black vest top, on a
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold, cubic zirconia, gift idea
 
-> **À confirmer (interne)** : Petite breloque en forme de lettre visible sur la chaîne : laquelle ? la décrire ? ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Petite breloque en forme de lettre visible sur la chaîne : laquelle ? la décrire ? ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -638,11 +638,11 @@ A line of small ovals leading down to one larger stone. For a June wedding, thin
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, earrings, silver tone, cubic zirconia, wedding, gift idea
 
-> **À confirmer (interne)** : Pierres incolores sur la photo : classement dans « Couleur précieuse » à revoir (plutôt Éclat) ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Pierres incolores sur la photo : classement dans « Couleur précieuse » à revoir (plutôt Éclat) ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -670,11 +670,11 @@ A deep green stone cut as a teardrop, ringed with cubic zirconia. With a black d
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, earrings, ring, green, cubic zirconia, three pieces, gift idea
 
-> **À confirmer (interne)** : Nature de la pierre verte à confirmer (Branvas : « green gemstones ») ; Bague visible sur la photo mais non citée par Branvas : confirmer qu'elle est incluse ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Nom anglais contenant une pierre précieuse (Emerald) : les textes disent bien zircon / pierre de couleur ; envisager de renommer pour éviter toute confusion ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Nature de la pierre verte à confirmer (Branvas : « green gemstones ») ; Bague visible sur la photo mais non citée par Branvas : confirmer qu'elle est incluse ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Nom anglais contenant une pierre précieuse (Emerald) : les textes disent bien oxyde de zirconium / pierre de couleur ; envisager de renommer pour éviter toute confusion ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -701,11 +701,11 @@ A square of white enamel with a green stone at its centre, like an old playing c
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, hoops, gold, enamel, green, cubic zirconia, gift idea
 
-> **À confirmer (interne)** : La maquette d'accueil parle de « puces » : ce sont de petites créoles à pendant ; Petite breloque en forme de lettre sur la chaîne : laquelle ? ; Nom anglais contenant une pierre précieuse (Emerald) : les textes disent bien zircon / pierre de couleur ; envisager de renommer pour éviter toute confusion ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : La maquette d'accueil parle de « puces » : ce sont de petites créoles à pendant ; Petite breloque en forme de lettre sur la chaîne : laquelle ? ; Nom anglais contenant une pierre précieuse (Emerald) : les textes disent bien oxyde de zirconium / pierre de couleur ; envisager de renommer pour éviter toute confusion ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -731,21 +731,21 @@ A vertical line of baguette stones that lengthens the neck. With a trouser suit,
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, hoops, silver tone, cubic zirconia, gift idea
 
-> **À confirmer (interne)** : Pierres incolores : classement dans « Couleur précieuse » à revoir (plutôt Éclat) ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Pierres incolores : classement dans « Couleur précieuse » à revoir (plutôt Éclat) ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Pink Pavé Set · JSB541 · 85 € (proposal)
 
-**Short description:** Pink cubic zirconia on rose gold, as a necklace, hoops and an open ring.
+**Short description:** Pink cubic zirconia on rose-gold-plated brass, as a necklace, hoops and an open ring.
 - Necklace + hoops + open ring
 - Rose gold-plated brass, pink cubic zirconia
 
-Pink on rose gold, three pieces that answer each other. For a birthday brunch, with a white shirt that leaves room for all three.
+Pink on rose-gold tones, three pieces that answer each other. For a birthday brunch, with a white shirt that leaves room for all three.
 
 **In the set**
 - A fine chain necklace with a curved bar paved with pink cubic zirconia
@@ -762,11 +762,11 @@ Pink on rose gold, three pieces that answer each other. For a birthday brunch, w
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
-Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, hoops, ring, rose gold, pink, cubic zirconia, three pieces, gift idea
+Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, hoops, ring, rose gold tone, pink, cubic zirconia, three pieces, gift idea
 
-> **À confirmer (interne)** : Bague ouverte : « adjustable » sur la fiche ? relever les mesures ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Bague ouverte : « adjustable » sur la fiche ? relever les mesures ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -793,11 +793,11 @@ A pink square in an ornate frame, in the manner of old court jewels. For an even
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, earrings, gold, pink, cubic zirconia, vintage, gift idea
 
-> **À confirmer (interne)** : Nature des « crystal accents » à confirmer (zircons ?) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Nature des « crystal accents » à confirmer (oxydes de zirconium ?) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -824,11 +824,11 @@ A midnight-blue oval in a corolla of clear stones. With a white jumper and raw d
 
 **The CHARMED PARIS box, included.** It arrives ready to give: a metallic beige drawer box with our logo, tied with ribbon, plus a velvet pouch, a polishing cloth and a care card. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag in the same parcel.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, studs, blue, cubic zirconia, gift idea
 
-> **À confirmer (interne)** : La maquette d'accueil annonce « Collier, boucles et bague » : AUCUNE bague sur la photo Branvas, corriger la maquette ; Nature des « clear crystal halos » à confirmer ; Nom anglais contenant une pierre précieuse (Sapphire) : les textes disent bien zircon / pierre de couleur ; envisager de renommer pour éviter toute confusion ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : La maquette d'accueil annonce « Collier, boucles et bague » : AUCUNE bague sur la photo Branvas, corriger la maquette ; Nature des « clear crystal halos » à confirmer ; Nom anglais contenant une pierre précieuse (Sapphire) : les textes disent bien oxyde de zirconium / pierre de couleur ; envisager de renommer pour éviter toute confusion ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -858,11 +858,11 @@ Four sterling silver pieces around the same pink stone. For a spring wedding: we
 
 **The CHARMED PARIS box, included.** It arrives in a blue velvet jewellery box inside the CHARMED PARIS parcel, with a velvet pouch, a polishing cloth, a care card, and the GRA certificate for stones of 0.1 ct and above. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > 925 Silver, Gifts > Over €100 · Tags: necklace, studs, ring, bracelet, 925 silver, moissanite, pink, four pieces, over €100, gift idea
 
-> **À confirmer (interne)** : Confirmer que toutes les pierres (y compris le pavage de la bague) sont des moissanites et non des zircons ; Poids des pierres : lesquelles dépassent 0,1 ct (certificat GRA) ? ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Longueur du bracelet et de la chaînette à relever ; Coût d'achat à relever (prix proposé 189 € repris de la maquette) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Confirmer que toutes les pierres (y compris le pavage de la bague) sont des moissanites et non des oxydes de zirconium ; Poids des pierres : lesquelles dépassent 0,1 ct (certificat GRA) ? ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Longueur du bracelet et de la chaînette à relever ; Coût d'achat à relever (prix proposé 189 € repris de la maquette) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -888,11 +888,11 @@ A sun-yellow rectangle set in silver. The ring on its own at work; add the neckl
 
 **The CHARMED PARIS box, included.** It arrives in a blue velvet jewellery box inside the CHARMED PARIS parcel, with a velvet pouch, a polishing cloth, a care card, and the GRA certificate for stones of 0.1 ct and above. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > 925 Silver, Gifts > Over €100 · Tags: necklace, ring, 925 silver, moissanite, yellow, over €100, gift idea
 
-> **À confirmer (interne)** : Photo : collier + bague seulement, AUCUNE boucle d'oreille. Confirmer le contenu exact (la promesse « collier et boucles » de l'accueil ne s'applique pas) ; Nature des petites pierres d'épaulement à confirmer ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Photo : collier + bague seulement, AUCUNE boucle d'oreille. Confirmer le contenu exact (la promesse « collier et boucles » de l'accueil ne s'applique pas) ; Nature des petites pierres d'épaulement à confirmer ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -920,10 +920,10 @@ Hearts cut clean and ringed with small stones, in sterling silver. Not sugary in
 
 **The CHARMED PARIS box, included.** It arrives in a blue velvet jewellery box inside the CHARMED PARIS parcel, with a velvet pouch, a polishing cloth, a care card, and the GRA certificate for stones of 0.1 ct and above. No prices anywhere in the parcel. One box per order: with two sets, the second travels in a sealed bag.
 
-**Delivery.** Shipped by DHL from our partner warehouses. Delivered in 4 to 9 business days to France and Germany, 3 to 7 to the UK, for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
+**Delivery.** Shipped by DHL from our partner warehouses outside the EU (United States or China). Delivered in 4 to 9 business days to France, Germany and Spain for 9 parcels in 10. Duties and import taxes are already paid: nothing to pay on arrival.
 
 Categories: Sets > 925 Silver, Gifts > Over €100 · Tags: necklace, studs, ring, bracelet, 925 silver, moissanite, heart, four pieces, Valentine's Day, over €100, gift idea
 
-> **À confirmer (interne)** : Confirmer que le pavage des entourages est en moissanite et non en zircons ; Poids des pierres : lesquelles dépassent 0,1 ct (certificat GRA) ? ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Longueur du bracelet à relever ; Coût d'achat à relever (prix proposé 229 €) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Confirmer que le pavage des entourages est en moissanite et non en oxydes de zirconium ; Poids des pierres : lesquelles dépassent 0,1 ct (certificat GRA) ? ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Longueur du bracelet à relever ; Coût d'achat à relever (prix proposé 229 €) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---

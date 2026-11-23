@@ -8,7 +8,7 @@ Version de relecture des 30 parures, même contenu que `produits-woocommerce.csv
 
 **Description courte :** Un collier deux rangs et des boucles en métal froissé, pour donner du relief à une tenue simple.
 - Collier deux rangs + boucles d'oreilles
-- Laiton doré à l'or fin, à garder au sec
+- Laiton doré, à garder au sec
 
 Du métal qui a l'air d'avoir fondu, puis refroidi d'un coup. Molten Art se porte avec une chemise blanche ouverte d'un bouton de plus que d'habitude.
 
@@ -17,7 +17,7 @@ Du métal qui a l'air d'avoir fondu, puis refroidi d'un coup. Molten Art se port
 - Une paire de boucles d'oreilles larges, au même métal froissé
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
+- Laiton doré par électrolyse, revêtement anti-ternissement
 - Surface froissée : chaque reflet tombe à un endroit différent
 
 **Pour l'offrir à…** ta sœur qui ne porte que du noir et du blanc. Le doré froissé fait le reste.
@@ -26,11 +26,11 @@ Du métal qui a l'air d'avoir fondu, puis refroidi d'un coup. Molten Art se port
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : collier, boucles d'oreilles, doré, moins de 50 €, idée cadeau
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Coût connu : 16,87 $ (PVC Branvas 46 $) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Coût connu : 16,87 $ (PVC Branvas 46 $) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -38,7 +38,7 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : co
 
 **Description courte :** Un cube doré froissé, en pendentif et en boucles pendantes.
 - Collier pendentif + boucles pendantes
-- Laiton doré à l'or fin, à garder au sec
+- Laiton doré, à garder au sec
 
 Un petit cube doré, froissé comme une feuille de papier qu'on aurait décidé de garder. Il tombe juste sur les côtes d'un col roulé crème.
 
@@ -47,7 +47,7 @@ Un petit cube doré, froissé comme une feuille de papier qu'on aurait décidé 
 - Une paire de boucles pendantes : un petit carré, une chaînette, puis le même cube en miniature
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
+- Laiton doré par électrolyse, revêtement anti-ternissement
 - Volumes froissés, faits pour accrocher la lumière
 
 **Pour l'offrir à…** ton amie architecte, ou à celle qui range ses livres par couleur.
@@ -56,11 +56,11 @@ Un petit cube doré, froissé comme une feuille de papier qu'on aurait décidé 
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : collier, boucles d'oreilles, doré, géométrique, moins de 50 €, idée cadeau
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Coût d'achat à relever (marge à vérifier à 49 €) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Coût d'achat à relever (marge à vérifier à 49 €) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -68,17 +68,17 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : co
 
 **Description courte :** La lune en argenté, l'étoile en doré, sur un collier double chaîne et des boucles pendantes.
 - Collier double chaîne + boucles pendantes
-- Laiton bicolore et zircons, à garder au sec
+- Laiton bicolore et oxydes de zirconium, à garder au sec
 
-Une lune argentée, une étoile dorée, et une goutte de zircon qui bouge quand tu tournes la tête. Pour un dîner d'hiver, avec un pull fin col V.
+Une lune argentée, une étoile dorée, et une goutte d'oxyde de zirconium qui bouge quand tu tournes la tête. Pour un dîner d'hiver, avec un pull fin col V.
 
 **Dans la parure**
-- Un collier double chaîne : un rang semé de petites étoiles et d'une goutte de zircon, un rang qui porte la lune et son étoile
-- Une paire de boucles pendantes : lune, étoile et goutte de zircon
+- Un collier double chaîne : un rang semé de petites étoiles et d'une goutte d'oxyde de zirconium, un rang qui porte la lune et son étoile
+- Une paire de boucles pendantes : lune, étoile et goutte d'oxyde de zirconium
 
 **Matières et finitions**
-- Laiton, finitions dorée à l'or fin et argentée, revêtement anti-ternissement
-- Zircons incolores
+- Laiton, finitions dorée et argentée, revêtement anti-ternissement
+- Oxydes de zirconium incolores
 
 **Pour l'offrir à…** ta filleule pour ses 18 ans, ou à l'amie qui lit son horoscope sans l'avouer.
 
@@ -86,11 +86,11 @@ Une lune argentée, une étoile dorée, et une goutte de zircon qui bouge quand 
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : collier, boucles d'oreilles, bicolore, lune, étoile, zircons, moins de 50 €, idée cadeau
+Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : collier, boucles d'oreilles, bicolore, lune, étoile, oxydes de zirconium, moins de 50 €, idée cadeau
 
-> **À confirmer (interne)** : Laiton confirmé par Branvas (« eco-brass ») ; nature de la finition argentée à confirmer ; Parure bicolore : la maquette présente Sculpture comme « métal doré » ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Laiton confirmé par Branvas (« eco-brass ») ; nature de la finition argentée à confirmer ; Parure bicolore : la maquette présente Sculpture comme « métal doré » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -98,7 +98,7 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : co
 
 **Description courte :** Des vagues dorées et de la résine translucide, en pendentif et en boucles.
 - Collier pendentif + boucles d'oreilles
-- Laiton doré à l'or fin et résine, à garder au sec
+- Laiton doré et résine, à garder au sec
 
 On dirait une vague prise dans du sucre. Sur un pull noir en laine fine, le pendentif attrape la lumière à chaque pas.
 
@@ -107,7 +107,7 @@ On dirait une vague prise dans du sucre. Sur un pull noir en laine fine, le pend
 - Une paire de boucles d'oreilles assorties, en forme de vague
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
+- Laiton doré par électrolyse, revêtement anti-ternissement
 - Inclusions en résine translucide, aspect nacré
 
 **Pour l'offrir à…** ta mère, si elle garde chez elle des objets en verre ou en céramique.
@@ -116,11 +116,11 @@ On dirait une vague prise dans du sucre. Sur un pull noir en laine fine, le pend
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Sculpture, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, résine, idée cadeau
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Résine : tenue au parfum et à la lumière à vérifier (échantillon) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Résine : tenue au parfum et à la lumière à vérifier (échantillon) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -128,7 +128,7 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 100 € · Étiquettes : c
 
 **Description courte :** Un pendentif en lames dorées et des boucles en franges, pour les tenues sobres qui demandent un point fort.
 - Collier coulissant + boucles d'oreilles
-- Laiton doré à l'or fin, à garder au sec
+- Laiton doré, à garder au sec
 
 Des coulures d'or figées en pleine chute. Le soir d'un vernissage, sur un blazer noir porté à même la peau.
 
@@ -137,7 +137,7 @@ Des coulures d'or figées en pleine chute. Le soir d'un vernissage, sur un blaze
 - Une paire de boucles d'oreilles en franges texturées
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
+- Laiton doré par électrolyse, revêtement anti-ternissement
 - Lames et franges travaillées en relief
 
 **Pour l'offrir à…** celle qui trouve les petits bijoux trop discrets.
@@ -146,11 +146,11 @@ Des coulures d'or figées en pleine chute. Le soir d'un vernissage, sur un blaze
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Sculpture, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, statement, idée cadeau
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Chaîne coulissante : longueur réglable mini/maxi à relever ; Poids des boucles à relever (pièces volumineuses) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Chaîne coulissante : longueur réglable mini/maxi à relever ; Poids des boucles à relever (pièces volumineuses) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -158,7 +158,7 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 100 € · Étiquettes : c
 
 **Description courte :** Un galet doré mat et une perle de culture baroque, en pendentif et en boucles.
 - Collier pendentif + boucles d'oreilles
-- Laiton doré à l'or fin, perles de culture d'eau douce
+- Laiton doré, perles de culture d'eau douce
 
 Un galet doré ramassé sur la plage, avec une perle au centre. Il se porte haut, sur un col rond, pour un déjeuner du dimanche.
 
@@ -167,7 +167,7 @@ Un galet doré ramassé sur la plage, avec une perle au centre. Il se porte haut
 - Une paire de boucles d'oreilles galets, avec la même perle
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement, finition mate
+- Laiton doré par électrolyse, revêtement anti-ternissement, finition mate
 - Perles de culture d'eau douce, forme baroque : chaque perle est un peu différente
 
 **Pour l'offrir à…** ta grand-mère qui ne quitte pas son rang de perles. C'est le même blanc, en plus libre.
@@ -176,11 +176,11 @@ Un galet doré ramassé sur la plage, avec une perle au centre. Il se porte haut
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Sculpture, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, perles, idée cadeau
 
-> **À confirmer (interne)** : Perles : FAQ Branvas = perles de culture d'eau douce véritables ; vérifier que la fiche ne dit pas « simulated pearl » ; Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Perles : FAQ Branvas = perles de culture d'eau douce véritables ; vérifier que la fiche ne dit pas « simulated pearl » ; Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -206,11 +206,11 @@ Du métal argenté, satiné comme l'intérieur d'une coquille, autour d'une perl
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Sculpture, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, argenté, perles, idée cadeau
 
-> **À confirmer (interne)** : Branvas indique « eco-zinc alloy » alors que la FAQ ne cite que laiton, acier et argent : confirmer le métal de base et la finition argentée (texte client volontairement neutre : « métal à finition argentée ») ; Perles : vérifier que la fiche ne dit pas « simulated pearl » ; Parure argentée : la maquette présente Sculpture comme « métal doré » ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Branvas indique « eco-zinc alloy » alors que la FAQ ne cite que laiton, acier et argent : confirmer le métal de base et la finition argentée (texte client volontairement neutre : « métal à finition argentée ») ; Perles : vérifier que la fiche ne dit pas « simulated pearl » ; Parure argentée : la maquette présente Sculpture comme « métal doré » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -220,7 +220,7 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 100 € · Étiquettes : c
 
 **Description courte :** Un anneau doré sur cordon réglable et ses créoles, à porter seul ou à partager.
 - Collier sur cordon réglable + créoles
-- Laiton doré à l'or fin, à garder au sec
+- Laiton doré, à garder au sec
 
 Un anneau doré sur un cordon noir, qui se règle d'un geste. Elle le porte sur un t-shirt blanc, il le porte sous une chemise ouverte.
 
@@ -229,7 +229,7 @@ Un anneau doré sur un cordon noir, qui se règle d'un geste. Elle le porte sur 
 - Une paire de créoles géométriques assorties
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
+- Laiton doré par électrolyse, revêtement anti-ternissement
 - Cordon noir, coulisse et embouts dorés
 - Petites pierres incolores
 
@@ -239,11 +239,11 @@ Un anneau doré sur un cordon noir, qui se règle d'un geste. Elle le porte sur 
 
 **Le coffret CHARMED PARIS, inclus.** Elle arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Mixte, Cadeaux > Moins de 50 € · Étiquettes : collier, créoles, cordon, mixte, pour lui, moins de 50 €, idée cadeau
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Nature des « crystals » à confirmer (zircons ?) ; Matière du cordon à confirmer ; Packaging homme ou femme pour cette parure : selon quel critère Branvas choisit-il ? ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Nature des « crystals » à confirmer (oxydes de zirconium ?) ; Matière du cordon à confirmer ; Packaging homme ou femme pour cette parure : selon quel critère Branvas choisit-il ? ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -251,7 +251,7 @@ Catégories : Parures > Mixte, Cadeaux > Moins de 50 € · Étiquettes : collie
 
 **Description courte :** Un croissant de lune doré sur cordon noir, avec ses boucles assorties.
 - Collier sur cordon réglable + boucles
-- Laiton doré à l'or fin, à garder au sec
+- Laiton doré, à garder au sec
 
 Un croissant de lune martelé, sur un cordon noir. Avec un sweat gris, un dimanche de novembre.
 
@@ -260,7 +260,7 @@ Un croissant de lune martelé, sur un cordon noir. Avec un sweat gris, un dimanc
 - Une paire de boucles d'oreilles en croissant, assorties
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement, surface martelée
+- Laiton doré par électrolyse, revêtement anti-ternissement, surface martelée
 - Cordon noir, coulisse et embouts dorés
 
 **Pour l'offrir à…** ton meilleur ami qui ne porte jamais de bijoux. Le cordon, il le gardera.
@@ -269,11 +269,11 @@ Un croissant de lune martelé, sur un cordon noir. Avec un sweat gris, un dimanc
 
 **Le coffret CHARMED PARIS, inclus.** Elle arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Mixte, Cadeaux > Moins de 50 € · Étiquettes : collier, boucles d'oreilles, cordon, lune, mixte, pour lui, moins de 50 €, idée cadeau
 
-> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Matière du cordon à confirmer ; Packaging homme ou femme : selon quel critère ? ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Description Branvas « gold-toned » sans matière : confirmer laiton doré à l'or (collection Liquid Sculpture) sur la fiche ; Matière du cordon à confirmer ; Packaging homme ou femme : selon quel critère ? ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -281,19 +281,19 @@ Catégories : Parures > Mixte, Cadeaux > Moins de 50 € · Étiquettes : collie
 
 ### Parure Solar Sphere · JS1AQ5 · 69 € (proposition)
 
-**Description courte :** Une sphère dorée pavée de zircons autour d'un dôme bronze, en collier et en puces.
+**Description courte :** Une sphère dorée pavée d'oxydes de zirconium autour d'un dôme bronze, en collier et en puces.
 - Collier pendentif + puces d'oreilles
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
 Une petite planète dorée, mi-lisse, mi-scintillante. Au restaurant, à la lumière d'une bougie, elle se voit quand tu ramènes tes cheveux derrière l'oreille.
 
 **Dans la parure**
-- Un collier sur chaîne fine, avec un pendentif sphère : un dôme bronze brillant dans une coque pavée de zircons
+- Un collier sur chaîne fine, avec un pendentif sphère : un dôme bronze brillant dans une coque pavée d'oxydes de zirconium
 - Une paire de puces d'oreilles assorties
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Coque pavée de zircons
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Coque pavée d'oxydes de zirconium
 - Dôme couleur bronze, finition brillante
 
 **Pour l'offrir à…** ta tante qui porte du camel tout l'hiver. Le bronze du dôme va avec.
@@ -302,29 +302,29 @@ Une petite planète dorée, mi-lisse, mi-scintillante. Au restaurant, à la lumi
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, doré, zircons, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, doré, oxydes de zirconium, idée cadeau
 
-> **À confirmer (interne)** : Coût relevé : 22,01 $ (probablement unitaire) ; Matière du dôme bronze à confirmer (perle ? émail ? verre ?) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Coût relevé : 22,01 $ (probablement unitaire) ; Matière du dôme bronze à confirmer (perle ? émail ? verre ?) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Golden Luxe · JSJB3S · 79 € (proposition)
 
-**Description courte :** Des gouttes dorées couvertes de zircons, en collier en Y et en boucles.
+**Description courte :** Des gouttes dorées couvertes d'oxydes de zirconium, en collier en Y et en boucles.
 - Collier en Y + boucles gouttes
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
 Deux gouttes pavées aux oreilles, une troisième au bout d'une chaîne fine. Pour une robe noire col V, le soir du réveillon.
 
 **Dans la parure**
-- Un collier en Y sur chaîne fine, terminé par une goutte entièrement pavée de zircons
+- Un collier en Y sur chaîne fine, terminé par une goutte entièrement pavée d'oxydes de zirconium
 - Une paire de boucles d'oreilles gouttes, pavées de la même façon
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Zircons sertis sur toute la surface
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Oxydes de zirconium sertis sur toute la surface
 
 **Pour l'offrir à…** ta mère pour ses 60 ans, avec la coupe de champagne qui va avec.
 
@@ -332,19 +332,19 @@ Deux gouttes pavées aux oreilles, une troisième au bout d'une chaîne fine. Po
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, zircons, soirée, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, oxydes de zirconium, soirée, idée cadeau
 
-> **À confirmer (interne)** : Branvas parle de zircons « AAA » : mention non reprise (classement non normalisé) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Branvas parle d'oxydes de zirconium « AAA » : mention non reprise (classement non normalisé) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Golden Hour · JS63VP · 69 € (proposition)
 
-**Description courte :** Un zircon carré couleur champagne, en pendentif et en créoles pavées.
+**Description courte :** Un oxyde de zirconium carré couleur champagne, en pendentif et en créoles pavées.
 - Collier pendentif + créoles à pendant
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
 Un carré couleur champagne qui prend la lumière de 18 h. Cheveux attachés, pour qu'on voie aussi les créoles.
 
@@ -353,8 +353,8 @@ Un carré couleur champagne qui prend la lumière de 18 h. Cheveux attachés, po
 - Une paire de créoles pavées, avec un pendant carré champagne
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Zircons champagne et zircons incolores
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Oxydes de zirconium champagne et oxydes de zirconium incolores
 
 **Pour l'offrir à…** celle qui hésite toujours entre l'or et la couleur. Ici, elle n'a pas à choisir.
 
@@ -362,30 +362,30 @@ Un carré couleur champagne qui prend la lumière de 18 h. Cheveux attachés, po
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, doré, zircons, champagne, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, doré, oxydes de zirconium, champagne, idée cadeau
 
-> **À confirmer (interne)** : Branvas indique « 14K gold plated » : carat à confirmer sur la fiche avant toute mention ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Branvas indique « 14K gold plated » : si la fiche confirme, écrire « doré à l'or 14 carats » (texte actuel : « doré ») ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Crescent Glow · JS4EXR · 75 € (proposition)
 
-**Description courte :** Une courbe pavée de zircons, en collier, créoles et bague réglable.
+**Description courte :** Une courbe pavée d'oxydes de zirconium, en collier, créoles et bague réglable.
 - Collier + créoles + bague réglable
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
 Trois pièces, la même courbe pavée. La bague le matin au bureau, le collier et les créoles en plus le soir, sans repasser par chez toi.
 
 **Dans la parure**
-- Un collier sur chaîne fine, avec une barre incurvée pavée de zircons
+- Un collier sur chaîne fine, avec une barre incurvée pavée d'oxydes de zirconium
 - Une paire de créoles pavées
 - Une bague ouverte réglable, pavée
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Pavage de zircons à reflets argentés
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Pavage d'oxydes de zirconium à reflets argentés
 
 **Pour l'offrir à…** ta cousine qui commence son premier vrai poste.
 
@@ -393,29 +393,29 @@ Trois pièces, la même courbe pavée. La bague le matin au bureau, le collier e
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, bague, doré, zircons, trois pièces, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, bague, doré, oxydes de zirconium, trois pièces, idée cadeau
 
-> **À confirmer (interne)** : Bague réglable (Branvas) : relever les mesures de l'anneau à afficher ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Bague réglable (Branvas) : relever les mesures de l'anneau à afficher ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Emerald Cut Halo · JS5N68 · 69 € (proposition)
 
-**Description courte :** Un zircon taille émeraude dans un cadre pavé, en pendentif et en puces.
+**Description courte :** Un oxyde de zirconium taille émeraude dans un cadre pavé, en pendentif et en puces.
 - Collier pendentif + puces d'oreilles
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
-Un zircon taillé en rectangle dans un double entourage pavé, comme une bague ancienne qu'on porterait au cou. Pour un mariage où tu es témoin.
+Un oxyde de zirconium taillé en rectangle dans un double entourage pavé, comme une bague ancienne qu'on porterait au cou. Pour un mariage où tu es témoin.
 
 **Dans la parure**
-- Un collier à maillons mixtes, avec un pendentif rectangulaire : zircon taille émeraude et double entourage pavé
+- Un collier à maillons mixtes, avec un pendentif rectangulaire : oxyde de zirconium taille émeraude et double entourage pavé
 - Une paire de puces rectangulaires assorties
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Zircons taille émeraude et pavage de zircons
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Oxydes de zirconium taille émeraude et pavage d'oxydes de zirconium
 
 **Pour l'offrir à…** la mariée, la veille du grand jour.
 
@@ -423,11 +423,11 @@ Un zircon taillé en rectangle dans un double entourage pavé, comme une bague a
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, doré, zircons, mariage, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, doré, oxydes de zirconium, mariage, idée cadeau
 
-> **À confirmer (interne)** : « Emerald cut » = taille émeraude, pas une émeraude : garder « zircon taille émeraude » partout ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : « Emerald cut » = taille émeraude, pas une émeraude : garder « oxyde de zirconium taille émeraude » partout ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -435,17 +435,17 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 **Description courte :** Une gourmette dorée et ses maillons pavés, avec de petites créoles assorties.
 - Collier gourmette + petites créoles
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
-Une gourmette dorée qui change de rythme en son milieu : des maillons en losange, pavés de zircons. Avec un col roulé noir, c'est tout ce qu'il faut.
+Une gourmette dorée qui change de rythme en son milieu : des maillons en losange, pavés d'oxydes de zirconium. Avec un col roulé noir, c'est tout ce qu'il faut.
 
 **Dans la parure**
-- Un collier gourmette avec un segment de maillons géométriques pavés et une petite goutte de zircon
+- Un collier gourmette avec un segment de maillons géométriques pavés et une petite goutte d'oxyde de zirconium
 - Une paire de petites créoles géométriques pavées
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Zircons
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Oxydes de zirconium
 
 **Pour l'offrir à…** celle qui porte des montres d'homme et des mocassins.
 
@@ -453,30 +453,30 @@ Une gourmette dorée qui change de rythme en son milieu : des maillons en losang
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, doré, zircons, géométrique, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, doré, oxydes de zirconium, géométrique, idée cadeau
 
-> **À confirmer (interne)** : Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Golden Square · JSC940 · 75 € (proposition)
 
-**Description courte :** Une pierre carrée couleur miel dans un cadre de zircons d'inspiration ancienne.
+**Description courte :** Une pierre carrée couleur miel dans un cadre d'oxydes de zirconium d'inspiration ancienne.
 - Collier pendentif + boucles pendantes
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
-Un carré couleur miel dans un cadre de zircons, comme un bijou de famille qu'on ressort pour les fêtes. Sur un chemisier en soie, le soir du réveillon chez ta belle-famille.
+Un carré couleur miel dans un cadre d'oxydes de zirconium, comme un bijou de famille qu'on ressort pour les fêtes. Sur un chemisier en soie, le soir du réveillon chez ta belle-famille.
 
 **Dans la parure**
 - Un collier sur chaîne fine, avec un pendentif carré couleur miel dans un entourage ouvragé
 - Une paire de boucles pendantes assorties
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
+- Laiton doré par électrolyse, revêtement anti-ternissement
 - Pierres carrées couleur miel
-- Entourage de zircons incolores
+- Entourage d'oxydes de zirconium incolores
 
 **Pour l'offrir à…** ta belle-mère, justement.
 
@@ -484,29 +484,29 @@ Un carré couleur miel dans un cadre de zircons, comme un bijou de famille qu'on
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, zircons, vintage, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, oxydes de zirconium, vintage, idée cadeau
 
-> **À confirmer (interne)** : Nature des « square golden stones » à confirmer (zircon jaune ?) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Nature des « square golden stones » à confirmer (oxyde de zirconium jaune ?) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Petal Bloom · JS4P8D · 59 € (proposition)
 
-**Description courte :** Une fleur pavée de zircons sur une chaîne semée de billes blanches, et ses puces assorties.
+**Description courte :** Une fleur pavée d'oxydes de zirconium sur une chaîne semée de billes blanches, et ses puces assorties.
 - Collier pendentif + puces fleurs
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
 Une fleur pavée au bout d'une chaîne semée de petites billes blanches. Pour un brunch de printemps, avec un gilet tout simple.
 
 **Dans la parure**
-- Un collier à maillons allongés ponctués de petites billes blanches, avec un pendentif fleur pavé de zircons
+- Un collier à maillons allongés ponctués de petites billes blanches, avec un pendentif fleur pavé d'oxydes de zirconium
 - Une paire de puces fleurs assorties
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Zircons
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Oxydes de zirconium
 - Petites billes blanches sur la chaîne
 
 **Pour l'offrir à…** ta mère pour la fête des mères, à la place du bouquet qui fane.
@@ -515,29 +515,29 @@ Une fleur pavée au bout d'une chaîne semée de petites billes blanches. Pour u
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, doré, zircons, fleur, fête des mères, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, doré, oxydes de zirconium, fleur, fête des mères, idée cadeau
 
-> **À confirmer (interne)** : Nature des « white beads » à confirmer (perles de culture ? perles simulées ? verre ?) : texte client volontairement neutre ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Nature des « white beads » à confirmer (perles de culture ? perles simulées ? verre ?) : texte client volontairement neutre ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Radiant Circle · JS4AH6 · 59 € (proposition)
 
-**Description courte :** Des cercles de zircons baguettes, sur une chaîne à maillons mixtes et en boucles d'oreilles.
+**Description courte :** Des cercles d'oxydes de zirconium taille baguette, sur une chaîne à maillons mixtes et en boucles d'oreilles.
 - Collier médaillon + boucles rondes
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
-Un cercle de zircons baguettes posé à l'avant de la chaîne, comme un fermoir qu'on montre au lieu de le cacher. Avec une chemise d'homme trop grande.
+Un cercle d'oxydes de zirconium taille baguette posé à l'avant de la chaîne, comme un fermoir qu'on montre au lieu de le cacher. Avec une chemise d'homme trop grande.
 
 **Dans la parure**
-- Un collier à maillons mixtes, avec un médaillon rond serti de zircons baguettes porté devant
-- Une paire de boucles rondes ajourées, serties de zircons baguettes en rayons
+- Un collier à maillons mixtes, avec un médaillon rond serti d'oxydes de zirconium taille baguette porté devant
+- Une paire de boucles rondes ajourées, serties d'oxydes de zirconium taille baguette en rayons
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Zircons taille baguette
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Oxydes de zirconium taille baguette
 
 **Pour l'offrir à…** ta meilleure amie, pour ses 30 ans.
 
@@ -545,29 +545,29 @@ Un cercle de zircons baguettes posé à l'avant de la chaîne, comme un fermoir 
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, zircons, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, oxydes de zirconium, idée cadeau
 
-> **À confirmer (interne)** : Le médaillon avant sert-il de fermoir (fermoir T) ? ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Le médaillon avant sert-il de fermoir (fermoir T) ? ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Shell Glow · JSQS6W · 69 € (proposition)
 
-**Description courte :** Un dôme gris argenté dans une coque de zircons, en collier et en puces.
+**Description courte :** Un dôme gris argenté dans une coque d'oxydes de zirconium, en collier et en puces.
 - Collier pendentif + puces d'oreilles
-- Laiton finition or blanc, zircons
+- Laiton finition argentée, oxydes de zirconium
 
-Un dôme gris argenté, à moitié caché dans une coque de zircons. La parure des jours gris, avec un manteau anthracite.
+Un dôme gris argenté, à moitié caché dans une coque d'oxydes de zirconium. La parure des jours gris, avec un manteau anthracite.
 
 **Dans la parure**
 - Un collier sur chaîne fine, avec un pendentif sphère : dôme gris argenté dans une coque pavée
 - Une paire de puces d'oreilles assorties
 
 **Matières et finitions**
-- Laiton à finition or blanc, revêtement anti-ternissement
-- Coque pavée de zircons
+- Laiton à finition argentée, revêtement anti-ternissement
+- Coque pavée d'oxydes de zirconium
 - Dôme gris argenté, finition brillante
 
 **Pour l'offrir à…** celle qui ne porte que de l'argenté et trouve l'or trop voyant.
@@ -576,29 +576,29 @@ Un dôme gris argenté, à moitié caché dans une coque de zircons. La parure d
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, argenté, zircons, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, argenté, oxydes de zirconium, idée cadeau
 
-> **À confirmer (interne)** : Matière du dôme gris à confirmer (perle ?) ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Matière du dôme gris à confirmer (perle ?) ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Wave Luxe · JS2KBV · 65 € (proposition)
 
-**Description courte :** Un carré ondulé pavé de zircons, en pendentif et en puces.
+**Description courte :** Un carré ondulé pavé d'oxydes de zirconium, en pendentif et en puces.
 - Collier deux chaînes + puces d'oreilles
-- Laiton doré à l'or fin, zircons
+- Laiton doré, oxydes de zirconium
 
-Un carré de zircons qui ondule comme un tissu. Sur un débardeur noir, un soir où tu n'as pas eu le temps de te changer.
+Un carré d'oxydes de zirconium qui ondule comme un tissu. Sur un débardeur noir, un soir où tu n'as pas eu le temps de te changer.
 
 **Dans la parure**
 - Un collier à deux chaînes (une moitié fine, une moitié à maillons allongés), avec un pendentif carré ondulé pavé
 - Une paire de puces carrées ondulées, pavées
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Zircons
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Oxydes de zirconium
 
 **Pour l'offrir à…** ta sœur pour son anniversaire. Celle qui t'emprunte toujours tes bijoux.
 
@@ -606,11 +606,11 @@ Un carré de zircons qui ondule comme un tissu. Sur un débardeur noir, un soir 
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, doré, zircons, idée cadeau
+Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, doré, oxydes de zirconium, idée cadeau
 
-> **À confirmer (interne)** : Petite breloque en forme de lettre visible sur la chaîne : laquelle ? la décrire ? ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Petite breloque en forme de lettre visible sur la chaîne : laquelle ? la décrire ? ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -620,17 +620,17 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 **Description courte :** Un collier en Y de médaillons ovales et ses boucles pendantes, pour les grandes occasions.
 - Collier en Y + boucles pendantes
-- Laiton finition or blanc, zircons
+- Laiton finition argentée, oxydes de zirconium
 
-Une ligne de petits ovales qui descend jusqu'à un zircon plus grand. Pour un mariage en juin, robe à fines bretelles et cheveux relevés.
+Une ligne de petits ovales qui descend jusqu'à un oxyde de zirconium plus grand. Pour un mariage en juin, robe à fines bretelles et cheveux relevés.
 
 **Dans la parure**
-- Un collier en Y : une chaîne de médaillons ovales sertis, terminée par un zircon ovale dans son entourage
+- Un collier en Y : une chaîne de médaillons ovales sertis, terminée par un oxyde de zirconium ovale dans son entourage
 - Une paire de boucles pendantes ovales assorties
 
 **Matières et finitions**
-- Laiton à finition or blanc, revêtement anti-ternissement
-- Zircons ovales et pavage de zircons
+- Laiton à finition argentée, revêtement anti-ternissement
+- Oxydes de zirconium ovales et pavage d'oxydes de zirconium
 
 **Pour l'offrir à…** la future mariée, pour le jour J ou pour son dernier week-end entre filles.
 
@@ -638,11 +638,11 @@ Une ligne de petits ovales qui descend jusqu'à un zircon plus grand. Pour un ma
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, argenté, zircons, mariage, idée cadeau
+Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, argenté, oxydes de zirconium, mariage, idée cadeau
 
-> **À confirmer (interne)** : Pierres incolores sur la photo : classement dans « Couleur précieuse » à revoir (plutôt Éclat) ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Pierres incolores sur la photo : classement dans « Couleur précieuse » à revoir (plutôt Éclat) ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -650,9 +650,9 @@ Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiqu
 
 **Description courte :** Une pierre verte taillée en goutte, en collier, boucles et bague.
 - Collier + boucles pendantes + bague
-- Laiton finition or blanc, zircons
+- Laiton finition argentée, oxydes de zirconium
 
-Un vert profond taillé en goutte, entouré de zircons. Avec une robe noire, c'est la seule couleur de la soirée.
+Un vert profond taillé en goutte, entouré d'oxydes de zirconium. Avec une robe noire, c'est la seule couleur de la soirée.
 
 **Dans la parure**
 - Un collier sur chaîne fine, avec un pendentif goutte verte dans son entourage
@@ -660,9 +660,9 @@ Un vert profond taillé en goutte, entouré de zircons. Avec une robe noire, c'e
 - Une bague goutte assortie
 
 **Matières et finitions**
-- Laiton à finition or blanc, revêtement anti-ternissement
+- Laiton à finition argentée, revêtement anti-ternissement
 - Pierres vertes taille poire
-- Entourage de zircons incolores
+- Entourage d'oxydes de zirconium incolores
 
 **Pour l'offrir à…** celle qui met du vert sapin chaque mois de décembre.
 
@@ -670,30 +670,30 @@ Un vert profond taillé en goutte, entouré de zircons. Avec une robe noire, c'e
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, bague, vert, zircons, trois pièces, idée cadeau
+Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, bague, vert, oxydes de zirconium, trois pièces, idée cadeau
 
-> **À confirmer (interne)** : Nature de la pierre verte à confirmer (Branvas : « green gemstones ») ; Bague visible sur la photo mais non citée par Branvas : confirmer qu'elle est incluse ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Nom anglais contenant une pierre précieuse (Emerald) : les textes disent bien zircon / pierre de couleur ; envisager de renommer pour éviter toute confusion ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Nature de la pierre verte à confirmer (Branvas : « green gemstones ») ; Bague visible sur la photo mais non citée par Branvas : confirmer qu'elle est incluse ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Nom anglais contenant une pierre précieuse (Emerald) : les textes disent bien oxyde de zirconium / pierre de couleur ; envisager de renommer pour éviter toute confusion ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Emerald Square · JS3GGZ · 69 € (proposition)
 
-**Description courte :** Un carré d'émail blanc et son zircon vert, en pendentif et en petites créoles.
+**Description courte :** Un carré d'émail blanc et son oxyde de zirconium vert, en pendentif et en petites créoles.
 - Collier pendentif + créoles à pendant
-- Laiton doré à l'or fin, émail, zircons
+- Laiton doré, émail, oxydes de zirconium
 
-Un carré d'émail blanc avec un zircon vert au centre, comme une carte à jouer ancienne. Il se porte avec une marinière.
+Un carré d'émail blanc avec un oxyde de zirconium vert au centre, comme une carte à jouer ancienne. Il se porte avec une marinière.
 
 **Dans la parure**
-- Un collier à maillons mixtes (gourmette et maillons allongés), avec un pendentif carré en émail blanc serti d'un zircon vert
+- Un collier à maillons mixtes (gourmette et maillons allongés), avec un pendentif carré en émail blanc serti d'un oxyde de zirconium vert
 - Une paire de petites créoles avec le même carré en pendant
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
+- Laiton doré par électrolyse, revêtement anti-ternissement
 - Émail blanc
-- Zircons verts taille émeraude
+- Oxydes de zirconium verts taille émeraude
 
 **Pour l'offrir à…** ta copine qui collectionne les cartes postales anciennes.
 
@@ -701,29 +701,29 @@ Un carré d'émail blanc avec un zircon vert au centre, comme une carte à jouer
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, doré, émail, vert, zircons, idée cadeau
+Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, doré, émail, vert, oxydes de zirconium, idée cadeau
 
-> **À confirmer (interne)** : La maquette d'accueil parle de « puces » : ce sont de petites créoles à pendant ; Petite breloque en forme de lettre sur la chaîne : laquelle ? ; Nom anglais contenant une pierre précieuse (Emerald) : les textes disent bien zircon / pierre de couleur ; envisager de renommer pour éviter toute confusion ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : La maquette d'accueil parle de « puces » : ce sont de petites créoles à pendant ; Petite breloque en forme de lettre sur la chaîne : laquelle ? ; Nom anglais contenant une pierre précieuse (Emerald) : les textes disent bien oxyde de zirconium / pierre de couleur ; envisager de renommer pour éviter toute confusion ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Linear Luxe · JS9XM9 · 69 € (proposition)
 
-**Description courte :** Une barre verticale de zircons baguettes et des créoles larges, pour les journées où tu veux être nette.
+**Description courte :** Une barre verticale d'oxydes de zirconium taille baguette et des créoles larges, pour les journées où tu veux être nette.
 - Collier barre + créoles
-- Laiton finition or blanc, zircons
+- Laiton finition argentée, oxydes de zirconium
 
-Une ligne verticale de zircons baguettes, qui allonge le cou. Pour un tailleur pantalon, le jour d'un rendez-vous où il faut convaincre.
+Une ligne verticale d'oxydes de zirconium taille baguette, qui allonge le cou. Pour un tailleur pantalon, le jour d'un rendez-vous où il faut convaincre.
 
 **Dans la parure**
-- Un collier sur chaîne fine, avec une longue barre verticale de zircons baguettes
-- Une paire de créoles larges, serties de zircons baguettes
+- Un collier sur chaîne fine, avec une longue barre verticale d'oxydes de zirconium taille baguette
+- Une paire de créoles larges, serties d'oxydes de zirconium taille baguette
 
 **Matières et finitions**
-- Laiton à finition or blanc, revêtement anti-ternissement
-- Zircons taille baguette
+- Laiton à finition argentée, revêtement anti-ternissement
+- Oxydes de zirconium taille baguette
 
 **Pour l'offrir à…** celle qui vient de signer son CDI.
 
@@ -731,30 +731,30 @@ Une ligne verticale de zircons baguettes, qui allonge le cou. Pour un tailleur p
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, argenté, zircons, idée cadeau
+Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, argenté, oxydes de zirconium, idée cadeau
 
-> **À confirmer (interne)** : Pierres incolores : classement dans « Couleur précieuse » à revoir (plutôt Éclat) ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Pierres incolores : classement dans « Couleur précieuse » à revoir (plutôt Éclat) ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Pink Pavé · JSB541 · 85 € (proposition)
 
-**Description courte :** Des zircons roses sur or rose, en collier, créoles et bague ouverte.
+**Description courte :** Des oxydes de zirconium roses sur métal rosé, en collier, créoles et bague ouverte.
 - Collier + créoles + bague ouverte
-- Laiton finition or rose, zircons roses
+- Laiton finition rosée, oxydes de zirconium roses
 
-Du rose sur de l'or rose, en trois pièces qui se répondent. Pour un brunch d'anniversaire, avec une chemise blanche qui laisse tout voir.
+Du rose sur du métal rosé, en trois pièces qui se répondent. Pour un brunch d'anniversaire, avec une chemise blanche qui laisse tout voir.
 
 **Dans la parure**
-- Un collier sur chaîne fine, avec une barre incurvée pavée de zircons roses
-- Une paire de créoles pavées de zircons roses
-- Une bague ouverte pavée de zircons roses
+- Un collier sur chaîne fine, avec une barre incurvée pavée d'oxydes de zirconium roses
+- Une paire de créoles pavées d'oxydes de zirconium roses
+- Une bague ouverte pavée d'oxydes de zirconium roses
 
 **Matières et finitions**
-- Laiton à finition or rose, revêtement anti-ternissement
-- Zircons roses
+- Laiton à finition rosée, revêtement anti-ternissement
+- Oxydes de zirconium roses
 
 **Pour l'offrir à…** ta fille, pour ses 18 ans.
 
@@ -762,19 +762,19 @@ Du rose sur de l'or rose, en trois pièces qui se répondent. Pour un brunch d'a
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, bague, or rose, rose, zircons, trois pièces, idée cadeau
+Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, créoles, bague, rosé, rose, oxydes de zirconium, trois pièces, idée cadeau
 
-> **À confirmer (interne)** : Bague ouverte : « adjustable » sur la fiche ? relever les mesures ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Bague ouverte : « adjustable » sur la fiche ? relever les mesures ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Rose Empress · JS4EPC · 79 € (proposition)
 
-**Description courte :** Un zircon rose dans un cadre ouvragé d'inspiration ancienne, en pendentif et en boucles.
+**Description courte :** Un oxyde de zirconium rose dans un cadre ouvragé d'inspiration ancienne, en pendentif et en boucles.
 - Collier pendentif + boucles pendantes
-- Laiton doré à l'or fin, zircons roses
+- Laiton doré, oxydes de zirconium roses
 
 Un carré rose dans un cadre ouvragé, à la façon des bijoux de cour. Pour une soirée où tu as décidé que la robe resterait simple.
 
@@ -783,8 +783,8 @@ Un carré rose dans un cadre ouvragé, à la façon des bijoux de cour. Pour une
 - Une paire de boucles pendantes assorties
 
 **Matières et finitions**
-- Laiton doré à l'or fin, revêtement anti-ternissement
-- Zircons roses
+- Laiton doré par électrolyse, revêtement anti-ternissement
+- Oxydes de zirconium roses
 - Entourage de petites pierres incolores
 
 **Pour l'offrir à…** ta grand-mère, qui t'a appris qu'on n'est jamais trop habillée.
@@ -793,29 +793,29 @@ Un carré rose dans un cadre ouvragé, à la façon des bijoux de cour. Pour une
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, rose, zircons, vintage, idée cadeau
+Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, boucles d'oreilles, doré, rose, oxydes de zirconium, vintage, idée cadeau
 
-> **À confirmer (interne)** : Nature des « crystal accents » à confirmer (zircons ?) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Nature des « crystal accents » à confirmer (oxydes de zirconium ?) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Royal Sapphire · JSX3G6 · 79 € (proposition)
 
-**Description courte :** Un zircon bleu nuit dans une corolle de pierres claires, en pendentif et en puces.
+**Description courte :** Un oxyde de zirconium bleu nuit dans une corolle de pierres claires, en pendentif et en puces.
 - Collier pendentif + puces d'oreilles
-- Laiton finition or blanc, zircons bleus
+- Laiton finition argentée, oxydes de zirconium bleus
 
 Un ovale bleu nuit dans une corolle de pierres claires. Avec un pull blanc et un jean brut, il suffit.
 
 **Dans la parure**
-- Un collier sur chaîne fine, avec un pendentif zircon bleu ovale dans un entourage en pétales
+- Un collier sur chaîne fine, avec un pendentif oxyde de zirconium bleu ovale dans un entourage en pétales
 - Une paire de puces d'oreilles assorties
 
 **Matières et finitions**
-- Laiton à finition or blanc, revêtement anti-ternissement
-- Zircons bleus ovales
+- Laiton à finition argentée, revêtement anti-ternissement
+- Oxydes de zirconium bleus ovales
 - Entourage de pierres incolores
 
 **Pour l'offrir à…** ta mère, si elle porte du bleu marine depuis toujours.
@@ -824,11 +824,11 @@ Un ovale bleu nuit dans une corolle de pierres claires. Avec un pull blanc et un
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive prête à offrir : boîte-tiroir beige métallisé à notre logo, nouée d'un ruban, pochette en velours, chamoisine et carte d'entretien. Aucun prix dans le colis. Une boîte par commande : avec deux parures, la seconde arrive dans un sachet scellé, dans le même colis.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
-Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, bleu, zircons, idée cadeau
+Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiquettes : collier, puces d'oreilles, bleu, oxydes de zirconium, idée cadeau
 
-> **À confirmer (interne)** : La maquette d'accueil annonce « Collier, boucles et bague » : AUCUNE bague sur la photo Branvas, corriger la maquette ; Nature des « clear crystal halos » à confirmer ; Nom anglais contenant une pierre précieuse (Sapphire) : les textes disent bien zircon / pierre de couleur ; envisager de renommer pour éviter toute confusion ; « White gold plated » : confirmer la nature exacte de la finition sur la fiche ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : La maquette d'accueil annonce « Collier, boucles et bague » : AUCUNE bague sur la photo Branvas, corriger la maquette ; Nature des « clear crystal halos » à confirmer ; Nom anglais contenant une pierre précieuse (Sapphire) : les textes disent bien oxyde de zirconium / pierre de couleur ; envisager de renommer pour éviter toute confusion ; « White gold plated » : texte client « finition argentée » ; si la fiche donne le carat, écrire « doré à l'or blanc X carats » ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
@@ -836,9 +836,9 @@ Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiqu
 
 ### Parure Blush Dreams · JSSFYS · 189 € (proposition)
 
-**Description courte :** Collier, puces, bague et bracelet en argent 925, autour de moissanites roses.
+**Description courte :** Collier, puces, bague et bracelet en argent 925, autour de moissanites synthétiques roses.
 - Quatre pièces : collier, puces, bague, bracelet
-- Argent 925 poinçonné, moissanites de laboratoire
+- Argent 925 estampillé, moissanites synthétiques
 
 Quatre pièces en argent 925 autour d'une même pierre rose. Pour un mariage au printemps : tu portes tout, ou tu prêtes le bracelet à ta témoin.
 
@@ -849,8 +849,8 @@ Quatre pièces en argent 925 autour d'une même pierre rose. Pour un mariage au 
 - Un bracelet chaîne fine, avec une pierre rose
 
 **Matières et finitions**
-- Argent 925, chaque pièce poinçonnée 925
-- Moissanites roses. Moissanites de laboratoire. Les pierres de 0,1 carat et plus sont livrées avec leur certificat GRA
+- Argent 925, chaque pièce estampillée 925
+- Moissanites synthétiques roses, créées en laboratoire. Les pierres de 0,1 carat et plus sont livrées avec leur certificat GRA
 
 **Pour l'offrir à…** ta femme pour vos dix ans. Ou à toi, pour la même raison.
 
@@ -858,19 +858,19 @@ Quatre pièces en argent 925 autour d'une même pierre rose. Pour un mariage au 
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive dans un écrin en velours bleu, dans le colis CHARMED PARIS, avec pochette en velours, chamoisine, carte d'entretien et le certificat GRA des pierres de 0,1 carat et plus. Aucun prix dans le colis. Un écrin par commande : avec deux parures, la seconde arrive dans un sachet scellé.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Joaillerie 925, Cadeaux > Plus de 100 € · Étiquettes : collier, puces d'oreilles, bague, bracelet, argent 925, moissanite, rose, quatre pièces, plus de 100 €, idée cadeau
 
-> **À confirmer (interne)** : Confirmer que toutes les pierres (y compris le pavage de la bague) sont des moissanites et non des zircons ; Poids des pierres : lesquelles dépassent 0,1 ct (certificat GRA) ? ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Longueur du bracelet et de la chaînette à relever ; Coût d'achat à relever (prix proposé 189 € repris de la maquette) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Confirmer que toutes les pierres (y compris le pavage de la bague) sont des moissanites et non des oxydes de zirconium ; Poids des pierres : lesquelles dépassent 0,1 ct (certificat GRA) ? ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Longueur du bracelet et de la chaînette à relever ; Coût d'achat à relever (prix proposé 189 € repris de la maquette) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Golden Radiance · JS1PPS · 149 € (proposition)
 
-**Description courte :** Un pendentif et une bague en argent 925, autour d'une moissanite jaune taille émeraude.
+**Description courte :** Un pendentif et une bague en argent 925, autour d'une moissanite synthétique jaune taille émeraude.
 - Collier pendentif + bague
-- Argent 925 poinçonné, moissanites de laboratoire
+- Argent 925 estampillé, moissanites synthétiques
 
 Un rectangle jaune soleil, serti dans de l'argent. La bague se porte seule au bureau, le collier s'ajoute pour sortir.
 
@@ -879,8 +879,8 @@ Un rectangle jaune soleil, serti dans de l'argent. La bague se porte seule au bu
 - Une bague taille émeraude jaune, épaulée de petites pierres
 
 **Matières et finitions**
-- Argent 925, chaque pièce poinçonnée 925
-- Moissanites jaunes taille émeraude. Les pierres de 0,1 carat et plus sont livrées avec leur certificat GRA
+- Argent 925, chaque pièce estampillée 925
+- Moissanites synthétiques jaunes taille émeraude, créées en laboratoire. Les pierres de 0,1 carat et plus sont livrées avec leur certificat GRA
 
 **Pour l'offrir à…** toi, pour une promotion. Le jaune se remarque, c'est voulu.
 
@@ -888,19 +888,19 @@ Un rectangle jaune soleil, serti dans de l'argent. La bague se porte seule au bu
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive dans un écrin en velours bleu, dans le colis CHARMED PARIS, avec pochette en velours, chamoisine, carte d'entretien et le certificat GRA des pierres de 0,1 carat et plus. Aucun prix dans le colis. Un écrin par commande : avec deux parures, la seconde arrive dans un sachet scellé.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Joaillerie 925, Cadeaux > Plus de 100 € · Étiquettes : collier, bague, argent 925, moissanite, jaune, plus de 100 €, idée cadeau
 
-> **À confirmer (interne)** : Photo : collier + bague seulement, AUCUNE boucle d'oreille. Confirmer le contenu exact (la promesse « collier et boucles » de l'accueil ne s'applique pas) ; Nature des petites pierres d'épaulement à confirmer ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Photo : collier + bague seulement, AUCUNE boucle d'oreille. Confirmer le contenu exact (la promesse « collier et boucles » de l'accueil ne s'applique pas) ; Nature des petites pierres d'épaulement à confirmer ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---
 
 ### Parure Heart Symphony · JSDQA1 · 229 € (proposition)
 
-**Description courte :** Quatre pièces en argent 925, des cœurs sertis de moissanites.
+**Description courte :** Quatre pièces en argent 925, des cœurs sertis de moissanites synthétiques.
 - Quatre pièces : collier, puces, bracelet, bague
-- Argent 925 poinçonné, moissanites de laboratoire
+- Argent 925 estampillé, moissanites synthétiques
 
 Des cœurs taillés net, entourés de petites pierres, en argent 925. Pas mièvres pour un sou. Pour la Saint-Valentin, ou pour le jour où tu as dit oui.
 
@@ -911,8 +911,8 @@ Des cœurs taillés net, entourés de petites pierres, en argent 925. Pas mièvr
 - Une bague cœur
 
 **Matières et finitions**
-- Argent 925, chaque pièce poinçonnée 925
-- Moissanites de laboratoire. Les pierres de 0,1 carat et plus sont livrées avec leur certificat GRA
+- Argent 925, chaque pièce estampillée 925
+- Moissanites synthétiques, créées en laboratoire. Les pierres de 0,1 carat et plus sont livrées avec leur certificat GRA
 
 **Pour l'offrir à…** ta femme pour la Saint-Valentin. Ou à ta mère, qui t'en a assez donné.
 
@@ -920,10 +920,10 @@ Des cœurs taillés net, entourés de petites pierres, en argent 925. Pas mièvr
 
 **Le coffret CHARMED PARIS, inclus.** Ta parure arrive dans un écrin en velours bleu, dans le colis CHARMED PARIS, avec pochette en velours, chamoisine, carte d'entretien et le certificat GRA des pierres de 0,1 carat et plus. Aucun prix dans le colis. Un écrin par commande : avec deux parures, la seconde arrive dans un sachet scellé.
 
-**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires, livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
+**Livraison.** Expédiée par DHL depuis nos entrepôts partenaires hors Union européenne (États-Unis ou Chine), livrée en France en 4 à 9 jours ouvrés pour 9 colis sur 10. Droits de douane déjà payés : rien à régler à la livraison.
 
 Catégories : Parures > Joaillerie 925, Cadeaux > Plus de 100 € · Étiquettes : collier, puces d'oreilles, bague, bracelet, argent 925, moissanite, cœur, quatre pièces, Saint-Valentin, plus de 100 €, idée cadeau
 
-> **À confirmer (interne)** : Confirmer que le pavage des entourages est en moissanite et non en zircons ; Poids des pierres : lesquelles dépassent 0,1 ct (certificat GRA) ? ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Longueur du bracelet à relever ; Coût d'achat à relever (prix proposé 229 €) ; Relever sur la fiche Branvas : carat de la dorure, longueur de chaîne, dimensions, poids, type d'attache des boucles
+> **À confirmer (interne)** : Confirmer que le pavage des entourages est en moissanite et non en oxydes de zirconium ; Poids des pierres : lesquelles dépassent 0,1 ct (certificat GRA) ? ; Bague : « adjustable » ou tailles US sur la fiche Branvas ? Si tailles, créer des variations ; Longueur du bracelet à relever ; Coût d'achat à relever (prix proposé 229 €) ; Relever sur la fiche Branvas : carat de la dorure (texte client : « doré » tant qu'il n'est pas connu, « doré à l'or X carats » ensuite), longueur de chaîne, dimensions, poids, type d'attache des boucles
 
 ---

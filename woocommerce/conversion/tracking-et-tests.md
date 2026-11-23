@@ -111,7 +111,7 @@
 | Sessions accueil qui atteignent `#coffrets` | ≥ 60 % | < 35 % | Raccourcir l'intro (test n°1) |
 | Part de paniers à 2 parures ou plus | 20 % (25 % à Noël) | < 10 % | Mini-panier, suggestions |
 | Panier moyen TTC | ≥ 85 € (référence actuelle ≈ 72 €) | < 70 € | Offres (§4–6 de `offres-et-panier-moyen.md`) |
-| **CPA réel (par plateforme)** | ≤ CPA max du mix vendu (≈ 26–31 €) | > CPA max pendant 3 j avec plus de 10 achats | Couper ou réduire l'ensemble de publicités |
+| **CPA réel (par plateforme)** | Phase test ≤ **24 €** (équilibre au panier ≈ 72 €) ; phase scale ≤ **18 €** (alignés sur `acquisition/plan-lancement.md`) | > **36 €** sur 3 jours glissants : −30 % de budget ; > 48 € : pause | Règles détaillées dans `acquisition/plan-lancement.md` |
 | ROAS (valeur HT produits) | ≥ 2,9 (mix) | < 2,4 | Idem |
 | MER (CA total / dépenses pub) | ≥ 3,5 | < 2,8 | Revoir le budget |
 | Taux de rétractation | ≤ 8 % | > 12 % sur 30 j, ou > 20 % sur un SKU | Fiche (photos, dimensions), retirer le SKU |
@@ -147,15 +147,16 @@ Formule approchée (risque α = 5 %, puissance 80 %) : `n par variante ≈ 16 ×
 | 1 | **Intro courte (≤ 150vh mobile, « Passer » visible) vs intro actuelle (520vh)** | Moins de scroll avant le produit = plus de visites des coffrets et de la file, sans perte d'image | % des sessions accueil qui atteignent `#coffrets` ; `add_to_cart` / session accueil | Temps passé, `coffret_ouvert` | 8 | 8 | 7 | **7,7** |
 | 2 | **Pub vers fiche produit vs pub vers `/lp/ouvre/`** (test A/B dans le gestionnaire de pubs Meta) | La fiche convertit mieux pour les pubs produit ; la LP convertit mieux pour les pubs « univers » | CPA, taux d'achat | Taux de rebond | 9 | 7 | 8 | **8,0** |
 | 3 | Bouton **« Ajouter au panier » vs « Ajouter à l'écrin »** | Le libellé standard est plus clair et augmente les ajouts ; « écrin » renforce la marque sans gain | `add_to_cart` / `view_item` | — | 5 | 6 | 10 | **7,0** |
-| 4 | **Mini-panier : suggestions « 2e à −15 % » avec prix remisé affiché vs suggestions sans prix remisé** | Montrer « 58,65 € dans ton écrin » augmente le passage à 2 parures | % de paniers à 2 parures ou plus ; marge par session | Taux de checkout | 8 | 7 | 7 | **7,3** |
+| 4 | **Mini-panier : suggestions « 2e à −15 % » avec le prix final en texte (« −15 % dans ton écrin : 58,65 € », sans prix barré) vs suggestions au prix normal seul** | Montrer le prix final augmente le passage à 2 parures | % de paniers à 2 parures ou plus ; marge par session | Taux de checkout | 8 | 7 | 7 | **7,3** |
 | 5 | **Livraison offerte dès 2 parures / 89 € vs livraison offerte partout** (périodes successives) | Le seuil augmente le panier moyen davantage qu'il ne fait baisser la conversion | **Marge de contribution par session** | Taux d'achat, abandon au mini-panier | 9 | 6 | 6 | **7,0** |
 | 6 | **Ligne « Livraison estimée entre le X et le Y » vs « 4 à 9 jours ouvrés »** | Une date concrète rassure et augmente l'ajout au panier | `add_to_cart` / `view_item` | Contacts SAV « où est ma commande » | 6 | 7 | 8 | **7,0** |
 | 7 | **Boutons Apple Pay / Google Pay sur la fiche vs seulement au mini-panier et au checkout** | L'express sur fiche accélère l'achat mobile, mais court-circuite le duo | Taux d'achat mobile | Part de duos, panier moyen | 7 | 5 | 8 | **6,7** |
 | 8 | **Vue « Toutes » (grille) par défaut sur mobile vs vue « La file »** | La grille fait comparer plus vite et augmente les clics produit | `select_item` / `vue_file_parures` | `file_focus_parure` | 6 | 6 | 9 | **7,0** |
 | 9 | **1re photo de la fiche : portée (mannequin) vs packshot détouré vs coffret ouvert** | La photo portée donne l'échelle et réduit l'incertitude (et les retours) | `add_to_cart` / `view_item` ; taux de rétractation à 30 j | CTR des pubs (mêmes visuels) | 7 | 6 | 7 | **6,7** |
-| 10 | **Offre de bienvenue « livraison offerte » vs « −10 % »** (périodes successives) | La livraison offerte coûte moins (−3,57 € contre −5,03 € par commande) pour un taux d'inscription proche | Inscriptions/session × taux d'achat des inscrites × marge | Désinscriptions | 7 | 6 | 8 | **7,0** |
+| 10 | **Offre de bienvenue « −10 % » (retenue dans `crm/flows.md`) vs « livraison offerte sur la 1re commande »** (périodes successives) | La livraison offerte coûte moins (−3,57 € contre −5,03 € par commande) pour un taux d'inscription proche | Inscriptions/session × taux d'achat des inscrites × marge | Désinscriptions | 7 | 6 | 8 | **7,0** |
 
 **Ordre de lancement** : 2 (dans Meta, sans outil de test sur le site) → 1 → 4 → 3 → 8 → 6 → 5 → 10 → 9 → 7.
+**Garde-fous légaux, valables pour tous les tests** : aucun prix barré au lancement, aucun faux « Black Friday » sur un prix de référence fictif, bouton « Commander avec obligation de paiement » et bouton de rétractation en ligne **identiques dans toutes les variantes**, aucune case précochée, aucune urgence ni rareté inventée, pas de ligne 925 au UK.
 **Règles** : hypothèse écrite avant le lancement, durée fixée à l'avance (au moins 2 cycles hebdomadaires), pas d'arrêt anticipé quand ça « a l'air de gagner », résultats séparés FR / EN et mobile / desktop, et jamais de variante qui enfreint le brief (urgence, rareté ou avis inventés ; case précochée).
 
 ---

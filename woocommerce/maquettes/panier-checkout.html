@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400&family=Jost:wght@300;400;500;600&family=DM+Mono:wght@400&display=swap">
+<title data-en="Your bag &amp; checkout | CHARMED PARIS">Ton écrin &amp; paiement | CHARMED PARIS</title>
+<meta name="robots" content="noindex">
+<style>
+/* ===== CHARMED PARIS · base commune (reprise exacte des tokens de charmed-site.html) ===== */
+:root{
+  color-scheme:light;
+  --velours:#1A1015; --velours-2:#2a1520; --velours-fg:#F2E9EC; --velours-muted:#B9A6AE;
+  --porcelaine:#F4F2F5; --surface:#FFFFFF; --encre:#1C1519; --muted:#6B6169; --line:#E2DBE0;
+  --grenat:#7A1F3A; --grenat-fg:#FFFFFF; --or:#A9813F; --or-clair:#E9CB8F; --poudre:#E8D9DE;
+  --ivoire:#FBF8F3; --ivoire-2:#EFE7DC; --caramel:#B88C66; --ruban:#5B3A29; --print:#3A2E33; --gold-dot:#D9B25F;
+  --shade:rgba(26,16,21,.45);
+  /* fonctionnels (ajoutés, pris dans la maquette) */
+  --champ:#8E838B; --erreur:#A3201F; --ok:#2E6B3A; --or-texte:#8A672C;
+  --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --body:"Jost","Futura","Avenir Next","Helvetica Neue",Arial,sans-serif;
+  --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  --ease:cubic-bezier(.2,.7,.1,1);
+  --tap:44px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--porcelaine);color:var(--encre);font-family:var(--body);font-size:16px;line-height:1.55;overflow-x:clip}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;line-height:1.12;margin:0;text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+img{max-width:100%;display:block}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--or);outline-offset:3px}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grenat)}
+.mock{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.06em}
+.skip{position:absolute;left:12px;top:-60px;z-index:200;background:var(--encre);color:var(--porcelaine);padding:12px 16px;text-decoration:none}
+.skip:focus{top:12px}
+
+/* Boutons (identiques à la maquette d'accueil, hauteur tactile ≥ 44px) */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:var(--tap);font:500 13px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:15px 24px;border-radius:0;border:1px solid var(--encre);background:var(--encre);color:var(--porcelaine);cursor:pointer;text-decoration:none;transition:background .25s,border-color .25s,color .25s}
+.btn:hover{background:var(--grenat);border-color:var(--grenat)}
+.btn.ghost{background:transparent;color:inherit;border-color:currentColor}
+.btn.ghost:hover{background:var(--or-clair);color:var(--velours);border-color:var(--or-clair)}
+.btn.gold{background:var(--or-clair);color:var(--velours);border-color:var(--or-clair)}
+.btn.gold:hover{background:var(--grenat);color:var(--grenat-fg);border-color:var(--grenat)}
+.btn.block{width:100%}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.link{background:none;border:0;padding:0;color:var(--encre);text-decoration:underline;text-underline-offset:4px;cursor:pointer;font-size:14px;min-height:var(--tap)}
+
+/* Wordmark parenthèses C…D */
+.wm{display:inline-flex;align-items:center;font-family:var(--display);text-transform:uppercase;line-height:1;letter-spacing:.16em;white-space:nowrap}
+.br{display:inline-block;width:.5em;height:.7em;border-style:solid;border-color:currentColor}
+.br.l{border-width:.03em 0 .03em .085em;border-radius:.34em 0 0 .34em}
+.br.r{border-width:.03em .085em .03em 0;border-radius:0 .34em .34em 0}
+.wm .mid{padding-left:.16em}
+.brand-sub{font:500 9px/1 var(--body);letter-spacing:.62em;padding-left:.62em;text-transform:uppercase}
+
+/* Bandeau + header (version « solid » de l'accueil, collant) */
+.annonce{background:var(--grenat);color:var(--grenat-fg);font-size:12px;letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:8px 16px;line-height:1.5}
+.hdr{position:sticky;top:0;z-index:50;background:var(--porcelaine);color:var(--encre);box-shadow:0 1px 0 var(--line)}
+.hdr .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:64px;gap:12px}
+.hdr nav{display:flex;gap:22px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;min-width:0}
+.hdr nav a{text-decoration:none;opacity:.85;white-space:nowrap;padding-block:12px}
+.hdr nav a:hover,.hdr nav a[aria-current]{opacity:1;text-decoration:underline;text-underline-offset:6px}
+.hdr .brand{display:flex;flex-direction:column;align-items:center;gap:5px;text-decoration:none;padding:6px}
+.hdr .brand .wm{font-size:22px}
+.hdr .brand .br{border-color:var(--grenat)}
+.hdr .tools{display:flex;justify-content:flex-end;gap:4px;align-items:center}
+.icon-btn{background:none;border:0;color:inherit;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;font:500 13px var(--body);letter-spacing:.1em;text-transform:uppercase;padding:8px;min-width:var(--tap);min-height:var(--tap);text-decoration:none}
+.icon-btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.4;flex:none}
+.count{min-width:20px;height:20px;border-radius:10px;background:var(--or-clair);color:var(--velours);font:600 11px/20px var(--body);text-align:center;padding:0 5px;letter-spacing:0}
+.lang{display:inline-flex;align-items:center;margin-right:4px}
+.lang button{min-width:38px;min-height:var(--tap);background:none;border:0;cursor:pointer;font:500 12px/1 var(--mono);letter-spacing:.1em;color:var(--muted);position:relative;padding:0 6px}
+.lang button + button::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:1px;background:var(--line)}
+.lang button[aria-pressed="true"]{color:var(--encre);text-decoration:underline;text-decoration-color:var(--grenat);text-underline-offset:6px;text-decoration-thickness:1.5px}
+.lang button:hover{color:var(--encre)}
+.menu-btn{display:none}
+.hdr .mnav{display:none}
+.annonce .short{display:none}
+@media (max-width:900px){
+  .hdr nav{display:none}
+  .hdr .wrap{grid-template-columns:auto 1fr auto}
+  .menu-btn{display:inline-flex}
+  .hdr .brand{justify-self:center}
+  .hdr .mnav{display:block;position:absolute;left:0;right:0;top:100%;background:var(--porcelaine);box-shadow:0 12px 24px -12px var(--shade);border-top:1px solid var(--line)}
+  .hdr .mnav[hidden]{display:none}
+  .hdr .mnav a{display:flex;align-items:center;min-height:52px;padding:0 max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line);text-decoration:none;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+}
+@media (max-width:560px){ .icon-btn .lbl,.search-btn{display:none} .annonce .long{display:none} .annonce .short{display:inline} .annonce{font-size:11px;letter-spacing:.06em;padding:7px 12px} .hdr .brand .wm{font-size:19px} .hdr .wrap{gap:6px} }
+
+/* Fil d'Ariane */
+.crumbs{font-size:13px;color:var(--muted);padding-block:14px}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.crumbs li:not(:last-child)::after{content:"/";margin-left:6px;color:var(--line)}
+.crumbs a{text-decoration:none;display:inline-block;padding-block:4px}
+.crumbs a:hover{text-decoration:underline;color:var(--encre)}
+.crumbs [aria-current]{color:var(--encre)}
+
+/* Chips */
+.chip{display:inline-flex;align-items:center;gap:8px;min-height:var(--tap);padding:0 16px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--encre);font:400 14px/1 var(--body);cursor:pointer;white-space:nowrap;text-decoration:none;transition:border-color .2s,background .2s,color .2s}
+.chip:hover{border-color:var(--encre)}
+.chip[aria-pressed="true"]{background:var(--encre);border-color:var(--encre);color:var(--porcelaine)}
+.chip[aria-pressed="true"]::before{content:"";width:8px;height:5px;border-left:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(-45deg) translateY(-2px)}
+.chip .n{font-family:var(--mono);font-size:11px;opacity:.7}
+
+/* Badges factuels */
+.badge{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;background:var(--surface);color:var(--encre);padding:5px 8px;line-height:1.2}
+.badge.new{background:var(--encre);color:var(--porcelaine)}
+.badge.argent{background:var(--velours);color:var(--or-clair)}
+
+/* Barre livraison offerte */
+.shipbar{display:flex;flex-direction:column;gap:8px;font-size:13px}
+.shipbar .bar{height:3px;background:var(--line);overflow:hidden}
+.shipbar .bar i{display:block;height:100%;background:var(--grenat);width:0;transition:width .4s var(--ease)}
+.shipbar.done .bar i{background:var(--ok)}
+.shipbar b{font-weight:600}
+
+/* Quantité */
+.qty{display:inline-flex;align-items:center;border:1px solid var(--champ);background:var(--surface)}
+.qty button{background:none;border:0;width:var(--tap);height:var(--tap);cursor:pointer;font-size:18px;color:var(--encre);display:flex;align-items:center;justify-content:center}
+.qty button:hover{background:var(--porcelaine)}
+.qty output,.qty span{min-width:28px;text-align:center;font-size:15px;font-variant-numeric:tabular-nums}
+.qty.sm button{width:36px;height:36px}
+.qty.sm{position:relative}
+/* zone tactile étendue à 44px pour la version compacte */
+.qty.sm button{position:relative}
+.qty.sm button::after{content:"";position:absolute;inset:-4px}
+
+/* Étiquette « ticket » (reprise de .ticket-tag) */
+.ticket{position:relative;background:#FFFEFB;color:var(--encre);padding:18px 18px 0;box-shadow:0 24px 50px -20px rgba(40,20,30,.35),0 2px 6px rgba(40,20,30,.08);font-size:12px}
+.ticket::before{content:"";position:absolute;left:50%;top:10px;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:radial-gradient(circle,#ECE6EA 45%,var(--line) 50%,transparent 58%)}
+.tt-head{display:flex;justify-content:space-between;align-items:flex-start;margin-top:14px;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.tt-brand{display:flex;flex-direction:column;gap:3px;color:var(--encre)}
+.tt-brand .wm{font-size:13px}
+.tt-brand .wm .br{border-color:var(--grenat)}
+.tt-code{display:flex;align-items:center;gap:10px;margin-top:14px}
+.tt-code b{font-family:var(--mono);font-weight:400;font-size:20px;border:1.5px solid var(--encre);padding:2px 6px;letter-spacing:.05em}
+.tt-code span{font-family:var(--display);font-style:italic;font-size:20px;line-height:1.1}
+.tt-rows{margin:12px 0 0;padding:0;list-style:none;display:flex;flex-direction:column}
+.tt-row{display:flex;justify-content:space-between;gap:8px;padding-block:7px;border-bottom:1px dashed var(--line);font-size:13px}
+.tt-row span:last-child{font-family:var(--mono);font-size:11px;color:var(--muted);white-space:nowrap}
+.tt-total{display:flex;justify-content:space-between;align-items:baseline;margin-top:12px}
+.tt-total span{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tt-total b{font-family:var(--display);font-weight:400;font-size:26px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tt-bar{height:34px;margin-top:12px;background:repeating-linear-gradient(90deg,var(--encre) 0 2px,transparent 2px 3px,var(--encre) 3px 4px,transparent 4px 7px,var(--encre) 7px 10px,transparent 10px 11px)}
+.tt-sku{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-align:center;margin-top:4px;color:var(--muted)}
+.tt-foot{margin:12px -18px 0;background:var(--grenat);color:var(--grenat-fg);font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;padding:8px 18px;display:flex;justify-content:space-between;gap:10px}
+
+/* Boutons de paiement express (visuels) */
+.express{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.xpay{min-height:48px;border-radius:6px;border:1px solid #000;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;gap:6px;font:500 17px/1 -apple-system,"SF Pro Text","Helvetica Neue",Arial,sans-serif;cursor:pointer;letter-spacing:-.01em}
+.xpay svg{height:20px;width:auto;fill:currentColor}
+.xpay.gpay{background:#fff;color:#3c4043;border-color:#747775}
+.xpay.ppal{background:#FFC439;border-color:#FFC439;color:#003087;font-weight:700;font-style:italic}
+.xpay:hover{filter:brightness(.92)}
+.or-sep{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.or-sep::before,.or-sep::after{content:"";flex:1;height:1px;background:var(--line)}
+
+/* Réassurance */
+.reass-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.reass-list li{background:var(--surface);display:grid;grid-template-columns:24px 1fr;gap:10px;padding:14px;font-size:13px;line-height:1.4;align-items:start}
+.reass-list svg{width:22px;height:22px;fill:none;stroke:var(--or-texte);stroke-width:1.3}
+.reass-list b{display:block;font-weight:600;font-size:13.5px}
+.reass-list span{color:var(--muted)}
+
+/* Accordéon */
+.acc{border-top:1px solid var(--line)}
+.acc-item{border-bottom:1px solid var(--line)}
+.acc-item h3{font:inherit;margin:0}
+.acc-btn{width:100%;min-height:56px;display:flex;justify-content:space-between;align-items:center;gap:16px;background:none;border:0;padding:14px 2px;cursor:pointer;text-align:left;font:500 14px/1.3 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--encre)}
+.acc-btn i{position:relative;width:14px;height:14px;flex:none}
+.acc-btn i::before,.acc-btn i::after{content:"";position:absolute;left:0;top:50%;width:14px;height:1.4px;background:currentColor;transition:transform .3s var(--ease)}
+.acc-btn i::after{transform:rotate(90deg)}
+.acc-btn[aria-expanded="true"] i::after{transform:rotate(0)}
+.acc-panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s var(--ease)}
+.acc-panel > div{overflow:hidden}
+.acc-panel.open{grid-template-rows:1fr}
+.acc-body{padding:0 2px 20px;font-size:15px;color:var(--encre);display:flex;flex-direction:column;gap:10px}
+.acc-body ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.acc-body .muted{color:var(--muted)}
+.acc-body dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:0}
+.acc-body dt{color:var(--muted)}
+.acc-body dd{margin:0}
+
+/* Tiroir panier */
+.scrim{position:fixed;inset:0;background:var(--shade);z-index:70;opacity:0;pointer-events:none;transition:opacity .3s}
+.scrim.on{opacity:1;pointer-events:auto}
+.cart{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);background:var(--porcelaine);z-index:80;transform:translateX(100%);transition:transform .45s var(--ease);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);visibility:hidden}
+.cart.on{transform:none;visibility:visible}
+.cart > header{display:flex;justify-content:space-between;align-items:center;padding:12px 12px 12px 20px;border-bottom:1px solid var(--line)}
+.cart > header h2{font-size:24px}
+.cart .shipbar{padding:14px 20px;border-bottom:1px solid var(--line)}
+.lines{flex:1;overflow:auto;padding:4px 20px;display:flex;flex-direction:column}
+.line{display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding-block:14px;border-bottom:1px solid var(--line)}
+.th{width:64px;height:76px;background:radial-gradient(ellipse at 50% 40%,#fbf7f2,#ecdfe3 75%);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.th img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply}
+.line b{font-weight:500;font-size:15px;display:block}
+.line small{color:var(--muted);display:block;font-size:13px}
+.line .price{font-variant-numeric:tabular-nums;font-weight:500;white-space:nowrap}
+.empty{color:var(--muted);text-align:center;padding:40px 10px;display:flex;flex-direction:column;gap:14px;align-items:center}
+.upsell{margin:0 20px 12px;padding:12px;background:var(--surface);border:1px solid var(--line);display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:center;font-size:13px}
+.upsell .th{width:56px;height:56px}
+.upsell b{display:block;font-weight:500;font-size:14px}
+.upsell em{font-style:normal;color:var(--grenat)}
+.totals{padding:16px 20px 20px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:6px;font-size:14px;background:var(--surface)}
+.totals .row{display:flex;justify-content:space-between;gap:12px;font-variant-numeric:tabular-nums}
+.totals .row.disc{color:var(--grenat)}
+.totals .row.tot{font-size:18px;font-weight:600;margin-top:6px}
+.totals .btn{margin-top:12px}
+.totals .note{font-size:12px;color:var(--muted);text-align:center;margin-top:6px}
+
+/* Toast */
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translate(-50%,30px);background:var(--encre);color:var(--porcelaine);padding:12px 14px 12px 18px;font-size:14px;z-index:90;opacity:0;transition:.3s;pointer-events:none;display:flex;align-items:center;gap:14px;max-width:calc(100% - 32px);box-shadow:0 18px 40px -16px rgba(0,0,0,.5)}
+.toast.on{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+.toast button{background:none;border:1px solid rgba(244,242,245,.4);color:var(--or-clair);font:500 11px var(--body);letter-spacing:.12em;text-transform:uppercase;padding:0 12px;min-height:36px;cursor:pointer;white-space:nowrap}
+
+/* Footer */
+footer.site{background:var(--velours);color:var(--velours-muted);font-size:14px}
+footer.site .wrap.cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px;padding-block:56px}
+footer.site h2{margin:0 0 12px;font:500 12px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--velours-fg)}
+footer.site a{display:block;text-decoration:none;padding-block:6px}
+footer.site a:hover{color:var(--velours-fg)}
+footer.site .wm{font-size:26px;color:var(--velours-fg)}
+footer.site .wm .br{border-color:var(--or-clair)}
+footer.site .legal{padding-block:18px 28px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;border-top:1px solid rgba(242,233,236,.12)}
+@media (max-width:900px){ footer.site .wrap.cols{grid-template-columns:1fr 1fr} }
+@media (max-width:560px){ footer.site .wrap.cols{grid-template-columns:1fr 1fr;gap:20px;padding-block:40px} footer.site .wrap.cols > :first-child{grid-column:1/-1} }
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
+}
+
+/* Carte produit (grille, cross-sell) */
+.pcard{display:flex;flex-direction:column;gap:10px;min-width:0;position:relative}
+.pcard .visual{position:relative;aspect-ratio:4/5;background:radial-gradient(ellipse at 50% 40%,#fbf7f2,#ecdfe3 75%);overflow:hidden}
+.pcard .visual > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;transition:transform 1s var(--ease)}
+.pcard .alt{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 45%,var(--velours-2),var(--velours) 75%);opacity:0;transition:opacity .5s var(--ease)}
+.pcard .alt img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:6%;filter:drop-shadow(0 0 14px rgba(255,220,150,.35)) drop-shadow(0 16px 18px rgba(0,0,0,.45));transform:scale(.96);transition:transform 1s var(--ease)}
+.pcard .alt.zoom{background:#fbf7f2}
+.pcard .alt.zoom img{object-fit:cover;padding:0;mix-blend-mode:multiply;filter:none;transform:scale(1.55);transform-origin:50% 30%}
+@media (hover:hover){
+  .pcard:hover .alt,.pcard:focus-within .alt{opacity:1}
+  .pcard:hover .alt img{transform:scale(1.02)}
+  .pcard:hover .alt.zoom img{transform:scale(1.65)}
+}
+.pcard .badges{position:absolute;top:10px;left:10px;display:flex;gap:6px;z-index:2;flex-wrap:wrap;pointer-events:none}
+.pcard h3{font-size:19px;line-height:1.2}
+.pcard h3 a{text-decoration:none}
+.pcard h3 a::after{content:"";position:absolute;inset:0;z-index:1}
+.pcard h3 a:focus-visible{outline:none}
+.pcard:has(h3 a:focus-visible){outline:2px solid var(--or);outline-offset:4px}
+.pcard .meta{display:flex;flex-direction:column-reverse;gap:4px;font-size:14px}
+.pcard .mat{font-size:13px;color:var(--muted);line-height:1.4}
+.pcard .price{font-variant-numeric:tabular-nums;color:var(--encre);font-weight:500;white-space:nowrap}
+.pcard .quick{position:absolute;left:10px;right:10px;bottom:10px;z-index:3;opacity:0;transform:translateY(8px);transition:.3s var(--ease)}
+.pcard .quick .btn{width:100%;padding:12px 10px}
+@media (hover:hover){ .pcard:hover .quick,.pcard:focus-within .quick{opacity:1;transform:none} }
+@media (hover:none){
+  .pcard .quick{opacity:1;transform:none;left:auto;right:8px;bottom:8px}
+  .pcard .quick .btn{width:var(--tap);height:var(--tap);padding:0;border-radius:50%;font-size:0;background:var(--surface);color:var(--encre);border-color:var(--surface);box-shadow:0 4px 12px -4px var(--shade)}
+  .pcard .quick .btn::before{content:"+";font-size:22px;font-weight:300}
+}
+.mock-note{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em;border-left:2px solid var(--or-clair);padding:6px 10px;background:rgba(233,203,143,.12);line-height:1.5}
+
+/* ===== Panier + checkout ===== */
+.co-hdr{background:var(--porcelaine);border-bottom:1px solid var(--line);position:relative;z-index:5}
+.co-hdr .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:64px;gap:8px}
+.co-hdr .brand{display:flex;flex-direction:column;align-items:center;gap:5px;text-decoration:none;padding:6px}
+.co-hdr .brand .wm{font-size:20px}
+.co-hdr .brand .br{border-color:var(--grenat)}
+.back{display:inline-flex;align-items:center;gap:6px;font-size:13px;text-decoration:none;min-height:var(--tap);color:var(--muted)}
+.back:hover{color:var(--encre)}
+.co-hdr .right{display:flex;justify-content:flex-end;align-items:center;gap:8px}
+.secure{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ok)}
+.secure svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.5}
+
+.co{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);grid-template-areas:"title sum" "xp sum" "form sum" "pay sum" "legal sum";column-gap:56px;align-items:start;padding-block:28px 72px}
+.co > *{min-width:0}
+.co-title{grid-area:title;margin-bottom:20px}
+.co-title h1{font-size:clamp(30px,4vw,44px)}
+.co-title p{color:var(--muted);font-size:14px;margin-top:6px}
+.xp{grid-area:xp;display:flex;flex-direction:column;gap:12px}
+.xp .express{grid-template-columns:repeat(3,1fr)}
+.sum{grid-area:sum;position:sticky;top:16px;background:var(--surface);border:1px solid var(--line);align-self:start}
+.form{grid-area:form}
+.pay{grid-area:pay}
+.legalbox{grid-area:legal}
+.step{padding-block:28px 8px;display:flex;flex-direction:column;gap:14px}
+.step h2{font-size:26px;display:flex;align-items:baseline;gap:12px}
+.step h2 span{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--grenat)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.f{display:flex;flex-direction:column;gap:6px;position:relative}
+.f label{font-size:14px;font-weight:500}
+.f label small{font-weight:400;color:var(--muted)}
+.f input,.f select{min-height:50px;border:1px solid var(--champ);background:var(--surface);padding:0 14px;font-size:16px;border-radius:0;width:100%}
+.f select{appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--encre) 50%),linear-gradient(135deg,var(--encre) 50%,transparent 50%);background-position:calc(100% - 20px) 50%,calc(100% - 15px) 50%;background-size:5px 5px;background-repeat:no-repeat}
+.f input:focus,.f select:focus,.f textarea:focus{outline:2px solid var(--or);outline-offset:0;border-color:var(--encre)}
+.f input[aria-invalid="true"]{border-color:var(--erreur);box-shadow:inset 0 0 0 1px var(--erreur)}
+.f .err{color:var(--erreur);font-size:13px;display:none}
+.f input[aria-invalid="true"] ~ .err{display:block}
+.f .hint{color:var(--muted);font-size:12.5px}
+.f input:-webkit-autofill{box-shadow:inset 0 0 0 40px #FBF8F3}
+.check{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;font-size:14px;cursor:pointer;min-height:var(--tap);padding-block:10px}
+.check input{width:20px;height:20px;margin:1px 0 0;accent-color:var(--grenat)}
+.check small{color:var(--muted);display:block;font-size:12.5px}
+.ac-list{position:absolute;left:0;right:0;top:100%;margin:4px 0 0;padding:0;list-style:none;background:var(--surface);border:1px solid var(--encre);z-index:20;box-shadow:0 18px 30px -18px var(--shade)}
+.ac-list li{padding:12px 14px;cursor:pointer;font-size:15px;min-height:var(--tap);display:flex;flex-direction:column}
+.ac-list li small{color:var(--muted);font-size:12.5px}
+.ac-list li[aria-selected="true"],.ac-list li:hover{background:var(--porcelaine)}
+.ac-list .src{font-family:var(--mono);font-size:10px;color:var(--muted);padding:6px 14px;border-top:1px solid var(--line);cursor:default;min-height:0}
+.ship-opt,.pm{border:1px solid var(--encre);background:var(--surface);padding:14px 16px;display:grid;grid-template-columns:22px 1fr auto;gap:12px;align-items:start;font-size:14px}
+.ship-opt b,.pm b{font-weight:600;font-size:15px}
+.ship-opt span,.pm span.d{color:var(--muted);display:block}
+.ship-opt input,.pm input{width:20px;height:20px;margin:1px 0 0;accent-color:var(--grenat)}
+.pms{display:flex;flex-direction:column;gap:0}
+.pm{border-color:var(--line);cursor:pointer}
+.pm + .pm,.pm + .card-f + .pm{border-top:0}
+.pm:has(input:checked){border-color:var(--encre);box-shadow:inset 0 0 0 1px var(--encre)}
+.card-f{border:1px solid var(--encre);border-top:0;background:var(--ivoire);padding:14px 16px;display:flex;flex-direction:column;gap:12px}
+.card-f[hidden]{display:none}
+.logos{display:flex;gap:4px;align-items:center}
+.logos i{font:600 9px/1 var(--body);font-style:normal;letter-spacing:.04em;border:1px solid var(--line);padding:4px 5px;background:var(--surface);color:var(--print)}
+.place .btn{min-height:58px;font-size:13px;width:100%}
+.place-tot{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px;font-size:14px}
+.place-tot b{font-family:var(--display);font-weight:400;font-size:28px;font-variant-numeric:tabular-nums}
+.legal-txt{font-size:12.5px;color:var(--muted);line-height:1.55;display:flex;flex-direction:column;gap:8px}
+.legal-txt a{color:var(--encre)}
+
+/* récap */
+.sum > header{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line);gap:10px}
+.sum > header h2{font-size:26px}
+.sum .toggle{display:none}
+.sum .shipbar{padding:14px 20px;border-bottom:1px solid var(--line)}
+.sum .lines{padding:0 20px;overflow:visible}
+.sum .line{grid-template-columns:72px 1fr auto;align-items:start}
+.sum .th{width:72px;height:86px}
+.sum .line .rm{background:none;border:0;padding:0;color:var(--muted);font-size:12.5px;text-decoration:underline;text-underline-offset:3px;cursor:pointer;min-height:36px;margin-left:12px}
+.sum .line .ctl{display:flex;align-items:center;margin-top:8px}
+.sum .line .was{display:block;font-size:12px;color:var(--grenat);text-align:right;font-weight:400}
+.sum .upsell{margin:14px 20px 0}
+.opts{padding:6px 20px 0;display:flex;flex-direction:column}
+.opts textarea{border:1px solid var(--champ);min-height:80px;padding:10px 12px;font-size:16px;resize:vertical;background:var(--surface)}
+.promo{padding:4px 20px 12px}
+.promo .in{display:grid;grid-template-columns:1fr auto;gap:8px;margin-top:6px}
+.promo .in[hidden]{display:none}
+.promo input{min-height:var(--tap);border:1px solid var(--champ);padding:0 12px;font-size:16px;min-width:0}
+.promo .btn{padding:0 16px}
+.sum .totals{border-top:1px solid var(--line)}
+.sum .totals .tva{font-size:12.5px;color:var(--muted)}
+.mini-reass{list-style:none;margin:0;padding:14px 20px 18px;display:flex;flex-direction:column;gap:8px;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}
+.mini-reass li{display:grid;grid-template-columns:18px 1fr;gap:10px}
+.mini-reass svg{width:16px;height:16px;fill:none;stroke:var(--or-texte);stroke-width:1.4;margin-top:2px}
+.demo{margin:12px 20px 0}
+.noel-line{background:var(--velours);color:var(--velours-fg);padding:10px 14px;font-size:13.5px}
+.noel-line b{color:var(--or-clair);font-weight:500}
+
+/* confirmation maquette */
+.modal{position:fixed;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;padding:16px;background:var(--shade)}
+.modal[hidden]{display:none}
+.modal > div{background:var(--porcelaine);max-width:440px;width:100%;padding:32px 28px;text-align:center;display:flex;flex-direction:column;gap:14px;align-items:center}
+.modal h2{font-size:30px;font-style:italic}
+.modal .wm{font-size:28px}.modal .br{border-color:var(--grenat)}
+
+@media (max-width:900px){
+  .co{grid-template-columns:1fr;grid-template-areas:"title" "xp" "sum" "form" "pay" "legal";padding-top:20px}
+  .sum{position:static;margin-top:24px}
+  .sum .toggle{display:inline-flex}
+  .sum.collapsed .body{display:none}
+  .co-hdr .secure .t{display:none}
+}
+@media (max-width:560px){
+  .back .t{display:none}
+  .xp .express{grid-template-columns:1fr 1fr}
+  .xp .express .ppal{grid-column:1/-1}
+  .row2.stack{grid-template-columns:1fr}
+  .sum > header h2{font-size:22px}
+  .co-hdr .brand .wm{font-size:18px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-en="Skip to content">Aller au contenu</a>
+<header class="co-hdr">
+  <div class="wrap">
+    <a class="back" href="collection.html"><span aria-hidden="true">←</span><span class="t" data-en="Continue shopping">Continuer mes achats</span><span class="sr" data-en="Back to shop">Retour à la boutique</span></a>
+    <a class="brand" href="../../charmed-paris/charmed-site.html" aria-label="Charmed Paris, accueil" data-en-aria-label="Charmed Paris, home"><span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span><span class="brand-sub">Paris</span></a>
+    <div class="right">
+      <span class="secure"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span class="t" data-en="Secure">Sécurisé</span></span>
+      <div class="lang" role="group" aria-label="Langue" data-en-aria-label="Language"><button type="button" data-lang="fr" aria-pressed="true" lang="fr" title="Français">FR</button><button type="button" data-lang="en" aria-pressed="false" lang="en" title="English">EN</button></div>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <form class="co" id="co" novalidate>
+    <div class="co-title"><h1 data-en="Your bag &amp; checkout">Ton écrin &amp; paiement</h1><p data-en="One page, a few fields, and it's on its way.">Une page, quelques champs, et c'est parti.</p></div>
+
+    <!-- Paiement express en haut -->
+    <section class="xp" aria-labelledby="xp-t">
+      <h2 class="eyebrow" id="xp-t" data-en="Express checkout">Paiement express</h2>
+      <div class="express">
+        <button class="xpay" type="button" aria-label="Payer avec Apple Pay" data-en-aria-label="Pay with Apple Pay"><svg viewBox="0 0 17 20" aria-hidden="true"><path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8s2 .8 3.4.8c1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM11.6 3c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.2 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>Pay</button>
+        <button class="xpay gpay" type="button" aria-label="Payer avec Google Pay" data-en-aria-label="Pay with Google Pay"><b style="color:#4285F4">G</b>&nbsp;Pay</button>
+        <button class="xpay ppal" type="button" aria-label="Payer avec PayPal" data-en-aria-label="Pay with PayPal">PayPal</button>
+      </div>
+      <div class="or-sep" data-en="or fill in your details">ou remplis tes coordonnées</div>
+    </section>
+
+    <!-- Récap panier -->
+    <aside class="sum" id="sum" aria-labelledby="sum-t">
+      <header><h2 id="sum-t"><span data-en="Your bag">Ton écrin</span> (<span id="sumN">0</span>)</h2><button class="link toggle" type="button" id="sumToggle" aria-expanded="true" aria-controls="sumBody"></button></header>
+      <div class="body" id="sumBody">
+        <div class="shipbar" id="cShip"><span class="txt"></span><div class="bar"><i></i></div></div>
+        <p class="mock-note demo" id="demo" hidden data-en="Demo content: your bag was empty, two sets were added to show the 2nd-set discount.">Contenu de démonstration : ton écrin était vide, deux parures ont été ajoutées pour montrer la remise 2e parure.</p>
+        <div class="lines" id="cLines"></div>
+        <div id="cUpsell"></div>
+        <div class="opts">
+          <label class="check"><input type="checkbox" id="xmas" checked><span><span data-en="Christmas gift wrap">Emballage de Noël</span> <b style="color:var(--grenat);font-weight:500" data-en="free until 24/12">offert jusqu'au 24/12</b><small data-en="Festive paper, ribbon and Christmas card.">Papier de fête, ruban et carte de Noël.</small></span></label>
+          <p class="check" style="cursor:default;grid-template-columns:1fr;font-size:13.5px"><span><span data-en="Parcel ready to give: ribbon, packing slip without prices.">Colis prêt à offrir : ruban, bordereau sans prix.</span><small data-en="One jewellery box per order; additional sets arrive in sealed pouches in the same parcel.">Une boîte à bijoux par commande ; les parures suivantes arrivent en sachets scellés dans le même colis.</small></span></p>
+        </div>
+        <div class="promo"><button class="link" type="button" id="promoBtn" aria-expanded="false" aria-controls="promoIn" data-en="Have a code?">Tu as un code ?</button>
+          <div class="in" id="promoIn" hidden><label for="promo" class="sr" data-en="Promo code">Code promo</label><input id="promo" autocomplete="off" placeholder="CODE"><button class="btn ghost" type="button" id="promoApply" data-en="Apply">Appliquer</button></div>
+        </div>
+        <div class="totals">
+          <div class="row"><span data-en="Subtotal">Sous-total</span><span id="cSub"></span></div>
+          <div class="row disc" id="cDiscRow" hidden><span data-en="2nd set −15%">2e parure −15 %</span><span id="cDisc"></span></div>
+          <div class="row"><span data-en="DHL tracked delivery">Livraison suivie DHL</span><span id="cShipc"></span></div>
+          <div class="row"><span data-en="Jewellery box &amp; velvet pouch">Boîte à bijoux &amp; pochette velours</span><span data-en="Included">Inclus</span></div>
+          <div class="row tot"><span data-en="Total incl. VAT">Total TTC</span><span id="cTot"></span></div>
+          <div class="row tva"><span><span data-en="incl. 20% VAT">dont TVA 20 %</span></span><span id="cTva"></span></div>
+          <div class="row tva"><span data-en="Duties &amp; import taxes">Droits &amp; taxes d'import</span><span data-en="Paid">Payés</span></div>
+        </div>
+        <ul class="mini-reass">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg><span data-en="14 days to change your mind (right of withdrawal)">14 jours pour changer d'avis (droit de rétractation)</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg><span data-en="2-year legal guarantee of conformity">Garantie légale de conformité 2 ans</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16v10H4zM3 7h18v3H3zM12 7v13M12 7c-2-4-6-3-5 0M12 7c2-4 6-3 5 0"/></svg><span data-en="Several sets = one parcel: one jewellery box, the others in sealed pouches">Plusieurs parures = un seul colis : une boîte à bijoux, les autres en sachets scellés</span></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Coordonnées + livraison -->
+    <div class="form">
+      <section class="step" aria-labelledby="s1">
+        <h2 id="s1"><span>01</span><span data-en="Contact" style="all:unset">Coordonnées</span></h2>
+        <div class="f"><label for="email">E-mail</label><input id="email" type="email" inputmode="email" autocomplete="email" required aria-describedby="email-e email-h"><span class="hint" id="email-h" data-en="For your confirmation and DHL tracking.">Pour ta confirmation et le suivi DHL.</span><span class="err" id="email-e" data-en="Enter a valid email, e.g. name@email.com">Indique un e-mail valide, ex. prenom@mail.fr</span></div>
+        <label class="check"><input type="checkbox" id="news"><span><span data-en="Get our news and launches by email">Recevoir nos nouveautés par e-mail</span><small data-en="Optional. Unsubscribe in one click.">Facultatif. Désinscription en un clic.</small></span></label>
+      </section>
+
+      <section class="step" aria-labelledby="s2">
+        <h2 id="s2"><span>02</span><span data-en="Delivery" style="all:unset">Livraison</span></h2>
+        <div class="f"><label for="country" data-en="Country">Pays</label><select id="country" autocomplete="country"><option value="FR" selected>France</option><option value="BE" data-en="Belgium">Belgique</option><option value="LU">Luxembourg</option><option value="CH" data-en="Switzerland">Suisse</option><option value="DE" data-en="Germany">Allemagne</option><option value="ES" data-en="Spain">Espagne</option><option value="IT" data-en="Italy">Italie</option><option value="NL" data-en="Netherlands">Pays-Bas</option></select></div>
+        <div class="row2">
+          <div class="f"><label for="fn" data-en="First name">Prénom</label><input id="fn" autocomplete="given-name" required aria-describedby="fn-e"><span class="err" id="fn-e" data-en="Required">Requis</span></div>
+          <div class="f"><label for="ln" data-en="Last name">Nom</label><input id="ln" autocomplete="family-name" required aria-describedby="ln-e"><span class="err" id="ln-e" data-en="Required">Requis</span></div>
+        </div>
+        <div class="f" id="addrWrap">
+          <label for="addr" data-en="Address">Adresse</label>
+          <input id="addr" autocomplete="address-line1" required role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="acList" aria-describedby="addr-h addr-e" placeholder="Commence à taper, on complète" data-en-placeholder="Start typing, we'll complete it">
+          <ul class="ac-list" id="acList" role="listbox" hidden></ul>
+          <span class="hint" id="addr-h" data-en="Address autocomplete: postcode and city fill in by themselves.">Autocomplétion d'adresse : le code postal et la ville se remplissent seuls.</span>
+          <span class="err" id="addr-e" data-en="Required">Requis</span>
+        </div>
+        <button class="link" type="button" id="addr2Btn" aria-expanded="false" aria-controls="addr2Wrap" style="align-self:flex-start" data-en="+ Apartment, building, floor (optional)">+ Appartement, bâtiment, étage (facultatif)</button>
+        <div class="f" id="addr2Wrap" hidden><label for="addr2" data-en="Address line 2">Complément d'adresse</label><input id="addr2" autocomplete="address-line2"></div>
+        <div class="row2">
+          <div class="f"><label for="zip" data-en="Postcode">Code postal</label><input id="zip" autocomplete="postal-code" inputmode="numeric" required aria-describedby="zip-e"><span class="err" id="zip-e" data-en="Required">Requis</span></div>
+          <div class="f"><label for="city" data-en="City">Ville</label><input id="city" autocomplete="address-level2" required aria-describedby="city-e"><span class="err" id="city-e" data-en="Required">Requis</span></div>
+        </div>
+        <div class="f"><label for="tel"><span data-en="Phone">Téléphone</span> <small data-en="(for the DHL courier only)">(uniquement pour le livreur DHL)</small></label><input id="tel" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="tel-e"><span class="err" id="tel-e" data-en="Required by the carrier for delivery">Requis par le transporteur pour la livraison</span></div>
+        <div class="ship-opt"><input type="radio" name="ship" id="ship1" checked aria-describedby="ship-d"><label for="ship1"><b data-en="DHL tracked delivery">Livraison suivie DHL</b><span id="ship-d"></span></label><b id="shipPrice"></b></div>
+        <p class="hint" style="font-size:12.5px;color:var(--muted)" data-en="A single delivery method, no express option. Duties paid: nothing to pay on delivery.">Un seul mode de livraison, sans option express. Droits payés : rien à régler à la livraison.</p>
+        <div class="noel-line" data-en="<b>Christmas:</b> order by Friday 4 December for delivery before Christmas (Europe)."><b>Noël :</b> commande avant le vendredi 4 décembre pour une livraison avant Noël (Europe).</div>
+        <label class="check"><input type="checkbox" id="billSame" checked><span data-en="Billing address same as delivery">Adresse de facturation identique</span></label>
+      </section>
+    </div>
+
+    <!-- Paiement -->
+    <section class="step pay" aria-labelledby="s3">
+      <h2 id="s3"><span>03</span><span data-en="Payment" style="all:unset">Paiement</span></h2>
+      <div class="pms" role="radiogroup" aria-labelledby="s3">
+        <label class="pm"><input type="radio" name="pm" value="card" checked><span><b data-en="Card">Carte bancaire</b><span class="d" data-en="Visa, Mastercard, CB · 3-D Secure">Visa, Mastercard, CB · 3-D Secure</span></span><span class="logos" aria-hidden="true"><i>CB</i><i>VISA</i><i>MC</i></span></label>
+        <div class="card-f" id="cardF">
+          <div class="f"><label for="cc" data-en="Card number">Numéro de carte</label><input id="cc" autocomplete="cc-number" inputmode="numeric" placeholder="1234 1234 1234 1234"></div>
+          <div class="row2"><div class="f"><label for="exp" data-en="Expiry">Expiration</label><input id="exp" autocomplete="cc-exp" inputmode="numeric" placeholder="MM / AA" data-en-placeholder="MM / YY"></div><div class="f"><label for="cvc">CVC</label><input id="cvc" autocomplete="cc-csc" inputmode="numeric" placeholder="123"></div></div>
+          <span class="mock" data-en="Mock-up: secure fields provided by the payment module (Stripe / WooPayments).">Maquette : champs sécurisés fournis par le module de paiement (Stripe / WooPayments).</span>
+        </div>
+        <label class="pm"><input type="radio" name="pm" value="paypal"><span><b>PayPal</b><span class="d" data-en="You'll be redirected to PayPal">Tu seras redirigée vers PayPal</span></span><span class="logos" aria-hidden="true"><i>PayPal</i></span></label>
+      </div>
+    </section>
+
+    <!-- Mentions légales + bouton -->
+    <section class="legalbox step" aria-label="Validation de la commande" data-en-aria-label="Place order">
+      <label class="check"><input type="checkbox" id="cgv" required aria-describedby="cgv-e"><span><span data-en="I have read and accept the &lt;a href='#'&gt;terms of sale&lt;/a&gt; and the &lt;a href='#'&gt;privacy policy&lt;/a&gt;.">J'ai lu et j'accepte les <a href="#">CGV</a> et la <a href="#">politique de confidentialité</a>.</span><small class="err" id="cgv-e" style="color:var(--erreur);display:none" data-en="Please accept the terms of sale to continue.">Merci d'accepter les CGV pour continuer.</small></span></label>
+      <div class="place"><p class="place-tot"><span data-en="Total to pay, incl. VAT">Total à payer TTC</span> <b id="placeTot"></b></p><button class="btn" type="submit" id="placeBtn" data-en="Order with obligation to pay">Commander avec obligation de paiement</button></div>
+      <div class="legal-txt">
+        <p data-en="You have 14 days from receipt to withdraw from your purchase, without giving a reason (art. L221-18 of the French Consumer Code). The withdrawal form and conditions are in our &lt;a href='#'&gt;terms of sale&lt;/a&gt;; you can also withdraw online via &lt;a href='#'&gt;Withdraw from a purchase&lt;/a&gt;.">Tu disposes de 14 jours à compter de la réception pour te rétracter, sans avoir à te justifier (art. L221-18 du Code de la consommation). Le formulaire et les conditions de rétractation figurent dans nos <a href="#">CGV</a> ; tu peux aussi te rétracter en ligne via <a href="#">Me rétracter</a>.</p>
+        <p data-en="Prices in euros, incl. 20% VAT. Products covered by the 2-year legal guarantee of conformity. Your data is used only to process your order (&lt;a href='#'&gt;privacy&lt;/a&gt;).">Prix en euros TTC, TVA 20 % incluse. Produits couverts par la garantie légale de conformité de 2 ans. Tes données servent uniquement au traitement de ta commande (<a href="#">confidentialité</a>).</p>
+      </div>
+    </section>
+  </form>
+</main>
+
+<footer class="site"><div class="wrap legal" style="display:flex;flex-wrap:wrap;gap:8px 18px"><span>© 2026 CHARMED PARIS</span><a href="#" style="display:inline" data-en="Terms of sale">CGV</a><a href="#" style="display:inline" data-en="Legal notice">Mentions légales</a><a href="#" style="display:inline" data-en="Privacy">Confidentialité</a><a href="#" style="display:inline;color:var(--velours-fg);text-decoration:underline" data-en="Withdraw from a purchase">Me rétracter</a></div></footer>
+
+<div class="modal" id="done" hidden role="dialog" aria-modal="true" aria-labelledby="done-t"><div>
+  <span class="wm"><span class="br l"></span><span class="mid">HARME</span><span class="br r"></span></span>
+  <h2 id="done-t" data-en="Thank you.">Merci.</h2>
+  <p data-en="Mock-up: no order was sent. In WooCommerce, the payment would be taken here and the order would move to “Processing”.">Maquette : aucune commande n'a été envoyée. Dans WooCommerce, le paiement serait encaissé ici et la commande passerait « En cours ».</p>
+  <button class="btn" type="button" id="doneClose" data-en="Close">Fermer</button>
+</div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"><span id="toast-txt"></span></div>
+
+<script>
+/* ===== CHARMED PARIS · logique commune (catalogue maquette, écrin, tiroir, toast, accordéons) ===== */
+/* Prix = exemples de maquette (fourchettes du brief), à valider. Pièces lues sur les photos Branvas. */
+var CAT = {
+  JS1AQ5:{n:'Solar Sphere', price:69, uni:'Éclat', code:'SOL', pcs:['Collier pendentif dôme','Puces d\'oreilles'], pe:['Dome pendant necklace','Stud earrings'], m:'Collier + puces · laiton doré, oxydes de zirconium', me:'Necklace + studs · gold-plated brass, cubic zirconia', stone:'chocolat', type:'puces', img:'img/JS1AQ5.webp', cut:'img/cut/JS1AQ5.webp'},
+  JSJB3S:{n:'Golden Luxe', price:79, uni:'Éclat', code:'GLX', pcs:['Collier goutte','Boucles pendantes'], pe:['Teardrop necklace','Drop earrings'], m:'Collier goutte + boucles · laiton doré, oxydes de zirconium', me:'Teardrop necklace + drops · gold-plated brass, cubic zirconia', stone:'cristal', type:'boucles', img:'img/JSJB3S.webp', cut:'img/cut/JSJB3S.webp'},
+  JS63VP:{n:'Golden Hour', price:69, uni:'Éclat', code:'GHR', pcs:['Collier','Créoles pendantes'], pe:['Necklace','Drop hoops'], m:'Collier + créoles · laiton doré, oxydes de zirconium champagne', me:'Necklace + hoops · gold-plated brass, champagne cubic zirconia', stone:'champagne', type:'creoles', img:'img/JS63VP.webp', cut:'img/cut/JS63VP.webp'},
+  JS4EXR:{n:'Crescent Glow', price:79, uni:'Éclat', code:'CRE', pcs:['Collier','Créoles','Bague ajustable'], pe:['Necklace','Hoops','Adjustable ring'], m:'Collier, créoles + bague · laiton doré, oxydes de zirconium', me:'Necklace, hoops + ring · gold-plated brass, cubic zirconia', stone:'cristal', type:'creoles', bague:true, img:'img/JS4EXR.webp', cut:'img/cut/JS4EXR.webp'},
+  JS5N68:{n:'Emerald Cut Halo', price:75, uni:'Éclat', code:'ECH', pcs:['Collier','Puces d\'oreilles'], pe:['Necklace','Stud earrings'], m:'Collier + puces · laiton doré, oxydes de zirconium taille émeraude', me:'Necklace + studs · gold-plated brass, emerald-cut cubic zirconia', stone:'cristal', type:'puces', img:'img/JS5N68.webp'},
+  JSFAV7:{n:'Geometric Luxe', price:65, uni:'Éclat', code:'GEO', pcs:['Collier','Créoles'], pe:['Necklace','Huggie hoops'], m:'Collier + créoles · laiton doré, oxydes de zirconium', me:'Necklace + huggies · gold-plated brass, cubic zirconia', stone:'cristal', type:'creoles', img:'img/JSFAV7.webp'},
+  JSC940:{n:'Golden Square', price:75, uni:'Éclat', code:'GSQ', pcs:['Collier','Boucles pendantes'], pe:['Necklace','Drop earrings'], m:'Collier + boucles · laiton doré, pierres miel', me:'Necklace + drops · gold-plated brass, honey stones', stone:'champagne', type:'boucles', isNew:true, img:'img/JSC940.webp'},
+  JS4P8D:{n:'Petal Bloom', price:59, uni:'Éclat', code:'PET', pcs:['Collier fleur et perles','Puces fleur'], pe:['Flower and pearl necklace','Flower studs'], m:'Collier + puces · laiton doré, perles, oxydes de zirconium', me:'Necklace + studs · gold-plated brass, pearls, cubic zirconia', stone:'perles', type:'puces', isNew:true, img:'img/JS4P8D.webp'},
+  JS4AH6:{n:'Radiant Circle', price:65, uni:'Éclat', code:'RAD', pcs:['Collier','Boucles cercle'], pe:['Necklace','Circle earrings'], m:'Collier + boucles · laiton doré, oxydes de zirconium', me:'Necklace + earrings · gold-plated brass, cubic zirconia', stone:'cristal', type:'boucles', img:'img/JS4AH6.webp'},
+  JSQS6W:{n:'Shell Glow', price:69, uni:'Éclat', code:'SHL', pcs:['Collier pendentif dôme','Puces d\'oreilles'], pe:['Dome pendant necklace','Stud earrings'], m:'Collier + puces · finition or blanc, oxydes de zirconium', me:'Necklace + studs · white-gold-plated brass, cubic zirconia', stone:'chocolat', type:'puces', img:'img/JSQS6W.webp'},
+  JS2KBV:{n:'Wave Luxe', price:69, uni:'Éclat', code:'WAV', pcs:['Collier double chaîne','Boucles'], pe:['Double-chain necklace','Earrings'], m:'Collier + boucles · laiton doré, oxydes de zirconium', me:'Necklace + earrings · gold-plated brass, cubic zirconia', stone:'cristal', type:'boucles', isNew:true, img:'img/JS2KBV.webp'},
+  /* autres univers (cadeaux, suggestions) */
+  JSSFYS:{n:'Blush Dreams', price:189, uni:'Joaillerie 925', code:'BLU', pcs:['Collier','Puces','Bracelet','Bague'], pe:['Necklace','Studs','Bracelet','Ring'], m:'Argent 925, moissanites synthétiques roses', me:'925 sterling silver, pink lab-grown moissanites', img:'img/JSSFYS.webp', cut:'img/cut/JSSFYS.webp', is925:true},
+  JSGRQR:{n:'Molten Art', price:49, uni:'Sculpture', code:'MOL', pcs:['Collier','Boucles'], pe:['Necklace','Earrings'], m:'Collier + boucles · métal doré sculpté', me:'Necklace + earrings · sculpted gold-tone metal', img:'img/JSGRQR.webp', cut:'img/cut/JSGRQR.webp'},
+  JSX3G6:{n:'Royal Sapphire', price:79, uni:'Couleur précieuse', code:'SAP', pcs:['Collier','Boucles'], pe:['Necklace','Earrings'], m:'Collier + boucles · pierres bleu saphir, oxydes de zirconium', me:'Necklace + earrings · sapphire-blue stones, cubic zirconia', img:'img/JSX3G6.webp', cut:'img/cut/JSX3G6.webp'}
+};
+/* ---------- Langue FR / EN ---------- */
+var LANG = 'fr';
+try{ LANG = localStorage.getItem('charmed-lang') || ((navigator.language||'fr').slice(0,2)==='fr' ? 'fr' : 'fr'); }catch(e){}
+if(LANG!=='en') LANG='fr';
+function T(fr,en){ return LANG==='en' ? en : fr; }
+function PM(p){ return LANG==='en' ? p.me : p.m; }
+function PP(p){ return LANG==='en' ? p.pe : p.pcs; }
+var I18N_ATTRS = ['aria-label','placeholder','title','alt','content'];
+var langHooks = [];
+function onLang(fn){ langHooks.push(fn); }
+function applyLang(){
+  document.documentElement.lang = LANG;
+  document.querySelectorAll('[data-en]').forEach(function(el){
+    if(el.dataset.fr===undefined) el.dataset.fr = el.innerHTML;
+    el.innerHTML = LANG==='en' ? el.dataset.en : el.dataset.fr;
+  });
+  I18N_ATTRS.forEach(function(a){
+    document.querySelectorAll('[data-en-'+a+']').forEach(function(el){
+      var k='fr'+a.replace(/-/g,''); if(el.dataset[k]===undefined) el.dataset[k]=el.getAttribute(a)||'';
+      el.setAttribute(a, LANG==='en' ? el.getAttribute('data-en-'+a) : el.dataset[k]);
+    });
+  });
+  var tt=document.querySelector('title'); if(tt && tt.dataset.en){ document.title = LANG==='en'?tt.dataset.en:tt.dataset.fr; }
+  document.querySelectorAll('.lang button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.lang===LANG); });
+  langHooks.forEach(function(f){ f(); });
+  if(typeof renderAll==='function' && document.readyState!=='loading') renderAll();
+}
+function setLang(l){ LANG=l; try{ localStorage.setItem('charmed-lang', l); }catch(e){} applyLang(); }
+var FREE_FROM = 50, SHIP_FEE = 4.90 /* tarif client à valider (coût Branvas : 8,99 $ / commande) */, SECOND = .15;
+var KEY = 'charmed-woo-cart';
+var $ = function(id){ return document.getElementById(id); };
+function eur(v){ var x=(Math.round(v*100)/100).toFixed(2); return LANG==='en' ? '€'+x : x.replace('.',',') + '\u00a0€'; }
+var cart = {};
+try{ cart = JSON.parse(localStorage.getItem(KEY)||'{}') || {}; }catch(e){ cart = {}; }
+Object.keys(cart).forEach(function(k){ if(!CAT[k]) delete cart[k]; });
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(cart)); }catch(e){} }
+function count(){ var n=0; for(var k in cart) n+=cart[k]; return n; }
+/* Règle (identique à l'accueil) : dès 2 parures, −15 % sur la moins chère. Livraison offerte si total remisé ≥ 50 €. */
+function calc(c){
+  c = c || cart; var n=0, sub=0, prices=[];
+  for(var k in c){ n+=c[k]; sub+=c[k]*CAT[k].price; for(var i=0;i<c[k];i++) prices.push(CAT[k].price); }
+  prices.sort(function(a,b){return a-b;});
+  var disc = n>=2 ? Math.round(prices[0]*SECOND*100)/100 : 0;
+  var after = sub-disc, free = after>=FREE_FROM, ship = n ? (free?0:SHIP_FEE) : 0, tot = after+ship;
+  return {n:n, sub:sub, disc:disc, after:after, free:free, ship:ship, tot:tot, tva: tot - tot/1.2};
+}
+function shipbar(el, after){
+  if(!el) return;
+  var free = after>=FREE_FROM;
+  el.classList.toggle('done', free);
+  el.querySelector('.txt').innerHTML = free ? T('<b>Livraison offerte</b> ✓ sur ta commande','<b>Free delivery</b> ✓ on your order') : T('Plus que <b>'+eur(FREE_FROM-after)+'</b> pour la livraison offerte','Only <b>'+eur(FREE_FROM-after)+'</b> away from free delivery');
+  el.querySelector('.bar i').style.width = Math.min(100, after/FREE_FROM*100)+'%';
+}
+var listeners = [];
+function onCart(fn){ listeners.push(fn); }
+function setQty(id, q){ if(q<=0) delete cart[id]; else cart[id]=Math.min(q,10); save(); renderAll(); }
+function add(id, q, silent){ cart[id]=(cart[id]||0)+(q||1); save(); renderAll(); if(!silent) toast((q>1?q+' × ':'')+T('Parure '+CAT[id].n+' ajoutée à ton écrin', CAT[id].n+' set added to your bag')); }
+function thumb(p){ return '<img src="'+p.img+'" alt="" width="400" height="400" loading="lazy">'; }
+
+function renderDrawer(){
+  var t = calc(), lines = $('d-lines'); if(!lines) return;
+  $('count').textContent = t.n;
+  lines.innerHTML='';
+  Object.keys(cart).forEach(function(id){
+    var p = CAT[id], q = cart[id], l = document.createElement('div'); l.className='line';
+    l.innerHTML='<div class="th">'+thumb(p)+'</div><div><b></b><small></small><div class="qty sm" role="group"><button type="button">−</button><span aria-live="polite"></span><button type="button">+</button></div></div><span class="price"></span>';
+    l.querySelector('b').textContent=T('Parure '+p.n, p.n+' set'); l.querySelector('small').textContent=PM(p);
+    l.querySelector('.qty span').textContent=q; l.querySelector('.price').textContent=eur(q*p.price);
+    var bs=l.querySelectorAll('.qty button');
+    bs[0].setAttribute('aria-label', q===1?T('Retirer Parure '+p.n,'Remove '+p.n+' set'):T('Une de moins','One less')); bs[1].setAttribute('aria-label',T('Une de plus','One more'));
+    bs[0].addEventListener('click',function(){ setQty(id,q-1); });
+    bs[1].addEventListener('click',function(){ setQty(id,q+1); });
+    lines.appendChild(l);
+  });
+  if(!t.n) lines.innerHTML='<div class="empty"><span>'+T('Ton écrin est vide.','Your bag is empty.')+'</span><a class="btn ghost" href="collection.html">'+T('Voir les parures Éclat','Shop the Éclat sets')+'</a></div>';
+  shipbar($('d-ship'), t.after);
+  $('d-sub').textContent=eur(t.sub);
+  $('d-disc-row').hidden=!t.disc; $('d-disc').textContent='− '+eur(t.disc);
+  $('d-shipc').textContent= !t.n ? '—' : (t.free?T('Offerte','Free'):eur(t.ship));
+  $('d-tot').textContent=eur(t.tot);
+  $('d-go').classList.toggle('disabled', !t.n);
+  var up=$('d-upsell'); up.innerHTML='';
+  if(t.n===1){
+    var have=Object.keys(cart)[0], sid=['JS63VP','JSJB3S','JS1AQ5','JS4EXR'].filter(function(x){return x!==have;})[0], s=CAT[sid];
+    up.innerHTML='<div class="upsell"><div class="th">'+thumb(s)+'</div><div><b>'+T('Parure '+s.n, s.n+' set')+'</b><span><em>'+eur(s.price*(1-SECOND))+'</em> '+T('en 2e parure (−15 %)','as your 2nd set (−15%)')+'</span></div><button class="btn ghost" type="button" style="padding:0 12px;font-size:11px" aria-label="'+T('Ajouter Parure '+s.n,'Add '+s.n+' set')+'">'+T('Ajouter','Add')+'</button></div>';
+    up.querySelector('button').addEventListener('click',function(){ add(sid,1,true); });
+  }
+}
+function renderAll(){ renderDrawer(); listeners.forEach(function(f){ f(); }); }
+
+/* Tiroir */
+var lastFocus=null;
+function openCart(){ var c=$('cart'); if(!c) return; lastFocus=document.activeElement; c.classList.add('on'); c.setAttribute('aria-hidden','false'); $('scrim').classList.add('on'); $('open-cart').setAttribute('aria-expanded','true'); setTimeout(function(){ $('close-cart').focus(); },50); hideToast(); }
+function closeCart(){ var c=$('cart'); if(!c) return; c.classList.remove('on'); c.setAttribute('aria-hidden','true'); $('scrim').classList.remove('on'); $('open-cart').setAttribute('aria-expanded','false'); if(lastFocus) lastFocus.focus(); }
+/* Toast */
+var tt;
+function toast(msg){ var t=$('toast'); if(!t) return; $('toast-txt').textContent=msg; t.classList.add('on'); clearTimeout(tt); tt=setTimeout(hideToast,4200); }
+function hideToast(){ var t=$('toast'); if(t) t.classList.remove('on'); }
+/* Accordéons */
+function initAcc(root){
+  (root||document).querySelectorAll('.acc-btn').forEach(function(b){
+    var p=$(b.getAttribute('aria-controls'));
+    if(b.getAttribute('aria-expanded')==='true') p.classList.add('open'); else p.querySelector('div').setAttribute('inert','');
+    b.addEventListener('click',function(){
+      var open=b.getAttribute('aria-expanded')!=='true';
+      b.setAttribute('aria-expanded',open); p.classList.toggle('open',open);
+      if(open) p.querySelector('div').removeAttribute('inert'); else p.querySelector('div').setAttribute('inert','');
+    });
+  });
+}
+/* Estimation : France 4–9 jours ouvrés de la commande à la livraison (90 % des colis, FAQ Branvas). Pas d'express. */
+function addBiz(d,n){ d=new Date(d); while(n>0){ d.setDate(d.getDate()+1); var w=d.getDay(); if(w!==0&&w!==6) n--; } return d; }
+function fdate(d){ return d.toLocaleDateString(LANG==='en'?'en-GB':'fr-FR',{weekday:'short',day:'numeric',month:'short'}); }
+function deliveryWindow(){ var now=new Date(); return [addBiz(now,4), addBiz(now,9)]; }
+
+document.addEventListener('DOMContentLoaded',function(){
+  if($('open-cart')) $('open-cart').addEventListener('click',openCart);
+  if($('close-cart')) $('close-cart').addEventListener('click',closeCart);
+  if($('scrim')) $('scrim').addEventListener('click',closeCart);
+  if($('toast-open')) $('toast-open').addEventListener('click',openCart);
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape' && $('cart') && $('cart').classList.contains('on')) closeCart(); });
+  var mb=$('menu-btn'); if(mb) mb.addEventListener('click',function(){ var o=mb.getAttribute('aria-expanded')!=='true'; mb.setAttribute('aria-expanded',o); $('mnav').hidden=!o; });
+  document.querySelectorAll('.lang button').forEach(function(b){ b.addEventListener('click',function(){ setLang(b.dataset.lang); }); });
+  initAcc();
+  applyLang();
+  renderAll();
+});
+
+/* Carte produit : photo crème ; au survol, détourage sur velours (ou gros plan si pas encore détourée) */
+function card(id, o){
+  o = o || {}; var p = CAT[id], a = document.createElement('article'); a.className='pcard'; a.dataset.id=id;
+  var badges = '';
+  if(p.isNew) badges += '<span class="badge new">'+T('Nouveau','New')+'</span>';
+  if(p.is925) badges += '<span class="badge argent">'+T('Joaillerie 925','Fine 925')+'</span>';
+  var alt = p.cut ? '<div class="alt" aria-hidden="true"><img src="'+p.cut+'" alt="" loading="lazy" width="700" height="700"></div>'
+                  : '<div class="alt zoom" aria-hidden="true"><img src="'+p.img+'" alt="" loading="lazy" width="400" height="400"></div>';
+  var href = id==='JS1AQ5' ? 'fiche-produit.html' : '#';
+  var price = '<span class="price">'+eur(p.price)+(o.second?' <span style="color:var(--grenat);font-weight:400">· '+T('−15 % en 2e parure','−15% as 2nd set')+'</span>':'')+'</span>';
+  a.innerHTML = '<div class="visual"><img src="'+p.img+'" alt="'+T('Parure '+p.n+' : ','The '+p.n+' set: ')+PP(p).join(', ').toLowerCase()+'" loading="lazy" width="400" height="400">'+alt+
+    (badges?'<div class="badges">'+badges+'</div>':'')+
+    '<div class="quick"><button class="btn" type="button" aria-label="'+T('Ajouter Parure '+p.n+' à l\'écrin','Add the '+p.n+' set to your bag')+'">'+(o.second?T('Ajouter en 2e parure','Add as 2nd set'):T('Ajouter à l\'écrin','Add to bag'))+'</button></div></div>'+
+    '<h3><a href="'+href+'">'+T('Parure '+p.n, p.n+' set')+'</a></h3>'+
+    '<div class="meta"><span class="mat">'+PM(p)+'</span>'+price+'</div>';
+  a.querySelector('.quick button').addEventListener('click', function(){ add(id); });
+  return a;
+}
+
+/* ===== Panier + checkout ===== */
+(function(){
+  if(!count()){ cart={JS1AQ5:1, JS63VP:1}; save(); $('demo').hidden=false; }
+  var mqMobile = window.matchMedia('(max-width:900px)');
+
+  function lines(){
+    var t=calc(), L=$('cLines'); L.innerHTML='';
+    /* repère la ligne qui porte la remise (la moins chère) */
+    var cheapest=null; Object.keys(cart).forEach(function(id){ if(!cheapest || CAT[id].price<CAT[cheapest].price) cheapest=id; });
+    Object.keys(cart).forEach(function(id){
+      var p=CAT[id], q=cart[id], l=document.createElement('div'); l.className='line';
+      l.innerHTML='<div class="th">'+thumb(p)+'</div><div><b></b><small></small><div class="ctl"><div class="qty sm" role="group"><button type="button">−</button><span aria-live="polite"></span><button type="button">+</button></div><button type="button" class="rm"></button></div></div><span class="price"></span>';
+      l.querySelector('b').textContent=T('Parure '+p.n, p.n+' set'); l.querySelector('small').textContent=PM(p);
+      l.querySelector('.qty span').textContent=q;
+      var pr=l.querySelector('.price'); pr.textContent=eur(q*p.price);
+      if(t.disc && id===cheapest){ var w=document.createElement('span'); w.className='was'; w.textContent=T('2e parure −','2nd set −')+eur(t.disc); pr.appendChild(w); }
+      var bs=l.querySelectorAll('.qty button');
+      bs[0].setAttribute('aria-label',T('Une de moins','One less')); bs[1].setAttribute('aria-label',T('Une de plus','One more'));
+      bs[0].disabled = q<=1;
+      bs[0].addEventListener('click',function(){ setQty(id,q-1); });
+      bs[1].addEventListener('click',function(){ setQty(id,q+1); });
+      var rm=l.querySelector('.rm'); rm.textContent=T('Retirer','Remove'); rm.setAttribute('aria-label',T('Retirer Parure '+p.n,'Remove '+p.n+' set'));
+      rm.addEventListener('click',function(){ setQty(id,0); toast(T('Parure retirée de ton écrin','Set removed from your bag')); });
+      L.appendChild(l);
+    });
+    if(!t.n) L.innerHTML='<div class="empty"><span>'+T('Ton écrin est vide.','Your bag is empty.')+'</span><a class="btn ghost" href="collection.html">'+T('Voir les parures Éclat','Shop the Éclat sets')+'</a></div>';
+    var up=$('cUpsell'); up.innerHTML='';
+    if(t.n===1){
+      var have=Object.keys(cart)[0], sid=['JS63VP','JSJB3S','JS1AQ5','JS4EXR'].filter(function(x){return x!==have;})[0], s=CAT[sid];
+      up.innerHTML='<div class="upsell"><div class="th">'+thumb(s)+'</div><div><b>'+T('Une 2e parure ?','A 2nd set?')+'</b><span>'+T('Parure '+s.n,s.n+' set')+'  · '+eur(s.price)+' <em>'+T('−15 % en 2e parure','−15% as 2nd set')+'</em></span></div><button class="btn ghost" type="button" style="padding:0 12px;font-size:11px">'+T('Ajouter','Add')+'</button></div>';
+      up.querySelector('button').addEventListener('click',function(){ add(sid,1,true); toast(T('−15 % appliqué sur la moins chère','15% off applied to the less expensive set')); });
+    }
+  }
+  function totals(){
+    var t=calc();
+    $('sumN').textContent=t.n;
+    shipbar($('cShip'), t.after);
+    $('cSub').textContent=eur(t.sub);
+    $('cDiscRow').hidden=!t.disc; $('cDisc').textContent='− '+eur(t.disc);
+    $('cShipc').textContent=!t.n?'—':(t.free?T('Offerte','Free'):eur(t.ship));
+    $('cTot').textContent=eur(t.tot); $('cTva').textContent=eur(t.tva);
+    $('placeTot').textContent=eur(t.tot);
+    $('shipPrice').textContent=!t.n?'—':(t.free?T('Offerte','Free'):eur(t.ship));
+    var w=deliveryWindow();
+    $('ship-d').textContent=T('4–9 jours ouvrés en France · estimation : '+fdate(w[0])+' – '+fdate(w[1]), '4–9 working days in France · estimate: '+fdate(w[0])+' – '+fdate(w[1]));
+    $('placeBtn').disabled=!t.n;
+    $('sumToggle').textContent = $('sumToggle').getAttribute('aria-expanded')==='true' ? T('Masquer','Hide') : T('Afficher','Show')+' · '+eur(t.tot);
+  }
+  onCart(function(){ lines(); totals(); });
+  onLang(function(){ lines(); totals(); });
+
+  /* récap repliable sur mobile */
+  $('sumToggle').addEventListener('click',function(){ var o=this.getAttribute('aria-expanded')!=='true'; this.setAttribute('aria-expanded',o); $('sum').classList.toggle('collapsed',!o); totals(); });
+
+  /* options */
+  $('promoBtn').addEventListener('click',function(){ var o=this.getAttribute('aria-expanded')!=='true'; this.setAttribute('aria-expanded',o); $('promoIn').hidden=!o; if(o) $('promo').focus(); });
+  $('promoApply').addEventListener('click',function(){ toast(T('Maquette : les codes sont vérifiés par WooCommerce.','Mock-up: codes are checked by WooCommerce.')); });
+  $('addr2Btn').addEventListener('click',function(){ this.hidden=true; $('addr2Wrap').hidden=false; $('addr2').focus(); });
+  document.querySelectorAll('input[name=pm]').forEach(function(r){ r.addEventListener('change',function(){ $('cardF').hidden = r.value!=='card'; }); });
+  document.querySelectorAll('.xpay').forEach(function(b){ b.addEventListener('click',function(){ toast(T('Maquette : la feuille de paiement express s\'ouvrirait ici.','Mock-up: the express payment sheet would open here.')); }); });
+
+  /* autocomplétion d'adresse (maquette : API Adresse data.gouv.fr ou Google Places à brancher) */
+  var ADDR=[{l:'12 Rue de Rivoli',z:'75004',c:'Paris'},{l:'12 Rue de la République',z:'69002',c:'Lyon'},{l:'12 Cours de l\'Intendance',z:'33000',c:'Bordeaux'},{l:'4 Place Bellecour',z:'69002',c:'Lyon'},{l:'8 Rue Sainte-Catherine',z:'33000',c:'Bordeaux'}];
+  var addr=$('addr'), list=$('acList'), sel=-1, items=[];
+  function norm(s){ return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,''); }
+  function closeAc(){ list.hidden=true; addr.setAttribute('aria-expanded','false'); addr.removeAttribute('aria-activedescendant'); sel=-1; }
+  function pick(a){ addr.value=a.l; $('zip').value=a.z; $('city').value=a.c; ['addr','zip','city'].forEach(function(i){ $(i).removeAttribute('aria-invalid'); }); closeAc(); }
+  addr.addEventListener('input',function(){
+    var v=norm(addr.value.trim()); if(v.length<3){ closeAc(); return; }
+    var words=v.split(/\s+/);
+    items=ADDR.filter(function(a){ var s=norm(a.l+' '+a.z+' '+a.c); return words.every(function(w){ return s.indexOf(w)>-1; }); });
+    if(!items.length) items=ADDR.slice(0,3);
+    list.innerHTML=''; items.slice(0,4).forEach(function(a,i){ var li=document.createElement('li'); li.id='ac'+i; li.setAttribute('role','option'); li.innerHTML='<span></span><small></small>'; li.firstChild.textContent=a.l; li.lastChild.textContent=a.z+' '+a.c; li.addEventListener('mousedown',function(e){ e.preventDefault(); pick(a); }); list.appendChild(li); });
+    var src=document.createElement('li'); src.className='src'; src.setAttribute('role','presentation'); src.textContent=T('Suggestions maquette · API Adresse à brancher','Mock-up suggestions · address API to connect'); list.appendChild(src);
+    list.hidden=false; addr.setAttribute('aria-expanded','true'); sel=-1;
+  });
+  addr.addEventListener('keydown',function(e){
+    if(list.hidden) return; var opts=list.querySelectorAll('[role=option]');
+    if(e.key==='ArrowDown'||e.key==='ArrowUp'){ e.preventDefault(); sel=(sel+(e.key==='ArrowDown'?1:-1)+opts.length)%opts.length; opts.forEach(function(o,i){ o.setAttribute('aria-selected',i===sel); }); addr.setAttribute('aria-activedescendant','ac'+sel); }
+    if(e.key==='Enter' && sel>-1){ e.preventDefault(); pick(items[sel]); }
+    if(e.key==='Escape') closeAc();
+  });
+  addr.addEventListener('blur',function(){ setTimeout(closeAc,120); });
+
+  /* validation légère */
+  var REQ=['email','fn','ln','addr','zip','city','tel'];
+  function valid(id){ var el=$(id), v=el.value.trim(), ok = id==='email' ? /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) : v.length>0; return ok; }
+  REQ.forEach(function(id){ $(id).addEventListener('blur',function(){ if(this.value.trim()) this.setAttribute('aria-invalid', !valid(id)); }); $(id).addEventListener('input',function(){ if(this.getAttribute('aria-invalid')==='true' && valid(id)) this.removeAttribute('aria-invalid'); }); });
+  $('co').addEventListener('submit',function(e){
+    e.preventDefault(); var first=null;
+    REQ.forEach(function(id){ var ok=valid(id); $(id).setAttribute('aria-invalid',!ok); if(!ok && !first) first=$(id); });
+    var cg=$('cgv').checked; $('cgv-e').style.display=cg?'none':'block'; $('cgv').setAttribute('aria-invalid',!cg); if(!cg && !first) first=$('cgv');
+    if(first){ first.focus(); toast(T('Il manque quelques informations.','A few details are missing.')); return; }
+    $('done').hidden=false; $('doneClose').focus();
+  });
+  $('cgv').addEventListener('change',function(){ if(this.checked){ $('cgv-e').style.display='none'; this.removeAttribute('aria-invalid'); } });
+  $('doneClose').addEventListener('click',function(){ $('done').hidden=true; $('placeBtn').focus(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape' && !$('done').hidden){ $('done').hidden=true; } });
+
+  function initMobile(){ if(mqMobile.matches && count()>2){ $('sumToggle').setAttribute('aria-expanded','false'); $('sum').classList.add('collapsed'); } }
+  initMobile();
+  lines(); totals();
+})();
+</script>
+</body>
+</html>

@@ -10,7 +10,10 @@
   ],
   "description": "A dome pendant and matching stud earrings, gold-plated and scattered with cubic zirconia. Delivered in its gift box. Keep dry.",
   "sku": "JS1AQ5",
-  "brand": { "@type": "Brand", "name": "CHARMED PARIS" },
+  "brand": {
+    "@type": "Brand",
+    "name": "CHARMED PARIS"
+  },
   "material": "Gold-plated brass, cubic zirconia",
   "color": "Gold",
   "offers": {
@@ -21,15 +24,34 @@
     "priceValidUntil": "2027-12-31",
     "availability": "https://schema.org/InStock",
     "itemCondition": "https://schema.org/NewCondition",
-    "seller": { "@id": "https://charmedparis.com/#organization" },
+    "seller": {
+      "@id": "https://charmedparis.com/#organization"
+    },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
-      "shippingRate": { "@type": "MonetaryAmount", "value": "0.00", "currency": "USD" },
-      "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" },
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0.00",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "US"
+      },
       "deliveryTime": {
         "@type": "ShippingDeliveryTime",
-        "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" },
-        "transitTime": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 6, "unitCode": "DAY" }
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 2,
+          "maxValue": 6,
+          "unitCode": "DAY"
+        }
       }
     },
     "hasMerchantReturnPolicy": {

@@ -8,7 +8,7 @@ Rappels qui valent pour toutes les pages : jamais « plaqué or », « vermeil �
 
 ## 1. Accueil
 
-**SEO** · Title : `CHARMED PARIS · Parures de bijoux prêtes à offrir` · Meta description : `Collier et boucles assortis, dans un coffret prêt à offrir. Parures dorées à l'or fin, zircons, argent 925 et moissanite. Livraison offerte dès 50 €.`
+**SEO** · Title : `CHARMED PARIS · Parures de bijoux prêtes à offrir` · Meta description : `Collier et boucles assortis, dans un coffret prêt à offrir. Parures dorées, oxydes de zirconium, argent 925 et moissanite synthétique. Livraison offerte dès 50 €.`
 
 ### 1.1 Intro (écrin 3D au scroll)
 - Écran 1 : **Ouvre.**
@@ -37,13 +37,13 @@ Version hors fêtes :
 | Coffret | Univers | Ligne de description | Prix proposé |
 |---|---|---|---|
 | Parure Molten Art | Sculpture | Collier deux rangs et boucles, métal froissé doré | 49 € |
-| Parure Solar Sphere | Éclat | Collier et puces, sphère pavée de zircons | 69 € |
-| Parure Emerald Square | Couleur précieuse | Collier et petites créoles, émail blanc et zircon vert | 69 € |
+| Parure Solar Sphere | Éclat | Collier et puces, sphère pavée d'oxydes de zirconium | 69 € |
+| Parure Emerald Square | Couleur précieuse | Collier et petites créoles, émail blanc et oxyde de zirconium vert | 69 € |
 | Parure Liquid Art | Sculpture | Collier et boucles, galet doré et perle de culture | 59 € |
-| Parure Golden Luxe | Éclat | Collier en Y et boucles gouttes, zircons | 79 € |
-| Parure Royal Sapphire | Couleur précieuse | Collier et puces, zircon bleu nuit | 79 € |
+| Parure Golden Luxe | Éclat | Collier en Y et boucles gouttes, oxydes de zirconium | 79 € |
+| Parure Royal Sapphire | Couleur précieuse | Collier et puces, oxyde de zirconium bleu nuit | 79 € |
 | Parure Blush Dreams | Joaillerie 925 | Quatre pièces en argent 925, moissanites roses | 189 € |
-| Parure Golden Hour | Éclat | Collier et créoles, zircon champagne | 69 € |
+| Parure Golden Hour | Éclat | Collier et créoles, oxyde de zirconium champagne | 69 € |
 
 > À confirmer : la maquette annonçait « Collier, boucles et bague » pour Royal Sapphire et « puces » pour Emerald Square. Les photos montrent collier + puces (pas de bague) et collier + petites créoles. Lignes corrigées ci-dessus.
 
@@ -63,9 +63,9 @@ Ouvre · Offre · Garde · Laisse-toi charmer · CHARMED PARIS
 | Univers | Ligne | Accroche |
 |---|---|---|
 | Sculpture | 7 parures · métal doré et argenté | Des formes fondues, comme des pièces de galerie. |
-| Éclat | 11 parures · doré et zircons | La lumière, du collier aux oreilles. |
+| Éclat | 11 parures · doré et oxydes de zirconium | La lumière, du collier aux oreilles. |
 | Couleur précieuse | 7 parures · vert, bleu, rose | Une pierre de couleur, en écho. |
-| Joaillerie 925 | 3 parures · argent 925 | Argent 925 et moissanites de laboratoire. |
+| Joaillerie 925 | 3 parures · argent 925 | Argent 925 et moissanites synthétiques. |
 | Mixte | 2 parures · sur cordon | À porter à deux, ou à partager. |
 
 > Corrections vs maquette : Sculpture n'est pas qu'en « métal doré » (Baroque Pearl Flow est argentée, Celestial Star Moon bicolore) ; « Argent massif » remplacé par « Argent 925 ».
@@ -99,8 +99,8 @@ Ouvre · Offre · Garde · Laisse-toi charmer · CHARMED PARIS
 > Faits packaging (FAQ Branvas) : une boîte-tiroir beige métallisé à ton logo par commande ; 2e parure dans un sachet scellé du même colis ; écrin velours bleu sans logo pour la ligne moissanite ; pochette et chamoisine sans logo ; aucun message cadeau possible (carte personnalisable seulement en VIP). Corriger la maquette : les visuels montrent une boîte blanche, et la case « Emballage cadeau et carte Ouvre-moi » est à supprimer. À confirmer : papier nid d'abeille (Scale/VIP à Noël seulement) ; mécanisme de choix Femme/Homme.
 
 ### 1.10 Réassurance (4 colonnes)
-- **Livraison 4 à 9 jours ouvrés** · Offerte dès 50 €
-- **Droits de douane payés** · Rien à régler à la livraison
+- **Livraison 4 à 9 jours ouvrés** · Offerte dès 50 €, droits payés
+- **Expédiée hors UE** · États-Unis ou Chine, rien à régler à la livraison
 - **14 jours pour changer d'avis** · Retour à nos frais
 - **Coffret inclus** · Sur chaque commande
 
@@ -126,48 +126,48 @@ Ouvre · Offre · Garde · Laisse-toi charmer · CHARMED PARIS
 **H1 : Sculpture**
 
 **Intro**
-Des formes qui ont l'air d'avoir fondu, puis d'avoir été rattrapées juste à temps. Les parures Sculpture jouent sur le volume : métal froissé, galets, coulures, lames. Peu de pierres, beaucoup de relief. Elles se portent sur une tenue simple, une chemise blanche, un col roulé, un blazer sur la peau, et c'est le bijou qui fait la silhouette. Sept parures, presque toutes en laiton doré à l'or fin, une en finition argentée satinée, deux avec des perles de culture d'eau douce de forme baroque. Chaque parure réunit un collier et ses boucles d'oreilles, à partir de 49 €.
+Des formes qui ont l'air d'avoir fondu, puis d'avoir été rattrapées juste à temps. Les parures Sculpture jouent sur le volume : métal froissé, galets, coulures, lames. Peu de pierres, beaucoup de relief. Elles se portent sur une tenue simple, une chemise blanche, un col roulé, un blazer sur la peau, et c'est le bijou qui fait la silhouette. Sept parures, presque toutes en laiton doré, une en finition argentée satinée, deux avec des perles de culture d'eau douce de forme baroque. Chaque parure réunit un collier et ses boucles d'oreilles, à partir de 49 €.
 
 **Texte SEO bas de page**
-Une parure sculpturale, c'est un collier et des boucles d'oreilles pensés comme un seul objet : même matière, même geste, même lumière. Chez CHARMED PARIS, l'univers Sculpture rassemble des bijoux dorés aux formes organiques : pendentifs en métal froissé, galets mats, vagues de résine, lames qui tombent comme une coulure. Ce sont des bijoux à porter seuls, sans accumulation, sur des matières unies. Le laiton est doré à l'or fin par électrolyse puis protégé par un revêtement anti-ternissement. Pour qu'il garde sa couleur, garde-le au sec : retire-le avant la douche et la baignade, et range-le dans sa pochette en velours. Les parures Liquid Art et Baroque Pearl Flow associent ce métal à des perles de culture d'eau douce baroques, chacune un peu différente. Chaque commande arrive dans une boîte-tiroir CHARMED PARIS nouée d'un ruban, prête à offrir. Livraison offerte dès 50 €, droits de douane déjà payés.
+Une parure sculpturale, c'est un collier et des boucles d'oreilles pensés comme un seul objet : même matière, même geste, même lumière. Chez CHARMED PARIS, l'univers Sculpture rassemble des bijoux dorés aux formes organiques : pendentifs en métal froissé, galets mats, vagues de résine, lames qui tombent comme une coulure. Ce sont des bijoux à porter seuls, sans accumulation, sur des matières unies. Le laiton est doré par électrolyse puis protégé par un revêtement anti-ternissement. Pour qu'il garde sa couleur, garde-le au sec : retire-le avant la douche et la baignade, et range-le dans sa pochette en velours. Les parures Liquid Art et Baroque Pearl Flow associent ce métal à des perles de culture d'eau douce baroques, chacune un peu différente. Chaque commande arrive dans une boîte-tiroir CHARMED PARIS nouée d'un ruban, prête à offrir. Livraison offerte dès 50 €, droits de douane déjà payés.
 
 ### 2.2 Éclat
 **H1 : Éclat**
 
 **Intro**
-La lumière, du collier aux oreilles. Les onze parures Éclat sont serties de zircons : en pavage serré, en goutte, en carré champagne, en baguettes alignées. Elles sont faites pour les soirs où l'on se change vite, une robe noire, un débardeur, un pull fin, et où le bijou doit suffire. Le laiton est doré à l'or fin, sauf Shell Glow, en finition or blanc. Il y a des pièces discrètes pour tous les jours, comme Radiant Circle, et d'autres pour les fêtes, comme Golden Luxe. Chaque parure arrive dans son coffret, de 59 à 79 €.
+La lumière, du collier aux oreilles. Les onze parures Éclat sont serties d'oxydes de zirconium : en pavage serré, en goutte, en carré champagne, en baguettes alignées. Elles sont faites pour les soirs où l'on se change vite, une robe noire, un débardeur, un pull fin, et où le bijou doit suffire. Le laiton est doré, sauf Shell Glow, en finition argentée. Il y a des pièces discrètes pour tous les jours, comme Radiant Circle, et d'autres pour les fêtes, comme Golden Luxe. Chaque parure arrive dans son coffret, de 59 à 79 €.
 
 **Texte SEO bas de page**
-Une parure de zircons, c'est l'éclat d'une pierre taillée à un prix qui reste raisonnable. Le zircon, ou oxyde de zirconium, est une pierre de synthèse taillée comme un diamant : il renvoie beaucoup de lumière et garde ses facettes nettes. Dans l'univers Éclat de CHARMED PARIS, les zircons sont sertis sur du laiton doré à l'or fin, protégé par un revêtement anti-ternissement. Tu y trouveras des colliers pendentifs et leurs puces, des créoles pavées, des colliers en Y, et une parure trois pièces avec bague réglable, Crescent Glow. Pour une soirée, choisis une goutte pavée ou un carré champagne ; pour le bureau, une gourmette aux maillons sertis ou un cercle de baguettes. Pense à les garder au sec et à les ranger à part pour que les pierres ne rayent pas les autres bijoux. Livraison offerte dès 50 €, et la 2e parure est à −15 %.
+Une parure d'oxydes de zirconium, c'est l'éclat d'une pierre taillée à un prix qui reste raisonnable. Le oxyde de zirconium, ou oxyde de zirconium, est une pierre de synthèse taillée comme un diamant : il renvoie beaucoup de lumière et garde ses facettes nettes. Dans l'univers Éclat de CHARMED PARIS, les oxydes de zirconium sont sertis sur du laiton doré, protégé par un revêtement anti-ternissement. Tu y trouveras des colliers pendentifs et leurs puces, des créoles pavées, des colliers en Y, et une parure trois pièces avec bague réglable, Crescent Glow. Pour une soirée, choisis une goutte pavée ou un carré champagne ; pour le bureau, une gourmette aux maillons sertis ou un cercle de baguettes. Pense à les garder au sec et à les ranger à part pour que les pierres ne rayent pas les autres bijoux. Livraison offerte dès 50 €, et la 2e parure est à −15 %.
 
 ### 2.3 Couleur précieuse
 **H1 : Couleur précieuse**
 
 **Intro**
-Une pierre de couleur, reprise du collier aux oreilles. Vert profond taillé en goutte, bleu nuit dans une corolle de pierres claires, rose dans un cadre ouvragé ou en pavage sur or rose. Les parures Couleur précieuse sont pour celles qui veulent une seule touche de couleur dans la tenue, et qu'on la remarque. Sept parures, en laiton doré à l'or fin ou en finition or blanc ou or rose, serties de zircons. Trois d'entre elles ajoutent une bague. De 69 à 89 €, coffret inclus.
+Une pierre de couleur, reprise du collier aux oreilles. Vert profond taillé en goutte, bleu nuit dans une corolle de pierres claires, rose dans un cadre ouvragé ou en pavage sur métal rosé. Les parures Couleur précieuse sont pour celles qui veulent une seule touche de couleur dans la tenue, et qu'on la remarque. Sept parures, en laiton doré ou en finition argentée ou rosée, serties d'oxydes de zirconium. Trois d'entre elles ajoutent une bague. De 69 à 89 €, coffret inclus.
 
 **Texte SEO bas de page**
-Une parure de couleur se choisit souvent avec une tenue en tête : le vert avec du noir, le bleu avec du blanc, le rose avec du gris ou du camel. Dans l'univers Couleur précieuse de CHARMED PARIS, chaque parure répète la même pierre sur le collier et les boucles, parfois sur une bague. Les pierres sont des zircons de couleur ou des pierres de synthèse, pas des pierres précieuses : les noms anglais des parures évoquent une couleur ou une taille, pas une émeraude ou un saphir. Les montures sont en laiton doré à l'or fin, ou en finition or blanc ou or rose, avec un revêtement anti-ternissement. Ces parures vont bien aux grandes occasions, mariage, anniversaire, réveillon, et se prêtent facilement. Garde-les au sec et range-les dans leur pochette en velours. Chaque commande arrive dans sa boîte-tiroir CHARMED PARIS, sans aucun prix dans le colis, prête à être offerte.
+Une parure de couleur se choisit souvent avec une tenue en tête : le vert avec du noir, le bleu avec du blanc, le rose avec du gris ou du camel. Dans l'univers Couleur précieuse de CHARMED PARIS, chaque parure répète la même pierre sur le collier et les boucles, parfois sur une bague. Les pierres sont des oxydes de zirconium de couleur ou des pierres de synthèse, pas des pierres précieuses : les noms anglais des parures évoquent une couleur ou une taille, pas une émeraude ou un saphir. Les montures sont en laiton doré, ou en finition argentée ou rosée, avec un revêtement anti-ternissement. Ces parures vont bien aux grandes occasions, mariage, anniversaire, réveillon, et se prêtent facilement. Garde-les au sec et range-les dans leur pochette en velours. Chaque commande arrive dans sa boîte-tiroir CHARMED PARIS, sans aucun prix dans le colis, prête à être offerte.
 
-> À confirmer : nature exacte des pierres vertes (Emerald Dreams) et des petites pierres claires (Rose Empress, Royal Sapphire). Si ce sont des zircons, remplacer « zircons de couleur ou des pierres de synthèse » par « zircons ».
+> À confirmer : nature exacte des pierres vertes (Emerald Dreams) et des petites pierres claires (Rose Empress, Royal Sapphire). Si ce sont des oxydes de zirconium, remplacer « oxydes de zirconium de couleur ou des pierres de synthèse » par « oxydes de zirconium ».
 
 ### 2.4 Joaillerie 925
 **H1 : Joaillerie 925**
 
 **Intro**
-Trois parures en argent 925, serties de moissanites de laboratoire. Chaque pièce est poinçonnée 925, et les pierres de 0,1 carat et plus sont livrées avec leur certificat GRA. Ce sont nos parures les plus complètes : jusqu'à quatre pièces, collier, puces, bague et bracelet. Elles arrivent dans un écrin en velours bleu. Pour un anniversaire de mariage, une demande, ou un cadeau qu'on veut garder longtemps. Golden Radiance réunit un collier et une bague, Blush Dreams et Heart Symphony vont jusqu'à quatre pièces. De 149 à 229 €, livraison offerte.
+Trois parures en argent 925, serties de moissanites synthétiques. Chaque pièce est estampillée 925, et les pierres de 0,1 carat et plus sont livrées avec leur certificat GRA. Ce sont nos parures les plus complètes : jusqu'à quatre pièces, collier, puces, bague et bracelet. Elles arrivent dans un écrin en velours bleu. Pour un anniversaire de mariage, une demande, ou un cadeau qu'on veut garder longtemps. Golden Radiance réunit un collier et une bague, Blush Dreams et Heart Symphony vont jusqu'à quatre pièces. De 149 à 229 €, livraison offerte.
 
 **Texte SEO bas de page**
-La moissanite est une pierre créée en laboratoire, très proche du diamant à l'œil : elle est dure, brillante et renvoie beaucoup de feu. Ce n'est pas un zircon. Dans les parures Joaillerie 925 de CHARMED PARIS, elle est sertie sur de l'argent 925, l'argent dit « sterling », composé de 92,5 % d'argent pur. Chaque pièce porte le poinçon 925. Les pierres de 0,1 carat et plus sont accompagnées d'un certificat GRA ; leur poids est indiqué en équivalent diamant, la convention habituelle pour la moissanite. L'argent se ternit naturellement au contact de l'air et de la peau : range chaque pièce dans sa pochette fermée et passe la chamoisine fournie pour lui rendre son éclat. Retire tes bijoux avant la douche et la baignade. Les trois parures, Blush Dreams, Golden Radiance et Heart Symphony, arrivent dans un écrin en velours bleu, dans le colis CHARMED PARIS, livrées en 4 à 9 jours ouvrés en France.
+La moissanite synthétique est une pierre créée en laboratoire, très proche du diamant à l'œil : elle est dure, brillante et renvoie beaucoup de feu. Ce n'est pas un oxyde de zirconium. Dans les parures Joaillerie 925 de CHARMED PARIS, elle est sertie sur de l'argent 925, l'argent dit « sterling », composé de 92,5 % d'argent pur. Chaque pièce est estampillée 925. Les pierres de 0,1 carat et plus sont accompagnées d'un certificat GRA ; leur poids est indiqué en équivalent diamant, la convention habituelle pour la moissanite. L'argent se ternit naturellement au contact de l'air et de la peau : range chaque pièce dans sa pochette fermée et passe la chamoisine fournie pour lui rendre son éclat. Retire tes bijoux avant la douche et la baignade. Les trois parures, Blush Dreams, Golden Radiance et Heart Symphony, arrivent dans un écrin en velours bleu, dans le colis CHARMED PARIS, livrées en 4 à 9 jours ouvrés en France.
 
 ### 2.5 Mixte
 **H1 : Mixte**
 
 **Intro**
-Deux parures sur cordon noir, faites pour passer d'un cou à l'autre. Un anneau doré, un croissant de lune martelé, chacun avec ses boucles d'oreilles. Le cordon se règle d'un geste, par une coulisse : court sur un t-shirt, plus long sous une chemise ouverte. Tu peux tout garder pour toi, ou offrir le collier à l'un et les boucles à l'autre. Laiton doré à l'or fin, 49 € la parure, coffret inclus. Ce sont de bons premiers bijoux pour quelqu'un qui n'en porte jamais, ou qui n'ose pas encore.
+Deux parures sur cordon noir, faites pour passer d'un cou à l'autre. Un anneau doré, un croissant de lune martelé, chacun avec ses boucles d'oreilles. Le cordon se règle d'un geste, par une coulisse : court sur un t-shirt, plus long sous une chemise ouverte. Tu peux tout garder pour toi, ou offrir le collier à l'un et les boucles à l'autre. Laiton doré, 49 € la parure, coffret inclus. Ce sont de bons premiers bijoux pour quelqu'un qui n'en porte jamais, ou qui n'ose pas encore.
 
 **Texte SEO bas de page**
-Un bijou mixte, c'est d'abord une forme simple et une matière qui ne cherche pas à être féminine ou masculine. Les parures Mixte de CHARMED PARIS reposent sur un cordon noir réglable et un pendentif en laiton doré à l'or fin : un anneau serti de petites pierres claires pour Cosmic Circle, un croissant de lune martelé pour Lunar Goddess. Les boucles d'oreilles reprennent le même dessin. On les porte sur un sweat, un t-shirt blanc, une chemise en lin. Elles font un bon premier bijou pour quelqu'un qui n'en porte jamais, ou un cadeau à partager entre deux personnes. Le cordon comme la dorure n'aiment pas l'eau : retire ta parure avant la douche, la baignade et le sport, et range-la à plat dans sa pochette en velours. À 49 €, ajoute une seconde parure pour profiter de la livraison offerte dès 50 € et de −15 % sur la deuxième.
+Un bijou mixte, c'est d'abord une forme simple et une matière qui ne cherche pas à être féminine ou masculine. Les parures Mixte de CHARMED PARIS reposent sur un cordon noir réglable et un pendentif en laiton doré : un anneau serti de petites pierres claires pour Cosmic Circle, un croissant de lune martelé pour Lunar Goddess. Les boucles d'oreilles reprennent le même dessin. On les porte sur un sweat, un t-shirt blanc, une chemise en lin. Elles font un bon premier bijou pour quelqu'un qui n'en porte jamais, ou un cadeau à partager entre deux personnes. Le cordon comme la dorure n'aiment pas l'eau : retire ta parure avant la douche, la baignade et le sport, et range-la à plat dans sa pochette en velours. À 49 €, ajoute une seconde parure pour profiter de la livraison offerte dès 50 € et de −15 % sur la deuxième.
 
 > À confirmer : matière du cordon ; packaging Homme ou Femme pour ces deux parures.
 
@@ -187,14 +187,14 @@ Sélection : Molten Art · Crumpled Cube · Celestial Star Moon · Cosmic Circle
 ### 3.2 Cadeaux à moins de 100 €
 **H1 : Idées cadeaux à moins de 100 €**
 
-Entre 55 et 89 €, c'est là que se trouve la plus grande partie de nos parures. Des zircons en goutte, en carré, en pavage. Des pierres de couleur, vert, bleu, rose. Des formes sculptées avec des perles de culture d'eau douce. Et trois parures en trois pièces, avec une bague. Choisis d'après une tenue que la personne porte souvent : c'est la façon la plus sûre de viser juste.
+Entre 55 et 89 €, c'est là que se trouve la plus grande partie de nos parures. Des oxydes de zirconium en goutte, en carré, en pavage. Des pierres de couleur, vert, bleu, rose. Des formes sculptées avec des perles de culture d'eau douce. Et trois parures en trois pièces, avec une bague. Choisis d'après une tenue que la personne porte souvent : c'est la façon la plus sûre de viser juste.
 
 Sélection : toutes les parures Éclat et Couleur précieuse, plus Fluid Dreams, Liquid Gold Cascade, Liquid Art et Baroque Pearl Flow.
 
 ### 3.3 Cadeaux à plus de 100 €
 **H1 : Idées cadeaux à plus de 100 €**
 
-Pour un anniversaire de mariage, une demande ou un cadeau qui doit durer, il y a la Joaillerie 925 : de l'argent 925 poinçonné et des moissanites de laboratoire, avec certificat GRA pour les pierres de 0,1 carat et plus. Golden Radiance réunit un collier et une bague autour d'une moissanite jaune. Blush Dreams et Heart Symphony vont jusqu'à quatre pièces : collier, puces, bague et bracelet. Elles arrivent dans un écrin en velours bleu.
+Pour un anniversaire de mariage, une demande ou un cadeau qui doit durer, il y a la Joaillerie 925 : de l'argent 925 estampillé et des moissanites synthétiques, avec certificat GRA pour les pierres de 0,1 carat et plus. Golden Radiance réunit un collier et une bague autour d'une moissanite jaune. Blush Dreams et Heart Symphony vont jusqu'à quatre pièces : collier, puces, bague et bracelet. Elles arrivent dans un écrin en velours bleu.
 
 Sélection : Golden Radiance (149 €) · Blush Dreams (189 €) · Heart Symphony (229 €)
 
@@ -235,15 +235,15 @@ CHARMED PARIS est une jeune marque parisienne, née d'une idée simple : un bijo
 
 Le nom dit trois choses. Être charmée. Le charm, la breloque en anglais. Et le porte-bonheur qu'on garde sur soi. Le logo aussi : le C et le D s'ouvrent comme les deux côtés d'un écrin.
 
-**Comment on travaille.** Nous ne fabriquons pas nos bijoux et nous n'avons pas d'atelier. Nous choisissons chaque parure dans le catalogue d'un fabricant partenaire, parmi plusieurs centaines de modèles, en regardant la matière, la forme et la façon dont les pièces se répondent. Les bijoux sont fabriqués en associant travail à la main et fabrication de précision, puis contrôlés avant leur expédition. Notre partenaire prépare chaque commande dans le coffret CHARMED PARIS et l'expédie depuis ses entrepôts internationaux, droits de douane déjà payés. Nous ne t'annonçons que des délais mesurés.
+**Comment on travaille.** Nous ne fabriquons pas nos bijoux et nous n'avons pas d'atelier. Nous choisissons chaque parure dans le catalogue d'un fabricant partenaire, parmi plusieurs centaines de modèles, en regardant la matière, la forme et la façon dont les pièces se répondent. Les bijoux sont fabriqués en associant travail à la main et fabrication de précision, puis contrôlés avant leur expédition. Notre partenaire prépare chaque commande dans le coffret CHARMED PARIS et l'expédie depuis ses entrepôts hors Union européenne, aux États-Unis ou en Chine, droits de douane déjà payés. Nous ne t'annonçons que des délais mesurés.
 
-**Ce qu'on s'engage à te dire.** La vraie matière de chaque pièce : laiton doré à l'or fin, argent 925, zircons, moissanites de laboratoire, perles de culture d'eau douce. Les vrais délais. Et ce qu'on ne sait pas encore, on te le dit aussi.
+**Ce qu'on s'engage à te dire.** La vraie matière de chaque pièce : laiton doré, argent 925, oxydes de zirconium, moissanites synthétiques, perles de culture d'eau douce. Les vrais délais. Et ce qu'on ne sait pas encore, on te le dit aussi.
 
-**Ce qu'on ne fait pas.** Pas de gravure ni de personnalisation. Pas de bijoux en or massif. Pas de faux avis : ceux que tu liras ici viendront de clientes qui ont reçu leur parure.
+**Ce qu'on ne fait pas.** Pas de gravure ni de personnalisation. Pas de bijoux en or massif. Pas de faux avis : seules les clientes qui ont acheté une parure peuvent en laisser un sur sa fiche.
 
 Une question ? Écris-nous à [À COMPLÉTER : e-mail de contact]. Une personne de l'équipe te répond.
 
-> À confirmer : ne jamais nommer le fournisseur ni un pays d'expédition précis. Date de création et adresse du siège à reprendre des mentions légales.
+> À confirmer : ne jamais nommer le fournisseur ; citer « États-Unis ou Chine » sans promettre l'un des deux (omission trompeuse sinon, L. 121-3). Date de création et adresse du siège à reprendre des mentions légales.
 
 ---
 
@@ -254,10 +254,11 @@ Une question ? Écris-nous à [À COMPLÉTER : e-mail de contact]. Une personne 
 ### Livraison
 - **Délais.** La plupart des commandes sont préparées en 1 à 2 jours ouvrés. De la commande à la livraison, compte en France 4 à 9 jours ouvrés : c'est le délai de 9 colis sur 10. Les jours fériés peuvent ajouter un ou deux jours.
 - **Autres pays (9 colis sur 10, jours ouvrés).** Allemagne et Espagne 4 à 9 · Pays-Bas 4 à 6 · Italie 3 à 10 · Irlande 5 à 11 · Royaume-Uni 3 à 7 · États-Unis 3 à 8 · Canada 4 à 8 · Australie 3 à 8 · autres pays 4 à 12.
-- **D'où part ta commande.** Elle est expédiée par DHL depuis les entrepôts de notre partenaire, à l'international. Il n'y a pas d'entrepôt dans l'Union européenne.
+- **D'où part ta commande.** Elle est expédiée par DHL depuis les entrepôts de notre partenaire, hors Union européenne : aux États-Unis ou en Chine, selon la disponibilité. Elle n'est pas expédiée de France.
 - **Droits de douane.** Ils sont déjà payés. Tu n'as rien à régler à la livraison.
 - **Un seul mode de livraison.** Nous ne proposons pas d'express ni de livraison à date garantie.
-- **Tarif.** Livraison offerte dès 50 € d'achat. En dessous : [À COMPLÉTER : frais, proposition 4,90 €].
+- **Notre engagement.** Si ta commande n'est pas livrée sous [À COMPLÉTER : délai maximal, par exemple 15 jours ouvrés], écris-nous : tu peux annuler et être remboursée.
+- **Tarif.** Livraison offerte dès 50 € d'achat. En dessous : 4,90 €.
 - **Téléphone.** Ton numéro est demandé pour le transporteur, qui peut en avoir besoin pour livrer.
 - **Un colis par commande.** Si tu commandes plusieurs parures, elles arrivent ensemble. Une parure est présentée dans la boîte-tiroir, les autres dans leur sachet scellé. Pour offrir à deux personnes différentes, passe deux commandes.
 - **Suivi.** Ton numéro de suivi t'est envoyé par e-mail dès l'expédition et apparaît dans ton compte.
@@ -267,7 +268,7 @@ Une question ? Écris-nous à [À COMPLÉTER : e-mail de contact]. Une personne 
 
 ### Changer d'avis : 14 jours
 Tu as 14 jours à partir de la réception pour changer d'avis, sans avoir à te justifier.
-1. Écris-nous à [À COMPLÉTER : e-mail] avec ton numéro de commande, ou utilise le formulaire de rétractation en bas de page.
+1. Clique sur le bouton **Me rétracter** (dans ton compte ou dans ton e-mail de confirmation), écris-nous à [À COMPLÉTER : e-mail] avec ton numéro de commande, ou utilise le formulaire de rétractation en bas de page.
 2. Renvoie la parure complète, dans son coffret, sous 14 jours après ta demande, à : [À COMPLÉTER : adresse de retour en France]. **Les frais de retour sont à notre charge** : [À COMPLÉTER : étiquette fournie ou remboursement des frais sur justificatif].
 3. Nous te remboursons sous 14 jours après ta demande, par le même moyen de paiement. Nous pouvons attendre d'avoir reçu la parure ou la preuve de son envoi.
 
@@ -279,7 +280,7 @@ Pour les boucles d'oreilles, merci de les renvoyer non portées : [À COMPLÉTER
 ### Annulation
 Tant que ta commande n'est pas partie en préparation, on peut l'annuler : écris-nous vite. Ensuite, elle ne peut plus être arrêtée, mais tu gardes ton droit de rétractation.
 
-> À confirmer : adresse de retour ; prise en charge exacte des frais de retour ; frais de livraison sous 50 € ; délai réel d'annulation (dépend du réglage « Auto-Fulfillment » dans Branvas) ; formulaire type de rétractation à ajouter (annexe Code de la consommation) ; clause boucles d'oreilles.
+> À confirmer : bouton de rétractation en ligne obligatoire depuis le 19/06/2026 (L. 221-21, libellé exact selon décret 2026-3) à développer ; délai maximal de livraison à afficher ; adresse de retour ; prise en charge exacte des frais de retour ; frais de livraison sous 50 € ; délai réel d'annulation (dépend du réglage « Auto-Fulfillment » dans Branvas) ; formulaire type de rétractation à ajouter (annexe Code de la consommation) ; clause boucles d'oreilles.
 
 ---
 
@@ -288,11 +289,11 @@ Tant que ta commande n'est pas partie en préparation, on peut l'annuler : écri
 **H1 : Matières et entretien**
 
 ### Les matières
-- **Laiton doré à l'or fin.** La plupart de nos parures sont en laiton recouvert d'or véritable par électrolyse, puis d'un revêtement anti-ternissement. Ce n'est pas de l'or massif. Le carat de la dorure est indiqué sur chaque fiche quand il est connu.
-- **Finitions or blanc et or rose.** Même principe, avec une teinte argentée ou rosée.
-- **Argent 925.** Notre Joaillerie 925 est en argent sterling, 92,5 % d'argent pur. Chaque pièce est poinçonnée 925.
-- **Zircons.** Oxydes de zirconium, des pierres de synthèse taillées comme des diamants. Incolores ou de couleur.
-- **Moissanites.** Pierres de laboratoire, plus dures et plus brillantes que les zircons. Les pierres de 0,1 carat et plus sont livrées avec un certificat GRA. Le poids est donné en équivalent diamant.
+- **Laiton doré.** La plupart de nos parures sont en laiton doré par électrolyse, puis protégé par un revêtement anti-ternissement. Ce n'est pas de l'or massif. Le carat de la dorure est indiqué sur chaque fiche quand il est connu.
+- **Finitions argentée et rosée.** Même principe, avec une teinte argentée ou rosée.
+- **Argent 925.** Notre Joaillerie 925 est en argent sterling, 92,5 % d'argent pur. Chaque pièce est estampillée 925.
+- **Oxydes de zirconium.** Oxydes de zirconium, des pierres de synthèse taillées comme des diamants. Incolores ou de couleur.
+- **Moissanites synthétiques.** Pierres créées en laboratoire, plus dures et plus brillantes que les oxydes de zirconium. Les pierres de 0,1 carat et plus sont livrées avec un certificat GRA. Le poids est donné en équivalent diamant.
 - **Perles de culture d'eau douce.** Des perles véritables, cultivées. Les nôtres ont des formes baroques : chacune est un peu différente.
 - **Résine, émail, cordon.** Indiqués sur la fiche des parures concernées.
 
@@ -316,7 +317,7 @@ Chaque colis contient une carte avec ces conseils, une chamoisine et une pochett
 Non. Nos parures sont à garder au sec. Retire-les avant la douche, le bain, la piscine et la mer : l'eau, le savon et le chlore usent la dorure.
 
 **2. C'est de l'or ?**
-Non, ce n'est pas de l'or massif. Le laiton est recouvert d'or véritable par électrolyse, puis d'un revêtement anti-ternissement : on dit « doré à l'or fin ». Notre Joaillerie 925 est en argent 925.
+Non, ce n'est pas de l'or massif. Le laiton est doré par électrolyse, puis protégé par un revêtement anti-ternissement. Notre Joaillerie 925 est en argent 925.
 
 **3. Est-ce que ça va noircir ou ternir ?**
 Le revêtement anti-ternissement protège la dorure, mais elle s'use avec l'eau, la transpiration et les frottements. Garde ta parure au sec et range-la dans sa pochette. L'argent 925, lui, se ternit naturellement : la chamoisine fournie lui rend son éclat.
@@ -325,7 +326,7 @@ Le revêtement anti-ternissement protège la dorure, mais elle s'use avec l'eau,
 Nous n'avons pas encore de rapport de test par modèle, donc nous ne l'affirmons pas. Si tu as une allergie connue, écris-nous avant de commander : on te transmet la composition détaillée de la parure.
 
 **5. Les pierres sont-elles des diamants ?**
-Non. Selon les parures, ce sont des zircons (oxydes de zirconium) ou, dans la Joaillerie 925, des moissanites de laboratoire. Chaque fiche indique la pierre.
+Non. Selon les parures, ce sont des oxydes de zirconium (oxydes de zirconium) ou, dans la Joaillerie 925, des moissanites synthétiques. Chaque fiche indique la pierre.
 
 **6. La moissanite a-t-elle un certificat ?**
 Oui, pour les pierres de 0,1 carat et plus : elles sont livrées avec un certificat GRA.
@@ -340,10 +341,10 @@ La plupart de nos bagues sont réglables : l'anneau s'ouvre ou se resserre lég�
 En France, 4 à 9 jours ouvrés entre la commande et la livraison, pour 9 colis sur 10. Il n'y a pas de livraison express.
 
 **10. D'où partent les colis ? Vais-je payer des frais de douane ?**
-Les colis partent des entrepôts internationaux de notre partenaire et sont livrés par DHL. Les droits de douane sont déjà payés : tu n'as rien à régler à la livraison.
+Les colis partent des entrepôts de notre partenaire hors Union européenne (États-Unis ou Chine) et sont livrés par DHL. Les droits de douane sont déjà payés : tu n'as rien à régler à la livraison.
 
 **11. Combien coûte la livraison ?**
-Elle est offerte dès 50 €. En dessous, elle coûte [À COMPLÉTER].
+Elle est offerte dès 50 €. En dessous, elle coûte 4,90 €, quelle que soit la quantité.
 
 **12. Je peux faire livrer directement la personne à qui j'offre ?**
 Oui. Mets son adresse de livraison et la tienne pour la facturation. Le colis ne contient aucun prix et la parure arrive dans sa boîte-tiroir nouée d'un ruban.
@@ -357,4 +358,4 @@ Non : une commande, un colis, un coffret. La première parure est dans la boîte
 **15. Je peux renvoyer ma parure si elle ne me plaît pas ?**
 Oui. Tu as 14 jours après réception pour changer d'avis. Les frais de retour sont à notre charge et nous te remboursons sous 14 jours. Si la parure arrive abîmée ou ne correspond pas à ta commande, envoie-nous des photos : on la remplace ou on te rembourse.
 
-> À confirmer : FAQ 11 (frais) ; FAQ 14 : vérifier avec Branvas qu'une parure (plusieurs pièces) compte bien comme une seule « pièce » pour la boîte-tiroir.
+> À confirmer : FAQ 14 : vérifier avec Branvas qu'une parure (plusieurs pièces) compte bien comme une seule « pièce » pour la boîte-tiroir.

@@ -6,6 +6,14 @@
 
 Document de référence pour tout le travail de préparation du site. Les faits ci-dessous sont vérifiés ; tout ce qui n'y figure pas est à marquer « à confirmer ».
 
+## Décisions arrêtées (23/11/2026, prioritaires)
+- **Avis clients** : avis natifs WooCommerce réservés aux acheteuses vérifiées + demande d'avis envoyée par Brevo. **Pas de Judge.me** (plugin WooCommerce fermé sur WordPress.org le 13/08/2025, support arrêté).
+- **Multilingue** : **TranslatePress** (Personal ≈ 99 €/an, SEO Pack inclus, hreflang, slugs traduits) : un seul produit WooCommerce par article, compatible avec la synchro Branvas. Pas de WPML/Polylang (doublons de produits). Tester une commande sur /en/ et vérifier qu'elle remonte dans Branvas.
+- **Livraison** : offerte dès **50 €** (toutes les parures sauf Molten Art à 49 €), 4,90 € en dessous ; « 2e parure −15 % » pour pousser le duo.
+- **Devise** : EUR au lancement.
+- **Intro d'accueil** : 260vh max (170vh mobile), lien « Passer l'intro » visible, pas d'intro pour le trafic pub (pages produits / pages d'atterrissage).
+- **Prix** : aucun prix barré au lancement.
+
 ## Marque
 - Nom : **CHARMED PARIS** (toujours avec PARIS). Logo : wordmark Didone (Bodoni Moda), le C et le D sont deux parenthèses qui encadrent « HARME » = un écrin qui s'ouvre ; « PARIS » en dessous, espacé.
 - Sens : « charmée » + « charm » (breloque) + porte-bonheur. Cible : femmes d'abord (25–45 ans, cadeau et achat pour soi), mixte possible (petite ligne homme).

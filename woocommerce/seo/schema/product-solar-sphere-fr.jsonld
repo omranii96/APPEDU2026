@@ -2,20 +2,26 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "@id": "https://charmedparis.com/parure/solar-sphere-dome-dore-puces/#product",
-  "name": "Parure Solar Sphere — dôme doré et puces zircons",
+  "name": "Parure Solar Sphere — dôme doré et puces en zircone",
   "url": "https://charmedparis.com/parure/solar-sphere-dome-dore-puces/",
   "image": [
     "https://charmedparis.com/wp-content/uploads/parure-solar-sphere-charmed-paris-1.webp",
     "https://charmedparis.com/wp-content/uploads/parure-solar-sphere-charmed-paris-portee.webp",
     "https://charmedparis.com/wp-content/uploads/parure-solar-sphere-charmed-paris-ecrin.webp"
   ],
-  "description": "Un pendentif dôme et des puces d'oreilles assorties, dorés à l'or fin et parsemés de zircons. Livrée dans son écrin. À garder au sec.",
+  "description": "Un pendentif dôme et des puces d'oreilles assorties, dorés et parsemés d'oxydes de zirconium. Livrée dans son écrin. À garder au sec.",
   "sku": "JS1AQ5",
-  "brand": { "@type": "Brand", "name": "CHARMED PARIS" },
+  "brand": {
+    "@type": "Brand",
+    "name": "CHARMED PARIS"
+  },
   "category": "Bijoux > Parures > Éclat",
-  "material": "Laiton doré à l'or fin, oxydes de zirconium",
+  "material": "Laiton doré, oxyde de zirconium",
   "color": "Doré",
-  "audience": { "@type": "PeopleAudience", "suggestedGender": "female" },
+  "audience": {
+    "@type": "PeopleAudience",
+    "suggestedGender": "female"
+  },
   "offers": {
     "@type": "Offer",
     "url": "https://charmedparis.com/parure/solar-sphere-dome-dore-puces/",
@@ -24,7 +30,9 @@
     "priceValidUntil": "2027-12-31",
     "availability": "https://schema.org/InStock",
     "itemCondition": "https://schema.org/NewCondition",
-    "seller": { "@id": "https://charmedparis.com/#organization" },
+    "seller": {
+      "@id": "https://charmedparis.com/#organization"
+    },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
       "shippingRate": {

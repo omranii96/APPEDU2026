@@ -12,7 +12,8 @@ Second person, short sentences, British spelling, prices in euros. Variables in 
 | After adding (2 s) | Added to your box |
 | View cart | View my box |
 | Checkout (cart) | Checkout |
-| Pay | Pay {amount} |
+| Final order button (French law L. 221-14) | Place order with obligation to pay |
+| Withdrawal button (account, confirmation email) | Withdraw from my order [exact wording to check: décret 2026-3] |
 | Continue shopping | Keep browsing |
 | Out of stock | Back soon |
 | Notify me | Let me know |
@@ -29,8 +30,8 @@ Second person, short sentences, British spelling, prices in euros. Variables in 
 ## 2. Product page
 
 - Under the price: **Box included · Free delivery from €50 · Duties paid**
-- Delivery: Delivered in 4–9 business days to France, 3–7 to the UK (9 parcels in 10).
-- Christmas (until 4/12): For Christmas in Europe, order by Friday 4 December. UK: by Tuesday 8 December.
+- Delivery: Ships from our partner warehouses outside the EU (United States or China). Delivered in 4–9 business days to France (9 parcels in 10).
+- Christmas (until 4/12): For Christmas in Europe, order by Friday 4 December.
 - Christmas (after the deadline, until 24/12): Free Christmas wrapping until 24 December. Delivery before Christmas can no longer be guaranteed.
 - Adjustable ring: Adjustable ring: the band adjusts slightly to fit your finger.
 - Sized ring: Choose your size · Size guide
@@ -56,7 +57,7 @@ Second person, short sentences, British spelling, prices in euros. Variables in 
 
 **Lines**
 - Subtotal · Second set −15% · Delivery · Total (VAT included)
-- Delivery under €50: {shipping_fee}
+- Delivery under €50: €4.90
 - Note: Prices include VAT. Duties already paid.
 
 **Gift option (checkbox)**
@@ -71,15 +72,15 @@ Second person, short sentences, British spelling, prices in euros. Variables in 
 - Phone (required): Phone · Help: The carrier may need it to deliver your parcel.
 - Address: Address · Flat, floor, door code · Help: Check your street number: an incomplete address holds up the order.
 - Ship elsewhere: Deliver to a different address (for a gift, say)
-- Delivery method (only one): **DHL tracked delivery · 4–9 business days · {fee or Free}** · sub-line: Duties already paid. No express option.
+- Delivery method (only one): **DHL tracked delivery · 4–9 business days · €4.90 (free from €50)** · sub-line: Ships from outside the EU (United States or China), duties already paid. No express option.
 - Christmas (until deadline): Ordered today, your set should arrive before Christmas.
 - Christmas (after): From today, delivery before Christmas can't be guaranteed.
 - Promo: Got a code? · Apply
 - Payment: Secure payment. [À CONFIRMER: card, Apple Pay, PayPal depending on gateway]
 - Terms: I have read and accept the terms and conditions of sale.
 - Newsletter (unticked by default): Email me about new sets and dates that matter.
-- Final button: Pay {amount}
-- Under the button: By paying, you confirm your order. You have 14 days from delivery to change your mind.
+- Final button: **Place order with obligation to pay** (required under French law)
+- Under the button: By ordering, you agree to pay. You have 14 days from delivery to change your mind.
 - Thank-you page: Thank you, {first_name}. Order no. {order_number} is confirmed. You'll get an email in a few minutes, then another with your tracking number once it ships.
 
 ## 5. WooCommerce transactional emails
@@ -95,11 +96,13 @@ Second person, short sentences, British spelling, prices in euros. Variables in 
   What happens next:
   - Your order is prepared in 1 to 2 business days.
   - You'll get an email with your DHL tracking number as soon as it ships.
-  - Allow 4 to 9 business days from order to delivery in France, 3 to 7 in the UK.
+  - Allow 4 to 9 business days from order to delivery in France.
 
   Duties and import taxes are already paid: nothing to pay on arrival.
 
   {order_summary}
+
+  Changed your mind? You have 14 days from delivery: [Withdraw from my order]({withdrawal_link})
 
   Spotted a mistake in the address? Reply to this email straight away: we can fix it until the order goes into preparation.
 
@@ -176,7 +179,7 @@ No fake urgency, no "only 2 left", no countdowns. The discount only appears in e
   - a care card,
   - and no prices anywhere in the parcel, if it's a gift.
 
-  Delivered in 4 to 9 business days to France, 3 to 7 to the UK, duties already paid. 14 days to change your mind.
+  Delivered in 4 to 9 business days to France, duties already paid. 14 days to change your mind.
 
   [Back to my box]({cart_link})
 

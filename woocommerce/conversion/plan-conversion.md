@@ -95,17 +95,17 @@ Pub → [view_item | intro_passee] → add_to_cart → (mini-panier : 2e parure 
 | Délai | Livraison estimée : 4 à 9 jours ouvrés en France (9 colis sur 10). Un seul mode de livraison, suivi DHL. | Estimated delivery: 3–8 business days to the US, 3–7 to the UK (9 in 10 parcels). Tracked. | [fait] P90 Branvas |
 | Droits | Droits et taxes d'importation déjà réglés : rien à payer à la livraison. | Duties and import taxes paid: nothing to pay on delivery. | [fait] DDP |
 | Prix de livraison | Livraison 4,90 €, offerte dès 2 parures (ou dès 89 €). | Shipping €4.90, free from 2 sets (or €89). | [calcul] recommandation |
-| Coffret | Chaque commande arrive dans une boîte à bijoux à ruban, avec pochette en velours et chamoisine. Bordereau sans prix : prêt à offrir. | Every order arrives in a ribboned jewellery box with a velvet pouch and polishing cloth. No prices on the packing slip. | [fait] |
+| Coffret | Chaque commande arrive dans une boîte à bijoux à ruban (beige métallisé, à notre logo ; écrin en velours bleu sans logo pour la 925), avec pochette en velours et chamoisine. Bordereau sans prix : prêt à offrir. | Every order arrives in a ribboned jewellery box with a velvet pouch and polishing cloth. No prices on the packing slip. | [fait] |
 | Plusieurs pièces | Plusieurs parures = un seul colis, une seule boîte à bijoux ; les autres pièces voyagent dans leur sachet scellé. | Several sets ship together in one parcel, with one jewellery box. | [fait], à dire honnêtement pour les cadeaux multiples |
 | Retours | 14 jours pour changer d'avis, à compter de la réception. | 14 days to change your mind after delivery. | Légal UE ; frais de retour : cf. `offres-et-panier-moyen.md` §5 |
 | Garantie | Garantie légale de conformité 2 ans. | 2-year legal guarantee of conformity (EU). | Légal |
 | Paiement | Paiement sécurisé : carte bancaire, Apple Pay, Google Pay, PayPal. | Secure payment: card, Apple Pay, Google Pay, PayPal. | Selon `stack-plugins.md` |
-| Matière (dorés) | Laiton doré à l'or fin, finition anti-ternissement. À garder au sec. | Gold-plated brass with anti-tarnish coating. Keep dry. | [fait] ; **jamais** « plaqué or », « vermeil », « waterproof », « sans nickel », « hypoallergénique » |
-| Matière (925) | Argent 925, chaque pièce poinçonnée 925. Moissanite de laboratoire ; certificat GRA dès 0,1 ct. | Sterling silver 925, each piece stamped 925. Lab-grown moissanite; GRA certificate from 0.1 ct. | [fait] |
+| Matière (dorés) | Laiton doré à l'or [X] carats (carat réel de la fiche Branvas ; « doré à l'or fin » seulement si 24 carats ; « doré » si le carat est inconnu), finition anti-ternissement. À garder au sec. | Gold-plated brass with anti-tarnish coating. Keep dry. | [fait] ; **jamais** « plaqué or », « vermeil », « waterproof », « sans nickel », « hypoallergénique » |
+| Matière (925) | Argent 925, chaque pièce poinçonnée 925. Moissanite synthétique ; certificat GRA dès 0,1 ct. Livrée dans un écrin en velours bleu. | Sterling silver 925, each piece stamped 925. Lab-grown moissanite; GRA certificate from 0.1 ct. | [fait] |
 | Noël | Pour une livraison avant Noël en Europe : commande avant le vendredi 4 décembre 2026. Packaging de Noël offert jusqu'au 24 décembre. | Order by Tuesday 8 December 2026 for Christmas delivery to the US and UK (Friday 4 December for Europe and Canada). | [fait] |
 | Contact | Une vraie adresse e-mail à ton nom, réponse sous 48 h ouvrées [hyp. : engagement à tenir]. | — | — |
 
-**Interdits** (rappel) : « stock limité », « plus que 2 », compte à rebours, « X personnes regardent », « best-seller » sans données, prix barré sans prix antérieur réel (cf. `legal-checklist.md`), « fabriqué en France » ou « pensé à Paris » si ce n'est pas exact.
+**Interdits** (rappel) : « stock limité », « plus que 2 », compte à rebours, « X personnes regardent », « best-seller » sans données, aucun prix barré au lancement, « fabriqué en France » ou « pensé à Paris » si ce n'est pas exact.
 
 ---
 
@@ -123,7 +123,7 @@ Pour chaque page : **objectif**, **au-dessus de la ligne de flottaison** (mobile
 - **Ordre des blocs recommandé** (la maquette est presque bonne) :
   1. Intro courte (≤ 250vh desktop / ≤ 150vh mobile)
   2. **Bande de réassurance en 4 icônes** : 4–9 j ouvrés · droits payés · retours 14 j · prête à offrir. *À ajouter juste après l'intro : absent de la maquette.*
-  3. Carrousel des coffrets : chaque coffret ouvert affiche le **nom, le prix et un bouton « Ajouter au panier »** (déjà présent) + un lien « Voir la fiche ».
+  3. Carrousel des coffrets : chaque coffret ouvert affiche le **nom, le prix et un bouton « Ajouter au panier »** (déjà présent) + un lien « Voir la fiche ». Le coffret est une mise en scène : **ne pas laisser croire qu'il y a une boîte par parure** dans une commande de plusieurs pièces (1 boîte par commande [fait]). Pas d'option « message cadeau » (impossible chez Branvas hors VIP [fait]).
   4. Univers (5 cartes : Sculpture, Éclat, Couleur précieuse, Joaillerie 925, Mixte), avec le prix « dès 49 € ».
   5. « La file des parures » (focus/file/grille) : la vue **« Toutes » (grille) doit être l'onglet par défaut sur mobile**. La file est jolie mais lente pour comparer.
   6. Bloc « La parure » : explication + « 2e parure −15 % ».
@@ -137,7 +137,7 @@ Pour chaque page : **objectif**, **au-dessus de la ligne de flottaison** (mobile
 ### 4.2 Page univers (catégorie : Sculpture, Éclat, Couleur précieuse, Joaillerie 925, Mixte, Homme, Cadeaux)
 
 - **Objectif** : faire comparer et cliquer vers une fiche en moins de 10 s.
-- **Au-dessus de la ligne de flottaison** : H1 court (« Éclat »), 1 phrase de promesse matière factuelle (« Laiton doré à l'or fin et zircons. À garder au sec. »), **puis déjà 2 cartes produits sur mobile (4 sur desktop)**. Pas de bannière héro haute.
+- **Au-dessus de la ligne de flottaison** : H1 court (« Éclat »), 1 phrase de promesse matière factuelle (« Laiton doré et oxydes de zirconium. À garder au sec. »), **puis déjà 2 cartes produits sur mobile (4 sur desktop)**. Pas de bannière héro haute.
 - **Cartes produit** : photo carrée (1:1, fond porcelaine cohérent), 2e photo au survol ou au swipe (portée ou coffret ouvert), nom, contenu (« Collier + boucles »), prix TTC, bouton « Ajouter » rapide (ajout direct si pas de variation).
 - **Filtres** (simples, 4 maximum) : univers, budget, métal (doré / argent 925), occasion. Tri : « Nos choix » / prix croissant / prix décroissant / nouveautés. Pas de tri « meilleures ventes » tant qu'il n'y a pas de données.
 - **Ordre** : H1 → filtres en chips horizontaux → grille → bloc « 2e parure −15 % » au milieu de la grille (après la 6e carte) → texte SEO court en bas (cf. `seo/`) → FAQ univers.
@@ -150,7 +150,7 @@ Pour chaque page : **objectif**, **au-dessus de la ligne de flottaison** (mobile
 - **Objectif** : ajout au panier. Objectif secondaire : ajout d'une 2e parure.
 - **Au-dessus de la ligne de flottaison (mobile, dans l'ordre)** :
   1. Galerie swipe (6 visuels maximum) : packshot détouré, porté (photos mannequin Branvas autorisées [fait]), détail fermoir/boucle, **coffret ouvert avec la parure**, échelle (sur buste ou main), vidéo courte si disponible. Indicateur « 1/6 ».
-  2. Nom : « Parure Solar Sphere ». Sous-titre factuel : « Collier + puces · laiton doré à l'or fin, zircons ».
+  2. Nom : « Parure Solar Sphere ». Sous-titre factuel : « Collier + puces · laiton doré à l'or [X] carats, oxydes de zirconium ».
   3. Prix TTC en grand, et dessous « Livraison 4,90 € · offerte dès 2 parures (ou dès 89 €) ».
   4. **Bouton « Ajouter au panier »** pleine largeur. Un bouton Apple Pay / Google Pay en dessous est à tester (test n°7) : il peut faire baisser le panier moyen.
   5. Ligne délai dynamique : « Commande aujourd'hui : livraison estimée entre le **jeu. 26/11** et le **mer. 2/12** » (calcul : jours ouvrés + délai de traitement, P90 Branvas [fait]). Pendant la période de Noël : « Pour Noël en Europe : commande avant le vendredi 4 décembre ».
@@ -173,7 +173,7 @@ C'est **le principal levier de panier moyen**. Il s'ouvre automatiquement à l'a
   1. Titre « Ton écrin (1) » + fermer.
   2. **Barre de progression** : « Ajoute une 2e parure : −15 % sur la moins chère et livraison offerte ». Elle passe à « Livraison offerte ✓ » quand le seuil est atteint. *La maquette calcule déjà ce message (seuil 50 €) : passer le seuil à 89 € et ajouter la règle « ou dès 2 parures » (toute paire de parures dépasse 89 € : minimum 49 € + 41,65 €).*
   3. Ligne produit : vignette, nom, contenu, quantité, prix, supprimer.
-  4. **Bloc « La 2e à −15 % »** : 3 vignettes cliquables avec le prix remisé affiché (« 58,65 € au lieu de 69 € dans ton écrin »). Le prix de référence est le prix de vente réel : pas de faux prix barré.
+  4. **Bloc « La 2e à −15 % »** : 3 vignettes cliquables avec la remise affichée en texte (« 69 € · −15 % dans ton écrin : 58,65 € »). **Aucun prix barré au lancement** (règle de la boutique ; prix de référence L112-1-1) ; le prix de base est toujours le prix de vente réel.
   5. Récap : sous-total, remise 2e parure, livraison, **total TTC**.
   6. Bouton « Commander » plein + boutons express (Apple Pay / Google Pay / PayPal) en dessous.
   7. Microcopy : « Paiement sécurisé · Retours 14 j · Droits payés ».
@@ -225,7 +225,7 @@ C'est **le principal levier de panier moyen**. Il s'ouvre automatiquement à l'a
 | Livraison | Délais P90 par pays [fait], DHL, DDP, un seul mode, pas d'express, colis unique, horaires de traitement, date de Noël, procédure colis perdu (signaler 7 jours sans mouvement après la date estimée) [fait] |
 | Retours et rétractation | 14 j, procédure, adresse de retour **en France** à toi (pas celle de Branvas) [fait], qui paie le retour, remboursement sous 14 j, formulaire type, bouton de rétractation |
 | Entretien | Garder au sec, retirer avant douche/baignade/sport, parfum avant le bijou, chamoisine, pochette |
-| Matières | Doré à l'or fin (pas « plaqué or »), argent 925 poinçonné, moissanite de laboratoire, zircons, perles de culture d'eau douce (sauf mention « simulées » sur la fiche) [fait] |
+| Matières | Doré à l'or X carats selon la fiche, « or fin » seulement si 24 ct (jamais « plaqué or »), argent 925 poinçonné, moissanite synthétique, oxydes de zirconium, perles de culture d'eau douce (sauf mention « simulées » sur la fiche) [fait] |
 | Guide des tailles | Longueurs de chaîne, taille des boucles, bagues (si la parure en contient) [à relever] |
 | FAQ | 10 questions, regroupées en FR et EN |
 | Carte cadeau | E-carte cadeau (solution pour les achats tardifs de Noël) |
@@ -240,7 +240,7 @@ C'est **le principal levier de panier moyen**. Il s'ouvre automatiquement à l'a
 | Sélecteur | « FR \| EN » dans le header (texte, pas de drapeau) + en pied de page. **Aucune redirection automatique par IP**. À la place, un bandeau discret « Looks like you're in the US — view in English / USD? ». | Une redirection forcée gêne les francophones à l'étranger et Googlebot |
 | Outil | **TranslatePress** (licence avec SEO Pack : slugs traduits, hreflang) en premier choix ; WPML + WooCommerce Multilingual en alternative (cf. `stack-plugins.md`) | TranslatePress traduit sans dupliquer les produits : le produit créé par Branvas via l'API REST reste **un seul objet** (même ID, même SKU, même stock). WPML/Polylang créent une copie EN du produit, d'où un risque pour la synchronisation des stocks et la reconnaissance des commandes EN par Branvas [à vérifier par une commande test] |
 | Devise | **Lancement : EUR partout.** Phase 2 : **USD pour les États-Unis** via WooPayments Multi-Currency, avec prix fixés à la main (49 € → 59 $, 69 € → 79 $, 79 € → 89 $), sans conversion automatique à virgules. **GBP seulement après décision TVA UK** | Branvas facture en USD [fait] ; les US convertissent mieux en USD ; le Royaume-Uni impose une TVA UK au vendeur étranger dès la 1re vente ≤ 135 £ [à vérifier avec un comptable] |
-| Marchés EN prioritaires | US (3–8 j), Irlande (5–11 j, EUR), Pays-Bas/Nordiques (anglais courant, EUR) ; UK en phase 2 | Délais [fait] et fiscalité |
+| Marchés EN prioritaires | US (3–8 j), Irlande (5–11 j, EUR), Pays-Bas/Nordiques (anglais courant, EUR) ; **UK seulement après l'immatriculation TVA UK, et sans la ligne Joaillerie 925** (poinçon UK obligatoire au-delà de 7,78 g d'argent) | Délais [fait], fiscalité et règles de poinçonnage |
 | Checkout EN | Mêmes moyens de paiement ; PayPal Pay Later (US : Pay in 4, UK : Pay in 3) [à vérifier éligibilité] ; formats d'adresse locaux ; téléphone requis hors US/UK [fait] | — |
 | Contenus EN | Traduction humaine relue pour : accueil, 30 fiches, CGV/Terms, livraison, retours, e-mails transactionnels. Le tutoiement devient un « you » chaleureux. Signature : « Open. Be charmed. » [à valider marque] | La traduction automatique brute fait chuter la confiance |
 | E-mails | Langue de la commande enregistrée (`order language`) et e-mails transactionnels + flux Brevo/Klaviyo dans cette langue | — |
