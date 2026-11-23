@@ -201,7 +201,7 @@ ${cta}<p class="foot-note">Livrée entre le ${eta()[0]} et le ${eta()[1]} · 14 
     const sticky = $('[data-sticky]');
     if (sticky && 'IntersectionObserver' in window) {
       sticky.hidden = false;
-      new IntersectionObserver(([en]) => sticky.classList.toggle('is-on', !en.isIntersecting && en.boundingClientRect.top < 0), { threshold: 0 }).observe(buyBtn);
+      new IntersectionObserver(([en]) => sticky.classList.toggle('is-on', !en.isIntersecting), { threshold: 0 }).observe(buyBtn);
     }
     const [a, b] = eta(); const ea = $('[data-eta-a]', pdp), eb = $('[data-eta-b]', pdp); if (ea) { ea.textContent = a; eb.textContent = b; }
   }
@@ -227,26 +227,6 @@ ${cta}<p class="foot-note">Livrée entre le ${eta()[0]} et le ${eta()[1]} · 14 
     });
     const h = location.hash.slice(1); apply(CP.univers[h] ? h : 'all');
     window.addEventListener('hashchange', () => { const k = location.hash.slice(1); if (CP.univers[k]) apply(k); });
-  }
-
-  /* ------------------------------------------------ intro : la boîte s'ouvre au défilement */
-  const intro = $('#intro');
-  if (intro && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    const closed = $('.ib-closed', intro), open = $('.ib-open', intro), jewel = $('.ib-jewel', intro), cue = $('.scroll-cue', intro);
-    const clamp = (x, a, b) => Math.min(1, Math.max(0, (x - a) / (b - a)));
-    let raf = 0;
-    const tick = () => {
-      raf = 0;
-      const r = intro.getBoundingClientRect(), span = r.height - innerHeight;
-      const p = Math.min(1, Math.max(0, -r.top / (span || 1)));
-      const o = clamp(p, .12, .42);
-      closed.style.opacity = 1 - o; open.style.opacity = o;
-      const j = clamp(p, .35, .8);
-      jewel.style.opacity = j; jewel.style.transform = `translateY(${(1 - j) * 22 - j * 6}%) scale(${.7 + j * .3})`;
-      cue.style.opacity = 1 - clamp(p, 0, .15);
-    };
-    addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(tick); }, { passive: true });
-    tick();
   }
 
   /* ------------------------------------------------ commande (prototype : aucun paiement) */

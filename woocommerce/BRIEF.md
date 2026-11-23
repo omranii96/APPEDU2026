@@ -14,7 +14,8 @@ Document de référence pour tout le travail de préparation du site. Les faits 
 - **Site** : prototype refait de zéro dans `site/` (ancien dans `archive/site-v1/`), FR d'abord ; vidéos et pubs en français uniquement.
 - **Pièces seules** ajoutées (voir `source/pieces-seules.md`).
 - **Devise** : EUR au lancement.
-- **Intro d'accueil** : 260vh max (170vh mobile), lien « Passer l'intro » visible, pas d'intro pour le trafic pub (pages produits / pages d'atterrissage).
+- **Accueil** : **aucune animation au défilement** (refusée par la fondatrice le 23/11) ; hero fixe photo + titre + bouton visibles d'emblée.
+- **Couleurs du site (23/11, règle 2 + 1)** : crème #F5EFE6 + noir #16110F ; **orange brûlé #C2501C uniquement sur les boutons d'action** (ajouter au panier, commander). Aucun autre élément en couleur : test du plissement d'yeux = seul le bouton reste visible.
 - **Prix** : aucun prix barré au lancement.
 
 ## Marque
