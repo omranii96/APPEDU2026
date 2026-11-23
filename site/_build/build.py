@@ -44,6 +44,10 @@ def sect(desc, title):
     if not m: return ''
     return (m.group(1) or '').strip(), (m.group(2) or '')
 
+# Photos portées (mannequin) : survol des cartes + 2e photo de la galerie. Source : photos Branvas (droits inclus avec l'abonnement).
+PORTE = {f.stem: f'assets/img/portes/{f.name}' for f in (SITE / 'assets/img/portes').glob('*.webp')}
+PORTE.setdefault('JSJB3S', 'assets/img/ia/I3-post-golden-luxe-portee.webp')
+
 PRODUCTS = []
 for p in src['products']:
     r = CSV.get(p['sku'], {})
@@ -58,7 +62,8 @@ for p in src['products']:
         mat=p['mat']['fr'], metal=p['metal'], img=(HD.get(p['sku']) or [p['img']])[0], thumb=p['img'], cut=p['cut'],
         line=p['line']['fr'], url=p['url'], slug=slug, alt=p['alt']['fr'], tags=p['tags'],
         intro=intro.group(1) if intro else p['line']['fr'], inside=inside[1], mats=mats[1], giftfor=gift[0],
-        gallery=(HD.get(p['sku']) or []) + ([p['img']] if p['sku'] in HD else [p['img']]) + ([p['cut']] if p['cut'] else []),
+        gallery=list(dict.fromkeys(((HD.get(p['sku']) or [p['img']])[:1]) + ([PORTE[p['sku']]] if p['sku'] in PORTE else []) + (HD.get(p['sku']) or [])[1:] + [p['img']] + ([p['cut']] if p['cut'] else []))),
+        porte=PORTE.get(p['sku']),
         eligible=p['u'] != 'j925',
     ))
 BY = {p['sku']: p for p in PRODUCTS}
@@ -205,7 +210,7 @@ def page(file, title, desc, body, *, canonical=None, ld=None, cls='', robots='in
 def card(p, cls=''):
     pcs = ' + '.join(p['pcs'])
     return f'''<article class="card {cls}" data-sku="{p['sku']}" data-u="{p['u']}">
-  <a class="card-img" href="{p['url']}"><img src="{p['thumb']}" alt="{e(p['alt'])}" loading="lazy" width="400" height="400"></a>
+  <a class="card-img" href="{p['url']}"><img src="{p['thumb']}" alt="{e(p['alt'])}" loading="lazy" width="400" height="400">{f'<img class="card-alt" src="{p["porte"]}" alt="" loading="lazy" width="480" height="480">' if p.get('porte') else ''}</a>
   <div class="card-b">
     <h3><a href="{p['url']}">{e(p['name'])}</a></h3>
     <p class="card-pcs">{e(pcs)}</p>
@@ -394,7 +399,7 @@ def build_product(p):
     page(p['url'], f'Parure {p["name"]} · {pcs} · CHARMED PARIS', f'Parure {p["name"]} : {pcs.lower()}, {p["mat"].lower()}. {p["line"]} Livrée dans sa boîte cadeau.', body, ld=ld, cls='is-pdp')
 
 def build_pieces():
-    cards = ''.join(f'''<article class="card" data-sku="{x['sku']}"><div class="card-img"><img src="{x['img']}" alt="{e(x['name'])}" loading="lazy" width="400" height="400"></div>
+    cards = ''.join(f'''<article class="card" data-sku="{x['sku']}"><div class="card-img"><img src="{x['img']}" alt="{e(x['name'])}" loading="lazy" width="400" height="400">{f'<img class="card-alt" src="{PORTE[x["sku"]]}" alt="" loading="lazy" width="480" height="480">' if x['sku'] in PORTE else ''}</div>
 <div class="card-b"><h3>{e(x['name'])}</h3><p class="card-pcs">{e(x['line'])}</p><p class="card-price">{fmt(x['price'])}</p></div>
 <button class="card-add" type="button" data-add="{x['sku']}" aria-label="Ajouter {e(x['name'])} au panier">+</button></article>''' for x in PIECES)
     body = f'''<section class="wrap page-h"><nav class="crumbs" aria-label="Fil d’Ariane"><a href="index.html">Accueil</a><span>/</span><span aria-current="page">Pièces seules</span></nav>
