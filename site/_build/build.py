@@ -189,6 +189,7 @@ def page(file, title, desc, body, *, canonical=None, ld=None, cls='', robots='in
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/css/editorial.css">
 {ldj}
 </head>
 <body class="{cls}">
@@ -235,34 +236,50 @@ def offer_band(title='Plus tu en prends, moins chaque parure coûte'):
 
 # ---------------------------------------------------------------- pages
 def build_home():
-    pick = ['JS1AQ5', 'JSGRQR', 'JSJB3S', 'JS63WT', 'JSB541', 'JS0DGC', 'JS63VP', 'JS4EXR']
-    grid = ''.join(card(BY[s]) for s in pick)
-    tiles = ''.join(f'<a class="tile" href="{u["file"]}"><img src="{next(p["thumb"] for p in PRODUCTS if p["u"] == k)}" alt="" loading="lazy" width="400" height="400"><span><b>{e(u["name"])}</b><small>{e(u["line"])}</small></span></a>' for k, u in UNIV.items())
+    essentials = ''.join(card(BY[s]) for s in ['JS1AQ5', 'JSGRQR', 'JSJB3S', 'JS63WT'])
+    moment = ''.join(card(BY[s]) for s in ['JS4P8D', 'JS0DGC', 'JS4EXR', 'JS8445'])
     body = f'''
-<section class="hero" aria-labelledby="heroT">
-  <div class="wrap hero-in">
-    <div class="hero-img"><img src="assets/img/ia/I6-trio-flatlay.webp" alt="Trois parures CHARMED PARIS posées sur du lin : Solar Sphere, Molten Art et Golden Luxe" width="1024" height="1024" fetchpriority="high"></div>
-    <div class="hero-copy">
-      <p class="kicker">Parures assorties · livrées prêtes à offrir</p>
-      <h1 id="heroT">Le collier et les boucles <em>déjà assortis</em></h1>
-      <p class="hero-sub">Des parures complètes, dans leur boîte cadeau CHARMED PARIS. Commande avant le 4 décembre pour Noël.</p>
-      <div class="hero-cta"><a class="btn" href="collection.html">Choisir ma parure</a><a class="btn btn-o" href="#offre">Voir l’offre</a></div>
-    </div>
+<section class="ed-hero" aria-labelledby="heroT">
+  <div class="ed-hero-img"><img src="assets/img/ia/I4-post-molten-art-profil.webp" alt="Portrait de profil, boucles d’oreilles et collier de la parure Molten Art" width="1024" height="1280" fetchpriority="high"></div>
+  <div class="ed-hero-in">
+    <p class="kicker">CHARMED PARIS · Noël 2026</p>
+    <h1 id="heroT">La parure<br><em>comme signature.</em></h1>
+    <p class="sub">Le collier et les boucles, déjà assortis, livrés dans leur boîte cadeau. Commande avant le 4 décembre pour Noël.</p>
+    <div class="ed-hero-cta"><a class="btn" href="collection.html">Choisir ma parure</a><a class="ed-link light" href="#offre">2 parures : la 2e à −30 %</a></div>
   </div>
+  <span class="ed-hero-idx">01 / CHARMED PARIS</span>
 </section>
 <div class="proof wrap" aria-label="Nos engagements">
   <p>{icon('truck')}Livrée en 4 à 9 jours ouvrés</p><p>{icon('shield')}Droits de douane payés</p><p>{icon('return')}14 jours pour changer d’avis</p>
 </div>
+<section class="ed-intro wrap" aria-labelledby="introT">
+  <p class="kicker">L’univers CHARMED</p>
+  <h2 id="introT">Une allure. <em>Mille expressions.</em></h2>
+  <p class="txt">Un bijou n’est jamais un simple détail. Il accompagne un geste, souligne une silhouette et raconte quelque chose de toi. Chez nous, le collier et les boucles arrivent ensemble, déjà assortis.</p>
+</section>
+<section class="ed-cats wrap" aria-label="Explorer les univers">
+  <a class="ed-cat" href="collection.html#sculpture"><img src="assets/img/cascade/05-portee.webp" alt="La parure Liquid Gold Cascade portée" loading="lazy" width="900" height="1125"><div><span>01 / Métal sculpté</span><h3>Sculpture</h3></div></a>
+  <a class="ed-cat" href="collection.html#eclat"><img src="assets/img/ia/I3-post-golden-luxe-portee.webp" alt="La parure Golden Luxe portée" loading="lazy" width="900" height="1125"><div><span>02 / Doré et pierres</span><h3>Éclat</h3></div></a>
+</section>
+<section class="ed-prod wrap" aria-labelledby="essT">
+  <div class="ed-head"><div><p class="kicker">Pièces choisies</p><h2 id="essT">Nos essentiels.</h2></div><a class="ed-link" href="collection.html">Voir les 30 parures</a></div>
+  <div class="grid">{essentials}</div>
+</section>
 {offer_band()}
-<section class="sec wrap" aria-labelledby="noelT">
-  <div class="sec-h"><div><p class="kicker">Sélection de Noël</p><h2 id="noelT">Les parures à offrir cette année</h2></div><a class="lnk" href="collection.html">Voir les 30 parures</a></div>
-  <div class="grid">{grid}</div>
+<section class="ed-story" aria-labelledby="storyT">
+  <img src="assets/img/ia/I6-trio-flatlay.webp" alt="Trois parures CHARMED PARIS posées sur du lin" loading="lazy" width="1024" height="1024">
+  <div class="ed-story-c">
+    <p class="kicker">L’art du détail</p>
+    <h2 id="storyT">Des pièces qui<br><em>ne passent pas inaperçues.</em></h2>
+    <p class="txt">Formes fluides, éclats subtils, métal qui a l’air d’avoir fondu. Chaque parure se porte complète, ou pièce par pièce avec ce que tu as déjà.</p>
+    <a class="ed-link" href="a-propos.html">Notre histoire</a>
+  </div>
 </section>
-<section class="sec wrap" aria-labelledby="univT">
-  <div class="sec-h"><div><p class="kicker">Cinq univers</p><h2 id="univT">Trouve son style</h2></div></div>
-  <div class="tiles">{tiles}</div>
+<section class="ed-prod wrap" aria-labelledby="momT">
+  <div class="ed-head"><div><p class="kicker">Les pièces du moment</p><h2 id="momT">À découvrir.</h2></div><a class="ed-link" href="cadeaux.html">Idées cadeaux</a></div>
+  <div class="grid">{moment}</div>
 </section>
-<section class="unbox" aria-labelledby="unboxT">
+<section class="unbox" aria-labelledby="unboxT" style="margin-top:100px">
   <div class="wrap unbox-in">
     <div class="unbox-img"><img src="assets/img/pack/pack-f.webp" alt="Le colis CHARMED PARIS ouvert : carton blanc au logo, papier nid d’abeille, boîte cadeau au ruban à cœurs, carte de remerciement" loading="lazy" width="800" height="800"></div>
     <div class="unbox-c">
@@ -279,14 +296,10 @@ def build_home():
     </div>
   </div>
 </section>
-<section class="sec wrap" aria-labelledby="giftT">
-  <div class="sec-h"><div><p class="kicker">Idées cadeaux</p><h2 id="giftT">Pour qui cherches-tu ?</h2></div></div>
-  <div class="who">
-    <a href="cadeaux.html#maman"><b>Pour ta mère</b><span>Des pierres de couleur, élégantes sans en faire trop</span></a>
-    <a href="cadeaux.html#soeur"><b>Pour ta sœur</b><span>Du doré sculpté, qui se voit avec un tee-shirt</span></a>
-    <a href="cadeaux.html#amie"><b>Pour ta meilleure amie</b><span>Une parure chacune : la 2e est à −30 %</span></a>
-    <a href="cadeaux.html#moins-60"><b>Moins de 60 €</b><span>Des parures complètes dès 49 €</span></a>
-  </div>
+<section class="ed-end wrap" aria-labelledby="endT">
+  <p class="kicker">Le style n’a pas de règles</p>
+  <h2 id="endT">À porter. À associer.<br><em>À faire tienne.</em></h2>
+  <a class="btn" href="collection.html">Choisir ma parure</a>
 </section>
 {faq_block(short=True)}
 '''
