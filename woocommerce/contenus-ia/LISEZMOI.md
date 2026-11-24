@@ -14,3 +14,7 @@ Contrôle qualité fait : les bijoux sont fidèles aux photos Branvas (forme, pa
 - `V6-unboxing-noel-molten-art.mp4` : boîte proche du réel mais sans carton d'envoi ni papier nid d'abeille, à utiliser seulement en plan de coupe.
 - `V2`, `V8`, `V9`, `V10` : bijoux fidèles, mais la personne parle alors que la vidéo était prévue sans voix, et **la langue doit être vérifiée** (règle : vidéos et pubs en français uniquement). À refaire en français si la voix est en anglais.
 - V1, V3, V4, V7 et V11 étaient encore en cours de génération : à récupérer dans Higgsfield.
+
+## Saint-Valentin (24/11)
+- `images/ines/ines-selfie-1.png`, `ines-selfie-2.png` : personnage récurrent « Inès » (IA), parure Pink Pavé (JSB541).
+- `videos/V13-selfie-saint-valentin-pink-pave.mp4` : selfie UGC 12 s, 9:16, muet (rires et ambiance). Bijoux fidèles aux photos HD Branvas. Texte à ajouter au montage, ex. « 14 février, 19 h 58 : prête ». Publication : mention « Image virtuelle » obligatoire.
