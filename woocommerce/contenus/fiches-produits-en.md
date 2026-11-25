@@ -310,7 +310,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold,
 
 ---
 
-### Golden Luxe Set · JSJB3S · 79 € (proposal)
+### Golden Luxe Set · JSJB3S · 89 €
 
 **Short description:** Gold drops covered in cubic zirconia, as a Y-necklace and earrings.
 - Y-necklace + drop earrings

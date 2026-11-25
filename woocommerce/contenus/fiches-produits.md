@@ -310,7 +310,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Golden Luxe · JSJB3S · 79 € (proposition)
+### Parure Golden Luxe · JSJB3S · 89 €
 
 **Description courte :** Des gouttes dorées couvertes d'oxydes de zirconium, en collier en Y et en boucles.
 - Collier en Y + boucles gouttes
