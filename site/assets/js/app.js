@@ -207,6 +207,21 @@ ${cta}<p class="foot-note">Livrée entre le ${eta()[0]} et le ${eta()[1]} · 14 
     const [a, b] = eta(); const ea = $('[data-eta-a]', pdp), eb = $('[data-eta-b]', pdp); if (ea) { ea.textContent = a; eb.textContent = b; }
   }
 
+  /* ------------------------------------------------ accueil : le bouton de la bannière reste visible en barre fixe */
+  const heroSticky = $('[data-hero-sticky]');
+  const heroBtn = $('.ed-hero-cta .btn');
+  if (heroSticky && heroBtn && 'IntersectionObserver' in window) {
+    heroSticky.hidden = false;
+    document.body.classList.add('has-sticky');
+    const watched = [heroBtn, $('.ed-end .btn')].filter(Boolean);
+    const seen = new Set();
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => en.isIntersecting ? seen.add(en.target) : seen.delete(en.target));
+      heroSticky.classList.toggle('is-on', seen.size === 0);
+    }, { threshold: 0 });
+    watched.forEach(el => io.observe(el));
+  }
+
   /* ------------------------------------------------ Noël : masquer après la date limite */
   if (new Date() > new Date(O.xmasCutoff + 'T23:59:59')) $$('[data-xmas],[data-xmas-note]').forEach(x => x.remove());
 

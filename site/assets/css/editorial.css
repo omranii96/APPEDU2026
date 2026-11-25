@@ -91,3 +91,6 @@ body{font-size:15px;letter-spacing:.005em}
 .offer-band h2{font-weight:400;font-size:clamp(34px,4.4vw,60px);letter-spacing:-.03em;max-width:none}
 .unbox{margin-top:0}
 .unbox h2,.faq h2{font-weight:400;letter-spacing:-.03em}
+[data-hero-sticky] .btn{letter-spacing:.08em;padding:0 14px}
+[data-hero-sticky] .sticky-t b{font-size:16px}
+@media (max-width:380px){[data-hero-sticky] .sticky-t b{font-size:14.5px}[data-hero-sticky] .btn{padding:0 12px;font-size:11px}}

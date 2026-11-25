@@ -249,6 +249,7 @@ def build_home():
   </div>
   <span class="ed-hero-idx">01 / CHARMED PARIS</span>
 </section>
+<div class="sticky" data-hero-sticky hidden><div class="sticky-in"><span class="sticky-t"><b>La 2e parure à −30 %</b><small>la 3e à −50 %</small></span><a class="btn" href="collection.html">Choisir ma parure</a></div></div>
 <div class="proof wrap" aria-label="Nos engagements">
   <p>{icon('truck')}Livrée en 4 à 9 jours ouvrés</p><p>{icon('shield')}Droits de douane payés</p><p>{icon('return')}14 jours pour changer d’avis</p>
 </div>

@@ -251,6 +251,7 @@ p{margin:0}
 .acc-b img{margin-top:12px;border-radius:var(--r);max-width:320px}
 .sticky{position:fixed;left:0;right:0;bottom:0;z-index:35;background:var(--bg);border-top:1px solid var(--line);padding:10px var(--g) calc(10px + env(safe-area-inset-bottom));transform:translateY(100%);transition:transform .25s var(--ease)}
 .sticky.is-on{transform:none}
+body.has-sticky .foot{padding-bottom:76px}
 .sticky-in{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:var(--wrap);margin:0 auto}
 .sticky-t{display:flex;flex-direction:column;line-height:1.25;min-width:0}
 .sticky-t b{font:500 17px var(--serif);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
