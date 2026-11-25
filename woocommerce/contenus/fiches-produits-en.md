@@ -646,7 +646,7 @@ Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, earr
 
 ---
 
-### Emerald Dreams Set · JSDYG2 · 89 € (proposal)
+### Emerald Dreams Set · JSDYG2 · 109 €
 
 **Short description:** A green teardrop stone, as a necklace, earrings and ring.
 - Necklace + drop earrings + ring

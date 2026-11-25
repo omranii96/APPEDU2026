@@ -646,7 +646,7 @@ Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiqu
 
 ---
 
-### Parure Emerald Dreams · JSDYG2 · 89 € (proposition)
+### Parure Emerald Dreams · JSDYG2 · 109 €
 
 **Description courte :** Une pierre verte taillée en goutte, en collier, boucles et bague.
 - Collier + boucles pendantes + bague
