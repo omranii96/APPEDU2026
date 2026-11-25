@@ -431,7 +431,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold,
 
 ---
 
-### Geometric Luxe Set · JSFAV7 · 65 € (proposal)
+### Geometric Luxe Set · JSFAV7 · 79 €
 
 **Short description:** A gold curb chain with pavé links, and small matching hoops.
 - Curb chain necklace + huggie hoops
@@ -461,7 +461,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, hoops, gold,
 
 ---
 
-### Golden Square Set · JSC940 · 75 € (proposal)
+### Golden Square Set · JSC940 · 79 €
 
 **Short description:** A honey-coloured square stone in a vintage-style frame of cubic zirconia.
 - Pendant necklace + drop earrings
@@ -584,7 +584,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, silve
 
 ---
 
-### Wave Luxe Set · JS2KBV · 65 € (proposal)
+### Wave Luxe Set · JS2KBV · 69 €
 
 **Short description:** A rippled square paved with cubic zirconia, as a pendant and studs.
 - Two-chain necklace + studs

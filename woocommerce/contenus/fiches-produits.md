@@ -431,7 +431,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Geometric Luxe · JSFAV7 · 65 € (proposition)
+### Parure Geometric Luxe · JSFAV7 · 79 €
 
 **Description courte :** Une gourmette dorée et ses maillons pavés, avec de petites créoles assorties.
 - Collier gourmette + petites créoles
@@ -461,7 +461,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Golden Square · JSC940 · 75 € (proposition)
+### Parure Golden Square · JSC940 · 79 €
 
 **Description courte :** Une pierre carrée couleur miel dans un cadre d'oxydes de zirconium d'inspiration ancienne.
 - Collier pendentif + boucles pendantes
@@ -584,7 +584,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Wave Luxe · JS2KBV · 65 € (proposition)
+### Parure Wave Luxe · JS2KBV · 69 €
 
 **Description courte :** Un carré ondulé pavé d'oxydes de zirconium, en pendentif et en puces.
 - Collier deux chaînes + puces d'oreilles
