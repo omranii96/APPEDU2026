@@ -72,8 +72,8 @@ PIECES = [  # pièces seules (prix proposés, à valider dans Branvas)
     dict(sku='JNEJ8J', name='Collier Golden Arc', price=39, img='assets/img/pieces/golden-arc-necklace-JNEJ8J.webp', line='Cinq pierres en arc sur une chaîne fine. Doré à l’or 14 carats, oxydes de zirconium.'),
     dict(sku='JNEXV0', name='Collier Clé du cœur', price=39, img='assets/img/pieces/secret-heart-key-necklace-JNEXV0.webp', line='Une petite clé dorée à l’anneau en cœur, pavée de pierres.'),
     dict(sku='JNDEG4', name='Collier Courbe', price=109, img='assets/img/pieces/curve-statement-necklace-JNDEG4.webp', line='Une courbe dorée sculptée sur une chaîne serpent. Argent 925 doré.'),
-    dict(sku='JNQXAH', name='Collier Croissant trois rangs', price=45, img='assets/img/pieces/golden-crescent-layer-set-JNQXAH.webp', line='Maille serpent, pastilles et croissant de lune. Acier doré.'),
-    dict(sku='JNPCC0', name='Collier Pierre verte', price=79, img='assets/img/pieces/emerald-dreams-necklace-JNPCC0.webp', line='Une pierre verte coussin entourée de pavé. Argent 925 doré.'),
+    dict(sku='JNQXAH', name='Collier Croissant trois rangs', price=49, img='assets/img/pieces/golden-crescent-layer-set-JNQXAH.webp', line='Maille serpent, pastilles et croissant de lune. Acier doré.'),
+    dict(sku='JNPCC0', name='Collier Pierre verte', price=89, img='assets/img/pieces/emerald-dreams-necklace-JNPCC0.webp', line='Une pierre verte coussin entourée de pavé. Argent 925 doré.'),
     dict(sku='JNYA6X', name='Pendentif Goutte de lumière', price=339, img='assets/img/pieces/teardrop-brilliance-necklace-JNYA6X.webp', line='Argent 925 et moissanite synthétique. Livré dans son écrin en velours bleu avec certificat.'),
 ]
 

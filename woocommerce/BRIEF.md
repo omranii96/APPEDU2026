@@ -11,7 +11,7 @@ Document de référence pour tout le travail de préparation du site. Les faits 
 - **Multilingue** : **TranslatePress** (Personal ≈ 99 €/an, SEO Pack inclus, hreflang, slugs traduits) : un seul produit WooCommerce par article, compatible avec la synchro Branvas. Pas de WPML/Polylang (doublons de produits). Tester une commande sur /en/ et vérifier qu'elle remonte dans Branvas.
 - **Livraison** : offerte dès **50 €**, 4,90 € en dessous.
 - **Offre (23/11, après calcul avec les tarifs Branvas)** : 2 parures = la 2e à −30 % ; 3 parures = la 3e à −50 % ; pas de cadeau ; Joaillerie 925 exclue. Rentable à chaque palier même au scénario pessimiste. Détail : `conversion/offre-bundles.md`, calculateur : `finances/calcul-marge.py`.
-- **Prix** : jamais sous le prix conseillé Branvas converti en euros ; bénéfice net minimum 15 € par commande d'un article.
+- **Prix** : le plus petit prix en 9 au-dessus du prix conseillé Branvas converti en euros (prix psychologique) ; bénéfice net minimum 15 € par commande d'un article ; aucune perte même avec l'offre et un code −15 %. Détail : `conversion/offre-bundles.md`.
 - **Site** : prototype refait de zéro dans `site/` (ancien dans `archive/site-v1/`), FR d'abord ; vidéos et pubs en français uniquement.
 - **Pièces seules** ajoutées (voir `source/pieces-seules.md`).
 - **Devise** : EUR au lancement.

@@ -34,7 +34,7 @@ Categories: Sets > Sculpture, Gifts > Under €50 · Tags: necklace, earrings, g
 
 ---
 
-### Crumpled Cube Set · JSM1BZ · 49 € (proposal)
+### Crumpled Cube Set · JSM1BZ · 59 €
 
 **Short description:** A crumpled gold cube, as a pendant and as drop earrings.
 - Pendant necklace + drop earrings
@@ -64,7 +64,7 @@ Categories: Sets > Sculpture, Gifts > Under €50 · Tags: necklace, earrings, g
 
 ---
 
-### Celestial Star Moon Set · JS8445 · 49 € (proposal)
+### Celestial Star Moon Set · JS8445 · 79 €
 
 **Short description:** The moon in silver, the star in gold, on a double-chain necklace and drop earrings.
 - Double-chain necklace + drop earrings
@@ -94,7 +94,7 @@ Categories: Sets > Sculpture, Gifts > Under €50 · Tags: necklace, earrings, t
 
 ---
 
-### Fluid Dreams Set · JS411P · 55 € (proposal)
+### Fluid Dreams Set · JS411P · 69 €
 
 **Short description:** Gold waves and translucent resin, as a pendant and earrings.
 - Pendant necklace + earrings
@@ -216,7 +216,7 @@ Categories: Sets > Sculpture, Gifts > Under €100 · Tags: necklace, earrings, 
 
 ## Sets > Unisex (2)
 
-### Cosmic Circle Set · JSVKMZ · 49 € (proposal)
+### Cosmic Circle Set · JSVKMZ · 69 €
 
 **Short description:** A gold ring on an adjustable cord, with matching hoops. Wear both, or share.
 - Adjustable cord necklace + hoops
@@ -279,7 +279,7 @@ Categories: Sets > Unisex, Gifts > Under €50 · Tags: necklace, earrings, cord
 
 ## Sets > Sparkle (11)
 
-### Solar Sphere Set · JS1AQ5 · 69 € (proposal)
+### Solar Sphere Set · JS1AQ5 · 79 €
 
 **Short description:** A gold sphere paved with cubic zirconia around a bronze dome, as a necklace and studs.
 - Pendant necklace + studs
@@ -310,7 +310,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold,
 
 ---
 
-### Golden Luxe Set · JSJB3S · 89 €
+### Golden Luxe Set · JSJB3S · 99 €
 
 **Short description:** Gold drops covered in cubic zirconia, as a Y-necklace and earrings.
 - Y-necklace + drop earrings
@@ -340,7 +340,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, earrings, go
 
 ---
 
-### Golden Hour Set · JS63VP · 69 € (proposal)
+### Golden Hour Set · JS63VP · 79 €
 
 **Short description:** A square champagne cubic zirconia, as a pendant and on pavé hoops.
 - Pendant necklace + drop hoops
@@ -370,7 +370,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, hoops, gold,
 
 ---
 
-### Crescent Glow Set · JS4EXR · 75 € (proposal)
+### Crescent Glow Set · JS4EXR · 89 €
 
 **Short description:** A curve paved with cubic zirconia, as a necklace, hoops and an adjustable ring.
 - Necklace + hoops + adjustable ring
@@ -401,7 +401,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, hoops, ring,
 
 ---
 
-### Emerald Cut Halo Set · JS5N68 · 69 € (proposal)
+### Emerald Cut Halo Set · JS5N68 · 79 €
 
 **Short description:** An emerald-cut cubic zirconia in a pavé frame, as a pendant and studs.
 - Pendant necklace + studs
@@ -431,7 +431,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold,
 
 ---
 
-### Geometric Luxe Set · JSFAV7 · 79 €
+### Geometric Luxe Set · JSFAV7 · 89 €
 
 **Short description:** A gold curb chain with pavé links, and small matching hoops.
 - Curb chain necklace + huggie hoops
@@ -461,7 +461,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, hoops, gold,
 
 ---
 
-### Golden Square Set · JSC940 · 79 €
+### Golden Square Set · JSC940 · 89 €
 
 **Short description:** A honey-coloured square stone in a vintage-style frame of cubic zirconia.
 - Pendant necklace + drop earrings
@@ -523,7 +523,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold,
 
 ---
 
-### Radiant Circle Set · JS4AH6 · 59 € (proposal)
+### Radiant Circle Set · JS4AH6 · 89 €
 
 **Short description:** Circles of baguette cubic zirconia, on a mixed-link chain and as earrings.
 - Medallion necklace + round earrings
@@ -553,7 +553,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, earrings, go
 
 ---
 
-### Shell Glow Set · JSQS6W · 69 € (proposal)
+### Shell Glow Set · JSQS6W · 79 €
 
 **Short description:** A silver-grey dome in a shell of cubic zirconia, as a necklace and studs.
 - Pendant necklace + studs
@@ -584,7 +584,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, silve
 
 ---
 
-### Wave Luxe Set · JS2KBV · 69 €
+### Wave Luxe Set · JS2KBV · 79 €
 
 **Short description:** A rippled square paved with cubic zirconia, as a pendant and studs.
 - Two-chain necklace + studs
@@ -616,7 +616,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold,
 
 ## Sets > Precious Colour (7)
 
-### Celestial Cascade Set · JS0DGC · 119 €
+### Celestial Cascade Set · JS0DGC · 129 €
 
 **Short description:** A Y-necklace of oval links with matching drop earrings, for the big occasions.
 - Y-necklace + drop earrings
@@ -709,7 +709,7 @@ Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, hoop
 
 ---
 
-### Linear Luxe Set · JS9XM9 · 69 € (proposal)
+### Linear Luxe Set · JS9XM9 · 79 €
 
 **Short description:** A vertical bar of baguette stones and wide hoops, for days that call for clean lines.
 - Bar necklace + hoops
@@ -739,7 +739,7 @@ Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, hoop
 
 ---
 
-### Pink Pavé Set · JSB541 · 85 € (proposal)
+### Pink Pavé Set · JSB541 · 89 €
 
 **Short description:** Pink cubic zirconia on rose-gold-plated brass, as a necklace, hoops and an open ring.
 - Necklace + hoops + open ring
@@ -770,7 +770,7 @@ Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, hoop
 
 ---
 
-### Rose Empress Set · JS4EPC · 79 € (proposal)
+### Rose Empress Set · JS4EPC · 89 €
 
 **Short description:** A pink cubic zirconia in an ornate, vintage-style frame, as a pendant and earrings.
 - Pendant necklace + drop earrings
@@ -801,7 +801,7 @@ Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, earr
 
 ---
 
-### Royal Sapphire Set · JSX3G6 · 89 €
+### Royal Sapphire Set · JSX3G6 · 99 €
 
 **Short description:** A midnight-blue cubic zirconia in a corolla of clear stones, as a pendant and studs.
 - Pendant necklace + studs
@@ -834,7 +834,7 @@ Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, stud
 
 ## Sets > 925 Silver (3)
 
-### Blush Dreams Set · JSSFYS · 189 € (proposal)
+### Blush Dreams Set · JSSFYS · 949 €
 
 **Short description:** Necklace, studs, ring and bracelet in sterling silver, set with pink moissanite.
 - Four pieces: necklace, studs, ring, bracelet
@@ -866,7 +866,7 @@ Categories: Sets > 925 Silver, Gifts > Over €100 · Tags: necklace, studs, rin
 
 ---
 
-### Golden Radiance Set · JS1PPS · 149 € (proposal)
+### Golden Radiance Set · JS1PPS · 379 €
 
 **Short description:** A pendant and a ring in sterling silver, set with an emerald-cut yellow moissanite.
 - Pendant necklace + ring
@@ -896,7 +896,7 @@ Categories: Sets > 925 Silver, Gifts > Over €100 · Tags: necklace, ring, 925 
 
 ---
 
-### Heart Symphony Set · JSDQA1 · 229 € (proposal)
+### Heart Symphony Set · JSDQA1 · 879 €
 
 **Short description:** Four sterling silver pieces: hearts set with moissanite.
 - Four pieces: necklace, studs, bracelet, ring

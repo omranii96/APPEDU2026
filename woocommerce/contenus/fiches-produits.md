@@ -34,7 +34,7 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : co
 
 ---
 
-### Parure Crumpled Cube · JSM1BZ · 49 € (proposition)
+### Parure Crumpled Cube · JSM1BZ · 59 €
 
 **Description courte :** Un cube doré froissé, en pendentif et en boucles pendantes.
 - Collier pendentif + boucles pendantes
@@ -64,7 +64,7 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : co
 
 ---
 
-### Parure Celestial Star Moon · JS8445 · 49 € (proposition)
+### Parure Celestial Star Moon · JS8445 · 79 €
 
 **Description courte :** La lune en argenté, l'étoile en doré, sur un collier double chaîne et des boucles pendantes.
 - Collier double chaîne + boucles pendantes
@@ -94,7 +94,7 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 50 € · Étiquettes : co
 
 ---
 
-### Parure Fluid Dreams · JS411P · 55 € (proposition)
+### Parure Fluid Dreams · JS411P · 69 €
 
 **Description courte :** Des vagues dorées et de la résine translucide, en pendentif et en boucles.
 - Collier pendentif + boucles d'oreilles
@@ -216,7 +216,7 @@ Catégories : Parures > Sculpture, Cadeaux > Moins de 100 € · Étiquettes : c
 
 ## Parures > Mixte (2)
 
-### Parure Cosmic Circle · JSVKMZ · 49 € (proposition)
+### Parure Cosmic Circle · JSVKMZ · 69 €
 
 **Description courte :** Un anneau doré sur cordon réglable et ses créoles, à porter seul ou à partager.
 - Collier sur cordon réglable + créoles
@@ -279,7 +279,7 @@ Catégories : Parures > Mixte, Cadeaux > Moins de 50 € · Étiquettes : collie
 
 ## Parures > Éclat (11)
 
-### Parure Solar Sphere · JS1AQ5 · 69 € (proposition)
+### Parure Solar Sphere · JS1AQ5 · 79 €
 
 **Description courte :** Une sphère dorée pavée d'oxydes de zirconium autour d'un dôme bronze, en collier et en puces.
 - Collier pendentif + puces d'oreilles
@@ -310,7 +310,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Golden Luxe · JSJB3S · 89 €
+### Parure Golden Luxe · JSJB3S · 99 €
 
 **Description courte :** Des gouttes dorées couvertes d'oxydes de zirconium, en collier en Y et en boucles.
 - Collier en Y + boucles gouttes
@@ -340,7 +340,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Golden Hour · JS63VP · 69 € (proposition)
+### Parure Golden Hour · JS63VP · 79 €
 
 **Description courte :** Un oxyde de zirconium carré couleur champagne, en pendentif et en créoles pavées.
 - Collier pendentif + créoles à pendant
@@ -370,7 +370,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Crescent Glow · JS4EXR · 75 € (proposition)
+### Parure Crescent Glow · JS4EXR · 89 €
 
 **Description courte :** Une courbe pavée d'oxydes de zirconium, en collier, créoles et bague réglable.
 - Collier + créoles + bague réglable
@@ -401,7 +401,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Emerald Cut Halo · JS5N68 · 69 € (proposition)
+### Parure Emerald Cut Halo · JS5N68 · 79 €
 
 **Description courte :** Un oxyde de zirconium taille émeraude dans un cadre pavé, en pendentif et en puces.
 - Collier pendentif + puces d'oreilles
@@ -431,7 +431,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Geometric Luxe · JSFAV7 · 79 €
+### Parure Geometric Luxe · JSFAV7 · 89 €
 
 **Description courte :** Une gourmette dorée et ses maillons pavés, avec de petites créoles assorties.
 - Collier gourmette + petites créoles
@@ -461,7 +461,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Golden Square · JSC940 · 79 €
+### Parure Golden Square · JSC940 · 89 €
 
 **Description courte :** Une pierre carrée couleur miel dans un cadre d'oxydes de zirconium d'inspiration ancienne.
 - Collier pendentif + boucles pendantes
@@ -523,7 +523,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Radiant Circle · JS4AH6 · 59 € (proposition)
+### Parure Radiant Circle · JS4AH6 · 89 €
 
 **Description courte :** Des cercles d'oxydes de zirconium taille baguette, sur une chaîne à maillons mixtes et en boucles d'oreilles.
 - Collier médaillon + boucles rondes
@@ -553,7 +553,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Shell Glow · JSQS6W · 69 € (proposition)
+### Parure Shell Glow · JSQS6W · 79 €
 
 **Description courte :** Un dôme gris argenté dans une coque d'oxydes de zirconium, en collier et en puces.
 - Collier pendentif + puces d'oreilles
@@ -584,7 +584,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ---
 
-### Parure Wave Luxe · JS2KBV · 69 €
+### Parure Wave Luxe · JS2KBV · 79 €
 
 **Description courte :** Un carré ondulé pavé d'oxydes de zirconium, en pendentif et en puces.
 - Collier deux chaînes + puces d'oreilles
@@ -616,7 +616,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ## Parures > Couleur précieuse (7)
 
-### Parure Celestial Cascade · JS0DGC · 119 €
+### Parure Celestial Cascade · JS0DGC · 129 €
 
 **Description courte :** Un collier en Y de médaillons ovales et ses boucles pendantes, pour les grandes occasions.
 - Collier en Y + boucles pendantes
@@ -709,7 +709,7 @@ Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiqu
 
 ---
 
-### Parure Linear Luxe · JS9XM9 · 69 € (proposition)
+### Parure Linear Luxe · JS9XM9 · 79 €
 
 **Description courte :** Une barre verticale d'oxydes de zirconium taille baguette et des créoles larges, pour les journées où tu veux être nette.
 - Collier barre + créoles
@@ -739,7 +739,7 @@ Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiqu
 
 ---
 
-### Parure Pink Pavé · JSB541 · 85 € (proposition)
+### Parure Pink Pavé · JSB541 · 89 €
 
 **Description courte :** Des oxydes de zirconium roses sur métal rosé, en collier, créoles et bague ouverte.
 - Collier + créoles + bague ouverte
@@ -770,7 +770,7 @@ Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiqu
 
 ---
 
-### Parure Rose Empress · JS4EPC · 79 € (proposition)
+### Parure Rose Empress · JS4EPC · 89 €
 
 **Description courte :** Un oxyde de zirconium rose dans un cadre ouvragé d'inspiration ancienne, en pendentif et en boucles.
 - Collier pendentif + boucles pendantes
@@ -801,7 +801,7 @@ Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiqu
 
 ---
 
-### Parure Royal Sapphire · JSX3G6 · 89 €
+### Parure Royal Sapphire · JSX3G6 · 99 €
 
 **Description courte :** Un oxyde de zirconium bleu nuit dans une corolle de pierres claires, en pendentif et en puces.
 - Collier pendentif + puces d'oreilles
@@ -834,7 +834,7 @@ Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiqu
 
 ## Parures > Joaillerie 925 (3)
 
-### Parure Blush Dreams · JSSFYS · 189 € (proposition)
+### Parure Blush Dreams · JSSFYS · 949 €
 
 **Description courte :** Collier, puces, bague et bracelet en argent 925, autour de moissanites synthétiques roses.
 - Quatre pièces : collier, puces, bague, bracelet
@@ -866,7 +866,7 @@ Catégories : Parures > Joaillerie 925, Cadeaux > Plus de 100 € · Étiquettes
 
 ---
 
-### Parure Golden Radiance · JS1PPS · 149 € (proposition)
+### Parure Golden Radiance · JS1PPS · 379 €
 
 **Description courte :** Un pendentif et une bague en argent 925, autour d'une moissanite synthétique jaune taille émeraude.
 - Collier pendentif + bague
@@ -896,7 +896,7 @@ Catégories : Parures > Joaillerie 925, Cadeaux > Plus de 100 € · Étiquettes
 
 ---
 
-### Parure Heart Symphony · JSDQA1 · 229 € (proposition)
+### Parure Heart Symphony · JSDQA1 · 879 €
 
 **Description courte :** Quatre pièces en argent 925, des cœurs sertis de moissanites synthétiques.
 - Quatre pièces : collier, puces, bracelet, bague

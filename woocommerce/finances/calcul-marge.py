@@ -28,15 +28,28 @@ SC = {
     'pessimiste': dict(ratio=0.40, ratio925=0.50, fxfee=0.02, payp=0.029, payf=0.30, ret=0.10, label=6.0, recov=0.0),
 }
 
-def order(items, sc, vat=False):
-    """items = [(prix €, coût $, éligible)] ; renvoie le détail d'une commande."""
+CODE_MAX = 0.15                  # pire code promo prévu (anniversaire Le Cercle −15 % ; bienvenue et cross-sell −10 %)
+MIN_NET = 15.0                   # bénéfice net minimum par commande d'un seul article (scénario central, sans code)
+
+def prix_regle(srp_usd, cost_usd=None, eligible=True):
+    """Règle de prix (prix psychologique, effet du chiffre de gauche) :
+    le plus petit prix finissant par 9 (49, 59, 69, 79, 89, 99, 109, 129…) qui est >= au prix conseillé Branvas converti en €.
+    Si cost_usd est donné : on monte au 9 suivant tant qu'une commande de cet article seul rapporte moins de MIN_NET (scénario central)."""
+    p = int(srp_usd / FX)
+    while p % 10 != 9 or p < srp_usd / FX: p += 1
+    if cost_usd is not None:
+        while order([(p, cost_usd, eligible)], 'central')['net'] < MIN_NET: p += 10
+    return p
+
+def order(items, sc, vat=False, code=0.0):
+    """items = [(prix €, coût $, éligible)] ; code = code promo en % appliqué après l'offre. Renvoie le détail d'une commande."""
     s = SC[sc]
     items = sorted(items, key=lambda x: -x[0])
     elig = [x for x in items if x[2]]
     n = len(elig); disc = 0.0
     for g in range(0, n - 2, 3): disc += elig[g + 2][0] * OFFER['d3']
     if n % 3 == 2: disc += elig[-1][0] * OFFER['d2']
-    paid = sum(x[0] for x in items) - disc
+    paid = (sum(x[0] for x in items) - disc) * (1 - code)
     ttc = paid + (0 if paid >= FREE_FROM else SHIP_FEE)
     ca = ttc / 1.2 if vat else ttc
     usd = sum(x[1] for x in items) + BRANVAS_SHIP
@@ -59,20 +72,25 @@ def main():
     sc = 'pessimiste' if '--scenario' in sys.argv and 'pessimiste' in sys.argv else 'central'
     vat = '--tva' in sys.argv
     rows = list(csv.DictReader(open(HERE / 'couts-branvas.csv', encoding='utf-8'), delimiter=';'))
-    print(f'Scénario {sc}{" · TVA 20 %" if vat else " · franchise de TVA"} · bénéfice net par commande (€)\n')
-    print(f'{"Produit":34} {"prix":>6} {"coût$":>7} {"conseillé":>9} {"1":>7} {"2":>7} {"3":>7}  alerte')
+    print(f'Scénario {sc}{" · TVA 20 %" if vat else " · franchise de TVA"} · bénéfice net par commande (€)')
+    print(f'« 1/2/3 » = commande de 1, 2 ou 3 fois ce produit avec l’offre ; « pire » = 3 parures (ou 1 pièce) + code −{CODE_MAX:.0%} en plus.\n')
+    print(f'{"Produit":32} {"prix":>5} {"règle":>5} {"coût$":>7} {"conseillé":>9} {"1":>7} {"2":>7} {"3":>7} {"pire":>7}  alerte')
     for r in rows:
         price = float(r['prix_vente_eur']); c, real = cost_of(r, sc)
         elig = r['type'] == 'parure' and r['univers'] != 'j925'
         nets = [order([(price, c, elig)] * k, sc, vat)['net'] for k in (1, 2, 3)]
+        worst = order([(price, c, elig)] * (3 if elig else 1), sc, vat, CODE_MAX)['net']
         srp = float(r['prix_conseille_usd']) / FX if r['prix_conseille_usd'] else None
+        rule = prix_regle(float(r['prix_conseille_usd']), c, elig) if r['prix_conseille_usd'] else None
         warn = []
-        if nets[0] < 15: warn.append('marge < 15 €')
+        if nets[0] < MIN_NET: warn.append(f'marge < {MIN_NET:.0f} €')
+        if worst < 0: warn.append('perte avec code')
         if elig and not (nets[0] <= nets[1] <= nets[2]): warn.append('palier moins rentable')
-        if srp and price < srp * 0.9: warn.append(f'sous le prix conseillé ({srp:.0f} €)')
+        if srp and price < srp: warn.append(f'sous le prix conseillé ({srp:.2f} €)')
+        if rule and price != rule: warn.append(f'règle : {rule} €')
         if not real: warn.append('coût estimé')
-        print(f'{r["nom"][:34]:34} {price:6.0f} {c:7.2f} {(f"{srp:.0f} €" if srp else "-"):>9} ' + ' '.join(f'{x:7.2f}' for x in nets) + '  ' + ', '.join(warn))
-    print('\nPrix conseillé = prix conseillé Branvas converti en €. « 1/2/3 » = commande de 1, 2 ou 3 fois ce produit avec l’offre.')
+        print(f'{r["nom"][:32]:32} {price:5.0f} {(rule or 0):5} {c:7.2f} {(f"{srp:.2f} €" if srp else "-"):>9} ' + ' '.join(f'{x:7.2f}' for x in nets) + f' {worst:7.2f}  ' + ', '.join(warn))
+    print('\nPrix conseillé = prix conseillé Branvas converti en €. Règle = plus petit prix en 9 au-dessus du prix conseillé (prix psychologique), relevé si un article seul rapporte moins de 15 €.')
 
 if __name__ == '__main__':
     main()

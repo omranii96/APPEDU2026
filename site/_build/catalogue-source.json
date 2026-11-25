@@ -46,7 +46,7 @@
     "fr": "Parure Crumpled Cube",
     "en": "Crumpled Cube Set"
    },
-   "price": 55,
+   "price": 59,
    "u": "sculpture",
    "pcs": {
     "fr": [
@@ -76,7 +76,7 @@
     "fr": "Parure Crumpled Cube : collier + boucles d'oreilles, laiton doré",
     "en": "Crumpled Cube Set: necklace + earrings, gold-plated brass"
    },
-   "tags": "collier, boucles d'oreilles, doré, géométrique, moins de 50 €, idée cadeau, necklace, earrings, gold, geometric, under €50, gift idea"
+   "tags": "collier, boucles d'oreilles, doré, géométrique, idée cadeau, necklace, earrings, gold, geometric, gift idea"
   },
   {
    "sku": "JS8445",
@@ -85,7 +85,7 @@
     "fr": "Parure Celestial Star Moon",
     "en": "Celestial Star Moon Set"
    },
-   "price": 69,
+   "price": 79,
    "u": "sculpture",
    "pcs": {
     "fr": [
@@ -115,7 +115,7 @@
     "fr": "Parure Celestial Star Moon : collier + boucles d'oreilles, laiton bicolore, oxydes de zirconium",
     "en": "Celestial Star Moon Set: necklace + earrings, two-tone brass, cubic zirconia"
    },
-   "tags": "collier, boucles d'oreilles, bicolore, lune, étoile, oxydes de zirconium, moins de 50 €, idée cadeau, necklace, earrings, two-tone, moon, star, cubic zirconia, under €50, gift idea"
+   "tags": "collier, boucles d'oreilles, bicolore, lune, étoile, oxydes de zirconium, idée cadeau, necklace, earrings, two-tone, moon, star, cubic zirconia, gift idea"
   },
   {
    "sku": "JS411P",
@@ -124,7 +124,7 @@
     "fr": "Parure Fluid Dreams",
     "en": "Fluid Dreams Set"
    },
-   "price": 65,
+   "price": 69,
    "u": "sculpture",
    "pcs": {
     "fr": [
@@ -334,7 +334,7 @@
     "fr": "Parure Radiant Circle",
     "en": "Radiant Circle Set"
    },
-   "price": 79,
+   "price": 89,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -373,7 +373,7 @@
     "fr": "Parure Geometric Luxe",
     "en": "Geometric Luxe Set"
    },
-   "price": 79,
+   "price": 89,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -412,7 +412,7 @@
     "fr": "Parure Wave Luxe",
     "en": "Wave Luxe Set"
    },
-   "price": 69,
+   "price": 79,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -451,7 +451,7 @@
     "fr": "Parure Solar Sphere",
     "en": "Solar Sphere Set"
    },
-   "price": 69,
+   "price": 79,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -490,7 +490,7 @@
     "fr": "Parure Golden Hour",
     "en": "Golden Hour Set"
    },
-   "price": 69,
+   "price": 79,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -529,7 +529,7 @@
     "fr": "Parure Emerald Cut Halo",
     "en": "Emerald Cut Halo Set"
    },
-   "price": 69,
+   "price": 79,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -568,7 +568,7 @@
     "fr": "Parure Shell Glow",
     "en": "Shell Glow Set"
    },
-   "price": 69,
+   "price": 79,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -607,7 +607,7 @@
     "fr": "Parure Crescent Glow",
     "en": "Crescent Glow Set"
    },
-   "price": 79,
+   "price": 89,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -648,7 +648,7 @@
     "fr": "Parure Golden Square",
     "en": "Golden Square Set"
    },
-   "price": 79,
+   "price": 89,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -687,7 +687,7 @@
     "fr": "Parure Golden Luxe",
     "en": "Golden Luxe Set"
    },
-   "price": 89,
+   "price": 99,
    "u": "eclat",
    "pcs": {
     "fr": [
@@ -765,7 +765,7 @@
     "fr": "Parure Linear Luxe",
     "en": "Linear Luxe Set"
    },
-   "price": 69,
+   "price": 79,
    "u": "couleur",
    "pcs": {
     "fr": [
@@ -804,7 +804,7 @@
     "fr": "Parure Celestial Cascade",
     "en": "Celestial Cascade Set"
    },
-   "price": 119,
+   "price": 129,
    "u": "couleur",
    "pcs": {
     "fr": [
@@ -843,7 +843,7 @@
     "fr": "Parure Rose Empress",
     "en": "Rose Empress Set"
    },
-   "price": 79,
+   "price": 89,
    "u": "couleur",
    "pcs": {
     "fr": [
@@ -882,7 +882,7 @@
     "fr": "Parure Royal Blue Halo",
     "en": "Royal Blue Halo Set"
    },
-   "price": 89,
+   "price": 99,
    "u": "couleur",
    "pcs": {
     "fr": [
@@ -921,7 +921,7 @@
     "fr": "Parure Pink Pavé",
     "en": "Pink Pavé Set"
    },
-   "price": 85,
+   "price": 89,
    "u": "couleur",
    "pcs": {
     "fr": [
@@ -1003,7 +1003,7 @@
     "fr": "Parure Golden Radiance",
     "en": "Golden Radiance Set"
    },
-   "price": 149,
+   "price": 379,
    "u": "j925",
    "pcs": {
     "fr": [
@@ -1042,7 +1042,7 @@
     "fr": "Parure Blush Dreams",
     "en": "Blush Dreams Set"
    },
-   "price": 189,
+   "price": 949,
    "u": "j925",
    "pcs": {
     "fr": [
@@ -1085,7 +1085,7 @@
     "fr": "Parure Heart Symphony",
     "en": "Heart Symphony Set"
    },
-   "price": 229,
+   "price": 879,
    "u": "j925",
    "pcs": {
     "fr": [
@@ -1128,7 +1128,7 @@
     "fr": "Parure Cosmic Circle",
     "en": "Cosmic Circle Set"
    },
-   "price": 65,
+   "price": 69,
    "u": "mixte",
    "pcs": {
     "fr": [
@@ -1158,7 +1158,7 @@
     "fr": "Parure Cosmic Circle : collier + créoles, laiton doré, cordon",
     "en": "Cosmic Circle Set: necklace + hoops, gold-plated brass, cord"
    },
-   "tags": "collier, créoles, cordon, mixte, pour lui, moins de 50 €, idée cadeau, necklace, hoops, cord, unisex, for him, under €50, gift idea"
+   "tags": "collier, créoles, cordon, mixte, pour lui, idée cadeau, necklace, hoops, cord, unisex, for him, gift idea"
   },
   {
    "sku": "JSCT1F",
@@ -1197,7 +1197,7 @@
     "fr": "Parure Lunar Goddess : collier + boucles d'oreilles, laiton doré, cordon",
     "en": "Lunar Goddess Set: necklace + earrings, gold-plated brass, cord"
    },
-   "tags": "collier, boucles d'oreilles, cordon, lune, mixte, pour lui, moins de 50 €, idée cadeau, necklace, earrings, cord, moon, unisex, for him, under €50, gift idea"
+   "tags": "collier, boucles d'oreilles, cordon, lune, mixte, pour lui, idée cadeau, necklace, earrings, cord, moon, unisex, for him, gift idea"
   }
  ],
  "univers": {
