@@ -19,3 +19,9 @@ Contrôle qualité fait : les bijoux sont fidèles aux photos Branvas (forme, pa
 - `images/ines/ines-selfie-1.png`, `ines-selfie-2.png` : personnage récurrent « Inès » (IA), parure Pink Pavé (JSB541).
 - `videos/V13-selfie-saint-valentin-pink-pave.mp4` : selfie UGC 12 s, 9:16, muet (rires et ambiance). Bijoux fidèles aux photos HD Branvas. Texte à ajouter au montage, ex. « 14 février, 19 h 58 : prête ». Publication : mention « Image virtuelle » obligatoire.
 - `videos/V14-selfie-saint-valentin-seedance.mp4` : refait avec Seedance 2.5 (1080p, aucune piste audio), photo de départ Nano Banana Pro. Vérifié : une seule main visible, bague au doigt, peau naturelle, bijoux conformes. **Remplace V13** (V13 rejetée : main en trop, parole en anglais, peau lissée).
+
+## Plage, « J'suis in love avec ces bijoux » (25/11)
+- `images/plage/plage-2.png` : photo de départ choisie (parure Liquid Gold Cascade). `plage-1.png` rejetée (visage lisse, pendentif trop long).
+- `voix/sienna-3` : voix Eleven v4 retenue (rire, puis « J'suis in love avec ces bijoux ! »).
+- Vidéo Seedance 2.5 bloquée 2 fois par le filtre de contenu de Higgsfield (haut de bikini visible sur la photo de départ). Crédits remboursés automatiquement.
+- `images/plage/plage-2-visage-916.png` : même photo recadrée sur le visage et la boucle d'oreille (aucun maillot à l'image) pour la 3e tentative. Pour les prochains tournages plage : tenue couverte sur la photo de départ (chemise fermée, robe).
