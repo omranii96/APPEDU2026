@@ -616,7 +616,7 @@ Catégories : Parures > Éclat, Cadeaux > Moins de 100 € · Étiquettes : coll
 
 ## Parures > Couleur précieuse (7)
 
-### Parure Celestial Cascade · JS0DGC · 79 € (proposition)
+### Parure Celestial Cascade · JS0DGC · 119 €
 
 **Description courte :** Un collier en Y de médaillons ovales et ses boucles pendantes, pour les grandes occasions.
 - Collier en Y + boucles pendantes
@@ -801,7 +801,7 @@ Catégories : Parures > Couleur précieuse, Cadeaux > Moins de 100 € · Étiqu
 
 ---
 
-### Parure Royal Sapphire · JSX3G6 · 79 € (proposition)
+### Parure Royal Sapphire · JSX3G6 · 89 €
 
 **Description courte :** Un oxyde de zirconium bleu nuit dans une corolle de pierres claires, en pendentif et en puces.
 - Collier pendentif + puces d'oreilles

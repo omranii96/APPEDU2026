@@ -616,7 +616,7 @@ Categories: Sets > Sparkle, Gifts > Under €100 · Tags: necklace, studs, gold,
 
 ## Sets > Precious Colour (7)
 
-### Celestial Cascade Set · JS0DGC · 79 € (proposal)
+### Celestial Cascade Set · JS0DGC · 119 €
 
 **Short description:** A Y-necklace of oval links with matching drop earrings, for the big occasions.
 - Y-necklace + drop earrings
@@ -801,7 +801,7 @@ Categories: Sets > Precious Colour, Gifts > Under €100 · Tags: necklace, earr
 
 ---
 
-### Royal Sapphire Set · JSX3G6 · 79 € (proposal)
+### Royal Sapphire Set · JSX3G6 · 89 €
 
 **Short description:** A midnight-blue cubic zirconia in a corolla of clear stones, as a pendant and studs.
 - Pendant necklace + studs
