@@ -1,0 +1,237 @@
+<title>Bague Charmed réelle</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,400&family=Jost:wght@400;500&display=swap">
+<style>
+/* Une scène plein écran : la bague en 3D (WebGL) se pose exactement sur le logo, puis le logo plat prend le relais. */
+:root{
+  --bg:#16110F; --logo:#E9CB8F; --ui:#F5EFE6; --ui-dim:rgba(245,239,230,.55); --line:rgba(245,239,230,.18);
+  --serif:"Bodoni Moda",Didot,"Times New Roman",serif; --sans:Jost,"Helvetica Neue",Arial,sans-serif;
+  color-scheme:dark;
+}
+:root[data-look="creme"]{ --bg:#F5EFE6; --logo:#16110F; --ui:#16110F; --ui-dim:rgba(22,17,15,.55); --line:rgba(22,17,15,.16); color-scheme:light; }
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ui);font:400 14px/1.4 var(--sans);overflow:hidden;transition:background .5s ease,color .5s ease}
+#gl{position:fixed;inset:0;width:100%;height:100%;display:block;pointer-events:none;z-index:1}
+.stage{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(18px,3vh,34px);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px;box-sizing:border-box}
+.mark{width:min(84vw,880px)}
+.mark svg{display:block;width:100%;height:auto;overflow:visible;color:var(--logo)}
+.tag{font:italic 400 clamp(15px,1.7vw,21px)/1.3 var(--serif);letter-spacing:.01em;color:var(--ui);margin:0;opacity:0}
+.bar{position:fixed;z-index:3;left:0;right:0;bottom:0;display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:center;
+  padding:12px max(16px,env(safe-area-inset-right,0px)) calc(14px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.bar button{appearance:none;border:1px solid var(--line);background:transparent;color:var(--ui);font:500 10.5px var(--sans);letter-spacing:.18em;text-transform:uppercase;padding:10px 14px;cursor:pointer;transition:border-color .2s}
+.bar button:hover{border-color:var(--ui-dim)}
+.bar button:focus-visible,.bar input:focus-visible{outline:1px solid var(--ui);outline-offset:3px}
+.bar button[aria-pressed="true"]{border-color:var(--ui)}
+.scrub{display:flex;align-items:center;gap:10px;font:500 10.5px var(--sans);letter-spacing:.14em;color:var(--ui-dim);text-transform:uppercase}
+.scrub input{width:min(220px,40vw);accent-color:var(--logo)}
+.scrub output{font-variant-numeric:tabular-nums;min-width:3.6em;text-align:right}
+</style>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/"}}</script>
+
+<canvas id="gl" aria-hidden="true"></canvas>
+<main class="stage" aria-label="Animation du logo CHARMED PARIS">
+  <div class="mark" id="mark">
+    <svg id="svg" viewBox="0 -34 11226.9 2558" role="img" aria-label="CHARMED PARIS" xmlns="http://www.w3.org/2000/svg">
+      <defs><clipPath id="reveal" clipPathUnits="userSpaceOnUse"><rect id="revealRect" x="5613" y="-200" width="0" height="1900"/></clipPath></defs>
+      <g id="world">
+        <g clip-path="url(#reveal)"><path fill="currentColor" d="M2733.7 0V24.7H2553.3V1475.3H2733.7V1500H2135.7V1475.3H2330.1V772.5H1704.2V1475.3H1898.1V1500H1300V1475.3H1479.7V24.7H1300V0H1898.1V24.7H1704.2V747.5H2330.1V24.7H2135.7V0Z M3516.5 1024.5V999.8H4146.5V1024.5ZM3916.9 -29.4 4438.3 1475.3H4588.2V1500H3978.8V1475.3H4180L3788.8 264.4L3365.6 1475.3H3590.2V1500H3150V1475.3H3337.2L3865.3 -29.4Z M5365.2 739.3V724H5662.3Q5758.3 724 5824.9 683.8Q5891.4 643.6 5925.7 566Q5960 488.4 5960 376.6Q5960 264.8 5925.7 186.1Q5891.4 107.3 5824.8 66Q5758.1 24.7 5662.3 24.7H5005V0H5676.3Q5831.5 0 5947.8 40Q6064.2 80 6128.7 163.3Q6193.2 246.6 6193.2 376.6Q6193.2 506.6 6132.7 586.5Q6072.3 666.3 5956.9 702.8Q5841.5 739.3 5676.3 739.3ZM5005 1500V1475.3H5658V1500ZM5219.1 1486.8V15.8H5443.1V1486.8ZM6166.3 1511.4Q6075.1 1511.4 6023.9 1479.3Q5972.6 1447.2 5949.1 1392.7Q5925.5 1338.1 5919.3 1270.3Q5913.1 1202.5 5912.2 1130.1Q5911.3 1057.7 5904.7 989.9Q5898.1 922.1 5874.7 867.5Q5851.2 812.9 5799.2 780.8Q5747.1 748.7 5655.1 748.7H5365.2V734.7H5728.7Q5871.9 734.7 5956.1 774.9Q6040.3 815.2 6082.3 881.6Q6124.3 948 6138.4 1027.3Q6152.4 1106.6 6153.3 1185.8Q6154.1 1265.1 6156.8 1331.5Q6159.6 1398 6178.4 1438.2Q6197.2 1478.4 6248.7 1478.4Q6280.7 1478.4 6307.2 1471.6Q6333.6 1464.7 6354.1 1454.7L6363.1 1477.5Q6339.1 1490.5 6287.5 1500.9Q6236 1511.4 6166.3 1511.4Z M7491.1 1520 6935.1 0H7160.3L7605 1199.4L8024.1 0H8050.6L7521.1 1520ZM6947.8 0V1475.3H7098.7V1500H6778.7V1475.3H6921.9V24.7H6769V0ZM8406.9 0V24.7H8266.8V1475.3H8406.9V1500H7882.4V1475.3H8043.3V0Z M8823 1500V1475.3H9002.7V24.7H8823V0H9906.6V410H9882.3Q9878.1 303 9840.5 215.5Q9802.9 128 9727.5 76.3Q9652.1 24.7 9535.1 24.7H9227.2V1475.3H9514.4Q9651.6 1475.3 9735.2 1421.9Q9818.9 1368.4 9858.5 1272.7Q9898 1177 9902.2 1050H9926.9V1500ZM9550.6 951.9Q9546.4 884.9 9515.9 836.7Q9485.4 788.5 9436.8 762.5Q9388.3 736.5 9331.3 736.5H9165V712H9331.3Q9388.3 712 9436.8 688.3Q9485.4 664.6 9515.9 618.6Q9546.4 572.6 9550.6 505.6H9575.3V951.9Z"/></g>
+        <g id="halfC" opacity="0"><path fill="currentColor" d="M1000 -34H784A784 784 0 0 0 0 750V750A784 784 0 0 0 784 1534H1000V1490H784A559 740 0 0 1 225 750V750A559 740 0 0 1 784 10H1000Z"/></g>
+        <g id="halfD" opacity="0"><path fill="currentColor" d="M10226.9 -34H10442.9A784 784 0 0 1 11226.9 750V750A784 784 0 0 1 10442.9 1534H10226.9V1490H10442.9A559 740 0 0 0 11001.9 750V750A559 740 0 0 0 10442.9 10H10226.9Z"/></g>
+        <path id="paris" fill="currentColor" opacity="0" transform="translate(3700.3 2524)" d="M49.8 -450V0H126.2V-450ZM95.3 -383.3H185.6Q225 -383.3 248.9 -364.9Q272.7 -346.5 272.7 -310.2Q272.7 -274.3 248.9 -255.7Q225 -237.1 185.6 -237.1H95.3V-170.4H185.6Q235 -170.4 271.1 -187.3Q307.3 -204.3 327.4 -235.8Q347.5 -267.4 347.5 -310.2Q347.5 -353.6 327.4 -384.8Q307.3 -416.1 271.1 -433Q235 -450 185.6 -450H95.3Z M990 -115.7H1227.9L1213.4 -179.7H1004.5ZM1107.6 -322.7 1179.3 -155.7 1180.8 -136.9 1241.8 0H1327.8L1107.6 -474.9L887.5 0H973.4L1035.8 -140.9L1036.9 -157.7Z M1986.8 -214.6 2129.8 0H2221.4L2068.7 -214.6ZM1893.5 -450V0H1969.9V-450ZM1939 -384.1H2029.3Q2055.5 -384.1 2075.1 -375.2Q2094.6 -366.3 2105.5 -349.5Q2116.4 -332.7 2116.4 -308.6Q2116.4 -284.6 2105.5 -267.8Q2094.6 -250.9 2075.1 -242Q2055.5 -233 2029.3 -233H1939V-170.4H2032.6Q2081.9 -170.4 2118.1 -187.6Q2154.2 -204.9 2174.3 -236.6Q2194.4 -268.2 2194.4 -310.2Q2194.4 -352.8 2174.3 -384.1Q2154.2 -415.4 2118.1 -432.7Q2081.9 -450 2032.6 -450H1939Z M2790.3 -450V0H2867.5V-450Z M3511.3 -145 3454.7 -105.4Q3469.7 -74.7 3494.8 -48.3Q3520 -21.9 3553.7 -6.1Q3587.5 9.6 3627 9.6Q3655.9 9.6 3682.7 0.5Q3709.4 -8.7 3730.7 -25.9Q3751.9 -43.1 3764.2 -68.1Q3776.5 -93.1 3776.5 -124.6Q3776.5 -154.3 3766.3 -176.3Q3756.2 -198.3 3739.7 -214.5Q3723.1 -230.6 3702.9 -241.6Q3682.6 -252.6 3662.4 -259.9Q3626.4 -272.4 3603.8 -284.6Q3581.2 -296.8 3570.7 -310.8Q3560.1 -324.8 3560.1 -342.2Q3560.1 -361.3 3575 -375.8Q3589.9 -390.4 3621.1 -390.4Q3643.9 -390.4 3660.8 -381.5Q3677.8 -372.7 3690.6 -358.3Q3703.3 -343.9 3712.2 -327.4L3773.6 -362.1Q3762.3 -385.7 3742 -407.7Q3721.7 -429.6 3692.1 -443.8Q3662.5 -458 3622.3 -458Q3582.2 -458 3550.2 -442.8Q3518.2 -427.7 3499.7 -400.3Q3481.2 -373 3481.2 -336.9Q3481.2 -305.2 3493.3 -283Q3505.3 -260.8 3524.1 -245.7Q3542.8 -230.5 3563.4 -220.7Q3584.1 -211 3600.6 -205.1Q3629.1 -194.8 3650.7 -184.3Q3672.3 -173.7 3684.5 -158.6Q3696.6 -143.5 3696.6 -118.6Q3696.6 -91.8 3677.3 -75.1Q3658 -58.5 3626.8 -58.5Q3601.6 -58.5 3580.8 -69.3Q3560 -80 3543 -99.6Q3526.1 -119.1 3511.3 -145Z"/>
+      </g>
+    </svg>
+  </div>
+  <p class="tag" id="tag">Ouvre. Laisse-toi charmer.</p>
+</main>
+<div class="bar" role="group" aria-label="Commandes de l’animation">
+  <button type="button" id="replay">Rejouer</button>
+  <button type="button" id="slow" aria-pressed="false">Ralenti</button>
+  <button type="button" id="look" aria-pressed="false">Fond crème</button>
+  <label class="scrub" for="scrubber">Image par image <input type="range" id="scrubber" min="0" max="6400" step="10" value="0"><output id="clock">0,00 s</output></label>
+</div>
+
+<script type="module">
+/* Le C et le D du logo, réunis, ont exactement la silhouette d'un jonc vu de trois quarts :
+   anneau de rayon 784, épaisseur 44 (le haut et le bas fins du logo), largeur 394, tourné de 28° autour de l'axe vertical.
+   La bague 3D tourne, se pose sur cette position, puis le logo plat prend sa place et s'ouvre. */
+const CX = 5613.45, CY = 750, BOX_CY = 1245, OFF = CX - 784, C_INNER = 1000, D_INNER = 10226.9;
+const R_OUT = 784, R_IN = 740, BAND = 394, THETA = Math.acos(2686 / 3048);
+const T_SPLIT = 3200, DUR = 6400;
+
+const $ = id => document.getElementById(id);
+const svgEl = $('svg'), world = $('world'), halfC = $('halfC'), halfD = $('halfD'), rect = $('revealRect'),
+      paris = $('paris'), tag = $('tag'), scrub = $('scrubber'), clock = $('clock'), canvas = $('gl');
+
+function bezier(x1, y1, x2, y2) {
+  const A = (a, b) => 1 - 3 * b + 3 * a, B = (a, b) => 3 * b - 6 * a, C = a => 3 * a;
+  const f = (t, a, b) => ((A(a, b) * t + B(a, b)) * t + C(a)) * t, df = (t, a, b) => 3 * A(a, b) * t * t + 2 * B(a, b) * t + C(a);
+  return x => { if (x <= 0) return 0; if (x >= 1) return 1; let t = x;
+    for (let i = 0; i < 8; i++) { const e = f(t, x1, x2) - x, d = df(t, x1, x2); if (Math.abs(e) < 1e-6 || !d) break; t -= e / d; }
+    return f(t, y1, y2); };
+}
+const outCubic = bezier(.22, 1, .36, 1), inOut = bezier(.65, 0, .35, 1), soft = bezier(.45, 0, .55, 1), settle = bezier(.16, .84, .3, 1);
+const seg = (t, a, b) => Math.min(1, Math.max(0, (t - a) / (b - a)));
+const lerp = (a, b, k) => a + (b - a) * k;
+const bump = k => (k > 0 && k < 1 ? Math.sin(Math.PI * k) : 0);
+
+let S0 = 3;
+function measure() {
+  const w = svgEl.getBoundingClientRect().width || 600;
+  const target = Math.min(innerHeight * 0.44, innerWidth * 0.6, 360);
+  S0 = Math.max(1.6, Math.min(6, target / (1568 / 11226.9 * w)));
+  if (G) alignCamera();
+}
+
+/* ---------------- la bague en 3D ---------------- */
+let G = null;
+async function setup3D() {
+  const THREE = await import('three');
+  const { RoomEnvironment } = await import('three/addons/environments/RoomEnvironment.js');
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+  renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+  renderer.setSize(innerWidth, innerHeight, false);
+  renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.1;
+  renderer.outputColorSpace = THREE.SRGBColorSpace;
+  const scene = new THREE.Scene();
+  const pmrem = new THREE.PMREMGenerator(renderer);
+  scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.03).texture;
+  const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, -6000, 6000); camera.position.set(0, 0, 3000);
+  const key = new THREE.DirectionalLight(0xfff4e0, 2.2); scene.add(key);
+  const rim = new THREE.DirectionalLight(0xffffff, 0.8); rim.position.set(-1500, -800, -1200); scene.add(rim);
+
+  // jonc : profil arrondi (intérieur 740, extérieur 784, largeur 394) tourné autour de l'axe
+  const P = [], h = BAND / 2, fr = 14, dome = 5;
+  const arc = (cx, cy, r, a0, a1, n) => { for (let i = 0; i <= n; i++) { const a = a0 + (a1 - a0) * i / n; P.push(new THREE.Vector2(cx + r * Math.cos(a), cy + r * Math.sin(a))); } };
+  arc(R_IN + fr, -h + fr, fr, Math.PI, 1.5 * Math.PI, 8);                 // bas intérieur
+  arc(R_OUT - dome - fr, -h + fr, fr, 1.5 * Math.PI, 2 * Math.PI, 8);     // bas extérieur
+  for (let i = 1; i < 40; i++) { const y = -h + fr + (2 * h - 2 * fr) * i / 40; P.push(new THREE.Vector2(R_OUT - dome + dome * (1 - Math.pow(y / h, 2)), y)); }
+  arc(R_OUT - dome - fr, h - fr, fr, 0, 0.5 * Math.PI, 8);                // haut extérieur
+  arc(R_IN + fr, h - fr, fr, 0.5 * Math.PI, Math.PI, 8);                  // haut intérieur
+  P.push(P[0].clone());
+  const bandGeo = new THREE.LatheGeometry(P, 360); bandGeo.rotateX(Math.PI / 2);
+  const gold = new THREE.MeshPhysicalMaterial({ color: new THREE.Color('#F0C674'), metalness: 1, roughness: 0.17, clearcoat: 0.5, clearcoatRoughness: 0.06, envMapIntensity: 1.35, side: THREE.DoubleSide });
+  const ring = new THREE.Group(); scene.add(ring);
+  ring.add(new THREE.Mesh(bandGeo, gold));
+
+  // diamant taille brillant (table, couronne, pavillon) + griffes
+  const g = 185, crownH = 0.33 * g, pavH = 0.86 * g, table = 0.56 * g, v = [];
+  const at = (r, a, y) => new THREE.Vector3(r * Math.cos(a), y, r * Math.sin(a));
+  const tri = (a, b, c) => v.push(a, b, c);
+  const T8 = [...Array(8)].map((_, i) => at(table, i * Math.PI / 4, crownH));
+  const G16 = [...Array(16)].map((_, i) => at(g, i * Math.PI / 8 - Math.PI / 16, 0));
+  const M8 = [...Array(8)].map((_, i) => at(g * 0.82, i * Math.PI / 4 + Math.PI / 8, crownH * 0.45));
+  const top = new THREE.Vector3(0, crownH, 0), culet = new THREE.Vector3(0, -pavH, 0);
+  for (let i = 0; i < 8; i++) {
+    const n = (i + 1) % 8;
+    tri(top, T8[n], T8[i]);                                   // table
+    tri(T8[i], T8[n], M8[i]);                                 // étoiles
+    tri(T8[i], M8[i], G16[2 * i + 1]); tri(T8[i], G16[2 * i + 1], G16[2 * i]); tri(T8[i], G16[2 * i], M8[(i + 7) % 8]);
+    tri(T8[n], G16[(2 * i + 2) % 16], M8[i]); tri(M8[i], G16[(2 * i + 2) % 16], G16[2 * i + 1]);
+  }
+  for (let j = 0; j < 16; j++) tri(G16[j], G16[(j + 1) % 16], culet);  // pavillon
+  for (let j = 0; j < 16; j++) { const a = G16[j], b = G16[(j + 1) % 16]; tri(a, at(g, (j + .5) * Math.PI / 8 - Math.PI / 16, -6), b); }
+  const gemGeo = new THREE.BufferGeometry().setFromPoints(v); gemGeo.computeVertexNormals();
+  // chaque facette agit comme un petit miroir : contraste clair / sombre et reflets irisés, comme une vraie pierre
+  const ice = new THREE.MeshPhysicalMaterial({ color: 0xf4f6fa, metalness: 1, roughness: 0.0, envMapIntensity: 2.3,
+    iridescence: 0.85, iridescenceIOR: 2.0, iridescenceThicknessRange: [250, 900], flatShading: true, side: THREE.DoubleSide });
+  const gem = new THREE.Group(); gem.position.set(0, R_OUT + pavH + 26, 0); ring.add(gem);
+  gem.add(new THREE.Mesh(gemGeo, ice));
+  // six griffes qui montent le long du pavillon et se referment sur le bord de la pierre
+  const prongGeo = new THREE.CylinderGeometry(10, 13, pavH + 34, 14), tipGeo = new THREE.SphereGeometry(15, 20, 14);
+  for (let i = 0; i < 6; i++) { const a = Math.PI / 6 + i * Math.PI / 3, rx = Math.cos(a), rz = Math.sin(a);
+    const m = new THREE.Mesh(prongGeo, gold); m.position.set(0.78 * g * rx, -pavH / 2 + 2, 0.78 * g * rz);
+    m.rotation.set(0.12 * rz, 0, -0.12 * rx); gem.add(m);
+    const tip = new THREE.Mesh(tipGeo, gold); tip.scale.set(1, 0.7, 1); tip.position.set(0.95 * g * rx, 14, 0.95 * g * rz); gem.add(tip); }
+  const baseGeo = new THREE.CylinderGeometry(0.55 * g, 0.42 * g, 40, 48);
+  const base = new THREE.Mesh(baseGeo, gold); base.position.set(0, -pavH - 8, 0); gem.add(base);
+
+  // éclats de lumière (étoiles à quatre branches)
+  const cv = document.createElement('canvas'); cv.width = cv.height = 128; const c = cv.getContext('2d');
+  const grd = c.createRadialGradient(64, 64, 0, 64, 64, 64); grd.addColorStop(0, 'rgba(255,255,255,1)'); grd.addColorStop(.12, 'rgba(255,250,235,.8)'); grd.addColorStop(.4, 'rgba(255,240,210,.12)'); grd.addColorStop(1, 'rgba(255,240,210,0)');
+  c.fillStyle = grd; c.fillRect(0, 0, 128, 128);
+  c.fillStyle = 'rgba(255,255,255,.95)';
+  for (const [w, l] of [[3, 62], [1.6, 40]]) { c.save(); c.translate(64, 64); if (l < 50) c.rotate(Math.PI / 4);
+    for (let k = 0; k < 4; k++) { c.rotate(Math.PI / 2); c.beginPath(); c.moveTo(-w, 0); c.lineTo(0, -l); c.lineTo(w, 0); c.closePath(); c.fill(); } c.restore(); }
+  const starTex = new THREE.CanvasTexture(cv); starTex.colorSpace = THREE.SRGBColorSpace;
+  const mkStar = () => new THREE.Sprite(new THREE.SpriteMaterial({ map: starTex, transparent: true, depthTest: false, blending: THREE.AdditiveBlending, opacity: 0 }));
+  const stars = [[60, 30, 80], [-70, 20, 40], [20, -40, 110], [-20, 45, -60], [95, -10, -40]].map((p, i) => { const s = mkStar(); s.position.set(...p); s.userData.ph = i * 0.37; gem.add(s); return s; });
+  const bandStar = mkStar(); ring.add(bandStar);
+  const flash = mkStar(); flash.position.set(0, R_OUT + pavH + 40, 0); ring.add(flash);
+
+  G = { THREE, renderer, scene, camera, ring, gem, stars, bandStar, flash, key };
+  alignCamera();
+}
+function alignCamera() {
+  const { renderer, camera } = G;
+  renderer.setSize(innerWidth, innerHeight, false);
+  const r = svgEl.getBoundingClientRect(), unit = r.width / 11226.9, k = S0 * unit;
+  const cx = r.left + CX * unit, cy = r.top + (BOX_CY + 34) * unit;      // centre de la bague à l'écran
+  camera.left = -cx / k; camera.right = (innerWidth - cx) / k; camera.top = cy / k; camera.bottom = -(innerHeight - cy) / k;
+  camera.updateProjectionMatrix();
+}
+function render3D(t) {
+  const fadeIn = outCubic(seg(t, 0, 700)), handoff = soft(seg(t, 2800, 3300));
+  const vis = fadeIn * (1 - handoff);
+  canvas.style.opacity = vis.toFixed(3);
+  if (!G || vis <= 0) return;
+  const { ring, gem, stars, bandStar, flash, key, renderer, scene, camera } = G;
+  const a = settle(seg(t, 0, 2700));
+  ring.rotation.set(lerp(1.0, 0, a), lerp(THETA - 2.5, THETA, a), lerp(-0.22, 0, a), 'YXZ');
+  ring.scale.setScalar(lerp(0.84, 1, a));
+  const ph = lerp(-1.3, 1.5, soft(seg(t, 0, 2900)));
+  key.position.set(Math.cos(ph) * 2200, 1600, Math.sin(ph) * 1400 + 1800);
+  const d = inOut(seg(t, 2400, 2850));
+  gem.scale.setScalar(1 - 0.9 * d);
+  const on = seg(t, 500, 900) * (1 - d);
+  stars.forEach(s => { const w = Math.max(0, Math.sin(2 * Math.PI * (t / 900 + s.userData.ph))); const k = Math.pow(w, 8) * on;
+    s.material.opacity = k; s.scale.setScalar(60 + 260 * k); });
+  const bs = bump(seg(t, 900, 2000)); bandStar.material.opacity = bs * 0.9; bandStar.scale.setScalar(80 + 320 * bs);
+  bandStar.position.set(lerp(-R_OUT * 0.95, R_OUT * 0.35, seg(t, 900, 2000)), R_OUT * 0.55, BAND / 2);
+  const fl = bump(seg(t, 2500, 3150)); flash.material.opacity = fl; flash.scale.setScalar(120 + 700 * fl); flash.material.rotation = t / 600;
+  renderer.render(scene, camera);
+}
+
+/* ---------------- le logo plat ---------------- */
+function render(t) {
+  render3D(t);
+  const h = soft(seg(t, 2800, 3300));
+  const p = inOut(seg(t, T_SPLIT, T_SPLIT + 1500));
+  const S = lerp(S0 * 1568, 11226.9, p) / (1568 + 2 * OFF * p);
+  const lift = (BOX_CY - CY) * (S0 > 1 ? (S - 1) / (S0 - 1) : 0);
+  world.setAttribute('transform', `translate(${CX} ${CY + lift}) scale(${S.toFixed(5)}) translate(${-CX} ${-CY})`);
+  const tC = OFF * (1 - p), tD = -OFF * (1 - p), hinge = 7 * bump(p);
+  halfC.setAttribute('opacity', (G ? h : seg(t, 0, 700)).toFixed(3)); halfD.setAttribute('opacity', (G ? h : seg(t, 0, 700)).toFixed(3));
+  halfC.setAttribute('transform', `translate(${tC.toFixed(2)} 0) rotate(${(-hinge).toFixed(3)} 784 ${CY})`);
+  halfD.setAttribute('transform', `translate(${tD.toFixed(2)} 0) rotate(${hinge.toFixed(3)} 10442.9 ${CY})`);
+  const left = C_INNER + tC, right = D_INNER + tD;
+  rect.setAttribute('x', Math.min(left, CX).toFixed(1)); rect.setAttribute('width', Math.max(0, right - left).toFixed(1));
+  const pr = outCubic(seg(t, T_SPLIT + 1350, T_SPLIT + 2250));
+  paris.setAttribute('opacity', pr.toFixed(3)); paris.setAttribute('transform', `translate(3700.3 ${(2524 + 160 * (1 - pr)).toFixed(1)})`);
+  const tg = outCubic(seg(t, T_SPLIT + 2050, T_SPLIT + 2900));
+  tag.style.opacity = tg.toFixed(3); tag.style.transform = `translateY(${(8 * (1 - tg)).toFixed(2)}px)`;
+  scrub.value = Math.round(t); clock.value = (t / 1000).toFixed(2).replace('.', ',') + ' s';
+}
+
+/* ---------------- lecture ---------------- */
+let speed = 1, t0 = 0, from = 0, raf = 0, playing = false;
+function frame(now) { const t = from + (now - t0) * speed; if (t >= DUR) { render(DUR); playing = false; return; } render(t); raf = requestAnimationFrame(frame); }
+function play(start = 0) { cancelAnimationFrame(raf); measure(); from = start; t0 = performance.now(); playing = true; raf = requestAnimationFrame(frame); }
+function pause() { cancelAnimationFrame(raf); playing = false; }
+$('replay').addEventListener('click', () => play(0));
+$('slow').addEventListener('click', e => { const on = e.currentTarget.getAttribute('aria-pressed') !== 'true'; e.currentTarget.setAttribute('aria-pressed', on); speed = on ? 0.3 : 1; if (playing) play(+scrub.value); });
+$('look').addEventListener('click', e => { const on = e.currentTarget.getAttribute('aria-pressed') !== 'true'; e.currentTarget.setAttribute('aria-pressed', on);
+  e.currentTarget.textContent = on ? 'Fond encre' : 'Fond crème'; document.documentElement.dataset.look = on ? 'creme' : ''; if (!playing) render(+scrub.value); });
+scrub.addEventListener('input', () => { pause(); measure(); render(+scrub.value); });
+addEventListener('resize', () => { measure(); if (!playing) render(+scrub.value); });
+
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+measure(); render(0);
+try { await Promise.race([setup3D(), new Promise((_, no) => setTimeout(() => no(new Error('délai')), 6000))]); }
+catch (e) { G = null; console.warn('3D indisponible, version plate', e); }
+measure();
+if (reduce) render(DUR); else setTimeout(() => play(0), 200);
+window.__cp = { render, get ready() { return !!G; } };
+</script>
